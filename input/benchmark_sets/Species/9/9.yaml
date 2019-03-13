@@ -1,0 +1,64 @@
+name: ammonia
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.01781624, -0.00104252773, 6.76072654e-06, -1.67171768e-09, -1.77088015e-12,
+        -17851869.9, 0.26424254]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [662.56, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.47882034, 0.00540575447, -1.40150566e-06, 6.47845747e-11, 1.76054862e-14,
+        -17851603.5, 7.52638834]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [662.56, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '4
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N      0.0017862814   -0.0000463618    0.2767530515
+
+  H     -0.5144990571   -0.7885949066   -0.0888343182
+
+  H     -0.4264200658    0.8394669529   -0.0891891449
+
+  H      0.9391328413   -0.0508256844   -0.0987295884
+
+'
+expt_sources:
+- &id001 {hf298: '-11', source: Colin, u_hf: '0.1', units: kcal/mol}
+ff_xyz: '4
+
+
+  N   0.0020253426  -0.0000459625   0.2955883841
+
+  H  -0.5137876305  -0.7872132724  -0.0951360742
+
+  H  -0.4258623480   0.8380077918  -0.0954858159
+
+  H   0.9376246358  -0.0507485569  -0.1049664940
+
+'
+inchi: null
+index: 9
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: N
+yaml_file: ./Known_Species/9/9.yaml

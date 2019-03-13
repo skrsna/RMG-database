@@ -1,0 +1,68 @@
+name: N,N-dioxidonitrous amide
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.88593503, 0.00944459402, 6.66225006e-05, -2.5060344e-07, 2.57331236e-10,
+        -105786507.0, 9.26892923]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [352.07, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.69050905, 0.0138360386, -9.74185535e-06, 3.16793253e-09, -3.87557223e-13,
+        -105786648.0, 5.03613191]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [352.07, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      1.6946348938    0.3294695995   -0.2173198571
+
+  N      1.0650108551   -0.5440972873    0.1298845254
+
+  N     -0.6105492399   -0.0273853238    0.0463157721
+
+  O     -0.7442053527    1.0860457997   -0.3498974335
+
+  O     -1.4048911564   -0.8440327882    0.3910169932
+
+'
+expt_sources:
+- &id001 {hf298: '19.8', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '5
+
+
+  O   1.7262706388   0.3334057731  -0.2236413201
+
+  N   0.8930179438  -0.5106183611   0.1315319687
+
+  N  -0.5184250290  -0.0473516952   0.0480626611
+
+  O  -0.7360262569   1.1015640213  -0.3547718532
+
+  O  -1.3648372967  -0.8769997382   0.3988185435
+
+'
+inchi: null
+index: 20
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: O=N[N+](=O)[O-]
+yaml_file: ./Known_Species/20/20.yaml

@@ -1,0 +1,68 @@
+name: trioxidane
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.96232242, 0.00217212184, 4.11108742e-05, -7.97486093e-08, 4.60682317e-11,
+        -71584355.4, 6.0189825]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [585.07, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.75767251, 0.0125165578, -8.34381222e-06, 2.73511134e-09, -3.43013905e-13,
+        -71584484.6, 5.5881915]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [585.07, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O     -0.8040382553   -0.7221397111   -0.3341138558
+
+  O      0.4620532058   -0.1766402751   -0.5770775346
+
+  O      0.7206414392    0.7532982300    0.4367455489
+
+  H     -1.3947643754   -0.0452771913   -0.6905826940
+
+  H      1.0161079855    0.1907589475    1.1650285354
+
+'
+expt_sources:
+- &id001 {hf298: '-21.58', source: Colin, u_hf: '0.17', units: kcal/mol}
+ff_xyz: '5
+
+
+  O  -0.8607174236  -0.7520162370  -0.3039115940
+
+  O   0.4343513287  -0.1655658954  -0.5430362746
+
+  O   0.7173785811   0.8066541931   0.4831173943
+
+  H  -1.3633846485  -0.0540202542  -0.7588327827
+
+  H   1.0723721622   0.1649481936   1.1226632570
+
+'
+inchi: null
+index: 136
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: OOO
+yaml_file: ./Known_Species/136/136.yaml

@@ -1,0 +1,64 @@
+name: hydrazoic acid
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.04258604, -0.00432706269, 5.19522002e-05, -1.01109222e-07, 6.58735619e-11,
+        -52033490.8, 5.38814915]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [469.15, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.03971662, 0.00890639352, -5.33160966e-06, 1.56854195e-09, -1.79422164e-13,
+        -52033448.2, 8.91816488]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [469.15, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '4
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N     -0.7432975649    0.3440408425   -0.4759732038
+
+  N      0.4463415273    0.1245225273   -0.2481871394
+
+  N      1.5438806014    0.0669050795   -0.0424122390
+
+  H     -1.2469245639   -0.5354684494   -0.5422560234
+
+'
+expt_sources:
+- &id001 {hf298: '69.7', source: Colin, u_hf: '0.11', units: kcal/mol}
+ff_xyz: '4
+
+
+  N  -0.7629811092   0.3488052485  -0.4797975457
+
+  N   0.4443118639   0.1888368737  -0.2505182154
+
+  N   1.5498070104   0.0217229104  -0.0399308344
+
+  H  -1.2311377652  -0.5593650327  -0.5385820101
+
+'
+inchi: null
+index: 134
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: N=[N+]=[N-]
+yaml_file: ./Known_Species/134/134.yaml

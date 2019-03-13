@@ -1,0 +1,72 @@
+name: vinoxy radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.07076566, -0.00646688205, 8.05011063e-05, -1.3733059e-07, 7.75527729e-11,
+        -48360279.8, 7.28468706]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [537.04, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.74103146, 0.018616404, -1.11515504e-05, 3.24899752e-09, -3.66864906e-13,
+        -48360141.0, 16.038]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [537.04, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.6968832012    0.0716025828   -0.1817355745
+
+  C      0.6676263309   -0.0563681394    0.1912505874
+
+  O      1.4662418166   -0.7431075356   -0.4349693353
+
+  H     -1.3767693173    0.6859581524    0.3931359852
+
+  H     -1.0553223624   -0.4555491551   -1.0558671564
+
+  H      0.9951067335    0.4974640948    1.0881854935
+
+'
+expt_sources:
+- &id001 {hf298: '15.58', source: ATcT_1.122d, u_hf: '0.77', units: kJ/mol}
+ff_xyz: '6
+
+
+  C  -0.6682276367   0.0712518533  -0.1710535398
+
+  C   0.6249672259  -0.0746747643   0.1488754906
+
+  O   1.5343335223  -0.7403658992  -0.4042465240
+
+  H  -1.3241450431   0.6929045932   0.4234361270
+
+  H  -1.0748386861  -0.4373857273  -1.0379175095
+
+  H   0.9079106178   0.4882699442   1.0409059556
+
+'
+inchi: null
+index: 209
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: C=C[O]
+yaml_file: ./Known_Species/209/209.yaml

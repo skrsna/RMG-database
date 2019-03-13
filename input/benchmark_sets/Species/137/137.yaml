@@ -1,0 +1,72 @@
+name: peroxyformic acid
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.9720422, 0.00164700918, 5.27925777e-05, -9.58036878e-08, 5.4260582e-11,
+        -83645740.9, 7.95709651]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [544.28, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.28296507, 0.0197845038, -1.29685277e-05, 4.06685278e-09, -4.87321775e-13,
+        -83645641.8, 14.2995704]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [544.28, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O     -0.4010367854    1.1257909948   -0.1332920478
+
+  C     -0.7180150794    0.0118934579   -0.4385777720
+
+  O      0.1173334602   -0.8882372809   -0.9530222340
+
+  O      1.4178357181   -0.3603006846   -1.0913748173
+
+  H     -1.7123710706   -0.4377269282   -0.3497218186
+
+  H      1.2962537570    0.5485804410   -0.7482335958
+
+'
+expt_sources:
+- &id001 {hf298: '-69.1', source: Colin, u_hf: '0.26', units: kcal/mol}
+ff_xyz: '6
+
+
+  O  -0.4513276726   1.1789723284  -0.2280237544
+
+  C  -0.7387671719   0.0135264711  -0.4557155745
+
+  O   0.1388580846  -0.9331549714  -0.8958771600
+
+  O   1.3898974578  -0.2488068117  -1.2662874051
+
+  H  -1.7278879639  -0.4440194971  -0.3047284501
+
+  H   1.3892272660   0.4334824807  -0.5635899414
+
+'
+inchi: null
+index: 137
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: O=COO
+yaml_file: ./Known_Species/137/137.yaml

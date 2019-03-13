@@ -1,0 +1,72 @@
+name: ethanedial
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.89965328, 0.00959589028, 7.50630738e-06, -1.33348594e-08, 4.91473514e-12,
+        -71937940.9, 7.34890862]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [994.56, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.74468971, 0.0151108342, -8.18907457e-06, 2.13136673e-09, -2.16090121e-13,
+        -71938152.0, 6.87940378]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [994.56, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      1.4816793710   -0.7993705711    0.3525350800
+
+  C      0.7540176894    0.0960125162    0.0360192179
+
+  C     -0.7538689553   -0.0962622669   -0.0360828032
+
+  O     -1.4810499457    0.7994723714   -0.3527724459
+
+  H      1.1053258406    1.1116203477   -0.2242620734
+
+  H     -1.1061040000   -1.1114723972    0.2245630246
+
+'
+expt_sources:
+- &id001 {hf298: '-50.7', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '6
+
+
+  O   1.4710566016  -0.8199130543   0.3576915523
+
+  C   0.7417653746   0.1029603171   0.0329475494
+
+  C  -0.7417653608  -0.1029603295  -0.0329475931
+
+  O  -1.4710566233   0.8199130676  -0.3576914650
+
+  H   1.0818329335   1.1167292310  -0.2278729455
+
+  H  -1.0818329256  -1.1167292319   0.2278729018
+
+'
+inchi: null
+index: 25
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: O=CC=O
+yaml_file: ./Known_Species/25/25.yaml

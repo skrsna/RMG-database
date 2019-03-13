@@ -1,0 +1,76 @@
+name: hydroperoxymethane
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.89511911, 0.00905323693, 1.29530972e-05, -1.9292481e-08, 7.21577346e-12,
+        -60258981.2, 5.93004069]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [884.37, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.49391888, 0.0189781602, -9.96529121e-06, 2.57082965e-09, -2.61299474e-13,
+        -60258873.7, 11.7247165]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [884.37, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '7
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.7358819578    0.0992230793    0.0066022609
+
+  O      0.3637821699   -0.4681985221   -0.6629812156
+
+  O      1.5237008090    0.1901161856   -0.1729411576
+
+  H     -0.7871576178    1.1758123917   -0.1695130859
+
+  H     -0.6914548384   -0.0972923950    1.0818133238
+
+  H     -1.6117652049   -0.3873689526   -0.4226376885
+
+  H      1.9387766399   -0.5122917868    0.3396575629
+
+'
+expt_sources:
+- &id001 {hf298: '-30.53', source: Colin, u_hf: '0.18', units: kcal/mol}
+ff_xyz: '7
+
+
+  C  -0.7470609276   0.0955022646  -0.0051093121
+
+  O   0.3868538573  -0.4587203531  -0.6608635443
+
+  O   1.5388067805   0.2297033716  -0.0966812721
+
+  H  -0.8069955815   1.1694567066  -0.2037207444
+
+  H  -0.6831293219  -0.0861209175   1.0716317786
+
+  H  -1.6456414712  -0.3891917672  -0.3949681944
+
+  H   1.9571666643  -0.5606293050   0.2897112888
+
+'
+inchi: null
+index: 130
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: COO
+yaml_file: ./Known_Species/130/130.yaml

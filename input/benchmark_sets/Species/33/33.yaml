@@ -1,0 +1,76 @@
+name: acrylonitrile
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.98148854, 0.00124079743, 6.82928714e-05, -1.36078513e-07, 8.92531234e-11,
+        -53932735.8, 7.69616264]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [390.95, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.88919258, 0.0226587949, -1.3924913e-05, 4.19318359e-09, -4.90890344e-13,
+        -53932572.2, 15.8242023]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [390.95, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '7
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -1.0131814197   -0.2561933140   -0.0630981121
+
+  C      0.0863583865    0.4279383857    0.2182790392
+
+  C      1.3907290171   -0.0505846161   -0.1257535172
+
+  N      2.4427823060   -0.4236429160   -0.3953273192
+
+  H     -0.9706546980   -1.2115757026   -0.5689218892
+
+  H     -1.9856589027    0.1296169455    0.2108014478
+
+  H      0.0496253108    1.3844412175    0.7240203507
+
+'
+expt_sources:
+- &id001 {hf298: '43.2', source: Colin, u_hf: '0.4', units: kcal/mol}
+ff_xyz: '7
+
+
+  C  -1.0148660568  -0.2573297495  -0.0632016690
+
+  C   0.0993086413   0.4294284687   0.2187508494
+
+  C   1.3951937475  -0.0446023367  -0.1225877071
+
+  N   2.4543502312  -0.4273446351  -0.3991032872
+
+  H  -0.9834864937  -1.2180356792  -0.5706010340
+
+  H  -1.9905533524   0.1318563356   0.2107714240
+
+  H   0.0400532830   1.3860275962   0.7259714239
+
+'
+inchi: null
+index: 33
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: C=CC#N
+yaml_file: ./Known_Species/33/33.yaml

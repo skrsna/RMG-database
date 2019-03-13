@@ -1,0 +1,92 @@
+name: phenyl radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.2096454, -0.0175093334, 0.000196423556, -3.13506558e-07, 1.61750646e-10,
+        -73100773.0, 9.53945702]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [614.38, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -0.953120056, 0.0454449617, -2.89156093e-05, 8.74432643e-09, -1.00922261e-12,
+        -73100692.4, 27.4251319]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [614.38, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '11
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      1.0293380781    0.7842004147   -0.0022765944
+
+  C      1.4274368807   -0.5510342492   -0.0275520278
+
+  C      0.4287952928   -1.4863973246   -0.0279284380
+
+  C     -0.9143385079   -1.2273527618   -0.0059293460
+
+  C     -1.2867085754    0.1148619909    0.0191025893
+
+  C     -0.3194072233    1.1090354542    0.0208458054
+
+  H      1.7774321729    1.5669299853   -0.0006722932
+
+  H      2.4752124480   -0.8224170640   -0.0460495474
+
+  H     -1.6587744506   -2.0136084766   -0.0076609682
+
+  H     -2.3375625106    0.3777929933    0.0375045633
+
+  H     -0.6214236044    2.1479890379    0.0406162569
+
+'
+expt_sources:
+- &id001 {hf298: '336.83', source: ATcT_1.122d, u_hf: '0.56', units: kJ/mol}
+ff_xyz: '11
+
+
+  C   1.0298435048   0.7895858543  -0.0021802755
+
+  C   1.4148505037  -0.5508570501  -0.0274676843
+
+  C   0.4482306914  -1.5539250254  -0.0293406694
+
+  C  -0.9040056728  -1.2201385179  -0.0059716231
+
+  C  -1.2920491350   0.1194279836   0.0193439238
+
+  C  -0.3243492423   1.1244531356   0.0212314602
+
+  H   1.7840543745   1.5720553258  -0.0007215070
+
+  H   2.4665436251  -0.8203615311  -0.0457909250
+
+  H  -1.6505134155  -2.0086499535  -0.0076253198
+
+  H  -2.3470435975   0.3797143194   0.0375742116
+
+  H  -0.6255616362   2.1686954594   0.0409484084
+
+'
+inchi: null
+index: 187
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: c1c[c]ccc1
+yaml_file: ./Known_Species/187/187.yaml

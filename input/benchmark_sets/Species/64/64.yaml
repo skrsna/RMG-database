@@ -1,0 +1,88 @@
+name: pyrazine
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.17112063, -0.01332301, 0.000150835035, -2.23972394e-07, 1.06981102e-10,
+        -83448930.3, 8.14102552]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [660.03, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -1.05821121, 0.0414618145, -2.61531118e-05, 7.80630322e-09, -8.88984083e-13,
+        -83448743.0, 27.3863361]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [660.03, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '10
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N      0.0634524879    1.3946210536    0.0053067974
+
+  C      1.1562217113    0.6424492137   -0.0125040725
+
+  C      1.0930162175   -0.7427574184   -0.0178077920
+
+  N     -0.0628431127   -1.3936085919   -0.0052410642
+
+  C     -1.1546698440   -0.6416087439    0.0126107795
+
+  C     -1.0919873749    0.7435463708    0.0178619909
+
+  H      2.1108556156    1.1549109104   -0.0230485149
+
+  H      1.9968346237   -1.3408050125   -0.0324523225
+
+  H     -2.1110439512   -1.1535827733    0.0230014380
+
+  H     -1.9998363732    1.3368349914    0.0322727605
+
+'
+expt_sources:
+- &id001 {hf298: '46.9', source: Colin, u_hf: '0.3', units: kcal/mol}
+ff_xyz: '10
+
+
+  N   0.0638494519   1.4163766585   0.0053399035
+
+  C   1.1718384298   0.6405319428  -0.0127774790
+
+  C   1.1094580820  -0.7432554764  -0.0179945551
+
+  N  -0.0638494511  -1.4163766568  -0.0053398818
+
+  C  -1.1718384269  -0.6405319409   0.0127775427
+
+  C  -1.1094580830   0.7432554797   0.0179944923
+
+  H   2.1201712044   1.1651784139  -0.0230904772
+
+  H   2.0067429738  -1.3510074891  -0.0325769048
+
+  H  -2.1201711973  -1.1651784174   0.0230906933
+
+  H  -2.0067429836   1.3510074856   0.0325766661
+
+'
+inchi: null
+index: 64
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 4.0
+smiles: n1ccncc1
+yaml_file: ./Known_Species/64/64.yaml

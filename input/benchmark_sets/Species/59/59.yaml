@@ -1,0 +1,88 @@
+name: pyrrole
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.13900243, -0.0129234626, 9.68995728e-05, 1.01862312e-07, -3.99803098e-10,
+        -66349786.8, 8.20301657]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [295.83, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -2.63800789, 0.045481365, -3.07563221e-05, 9.85851452e-09, -1.19535723e-12,
+        -66349240.5, 35.1015298]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [295.83, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '10
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      0.2059006251    0.6165074519    0.9743153797
+
+  C      1.1747848187    0.0380779326    0.1981892362
+
+  C      0.5184064084   -0.6121780375   -0.8782740571
+
+  C     -0.8240406640   -0.4063546099   -0.7224478188
+
+  N     -1.0039878224    0.3400930633    0.4038078497
+
+  H      0.2728094810    1.1999714630    1.8757654735
+
+  H      2.2357483330    0.0747268232    0.3759689766
+
+  H      0.9739751116   -1.1665268001   -1.6822648885
+
+  H     -1.6614760293   -0.7268262515   -1.3201840304
+
+  H     -1.8921202621    0.6425089650    0.7540267960
+
+'
+expt_sources:
+- &id001 {hf298: '25.9', source: Colin, u_hf: '0.1', units: kcal/mol}
+ff_xyz: '10
+
+
+  C   0.2051519777   0.6178195209   0.9725682072
+
+  C   1.1786085757   0.0347798745   0.1923140537
+
+  C   0.5251578861  -0.6135793666  -0.8829376920
+
+  C  -0.8272075003  -0.4064960959  -0.7261772829
+
+  N  -1.0122500735   0.3438793322   0.4057000801
+
+  H   0.2740467307   1.2025054176   1.8799965997
+
+  H   2.2443297793   0.0722006035   0.3773004552
+
+  H   0.9910481964  -1.1713158780  -1.6849714666
+
+  H  -1.6714125098  -0.7277955142  -1.3212528641
+
+  H  -1.9074730624   0.6480021060   0.7663628266
+
+'
+inchi: null
+index: 59
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: c1ccc[nH]1
+yaml_file: ./Known_Species/59/59.yaml

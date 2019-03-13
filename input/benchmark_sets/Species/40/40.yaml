@@ -1,0 +1,80 @@
+name: acetic acid
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.97627592, 0.00158963228, 8.15862221e-05, -1.63976206e-07, 1.08616823e-10,
+        -72333134.3, 7.81940678]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [386.74, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.53745668, 0.0268232102, -1.6319769e-05, 4.8567116e-09, -5.61443736e-13,
+        -72332945.7, 17.2675259]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [386.74, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '8
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      0.5288132214    1.5651110146   -0.7885212263
+
+  C      0.3866058357    0.4066512770   -0.5116734489
+
+  O      1.4152773556   -0.4617586777   -0.5022342882
+
+  C     -0.9023182942   -0.2580275141   -0.1431440808
+
+  H      2.2016267661    0.0407667376   -0.7491804690
+
+  H     -1.7048428288    0.4721828105   -0.1609633472
+
+  H     -0.8151817532   -0.7006629123    0.8486994583
+
+  H     -1.1099803025   -1.0642627356   -0.8460500406
+
+'
+expt_sources:
+- &id001 {hf298: '-103.4', source: Colin, u_hf: '0.4', units: kcal/mol}
+ff_xyz: '8
+
+
+  O   0.5499897636   1.5604988563  -0.7895848522
+
+  C   0.3900003397   0.3855872439  -0.5078817937
+
+  O   1.4257753719  -0.4735944903  -0.5027128497
+
+  C  -0.8983142059  -0.2733942089  -0.1410664200
+
+  H   2.1946770258   0.0790314732  -0.7560592453
+
+  H  -1.7021804376   0.4679065678  -0.1611714894
+
+  H  -0.8291473150  -0.6859814890   0.8684409195
+
+  H  -1.1308005424  -1.0600539530  -0.8630317118
+
+'
+inchi: null
+index: 40
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: O=C(O)C
+yaml_file: ./Known_Species/40/40.yaml

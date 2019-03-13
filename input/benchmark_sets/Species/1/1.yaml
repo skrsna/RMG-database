@@ -1,0 +1,56 @@
+name: NH
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.49655217, 0.000228301004, -1.36682196e-06, 2.38076171e-09, -1.03891492e-12,
+        -17436024.1, 1.81515549]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [891.88, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.33724603, 1.84143651e-06, 5.96536115e-07, -2.69697357e-10, 3.559354e-14,
+        -17435958.3, 2.77528761]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [891.88, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '2
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N      0.5191568527    0.0000000000    0.0000000000
+
+  H     -0.5191568527    0.0000000000    0.0000000000
+
+'
+expt_sources:
+- &id001 {hf298: '85.2', source: Colin, u_hf: '0.4', units: kcal/mol}
+ff_xyz: '2
+
+
+  N   0.5095000003   0.0000000000   0.0000000000
+
+  H  -0.5095000003   0.0000000000   0.0000000000
+
+'
+inchi: null
+index: 1
+multiplicity: '3'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: '[NH]'
+yaml_file: ./Known_Species/1/1.yaml

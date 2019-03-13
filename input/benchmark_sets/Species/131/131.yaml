@@ -1,0 +1,64 @@
+name: isocyanic acid
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.98696797, 0.00073602963, 2.33494832e-05, -4.00888298e-08, 2.13616904e-11,
+        -53265767.8, 4.988471]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [583.54, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.1424881, 0.00937107275, -6.16381974e-06, 1.98790421e-09, -2.46105667e-13,
+        -53265717.7, 8.19248543]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [583.54, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '4
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N     -0.6842421116    0.3336446740    0.0216539753
+
+  C      0.4521104949    0.0326675602    0.2978681626
+
+  O      1.5504969245   -0.1396393119    0.6273581059
+
+  H     -1.3183653079   -0.2266729224   -0.5167474809
+
+'
+expt_sources:
+- &id001 {hf298: '-28.4', source: Colin, u_hf: '0.074', units: kcal/mol}
+ff_xyz: '4
+
+
+  N  -0.7142055580   0.4238145372   0.0577866082
+
+  C   0.3845598305   0.1134199257   0.3145943588
+
+  O   1.4821387651  -0.2237903926   0.5567970988
+
+  H  -1.1524930376  -0.3134440704  -0.4990453029
+
+'
+inchi: null
+index: 131
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: N=C=O
+yaml_file: ./Known_Species/131/131.yaml

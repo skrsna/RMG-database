@@ -1,0 +1,72 @@
+name: methylamidogen
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.01451438, -0.00104514294, 3.26705983e-05, -4.03426246e-08, 1.62097057e-11,
+        -30047968.0, 4.53628926]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [646.87, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.13926272, 0.016734745, -8.5594122e-06, 2.15017557e-09, -2.13144309e-13,
+        -30047596.1, 17.1551609]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [646.87, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.3695594715   -0.0141569610   -0.0241569371
+
+  N      0.9327244287   -0.6048411459   -0.0796671763
+
+  H     -0.5624940794    0.4276533015    0.9633139782
+
+  H     -1.1391262465   -0.7563252152   -0.2331291646
+
+  H     -0.4656060628    0.8078132202   -0.7469830493
+
+  H      1.6040614314    0.1398568005    0.1206223490
+
+'
+expt_sources:
+- &id001 {hf298: '176.56', source: ATcT_1.122d, u_hf: '0.49', units: kJ/mol}
+ff_xyz: '6
+
+
+  C  -0.3716177382  -0.0056975663  -0.0223287152
+
+  N   0.9497582475  -0.5994815280  -0.0792259340
+
+  H  -0.5830256040   0.4189518027   0.9647347847
+
+  H  -1.1526745835  -0.7442888142  -0.2305365727
+
+  H  -0.4855696780   0.8005767372  -0.7546206287
+
+  H   1.6431293561   0.1299393687   0.1219770658
+
+'
+inchi: null
+index: 203
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: C[NH]
+yaml_file: ./Known_Species/203/203.yaml

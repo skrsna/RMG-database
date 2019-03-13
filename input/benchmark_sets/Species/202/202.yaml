@@ -1,0 +1,68 @@
+name: hydrazino radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.0518335, -0.00444215426, 4.77027343e-05, -7.73904223e-08, 4.27362434e-11,
+        -35116569.0, 5.2495484]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [519.49, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.35909838, 0.0113473343, -5.84556769e-06, 1.54010998e-09, -1.62650042e-13,
+        -35116430.3, 11.9495496]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [519.49, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N     -0.4297019420   -0.0156094621   -0.1533077559
+
+  N      0.7768650693   -0.5495809380    0.0770424389
+
+  H     -0.5937999295    0.9684763874    0.0008135795
+
+  H     -1.1975050924   -0.6194431680    0.0865854838
+
+  H      1.4441418945    0.2161571807   -0.0111337464
+
+'
+expt_sources:
+- &id001 {hf298: '224.28', source: ATcT_1.122d, u_hf: '0.78', units: kJ/mol}
+ff_xyz: '5
+
+
+  N  -0.4782155685   0.0168222266  -0.2970851389
+
+  N   0.7954673024  -0.4493334211   0.2543435661
+
+  H  -0.6783518865   0.9264840018   0.1193699694
+
+  H  -1.2023889855  -0.6123246051   0.0510634479
+
+  H   1.5634891380   0.1183517979  -0.1276918446
+
+'
+inchi: null
+index: 202
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: N[NH]
+yaml_file: ./Known_Species/202/202.yaml

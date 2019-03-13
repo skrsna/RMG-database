@@ -1,0 +1,60 @@
+name: oxadiazirene
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.98853096, 0.000664368848, 1.55092248e-05, -2.92049686e-08, 1.6620675e-11,
+        -58281396.1, 5.26863585]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [572.43, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.68404244, 0.00540538381, -3.76217986e-06, 1.21441832e-09, -1.47683216e-13,
+        -58281404.1, 6.19376822]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [572.43, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '3
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N     -0.5380514840   -0.5133186108   -0.0190838756
+
+  N     -0.3709358025    0.6446707481   -0.0134298731
+
+  O      0.9089872865   -0.1313521373    0.0325137486
+
+'
+expt_sources:
+- &id001 {hf298: '83.72', source: Colin, u_hf: '0.33', units: kcal/mol}
+ff_xyz: '3
+
+
+  N  -0.4998591640  -0.5556192329  -0.0177076984
+
+  N  -0.3223370781   0.6744237237  -0.0117016023
+
+  O   0.8221962421  -0.1188044908   0.0294093007
+
+'
+inchi: null
+index: 144
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: N1=NO1
+yaml_file: ./Known_Species/144/144.yaml

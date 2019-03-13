@@ -1,0 +1,68 @@
+name: formic acid
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.07340535, -0.0055106469, 5.07919278e-05, -7.12710714e-08, 3.27108269e-11,
+        -59921020.5, 6.56236813]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [671.68, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.88579358, 0.0142526948, -8.38595401e-06, 2.39529289e-09, -2.64969689e-13,
+        -59920878.6, 15.114678]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [671.68, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O     -0.7477841993    1.0581130727   -0.3132005407
+
+  C     -0.4152411987   -0.0484168939   -0.0122870815
+
+  O      0.8484227663   -0.4445663720    0.1622264045
+
+  H     -1.1000332943   -0.8875674266    0.1623653197
+
+  H      1.4146359261    0.3224376198    0.0008958981
+
+'
+expt_sources:
+- &id001 {hf298: '-90.5', source: Colin, u_hf: '0.1', units: kcal/mol}
+ff_xyz: '5
+
+
+  O  -0.7046890023   1.0719083551  -0.3142530343
+
+  C  -0.4165051679  -0.0692727675  -0.0066579165
+
+  O   0.8566205430  -0.4559188532   0.1661649692
+
+  H  -1.1166178374  -0.9000118695   0.1641548760
+
+  H   1.3811914647   0.3532951351  -0.0094088943
+
+'
+inchi: null
+index: 17
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: O=CO
+yaml_file: ./Known_Species/17/17.yaml

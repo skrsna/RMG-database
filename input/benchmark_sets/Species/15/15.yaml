@@ -1,0 +1,69 @@
+name: methane
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.04052244, -0.0024092889, 1.07508134e-05, 4.00846823e-09, -9.18389536e-12,
+        -12782359.6, -0.425957579]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [622.24, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 0.724437063, 0.0113726685, -4.30830152e-06, 6.81815156e-10, -2.85139755e-14,
+        -12781801.1, 15.1711602]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [622.24, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      0.0000329266    0.0001669350    0.0001073366
+
+  H      0.7719521122   -0.1035121618   -0.7602222962
+
+  H     -0.4589563096    0.9839486370   -0.0788394072
+
+  H      0.4452608155   -0.1140872182    0.9867542403
+
+  H     -0.7582895444   -0.7665161968   -0.1477998736
+
+'
+expt_sources:
+- {hf298: '-17.9', source: Colin, u_hf: '0.1', units: kcal/mol}
+- &id001 {hf298: -74.9, source: Saeys_Reyneiers_Marin, u_hf: 0.4, units: kJ/mol}
+ff_xyz: '5
+
+
+  C  -0.0000000003   0.0000000048   0.0000000003
+
+  H   0.7747262771  -0.1031322631  -0.7629301529
+
+  H  -0.4601543137   0.9873349284  -0.0795440677
+
+  H   0.4464987873  -0.1148713152   0.9901226810
+
+  H  -0.7610707504  -0.7693313549  -0.1476484606
+
+'
+inchi: null
+index: 15
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 12.0
+smiles: C
+yaml_file: ./Known_Species/15/15.yaml

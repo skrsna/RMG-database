@@ -1,0 +1,76 @@
+name: methyl nitrite
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.97395464, 0.00150848545, 4.84516394e-05, -8.12541513e-08, 4.42345852e-11,
+        -77363137.4, 7.06213179]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [473.16, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.7416484, 0.0203818643, -1.13863242e-05, 3.06406846e-09, -3.2050377e-13,
+        -77362926.2, 16.1610101]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [473.16, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '7
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.8231119809    0.0161368071    0.1809724506
+
+  O      0.5175525749   -0.4397260274    0.3437561375
+
+  N      1.3432402854    0.2147943412   -0.5491470953
+
+  O      2.4487205550   -0.1400984496   -0.4399123377
+
+  H     -1.4126781067   -0.5432976383    0.9017317676
+
+  H     -0.8951979399    1.0830655325    0.3907273896
+
+  H     -1.1785253876   -0.1908745656   -0.8281283125
+
+'
+expt_sources:
+- &id001 {hf298: '-15.9', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '7
+
+
+  C  -0.8263374437   0.0071123682   0.1894604000
+
+  O   0.5051181936  -0.4558491214   0.3568954472
+
+  N   1.3493288831   0.2353293435  -0.5679125779
+
+  O   2.5210893207  -0.1372985302  -0.4569994919
+
+  H  -1.4657647433  -0.5254437775   0.8993972068
+
+  H  -0.8957431215   1.0794403329   0.4021736401
+
+  H  -1.1876910887  -0.2032906156  -0.8230146244
+
+'
+inchi: null
+index: 35
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: CON=O
+yaml_file: ./Known_Species/35/35.yaml

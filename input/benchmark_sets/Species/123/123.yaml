@@ -1,0 +1,92 @@
+name: methyl ethanoate
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.86475022, 0.0137652305, 3.24930005e-05, -4.56518104e-08, 1.71409176e-11,
+        -84736740.9, 7.1721129]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [891.26, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.50902626, 0.034180972, -1.84332082e-05, 4.83298826e-09, -4.96090454e-13,
+        -84736711.9, 16.0727285]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [891.26, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '11
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      1.8246259571   -0.1008736782    0.2586271662
+
+  O      0.4572526965   -0.4853637110    0.3655113618
+
+  C     -0.4098774900    0.3264833315   -0.2551487422
+
+  C     -1.8189289211   -0.1573956816   -0.0897586562
+
+  O     -0.0743954069    1.3082317562   -0.8593599463
+
+  H      2.1338956217   -0.0850353656   -0.7857043557
+
+  H      1.9737847520    0.8909334616    0.6833676883
+
+  H      2.3882734763   -0.8447616225    0.8141168489
+
+  H     -2.4949738094    0.5179131140   -0.6046500404
+
+  H     -2.0686920548   -0.2061915101    0.9697009850
+
+  H     -1.9109648215   -1.1639400941   -0.4967023094
+
+'
+expt_sources:
+- &id001 {hf298: '-98.8', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '11
+
+
+  C   1.8242096511  -0.1055547744   0.2631330756
+
+  O   0.4567434434  -0.5010851791   0.3774263584
+
+  C  -0.4128802183   0.3296280292  -0.2602284594
+
+  C  -1.8160032863  -0.1649337087  -0.0847243512
+
+  O  -0.1069491245   1.3340233995  -0.8869588921
+
+  H   2.1369301484  -0.1051616737  -0.7857721212
+
+  H   1.9774855191   0.8796520642   0.7146531024
+
+  H   2.4338830817  -0.8333957489   0.8056439600
+
+  H  -2.5051863174   0.5096903740  -0.6007559418
+
+  H  -2.0736503062  -0.1801888295   0.9772294196
+
+  H  -1.9145825911  -1.1626739525  -0.5196461504
+
+'
+inchi: null
+index: 123
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 9.0
+smiles: COC(C)=O
+yaml_file: ./Known_Species/123/123.yaml

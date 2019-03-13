@@ -1,0 +1,101 @@
+name: (3Z)-penta-1,3-diene
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.82560335, 0.017977481, 4.41249974e-05, -6.569684e-08, 2.62818832e-11,
+        -61646625.9, 8.41695002]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [831.93, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.06573057, 0.0434437054, -2.37820667e-05, 6.34241423e-09, -6.61813377e-13,
+        -61646588.7, 18.6872386]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [831.93, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '13
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -1.7314109688   -0.5873225096   -0.8351513216
+
+  C     -1.2695216355    0.2998168527    0.2725510077
+
+  C     -0.0121429414    0.5311755431    0.6450898663
+
+  C      1.1838451763   -0.0440189087    0.0455990633
+
+  C      2.4140875467    0.2404156015    0.4578999388
+
+  H     -2.4014557073   -1.3603004739   -0.4522377832
+
+  H     -0.9092283045   -1.0773721868   -1.3520417968
+
+  H     -2.3001391174   -0.0124709049   -1.5696266462
+
+  H     -2.0569119599    0.8072703041    0.8212597650
+
+  H      0.1626235568    1.2122710960    1.4724713829
+
+  H      1.0510754870   -0.7384324533   -0.7764249957
+
+  H      2.5836036407    0.9311593938    1.2763311462
+
+  H      3.2855752272   -0.2021913539   -0.0057196265
+
+'
+expt_sources:
+- {hf298: '19.5', source: Colin, u_hf: '0.3', units: kcal/mol}
+- &id001 {hf298: 76.2, source: Saeys_Reyneiers_Marin, u_hf: 0.8, units: kJ/mol}
+ff_xyz: '13
+
+
+  C  -1.7583885109  -0.5945199800  -0.8417405143
+
+  C  -1.2610455137   0.2912420869   0.2551671838
+
+  C   0.0054418852   0.5273217813   0.6314988621
+
+  C   1.1961551880  -0.0377088358   0.0434542905
+
+  C   2.4274136257   0.2519613428   0.4813149493
+
+  H  -2.4193914485  -1.3605608072  -0.4241943668
+
+  H  -0.9627340740  -1.1023695029  -1.3906091190
+
+  H  -2.3353464484  -0.0023561453  -1.5590618533
+
+  H  -2.0466662603   0.8033816862   0.8099122006
+
+  H   0.1611350497   1.2134316818   1.4641620335
+
+  H   1.0925044165  -0.7270526772  -0.7892255356
+
+  H   2.6032673113   0.9321985739   1.3084432174
+
+  H   3.2976547794  -0.1949692044   0.0108786520
+
+'
+inchi: null
+index: 82
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: C/C=C\C=C
+yaml_file: ./Known_Species/82/82.yaml

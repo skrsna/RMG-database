@@ -1,0 +1,88 @@
+name: oxetane
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.07909072, -0.00527930251, 8.63955816e-05, -1.07993362e-07, 4.30848057e-11,
+        -60961280.9, 8.37632698]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [752.8, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -2.59303977, 0.0399913423, -2.33725857e-05, 6.54071433e-09, -7.04853687e-13,
+        -60960554.6, 36.8231088]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [752.8, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '10
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      0.0019662100    0.7788204302    0.1643482277
+
+  C     -1.0223104582   -0.3536402775    0.0468324840
+
+  O      0.0031192806   -1.3171643519   -0.2277706351
+
+  C      1.0218863384   -0.3091785629   -0.1833869426
+
+  H     -0.0993519692    1.5784069343   -0.5647341028
+
+  H      0.1043417370    1.2019023159    1.1603446429
+
+  H     -1.5726218364   -0.5966312061    0.9584541002
+
+  H     -1.7251317066   -0.2636142653   -0.7851222987
+
+  H      1.7709706152   -0.5237481513    0.5818612345
+
+  H      1.5171317895   -0.1951528654   -1.1508267099
+
+'
+expt_sources:
+- &id001 {hf298: '-19.3', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '10
+
+
+  C   0.0021122345   0.7694472792   0.1671168972
+
+  C  -1.0252120530  -0.3502383893   0.0454785296
+
+  O   0.0039283410  -1.3297217503  -0.2215735051
+
+  C   1.0236881765  -0.3056992594  -0.1854871448
+
+  H  -0.0982280727   1.5711148182  -0.5684107832
+
+  H   0.1061426980   1.1889792990   1.1708749366
+
+  H  -1.5747702510  -0.5829277683   0.9617267013
+
+  H  -1.7191236761  -0.2604809869  -0.7951171897
+
+  H   1.7728174975  -0.5101577121   0.5843643407
+
+  H   1.5086451054  -0.1903155301  -1.1589727825
+
+'
+inchi: null
+index: 58
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: C1COC1
+yaml_file: ./Known_Species/58/58.yaml

@@ -1,0 +1,68 @@
+name: dioxirane
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.10175634, -0.00670795831, 4.78413547e-05, -5.76122726e-08, 2.24875784e-11,
+        -59875054.1, 5.80135647]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [799.37, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.22200486, 0.015732538, -9.33664571e-06, 2.64098404e-09, -2.86817879e-13,
+        -59874850.2, 17.4448158]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [799.37, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      0.9387035509    0.0206391772    0.7178767396
+
+  C     -0.2376747311    0.0041782575    0.0036107088
+
+  O      0.9150775329   -0.0531760424   -0.7462167826
+
+  H     -0.7925205494    0.9403289231   -0.0343596503
+
+  H     -0.8235858032   -0.9119703152    0.0590889844
+
+'
+expt_sources:
+- &id001 {hf298: '0.42', source: Colin, u_hf: '0.13', units: kcal/mol}
+ff_xyz: '5
+
+
+  O   0.9854002746   0.0191739496   0.7064376013
+
+  C  -0.2596683710   0.0045563746   0.0039682941
+
+  O   0.9620813110  -0.0533461453  -0.7361991149
+
+  H  -0.8286473008   0.9244805734  -0.0330784707
+
+  H  -0.8591659138  -0.8948647522   0.0588716902
+
+'
+inchi: null
+index: 142
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: O1CO1
+yaml_file: ./Known_Species/142/142.yaml

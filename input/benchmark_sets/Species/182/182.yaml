@@ -1,0 +1,68 @@
+name: methoxy radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.06924675, -0.00462033323, 3.64546769e-05, -4.28445018e-08, 1.65480073e-11,
+        -36323871.5, 4.30078568]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [769.92, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.2845484, 0.0138733096, -7.41965283e-06, 1.93793167e-09, -1.98695387e-13,
+        -36323562.0, 16.232276]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [769.92, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.0388170762   -0.0363741062    0.0136399445
+
+  O      1.3102693269    0.0880371535    0.1141556227
+
+  H     -0.5438868328   -0.0642360455    0.9877486589
+
+  H     -0.3793794421    0.8862893657   -0.4905185145
+
+  H     -0.3481859759   -0.8737163674   -0.6250257115
+
+'
+expt_sources:
+- &id001 {hf298: '21.62', source: ATcT_1.122d, u_hf: '0.29', units: kJ/mol}
+ff_xyz: '5
+
+
+  C   0.0381549822   0.0015348902   0.0038633674
+
+  O   1.3549200017   0.0545055483   0.1371915889
+
+  H  -0.5605728209  -0.0787018030   0.9270534577
+
+  H  -0.4552187671   0.8583261200  -0.4857119693
+
+  H  -0.3772833959  -0.8356647555  -0.5823964447
+
+'
+inchi: null
+index: 182
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: C[O]
+yaml_file: ./Known_Species/182/182.yaml

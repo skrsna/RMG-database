@@ -1,0 +1,100 @@
+name: C5H8(2-methyl-1,3-butadiene)
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.95221764, 0.00323115041, 0.000149038536, -3.06557136e-07, 2.08823431e-10,
+        -61647455.3, 8.42508718]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [375.13, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -0.197327724, 0.0474878587, -2.79678557e-05, 8.08454065e-09, -9.1344439e-13,
+        -61647144.1, 24.3747283]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [375.13, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '13
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      0.6654816258    1.1224087265   -0.5711507989
+
+  C      0.1222143187    0.2094287650    0.4834749679
+
+  C      0.2654233002    0.4635404600    1.7816955098
+
+  C     -0.5864947488   -0.9988629458    0.0519790438
+
+  C     -0.7951947214   -1.3503777316   -1.2109768582
+
+  H      1.3867057934    0.5957319487   -1.1995199804
+
+  H     -0.1343434653    1.4744852213   -1.2256711272
+
+  H      1.1558007348    1.9853297136   -0.1248075688
+
+  H      0.7815120848    1.3484035153    2.1322012532
+
+  H     -0.1323354415   -0.2120414199    2.5294182914
+
+  H     -0.9572864004   -1.6350937036    0.8498724705
+
+  H     -0.4425738527   -0.7448852390   -2.0368749527
+
+  H     -1.3289092278   -2.2580673104   -1.4596402502
+
+'
+expt_sources:
+- &id001 {hf298: 75.7, source: Saeys_Reyneiers_Marin, u_hf: 1.0, units: kJ/mol}
+ff_xyz: '13
+
+
+  C   0.6746561651   1.1423863290  -0.5644100104
+
+  C   0.1166966922   0.2015801031   0.4695871288
+
+  C   0.2630937379   0.4595252457   1.7798850742
+
+  C  -0.5872167977  -0.9974750757   0.0426297929
+
+  C  -0.8059363135  -1.3779889016  -1.2225445780
+
+  H   1.4115339623   0.6333257891  -1.1950011233
+
+  H  -0.1242420428   1.5371716168  -1.2013423698
+
+  H   1.1782468050   2.0012771027  -0.1067167790
+
+  H   0.7839050084   1.3468992649   2.1267180587
+
+  H  -0.1290628499  -0.2014291738   2.5468157379
+
+  H  -0.9702975423  -1.6428454357   0.8329721452
+
+  H  -0.4655510255  -0.8056217512  -2.0780379412
+
+  H  -1.3458257993  -2.2968051133  -1.4305551358
+
+'
+inchi: null
+index: 161
+multiplicity: 1
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: CC(=C)C=C
+yaml_file: ./Known_Species/161/161.yaml

@@ -1,0 +1,64 @@
+name: hydrogen peroxide
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.99328319, 0.000395465789, 1.8149343e-05, -3.0345361e-08, 1.66363366e-11,
+        -47853821.3, 4.50220844]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [468.49, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.17458461, 0.0073631524, -4.08784838e-06, 1.19627357e-09, -1.40696215e-13,
+        -47853744.3, 7.83381111]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [468.49, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '4
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      0.5900012242   -0.3671783322    0.3000746928
+
+  O     -0.5882649573    0.4258658890    0.2137576902
+
+  H      1.1860800764    0.1200743142   -0.2780665558
+
+  H     -1.1878163434   -0.1787618710   -0.2357658272
+
+'
+expt_sources:
+- &id001 {hf298: '-32.5', source: Colin, u_hf: '0.04', units: kcal/mol}
+ff_xyz: '4
+
+
+  O   0.5763687817  -0.4179203228   0.2542717389
+
+  O  -0.5749438920   0.4649057452   0.1575265719
+
+  H   1.2012345024   0.1542792999  -0.2303414338
+
+  H  -1.2026593922  -0.2012647223  -0.1814568770
+
+'
+inchi: null
+index: 12
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: OO
+yaml_file: ./Known_Species/12/12.yaml

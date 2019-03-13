@@ -1,0 +1,60 @@
+name: C2H(ethynylradical)
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.48855306, 0.000592189853, 5.35781276e-06, -5.95588828e-09, 2.15699127e-12,
+        -24182416.6, 4.64429437]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [695.15, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.98999744, 0.0034609482, -8.32400025e-07, -1.93308721e-11, 2.20052602e-14,
+        -24182347.3, 6.86824976]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [695.15, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '3
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.0686813882    0.0000000000    0.0000000000
+
+  C      1.2087997511    0.0000000000    0.0000000000
+
+  H     -1.1401183629    0.0000000000    0.0000000000
+
+'
+expt_sources:
+- &id001 {hf298: 556.0, source: Saeys_Reyneiers_Marin, u_hf: 8.0, units: kJ/mol}
+ff_xyz: '3
+
+
+  C  -0.1583333334   0.0000000000   0.0000000000
+
+  C   1.3816666668   0.0000000000   0.0000000000
+
+  H  -1.2233333334   0.0000000000   0.0000000000
+
+'
+inchi: null
+index: 150
+multiplicity: 2
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: C#[C]
+yaml_file: ./Known_Species/150/150.yaml

@@ -1,0 +1,72 @@
+name: dinitrogen tetraoxide
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.84568357, 0.0122567302, 4.87346354e-05, -1.4099885e-07, 1.07978864e-10,
+        -129533160.0, 9.71506934]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [461.17, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.29056192, 0.0200087107, -1.42442071e-05, 4.63588847e-09, -5.64225531e-13,
+        -129533325.0, 6.57449455]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [461.17, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      1.4078719946   -0.9496258825    0.1067032106
+
+  N      0.8484014928    0.0855478295    0.0534701436
+
+  O      1.1919166785    1.2122895153    0.0570904498
+
+  N     -0.8479359951   -0.0856749207   -0.0534900878
+
+  O     -1.1927997430   -1.2121294317   -0.0567650578
+
+  O     -1.4074544278    0.9495928900   -0.1070086584
+
+'
+expt_sources:
+- &id001 {hf298: '2.2', source: Colin, u_hf: '0.4', units: kcal/mol}
+ff_xyz: '6
+
+
+  O   1.4640875120  -0.9608230508   0.1098446471
+
+  N   0.7865744870   0.0794400506   0.0490621013
+
+  O   1.2455308519   1.2344831561   0.0591671051
+
+  N  -0.7865745179  -0.0794407718  -0.0490607345
+
+  O  -1.2455322587  -1.2344832137  -0.0591608555
+
+  O  -1.4640860743   0.9608238296  -0.1098522635
+
+'
+inchi: null
+index: 27
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: '[O-][N+](=O)[N+](=O)[O-]'
+yaml_file: ./Known_Species/27/27.yaml

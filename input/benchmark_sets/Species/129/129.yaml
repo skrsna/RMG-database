@@ -1,0 +1,68 @@
+name: hydroxylamine
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.0322342, -0.00246710246, 3.31463348e-05, -4.67394849e-08, 2.20972015e-11,
+        -41587140.4, 4.78226625]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [589.81, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.21728743, 0.0113295431, -5.72538634e-06, 1.474875e-09, -1.52238747e-13,
+        -41586952.2, 12.3607234]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [589.81, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N     -0.3639925307    0.2501129354    0.2552962841
+
+  O      0.7118519659   -0.3827605013   -0.4245718343
+
+  H     -1.0478645578    0.4416763444   -0.4687420695
+
+  H     -0.7624314519   -0.4781038677    0.8379397646
+
+  H      1.4624365745    0.1690750892   -0.1999221448
+
+'
+expt_sources:
+- &id001 {hf298: '-10.4', source: Colin, u_hf: '0.12', units: kcal/mol}
+ff_xyz: '5
+
+
+  N  -0.3751314542   0.2751206723   0.2754642373
+
+  O   0.7082610578  -0.3904330602  -0.4292929596
+
+  H  -1.0492000453   0.4350431236  -0.4777898295
+
+  H  -0.7627886822  -0.4889770052   0.8351174033
+
+  H   1.4788591239   0.1692462695  -0.2034988514
+
+'
+inchi: null
+index: 129
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: 'NO'
+yaml_file: ./Known_Species/129/129.yaml

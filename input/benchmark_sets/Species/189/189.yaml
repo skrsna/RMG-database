@@ -1,0 +1,80 @@
+name: allyl radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.11949348, -0.0108663808, 0.000127166711, -2.19621079e-07, 1.2546529e-10,
+        -37011148.3, 6.72887307]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [538.37, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 0.877275185, 0.0268604666, -1.59447204e-05, 4.64713476e-09, -5.26545138e-13,
+        -37010996.8, 18.5275617]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [538.37, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '8
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.7078993972    0.7296071665   -0.6884483003
+
+  C      0.3352429564    0.3249543167    0.1138394711
+
+  C      0.4798663750   -0.9508612597    0.6109468002
+
+  H     -1.4871267132    0.0327168189   -0.9715779581
+
+  H     -0.7787904673    1.7432756586   -1.0566192740
+
+  H      1.0925517793    1.0594169940    0.3708167504
+
+  H      1.3163107729   -1.2217636784    1.2394287851
+
+  H     -0.2501553057   -1.7173460165    0.3816137256
+
+'
+expt_sources:
+- &id001 {hf298: '167.82', source: ATcT_1.122d, u_hf: '0.55', units: kJ/mol}
+ff_xyz: '8
+
+
+  C  -0.6975515910   0.7251400201  -0.6809204897
+
+  C   0.3239622285   0.3546660939   0.0971650196
+
+  C   0.4691404501  -0.9750591912   0.6123694792
+
+  H  -1.4834013016   0.0346802308  -0.9704385005
+
+  H  -0.7684488027   1.7437044659  -1.0494939079
+
+  H   1.0919171519   1.0768290247   0.3650644822
+
+  H   1.3210497302  -1.2125191098   1.2386133767
+
+  H  -0.2566678653  -1.7474415342   0.3876405403
+
+'
+inchi: null
+index: 189
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: C=C[CH2]
+yaml_file: ./Known_Species/189/189.yaml

@@ -1,0 +1,84 @@
+name: 2-oxetanone
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.0626081, -0.00515666741, 0.000105161389, -1.60307514e-07, 7.80096406e-11,
+        -84352850.9, 9.12324196]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [638.41, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -0.065239255, 0.0347251179, -2.14816238e-05, 6.33556859e-09, -7.16183708e-13,
+        -84352609.6, 24.9478484]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [638.41, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '9
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      2.1984024681   -0.6922508327   -0.4485581760
+
+  C      1.0627824402   -0.4612013144   -0.2163700034
+
+  C      0.1659572387    0.7535997199   -0.0278342985
+
+  C     -0.9211131523   -0.2946818855    0.1844833518
+
+  O      0.0495202609   -1.3570283609   -0.0237751245
+
+  H      0.4236520551    1.3650243473    0.8326150705
+
+  H      0.0704104164    1.3718661264   -0.9165294798
+
+  H     -1.3447546594   -0.3506658929    1.1850647426
+
+  H     -1.7048570676   -0.3346619072   -0.5690960828
+
+'
+expt_sources:
+- &id001 {hf298: '-67.6', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '9
+
+
+  O   2.2270781630  -0.6971568161  -0.4562618727
+
+  C   1.0631788758  -0.4740625045  -0.2187667592
+
+  C   0.1623407581   0.7560925137  -0.0278138844
+
+  C  -0.9170612579  -0.2986169703   0.1839263590
+
+  O   0.0528855365  -1.3597702414  -0.0198984710
+
+  H   0.4134969374   1.3606590622   0.8450674978
+
+  H   0.0552767097   1.3725806980  -0.9216716220
+
+  H  -1.3502282084  -0.3357990628   1.1874269131
+
+  H  -1.7069675142  -0.3239266789  -0.5720081608
+
+'
+inchi: null
+index: 47
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: O=C1CCO1
+yaml_file: ./Known_Species/47/47.yaml

@@ -1,0 +1,88 @@
+name: pyrimidine
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.1609164, -0.0125574614, 0.000147726735, -2.19727961e-07, 1.05041431e-10,
+        -83451309.6, 8.82956448]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [658.88, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -1.02098352, 0.0413343808, -2.6034384e-05, 7.76239767e-09, -8.83314987e-13,
+        -83451113.7, 27.9721365]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [658.88, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '10
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.5380100975   -1.1185436220    0.0335895808
+
+  C     -1.1204549400    0.1331815202    0.0977033175
+
+  C     -0.2630892732    1.2160530695    0.0363408154
+
+  N      1.0521177918    1.0713043908   -0.0771275371
+
+  C      1.4990824978   -0.1767475004   -0.1289043862
+
+  N      0.7733718756   -1.2868228528   -0.0803416214
+
+  H     -1.1420295078   -2.0199509991    0.0730967568
+
+  H     -2.1906693379    0.2555121840    0.1899641884
+
+  H     -0.6420714811    2.2317545721    0.0783525126
+
+  H      2.5717524723   -0.3057407625   -0.2226736265
+
+'
+expt_sources:
+- &id001 {hf298: '47', source: Colin, u_hf: '0.2', units: kcal/mol}
+ff_xyz: '10
+
+
+  C  -0.5484886468  -1.1078177348   0.0341898405
+
+  C  -1.1372212803   0.1341014524   0.0982833478
+
+  C  -0.2755173759   1.2049847564   0.0370241478
+
+  N   1.0597607439   1.0796893875  -0.0780136623
+
+  C   1.5219183244  -0.1794650361  -0.1315304465
+
+  N   0.7793020001  -1.2965521824  -0.0809257173
+
+  H  -1.1443590868  -2.0149072058   0.0746736492
+
+  H  -2.2064171872   0.2601813334   0.1906876651
+
+  H  -0.6438477461   2.2257730592   0.0798705373
+
+  H   2.5948702547  -0.3059878300  -0.2242593615
+
+'
+inchi: null
+index: 63
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: c1ccncn1
+yaml_file: ./Known_Species/63/63.yaml

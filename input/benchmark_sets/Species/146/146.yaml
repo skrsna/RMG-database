@@ -1,0 +1,68 @@
+name: cyanamide
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.97532598, 0.00149466233, 3.62087177e-05, -7.07009817e-08, 4.28783225e-11,
+        -46977472.0, 5.60509447]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [532.21, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.39974455, 0.0112377761, -6.51968666e-06, 1.94785109e-09, -2.31852453e-13,
+        -46977487.4, 7.29815338]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [532.21, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  N     -0.5708959814    0.0014223292    0.2117883651
+
+  C      0.7547361585    0.0043154928    0.0228918258
+
+  N      1.8997942269    0.0077244379   -0.0937319753
+
+  H     -1.0375144620   -0.8504643801   -0.0532722746
+
+  H     -1.0461199421    0.8370021202   -0.0876759412
+
+'
+expt_sources:
+- &id001 {hf298: '32.17', source: Colin, u_hf: '0.36', units: kcal/mol}
+ff_xyz: '5
+
+
+  N  -0.5499389018   0.0004268828   0.1579925347
+
+  C   0.7780078510   0.0046650633   0.0349062720
+
+  N   1.9266506611   0.0079574266  -0.0898828582
+
+  H  -1.0730295045  -0.8587167195  -0.0341324155
+
+  H  -1.0816901059   0.8456673468  -0.0688835331
+
+'
+inchi: null
+index: 146
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: NC#N
+yaml_file: ./Known_Species/146/146.yaml

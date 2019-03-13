@@ -1,0 +1,60 @@
+name: nitrous oxide
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.53401734, -0.00368571268, 4.39178564e-05, -8.61499144e-08, 5.55375152e-11,
+        -58315189.7, 5.99843026]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [488.96, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.84506228, 0.00705414011, -4.68612333e-06, 1.4658037e-09, -1.74016104e-13,
+        -58315183.3, 8.20542463]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [488.96, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '3
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      1.1554412029   -0.0069631001    0.0000000000
+
+  N     -0.0204493783    0.0001237298    0.0000000000
+
+  N     -1.1349918246    0.0068393704    0.0000000000
+
+'
+expt_sources:
+- &id001 {hf298: '19.6', source: Colin, u_hf: '0.1', units: kcal/mol}
+ff_xyz: '3
+
+
+  O   1.3115908315  -0.0079038014   0.0000000000
+
+  N  -0.1123052841   0.0006767651   0.0000000000
+
+  N  -1.1992855474   0.0072270363   0.0000000000
+
+'
+inchi: null
+index: 7
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: '[O-][N+]#N'
+yaml_file: ./Known_Species/7/7.yaml

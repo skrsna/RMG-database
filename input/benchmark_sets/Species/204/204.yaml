@@ -1,0 +1,84 @@
+name: (methylamino)methyl
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.9611293, 0.00245376277, 7.52821003e-05, -1.41770395e-07, 8.83871513e-11,
+        -42456704.7, 5.88772687]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [409.54, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.46379029, 0.0268444751, -1.40490102e-05, 3.64100737e-09, -3.74517912e-13,
+        -42456500.2, 15.7066137]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [409.54, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '9
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -1.0396308674    0.3182993560   -0.2297170196
+
+  N      0.3249690951    0.2183785713   -0.6858699348
+
+  C      1.1986478951   -0.5758237536    0.0258196539
+
+  H     -1.6294453929    0.8854183007   -0.9487502858
+
+  H     -1.4652713099   -0.6838068125   -0.1582983090
+
+  H     -1.1238382146    0.7945737524    0.7542822471
+
+  H      0.7147715876    1.0861116528   -1.0127920636
+
+  H      0.7854934424   -1.4804744334    0.4512108296
+
+  H      2.2343037647   -0.5626766338   -0.2817019985
+
+'
+expt_sources:
+- &id001 {hf298: '151.1', source: ATcT_1.122d, u_hf: '0.97', units: kJ/mol}
+ff_xyz: '9
+
+
+  C  -1.0331115048   0.3061259878  -0.2482504737
+
+  N   0.2857068539   0.1996663948  -0.8525804300
+
+  C   1.1818393049  -0.6547738831  -0.0627810806
+
+  H  -1.6760465633   0.9255313078  -0.8816898411
+
+  H  -1.5126980797  -0.6744686916  -0.1565377085
+
+  H  -0.9849652613   0.7737062409   0.7410767747
+
+  H   0.6784214162   1.1249340069  -1.0286577343
+
+  H   0.8061233726  -1.5141920004   0.4862045646
+
+  H   2.2547304616  -0.4865293632  -0.0826009518
+
+'
+inchi: null
+index: 204
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 6.0
+smiles: CN[CH2]
+yaml_file: ./Known_Species/204/204.yaml

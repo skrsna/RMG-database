@@ -1,0 +1,84 @@
+name: dimethyl ether
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.96321937, 0.00185613276, 5.21287526e-05, -7.06787522e-08, 3.08262923e-11,
+        -48936502.6, 4.54094292]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [593.29, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 0.111896747, 0.0278257931, -1.35392633e-05, 3.12169482e-09, -2.76211193e-13,
+        -48936045.7, 21.1101184]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [593.29, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '9
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      1.1562566113   -0.0510592380    0.0550770504
+
+  O      0.0370580708   -0.5990725028   -0.5826446406
+
+  C     -1.1515143426   -0.0194865005   -0.1236211271
+
+  H      1.1162969125   -0.2167907056    1.1397410941
+
+  H      2.0422311668   -0.5380208356   -0.3482880463
+
+  H      1.2274247330    1.0296701471   -0.1252233249
+
+  H     -1.2800223913   -0.1758877335    0.9555770203
+
+  H     -1.9788967094   -0.4901857261   -0.6516866463
+
+  H     -1.1688340512    1.0608330950   -0.3189313794
+
+'
+expt_sources:
+- &id001 {hf298: '-44', source: Colin, u_hf: '0.1', units: kcal/mol}
+ff_xyz: '9
+
+
+  C   1.1733290322  -0.0450698414   0.0609888151
+
+  O   0.0370977740  -0.6022690240  -0.5857046799
+
+  C  -1.1696619505  -0.0144636217  -0.1188849230
+
+  H   1.1262186775  -0.2237692826   1.1395857431
+
+  H   2.0685830559  -0.5319121851  -0.3349816702
+
+  H   1.2408649978   1.0283738067  -0.1407083629
+
+  H  -1.2923717945  -0.1921756283   0.9539081324
+
+  H  -2.0063338954  -0.4786818699  -0.6478171883
+
+  H  -1.1777258970   1.0599676463  -0.3263858662
+
+'
+inchi: null
+index: 44
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 18.0
+smiles: COC
+yaml_file: ./Known_Species/44/44.yaml

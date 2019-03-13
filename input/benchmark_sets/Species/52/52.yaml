@@ -1,0 +1,88 @@
+name: 2-butyne
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.69055181, 0.0310121619, -7.63394177e-05, 1.7546067e-07, -1.37618146e-10,
+        -49233680.8, 6.62006493]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [469.98, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.36246542, 0.0316353424, -1.70775899e-05, 4.51382341e-09, -4.68437487e-13,
+        -49233250.0, 18.3487489]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [469.98, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '10
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      2.0458667133   -0.1407675995    0.1597591145
+
+  C      0.5960808644   -0.0403812055    0.0463813622
+
+  C     -0.5954736391    0.0417768983   -0.0466974888
+
+  C     -2.0453419213    0.1407989927   -0.1595831645
+
+  H      2.4293710129   -0.9410233146   -0.4741340415
+
+  H      2.5238796741    0.7908101144   -0.1451248765
+
+  H      2.3400853726   -0.3529544353    1.1882276950
+
+  H     -2.5202511931    0.0089507534    0.8133371900
+
+  H     -2.4346601309   -0.6233528284   -0.8332621454
+
+  H     -2.3395567528    1.1161426246   -0.5489036450
+
+'
+expt_sources:
+- &id001 {hf298: '34.8', source: Colin, u_hf: '0.3', units: kcal/mol}
+ff_xyz: '10
+
+
+  C   2.0525401522  -0.1413096624   0.1601252950
+
+  C   0.5973144259  -0.0411226614   0.0465985333
+
+  C  -0.5973144501   0.0411224496  -0.0465984528
+
+  C  -2.0525401684   0.1413096494  -0.1601252769
+
+  H   2.4382523751  -0.9424209664  -0.4775380195
+
+  H   2.5317302776   0.7944740495  -0.1429481390
+
+  H   2.3484323766  -0.3558992869   1.1914190829
+
+  H  -2.5287952509   0.0111569003   0.8163014544
+
+  H  -2.4439692242  -0.6267287527  -0.8339710964
+
+  H  -2.3456505138   1.1194182811  -0.5532633811
+
+'
+inchi: null
+index: 52
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 18.0
+smiles: CC#CC
+yaml_file: ./Known_Species/52/52.yaml

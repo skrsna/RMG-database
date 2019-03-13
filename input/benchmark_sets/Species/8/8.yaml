@@ -1,0 +1,60 @@
+name: ozone
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.04180797, -0.00281629319, 2.17662018e-05, -2.79353737e-08, 1.14116602e-11,
+        -71185571.3, 6.28831914]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [787.06, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.08477594, 0.00646932352, -4.35779439e-06, 1.33073968e-09, -1.51742232e-13,
+        -71185557.6, 9.80623443]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [787.06, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '3
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      1.0643270367   -0.1841212469    0.0000000000
+
+  O     -0.0111761144    0.4241344583    0.0000000000
+
+  O     -1.0531509223   -0.2400132114    0.0000000000
+
+'
+expt_sources:
+- &id001 {hf298: '34.1', source: Colin, u_hf: '0.4', units: kcal/mol}
+ff_xyz: '3
+
+
+  O   1.1509029835  -0.1996368692   0.0000000000
+
+  O  -0.0542994412   0.4305116209   0.0000000000
+
+  O  -1.0966035423  -0.2308747518   0.0000000000
+
+'
+inchi: null
+index: 8
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: '[O-][O+]=O'
+yaml_file: ./Known_Species/8/8.yaml

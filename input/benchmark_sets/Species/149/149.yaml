@@ -1,0 +1,64 @@
+name: CH3(methylradical)
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.99045246, 0.000483077003, 9.37980078e-06, -1.1423667e-08, 4.69326809e-12,
+        -12571771.0, 0.208004098]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [609.98, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.34449485, 0.00471869674, -1.03524484e-06, -4.15545684e-11, 2.86528237e-14,
+        -12571692.2, 3.00510727]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [609.98, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '4
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.0000215085   -0.0000409116    0.0001982105
+
+  H      1.0299080271   -0.3193006154    0.0433013161
+
+  H     -0.7904340384   -0.7328604237   -0.0506329183
+
+  H     -0.2394524752    1.0522019508    0.0071333918
+
+'
+expt_sources:
+- &id001 {hf298: 146.6, source: Saeys_Reyneiers_Marin, u_hf: 0.4, units: kJ/mol}
+ff_xyz: '4
+
+
+  C  -0.0000000050   0.0000000099  -0.0000000400
+
+  H   1.0331599508  -0.3203150835   0.0435048038
+
+  H  -0.7929592688  -0.7352252362  -0.0507282105
+
+  H  -0.2402006771   1.0555403098   0.0072234468
+
+'
+inchi: null
+index: 149
+multiplicity: 2
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 6.0
+smiles: '[CH3]'
+yaml_file: ./Known_Species/149/149.yaml

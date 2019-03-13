@@ -1,0 +1,72 @@
+name: C3H3(propargylradical)
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.95108552, 0.00293423417, 5.48092948e-05, -1.11739816e-07, 6.84992751e-11,
+        -36619741.3, 5.46567798]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [549.63, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.75853202, 0.0154188769, -9.51050231e-06, 2.96515205e-09, -3.62693366e-13,
+        -36619887.5, 4.75646942]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [549.63, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      1.4722555955   -0.2818676845   -0.1367541184
+
+  C      0.2786819647   -0.0532142140   -0.0796474567
+
+  C     -1.0628042822    0.2035106616   -0.0153733112
+
+  H      2.5157701581   -0.4816249924   -0.1875471224
+
+  H     -1.5285766789    0.8750704725   -0.7227847188
+
+  H     -1.6753267572   -0.2618742433    0.7439717674
+
+'
+expt_sources:
+- &id001 {hf298: 339.0, source: Saeys_Reyneiers_Marin, u_hf: 4.0, units: kJ/mol}
+ff_xyz: '6
+
+
+  C   1.4821991855  -0.2837119370  -0.1376082638
+
+  C   0.3051432291  -0.0584083233  -0.0810246442
+
+  C  -1.0821231894   0.2071323344  -0.0143358261
+
+  H   2.5272382150  -0.4837456896  -0.1878453466
+
+  H  -1.5422541114   0.8810790506  -0.7262706470
+
+  H  -1.6902033288  -0.2623454351   0.7489497676
+
+'
+inchi: null
+index: 153
+multiplicity: 2
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: C#C[CH2]
+yaml_file: ./Known_Species/153/153.yaml

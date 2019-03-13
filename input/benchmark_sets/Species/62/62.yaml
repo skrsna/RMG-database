@@ -1,0 +1,88 @@
+name: pyridazine
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.16980146, -0.0135478462, 0.000157776266, -2.40512665e-07, 1.17845356e-10,
+        -83439983.0, 8.85172226]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [646.26, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, -0.738492545, 0.0412890715, -2.62697421e-05, 7.90487559e-09, -9.06420569e-13,
+        -83439859.3, 26.4372575]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [646.26, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '10
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.7079278668    0.7816329664   -0.5144034503
+
+  C      0.6606024888    0.8297718532   -0.4266834561
+
+  C      1.3228405280   -0.3839563445   -0.2939213586
+
+  N      0.7050446397   -1.5540764711   -0.2491272563
+
+  N     -0.6102269330   -1.6003485516   -0.3335629254
+
+  C     -1.2961125771   -0.4755157594   -0.4616585844
+
+  H     -1.3138643950    1.6716077245   -0.6183738634
+
+  H      1.2085722248    1.7614323737   -0.4571523250
+
+  H      2.4021853693   -0.4326947823   -0.2183359276
+
+  H     -2.3711134789   -0.5978530091   -0.5248778782
+
+'
+expt_sources:
+- &id001 {hf298: '66.5', source: Colin, u_hf: '0.3', units: kcal/mol}
+ff_xyz: '10
+
+
+  C  -0.7155678024   0.7698076790  -0.5135645059
+
+  C   0.6676640697   0.8181713519  -0.4248596522
+
+  C   1.3513139835  -0.3750034822  -0.2924102798
+
+  N   0.7269017972  -1.5696316473  -0.2470691044
+
+  N  -0.6307692916  -1.6171016001  -0.3341346678
+
+  C  -1.3258651724  -0.4686090625  -0.4640941231
+
+  H  -1.3037842297   1.6739178624  -0.6186061097
+
+  H   1.2001508370   1.7614660892  -0.4580318649
+
+  H   2.4318756613  -0.4120035427  -0.2176709817
+
+  H  -2.4019198527  -0.5810136479  -0.5276557359
+
+'
+inchi: null
+index: 62
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: c1ccnnc1
+yaml_file: ./Known_Species/62/62.yaml

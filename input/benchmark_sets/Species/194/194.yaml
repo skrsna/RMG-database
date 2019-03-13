@@ -1,0 +1,80 @@
+name: ethoxy radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.81732763, 0.0205550179, -6.99018187e-05, 2.05472435e-07, -1.85648582e-10,
+        -48733757.1, 7.16482201]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [426.53, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 1.07708281, 0.02545296, -1.39775811e-05, 3.73019668e-09, -3.88803515e-13,
+        -48733334.1, 20.2679914]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [426.53, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '8
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.7896539456   -0.0208362486    0.0291885005
+
+  C      0.7249964003   -0.0102704940   -0.0205619520
+
+  O      1.2941396525    1.1916458294   -0.3013557752
+
+  H     -1.1597538948   -1.0197664222    0.2653081410
+
+  H     -1.2013152535    0.2851063375   -0.9323635946
+
+  H     -1.1463599557    0.6713978160    0.7915514726
+
+  H      1.1653868245   -0.3640923625    0.9287519664
+
+  H      1.1125601722   -0.7331844558   -0.7605187587
+
+'
+expt_sources:
+- &id001 {hf298: '-11.59', source: ATcT_1.122d, u_hf: '0.52', units: kJ/mol}
+ff_xyz: '8
+
+
+  C  -0.7405812959   0.0051586626   0.0221326956
+
+  C   0.7976819735   0.0067454646  -0.0265607210
+
+  O   1.1733486073   1.2429373920  -0.3118475397
+
+  H  -1.1029790056  -1.0025858094   0.2564627464
+
+  H  -1.1817083563   0.2957391982  -0.9396668606
+
+  H  -1.1271492404   0.6798073512   0.7964084669
+
+  H   1.1168126784  -0.4300356984   0.9326466653
+
+  H   1.0645746391  -0.7977665609  -0.7295754529
+
+'
+inchi: null
+index: 194
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 3.0
+smiles: CC[O]
+yaml_file: ./Known_Species/194/194.yaml

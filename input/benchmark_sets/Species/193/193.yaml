@@ -1,0 +1,72 @@
+name: aminomethyl radical
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.07057455, -0.00707304721, 9.00741058e-05, -1.81879318e-07, 1.24875494e-10,
+        -30051159.2, 4.80514559]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [436.22, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 2.38451308, 0.0149076122, -7.9291481e-06, 2.16094518e-09, -2.35666534e-13,
+        -30051074.2, 10.8296064]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [436.22, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C     -0.6677536579   -0.0072901073   -0.1117789656
+
+  N      0.6866679391    0.0094616628    0.1880414163
+
+  H     -1.2015181988    0.9253532295   -0.0005554572
+
+  H     -1.1932561783   -0.9344496052    0.0654074623
+
+  H      1.1835964645    0.8363338623   -0.0982576674
+
+  H      1.1922636314   -0.8294090419   -0.0428567885
+
+'
+expt_sources:
+- &id001 {hf298: '149.06', source: ATcT_1.122d, u_hf: '0.44', units: kJ/mol}
+ff_xyz: '6
+
+
+  C  -0.6938775289  -0.0024239653   0.0265884503
+
+  N   0.7498901656   0.0124394823   0.2561503192
+
+  H  -1.2506110956   0.9263306987  -0.0624188038
+
+  H  -1.2416233397  -0.9404148595   0.0019241520
+
+  H   1.2141304249   0.8289835877  -0.1396248789
+
+  H   1.2220913737  -0.8249149438  -0.0826192388
+
+'
+inchi: null
+index: 193
+multiplicity: '2'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 2.0
+smiles: '[CH2]N'
+yaml_file: ./Known_Species/193/193.yaml

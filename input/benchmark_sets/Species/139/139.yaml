@@ -1,0 +1,68 @@
+name: ethynol
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.95944279, 0.00237746303, 4.07898336e-05, -8.23589828e-08, 4.92759059e-11,
+        -48164247.3, 5.15602666]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [572.98, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.06297354, 0.0111589506, -7.08041171e-06, 2.28815668e-09, -2.88251182e-13,
+        -48164415.2, 3.35277726]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [572.98, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '5
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  C      1.1033633322   -0.0859104403    0.0229379134
+
+  C     -0.0843605323   -0.1564818562    0.1308100285
+
+  O     -1.3755138012   -0.2993599660    0.2504838536
+
+  H      2.1592681300   -0.0204850442   -0.0737119255
+
+  H     -1.8027571287    0.5622373066    0.2590072859
+
+'
+expt_sources:
+- &id001 {hf298: '22.18', source: Colin, u_hf: '0.31', units: kcal/mol}
+ff_xyz: '5
+
+
+  C   1.1120798008  -0.0867710227   0.0219334569
+
+  C  -0.0779750302  -0.1865857371   0.1312519314
+
+  O  -1.3940340203  -0.2990473466   0.2522165582
+
+  H   2.1694992068  -0.0069985977  -0.0748947996
+
+  H  -1.8095699571   0.5794027041   0.2590200090
+
+'
+inchi: null
+index: 139
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: C#CO
+yaml_file: ./Known_Species/139/139.yaml

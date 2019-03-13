@@ -1,0 +1,72 @@
+name: peroxynitric acid
+categories: []
+charge: 0
+dft_freqs: {}
+dft_thermo:
+  wb97x_d3bj/def2-tzvp: !!python/object/apply:rmgpy.thermo.nasa.NASA
+  - - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 3.91312216, 0.0058733661, 7.58708585e-05, -1.89463651e-07, 1.38350232e-10,
+        -112428775.0, 9.4204547]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [470.43, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+    - !!python/object/apply:rmgpy.thermo.nasa.NASAPolynomial
+      - [0.0, 0.0, 4.14784629, 0.0188340766, -1.31453605e-05, 4.26880555e-09, -5.20732943e-13,
+        -112428962.0, 6.70605407]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [470.43, K, 0.0, +|-]
+      - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+      - null
+      - ''
+      - ''
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [10.0, K, 0.0, +|-]
+  - !!python/object/apply:rmgpy.quantity.ScalarQuantity [3000.0, K, 0.0, +|-]
+  - null
+  - null
+  - null
+  - ''
+  - ''
+dft_xyzs: '6
+
+  wB97x_D3BJ/def2-TZVP geometry
+
+  O      1.2341447483    0.6449440174   -0.4773119447
+
+  O      0.4157885088   -0.4537734761   -0.6372933633
+
+  N     -0.8304041082   -0.2510849191    0.0890995340
+
+  O     -0.8670765901    0.6604811549    0.8421772575
+
+  O     -1.6150653250   -1.0902974300   -0.1925898777
+
+  H      1.6626127662    0.4897306528    0.3759183942
+
+'
+expt_sources:
+- &id001 {hf298: '-12.93', source: Colin, u_hf: '0.31', units: kcal/mol}
+ff_xyz: '6
+
+
+  O   1.4651592964   0.5054778611  -0.5102000976
+
+  O   0.3888704832  -0.4843415174  -0.7264046623
+
+  N  -0.7707448848  -0.2799791058   0.0694748058
+
+  O  -0.6500609205   0.5983468182   0.9271286118
+
+  O  -1.7031301435  -1.0369914000  -0.1891711293
+
+  H   1.2699061692   0.6974873439   0.4291724716
+
+'
+inchi: null
+index: 141
+multiplicity: '1'
+preferred_expt_source: *id001
+qm_files: {}
+rmg_symmetry: 1.0
+smiles: OO[N+](=O)[O-]
+yaml_file: ./Known_Species/141/141.yaml
