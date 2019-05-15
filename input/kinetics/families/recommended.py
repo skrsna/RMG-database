@@ -25,6 +25,8 @@ default = {
     'CO_Disproportionation',
     'Birad_R_Recombination',
     'Cl_Abstraction',
+    'F_Abstraction',
+    'Br_Abstraction',
     'Cyclic_Ether_Formation',
     'Cyclic_Thioether_Formation',
     'Diels_alder_addition',
