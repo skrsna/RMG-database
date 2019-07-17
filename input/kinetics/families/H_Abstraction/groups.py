@@ -7928,3 +7928,17 @@ u"""
 
 """,
 )
+
+forbidden(
+    label = "radical",
+    group =
+"""
+1 *1 R!H u1 px cx {2,S}
+2 *2 H   u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
