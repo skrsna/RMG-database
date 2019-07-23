@@ -7309,10 +7309,39 @@ entry(
 
 entry(
     index = 531,
+    label = "Val7_rad",
+    group =
+"""
+1 *3 Val7 u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 532,
+    label = "F_rad",
+    group =
+"""
+1 *3 F u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 533,
     label = "Cl_rad",
     group =
 """
 1 *3 Cl u1
+""",
+    kinetics = None,
+)
+entry(
+    index = 534,
+    label = "Br_rad",
+    group =
+"""
+1 *3 Br u1
 """,
     kinetics = None,
 )
@@ -7619,8 +7648,11 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH2_triplet
         L3: NH_triplet
     L2: Y_rad
+        L3: Val7_rad
+            L4: F_rad
+            L4: Cl_rad
+            L4: Br_rad
         L3: H_rad
-        L3: Cl_rad
         L3: Y_2centeradjbirad
             L4: O2b
             L4: S2b
