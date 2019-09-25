@@ -47847,6 +47847,31 @@ Thermochemical Kinetics by Sidney Benson (Cp600,Cp800,Cp1000,Cp1500 are estimate
 
 entry(
     index = 2213,
+    label = "Cs-C2FH",
+    group = 
+"""
+1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 p3 c0 {1,S}
+3   H   u0 p0 c0 {1,S}
+4   C   u0 p0 c0 {1,S}
+5   C   u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.78,9.08,10.18,11.03,12.34,13.19,14.53],'cal/(mol*K)'),
+        H298 = (-55.26,'kcal/mol'),
+        S298 = (12.37,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Bozzelli""",
+    longDesc = 
+u"""
+Thermochemical Properties Enthalpy, Entropy, and Heat Capacity of C1−C4 Fluorinated Hydrocarbons: Fluorocarbon Group Additivity
+DOI: 10.1021/acs.jpca.5b03912.
+""",
+)
+
+entry(
+    index = 2214,
     label = "Cs-C3F",
     group = 
 """
@@ -47859,19 +47884,19 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = (9.9,11.8,13.5,14.6,16.6,18.0],'cal/(mol*K)'),
-        H298 = (-48.4,'kcal/mol'),
+        H298 = (-43.9,'kcal/mol'),
         S298 = (14.0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Benson""",
     longDesc = 
 u"""
-Thermochemical Kinetics by Sidney Benson (Cp data taken from "Cs-C2F2"!)
+Thermochemical Kinetics by Sidney Benson (S298 is estimate and Cp data taken from "Cs-C2F2"!)
 """,
 )
 
 
 entry(
-    index = 2214,
+    index = 2215,
     label = "Cs-CF2Cl",
     group = 
 """
@@ -47895,7 +47920,7 @@ Thermochemical Kinetics by Sidney Benson (Cp600,Cp800,Cp1000,Cp1500 are estimate
 )
 
 entry(
-    index = 2215,
+    index = 2216,
     label = "Cd-FH",
     group = 
 """
@@ -47912,7 +47937,7 @@ u"""
 )
 
 entry(
-    index = 2216,
+    index = 2217,
     label = "Cd-F2",
     group = 
 """
@@ -47928,16 +47953,6 @@ u"""
 """,
 )
 
-18.00
-C/CO/F/H2c1
-−51.31
-60.98
-21.63
-24.74
-27.32
-31.01
-33.61
-50.96
 
 tree(
 """
@@ -49889,6 +49904,7 @@ L1: R
             L4: Cs-CsFH2
             L4: Cs-CF2Cl
             L4: Cs-C2F2
+            L4: Cs-C2FH
             L4: Cs-C3F
             L4: CF4
             L4: Cs-CsF3
