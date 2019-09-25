@@ -47821,6 +47821,124 @@ u"""
 """,
 )
 
+entry(
+    index = 2212,
+    label = "Cs-C2F2",
+    group = 
+"""
+1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 p3 c0 {1,S}
+3   F1s u0 p3 c0 {1,S}
+4   C   u0 p0 c0 {1,S}
+5   C   u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.9,11.8,13.5,14.6,16.6,18.0],'cal/(mol*K)'),
+        H298 = (-97.0,'kcal/mol'),
+        S298 = (17.8,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Benson""",
+    longDesc = 
+u"""
+Thermochemical Kinetics by Sidney Benson (Cp600,Cp800,Cp1000,Cp1500 are estimated !)
+""",
+)
+
+entry(
+    index = 2213,
+    label = "Cs-C3F",
+    group = 
+"""
+1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 p3 c0 {1,S}
+3   C   u0 p0 c0 {1,S}
+4   C   u0 p0 c0 {1,S}
+5   C   u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = (9.9,11.8,13.5,14.6,16.6,18.0],'cal/(mol*K)'),
+        H298 = (-48.4,'kcal/mol'),
+        S298 = (14.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Benson""",
+    longDesc = 
+u"""
+Thermochemical Kinetics by Sidney Benson (Cp data taken from "Cs-C2F2"!)
+""",
+)
+
+
+entry(
+    index = 2214,
+    label = "Cs-CF2Cl",
+    group = 
+"""
+1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 p3 c0 {1,S}
+3   F1s u0 p3 c0 {1,S}
+4   Cl1s u0 p3 c0 {1,S}
+5   C   u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = (13.7,16.1,17.5,18.9,19.9,21.0,22.5],'cal/(mol*K)'),
+        H298 = (-106.3,'kcal/mol'),
+        S298 = (40.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Benson""",
+    longDesc = 
+u"""
+Thermochemical Kinetics by Sidney Benson (Cp600,Cp800,Cp1000,Cp1500 are estimated !!)
+""",
+)
+
+entry(
+    index = 2215,
+    label = "Cd-FH",
+    group = 
+"""
+1 * Cd  u0 p0 c0 {2,S} {3,S}
+2   H   u0 p0 c0 {1,S}
+3   F1s u0 p3 c0 {1,S}
+""",
+    thermo = "Cd-CdFH",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 2216,
+    label = "Cd-F2",
+    group = 
+"""
+1 * Cd  u0 p0 c0 {2,S} {3,S}
+2   F1s u0 p3 c0 {1,S}
+3   F1s u0 p3 c0 {1,S}
+""",
+    thermo = "Cd-CdF2",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+18.00
+C/CO/F/H2c1
+−51.31
+60.98
+21.63
+24.74
+27.32
+31.01
+33.61
+50.96
+
 tree(
 """
 L1: R
@@ -48418,8 +48536,10 @@ L1: R
             L4: Cds-CdClCl
             L4: Cd-O2dFH
             L4: Cd-CdCdF
-            L4: Cd-CdFH
-            L4: Cd-CdF2
+            L4: Cd-FH
+                L5: Cd-CdFH
+            L4: Cd-F2
+                L5: Cd-CdF2
             L4: Cd-O2dF2
             L4: Cd-CdO2dF
         L3: Cs
@@ -49767,6 +49887,9 @@ L1: R
                 L5: Cs-CsCsClCl
             L4: Cs-CCCCl
             L4: Cs-CsFH2
+            L4: Cs-CF2Cl
+            L4: Cs-C2F2
+            L4: Cs-C3F
             L4: CF4
             L4: Cs-CsF3
             L4: Cs-CsHF2
