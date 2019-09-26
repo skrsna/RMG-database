@@ -42079,25 +42079,26 @@ u"""
 
 entry(
     index = 1945,
-    label = "Cs-CsF3",
+    label = "Cs-CF3",
     group = 
 """
 1 * Cs  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 p3 c0 {1,S}
 3   F1s u0 p3 c0 {1,S}
 4   F1s u0 p3 c0 {1,S}
-5   Cs  u0 p0 c0 {1,S}
+5   C  u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([53.4468,62.7024,68.8725,73.4073,79.9876,84.0274,87.8961],'J/(mol*K)'),
-        H298 = (-671.608,'kJ/mol'),
-        S298 = (162.724,'J/(mol*K)'),
+        Cpdata = ([12.41,14.59,16.14,17.22,18.58,19.29,20.18],'cal/(mol*K)'),
+        H298 = (-170.50,'kcal/mol'),
+        S298 = (40.99,'cal/(mol*K)'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Bozzelli""",
     longDesc = 
 u"""
-
+Thermochemical Properties Enthalpy, Entropy, and Heat Capacity of C1−C4 Fluorinated Hydrocarbons: Fluorocarbon Group Additivity
+DOI: 10.1021/acs.jpca.5b03912.
 """,
 )
 
@@ -47834,14 +47835,15 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.9,11.8,13.5,14.6,16.6,18.0],'cal/(mol*K)'),
-        H298 = (-97.0,'kcal/mol'),
-        S298 = (17.8,'cal/(mol*K)'),
+        Cpdata = ([10.24,11.92,13.03,13.74,14.65,15.10,15.66],'cal/(mol*K)'),
+        H298 = (-113.25,'kcal/mol'),
+        S298 = (14.5,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Benson""",
+    shortDesc = u"""Bozzelli""",
     longDesc = 
 u"""
-Thermochemical Kinetics by Sidney Benson (Cp600,Cp800,Cp1000,Cp1500 are estimated !)
+Thermochemical Properties Enthalpy, Entropy, and Heat Capacity of C1−C4 Fluorinated Hydrocarbons: Fluorocarbon Group Additivity
+DOI: 10.1021/acs.jpca.5b03912.
 """,
 )
 
@@ -47883,14 +47885,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = (9.9,11.8,13.5,14.6,16.6,18.0],'cal/(mol*K)'),
+        Cpdata = ([7.78,9.08,10.18,11.03,12.34,13.19,14.53],'cal/(mol*K)'),
         H298 = (-43.9,'kcal/mol'),
-        S298 = (14.0,'cal/(mol*K)'),
+        S298 = (12.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""Benson""",
     longDesc = 
 u"""
-Thermochemical Kinetics by Sidney Benson (S298 is estimate and Cp data taken from "Cs-C2F2"!)
+Thermochemical Kinetics by Sidney Benson for H298, (S298 and Cp data taken from "Cs-C2FH"!)
 """,
 )
 
@@ -49907,7 +49909,7 @@ L1: R
             L4: Cs-C2FH
             L4: Cs-C3F
             L4: CF4
-            L4: Cs-CsF3
+            L4: Cs-CF3
             L4: Cs-CsHF2
             L4: CF3H
             L4: CF2H2
