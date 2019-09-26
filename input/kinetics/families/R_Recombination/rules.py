@@ -7,7 +7,7 @@ longDesc = u"""
 For some reason the definition of Cs_rad::
 
  Cs_rad
- 1 * C 1
+ 1 * C 1 
 
 which is not mutually exclusive from its L2 siblings such as::
 
@@ -19,2498 +19,2852 @@ which is not mutually exclusive from its L2 siblings such as::
 is apparently not causing a problem
 """
 entry(
-    index = 424,
-    label = "Y_rad;Y_rad",
-    kinetics = ArrheniusEP(
-        A = (1e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
+    index = 1,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(2.8686e+06,'m^3/(mol*s)'), n=0.425846, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_N-3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 2,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(3.25e+08,'m^3/(mol*s)'), n=-0.7, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-1C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 3,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R",
+    kinetics = ArrheniusBM(A=(1.76637e+07,'m^3/(mol*s)'), n=0.153073, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00248871722291, var=1.13870876508, Tref=1000.0, N=5, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R
+    Total Standard Deviation in ln(k): 2.14551182899"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R
+Total Standard Deviation in ln(k): 2.14551182899""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R
+Total Standard Deviation in ln(k): 2.14551182899
+""",
+)
+
+entry(
+    index = 4,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing",
+    kinetics = ArrheniusBM(A=(2.5021e+10,'m^3/(mol*s)'), n=-0.72284, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.21796197679, var=0.116043798991, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing
+    Total Standard Deviation in ln(k): 1.23056021221"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing
+Total Standard Deviation in ln(k): 1.23056021221""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing
+Total Standard Deviation in ln(k): 1.23056021221
+""",
+)
+
+entry(
+    index = 5,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O",
+    kinetics = ArrheniusBM(A=(1.505e+06,'m^3/(mol*s)'), n=1.79841e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 6,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O",
+    kinetics = ArrheniusBM(A=(4.52905e+07,'m^3/(mol*s)'), n=-0.17, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-8.93790333559e-10, var=0.843006791659, Tref=1000.0, N=5, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O
+    Total Standard Deviation in ln(k): 1.84065555863"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O
+Total Standard Deviation in ln(k): 1.84065555863""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O
+Total Standard Deviation in ln(k): 1.84065555863
+""",
+)
+
+entry(
+    index = 7,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O",
+    kinetics = ArrheniusBM(A=(1.54072e+07,'m^3/(mol*s)'), n=-6.19948e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.142131114327, var=0.0599978326704, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O
+    Total Standard Deviation in ln(k): 0.848162284374"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O
+Total Standard Deviation in ln(k): 0.848162284374""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O
+Total Standard Deviation in ln(k): 0.848162284374
+""",
+)
+
+entry(
+    index = 8,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C",
+    kinetics = ArrheniusBM(A=(7.84783e+07,'m^3/(mol*s)'), n=0.0629272, w0=(201667,'J/mol'), E0=(20166.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0177834035034, var=0.220663363462, Tref=1000.0, N=9, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C
+    Total Standard Deviation in ln(k): 0.986402595487"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C
+Total Standard Deviation in ln(k): 0.986402595487""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C
+Total Standard Deviation in ln(k): 0.986402595487
+""",
+)
+
+entry(
+    index = 9,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(2.13947e+08,'m^3/(mol*s)'), n=-0.514474, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.000121059371351, var=1.09982367998, Tref=1000.0, N=21, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R
+    Total Standard Deviation in ln(k): 2.10271953737"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R
+Total Standard Deviation in ln(k): 2.10271953737""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R
+Total Standard Deviation in ln(k): 2.10271953737
+""",
+)
+
+entry(
+    index = 10,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_2R->C",
+    kinetics = ArrheniusBM(A=(3.7586e+07,'m^3/(mol*s)'), n=-0.395795, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00722098163323, var=0.0433403113763, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_2R->C
+    Total Standard Deviation in ln(k): 0.435495654232"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_2R->C
+Total Standard Deviation in ln(k): 0.435495654232""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_2R->C
+Total Standard Deviation in ln(k): 0.435495654232
+""",
+)
+
+entry(
+    index = 11,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(45504,'m^3/(mol*s)'), n=0.740315, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0441547038934, var=0.0, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R
+    Total Standard Deviation in ln(k): 0.110941467069"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R
+Total Standard Deviation in ln(k): 0.110941467069""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R
+Total Standard Deviation in ln(k): 0.110941467069
+""",
+)
+
+entry(
+    index = 12,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_N-5R!H-inRing",
+    kinetics = ArrheniusBM(A=(3.10427e+07,'m^3/(mol*s)'), n=-0.214439, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_N-5R!H-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_N-5R!H-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_N-5R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_N-5R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 13,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(5.95927e+08,'m^3/(mol*s)'), n=-0.639165, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0851650107975, var=0.528125578779, Tref=1000.0, N=11, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 1.67086850823"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 1.67086850823""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 1.67086850823
+""",
+)
+
+entry(
+    index = 14,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(3.63105e+07,'m^3/(mol*s)'), n=-0.118135, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00652285405283, var=0.794920323305, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R
+    Total Standard Deviation in ln(k): 1.80377688208"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R
+Total Standard Deviation in ln(k): 1.80377688208""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R
+Total Standard Deviation in ln(k): 1.80377688208
+""",
+)
+
+entry(
+    index = 15,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H",
+    kinetics = ArrheniusBM(A=(5.04559e+09,'m^3/(mol*s)'), n=-0.682225, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0359763322856, var=2.58798417273, Tref=1000.0, N=7, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H
+    Total Standard Deviation in ln(k): 3.31545278443"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 3.31545278443""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 3.31545278443
+""",
+)
+
+entry(
+    index = 16,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H",
+    kinetics = ArrheniusBM(A=(1.27835e+08,'m^3/(mol*s)'), n=0.0610269, w0=(181283,'J/mol'), E0=(18128.3,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.133043932478, var=9.40764000037, Tref=1000.0, N=30, correlation='Root_1R->H_N-2R-inRing_N-2R->H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H
+    Total Standard Deviation in ln(k): 6.48317988216"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H
+Total Standard Deviation in ln(k): 6.48317988216""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H
+Total Standard Deviation in ln(k): 6.48317988216
+""",
+)
+
+entry(
+    index = 17,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(129687,'m^3/(mol*s)'), n=0.801692, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C_Ext-1C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 18,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_N-Sp-3R!H-=2R",
+    kinetics = ArrheniusBM(A=(4.01625e+07,'m^3/(mol*s)'), n=0.214672, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_N-Sp-3R!H-=2R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_N-Sp-3R!H-=2R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_N-Sp-3R!H-=2R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_N-Sp-3R!H-=2R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 19,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(9.33146e+06,'m^3/(mol*s)'), n=0.409212, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 20,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_3R!H->N",
+    kinetics = ArrheniusBM(A=(1.32408e+08,'m^3/(mol*s)'), n=-0.361164, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_3R!H->N',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_3R!H->N
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_3R!H->N
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_3R!H->N
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 21,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R",
+    kinetics = ArrheniusBM(A=(1.36745e+07,'m^3/(mol*s)'), n=-0.263863, w0=(139000,'J/mol'), E0=(13900,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00481396807501, var=0.0768145972539, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R
+    Total Standard Deviation in ln(k): 0.567716674236"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R
+Total Standard Deviation in ln(k): 0.567716674236""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R
+Total Standard Deviation in ln(k): 0.567716674236
+""",
+)
+
+entry(
+    index = 22,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C",
+    kinetics = ArrheniusBM(A=(8.65419e+10,'m^3/(mol*s)'), n=-1.4012, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.218338226454, var=0.11719079963, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C
+    Total Standard Deviation in ln(k): 1.23487231009"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C
+Total Standard Deviation in ln(k): 1.23487231009""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C
+Total Standard Deviation in ln(k): 1.23487231009
+""",
+)
+
+entry(
+    index = 23,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-4R!H-R",
+    kinetics = ArrheniusBM(A=(2.02858e+06,'m^3/(mol*s)'), n=0.504886, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-4R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-4R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 24,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-5R!H-R_Ext-5R!H-R",
+    kinetics = ArrheniusBM(A=(7.04085e+06,'m^3/(mol*s)'), n=-0.0872803, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-5R!H-R_Ext-5R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-5R!H-R_Ext-5R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-5R!H-R_Ext-5R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-5R!H-R_Ext-5R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 25,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0",
+    kinetics = ArrheniusBM(A=(1.03124e+31,'m^3/(mol*s)'), n=-7.48856, w0=(79333.3,'J/mol'), E0=(7933.33,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.354218852058, var=34.8187486739, Tref=1000.0, N=6, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0
+    Total Standard Deviation in ln(k): 12.7194203157"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0
+Total Standard Deviation in ln(k): 12.7194203157""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0
+Total Standard Deviation in ln(k): 12.7194203157
+""",
+)
+
+entry(
+    index = 26,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(2.4834e+08,'m^3/(mol*s)'), n=-0.557189, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00108714239892, var=1.14816174436, Tref=1000.0, N=4, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R
+    Total Standard Deviation in ln(k): 2.15085144951"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R
+Total Standard Deviation in ln(k): 2.15085144951""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R
+Total Standard Deviation in ln(k): 2.15085144951
+""",
+)
+
+entry(
+    index = 27,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(7.23e+07,'m^3/(mol*s)'), n=-8.53421e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R_Ext-1C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 425,
-    label = "H_rad;H_rad",
-    kinetics = ArrheniusEP(
-        A = (1.09e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
-        Tmin = (278, 'K'),
-        Tmax = (372, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Dingle et al. [167]""",
-    longDesc =
+    index = 28,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R",
+    kinetics = ArrheniusBM(A=(2.14111e+08,'m^3/(mol*s)'), n=-0.500739, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.279825822694, var=1.16058598837, Tref=1000.0, N=6, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R
+    Total Standard Deviation in ln(k): 2.86279100961"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R
+Total Standard Deviation in ln(k): 2.86279100961""",
+    longDesc = 
 u"""
-[167] Dingle, J.R.; Le Roy, D.J.; J. Chem. Phys. 1950, 18, 1632.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R
+Total Standard Deviation in ln(k): 2.86279100961
+""",
+)
 
-Absolute value measured directly. Excitation: thermal. H + H --> H2 Bath gas: C2H2
+entry(
+    index = 29,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C",
+    kinetics = ArrheniusBM(A=(6.75488e+06,'m^3/(mol*s)'), n=0.301153, w0=(110375,'J/mol'), E0=(11037.5,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0699102737434, var=2.77744018627, Tref=1000.0, N=4, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C
+    Total Standard Deviation in ln(k): 3.51667604249"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C
+Total Standard Deviation in ln(k): 3.51667604249""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C
+Total Standard Deviation in ln(k): 3.51667604249
+""",
+)
 
-NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1
-***high probability of inaccuracy***
-Checked by Greg Magoon; I suspect the parameters in the paper come from a different reaction (maybe H + C2H2 -> products?); (even if it was the correct reaction, the parameters used by NIST and RMG appear to be based off of values from the abstract, but p. 1637 seems to suggest that it may be more complicated, perhaps a collision theory-type form as alluded to in the abstract...p. 1637 states "In calculating E1 allowance was made for the term T^1/2 appearing in the frequency factor.";if this is the case, then the NIST record is inaccurate; almost all the other papers in NIST database report 3rd order rate constant, which is proportional to [M]; the best assessment I have found is Stace and Murrell, IJCK, v. 10, p. 197-212, which seems to suggest bimolecular rate constant of at least ~10^14 at high pressure (over 3 orders of magnitude higher than this value); this paper and Troe, Ann. Rev. Phys. Chem. 1978. 29: 223-250. make reference to "diffusion" limitations at very high pressure; another (relatively minor) consideration is that we will probably want to divide the reported rate coefficient by 2 to correctly account for stoichiometry
+entry(
+    index = 30,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(3.77e+06,'m^3/(mol*s)'), n=-2.20284e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_N-3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 426,
-    label = "H_rad;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (1.93e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.27, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Takahashi et al. [168] Transition state theory.""",
-    longDesc =
+    index = 31,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C",
+    kinetics = ArrheniusBM(A=(1.72215e+10,'m^3/(mol*s)'), n=-0.966317, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.100863834071, var=0.318288919583, Tref=1000.0, N=4, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C
+    Total Standard Deviation in ln(k): 1.38444011628"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C
+Total Standard Deviation in ln(k): 1.38444011628""",
+    longDesc = 
 u"""
-[168] Takahashi, J.; Momose, T.; Shida, T. Bull. Chem. Soc. Jpn. 1994, 67, 74.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C
+Total Standard Deviation in ln(k): 1.38444011628
+""",
+)
 
-H + CH3 --> CH4
+entry(
+    index = 32,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_2R-inRing",
+    kinetics = ArrheniusBM(A=(5e+07,'m^3/(mol*s)'), n=-1.21605e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_2R-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_2R-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_2R-inRing
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-CVTST calculation
-NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1994TAK/MOM74-85:2
-Verified by Greg Magoon: RMG value agrees with NIST record, and the points in the NIST record agree with the values in Table 3 in the paper within 10%; note that a 3000K data point is also available in the paper, but doesn't seem to be considered in the NIST fit; also, note that a lot of other data for this reaction is available on the NIST site and in the paper
+entry(
+    index = 33,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C",
+    kinetics = ArrheniusBM(A=(91220.9,'m^3/(mol*s)'), n=0.645371, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0563208528418, var=0.081353830223, Tref=1000.0, N=8, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C
+    Total Standard Deviation in ln(k): 0.713312104122"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C
+Total Standard Deviation in ln(k): 0.713312104122""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C
+Total Standard Deviation in ln(k): 0.713312104122
 """,
 )
 
 entry(
-    index = 427,
-    label = "H_rad;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (2.11e+14, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc =
+    index = 34,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_4R!H->C",
+    kinetics = ArrheniusBM(A=(1.81e+07,'m^3/(mol*s)'), n=-1.42812e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_4R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_4R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.;
-Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-H + CH3 --> CH4
+entry(
+    index = 35,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_Sp-4R!H-=3R!H",
+    kinetics = ArrheniusBM(A=(4.64055e+29,'m^3/(mol*s)'), n=-6.98707, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_Sp-4R!H-=3R!H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_Sp-4R!H-=3R!H
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_Sp-4R!H-=3R!H
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_Sp-4R!H-=3R!H
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg 870 Evaluated Kinetic Data for Combustion Modelling Supplement 1, Table 3. Combination reactions.
+entry(
+    index = 36,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_3R!H->C",
+    kinetics = ArrheniusBM(A=(1.21e+07,'m^3/(mol*s)'), n=-1.37127e-07, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-RMG data matches reference data for k(infinity).
- Verified by Karma James
+entry(
+    index = 37,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_Sp-4R!H-2R",
+    kinetics = ArrheniusBM(A=(9.99999e+06,'m^3/(mol*s)'), n=9.65418e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_Sp-4R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_Sp-4R!H-2R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_Sp-4R!H-2R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_Sp-4R!H-2R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg.903-906: Discussion on evaluated data
+entry(
+    index = 38,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(5250.69,'m^3/(mol*s)'), n=1.27262, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_N-3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-H+CH3(+m) --> CH4(+m): RMG stores the recommended rate coefficient for k_inf.  Recommended
+entry(
+    index = 39,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_N-Sp-5R!H-1C",
+    kinetics = ArrheniusBM(A=(578146,'m^3/(mol*s)'), n=0.175759, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.614494871354, var=0.864366397977, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_N-Sp-5R!H-1C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_N-Sp-5R!H-1C
+    Total Standard Deviation in ln(k): 3.40778537242"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_N-Sp-5R!H-1C
+Total Standard Deviation in ln(k): 3.40778537242""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_N-Sp-5R!H-1C
+Total Standard Deviation in ln(k): 3.40778537242
+""",
+)
 
-rate coefficient is that reported by Baulch et al. in previous literature review
-(since no new experimental data had been reported since).
-MRH 31-Aug-2009
+entry(
+    index = 40,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C",
+    kinetics = ArrheniusBM(A=(45504,'m^3/(mol*s)'), n=0.740315, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0441547025686, var=0.0, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C
+    Total Standard Deviation in ln(k): 0.11094146374"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C
+Total Standard Deviation in ln(k): 0.11094146374""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C
+Total Standard Deviation in ln(k): 0.11094146374
 """,
 )
 
 entry(
-    index = 428,
-    label = "H_rad;C_rad/H2_Val72_HVal7/Cs",
-    kinetics = ArrheniusEP(
-        A = (1e+14, 'cm^3/(mol*s)', '+|-', 1e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Sillensen et al [169]""",
-    longDesc =
+    index = 41,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R",
+    kinetics = ArrheniusBM(A=(308.407,'m^3/(mol*s)'), n=0.967216, w0=(139000,'J/mol'), E0=(13900,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0049236047651, var=0.0302625193734, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R
+    Total Standard Deviation in ln(k): 0.361117102774"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R
+Total Standard Deviation in ln(k): 0.361117102774""",
+    longDesc = 
 u"""
-[169] Sillesen , A.; Ratajczak, E.; Pagsberg, P. Chem. Phys. Lett. 1993, 201, 171.
-Data derived from fitting to a complex mechanism. Excitation: radiolysis, analysis: IR absroption. Pressure 0.10 bar
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R
+Total Standard Deviation in ln(k): 0.361117102774
+""",
+)
 
-H + C2H5 (+ M) --> C2H6 (+ M) (Rxn. 2b)
+entry(
+    index = 42,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(1.95338e+06,'m^3/(mol*s)'), n=0.346862, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-***NHP***
-Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.1 to (+/-)1E13, as this is what the abstract reports (also, Table 3 mentions uncertainties in the range of 10%-20%)
+entry(
+    index = 43,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(4.50099e+08,'m^3/(mol*s)'), n=-0.701965, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0017319911826, var=1.36934858384, Tref=1000.0, N=9, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R
+    Total Standard Deviation in ln(k): 2.35027605843"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R
+Total Standard Deviation in ln(k): 2.35027605843""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R
+Total Standard Deviation in ln(k): 2.35027605843
 """,
 )
 
 entry(
-    index = 429,
-    label = "H_rad;C_rad/H_Val7/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (2e+13, 'cm^3/(mol*s)', '*|/', 3.16),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Warnatz [134] literature review.""",
-    longDesc =
+    index = 44,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(10935.8,'m^3/(mol*s)'), n=0.77776, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0184655330759, var=0.0205899691821, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_N-3R!H->C
+    Total Standard Deviation in ln(k): 0.334059363082"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_N-3R!H->C
+Total Standard Deviation in ln(k): 0.334059363082""",
+    longDesc = 
 u"""
-[134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C_N-3R!H->C
+Total Standard Deviation in ln(k): 0.334059363082
 """,
 )
 
 entry(
-    index = 430,
-    label = "H_rad;C_rad/H_Val7/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (1.5e+14, 'cm^3/(mol*s)', '+|-', 3e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Munk et al. [170]""",
-    longDesc =
+    index = 45,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(45504,'m^3/(mol*s)'), n=0.740315, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R_Ext-1C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[170] Munk, J; Pagsberg, P.; Ratajczak, E.; Sillensen, A. Chem. Phys. Lett. 1986, 132, 417.
-Data derived from fitting to a complex mechanism. Excitation: electron beam, analysis: Vis-UV absorption. Pressure 1.0 atm
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_N-2R->C_Ext-1C-R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-H + isoC3H7 (+ M) --> C3H8 (+ M) (Rxn. 7)
+entry(
+    index = 46,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_2OS->S",
+    kinetics = ArrheniusBM(A=(2.85887e+07,'m^3/(mol*s)'), n=0.338251, w0=(71000,'J/mol'), E0=(24020.4,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_2OS->S',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_2OS->S
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_2OS->S
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_2OS->S
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-***NHP***
-Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.25 to 0.3E+14, as reported in the paper
+entry(
+    index = 47,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C",
+    kinetics = ArrheniusBM(A=(7.82867e+07,'m^3/(mol*s)'), n=0.0631113, w0=(205250,'J/mol'), E0=(20525,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0175378549852, var=0.221368827459, Tref=1000.0, N=8, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C
+    Total Standard Deviation in ln(k): 0.987289785558"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C
+Total Standard Deviation in ln(k): 0.987289785558""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C
+Total Standard Deviation in ln(k): 0.987289785558
 """,
 )
 
 entry(
-    index = 431,
-    label = "H_rad;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.21e+14, 'cm^3/(mol*s)', '+|-', 4.82e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Fahr et al. [171]""",
-    longDesc =
+    index = 48,
+    label = "Root_N-1R->H",
+    kinetics = ArrheniusBM(A=(4.12325e+06,'m^3/(mol*s)'), n=0.220072, w0=(146681,'J/mol'), E0=(1439.78,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0578190218441, var=4.89406232774, Tref=1000.0, N=102, correlation='Root_N-1R->H',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H
+    Total Standard Deviation in ln(k): 4.58025465656"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H
+Total Standard Deviation in ln(k): 4.58025465656""",
+    longDesc = 
 u"""
-[171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
-Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original uncertainty 4.8E+13
+BM rule fitted to 2 training reactions at node Root_N-1R->H
+Total Standard Deviation in ln(k): 4.58025465656
+""",
+)
 
-H + C2H3 -> C2H4 (Rxn. VIIC)
+entry(
+    index = 49,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(7.05e+06,'m^3/(mol*s)'), n=8.99479e-09, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_N-3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-***NHP***
-Verified by Greg Magoon; note that the value in rateLibrary agrees with value reported in abstract, the value in Table III also includes contribution from Rxn. VIID, which apparently dominates at low pressures (p. 3222); DA uncertainty updated, as I have done elsewhere; also, for k, I calculate 1.2044E14 (which is very slightly different from 1.21 used here)
+entry(
+    index = 50,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C",
+    kinetics = ArrheniusBM(A=(7.88213e+06,'m^3/(mol*s)'), n=0.314663, w0=(193067,'J/mol'), E0=(19306.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.379272271586, var=0.88677526262, Tref=1000.0, N=15, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C
+    Total Standard Deviation in ln(k): 2.84077927867"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C
+Total Standard Deviation in ln(k): 2.84077927867""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C
+Total Standard Deviation in ln(k): 2.84077927867
 """,
 )
 
 entry(
-    index = 432,
-    label = "H_rad;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (5.36e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.98, 'kcal/mol'),
-        Tmin = (700, 'K'),
-        Tmax = (1300, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Duran et al. [165]""",
-    longDesc =
+    index = 51,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C",
+    kinetics = ArrheniusBM(A=(1.64483e+26,'m^3/(mol*s)'), n=-5.36567, w0=(201667,'J/mol'), E0=(20166.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=4.38384058707, var=325.386444698, Tref=1000.0, N=6, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C
+    Total Standard Deviation in ln(k): 47.1770308805"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C
+Total Standard Deviation in ln(k): 47.1770308805""",
+    longDesc = 
 u"""
-[165] Duran, R. P.; Amorebieta, V. T.; Colussi, A. J. J. Phys. Chem. 1988, 92, 636.
-Ab initio
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C
+Total Standard Deviation in ln(k): 47.1770308805
+""",
+)
 
-H + C2H3 --> C2H4 (Rxn. 13)
+entry(
+    index = 52,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(7.98328e+06,'m^3/(mol*s)'), n=-8.3375e-07, w0=(122000,'J/mol'), E0=(12200,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-1.6119682562e-08, var=0.123635288982, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R
+    Total Standard Deviation in ln(k): 0.704901181513"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R
+Total Standard Deviation in ln(k): 0.704901181513""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R
+Total Standard Deviation in ln(k): 0.704901181513
+""",
+)
 
-NIST Record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:10
-Verified by Greg Magoon; RMG and NIST data seem to be the same; presumably, NIST fit is based off of data in Table 3, but the fit isn't quite right, especially at 1500 K ; using the 700 and 1300 table values, I get Ea=1.03 kcal/mol; using 1300 K value, I get A = 5.66E14 cm^3/mol-s; fit seems to be essentially indistinguishable from data at end points, and error is just under 10% at 1000 K...since the NIST fit has a slightly lower maximum error, I will just leave it the way it is; aside: 10^9.7 prefactor mentioned on p. 637 doesn't seem consistent with NIST data or paper data in Table III; this is presumably high-pressure limit since no pressure-dependence is indicated in the table
+entry(
+    index = 53,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(1.76793e+10,'m^3/(mol*s)'), n=-1.00291, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing_Ext-2R-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing_Ext-2R-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing_Ext-2R-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 433,
-    label = "H_rad;Ct_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (1.81e+14, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 54,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S",
+    kinetics = ArrheniusBM(A=(1.33939e+07,'m^3/(mol*s)'), n=0.524764, w0=(181667,'J/mol'), E0=(18166.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=2.33916110237, var=17.7318816581, Tref=1000.0, N=3, correlation='Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S
+    Total Standard Deviation in ln(k): 14.3190764254"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S
+Total Standard Deviation in ln(k): 14.3190764254""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-H + C2H --> C2H2
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S
+Total Standard Deviation in ln(k): 14.3190764254
+""",
+)
 
-pg 1101, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 21,4.
+entry(
+    index = 55,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N",
+    kinetics = ArrheniusBM(A=(2.61215e+06,'m^3/(mol*s)'), n=0.325758, w0=(143500,'J/mol'), E0=(14350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.336871845639, var=0.241325868577, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N
+    Total Standard Deviation in ln(k): 1.83123636332"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N
+Total Standard Deviation in ln(k): 1.83123636332""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N
+Total Standard Deviation in ln(k): 1.83123636332
+""",
+)
 
-Verified by Karma James
+entry(
+    index = 56,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C",
+    kinetics = ArrheniusBM(A=(9.37627e+08,'m^3/(mol*s)'), n=-0.294429, w0=(193565,'J/mol'), E0=(19356.5,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.802829446258, var=19.2997675727, Tref=1000.0, N=23, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C
+    Total Standard Deviation in ln(k): 10.8242614663"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C
+Total Standard Deviation in ln(k): 10.8242614663""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C
+Total Standard Deviation in ln(k): 10.8242614663
+""",
+)
 
-NOTE: Reported rate coefficients are for k_inf (MRH 11Aug2009)
+entry(
+    index = 57,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C",
+    kinetics = ArrheniusBM(A=(9.18826e+09,'m^3/(mol*s)'), n=-0.839049, w0=(78500,'J/mol'), E0=(7850,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0465430889647, var=0.673853817501, Tref=1000.0, N=5, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C
+    Total Standard Deviation in ln(k): 1.76260138417"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C
+Total Standard Deviation in ln(k): 1.76260138417""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C
+Total Standard Deviation in ln(k): 1.76260138417
+""",
+)
 
-pg. 1218-1219: Discussion on evaluated data
+entry(
+    index = 58,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C",
+    kinetics = ArrheniusBM(A=(9.3042e+08,'m^3/(mol*s)'), n=-0.614675, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0056097018252, var=3.01068616167, Tref=1000.0, N=5, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C
+    Total Standard Deviation in ln(k): 3.4925765058"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C
+Total Standard Deviation in ln(k): 3.4925765058""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C
+Total Standard Deviation in ln(k): 3.4925765058
+""",
+)
 
-Recommended data (k_inf) based on reverse rate and equilibrium constant
+entry(
+    index = 59,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N",
+    kinetics = ArrheniusBM(A=(403.078,'m^3/(mol*s)'), n=1.76559, w0=(71000,'J/mol'), E0=(13653.5,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.726705389742, var=5.98513001094, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N
+    Total Standard Deviation in ln(k): 6.73038215317"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N
+Total Standard Deviation in ln(k): 6.73038215317""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N
+Total Standard Deviation in ln(k): 6.73038215317
+""",
+)
 
-Fall-off and collisional efficiencies are available in reference
-(although we do not store them in RMG_database)
-MRH 28-Aug-2009
+entry(
+    index = 60,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O",
+    kinetics = ArrheniusBM(A=(6.16957e+06,'m^3/(mol*s)'), n=-1.87134e-07, w0=(122000,'J/mol'), E0=(12200,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=1.52051667475e-07, var=0.241111252513, Tref=1000.0, N=4, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O
+    Total Standard Deviation in ln(k): 0.984387063055"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O
+Total Standard Deviation in ln(k): 0.984387063055""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O
+Total Standard Deviation in ln(k): 0.984387063055
 """,
 )
 
 entry(
-    index = 434,
-    label = "H_rad;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (2.2e+14, 'cm^3/(mol*s)', '+|-', 8e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1200, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
-    longDesc =
+    index = 61,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_N-7R!H->C",
+    kinetics = ArrheniusBM(A=(7.75e+08,'m^3/(mol*s)'), n=-0.75, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_N-7R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_N-7R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_N-7R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[172] Davis, S. G.; Wang, H.; Brezinsky K.; Law C. K. Symp. Int. Combust. Proc. 1996, 26, 1025.
-(1000-1200K, excitation : thermal, pressure 1.0 atm)
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_N-7R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-[173] Ackerman, L.; Hippler, H.; Pagsberg, P.; Reihs, C.; Troe, J. J. Phys. Chem. 1990, 94, 5247.
-(300K, absolute value measured directly, excitation : flash photolysis, analysis : VIS-UV absorption, pressure 0.01-0.99 atm)
+entry(
+    index = 62,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C",
+    kinetics = ArrheniusBM(A=(9.17499e+07,'m^3/(mol*s)'), n=0.115342, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-[172b] Emdee, J. L., Brezinsky, K., and Glassman, I., J. Phys. Chem. 96:21512161 (1992) DOI: 10.1021/j100184a025
-H + phenyl --> benzene (R1 in [172]) (Reaction 1 in [172b])
-Verified by Greg Magoon
-[172]: reported rate coefficient is for k_inf (see Table 1); temperature range considered is 1000-1200 K; this paper cites: Emdee, J. L., Brezinsky, K., and Glassman, I., J. Phys. Chem. 96:21512161 (1992) DOI: 10.1021/j100184a025 (included as 172b, above), which, in turn, references [173] (Troe) paper...conditions for this paper are 1100 K - 1200 K
-[173]: this contains the uncertainty estimate (see Table 2); I updated the DA uncertainty as I have done elsewhere; this seems to be the actual raw value that was subsequently interpreted/used in the paper cited by Ref. 172; conditions are 300 K and 1 bar, so apparently, the paper cited by Ref. 172 and/or Ref. 172 itself has assumed that it is in high-pressure limit and that it is temperature independent
-[172b]: see Table III
+entry(
+    index = 63,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R_Ext-5R!H-R_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(1.62598e+07,'m^3/(mol*s)'), n=0.255122, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R_Ext-5R!H-R_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R_Ext-5R!H-R_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R_Ext-5R!H-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R_Ext-5R!H-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 435,
-    label = "H_rad;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (4.68e+10, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (-4.53, 'kcal/mol'),
-        Tmin = (1500, 'K'),
-        Tmax = (1900, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsuboi et al. [174]""",
-    longDesc =
+    index = 64,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(3.40832e+09,'m^3/(mol*s)'), n=-1.11667, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-1.14473363032e-10, var=3.4189890868, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R
+    Total Standard Deviation in ln(k): 3.70685712135"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R
+Total Standard Deviation in ln(k): 3.70685712135""",
+    longDesc = 
 u"""
-[174] Tsuboi, T.; Katoh, M.; Kikuchi, S.; Hashimoto, K. Jpn J. Appl. Phys. 1981, 20, 985.
-Data is estimated. Pressure 7.0 atm.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R
+Total Standard Deviation in ln(k): 3.70685712135
+""",
+)
 
-H + HCO (+M) --> H2CO (+M) (Rxn -9)
+entry(
+    index = 65,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C",
+    kinetics = ArrheniusBM(A=(6.81404e+07,'m^3/(mol*s)'), n=-2.32247e-07, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-1.00612506154e-08, var=0.119534414219, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C
+    Total Standard Deviation in ln(k): 0.69311210551"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C
+Total Standard Deviation in ln(k): 0.69311210551""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C
+Total Standard Deviation in ln(k): 0.69311210551
+""",
+)
 
-***NHP*** possible improvement for A (for rho = 1E-4): 6.61E10
-Verified by Greg Magoon; three A factors have been reported (for 3 different densities); the value currently used in the rateLibrary appears to come from the middle density: 5E-5 (mol/cm^3, I think);I have assumed that the 2nd two columns in Table II are for the reverse reaction reference for this value is apparently in Japanese (see *** note in Table 2); minor issue: I calculate -19/4.184 = -4.54 kcal/mol (vs. -4.53 in rateLibrary)
+entry(
+    index = 66,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H",
+    kinetics = ArrheniusBM(A=(3.00842e+07,'m^3/(mol*s)'), n=0.263537, w0=(205250,'J/mol'), E0=(20525,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0585000762605, var=0.199349423787, Tref=1000.0, N=4, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H
+    Total Standard Deviation in ln(k): 1.04207053369"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 1.04207053369""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 1.04207053369
 """,
 )
 
 entry(
-    index = 436,
-    label = "H_rad;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.62e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.15, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2100, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Cobos et al. [106]""",
-    longDesc =
+    index = 67,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R",
+    kinetics = ArrheniusBM(A=(3.24036e+06,'m^3/(mol*s)'), n=3.5707e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-8.50055194392e-09, var=0.0475248579916, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R
+    Total Standard Deviation in ln(k): 0.437036213272"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R
+Total Standard Deviation in ln(k): 0.437036213272""",
+    longDesc = 
 u"""
-[106] Cobos, C. J.; Troe, J. J. Chem. Phys. 1985, 83, 1010.
-Transition State Theory
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R
+Total Standard Deviation in ln(k): 0.437036213272
+""",
+)
 
-H + OH --> H2O
+entry(
+    index = 68,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O",
+    kinetics = ArrheniusBM(A=(37804.6,'m^3/(mol*s)'), n=0.550145, w0=(125643,'J/mol'), E0=(-16673.1,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0547341013006, var=4.25993866024, Tref=1000.0, N=28, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O
+    Total Standard Deviation in ln(k): 4.27521965564"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O
+Total Standard Deviation in ln(k): 4.27521965564""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O
+Total Standard Deviation in ln(k): 4.27521965564
 """,
 )
 
 entry(
-    index = 437,
-    label = "C_methyl;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (8.26e+17, 'cm^3/(mol*s)'),
-        n = -1.4,
-        alpha = 0,
-        E0 = (1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Pesa et al. [175]""",
-    longDesc =
+    index = 69,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C",
+    kinetics = ArrheniusBM(A=(5.69413e+09,'m^3/(mol*s)'), n=-0.523824, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.16007161633, var=0.288590491554, Tref=1000.0, N=3, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C
+    Total Standard Deviation in ln(k): 1.47914608549"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C
+Total Standard Deviation in ln(k): 1.47914608549""",
+    longDesc = 
 u"""
-[175] Pesa, M. ; Pilling, M. J.; Robertson, S. H.; Wardlaw. J. Phys. Chem. A 1998, 102, 8526.
-Canonical Flexible Transition State Theory
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C
+Total Standard Deviation in ln(k): 1.47914608549
+""",
+)
 
-CH3 + CH3 --> C2H6 (Same as 438) (Rxn. R1)
+entry(
+    index = 70,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_N-2OS->S",
+    kinetics = ArrheniusBM(A=(2e+07,'m^3/(mol*s)'), n=1.78837e-07, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_N-2OS->S',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_N-2OS->S
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_N-2OS->S
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_N-2OS->S
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1
-Verified by Greg Magoon; NIST record has slightly different parameters than RMG (it doesn't seem like best-fit parameters are reported in the paper); paper values for k_inf with alpha = 1 appear in Tables 5/11 and values for alpha = 0.7 appear in Tables 6/12; NIST parameters agree within 10% of k_inf values in the paper with alpha = 1 A^-1 (Tables 11) (though in paper, they seem to suggest that alpha = 0.7 A^-1 (Table 6/12) matches experimental data better); I am assuming that their k is for the reaction, as written, so that no factor of two correction is needed; RMG parameters seem to agree with Table 5 values within 10% (agreement may not be quite as good as NIST fit, though it is not immediately obvious which fit is better without looking closer/doing calculations)
+entry(
+    index = 71,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C_Ext-2C-R",
+    kinetics = ArrheniusBM(A=(7.7e+07,'m^3/(mol*s)'), n=4.95181e-08, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C_Ext-2C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C_Ext-2C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C_Ext-2C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_2R->C_Ext-2C-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 438,
-    label = "C_methyl;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (3.61e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc =
+    index = 72,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing",
+    kinetics = ArrheniusBM(A=(9.99999e+06,'m^3/(mol*s)'), n=1.28714e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=2.49162334898e-09, var=0.0, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing
+    Total Standard Deviation in ln(k): 6.26036017332e-09"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing
+Total Standard Deviation in ln(k): 6.26036017332e-09""",
+    longDesc = 
 u"""
-[94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
-Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing
+Total Standard Deviation in ln(k): 6.26036017332e-09
+""",
+)
 
-CH3 + CH3 --> C2H6 (Same as 437)
+entry(
+    index = 73,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_2R->C",
+    kinetics = ArrheniusBM(A=(2.33137e+11,'m^3/(mol*s)'), n=-1.13781, w0=(83500,'J/mol'), E0=(8350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_2R->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_2R->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_2R->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg 871 Evaluated Kinetic Data for Combustion Modelling Supplement 1, Table 3. Combination reactions.
+entry(
+    index = 74,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0",
+    kinetics = ArrheniusBM(A=(6.60235e+128,'m^3/(mol*s)'), n=-37.2419, w0=(71000,'J/mol'), E0=(271802,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.394167378209, var=243.949911149, Tref=1000.0, N=2, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0
+    Total Standard Deviation in ln(k): 32.3021189072"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0
+Total Standard Deviation in ln(k): 32.3021189072""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0
+Total Standard Deviation in ln(k): 32.3021189072
+""",
+)
 
-RMG data matches reference data for k(infinity).
+entry(
+    index = 75,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R",
+    kinetics = ArrheniusBM(A=(3.18795e+10,'m^3/(mol*s)'), n=-1.17734, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.298025015457, var=0.3094099417, Tref=1000.0, N=5, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R
+    Total Standard Deviation in ln(k): 1.86393303255"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R
+Total Standard Deviation in ln(k): 1.86393303255""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R
+Total Standard Deviation in ln(k): 1.86393303255
+""",
+)
 
-Verified by Karma James
+entry(
+    index = 76,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C",
+    kinetics = ArrheniusBM(A=(15.724,'m^3/(mol*s)'), n=2.04268, w0=(71000,'J/mol'), E0=(-696.447,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.461512523709, var=5.42084271959, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C
+    Total Standard Deviation in ln(k): 5.82714440121"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C
+Total Standard Deviation in ln(k): 5.82714440121""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_N-2R->C
+Total Standard Deviation in ln(k): 5.82714440121
+""",
+)
 
-pg.980-983: Discussion on evaluated data
+entry(
+    index = 77,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_7R!H->C",
+    kinetics = ArrheniusBM(A=(4.12e+09,'m^3/(mol*s)'), n=-1.1, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_7R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_7R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_7R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_7R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-CH3+CH3(+m) --> C2H6(+m): RMG stores the recommended high-pressure limit rate coefficient,
+entry(
+    index = 78,
+    label = "Root_1R->H_N-2R-inRing_2R->H",
+    kinetics = ArrheniusBM(A=(30255.8,'m^3/(mol*s)'), n=0.454367, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0250878995306, var=56.1568697784, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_2R->H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_2R->H
+    Total Standard Deviation in ln(k): 15.0860960863"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_2R->H
+Total Standard Deviation in ln(k): 15.0860960863""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_2R->H
+Total Standard Deviation in ln(k): 15.0860960863
+""",
+)
 
-k_inf.  "The recommended values are based mainly on the extensive sets of data
-from Refs. 4, 10, 11, and 14 up to 1000K ..."
-MRH 31-Aug-2009
+entry(
+    index = 79,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C",
+    kinetics = ArrheniusBM(A=(9.98828e+07,'m^3/(mol*s)'), n=0.00561861, w0=(201667,'J/mol'), E0=(20166.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-1.07954496089, var=4.22925582891, Tref=1000.0, N=3, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C
+    Total Standard Deviation in ln(k): 6.83519320067"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C
+Total Standard Deviation in ln(k): 6.83519320067""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C
+Total Standard Deviation in ln(k): 6.83519320067
 """,
 )
 
 entry(
-    index = 439,
-    label = "C_methyl;C_rad/H2_Val72_HVal7/Cs",
-    kinetics = ArrheniusEP(
-        A = (3.37e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc =
+    index = 80,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R",
+    kinetics = ArrheniusBM(A=(4.63831e+07,'m^3/(mol*s)'), n=-6.58468e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0123271345724, var=1.99454645199, Tref=1000.0, N=6, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R
+    Total Standard Deviation in ln(k): 2.86222822617"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R
+Total Standard Deviation in ln(k): 2.86222822617""",
+    longDesc = 
 u"""
-[94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
-Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R
+Total Standard Deviation in ln(k): 2.86222822617
+""",
+)
 
-CH3 + C2H5 --> C3H8
+entry(
+    index = 81,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(1.24e+10,'m^3/(mol*s)'), n=-1.5, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_Ext-1C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-1C-R_Ext-1C-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg 871 Evaluated Kinetic Data for Combustion Modelling Supplement 1, Table 3. Combination reactions.
+entry(
+    index = 82,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(1.52619e+07,'m^3/(mol*s)'), n=-6.53409e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.159897533582, var=0.0656793251983, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R
+    Total Standard Deviation in ln(k): 0.915525659817"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R
+Total Standard Deviation in ln(k): 0.915525659817""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R
+Total Standard Deviation in ln(k): 0.915525659817
+""",
+)
 
-RMG data matches reference data for k(infinity).
+entry(
+    index = 83,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R",
+    kinetics = ArrheniusBM(A=(1.22275e+29,'m^3/(mol*s)'), n=-6.20388, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=10.070721229, var=800.140618875, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R
+    Total Standard Deviation in ln(k): 82.0107735588"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R
+Total Standard Deviation in ln(k): 82.0107735588""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R
+Total Standard Deviation in ln(k): 82.0107735588
+""",
+)
 
-Verified by Karma James
+entry(
+    index = 84,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing",
+    kinetics = ArrheniusBM(A=(199626,'m^3/(mol*s)'), n=0.610916, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0324341459036, var=0.917134149564, Tref=1000.0, N=50, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing
+    Total Standard Deviation in ln(k): 2.00136989945"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing
+Total Standard Deviation in ln(k): 2.00136989945""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing
+Total Standard Deviation in ln(k): 2.00136989945
+""",
+)
 
-pg.991: Discussion on evaluated data
+entry(
+    index = 85,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R",
+    kinetics = ArrheniusBM(A=(7.82306e+07,'m^3/(mol*s)'), n=0.0632962, w0=(209857,'J/mol'), E0=(20985.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0177752274534, var=0.222667283872, Tref=1000.0, N=7, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R
+    Total Standard Deviation in ln(k): 0.990648434191"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R
+Total Standard Deviation in ln(k): 0.990648434191""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R
+Total Standard Deviation in ln(k): 0.990648434191
+""",
+)
 
-CH3+C2H5(+m) --> C3H8(+m): RMG stores the recommended high-pressure limit rate coefficient,
+entry(
+    index = 86,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R",
+    kinetics = ArrheniusBM(A=(9.74233e+08,'m^3/(mol*s)'), n=-0.300434, w0=(195524,'J/mol'), E0=(19552.4,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.837794104455, var=19.9890275553, Tref=1000.0, N=21, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R
+    Total Standard Deviation in ln(k): 11.0679984731"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R
+Total Standard Deviation in ln(k): 11.0679984731""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R
+Total Standard Deviation in ln(k): 11.0679984731
+""",
+)
 
-k_inf.  "The recommended value for k_inf is a weighted average of earlier experiments
-in agreement with SACM calculations following Ref.10.  A temperature independent value
-of k_inf is assumed until more definite experimental information is available."
-MRH 31-Aug-2009
+entry(
+    index = 87,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_N-2NO->N",
+    kinetics = ArrheniusBM(A=(122000,'m^3/(mol*s)'), n=0.2, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_N-2NO->N',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_N-2NO->N
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_N-2NO->N
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_N-2NO->N
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 440,
-    label = "C_methyl;C_rad/H_Val7/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (6.64e+14, 'cm^3/(mol*s)'),
-        n = -0.57,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (713, 'K'),
-        Tmax = (1800, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [176] RRK(M) extrapolation.""",
-    longDesc =
+    index = 88,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(3.56381e+06,'m^3/(mol*s)'), n=-0.0535546, w0=(152600,'J/mol'), E0=(15260,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0261245836817, var=0.43760691139, Tref=1000.0, N=5, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R
+    Total Standard Deviation in ln(k): 1.39180927994"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R
+Total Standard Deviation in ln(k): 1.39180927994""",
+    longDesc = 
 u"""
-[176] Tsang, W. Combust. Flame 1989, 78, 71.
-RRK(M) extrapolation.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R
+Total Standard Deviation in ln(k): 1.39180927994
+""",
+)
 
-CH3 + iso-C3H7 --> iso-C4H10
+entry(
+    index = 89,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_2R-inRing",
+    kinetics = ArrheniusBM(A=(5.7e+06,'m^3/(mol*s)'), n=1.36803e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_2R-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_2R-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_2R-inRing
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-Verified by Greg Magoon; high-pressure rate constants are reported here;
-I don't immediately see an explicit temperature range for the polynomial fits,
-but the domain of the graphs agrees pretty well with the range in the rateLibrary
-(though the graphs seem to go slightly higher, to 2000 K); the abstract says
-"from room to combustion temperatures", so if anything, the range specified in
-the rateLibrary is probably too narrow; minor: I calculate 1.1E-9*6.022141E23=6.624E14,
-but rateLibrary has slightly different value of 6.64E14
+entry(
+    index = 90,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R",
+    kinetics = ArrheniusBM(A=(1.08281e+07,'m^3/(mol*s)'), n=0.100375, w0=(75166.7,'J/mol'), E0=(7516.67,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=1.09139294411, var=4.01089233273, Tref=1000.0, N=3, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R
+    Total Standard Deviation in ln(k): 6.75711883075"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R
+Total Standard Deviation in ln(k): 6.75711883075""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R
+Total Standard Deviation in ln(k): 6.75711883075
 """,
 )
 
 entry(
-    index = 441,
-    label = "C_methyl;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (4.88e+15, 'cm^3/(mol*s)', '*|/', 2),
-        n = -1,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 91,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_N-2R-inRing",
+    kinetics = ArrheniusBM(A=(6.08474e+07,'m^3/(mol*s)'), n=-0.428622, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_N-2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_N-2R-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_N-2R-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_N-2R-inRing
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-CH3 + tert-C4H9 --> neo-C5H12
+entry(
+    index = 92,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_N-4R!H->C",
+    kinetics = ArrheniusBM(A=(1.51e+07,'m^3/(mol*s)'), n=2.42855e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_N-4R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_N-4R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_N-4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_3R!H->O_Ext-1C-R_N-4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
+entry(
+    index = 93,
+    label = "Root_N-1R->H_1CClNOSSi->N",
+    kinetics = ArrheniusBM(A=(398.587,'m^3/(mol*s)'), n=1.63922, w0=(77730.8,'J/mol'), E0=(49953.8,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.524765286603, var=8.83723212856, Tref=1000.0, N=13, correlation='Root_N-1R->H_1CClNOSSi->N',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N
+    Total Standard Deviation in ln(k): 7.27807842839"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N
+Total Standard Deviation in ln(k): 7.27807842839""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N
+Total Standard Deviation in ln(k): 7.27807842839
+""",
+)
 
-Index of Reactions and Summary of Recommended Rate Expressions. No. 44,16.
-Verified by Karma James
+entry(
+    index = 94,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C",
+    kinetics = ArrheniusBM(A=(1.03468e+10,'m^3/(mol*s)'), n=-0.848331, w0=(83500,'J/mol'), E0=(8350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00516292776992, var=0.173847691771, Tref=1000.0, N=2, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C
+    Total Standard Deviation in ln(k): 0.848847406671"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C
+Total Standard Deviation in ln(k): 0.848847406671""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C
+Total Standard Deviation in ln(k): 0.848847406671
+""",
+)
 
-NOTE: Data entry was not consistent w/recommended value in reference (pg. 36)
+entry(
+    index = 95,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(4.65276e+06,'m^3/(mol*s)'), n=-1.19345e-07, w0=(132200,'J/mol'), E0=(13220,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=1.53321347418e-07, var=0.780952341849, Tref=1000.0, N=5, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R
+    Total Standard Deviation in ln(k): 1.77161500365"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R
+Total Standard Deviation in ln(k): 1.77161500365""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R
+Total Standard Deviation in ln(k): 1.77161500365
+""",
+)
 
-MRH computes A=4.88E+15, n=-1, E=0, dA=*2.0 (11Aug2009)
+entry(
+    index = 96,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(8.08049e+08,'m^3/(mol*s)'), n=-0.685207, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.691788023649, var=1.05747121089, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R
+    Total Standard Deviation in ln(k): 3.79969848986"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R
+Total Standard Deviation in ln(k): 3.79969848986""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R
+Total Standard Deviation in ln(k): 3.79969848986
+""",
+)
 
-MRH interprets data in reference as 2.7E-11*(300/T)^-1, NOT 2.7E-11*exp(300/T)
+entry(
+    index = 97,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_3R!H->C",
+    kinetics = ArrheniusBM(A=(2.80515e+06,'m^3/(mol*s)'), n=0.314888, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_N-2NO->N_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-NOTE: kinetics.nist.gov has 2.7E-11*exp(300/T) expression in database
+entry(
+    index = 98,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_Sp-3CCSS#2R",
+    kinetics = ArrheniusBM(A=(1e+08,'m^3/(mol*s)'), n=-1.34483e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_Sp-3CCSS#2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_Sp-3CCSS#2R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_Sp-3CCSS#2R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_Sp-3CCSS#2R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-kinetics.nist.gov also has A/n/E from 2006 paper by Klippenstein et al.;
-the new rate expression matches Klippenstein's value better across the valid T range
-pg.36: Discussion on evaluated data
+entry(
+    index = 99,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(4.61526e+07,'m^3/(mol*s)'), n=-0.2125, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=4.11811042808e-10, var=0.384383286643, Tref=1000.0, N=4, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R
+    Total Standard Deviation in ln(k): 1.24290872788"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R
+Total Standard Deviation in ln(k): 1.24290872788""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R
+Total Standard Deviation in ln(k): 1.24290872788
+""",
+)
 
-Entry 44,16(b)
+entry(
+    index = 100,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(9.10287e+13,'m^3/(mol*s)'), n=-2.74437, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_N-3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_N-3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-MRH computed geometric mean of CH3+CH3-->adduct (1.68x10^-9 * T^-0.64) and tC4H9+tC4H9-->adduct
+entry(
+    index = 101,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(7.6895e+08,'m^3/(mol*s)'), n=-0.811251, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.000621224287992, var=1.52046208061, Tref=1000.0, N=7, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R
+    Total Standard Deviation in ln(k): 2.47353991738"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R
+Total Standard Deviation in ln(k): 2.47353991738""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R
+Total Standard Deviation in ln(k): 2.47353991738
+""",
+)
 
-(4x10^-12 * (300/T)^1.5) to obtain: 5.909x10^-9 * T^-1.07.  Setting the temperature
-exponent equal to one and multiplying by 1 (*300/300) results in: 1.970x10^-11 * (300/T)
-which is somewhat in agreement with the value recommended by Tsang.
-MRH 31-Aug-2009
+entry(
+    index = 102,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O",
+    kinetics = ArrheniusBM(A=(590543,'m^3/(mol*s)'), n=0.538327, w0=(171033,'J/mol'), E0=(17103.3,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0201293645259, var=3.62478427822, Tref=1000.0, N=61, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O
+    Total Standard Deviation in ln(k): 3.86736459191"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O
+Total Standard Deviation in ln(k): 3.86736459191""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O
+Total Standard Deviation in ln(k): 3.86736459191
 """,
 )
 
 entry(
-    index = 442,
-    label = "C_methyl;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (7.23e+13, 'cm^3/(mol*s)', '+|-', 1.81e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Fahr et al. [171]""",
-    longDesc =
+    index = 103,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C",
+    kinetics = ArrheniusBM(A=(113109,'m^3/(mol*s)'), n=0.518507, w0=(139000,'J/mol'), E0=(13900,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0123104015705, var=1.98462212699, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C
+    Total Standard Deviation in ln(k): 2.8551336178"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C
+Total Standard Deviation in ln(k): 2.8551336178""",
+    longDesc = 
 u"""
-[171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
-Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original Uncertainty 1.8E+13
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_2R->C
+Total Standard Deviation in ln(k): 2.8551336178
+""",
+)
 
-CH3. + .HC=CH2 --> CH3HC=CH2 (Rxn. IIIC)
+entry(
+    index = 104,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(2.99147e+07,'m^3/(mol*s)'), n=0.155577, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-2R-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-2R-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-2R-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-***NHP***
-Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere
+entry(
+    index = 105,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C",
+    kinetics = ArrheniusBM(A=(1.74988e+07,'m^3/(mol*s)'), n=0.493661, w0=(113000,'J/mol'), E0=(11300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-2.78036942243, var=24.8279862009, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C
+    Total Standard Deviation in ln(k): 16.9749844749"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C
+Total Standard Deviation in ln(k): 16.9749844749""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C
+Total Standard Deviation in ln(k): 16.9749844749
 """,
 )
 
 entry(
-    index = 443,
-    label = "C_methyl;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (1.38e+13, 'cm^3/(mol*s)', '+|-', 8e+11),
-        n = 0,
-        alpha = 0,
-        E0 = (0.046, 'kcal/mol', '+|-', 0.072),
-        Tmin = (300, 'K'),
-        Tmax = (980, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Tokmakov et al. [177]""",
-    longDesc =
+    index = 106,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(1.42839e+09,'m^3/(mol*s)'), n=-0.858081, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.283695694404, var=1.87999745198, Tref=1000.0, N=4, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R
+    Total Standard Deviation in ln(k): 3.46155564072"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R
+Total Standard Deviation in ln(k): 3.46155564072""",
+    longDesc = 
 u"""
-[177] Tokmakov, I. V.; Park, J.; Gheyas, S. I.; Lin, M. C. J. Phys. Chem. A. 1999, 103, 3636.
-Data Derived from detailed balance/reverse rate. Uncertainty 8.0E-2.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R
+Total Standard Deviation in ln(k): 3.46155564072
+""",
+)
 
-CH3 + phenyl --> C6H5CH3 (Rxn. 2) (cf. #444, below)
+entry(
+    index = 107,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_N-2R->C",
+    kinetics = ArrheniusBM(A=(1.57e+07,'m^3/(mol*s)'), n=1.44035e-07, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_N-2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_N-2R->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_N-2R->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_N-2R->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-***NHP***
-Verified by Greg Magoon; 0.05 kcal barrier changed to 0.046 as reported in paper; uncertainties are in abstract; more precise values appear in Tables 3,4; however, note: in text on p. 3639, A factor uncertainty is expressed as additive on log scale...value is relatively small, so it probably doesn't make that much of a difference; DA uncertainty was added and DE0 uncertainty was refined
+entry(
+    index = 108,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(5.22915e+07,'m^3/(mol*s)'), n=0.181361, w0=(194500,'J/mol'), E0=(19450,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.150824113586, var=0.0951888293469, Tref=1000.0, N=2, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R
+    Total Standard Deviation in ln(k): 0.997469697333"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R
+Total Standard Deviation in ln(k): 0.997469697333""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R
+Total Standard Deviation in ln(k): 0.997469697333
 """,
 )
 
 entry(
-    index = 444,
-    label = "C_methyl;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (1.39e+13, 'cm^3/(mol*s)', '+|-', 7e+11),
-        n = 0,
-        alpha = 0,
-        E0 = (0.03, 'kcal/mol', '+|-', 0.07),
-        Tmin = (424, 'K'),
-        Tmax = (972, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Park et al. [178]""",
-    longDesc =
+    index = 109,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing",
+    kinetics = ArrheniusBM(A=(7.49725e+08,'m^3/(mol*s)'), n=-0.546607, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0173097986373, var=0.452291225768, Tref=1000.0, N=9, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing
+    Total Standard Deviation in ln(k): 1.39172842662"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing
+Total Standard Deviation in ln(k): 1.39172842662""",
+    longDesc = 
 u"""
-[178] Park, J.; Cheyas, s. I.; Lin, M. C. Int. J. Chem. Kinet. 1999, 31, 645.
-Absolute value measured directly. Excitation: flash photolysis, analysis : mass spectometry. Pressure 0.05 atm. Uncertainty 7.0E-02
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing
+Total Standard Deviation in ln(k): 1.39172842662
+""",
+)
 
-CH3 + phenyl --> C6H5CH3 (Rxn. 4) (cf. #443, above)
+entry(
+    index = 110,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_N-6R!H->C",
+    kinetics = ArrheniusBM(A=(1.21e+07,'m^3/(mol*s)'), n=-1.37127e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_N-6R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_N-6R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_N-6R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_N-6R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-***NHP***
-Verified by Greg Magoon; values appear in Appendix A and (with uncertainty) on p. 649; total pressure around 3 torr (Table II); DA uncertainty was added and DE0 uncertainty was refined
+entry(
+    index = 111,
+    label = "Root_1R->H",
+    kinetics = ArrheniusBM(A=(1.6326e+08,'m^3/(mol*s)'), n=0.00413565, w0=(190779,'J/mol'), E0=(19077.9,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0619105688366, var=7.34417314112, Tref=1000.0, N=43, correlation='Root_1R->H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H
+    Total Standard Deviation in ln(k): 5.58841330597"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H
+Total Standard Deviation in ln(k): 5.58841330597""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H
+Total Standard Deviation in ln(k): 5.58841330597
 """,
 )
 
 entry(
-    index = 445,
-    label = "C_methyl;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 112,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R_Ext-5R!H-R",
+    kinetics = ArrheniusBM(A=(3.48129e+07,'m^3/(mol*s)'), n=-0.157514, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R_Ext-5R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R_Ext-5R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R_Ext-5R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH3 + HCO --> CH3CHO
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H_Ext-1C-R_Ext-5R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg 1095, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 16,15.
+entry(
+    index = 113,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R",
+    kinetics = ArrheniusBM(A=(104369,'m^3/(mol*s)'), n=0.705194, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0346096610536, var=0.973963688559, Tref=1000.0, N=10, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R
+    Total Standard Deviation in ln(k): 2.06542394964"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R
+Total Standard Deviation in ln(k): 2.06542394964""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R
+Total Standard Deviation in ln(k): 2.06542394964
+""",
+)
 
-Verified by Karma James
+entry(
+    index = 114,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_4R!H-inRing",
+    kinetics = ArrheniusBM(A=(601.137,'m^3/(mol*s)'), n=0.87177, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_4R!H-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_4R!H-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_4R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_4R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-pg. 1167: Discussion on evaluated data
+entry(
+    index = 115,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(1.55409e+91,'m^3/(mol*s)'), n=-24.7026, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-Recommended data calculated using reverse rate and equilibrium constant
+entry(
+    index = 116,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_2NO->N",
+    kinetics = ArrheniusBM(A=(2.63e+08,'m^3/(mol*s)'), n=-1.1, w0=(83500,'J/mol'), E0=(8350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_2NO->N',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_2NO->N
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_2NO->N
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R_2NO->N
+Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
 
-Authors note that their RRKM calculations suggest that rxn is very close
-to high-P limit at low temperatures.
-MRH 28-Aug-2009
+entry(
+    index = 117,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_2R-inRing",
+    kinetics = ArrheniusBM(A=(1.77136e+06,'m^3/(mol*s)'), n=0.0494766, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0355540882513, var=0.00255574629843, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_2R-inRing
+    Total Standard Deviation in ln(k): 0.190680037989"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_2R-inRing
+Total Standard Deviation in ln(k): 0.190680037989""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_2R-inRing
+Total Standard Deviation in ln(k): 0.190680037989
 """,
 )
 
 entry(
-    index = 446,
-    label = "C_methyl;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (4.2e+13, 'cm^3/(mol*s)', '+|-', 8.4e+12),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Hassinen et al [179]""",
-    longDesc =
+    index = 118,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R",
+    kinetics = ArrheniusBM(A=(1.62598e+07,'m^3/(mol*s)'), n=0.255122, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00414786628487, var=0.0, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R
+    Total Standard Deviation in ln(k): 0.0104217745851"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R
+Total Standard Deviation in ln(k): 0.0104217745851""",
+    longDesc = 
 u"""
-[179] Hassinen, E.; Kalliorinne, K; Koskikallio, J. Int. J. Chem. Kinet. 1990, 22, 741
-Data derived from fitting to a complex mechanism. Excitation : direct photolysis, analysis : GC. Pressure 96? and 99 kPa with He, 5.5 kPa and 25 kPa with CO2.
-
-CH3CO. + .CH3 --> (CH3)2CO (Rxn. 6)
-
-paper states reaction occurs close to high pressure limit (p. 742)
-Verified by Greg Magoon; Note that the paper cites 4 other values for k6 from literature; perhaps uncertainty could be assigned based on these values; also, page 744 discusses "relatively large value of k6" potentially due to other reactions; p. 744: uncertainty estimated to be 20% -> I changed DA uncertainty from 0 to 8.4E+12
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-2C-R
+Total Standard Deviation in ln(k): 0.0104217745851
 """,
 )
 
 entry(
-    index = 447,
-    label = "C_methyl;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (4.04e+15, 'cm^3/(mol*s)', '*|/', 1.5),
-        n = -0.8,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 119,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_3C-inRing",
+    kinetics = ArrheniusBM(A=(8.89521e+07,'m^3/(mol*s)'), n=0.0353438, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_3C-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_3C-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_3C-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH3 + CH3CO --> (CH3)2CO
-
-pg 1103, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 22,16.
-
-Verified by Karma James
-
-NOTE: Reported rate coefficients are for k_inf (MRH 11Aug2009)
-
-pg. 1232-1233: Discussion on evaluated data
-
-Recommended data computed using reverse rate constant (assuming pre-exponential factor
-
-of 5x10^16 s^-1) and equilibrium constant.
-Fall-off curves and collisional efficiencies are reported (although we do not
-
-store them in RMG_database)
-Rate coefficient expression given on pg. 1232 different from that reported in
-
-table on pg. 1103.  Value in RMG and on kinetics.nist.gov agree with the
-expression reported in table.
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_3C-inRing
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 448,
-    label = "C_methyl;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (6.03e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc =
+    index = 120,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_5R!H-inRing",
+    kinetics = ArrheniusBM(A=(1.11452e+11,'m^3/(mol*s)'), n=-1.43904, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_5R!H-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_5R!H-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_5R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
-Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
-
-CH3 + .OH --> CH3OH
-
-pg 871 Evaluated Kinetic Data for Combustion Modelling Supplement 1, Table 3. Combination reactions.
-
-RMG data matches reference data for k(infinity).
-
-Verified by Karma James
-
-pg.933-934: Discussion of evaluated data
-
-OH+CH3(+m) --> CH3OH(+m): RMG stores the recommended high-pressure limit rate coefficient,
-
-k_inf.  "The available database is still limited and more measurements are needed.
-... The preferred k_inf is consistent with SACM estimates ..."
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_Sp-3R!H=2R_Ext-1C-R_Sp-5R!H-1C_5R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 449,
-    label = "C_methyl;O_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (1.21e+13, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 121,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_2R->C",
+    kinetics = ArrheniusBM(A=(6.89518e+73,'m^3/(mol*s)'), n=-21.0166, w0=(83500,'J/mol'), E0=(8350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_2R->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_2R->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH3 + CH3O --> (CH3)2O
-
-pg 1104, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 24,16.
-
-Verified by Karma James
-
-pg. 1247: Discussion on evaluated data
-
-Recommended data from study by Gray, Shaw, and Thynne (1967).  Expression was
-
-estimated from rates of CH3+CH3=C2H6 and CH3O+CH3O=CH3OOCH3.
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_2R->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 450,
-    label = "C_rad/H2_Val72_HVal7/Cs;C_rad/H2_Val72_HVal7/Cs",
-    kinetics = ArrheniusEP(
-        A = (1.15e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1200, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc =
+    index = 122,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H",
+    kinetics = ArrheniusBM(A=(4.97333e+06,'m^3/(mol*s)'), n=0.298336, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00838141925469, var=0.779307072033, Tref=1000.0, N=3, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H
+    Total Standard Deviation in ln(k): 1.79080630403"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H
+Total Standard Deviation in ln(k): 1.79080630403""",
+    longDesc = 
 u"""
-[95] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Esser, C.; Frank, P.; Just, T.; Kerr,
-J. A.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
-
-.C2H5 + .C2H5 --> n-C4H10
-
-pg.707: Discussion on evaluated data
-
-C2H5+C2H5 --> nC4H10: "The preferred rate coefficient is the mean of the results of
-
-Parkes and Quinn, Adachi et al., Demissy and Lesclaux, Pacey and Wimalasena,
-Munk et al., Arthur, and Anastasi and Arthur which are all in substantial
-agreement."
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R_N-Sp-4R!H-=3R!H
+Total Standard Deviation in ln(k): 1.79080630403
 """,
 )
 
 entry(
-    index = 451,
-    label = "C_rad/H2_Val72_HVal7/Cs;C_rad/H_Val7/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (1.15e+14, 'cm^3/(mol*s)', '*|/', 2),
-        n = -0.35,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [91] literature review.""",
-    longDesc =
+    index = 123,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R_Ext-4R!H-R",
+    kinetics = ArrheniusBM(A=(2e+07,'m^3/(mol*s)'), n=1.78837e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R_Ext-4R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R_Ext-4R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
-C2H5 + iso-C3H7 --> iso-C5H12
-
-pg 894, Chemical Kinetic Database For Combustion Chemistry, Part 3. Index of Reactions and Summary of Recommended Rate Expressions. No. 42,17.
-
-Verified by Karma James
-
-pg. 937-938: Discussion on evaluated data
-
-Entry 42,17 (a): No data available at the time.  The author obtains the recommended
-
-rate coefficient expression by using the geometric mean rule (using the rxn rates
-of C2H5+C2H5-->adduct and i-C3H7+i-C3H7-->adduct).
-MRH 30-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 452,
-    label = "C_rad/H2_Val72_HVal7/Cs;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (6.91e+14, 'cm^3/(mol*s)', '*|/', 2),
-        n = -0.75,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 124,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_N-Sp-4R!H-2R",
+    kinetics = ArrheniusBM(A=(3.45106e-07,'m^3/(mol*s)'), n=3.72998, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_N-Sp-4R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_N-Sp-4R!H-2R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_N-Sp-4R!H-2R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
-C2H5 + tert-C4H9 --> (CH3)3CCH2CH3
-
-//DOES NOT MATCH! Reference: A = 9.6E+12, E0 = 0, n = -0.75, Database: A = 6.91E+14, E0 = 0, n = -0.75
-
-//pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
-
-//Index of Reactions and Summary of Recommended Rate Expressions. No. 44,17.
-
-//Verified by Karma James
-
-pg. 37
-
-Data reported as kc = 1.6e-11 * (300/T)^0.75
-
-When lumping the 1.6e-11 * 300^0.75, attain A=6.94e+14
-No experimental data, at the time
-
-Verified by MRH on 10Aug2009
-
-pg.37: Discussion on evaluated data
-
-Entry 44,17(c): Recommended rate calculated by taking geometric mean of C2H5+C2H5-->adduct
-
-and tC4H9+tC4H9-->adduct rxns.
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_N-Sp-4R!H-2R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 453,
-    label = "C_rad/H2_Val72_HVal7/Cs;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 125,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(106477,'m^3/(mol*s)'), n=0.348287, w0=(140789,'J/mol'), E0=(14078.9,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0108230153501, var=2.70964383578, Tref=1000.0, N=19, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R
+    Total Standard Deviation in ln(k): 3.32718707999"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R
+Total Standard Deviation in ln(k): 3.32718707999""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-C2H5 + HCO --> C2H5CHO
-
-pg 1097, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 17,15.
-
-Verified by Karma James
-
-pg. 1179: Discussion on evaluated data
-
-Recommended data is based on the rate expression for CH3+CHO-->H3CCHO
-
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R
+Total Standard Deviation in ln(k): 3.32718707999
 """,
 )
 
 entry(
-    index = 454,
-    label = "C_rad/H2_Val72_HVal7/Cs;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (3.12e+14, 'cm^3/(mol*s)', '*|/', 3),
-        n = -0.5,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 126,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(129687,'m^3/(mol*s)'), n=0.801692, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0247533941213, var=0.0, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C
+    Total Standard Deviation in ln(k): 0.0621944575911"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C
+Total Standard Deviation in ln(k): 0.0621944575911""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-C2H5 + CH3CO --> C2H5COCH3
-
-pg 1103, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 22,17.
-
-Verified by Karma James
-
-pg. 1234: Discussion on evaluated data
-
-Recommended data is based on the rate expression for CH3+CH3CO-->(CH3)2CO
-
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_N-3R!H->C
+Total Standard Deviation in ln(k): 0.0621944575911
 """,
 )
 
 entry(
-    index = 455,
-    label = "C_rad/H2_Val72_HVal7/Cs;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (7.7e+13, 'cm^3/(mol*s)', '+|-', 1e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (400, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Fagerstrom et al. [180]""",
-    longDesc =
+    index = 127,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R",
+    kinetics = ArrheniusBM(A=(5.3914e+06,'m^3/(mol*s)'), n=0.320354, w0=(123500,'J/mol'), E0=(12350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00769442559707, var=3.73743573387, Tref=1000.0, N=3, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R
+    Total Standard Deviation in ln(k): 3.89497653508"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R
+Total Standard Deviation in ln(k): 3.89497653508""",
+    longDesc = 
 u"""
-[180] Fagerstrom, K.; Lund, A.; Mahmoud, G.; Jodkowski, J. T.; Ratajczak, E. Chem. Phys. Lett. 1993, 208, 321
-Excitation : radiolysis, analysis : VIS-UV absorption. Pressure 0.25-0.99 bar SF6. Original Uncertainty 1.0E+13.
-
-C2H5 + OH (+M) --> C2H5OH (+M) (Rxn. 1a)
-
-Verified by Greg Magoon; value reported for k1a,Infinity (high-pressure) appears to be theoretical rather than experimentally based; value in paper is 7.7+/-1.0E13 (rateLibrary originally had 7.69E13 with uncertainty of *1.1, so I changed it to match paper values); there doesn't seem to be an experimental value for k1a, but k(1a+1b) is slightly lower (6.5E13); experimentally, they say no pressure dependence observed in studied pressure range (p. 326)
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R
+Total Standard Deviation in ln(k): 3.89497653508
 """,
 )
 
 entry(
-    index = 456,
-    label = "C_rad/H_Val7/NonDeC;C_rad/H_Val7/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (3.25e+14, 'cm^3/(mol*s)', '*|/', 2),
-        n = -0.7,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [91] literature review.""",
-    longDesc =
+    index = 128,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S",
+    kinetics = ArrheniusBM(A=(4.95222e+08,'m^3/(mol*s)'), n=-0.217361, w0=(181241,'J/mol'), E0=(18124.1,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.456330193395, var=13.8732277567, Tref=1000.0, N=27, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S
+    Total Standard Deviation in ln(k): 8.61355133141"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S
+Total Standard Deviation in ln(k): 8.61355133141""",
+    longDesc = 
 u"""
-[91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
-Iso-C3H7 + iso-C3H7 --> (CH3)2CHCH(CH3)2
-
-pg 895, Chemical Kinetic Database For Combustion Chemistry, Part 3. Index of Reactions and Summary of Recommended Rate Expressions. No. 42,42.
-
-//NOTE: For A value, Database value = 3.25E+14 and Reference value = 6.023E+12
-
-Verified by Karma James
-
-MRH computes reference A value = 3.26E+14 (11Aug2009)
-
-pg. 946-947: Discussion on evaluated data
-
-Entry 42,42 (a): Multiple data available at low T.  Author fit experimentally reported
-
-data to obtain recommended rate coefficient expression.  Note: the author states
-that more high-Temperature data points are necessary (to ensure a reasonable
-fit at high-T).
-MRH 30-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S
+Total Standard Deviation in ln(k): 8.61355133141
 """,
 )
 
 entry(
-    index = 457,
-    label = "C_rad/H_Val7/NonDeC;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (4.12e+15, 'cm^3/(mol*s)', '*|/', 1.5),
-        n = -1.1,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 129,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C",
+    kinetics = ArrheniusBM(A=(2.41364e+09,'m^3/(mol*s)'), n=-0.390932, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00603156000563, var=0.104335976043, Tref=1000.0, N=4, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C
+    Total Standard Deviation in ln(k): 0.662705751806"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C
+Total Standard Deviation in ln(k): 0.662705751806""",
+    longDesc = 
 u"""
-[92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
-Iso-C3H7 + tert-C4H9 --> 2,2,3-trimethyl-butane
-
-//DOES NOT MATCH! Reference: A = 7.83E+12, E0 = 0, n = -1.1, Database: A = 4.12E+15, E0 = 0, n = -1.1
-
-//pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
-
-//Index of Reactions and Summary of Recommended Rate Expressions. No. 44,42.
-
-//Verified by Karma James
-
-pg. 46
-
-Data reported as kc = 1.3e-11 * (300/T)^1.1
-
-When lumping the 1.3e-11 * 300^1.1, attain A=4.15e+15
-No experimental data, at the time
-
-Verified by MRH on 10Aug2009
-
-Entry 44,42(c): Recommended rate computed using geometric mean of iC3H7+iC3H7-->adduct
-
-and tC4H9+tC4H9-->adduct rxns.
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C
+Total Standard Deviation in ln(k): 0.662705751806
 """,
 )
 
 entry(
-    index = 458,
-    label = "C_rad/H_Val7/NonDeC;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (6.64e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = -0.35,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [91] literature review.""",
-    longDesc =
+    index = 130,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-1N-R",
+    kinetics = ArrheniusBM(A=(6.74236e+06,'m^3/(mol*s)'), n=0.142499, w0=(77250,'J/mol'), E0=(7725,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0607054911525, var=1.94482475529, Tref=1000.0, N=4, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-1N-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R
+    Total Standard Deviation in ln(k): 2.94826923214"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R
+Total Standard Deviation in ln(k): 2.94826923214""",
+    longDesc = 
 u"""
-[91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
-Iso-C3H7 + CH3CO --> iso-C3H7COCH3
-
-pg 895, Chemical Kinetic Database For Combustion Chemistry, Part 3. Index of Reactions and Summary of Recommended Rate Expressions. No. 42,22.
-
-//NOTE: For A value, Database value = 6.64E+13 and Reference value = 9.03E+12
-
-Verified by Karma James
-
-MRH computes reference A value = 6.65E+13 (11Aug2009)
-
-pg. 943: Discussion on evaluated data
-
-Entry 42,22: No data available at the time.  Author uses the geometrical mean rule
-
-(for the rxns i-C3H7+i-C3H7-->adduct and CH3CO+CH3CO-->adduct) to obtain
-recommended rate coefficient expression
-MRH 30-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R
+Total Standard Deviation in ln(k): 2.94826923214
 """,
 )
 
 entry(
-    index = 459,
-    label = "C_rad/H_Val7/NonDeC;O_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (6.03e+12, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [91] literature review.""",
-    longDesc =
+    index = 131,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-3C-R",
+    kinetics = ArrheniusBM(A=(3.48129e+07,'m^3/(mol*s)'), n=-0.157514, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-3C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-3C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-3C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
-Iso-C3H7 + CH3O --> i-C3H7OCH3
-
-pg 895, Chemical Kinetic Database For Combustion Chemistry, Part 3. Index of Reactions and Summary of Recommended Rate Expressions. No. 42,24.
-
-Verified by Karma James
-
-pg. 943: Discussion on evaluated data
-
-Entry 42,24 (b): No data available at the time.  Author recommends rate coefficient
-
-based on CH3+CH3O-->adduct.
-MRH 30-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-3C-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 460,
-    label = "C_rad/Cs3;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (1.24e+16, 'cm^3/(mol*s)', '*|/', 2),
-        n = -1.5,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 132,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R",
+    kinetics = ArrheniusBM(A=(9.99999e+06,'m^3/(mol*s)'), n=9.65418e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
-Tert-C4H9 + tert- C4H9 --> (CH3)3CC(CH3)3
-
-//DOES NOT MATCH! Reference: A = 2.4E+12, E0 = 0, n = -1.5, Database: A = 1.24E+16, E0 = 0, n = -1.5
-
-//pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
-
-//Index of Reactions and Summary of Recommended Rate Expressions. No. 44,44.
-
-//Verified by Karma James
-
-pg. 47
-
-Data reported as ka = 4e-12 * (300/T)^1.5
-
-When lumping the 4e-12 * 300^1.5, attain A=1.25e+16
-Recommended data taken from expression computed by Parkes, Quinn (1976)
-
-Verified by MRH on 10Aug2009
-
-Entry 44,44(a)
-
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 461,
-    label = "C_rad/Cs3;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.21e+13, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 133,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-4R!H-R",
+    kinetics = ArrheniusBM(A=(3.78708e+06,'m^3/(mol*s)'), n=-0.129357, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-4R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-4R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
-Tert-C4H9 + HCO --> tert-C4H9CHO
-
-pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
-
-Index of Reactions and Summary of Recommended Rate Expressions. No. 44,15.
-
-Verified by Karma James
-
-pg.36: Discussion on evaluated data
-
-Entry 44,15(b): No data available at the time.  Recommended rate coefficient is based
-
-on rate of rxn tC4H9+CH3-->adduct, but "slightly smaller"
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 462,
-    label = "C_rad/Cs3;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (7.75e+14, 'cm^3/(mol*s)', '*|/', 2),
-        n = -0.75,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 134,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H",
+    kinetics = ArrheniusBM(A=(6.28654e+07,'m^3/(mol*s)'), n=-0.211676, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00579809229276, var=0.287312654976, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H
+    Total Standard Deviation in ln(k): 1.0891372184"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H
+Total Standard Deviation in ln(k): 1.0891372184""",
+    longDesc = 
 u"""
-[92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
-Tert-C4H9 + CH3CO --> tert-C4H9COCH3
-
-//DOES NOT MATCH! Reference: A = 1.08E+13, E0 = 0, n = -0.75, Database: A = 7.75E+14, E0 = 0, n = -0.75
-
-//pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
-
-//Index of Reactions and Summary of Recommended Rate Expressions. No. 44,22.
-
-//Verified by Karma James
-
-pg. 42
-
-Data reported as k = 1.8e-11 * (300/T)^0.75
-
-When lumping the 1.8e-11 * 300^0.75, attain A=7.81e+14
-No experimental data, at the time
-
-Verified by MRH on 10Aug2009
-
-Entry 44,22: Recommended rate coefficient computed using geometric mean rule of
-
-tC4H9+tC4H9-->adduct and CH3CO+CH3CO-->adduct rxns
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_Sp-4R!H=3R!H
+Total Standard Deviation in ln(k): 1.0891372184
 """,
 )
 
 entry(
-    index = 463,
-    label = "C_rad/Cs3;O_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (9.04e+12, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [92] literature review.""",
-    longDesc =
+    index = 135,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(164141,'m^3/(mol*s)'), n=0.637502, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0311760265022, var=0.946024688451, Tref=1000.0, N=48, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R
+    Total Standard Deviation in ln(k): 2.02821325078"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R
+Total Standard Deviation in ln(k): 2.02821325078""",
+    longDesc = 
 u"""
-[92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
-Tert-C4H9 + CH3O --> tert-C4H9OCH3
-
-pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
-
-Index of Reactions and Summary of Recommended Rate Expressions. No. 44,24.
-
-Verified by Karma James
-
-pg.42-43: Discussion on evaluated data
-
-Entry 44,24(b): Rate coefficient calculated using geometric mean rule of tC4H9+tC4H9-->adduct
-
-and CH3O+CH3O-->adduct rxns
-MRH 31-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R
+Total Standard Deviation in ln(k): 2.02821325078
 """,
 )
 
 entry(
-    index = 464,
-    label = "Cd_pri_rad;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (7.23e+13, 'cm^3/(mol*s)', '+|-', 1.2e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Fahr et al. [171]""",
-    longDesc =
+    index = 136,
+    label = "Root_1R->H_2R-inRing",
+    kinetics = ArrheniusBM(A=(5.62514e+08,'m^3/(mol*s)'), n=-0.277158, w0=(212091,'J/mol'), E0=(21209.1,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0171165426824, var=1.95021798231, Tref=1000.0, N=11, correlation='Root_1R->H_2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing
+    Total Standard Deviation in ln(k): 2.84262303871"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing
+Total Standard Deviation in ln(k): 2.84262303871""",
+    longDesc = 
 u"""
-[171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
-Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Original Uncertainty 1.2E+13.
-
-C2H3 + C2H3 --> (E)-CH2=CHCH=CH2 (Rxn. IIC)
-
-Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere; based on Eqs. 3, 6, it looks like a factor of two correction is not needed
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing
+Total Standard Deviation in ln(k): 2.84262303871
 """,
 )
 
 entry(
-    index = 465,
-    label = "Cd_pri_rad;Ct_rad/Ct",
-    kinetics = ArrheniusEP(
-        A = (1e+14, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (700, 'K'),
-        Tmax = (1300, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Duran et al. [165]""",
-    longDesc =
+    index = 137,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing_Ext-4R!H-R",
+    kinetics = ArrheniusBM(A=(2.67503e+10,'m^3/(mol*s)'), n=-0.732092, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing_Ext-4R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing_Ext-4R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[165] Duran, R. P.; Amorebieta, V. T.; Colussi, A. J. J. Phys. Chem. 1988, 92, 636.
-Ab initio. Pressure 0.10-1.0 atm.
-
-C2H3 +.C2H --> CH2=CHC=CH (Rxn. 25)
-
-NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:4
-Verified by Greg Magoon; value confirmed from paper data in Table III; this is presumably high-pressure limit since no pressure-dependence is indicated in the table
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_N-Sp-4R!H=3C_N-Sp-4R!H-3C_N-3C-inRing_Ext-4R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 466,
-    label = "Cd_pri_rad;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 138,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R",
+    kinetics = ArrheniusBM(A=(2.7487e+12,'m^3/(mol*s)'), n=-1.52302, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0804082824434, var=2.76117179731, Tref=1000.0, N=4, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R
+    Total Standard Deviation in ln(k): 3.53325384094"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R
+Total Standard Deviation in ln(k): 3.53325384094""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-C2H3 + HCO --> CH2=CHCHO
-
-pg 1099, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 19,15.
-
-Verified by Karma James
-
-pg. 1199: Discussion on evaluated data
-
-Recommended data based on rate expression for CH3+HCO-->CH3CHO
-
-Authors note that rate expression will be in fall-off region at high temperatures
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-6R!H-R
+Total Standard Deviation in ln(k): 3.53325384094
 """,
 )
 
 entry(
-    index = 467,
-    label = "Cb_rad;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (5.7e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (1100, 'K'),
-        Tmax = (1400, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Heckmann et al. [124]""",
-    longDesc =
+    index = 139,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C",
+    kinetics = ArrheniusBM(A=(5.15801e+06,'m^3/(mol*s)'), n=0.423463, w0=(201667,'J/mol'), E0=(20166.7,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00140340965819, var=0.294742016181, Tref=1000.0, N=3, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C
+    Total Standard Deviation in ln(k): 1.09189979396"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C
+Total Standard Deviation in ln(k): 1.09189979396""",
+    longDesc = 
 u"""
-[124] Heckmann, E.; Hippler, H.; Troe, J. Symp. Int. Combust. Proc.1996, 26, 543.
-Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorption.
-
-Phenyl + Phenyl --> Biphenyl
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C
+Total Standard Deviation in ln(k): 1.09189979396
 """,
 )
 
 entry(
-    index = 468,
-    label = "Cb_rad;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (1.39e+13, 'cm^3/(mol*s)', '+|-', 1.1e+12),
-        n = 0,
-        alpha = 0,
-        E0 = (0.11, 'kcal/mol', '+|-', 0.072),
-        Tmin = (300, 'K'),
-        Tmax = (500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Park et al. [181]""",
-    longDesc =
+    index = 140,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R",
+    kinetics = ArrheniusBM(A=(37016,'m^3/(mol*s)'), n=0.5518, w0=(132200,'J/mol'), E0=(-16592.2,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0638405962927, var=4.31215946294, Tref=1000.0, N=25, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R
+    Total Standard Deviation in ln(k): 4.32338419159"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R
+Total Standard Deviation in ln(k): 4.32338419159""",
+    longDesc = 
 u"""
-[181] Park, J. ; Lin, M. C. J. Phys. Chem. A. 1997, 101, 14
-Absolute value measured directly. Excitation : flash photolysis, analysis : mass spectometry. Original Uncertainty 1.1E+12.
-
-phenyl + phenyl --> biphenyl (Reaction 1)
-
-***NHP***
-Verified by Greg Magoon: total pressure ~7 torr; DA uncertainty changed to additive, as reported in paper, and DE0 uncertainty was refined
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R
+Total Standard Deviation in ln(k): 4.32338419159
 """,
 )
 
 entry(
-    index = 469,
-    label = "CO_pri_rad;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.51e+13, 'cm^3/(mol*s)', '+|-', 6.02e+12),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (298, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Stoeckel et al. [182]""",
-    longDesc =
+    index = 141,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_N-5R!H->C",
+    kinetics = ArrheniusBM(A=(1.81e+07,'m^3/(mol*s)'), n=-1.42812e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_N-5R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_N-5R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_N-5R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[182] Stoeckel, F.; Schuh, M. D.; Goldstein, N.; Atkinson, G.H. Chem. Phys. 1985, 95, 135
-Absolute value measured directly. Excitation : flash photolysis, abalysis : VIS-UV absorption. Original uncertainty 1.2E+13. Pressure: 10 Torr (this is total pressure; see p. 141)
-
-HCO + HCO --> (CHO)2
-
-***NHP***
-Verified by Greg Magoon: the existing k in the rateLibrary appeared to be off by a factor of two, since the paper uses d[HCO]/dt=-k*[HCO]^2; they report k=(5+/-2)*10^-11 molecules^-1*cm^3/s (references 9, 19, and 20 in this paper could have better data); I think in rateLibrary, we should have half of this (2.5 +/- 1), so I have changed the value in the rateLibrary accordingly (with 2nd opinion to confirm from MRH)
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_N-5R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 470,
-    label = "CO_pri_rad;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 142,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(1374.05,'m^3/(mol*s)'), n=1.72073, w0=(77250,'J/mol'), E0=(43534.9,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.152210486783, var=35.9417334497, Tref=1000.0, N=8, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R
+    Total Standard Deviation in ln(k): 12.4011108484"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R
+Total Standard Deviation in ln(k): 12.4011108484""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-HCO + CH3CO --> CH3COCHO
-
-pg 1102, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 22,15.
-
-Verified by Karma James
-
-pg. 1232: Discussion on evaluated data
-
-Recommended data is assigned a value of 3x10^-11 cm3/molecule*s (This appears to be
-
-the default value the authors assign for recombination rxns)
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R
+Total Standard Deviation in ln(k): 12.4011108484
 """,
 )
 
 entry(
-    index = 471,
-    label = "CO_rad/NonDe;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (1.21e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 143,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_N-4R!H-inRing",
+    kinetics = ArrheniusBM(A=(3.63222,'m^3/(mol*s)'), n=1.59841, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_N-4R!H-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_N-4R!H-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_N-4R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH3CO + CH3CO --> (CH3CO)2
-
-pg 1103, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 22,22.
-
-Verified by Karma James
-
-pg. 1234-1235: Discussion on evaluated data
-
-Recommended data is assigned based on 5 reported direct measurements of rate coefficient
-
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H_N-4R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 472,
-    label = "O_pri_rad;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (1.57e+13, 'cm^3/(mol*s)', '+|-', 6.02e+12),
-        n = (0, '', '+|-', 0.5),
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (400, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""DeMore et al. [183] literature review.""",
-    longDesc =
+    index = 144,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_Sp-3R!H-=2R",
+    kinetics = ArrheniusBM(A=(2.2e+08,'m^3/(mol*s)'), n=1.30791e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_Sp-3R!H-=2R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_Sp-3R!H-=2R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_Sp-3R!H-=2R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[183] DeMore, W. B.; Sander, S. P.; Golden, D. M.; Hampson, R. F.; Kurylo, M.J.;
-Howard, C. J.; Ravishankara, A. R.; Kolb, C. E.; Molina, M .J. JPL publication 97-4 1997, 1.
-
-(Rate constant is high pressure limit, original uncertainty 6.0E+12)
-
-[97] Atkinson, R.; Baulch, D. L.; Cox, R. A.; Hampson, R. F., jr.; Kerr, J. A.; Rossi, M. J.; Troe, J.
-
-J. Phys. Chem. Ref. Data 1997, 26, 1329
-
-OH + OH --> H2O2
-
-Literature review: OH + OH (+m) --> H2OH
-
-pg.126: Recommended low-pressure and high-pressure limit rate coefficient
-
-pg.130 B2: Discussion on evaluated data.
-
-Authors recommend the fits by Zellner et al. in N2 and by Forster et al.
-in 1-150kbar He scaled to N2.  RMG stores the high-pressure limit (k_inf)
-rate coefficient.
-*** High-pressure rate coefficient. ***
-
-MRH 1-Sept-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H_Ext-2R-R_Sp-3R!H-=2R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 473,
-    label = "O_rad/NonDe;O_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (1.81e+12, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
-    longDesc =
+    index = 145,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C_Ext-3C-R",
+    kinetics = ArrheniusBM(A=(2.1534e+07,'m^3/(mol*s)'), n=0.0505704, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00289490297729, var=9.94451676066, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C_Ext-3C-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C_Ext-3C-R
+    Total Standard Deviation in ln(k): 6.32919123293"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C_Ext-3C-R
+Total Standard Deviation in ln(k): 6.32919123293""",
+    longDesc = 
 u"""
-[89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH3O + CH3O --> CH3OOCH3
-
-pg 1105, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 24,24.
-
-Verified by Karma James
-
-pg. 1251: Discussion on evaluated data (in theory)
-
-Online reference does not contain pg. 1251.  The following discussion is based
-on the information provided in the table on pg. 1105
-Entry 24,24 (b)
-
-MRH 28-Aug-2009
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_Sp-3R!H=2C_3R!H->C_Ext-3C-R
+Total Standard Deviation in ln(k): 6.32919123293
 """,
 )
 
 entry(
-    index = 474,
-    label = "H_rad;Cs_rad",
-    kinetics = ArrheniusEP(
-        A = (5e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran's [8] estimation.""",
-    longDesc =
+    index = 146,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_N-2R->C",
+    kinetics = ArrheniusBM(A=(1.81e+06,'m^3/(mol*s)'), n=-5.80997e-08, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_N-2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_N-2R->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_N-2R->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Curran's estimation, based on half that recommended by Allara and Shaw [146] for H (rad) and R (rad) recombination reactions
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Sp-4R!H-2R_N-2R->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 475,
-    label = "C_methyl;C_ter_rad",
-    kinetics = ArrheniusEP(
-        A = (1.63e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.596, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran's [8] estimation.""",
-    longDesc =
+    index = 147,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_Sp-5R!H-4R!H",
+    kinetics = ArrheniusBM(A=(1.48138e+06,'m^3/(mol*s)'), n=-0.119415, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_Sp-5R!H-4R!H',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_Sp-5R!H-4R!H
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_Sp-5R!H-4R!H
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Curran's estimation, based on recommendations of Tsang [92] for CH3 + tC4H9
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_Sp-5R!H-4R!H
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 476,
-    label = "C_methyl;C_sec_rad",
-    kinetics = ArrheniusEP(
-        A = (6.8e+14, 'cm^3/(mol*s)'),
-        n = -0.68,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran's [8] estimation.""",
-    longDesc =
+    index = 148,
+    label = "Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(4.43763e+07,'m^3/(mol*s)'), n=-0.328516, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Curran's estimation based on half Tsang's [91] recommendation for CH3 + iC3H7
+BM rule fitted to 2 training reactions at node Root_1R->H_2R-inRing_Ext-2R-R_Ext-3R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H_Ext-3R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 477,
-    label = "C_pri_rad;C_sec_rad",
-    kinetics = ArrheniusEP(
-        A = (4.79e+14, 'cm^3/(mol*s)'),
-        n = -0.75,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran's [8] estimation.""",
-    longDesc =
+    index = 149,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_4R!H->C",
+    kinetics = ArrheniusBM(A=(3e+06,'m^3/(mol*s)'), n=1.10623e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_4R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_4R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Curran's estimation for neoC5H11 + iC3H7, similar to tC4H9 + iC4H9
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 478,
-    label = "C_pri_rad;C_ter_rad",
-    kinetics = ArrheniusEP(
-        A = (3.59e+14, 'cm^3/(mol*s)'),
-        n = -0.75,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran's [8] estimation.""",
-    longDesc =
+    index = 150,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C",
+    kinetics = ArrheniusBM(A=(1.53609e+09,'m^3/(mol*s)'), n=-0.946459, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.000724761308015, var=1.22133425516, Tref=1000.0, N=6, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C
+    Total Standard Deviation in ln(k): 2.2173337826"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C
+Total Standard Deviation in ln(k): 2.2173337826""",
+    longDesc = 
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's estimation. About a factor of 2 slower than other
-
-values from literature for smaller alkyl, based upon the consideration that rate constants decrease with the increasing size of R radical.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C
+Total Standard Deviation in ln(k): 2.2173337826
 """,
 )
 
 entry(
-    index = 479,
-    label = "O_pri_rad;O_sec_rad",
-    kinetics = ArrheniusEP(
-        A = (2e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran's [159] estimation.""",
-    longDesc =
+    index = 151,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R",
+    kinetics = ArrheniusBM(A=(1.80332e+07,'m^3/(mol*s)'), n=0.127561, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00207394171242, var=4.85073603852, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
+    Total Standard Deviation in ln(k): 4.42051694063"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 4.42051694063""",
+    longDesc = 
 u"""
-[159] Curran, H.J.; Pitz, W.J.; Westbrook, C.K.; Dagaut, P.; Boettner, J.-C.; Cathonnet, M. Int. J. Chem. Kinet. 1998, 30, 229.
-Curran's estimation in DME modeling for ketohydroperoxide decomposition
-
-Apparently the number comes from estimate for reverse of Rxn. 337: HO2CH2OCHO -> .OCH2OCHO + .OH (2E13) (p. 234); reverse of Rxn. 191 (p. 238) would also be informative, but it doesn't seem to be disucussed in paper
-Verified by Greg Magoon; it is not immediately clear whether this rate constant is for high pressure limit, but based on other references to high pressure limit in the paper, I suspect that it is a high pressure limit value
-
-*NHP = Not necessarily at high pressure limit
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_Ext-2C-R_Ext-3R!H-R
+Total Standard Deviation in ln(k): 4.42051694063
 """,
 )
 
 entry(
-    index = 480,
-    label = "O2_birad;H_rad",
-    kinetics = ArrheniusEP(
-        A = (4.395e+10, 'cm^3/(mol*s)'),
-        n = 1,
-        alpha = 0,
-        E0 = (0.45, 'kcal/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (6000, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
-    longDesc =
+    index = 152,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R",
+    kinetics = ArrheniusBM(A=(5.66445e+06,'m^3/(mol*s)'), n=-0.45, w0=(77250,'J/mol'), E0=(7725,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=5.16655300091e-16, var=3.401841873, Tref=1000.0, N=2, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R
+    Total Standard Deviation in ln(k): 3.69754995947"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R
+Total Standard Deviation in ln(k): 3.69754995947""",
+    longDesc = 
 u"""
-[142] Duchovic,R.J; Pettigrew,J D; Welling B; Shipchandler,T. *J. Chem Phys.* **105**, 10367 (1996) http://dx.doi.org/10.1063/1.472992
-
-RRK(M) extrapolation. H + O2 --> OH + O
-
-C.D.W. divided rate expression by 2, to get rate of addition per site.
-
-Values (4.395E+10	1.00	0	0.45) confirmed to fit table (divided by 2)
-by rwest@mit.edu  7-Sep-2009
-
-Agreement with experimental data from Cobos et al.
-(C. J. Cobos, H. Hippler, and J. Troe, *J. Phys. Chem.* 89, 342, 1985)
-was promising **at low pressures**, but
-"Significant deviations are observed between theory and experiment as the
-high-pressure limit is approached."
-
-E.g., at 298 K
-
-    "However, the value of
-    the high-pressure limit rate coefficient at 298.15 K for the
-    termolecular process computed with TST, model I, and
-    model II does not agree with the estimated high-pressure
-    limit value of Cobos et al. at that temperature. TST,
-    model I, and model II agree with one another, predicting a
-    value of Log10(k)=-10.7 where the value of the limiting
-    high-pressure rate coefficient k=2E-11 cm3/molecule/s at 298.15 K,
-    while Cobos et al. estimate a value of Log10(k)=-10.12
-    (that is, k=7.5E-11 cm3/molecule/s)"
-
-The calculations used the *ab initio* PES of Walch et al., which was the best available in 1991.
-(63) Walch, S. P.; Rohlfing, C. M.; Melius, C. F.; Bauschlicher, C. W. J. Chem. Phys. 1988, 88, 6273.
-(64) Walch, S. P.; Rohlfing, C. M. J. Chem. Phys. 1989, 91, 2373.
-(67) Walch, S. P.; Duchovic, R. J. J. Chem. Phys. 1991, 94, 7068.
-
-Many extensions and improvements are suggested for future work, which may well
-have happened since the paper was published in 1996. Revision of this rate is recommended.
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C_Ext-1N-R
+Total Standard Deviation in ln(k): 3.69754995947
 """,
 )
 
 entry(
-    index = 480,
-    label = "SsJ-S2s;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (3.94e+09, 'cm^3/(mol*s)'),
-        n = 1.25,
-        alpha = 0,
-        E0 = (-0.74, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc =
+    index = 153,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0_Ext-1N-R",
+    kinetics = ArrheniusBM(A=(1.1146e+21,'m^3/(mol*s)'), n=-4.68812, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0_Ext-1N-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0_Ext-1N-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0_Ext-1N-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_N-3R!H-u0_Ext-1N-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 481,
-    label = "SsJ-Cs;SsJ-Cs",
-    kinetics = ArrheniusEP(
-        A = (1.06e+11, 'cm^3/(mol*s)'),
-        n = 1.21,
-        alpha = 0,
-        E0 = (-0.95, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc =
+    index = 154,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H",
+    kinetics = ArrheniusBM(A=(5.67927e+10,'m^3/(mol*s)'), n=-1.26686, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.103891372706, var=0.0257351059192, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H
+    Total Standard Deviation in ln(k): 0.582636509508"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H
+Total Standard Deviation in ln(k): 0.582636509508""",
+    longDesc = 
 u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H
+Total Standard Deviation in ln(k): 0.582636509508
 """,
 )
 
 entry(
-    index = 482,
-    label = "C_rad/H2_Val72_HVal7/S;H_rad",
-    kinetics = ArrheniusEP(
-        A = (5e+11, 'cm^3/(mol*s)'),
-        n = 0.65,
-        alpha = 0,
-        E0 = (-0.37, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte??""",
-    longDesc =
+    index = 155,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_N-2R->C",
+    kinetics = ArrheniusBM(A=(3.65367e+06,'m^3/(mol*s)'), n=0.2352, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.470950179139, var=0.481323982295, Tref=1000.0, N=2, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_N-2R->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_N-2R->C
+    Total Standard Deviation in ln(k): 2.57412732042"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_N-2R->C
+Total Standard Deviation in ln(k): 2.57412732042""",
+    longDesc = 
 u"""
-Not sure that this has been assigned to the correct node,
-as we had to make an educated guess while resolving a merge
-conflit in the database. -- richard west and david farina
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-1N-R_Ext-1N-R_N-2R->C
+Total Standard Deviation in ln(k): 2.57412732042
 """,
 )
 
 entry(
-    index = 483,
-    label = "SsJ-H;H_rad",
-    kinetics = ArrheniusEP(
-        A = (7.07e+12, 'cm^3/(mol*s)'),
-        n = 0.56,
-        alpha = 0,
-        E0 = (-0.08, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc =
+    index = 156,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_3R!H->C",
+    kinetics = ArrheniusBM(A=(6.03e+06,'m^3/(mol*s)'), n=-5.81278e-09, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 484,
-    label = "SsJ-S2s;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (3.94e+09, 'cm^3/(mol*s)'),
-        n = 1.25,
-        alpha = 0,
-        E0 = (-0.74, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc =
+    index = 157,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C",
+    kinetics = ArrheniusBM(A=(6.30526e+07,'m^3/(mol*s)'), n=-0.283333, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-6.50053689359e-11, var=0.305422193575, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C
+    Total Standard Deviation in ln(k): 1.10791715097"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C
+Total Standard Deviation in ln(k): 1.10791715097""",
+    longDesc = 
 u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C
+Total Standard Deviation in ln(k): 1.10791715097
 """,
 )
 
 entry(
-    index = 485,
-    label = "SsJ-Cs;C_rad/H2_Val72_HVal7/Cs",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
+    index = 158,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R",
+    kinetics = ArrheniusBM(A=(2.8345e+07,'m^3/(mol*s)'), n=-0.175, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=4.38215142465e-09, var=1.02308715893, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R
+    Total Standard Deviation in ln(k): 2.02774485734"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R
+Total Standard Deviation in ln(k): 2.02774485734""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R
+Total Standard Deviation in ln(k): 2.02774485734
+""",
 )
 
 entry(
-    index = 486,
-    label = "SsJ-Cs;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
+    index = 159,
+    label = "Root_N-1R->H_N-1CClNOSSi->N",
+    kinetics = ArrheniusBM(A=(388820,'m^3/(mol*s)'), n=0.540123, w0=(156753,'J/mol'), E0=(-102376,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0275389427923, var=4.36991544586, Tref=1000.0, N=89, correlation='Root_N-1R->H_N-1CClNOSSi->N',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N
+    Total Standard Deviation in ln(k): 4.25996023581"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N
+Total Standard Deviation in ln(k): 4.25996023581""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N
+Total Standard Deviation in ln(k): 4.25996023581
+""",
 )
 
 entry(
-    index = 487,
-    label = "SsJ-Cs;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (8.94e+07, 'cm^3/(mol*s)'),
-        n = 1.54,
-        alpha = 0,
-        E0 = (-1.32, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""A.G. Vandeputte, calculated""",
+    index = 160,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_4R!H->C",
+    kinetics = ArrheniusBM(A=(8.43648e+08,'m^3/(mol*s)'), n=-0.692983, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.486034813833, var=0.494552119499, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_4R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_4R!H->C
+    Total Standard Deviation in ln(k): 2.63101090859"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_4R!H->C
+Total Standard Deviation in ln(k): 2.63101090859""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_4R!H->C
+Total Standard Deviation in ln(k): 2.63101090859
+""",
 )
 
 entry(
-    index = 481,
-    label = "O2_birad;H_rad",
-    kinetics = ArrheniusEP(
-        A = (8.15e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.76, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Cobos, C.J and Troe, J. [106] Transition state theory.""",
-    longDesc =
+    index = 161,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C",
+    kinetics = ArrheniusBM(A=(2.58432e+07,'m^3/(mol*s)'), n=-0.0956355, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0184614839253, var=0.814135090552, Tref=1000.0, N=5, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C
+    Total Standard Deviation in ln(k): 1.85524676771"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C
+Total Standard Deviation in ln(k): 1.85524676771""",
+    longDesc = 
 u"""
-[106] Cobos,C.J.;Troe,J.J. Chem. Phys 1985, 83,1010.
-
-Transition state theory. H+O2 -->HO2
-
-C.D.W. divided rate expression by 2, to get rate of addition per site
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C
+Total Standard Deviation in ln(k): 1.85524676771
 """,
 )
 
 entry(
-    index = 482,
-    label = "O2_birad;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (2.26e+12, 'cm^3/(mol*s)', '+|-', 4.2e+11),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
-    longDesc =
+    index = 162,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_6R!H->C",
+    kinetics = ArrheniusBM(A=(6.64e+07,'m^3/(mol*s)'), n=-0.35, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_6R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_6R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_6R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-We are using a primary R. radical as a methyl radical. The rate comes from n-butyl.
-
-[8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
-
-In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
-
-[143] Lenhardt, T.M.; McDade, C.E.; Bayes, K.D.; *J. Chem. Phys.* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
-
-Rates measurement of **n-butyl** + O2 at 300 K. High pressure limit from flash photolysis experiments.
-
-C.D.W. divided rate expression by 2, to get rate of addition rate per site,
-giving  (2.260.42)E12 cm3/mole/sec.
-
-    Rate constants for the reaction of four different butyl radicals with molecular oxygen
-    have been measured **at room temperature**. The radicals were generated by flash photolysis
-    and their time decay was followed with a photoionization mass spectrometer. The radical
-    concentrations were kept low to avoid complications from radicalradical reactions.
-    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied.
-
-    The rate constants, in units of 10E11 cm3/molecule/sec, are:
-
-     * **n-butyl (0.750.14); (gives (2.260.42)E12 cm3/mole/sec when divided by 2 to get rate per site)**
-     * s-butyl (1.660.22); (gives (5.000.66)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * t-butyl (2.340.39); (gives (7.051.17)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * 3-hydroxy s-butyl (2.81.8). (gives (8.435.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-
-    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr.
-
-Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured at 300K.
-rwest@mit.edu  7-Sep-2009
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_6R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 483,
-    label = "O2_birad;C_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (2.26e+12, 'cm^3/(mol*s)', '+|-', 4.2e+11),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
-    longDesc =
+    index = 163,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing",
+    kinetics = ArrheniusBM(A=(4.64183e+06,'m^3/(mol*s)'), n=0.438923, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.000133802134542, var=0.433753886377, Tref=1000.0, N=2, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing
+    Total Standard Deviation in ln(k): 1.32065459619"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing
+Total Standard Deviation in ln(k): 1.32065459619""",
+    longDesc = 
 u"""
-[8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
-
-In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
-
-[143] Lenhardt, T.M.; McDade, C.E.; Bayes, K.D.; *J. Chem. Phys.* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
-
-Rates measurement of **n-butyl** + O2 at 300 K. High pressure limit from flash photolysis experiments.
-C.D.W. divided rate expression by 2, to get rate of addition rate per site,
-giving  (2.260.42)E12 cm3/mole/sec.
-
-    Rate constants for the reaction of four different butyl radicals with molecular oxygen
-    have been measured **at room temperature**. The radicals were generated by flash photolysis
-    and their time decay was followed with a photoionization mass spectrometer. The radical
-    concentrations were kept low to avoid complications from radicalradical reactions.
-    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied.
-
-    The rate constants, in units of 10E11 cm3/molecule/sec, are:
-
-     * n-butyl (0.750.14); (gives (2.260.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * s-butyl (1.660.22); (gives (5.000.66)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * t-butyl (2.340.39); (gives (7.051.17)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * 3-hydroxy s-butyl (2.81.8). (gives (8.435.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-
-    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr.
-
-Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured at 300K.
-
-rwest@mit.edu  7-Sep-2009
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing
+Total Standard Deviation in ln(k): 1.32065459619
 """,
 )
 
 entry(
-    index = 484,
-    label = "O2_birad;C_sec_rad",
-    kinetics = ArrheniusEP(
-        A = (3.77e+12, 'cm^3/(mol*s)', '+|-', 1e+12),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran et al. [8]. (Estimated at 300K)""",
-    longDesc =
+    index = 164,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_3R!H->C",
+    kinetics = ArrheniusBM(A=(9.04e+06,'m^3/(mol*s)'), n=-5.64022e-08, w0=(71000,'J/mol'), E0=(7100,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_3R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-Lenhardt [143] measured (10.01.3)E12 cm3/mole/sec (at 300K, high pressure limit, from flash photolysis experiments.)
-Atkinson [96], in their review, recommend 6.62E12 cm3/mole/sec. (according to Curran [8]).
-Curran [8], in their modelling paper, refer to both these and chose and "intermediate" value of 7.54E12 cm3/mol/sec.
-
-Curran [8] is the rate adopted here, giving 3.77E+12 cm3/mole/sec when divided by two to give the rate of addition per site.
-The uncertainty of 1E12 cm3/mole/sec was estimated from these values
-
- * [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
- * [96] Atkinson,R; Baulch,D. L.; Cox R.A.;Hampson,R.F.,Jr.;Kerr,J.A;Rossi,M.J.;Troe,J. *J Phys. Chem. Ref. Data* 1997,26,521.
- * [143] Lenhardt,T.M.;McDade,C.E.;Bayes,K.D.; *J. Chem Phys* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
-
-Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured/estimated at 300K.
-
-rwest@mit.edu  7-Sep-2009
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_3R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 485,
-    label = "O2_birad;C_ter_rad",
-    kinetics = ArrheniusEP(
-        A = (7.05e+12, 'cm^3/(mol*s)', '+|-', 1.17e+12),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
-    longDesc =
+    index = 165,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_N-6R!H->C",
+    kinetics = ArrheniusBM(A=(1.21e+07,'m^3/(mol*s)'), n=-1.37127e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_N-6R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_N-6R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_N-6R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
-
-In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
-
-[143] Lenhardt, T.M.; McDade, C.E.; Bayes, K.D.; *J. Chem. Phys.* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
-
-Rates measurement of **t-butyl** + O2 at 300 K. High pressure limit from flash photolysis experiments.
-C.D.W. divided rate expression by 2, to get rate of addition rate per site,
-giving  (7.051.17)E12 cm3/mole/sec.
-
-    Rate constants for the reaction of four different butyl radicals with molecular oxygen
-    have been measured **at room temperature**. The radicals were generated by flash photolysis
-    and their time decay was followed with a photoionization mass spectrometer. The radical
-    concentrations were kept low to avoid complications from radicalradical reactions.
-    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied.
-
-    The rate constants, in units of 10E11 cm3/molecule/sec, are:
-
-     * n-butyl (0.750.14); (gives (2.260.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * s-butyl (1.660.22); (gives (5.000.66)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     * **t-butyl (2.340.39); (gives (7.051.17)E12 cm3/mole/sec when divided by 2 to get rate per site)**
-     * 3-hydroxy s-butyl (2.81.8). (gives (8.435.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-
-    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr.
-
-Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured at 300K.
-
-rwest@mit.edu  7-Sep-2009
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_3R!H->O_Ext-1C-R_5R!H->C_Ext-1C-R_N-6R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 486,
-    label = "O2_birad;Cd_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (3e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
-    longDesc =
+    index = 166,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H",
+    kinetics = ArrheniusBM(A=(3.17094e+06,'m^3/(mol*s)'), n=0.460394, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[144] Bozzelli,J.W. J phys. Chem 1993, 97,4427.
-RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rate expression by 2, to get rate of addition per site
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 488,
-    label = "O2_birad;Cb_rad",
-    kinetics = ArrheniusEP(
-        A = (3.015e+12, 'cm^3/(mol*s)', '*|/', 1.2),
-        n = 0,
-        alpha = 0,
-        E0 = (0.32, 'kcal/mol', '+|-', 0.13),
-        Tmin = (297, 'K'),
-        Tmax = (473, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Yu, T. and Lin, M.C. [145]""",
-    longDesc =
+    index = 167,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_N-4R!H->C",
+    kinetics = ArrheniusBM(A=(3.5e+06,'m^3/(mol*s)'), n=1.0712e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_N-4R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_N-4R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_N-4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[145] Yu,T.; Lin, M.C.J. Am. Chem.Soc.1994,116,9571.
-O2+ phenyl --> phenyl dioxy. Absolute value measured directly. Pressure 0.03-0.11 atm. Excitation: Flash photolysis, analysis: Vis- UV absorption. C.D.W. divided rate epxression by 2, to get rate of addition per site
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_N-Sp-4R!H-2R_N-4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 489,
-    label = "O2_birad;CO_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (3.5e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation.""",
-    longDesc =
+    index = 168,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-6C-R",
+    kinetics = ArrheniusBM(A=(1.33755e+09,'m^3/(mol*s)'), n=-0.828757, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-6C-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-6C-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-6C-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[144] Bozzelli,J.W. J Phys. Chem. 1993, 97 , 4427.
-RRKM extrapolation. O2 +HCO -->HC(O)O2. C.D.W. divided rate expression by 2, to get rate of addition per site
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_Ext-2R-R_Ext-1C-R_6R!H->C_Ext-6C-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 490,
-    label = "O2_birad;CO_rad/NonDe",
-    kinetics = ArrheniusEP(
-        A = (1.505e+12, 'cm^3/(mol*s)', '*|/', 3.16),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (300, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Atkinson et al [96] literature review.""",
-    longDesc =
+    index = 169,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_2NO->N",
+    kinetics = ArrheniusBM(A=(1.12206e+07,'m^3/(mol*s)'), n=0.314888, w0=(83500,'J/mol'), E0=(8350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_2NO->N',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_2NO->N
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_2NO->N
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-[96] Atkinson,R; Baulch,D. L.; Cox R.A.;Hampson,R.F.,Jr.;Kerr,J.A;Rossi,M.J.;Troe,J.J Phys. Chem. Ref. Data 1997,26,521.
-literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO C.D.W. divided rate expression by 2, to get rate of addition per site
-
-Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_N-2CNO->C_Ext-2NO-R_2NO->N
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 491,
-    label = "SsJ-S2s;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (6.44e+09, 'cm^3/(mol*s)'),
-        n = 1.19,
-        alpha = 0,
-        E0 = (0.51, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A.G. Vandeputte""",
-    longDesc =
+    index = 170,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_N-3C-inRing",
+    kinetics = ArrheniusBM(A=(1.62598e+07,'m^3/(mol*s)'), n=0.255122, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_N-3C-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_N-3C-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_N-3C-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_N-3C-inRing
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 495,
-    label = "H_rad;C_rad/H2_Val72_HVal7/Cd",
-    kinetics = ArrheniusEP(
-        A = (2.92e+13, 'cm^3/(mol*s)'),
-        n = 0.18,
-        alpha = 0,
-        E0 = (0.124, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Harding et al. (2007HAR/KLI3789-3801), value devided by 2 to account for two addition sites""",
+    index = 171,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R",
+    kinetics = ArrheniusBM(A=(7.23001e+07,'m^3/(mol*s)'), n=-9.93442e-08, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=3.23272519859e-11, var=0.0, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R
+    Total Standard Deviation in ln(k): 8.12242512209e-11"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R
+Total Standard Deviation in ln(k): 8.12242512209e-11""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O_N-Sp-3CCSS#2R
+Total Standard Deviation in ln(k): 8.12242512209e-11
+""",
 )
 
 entry(
-    index = 496,
-    label = "H_rad;C_rad/H_Val7/OneDeC",
-    kinetics = ArrheniusEP(
-        A = (2.92e+13, 'cm^3/(mol*s)'),
-        n = 0.18,
-        alpha = 0,
-        E0 = (0.124, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Estimated by 495""",
+    index = 172,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C",
+    kinetics = ArrheniusBM(A=(315400,'m^3/(mol*s)'), n=0.546593, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0328000692469, var=0.856170432709, Tref=1000.0, N=59, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C
+    Total Standard Deviation in ln(k): 1.93738313973"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C
+Total Standard Deviation in ln(k): 1.93738313973""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C
+Total Standard Deviation in ln(k): 1.93738313973
+""",
 )
 
 entry(
-    index = 497,
-    label = "H_rad;C_rad/OneDe",
-    kinetics = ArrheniusEP(
-        A = (2.92e+13, 'cm^3/(mol*s)'),
-        n = 0.18,
-        alpha = 0,
-        E0 = (0.124, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Estimated by 495""",
+    index = 173,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S_Ext-2S-R",
+    kinetics = ArrheniusBM(A=(6.69928e+07,'m^3/(mol*s)'), n=0.692369, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S_Ext-2S-R',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S_Ext-2S-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S_Ext-2S-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_2CNOS->S_Ext-2S-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 498,
-    label = "H_rad;C_rad/TwoDe",
-    kinetics = ArrheniusEP(
-        A = (2.92e+13, 'cm^3/(mol*s)'),
-        n = 0.18,
-        alpha = 0,
-        E0 = (0.124, 'kcal/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Estimated by 495""",
+    index = 174,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R",
+    kinetics = ArrheniusBM(A=(8.92033e+06,'m^3/(mol*s)'), n=1.17885e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0370545850026, var=0.142813102216, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R
+    Total Standard Deviation in ln(k): 0.850703803965"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R
+Total Standard Deviation in ln(k): 0.850703803965""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R
+Total Standard Deviation in ln(k): 0.850703803965
+""",
 )
 
 entry(
-    index = 499,
-    label = "C_rad/H2_Val72_HVal7/Cd;C_rad/H2_Val72_HVal7/Cd",
-    kinetics = ArrheniusEP(
-        A = (1.02e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (-0.26, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    index = 175,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R",
+    kinetics = ArrheniusBM(A=(101631,'m^3/(mol*s)'), n=0.35323, w0=(139000,'J/mol'), E0=(13900,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0148472730165, var=2.75207767881, Tref=1000.0, N=9, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R
+    Total Standard Deviation in ln(k): 3.36303735057"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R
+Total Standard Deviation in ln(k): 3.36303735057""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R
+Total Standard Deviation in ln(k): 3.36303735057
+""",
 )
 
 entry(
-    index = 500,
-    label = "C_rad/H2_Val72_HVal7/Cd;C_rad/H2_Val72_HVal7/Cs",
-    kinetics = ArrheniusEP(
-        A = (2.05e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (-0.13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    index = 176,
+    label = "Root_1R->H_N-2R-inRing",
+    kinetics = ArrheniusBM(A=(1.26936e+08,'m^3/(mol*s)'), n=0.0613599, w0=(183453,'J/mol'), E0=(18345.3,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.131160529267, var=9.43217642564, Tref=1000.0, N=32, correlation='Root_1R->H_N-2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing
+    Total Standard Deviation in ln(k): 6.48646108043"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing
+Total Standard Deviation in ln(k): 6.48646108043""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing
+Total Standard Deviation in ln(k): 6.48646108043
+""",
 )
 
 entry(
-    index = 501,
-    label = "C_rad/H2_Val72_HVal7/Cd;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (1.02e+14, 'cm^3/(mol*s)'),
-        n = -0.32,
-        alpha = 0,
-        E0 = (-0.13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    index = 177,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C",
+    kinetics = ArrheniusBM(A=(9.29149e+06,'m^3/(mol*s)'), n=-0.3, w0=(75166.7,'J/mol'), E0=(7516.67,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=4.40309720458e-11, var=16.7795781874, Tref=1000.0, N=3, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C
+    Total Standard Deviation in ln(k): 8.21197292804"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C
+Total Standard Deviation in ln(k): 8.21197292804""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_N-3R!H->C
+Total Standard Deviation in ln(k): 8.21197292804
+""",
 )
 
 entry(
-    index = 502,
-    label = "C_rad/H2_Val72_HVal7/Cd;C_rad/H_Val7/NonDeC",
-    kinetics = ArrheniusEP(
-        A = (1.15e+14, 'cm^3/(mol*s)'),
-        n = -0.35,
-        alpha = 0,
-        E0 = (-0.13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    index = 178,
+    label = "Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C_Ext-1N-R",
+    kinetics = ArrheniusBM(A=(2.57593e+11,'m^3/(mol*s)'), n=-1.2919, w0=(83500,'J/mol'), E0=(8350,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C_Ext-1N-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C_Ext-1N-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C_Ext-1N-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_1CClNOSSi->N_Ext-2R-R_3R!H-u0_N-2R->C_3R!H->C_Ext-1N-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 503,
-    label = "C_rad/H2_Val72_HVal7/Cd;C_rad/Cs3",
-    kinetics = ArrheniusEP(
-        A = (7.24e+14, 'cm^3/(mol*s)'),
-        n = -0.75,
-        alpha = 0,
-        E0 = (-0.13, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    index = 179,
+    label = "Root",
+    kinetics = ArrheniusBM(A=(1.12408e+07,'m^3/(mol*s)'), n=0.159297, w0=(159759,'J/mol'), E0=(8347.73,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0296844859348, var=6.10981833732, Tref=1000.0, N=145, correlation='Root',), comment="""BM rule fitted to 2 training reactions at node Root
+    Total Standard Deviation in ln(k): 5.02989766626"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root
+Total Standard Deviation in ln(k): 5.02989766626""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root
+Total Standard Deviation in ln(k): 5.02989766626
+""",
 )
 
 entry(
-    index = 504,
-    label = "C_rad/H2_Val72_HVal7/Cd;C_rad/H_Val7/CdCd",
-    kinetics = ArrheniusEP(
-        A = (1.02e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (-0.26, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Better estimate then averaging out, Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    index = 180,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H",
+    kinetics = ArrheniusBM(A=(6.79503e+06,'m^3/(mol*s)'), n=0.417452, w0=(216000,'J/mol'), E0=(21600,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_Sp-3C-2C_Ext-3C-R_Sp-4R!H=3C_3C-inRing_Ext-4R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 505,
-    label = "Cd_allenic;Cd_allenic",
-    kinetics = ArrheniusEP(
-        A = (4.29E+9, 'cm^3/(mol*s)'),
-        n = 0.8,
-        alpha = 0,
-        E0 = (-1.03, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""2007GEO/MIL4259-4268""",
-    longDesc = """
-A. G. Vandeputte
-Some estimated values for propyne recombination reactions
+    index = 181,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O",
+    kinetics = ArrheniusBM(A=(8.46129e+07,'m^3/(mol*s)'), n=-5.23396e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.00433609697246, var=0.183327166906, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O
+    Total Standard Deviation in ln(k): 0.869256557712"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O
+Total Standard Deviation in ln(k): 0.869256557712""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_N-Sp-3R!H-2R_N-3R!H->O
+Total Standard Deviation in ln(k): 0.869256557712
 """,
 )
 
 entry(
-    index = 506,
-    label = "Cd_allenic;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (5.00E+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""1987WU/KER6291""",
-    longDesc = """
-Estimated value, agrees with 1987WU/KER6291
+    index = 182,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_N-3R!H-inRing",
+    kinetics = ArrheniusBM(A=(2.46571e+08,'m^3/(mol*s)'), n=-0.461716, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_N-3R!H-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_N-3R!H-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_N-3R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_N-3R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 507,
-    label = "Cd_allenic;H_rad",
-    kinetics = ArrheniusEP(
-        A = (1.00E+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
+    index = 183,
+    label = "Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_N-Sp-3C-2C",
+    kinetics = ArrheniusBM(A=(1.81e+08,'m^3/(mol*s)'), n=-8.9089e-10, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_N-Sp-3C-2C',), comment="""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_N-Sp-3C-2C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_N-Sp-3C-2C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_1R->H_N-2R-inRing_N-2R->H_N-2CNOS->S_2CNO->C_Ext-2C-R_N-Sp-3R!H=2C_3R!H->C_N-Sp-3C-2C
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 508,
-    label = "C_rad_cyclopentadiene;H_rad",
-    kinetics = ArrheniusEP(
-        A = (5.00E+14, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""From 2001 Roy IJCK high-P value""",
+    index = 184,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-5R!H-R",
+    kinetics = ArrheniusBM(A=(2.12455e+08,'m^3/(mol*s)'), n=-0.428757, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-5R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-5R!H-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-5R!H-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O_Ext-1C-R_Ext-5R!H-R
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 509,
-    label = "C_rad_cyclopentadiene;C_methyl",
-    kinetics = ArrheniusEP(
-        A = (8.34E+15, 'cm^3/(mol*s)'),
-        n = -0.7,
-        alpha = 0,
-        E0 = (0.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
+    index = 185,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing",
+    kinetics = ArrheniusBM(A=(6.75496e+10,'m^3/(mol*s)'), n=-1.29253, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing
+Total Standard Deviation in ln(k): 11.5401827615
+""",
 )
 
 entry(
-    index = 510,
-    label = "C_rad_cyclopentadiene;C_rad_cyclopentadiene",
-    kinetics = ArrheniusEP(
-        A = (5.00E+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
+    index = 186,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O",
+    kinetics = ArrheniusBM(A=(2.49263e+08,'m^3/(mol*s)'), n=-0.519467, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.00186367249776, var=0.658318197044, Tref=1000.0, N=7, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O
+    Total Standard Deviation in ln(k): 1.6312606891"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O
+Total Standard Deviation in ln(k): 1.6312606891""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O
+Total Standard Deviation in ln(k): 1.6312606891
+""",
 )
 
 entry(
-    index = 511,
-    label = "H_rad;C_rad/H_Val7/CdCd",
-    kinetics = ArrheniusEP(
-        A = (2.00E+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""A. G. Vandeputte estimated value""",
+    index = 187,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing",
+    kinetics = ArrheniusBM(A=(1.79861e+10,'m^3/(mol*s)'), n=-0.973503, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0958344498313, var=0.310258299277, Tref=1000.0, N=3, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing
+    Total Standard Deviation in ln(k): 1.35744424775"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing
+Total Standard Deviation in ln(k): 1.35744424775""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_Sp-3R!H-1C_N-2R-inRing
+Total Standard Deviation in ln(k): 1.35744424775
+""",
 )
 
 entry(
-    index = 600,
-    label = "N5dc-OdOs;O_rad",
-    kinetics = ArrheniusEP(
-        A = (3.5e+12, 'cm^3/(mol*s)'),
-        n = 0.24,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 1,
-    shortDesc = u"""Experimental, J. Hahn, K. Luther and J. Troe""",
-    longDesc =
+    index = 188,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_N-4R!H->C",
+    kinetics = ArrheniusBM(A=(1.81e+07,'m^3/(mol*s)'), n=-1.42812e-07, w0=(173000,'J/mol'), E0=(17300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_N-4R!H->C',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_N-4R!H->C
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_N-4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-J. Hahn, K. Luther and J. Troe
-Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2(+M) => NO3(+M) and NO2 + NO3(+M) => N2O5(+M)
-Phys. Chem. Chem. Phys., 2000, 2, 5098-5104
-DOI: 10.1039/B005756H
-
-NO2 + O <=> NO3
-
-Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 712)
-and in the Nitrogen_Glarborg_Gimenez_et_al library (index 936)
-
-The high-pressure limit kinetics was taken. Troe coefficients are:
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(3.5e+12, 'cm^3/(mol*s)'), n=0.24, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(A=(2.5e+20, 'cm^6/(mol^2*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        alpha = 0.71,
-        T3 = (1e-30, 'K'),
-        T1 = (1700, 'K'),
-        T2 = (1e+30, 'K'),
-        efficiencies = {},
-    ),
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Sp-3R!H-2R_3R!H->C_2R->C_Ext-1C-R_N-4R!H->C
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 601,
-    label = "N5dc-OdOs;O_pri_rad",
-    kinetics = ArrheniusEP(
-        A = (3e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""J. Troe""",
-    longDesc =
+    index = 189,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C_Ext-1S-R",
+    kinetics = ArrheniusBM(A=(9.40412e+06,'m^3/(mol*s)'), n=0.634469, w0=(113000,'J/mol'), E0=(11300,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C_Ext-1S-R',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C_Ext-1S-R
+    Total Standard Deviation in ln(k): 11.5401827615"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C_Ext-1S-R
+Total Standard Deviation in ln(k): 11.5401827615""",
+    longDesc = 
 u"""
-J. Troe
-Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M = HONO2 + M
-International Journal of Chemical Kinetics, Volume 33, Issue 12 December 2001 Pages 878-889
-DOI: 10.1002/kin.10019
-
-NO2 + OH <=> HONO2; T range: 50 to 1400 K, P range: 10E-4 to 10E3 bar
-
-Also appears in the Nitrogen_Glarborg_Zhang_et_al library (index 713)
-and in the Nitrogen_Glarborg_Gimenez_et_al library (index 937)
-
-The high-pressure limit kinetics was taken. Troe coefficients are:
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        arrheniusLow = Arrhenius(A=(2.938e+25, 'cm^6/(mol^2*s)'), n=-3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        alpha = 0.4,
-        T3 = (1e-30, 'K'),
-        T1 = (1e+30, 'K'),
-        T2 = (1e+30, 'K'),
-        efficiencies = {},
-    ),
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_N-1COS->O_N-1CS->C_Ext-1S-R
+Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
 entry(
-    index = 3000,
-    label = "H_rad;SsJ-H",
-    kinetics = ArrheniusEP(
-        A = (5.77e+15, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (0.43, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 3,
-    shortDesc = u"""GA Jonas x 3 for spinorbit""",
+    index = 190,
+    label = "Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H",
+    kinetics = ArrheniusBM(A=(297.12,'m^3/(mol*s)'), n=0.971996, w0=(122000,'J/mol'), E0=(12200,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=-0.0290918489436, var=0.0160072644778, Tref=1000.0, N=2, correlation='Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H',), comment="""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H
+    Total Standard Deviation in ln(k): 0.326733816017"""),
+    rank = 11,
+    shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H
+Total Standard Deviation in ln(k): 0.326733816017""",
+    longDesc = 
+u"""
+BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CClNOSSi->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H
+Total Standard Deviation in ln(k): 0.326733816017
+""",
 )
+
