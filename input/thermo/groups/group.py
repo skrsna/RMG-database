@@ -12288,10 +12288,9 @@ entry(
     label = "O2d-CdF",
     group = 
 """
-1   C  u0 p0 c0 {2,S} {3,D} {4,S}
+1   CO  u0 p0 c0 {2,S} {3,D}
 2   F1s u0 p3 c0 {1,S}
 3 * O2d u0 p2 c0 {1,D}
-4   C   u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
