@@ -46596,7 +46596,7 @@ p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
 
 entry(
     index = 8000,
-    label = "CH3Cl;Cl_rad",
+    label = "CH3Val7;Cl_rad",
     kinetics = ArrheniusEP(
         A = (3.30e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46627,7 +46627,7 @@ entry(
 
 entry(
     index = 8002,
-    label = "CHCl3;Cl_rad",
+    label = "CHVal73;Cl_rad",
     kinetics = ArrheniusEP(
         A = (1.99e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46658,7 +46658,7 @@ entry(
 
 entry(
     index = 8004,
-    label = "C/H2Cl/Cs\H3;Cl_rad",
+    label = "C/H2Val7/Cs\H3;Cl_rad",
     kinetics = ArrheniusEP(
         A = (3.54e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46673,7 +46673,7 @@ entry(
 
 entry(
     index = 8005,
-    label = "C/H3/Cs\H2Cl;Cl_rad",
+    label = "C/H3/Cs\H2Val7;Cl_rad",
     kinetics = ArrheniusEP(
         A = (1.12e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46688,7 +46688,7 @@ entry(
 
 entry(
     index = 8006,
-    label = "C/H2Cl/Cs\H2Cl;Cl_rad",
+    label = "C/H2Val7/Cs\H2Val7;Cl_rad",
     kinetics = ArrheniusEP(
         A = (6.31e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46704,7 +46704,7 @@ entry(
 
 entry(
     index = 8007,
-    label = "C/H3/Cs\Cl3;Cl_rad",
+    label = "C/H3/Cs\Val73;Cl_rad",
     kinetics = ArrheniusEP(
         A = (2.51e+12, 'cm^3/(mol*s)'),
         n = 0,

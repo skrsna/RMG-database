@@ -12215,29 +12215,6 @@ JPCA, 1998, 102, 4551-4558
 )
 
 entry(
-    index = 593,
-    label = "Cd-O2dFH",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
-2   F1s u0 p3 c0 {1,S}
-3   O2d u0 p2 c0 {1,D}
-4   H   u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([40.3781,45.7987,51.0669,55.6674,62.5694,67.4973,74.4854],'J/(mol*K)'),
-        H298 = (-382.246,'kJ/mol'),
-        S298 = (246.494,'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 594,
     label = "Cd-CdCdF",
     group = 
@@ -12307,37 +12284,14 @@ u"""
 )
 
 entry(
-    index = 597,
-    label = "Cd-O2dF2",
-    group = 
-"""
-1 * Cd  u0 p0 c0 {2,S} {3,S} {4,D}
-2   F1s u0 p3 c0 {1,S}
-3   F1s u0 p3 c0 {1,S}
-4   O2d u0 p2 c0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([47.245,54.7541,60.5055,64.6004,70.5498,74.4232,78.7574],'J/(mol*K)'),
-        H298 = (-606.487,'kJ/mol'),
-        S298 = (258.862,'J/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 598,
-    label = "Cd-CdO2dF",
+    label = "O2d-CdF",
     group = 
 """
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
+1   C  u0 p0 c0 {2,S} {3,D} {4,S}
 2   F1s u0 p3 c0 {1,S}
-3   O2d u0 p2 c0 {1,D}
-4   Cd  u0 p0 c0 {1,S}
+3 * O2d u0 p2 c0 {1,D}
+4   C   u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -47910,7 +47864,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = (13.7,16.1,17.5,18.9,19.9,21.0,22.5],'cal/(mol*K)'),
+        Cpdata = ([13.7,16.1,17.5,18.9,19.9,21.0,22.5],'cal/(mol*K)'),
         H298 = (-106.3,'kcal/mol'),
         S298 = (40.5,'cal/(mol*K)'),
     ),
@@ -48551,14 +48505,11 @@ L1: R
             L4: Cds-CdClH
                 L5: Cds-CdsHCl
             L4: Cds-CdClCl
-            L4: Cd-O2dFH
             L4: Cd-CdCdF
             L4: Cd-FH
                 L5: Cd-CdFH
             L4: Cd-F2
                 L5: Cd-CdF2
-            L4: Cd-O2dF2
-            L4: Cd-CdO2dF
         L3: Cs
             L4: Cs-NHHH
                 L5: Cs-N3sHHH
@@ -49918,6 +49869,7 @@ L1: R
         L3: Oa(S)
         L3: O2d
             L4: O2d-Cd
+                L5: O2d-CdF
             L4: O2d-O2d
             L4: O2d-N3d
             L4: O2d-N5dc

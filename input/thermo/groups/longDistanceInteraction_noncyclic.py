@@ -1723,10 +1723,10 @@ L1: R
         L3: Cds(Cl)2=Cds(Cl)2
     L2: intF
         L3: Cs(F)-Cs(F)
-        L3: Cs(F)2-Cs(F)
-        L3: Cs(F)2-Cs(F)2
-        L3: Cs(F)3-Cs(F)2
-        L3: Cs(F)3-Cs(F)
+            L4: Cs(F)2-Cs(F)
+                L5: Cs(F)3-Cs(F)
+                    L6: Cs(F)3-Cs(F)2
+                L5: Cs(F)2-Cs(F)2
     L2: int14_gauche
         L3: CsCs
             L4: CsCs-P

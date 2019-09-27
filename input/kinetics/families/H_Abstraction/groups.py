@@ -3992,7 +3992,7 @@ entry(
     label = "HVal7",
     group =
 """
-1 *1 Val71s u0 {2,S}
+1 *1 Val7 u0 {2,S}
 2 *2 H    u0 {1,S}
 """,
     kinetics = None,
@@ -7340,10 +7340,10 @@ entry(
 
 entry(
     index = 533,
-    label = "Val7_rad",
+    label = "Cl_rad",
     group =
 """
-1 *3 Val7 u1
+1 *3 Cl u1
 """,
     kinetics = None,
 )
@@ -7662,7 +7662,7 @@ L1: Y_rad_birad_trirad_quadrad
     L2: Y_rad
         L3: Val7_rad
             L4: F_rad
-            L4: Val7_rad
+            L4: Cl_rad
             L4: Br_rad
         L3: H_rad
         L3: Y_2centeradjbirad
