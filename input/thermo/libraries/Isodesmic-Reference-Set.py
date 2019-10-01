@@ -3571,34 +3571,34 @@ H298 taken from diet-HEAT-F12-network  and used to tweak g4 calculation
 """,
 )
 
-entry(
-    index = 115,
-    label = "CHBrClF_22",
-    molecule = 
-"""
-1 Br u0 p3 c0 {4,S}
-2 Cl u0 p3 c0 {4,S}
-3 F  u0 p3 c0 {4,S}
-4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
-5 H  u0 p0 c0 {4,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.9225,0.00508781,6.16155e-05,-1.5542e-07,1.11993e-10,-29552.8,inf], Tmin=(10,'K'), Tmax=(489.806,'K')),
-            NASAPolynomial(coeffs=[4.68986,0.0135944,-9.67796e-06,3.19523e-09,-3.95555e-13,-29805.2,inf], Tmin=(489.806,'K'), Tmax=(3000,'K')),
-        ],
-        Tmin = (10,'K'),
-        Tmax = (3000,'K'),
-        E0 = (-8.32859e+06,'kJ/mol'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (108.088,'J/(mol*K)'),
-    ),
-    shortDesc = u"""atct-g4""",
-    longDesc = 
-u"""
-H298 taken from atct 593-98-6*0 and used to tweak g4 calculation
-""",
-)
+# entry(
+#     index = 115,
+#     label = "CHBrClF_22",
+#     molecule = 
+# """
+# 1 Br u0 p3 c0 {4,S}
+# 2 Cl u0 p3 c0 {4,S}
+# 3 F  u0 p3 c0 {4,S}
+# 4 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+# 5 H  u0 p0 c0 {4,S}
+# """,
+#     thermo = NASA(
+#         polynomials = [
+#             NASAPolynomial(coeffs=[3.9225,0.00508781,6.16155e-05,-1.5542e-07,1.11993e-10,-29552.8,inf], Tmin=(10,'K'), Tmax=(489.806,'K')),
+#             NASAPolynomial(coeffs=[4.68986,0.0135944,-9.67796e-06,3.19523e-09,-3.95555e-13,-29805.2,inf], Tmin=(489.806,'K'), Tmax=(3000,'K')),
+#         ],
+#         Tmin = (10,'K'),
+#         Tmax = (3000,'K'),
+#         E0 = (-8.32859e+06,'kJ/mol'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (108.088,'J/(mol*K)'),
+#     ),
+#     shortDesc = u"""atct-g4""",
+#     longDesc = 
+# u"""
+# H298 taken from atct 593-98-6*0 and used to tweak g4 calculation
+# """,
+# )
 
 entry(
     index = 116,
