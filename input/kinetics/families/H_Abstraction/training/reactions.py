@@ -64121,3 +64121,2122 @@ sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
 """,
 )
+
+entry(
+    index = 3085,
+    label = "H2 + F <=> H + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.56e+12,'cm^3/(mol*s)'), n=0.5, Ea=(650,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3086,
+    label = "OH + F <=> O + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3087,
+    label = "HO2 + F <=> O2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.89e+12,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3088,
+    label = "H2O + F <=> OH + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+09,'cm^3/(mol*s)'), n=1.5, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3089,
+    label = "H2O2 + F <=> HO2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.73e+12,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3090,
+    label = "CH3F + H <=> CH2F + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.51e+07,'cm^3/(mol*s)'), n=1.96, Ea=(10710,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3091,
+    label = "CH2F2 + H <=> CHF2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5720,'cm^3/(mol*s)'), n=2.69, Ea=(12340,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3092,
+    label = "CHF3 + H <=> CF3 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.83e+06,'cm^3/(mol*s)'), n=2.06, Ea=(12300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3093,
+    label = "CH3F + O <=> CH2F + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3010,'cm^3/(mol*s)'), n=3.13, Ea=(4890,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3094,
+    label = "CH2F2 + O <=> CHF2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1200,'cm^3/(mol*s)'), n=3.17, Ea=(5410,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3095,
+    label = "CHF3 + O <=> CF3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.07e+14,'cm^3/(mol*s)'), n=0, Ea=(18950,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3096,
+    label = "CH3F + OH <=> CH2F + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.6e+08,'cm^3/(mol*s)'), n=1.5, Ea=(2940,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3097,
+    label = "CH2F2 + OH <=> CHF2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(264,'cm^3/(mol*s)'), n=3.27, Ea=(950,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3098,
+    label = "CHF3 + OH <=> CF3 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.25e+07,'cm^3/(mol*s)'), n=1.55, Ea=(3670,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3099,
+    label = "CH3F + CH3 <=> CH2F + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(11400,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3100,
+    label = "CH2F2 + CH3 <=> CHF2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.7e+10,'cm^3/(mol*s)'), n=0, Ea=(10200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3101,
+    label = "CF3 + CH4 <=> CHF3 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.34e+11,'cm^3/(mol*s)'), n=0, Ea=(10920,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3102,
+    label = "CH3F + C2H3 <=> CH2F + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(10300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3103,
+    label = "CH2F2 + C2H3 <=> CHF2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+10,'cm^3/(mol*s)'), n=0, Ea=(9200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3104,
+    label = "CF3 + C2H4 <=> CHF3 + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3105,
+    label = "CH3F + CF3 <=> CH2F + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.75e+11,'cm^3/(mol*s)'), n=0, Ea=(11210,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3106,
+    label = "CH2F2 + CH2F <=> CHF2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+10,'cm^3/(mol*s)'), n=0, Ea=(14000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3107,
+    label = "CH2F2 + CF3 <=> CHF2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.27e+11,'cm^3/(mol*s)'), n=0, Ea=(11300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3108,
+    label = "CH3OH + CH2F <=> CH3O + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(14.4,'cm^3/(mol*s)'), n=3.1, Ea=(9800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3109,
+    label = "CH3OH + CHF2 <=> CH3O + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(14.4,'cm^3/(mol*s)'), n=3.1, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3110,
+    label = "CH3OH + CF3 <=> CH3O + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(14.4,'cm^3/(mol*s)'), n=3.1, Ea=(5500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3111,
+    label = "CH3OH + CH2F <=> CH2OH + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(32,'cm^3/(mol*s)'), n=3.2, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3112,
+    label = "CH3OH + CHF2 <=> CH2OH + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(32,'cm^3/(mol*s)'), n=3.2, Ea=(9300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3113,
+    label = "CH3OH + CF3 <=> CH2OH + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(32,'cm^3/(mol*s)'), n=3.2, Ea=(5700,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3114,
+    label = "CH2O + CH2F <=> HCO + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5540,'cm^3/(mol*s)'), n=2.81, Ea=(8300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3115,
+    label = "CH2O + CHF2 <=> HCO + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5540,'cm^3/(mol*s)'), n=2.81, Ea=(7800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3116,
+    label = "CH2O + CF3 <=> HCO + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5540,'cm^3/(mol*s)'), n=2.81, Ea=(4600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3117,
+    label = "CH2F + H2O2 <=> CH3F + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0, Ea=(-600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3118,
+    label = "CHF2 + H2O2 <=> CH2F2 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0, Ea=(-600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3119,
+    label = "CF3 + H2O2 <=> CHF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0, Ea=(-600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3120,
+    label = "CH2F + HO2 <=> CH3F + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3121,
+    label = "CHF2 + HO2 <=> CH2F2 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3122,
+    label = "CF3 + HO2 <=> CHF3 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3123,
+    label = "CHFO + H <=> CFO + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.1e+08,'cm^3/(mol*s)'), n=1.77, Ea=(3000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3124,
+    label = "CHFO + O <=> CFO + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+12,'cm^3/(mol*s)'), n=0, Ea=(3080,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3125,
+    label = "CHFO + OH <=> CFO + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.83e+13,'cm^3/(mol*s)'), n=0, Ea=(6620,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3126,
+    label = "CFO + H2O2 <=> CHFO + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(3900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3127,
+    label = "CHFO + CH3 <=> CFO + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3128,
+    label = "CHFO + CH2F <=> CFO + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3129,
+    label = "CHFO + CHF2 <=> CFO + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3130,
+    label = "CHFO + CF3 <=> CFO + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3131,
+    label = "CHFO + C2H3 <=> CFO + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(5000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3132,
+    label = "CH3-CH2F + H <=> CH2F-CH2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.5e+08,'cm^3/(mol*s)'), n=1.6, Ea=(9100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3133,
+    label = "CH3-CH2F + O <=> CH2F-CH2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.9e+08,'cm^3/(mol*s)'), n=1.6, Ea=(6100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3134,
+    label = "CH3-CH2F + OH <=> CH2F-CH2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(223,'cm^3/(mol*s)'), n=3.58, Ea=(1040,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3135,
+    label = "CH3-CH2F + H <=> CH3-CHF + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.3e+08,'cm^3/(mol*s)'), n=1.6, Ea=(9100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3136,
+    label = "CH3-CH2F + O <=> CH3-CHF + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.6e+08,'cm^3/(mol*s)'), n=1.6, Ea=(6100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3137,
+    label = "CH3-CH2F + OH <=> CH3-CHF + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(19400,'cm^3/(mol*s)'), n=2.85, Ea=(250,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3138,
+    label = "CH3-CHF2 + H <=> CHF2-CH2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+08,'cm^3/(mol*s)'), n=1.6, Ea=(9600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3139,
+    label = "CH3-CHF2 + O <=> CHF2-CH2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.5e+08,'cm^3/(mol*s)'), n=1.6, Ea=(6600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3140,
+    label = "CH3-CHF2 + OH <=> CHF2-CH2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.54e+07,'cm^3/(mol*s)'), n=1.6, Ea=(1132,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3141,
+    label = "CH3-CHF2 + H <=> CH3-CF2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.4e+07,'cm^3/(mol*s)'), n=1.6, Ea=(9300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3142,
+    label = "CH3-CHF2 + O <=> CH3-CF2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.2e+07,'cm^3/(mol*s)'), n=1.6, Ea=(6300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3143,
+    label = "CH3-CHF2 + OH <=> CH3-CF2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.4e+06,'cm^3/(mol*s)'), n=1.6, Ea=(1332,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3144,
+    label = "CH3-CF3 + H <=> CF3-CH2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4e+10,'cm^3/(mol*s)'), n=1.1, Ea=(12700,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3145,
+    label = "CH3-CF3 + O <=> CF3-CH2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+10,'cm^3/(mol*s)'), n=1.1, Ea=(9700,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3146,
+    label = "CH3-CF3 + OH <=> CF3-CH2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.08e+09,'cm^3/(mol*s)'), n=1.1, Ea=(4670,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3147,
+    label = "CH2F-CH2F + H <=> CH2F-CHF + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+08,'cm^3/(mol*s)'), n=1.7, Ea=(9600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3148,
+    label = "CH2F-CH2F + O <=> CH2F-CHF + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+08,'cm^3/(mol*s)'), n=1.7, Ea=(6600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3149,
+    label = "CH2F-CH2F + OH <=> CH2F-CHF + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.16e+07,'cm^3/(mol*s)'), n=1.7, Ea=(1610,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3150,
+    label = "CH2F-CHF2 + H <=> CHF2-CHF + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+08,'cm^3/(mol*s)'), n=1.7, Ea=(9800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3151,
+    label = "CH2F-CHF2 + O <=> CHF2-CHF + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+08,'cm^3/(mol*s)'), n=1.7, Ea=(6800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3152,
+    label = "CH2F-CHF2 + OH <=> CHF2-CHF + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.05e+07,'cm^3/(mol*s)'), n=1.7, Ea=(1800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3153,
+    label = "CH2F-CHF2 + H <=> CH2F-CF2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+08,'cm^3/(mol*s)'), n=1.7, Ea=(11000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3154,
+    label = "CH2F-CHF2 + O <=> CH2F-CF2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+07,'cm^3/(mol*s)'), n=1.7, Ea=(8000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3155,
+    label = "CH2F-CHF2 + OH <=> CH2F-CF2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.06e+07,'cm^3/(mol*s)'), n=1.7, Ea=(3000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3156,
+    label = "CH2F-CF3 + H <=> CF3-CHF + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+08,'cm^3/(mol*s)'), n=1.7, Ea=(10500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3157,
+    label = "CH2F-CF3 + O <=> CF3-CHF + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+08,'cm^3/(mol*s)'), n=1.7, Ea=(7500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3158,
+    label = "CH2F-CF3 + OH <=> CF3-CHF + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.1e+07,'cm^3/(mol*s)'), n=1.7, Ea=(2524,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3159,
+    label = "CHF2-CHF2 + H <=> CHF2-CF2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.6e+07,'cm^3/(mol*s)'), n=1.7, Ea=(10600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3160,
+    label = "CHF2-CHF2 + O <=> CHF2-CF2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+07,'cm^3/(mol*s)'), n=1.7, Ea=(7600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3161,
+    label = "CHF2-CHF2 + OH <=> CHF2-CF2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.6e+07,'cm^3/(mol*s)'), n=1.7, Ea=(2643,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3162,
+    label = "CHF2-CF3 + H <=> CF3-CF2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.4e+07,'cm^3/(mol*s)'), n=1.6, Ea=(10200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3163,
+    label = "CHF2-CF3 + O <=> CF3-CF2 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7e+07,'cm^3/(mol*s)'), n=1.6, Ea=(7200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3164,
+    label = "CHF2-CF3 + OH <=> CF3-CF2 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.4e+07,'cm^3/(mol*s)'), n=1.6, Ea=(2246,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3165,
+    label = "CH3-CHF + H2O2 <=> CH3-CH2F + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3166,
+    label = "CH3-CF2 + H2O2 <=> CH3-CHF2 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3167,
+    label = "CH2F-CH2 + H2O2 <=> CH3-CH2F + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3168,
+    label = "CH2F-CHF + H2O2 <=> CH2F-CH2F + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3169,
+    label = "CH2F-CF2 + H2O2 <=> CH2F-CHF2 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3170,
+    label = "CHF2-CH2 + H2O2 <=> CH3-CHF2 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3171,
+    label = "CHF2-CHF + H2O2 <=> CH2F-CHF2 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3172,
+    label = "CHF2-CF2 + H2O2 <=> CHF2-CHF2 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3173,
+    label = "CF3-CH2 + H2O2 <=> CH3-CF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3174,
+    label = "CF3-CHF + H2O2 <=> CH2F-CF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3175,
+    label = "CF3-CF2 + H2O2 <=> CHF2-CF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+09,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3176,
+    label = "CH3-CH2F + CH3 <=> CH2F-CH2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(13400,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3177,
+    label = "CH3-CH2F + C2H3 <=> CH2F-CH2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3178,
+    label = "CH3-CH2F + CH3 <=> CH3-CHF + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3179,
+    label = "CH3-CH2F + C2H3 <=> CH3-CHF + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3180,
+    label = "CH3-CHF2 + CH3 <=> CHF2-CH2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3181,
+    label = "CH3-CHF2 + C2H3 <=> CHF2-CH2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3182,
+    label = "CH3-CHF2 + CH3 <=> CH3-CF2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+10,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3183,
+    label = "CH3-CHF2 + C2H3 <=> CH3-CF2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+10,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3184,
+    label = "CH3-CF3 + CH3 <=> CF3-CH2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3185,
+    label = "CH3-CF3 + C2H3 <=> CF3-CH2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3186,
+    label = "CH2F-CH2F + CH3 <=> CH2F-CHF + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10400,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3187,
+    label = "CH2F-CH2F + C2H3 <=> CH2F-CHF + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3188,
+    label = "CH2F-CHF2 + CH3 <=> CHF2-CHF + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3189,
+    label = "CH2F-CHF2 + C2H3 <=> CHF2-CHF + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3190,
+    label = "CH2F-CHF2 + CH3 <=> CH2F-CF2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(9600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3191,
+    label = "CH2F-CHF2 + C2H3 <=> CH2F-CF2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3192,
+    label = "CH2F-CF3 + CH3 <=> CF3-CHF + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3193,
+    label = "CH2F-CF3 + C2H3 <=> CF3-CHF + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3194,
+    label = "CHF2-CHF2 + CH3 <=> CHF2-CF2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3195,
+    label = "CHF2-CHF2 + C2H3 <=> CHF2-CF2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3196,
+    label = "CHF2-CF3 + CH3 <=> CF3-CF2 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(9500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3197,
+    label = "CHF2-CF3 + C2H3 <=> CF3-CF2 + C2H4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+10,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3198,
+    label = "CHF2-CF3 + C2H5 <=> CF3-CF2 + C2H6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(11800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3199,
+    label = "CHF2-CF3 + C3H7 <=> CF3-CF2 + C3H8",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(10300,'cal/mol'), T0=(1,'K')), Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K'))]),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3200,
+    label = "CH3-CH2F + CH2F <=> CH2F-CH2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(13000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3201,
+    label = "CH3-CH2F + CH2F <=> CH3-CHF + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3202,
+    label = "CH3-CHF2 + CH2F <=> CHF2-CH2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3203,
+    label = "CH3-CHF2 + CH2F <=> CH3-CF2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+10,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3204,
+    label = "CH3-CF3 + CH2F <=> CF3-CH2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3205,
+    label = "CH2F-CH2F + CH2F <=> CH2F-CHF + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3206,
+    label = "CH2F-CHF2 + CH2F <=> CHF2-CHF + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3207,
+    label = "CH2F-CHF2 + CH2F <=> CH2F-CF2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3208,
+    label = "CH2F-CF3 + CH2F <=> CF3-CHF + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3209,
+    label = "CHF2-CHF2 + CH2F <=> CHF2-CF2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(11000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3210,
+    label = "CHF2-CF3 + CH2F <=> CF3-CF2 + CH3F",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3211,
+    label = "CH3-CH2F + CHF2 <=> CH2F-CH2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(13000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3212,
+    label = "CH3-CH2F + CHF2 <=> CH3-CHF + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3213,
+    label = "CH3-CHF2 + CHF2 <=> CHF2-CH2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3214,
+    label = "CH3-CHF2 + CHF2 <=> CH3-CF2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+10,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3215,
+    label = "CH3-CF3 + CHF2 <=> CF3-CH2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3216,
+    label = "CH2F-CH2F + CHF2 <=> CH2F-CHF + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3217,
+    label = "CH2F-CHF2 + CHF2 <=> CHF2-CHF + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3218,
+    label = "CH2F-CHF2 + CHF2 <=> CH2F-CF2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3219,
+    label = "CH2F-CF3 + CHF2 <=> CF3-CHF + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3220,
+    label = "CHF2-CHF2 + CHF2 <=> CHF2-CF2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3221,
+    label = "CHF2-CF3 + CHF2 <=> CF3-CF2 + CH2F2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3222,
+    label = "CH3-CH2F + CF3 <=> CH2F-CH2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.5e+11,'cm^3/(mol*s)'), n=0, Ea=(8200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3223,
+    label = "CH3-CH2F + CF3 <=> CH3-CHF + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.5e+11,'cm^3/(mol*s)'), n=0, Ea=(8200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3224,
+    label = "CH3-CHF2 + CF3 <=> CHF2-CH2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.1e+10,'cm^3/(mol*s)'), n=0, Ea=(7100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3225,
+    label = "CH3-CHF2 + CF3 <=> CH3-CF2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.1e+10,'cm^3/(mol*s)'), n=0, Ea=(7100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3226,
+    label = "CH3-CF3 + CF3 <=> CF3-CH2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.45e+12,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3227,
+    label = "CH2F-CH2F + CF3 <=> CH2F-CHF + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+11,'cm^3/(mol*s)'), n=0, Ea=(7600,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3228,
+    label = "CH2F-CHF2 + CF3 <=> CHF2-CHF + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(7200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3229,
+    label = "CH2F-CHF2 + CF3 <=> CH2F-CF2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(8000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3230,
+    label = "CH2F-CF3 + CF3 <=> CF3-CHF + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(6400,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3231,
+    label = "CHF2-CHF2 + CF3 <=> CHF2-CF2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.7e+11,'cm^3/(mol*s)'), n=0, Ea=(11900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3232,
+    label = "CHF2-CF3 + CF3 <=> CF3-CF2 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.4e+11,'cm^3/(mol*s)'), n=0, Ea=(10100,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3233,
+    label = "CH3-CHF + HO2 <=> CH3-CH2F + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3234,
+    label = "CH3-CF2 + HO2 <=> CH3-CHF2 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3235,
+    label = "CH2F-CH2 + HO2 <=> CH3-CH2F + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3236,
+    label = "CH2F-CHF + HO2 <=> CH2F-CH2F + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3237,
+    label = "CH2F-CF2 + HO2 <=> CH2F-CHF2 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3238,
+    label = "CHF2-CH2 + HO2 <=> CH3-CHF2 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3239,
+    label = "CHF2-CHF + HO2 <=> CH2F-CHF2 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3240,
+    label = "CHF2-CF2 + HO2 <=> CHF2-CHF2 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3241,
+    label = "CF3-CH2 + HO2 <=> CH3-CF3 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3242,
+    label = "CF3-CHF + HO2 <=> CH2F-CF3 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3243,
+    label = "CF3-CF2 + HO2 <=> CHF2-CF3 + O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3244,
+    label = "CH3-CHF + CH2O <=> CH3-CH2F + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3245,
+    label = "CH3-CF2 + CH2O <=> CH3-CHF2 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3246,
+    label = "CH2F-CH2 + CH2O <=> CH3-CH2F + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3247,
+    label = "CH2F-CHF + CH2O <=> CH2F-CH2F + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3248,
+    label = "CH2F-CF2 + CH2O <=> CH2F-CHF2 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3249,
+    label = "CHF2-CH2 + CH2O <=> CH3-CHF2 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3250,
+    label = "CHF2-CHF + CH2O <=> CH2F-CHF2 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3251,
+    label = "CHF2-CF2 + CH2O <=> CHF2-CHF2 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3252,
+    label = "CF3-CH2 + CH2O <=> CH3-CF3 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3253,
+    label = "CF3-CHF + CH2O <=> CH2F-CF3 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3254,
+    label = "CF3-CF2 + CH2O <=> CHF2-CF3 + HCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5500,'cm^3/(mol*s)'), n=2.8, Ea=(5900,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3255,
+    label = "CH2CHF + H <=> CHFCH[Z] + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(330000,'cm^3/(mol*s)'), n=2.53, Ea=(12241,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3256,
+    label = "CH2CHF + H <=> CH2CF + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(330000,'cm^3/(mol*s)'), n=2.53, Ea=(12241,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3257,
+    label = "CH2CF2 + H <=> CF2CH + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(670000,'cm^3/(mol*s)'), n=2.53, Ea=(12241,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3258,
+    label = "CHFCHF[Z] + H <=> CHFCF[Z] + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(330000,'cm^3/(mol*s)'), n=2.53, Ea=(12241,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3259,
+    label = "CHFCF2 + H <=> CF2CF + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(330000,'cm^3/(mol*s)'), n=2.53, Ea=(12241,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3260,
+    label = "CH2CHF + OH <=> CHFCH[Z] + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+06,'cm^3/(mol*s)'), n=2, Ea=(2850,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3261,
+    label = "CH2CHF + OH <=> CH2CF + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+06,'cm^3/(mol*s)'), n=2, Ea=(2850,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3262,
+    label = "CHFCHF[Z] + OH <=> CHFCF[Z] + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+06,'cm^3/(mol*s)'), n=2, Ea=(2850,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3263,
+    label = "CH2CF2 + OH <=> CF2CH + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+06,'cm^3/(mol*s)'), n=2, Ea=(2850,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3264,
+    label = "CHFCF2 + OH <=> CF2CF + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+06,'cm^3/(mol*s)'), n=2, Ea=(2850,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3265,
+    label = "CHFCO + H <=> CFCO + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(8000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3266,
+    label = "CHFCO + OH <=> CFCO + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.5e+12,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3267,
+    label = "CH4 + F <=> CH3 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.9e+12,'cm^3/(mol*s)'), n=0.5, Ea=(450,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3268,
+    label = "CH3F + F <=> CH2F + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.35e+14,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3269,
+    label = "CH2F2 + F <=> CHF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.54e+07,'cm^3/(mol*s)'), n=2.1, Ea=(30,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3270,
+    label = "CHF3 + F <=> CF3 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(71000,'cm^3/(mol*s)'), n=2.69, Ea=(990,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3271,
+    label = "CH3OH + F <=> CH3O + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.62e+09,'cm^3/(mol*s)'), n=1.44, Ea=(-205,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3272,
+    label = "CH3OH + F <=> CH2OH + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.62e+07,'cm^3/(mol*s)'), n=1.97, Ea=(-300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3273,
+    label = "CH2O + F <=> HCO + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3274,
+    label = "CHFO + F <=> CFO + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.65e+13,'cm^3/(mol*s)'), n=0, Ea=(1800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3275,
+    label = "C2H6 + F <=> C2H5 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+12,'cm^3/(mol*s)'), n=0, Ea=(300,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3276,
+    label = "CH3-CH2F + F <=> CH2F-CH2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3277,
+    label = "CH3-CHF2 + F <=> CHF2-CH2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3278,
+    label = "CH3-CF3 + F <=> CF3-CH2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(4000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3279,
+    label = "CH3-CH2F + F <=> CH3-CHF + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3280,
+    label = "CH2F-CH2F + F <=> CH2F-CHF + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3281,
+    label = "CH2F-CHF2 + F <=> CHF2-CHF + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.3e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3282,
+    label = "CH2F-CF3 + F <=> CF3-CHF + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3283,
+    label = "CH3-CHF2 + F <=> CH3-CF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3284,
+    label = "CH2F-CHF2 + F <=> CH2F-CF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3285,
+    label = "CHF2-CHF2 + F <=> CHF2-CF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(125000,'cm^3/(mol*s)'), n=2.49, Ea=(790,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3286,
+    label = "CHF2-CF3 + F <=> CF3-CF2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7110,'cm^3/(mol*s)'), n=2.72, Ea=(-910,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3287,
+    label = "C2H4 + F <=> C2H3 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3288,
+    label = "CF3CHO + H <=> CF3CO + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(4200,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3289,
+    label = "CF3CHO + OH <=> CF3CO + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.62e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3290,
+    label = "CF3CHO + O <=> CF3CO + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3291,
+    label = "CF3CHO + CH3 <=> CF3CO + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(7400,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3292,
+    label = "CF3CHO + CF3 <=> CHF3 + CF3CO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0, Ea=(8400,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3293,
+    label = "CF3CHO + F <=> CF3CO + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3294,
+    label = "CF3CHCH2 + H <=> CF3CCH2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4e+14,'cm^3/(mol*s)'), n=0, Ea=(11850,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3295,
+    label = "CF3CHCH2 + F <=> HF + CF3CCH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(5000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3296,
+    label = "CF3CHCH2 + CF3 <=> CHF3 + CF3CCH2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e+12,'cm^3/(mol*s)'), n=0, Ea=(14000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3297,
+    label = "C3H8 + F <=> C3H7 + HF",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(3.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), Arrhenius(A=(4.1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'))]),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3298,
+    label = "C3H8 + CF3 <=> C3H7 + CHF3",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(5.4e+11,'cm^3/(mol*s)'), n=0, Ea=(8540,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.8e+11,'cm^3/(mol*s)'), n=0, Ea=(6520,'cal/mol'), T0=(1,'K'))]),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3299,
+    label = "C3H8 + CF3-CF2 <=> C3H7 + CHF2-CF3",
+    degeneracy = 1.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(3.9e+11,'cm^3/(mol*s)'), n=0, Ea=(7800,'cal/mol'), T0=(1,'K')), Arrhenius(A=(3.3e+11,'cm^3/(mol*s)'), n=0, Ea=(6100,'cal/mol'), T0=(1,'K'))]),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3300,
+    label = "CHFCHCF3 + O2 <=> CFCHCF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.02e+12,'cm^3/(mol*s)'), n=0, Ea=(57640,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3301,
+    label = "CHFCHCF3 + O2 <=> CHFCCF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.02e+12,'cm^3/(mol*s)'), n=0, Ea=(57640,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3302,
+    label = "CHFCHCF3 + H <=> CFCHCF3 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.5e+13,'cm^3/(mol*s)'), n=0, Ea=(16000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3303,
+    label = "CHFCHCF3 + H <=> CHFCCF3 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(18000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3304,
+    label = "CHFCHCF3 + O <=> CFCHCF3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.2e+12,'cm^3/(mol*s)'), n=0.7, Ea=(15000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3305,
+    label = "CHFCHCF3 + O <=> CHFCCF3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+12,'cm^3/(mol*s)'), n=0.7, Ea=(17000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3306,
+    label = "CHFCHCF3 + OH <=> CFCHCF3 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(7500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3307,
+    label = "CHFCHCF3 + OH <=> CHFCCF3 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(9000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3308,
+    label = "CHFCHCF3 + F <=> HF + CFCHCF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3309,
+    label = "CHFCHCF3 + F <=> HF + CHFCCF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(8500,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3310,
+    label = "CHFCHCF3 + CF3 <=> CHF3 + CFCHCF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(17000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3311,
+    label = "CHFCHCF3 + CF3 <=> CHF3 + CHFCCF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(15000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3312,
+    label = "CH2CFCF3 + O2 <=> CH-CFCF3 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.02e+12,'cm^3/(mol*s)'), n=0, Ea=(57640,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3313,
+    label = "CH2CFCF3 + H <=> CH-CFCF3 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(16000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3314,
+    label = "CH2CFCF3 + OH <=> CH-CFCF3 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(6800,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3315,
+    label = "CH2CFCF3 + O <=> CH-CFCF3 + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6e+11,'cm^3/(mol*s)'), n=0.7, Ea=(15000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3316,
+    label = "CH2CFCF3 + CF3 <=> CH-CFCF3 + CHF3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(22000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3317,
+    label = "CH2CFCF3 + CH3 <=> CH-CFCF3 + CH4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(20000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3318,
+    label = "CH2CFCF3 + F <=> CH-CFCF3 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(8000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 3319,
+    label = "F + CH2CO <=> HF + HCCO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
