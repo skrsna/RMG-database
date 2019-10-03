@@ -46658,7 +46658,7 @@ entry(
 
 entry(
     index = 8004,
-    label = "C/H2Val7/Cs\H3;Cl_rad",
+    label = "C/H2Val7;Cl_rad",
     kinetics = ArrheniusEP(
         A = (3.54e+13, 'cm^3/(mol*s)'),
         n = 0,
@@ -46686,20 +46686,20 @@ entry(
     shortDesc = u"""Default""",
 )
 
-entry(
-    index = 8006,
-    label = "C/H2Val7/Cs\H2Val7;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (6.31e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (3.10, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Default""",
-)
+# entry(
+#     index = 8006,
+#     label = "C/H2Val7/Cs\H2Val7;Cl_rad",
+#     kinetics = ArrheniusEP(
+#         A = (6.31e+13, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (3.10, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 5,
+#     shortDesc = u"""Default""",
+# )
 
 
 entry(
