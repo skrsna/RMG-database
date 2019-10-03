@@ -313,6 +313,42 @@ entry(
 )
 
 entry(
+    index = 2500,
+    label = "O_H/F",
+    group =
+"""
+1 *1 O u0 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    F1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2501,
+    label = "O_H/Cl",
+    group =
+"""
+1 *1 O u0 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    Cl1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2502,
+    label = "O_H/Br",
+    group =
+"""
+1 *1 O u0 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    Br1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 26,
     label = "O_pri",
     group =
@@ -356,6 +392,45 @@ entry(
 1 *1 O u0 {2,S} {3,S}
 2 *2 H u0 {1,S}
 3    O u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2900,
+    label = "FOOH",
+    group =
+"""
+1 *1 O u0 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    O u0 {1,S} {4,S}
+4    F1s u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2901,
+    label = "ClOOH",
+    group =
+"""
+1 *1 O u0 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    O u0 {1,S} {4,S}
+4    Cl1s u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2902,
+    label = "BrOOH",
+    group =
+"""
+1 *1 O u0 {2,S} {3,S}
+2 *2 H u0 {1,S}
+3    O u0 {1,S} {4,S}
+4    Br1s u0 {3,S}
 """,
     kinetics = None,
 )
@@ -1078,6 +1153,33 @@ entry(
 )
 
 entry(
+    index = 8510,
+    label = "Cd_HF/C",
+    group =
+"""
+1 *1 C    u0 {2,D} {3,S} {4,S}
+2    C   u0 {1,D}
+3 *2 H    u0 {1,S}
+4    F1s  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8511,
+    label = "Cd_HF/CO",
+    group =
+"""
+1 *1 C     u0 {2,D} {3,S} {4,S}
+2    C    u0 {1,D} {5,D}
+3 *2 H     u0 {1,S}
+4    F1s   u0 {1,S}
+5    O     u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 852,
     label = "Cd_HCl",
     group =
@@ -1374,7 +1476,59 @@ entry(
 1 *1 C u0 {2,D} {3,S} {4,S}
 2    O u0 {1,D}
 3 *2 H u0 {1,S}
+4    [H,Val7] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1050,
+    label = "CO/H2",
+    group =
+"""
+1 *1 C u0 {2,D} {3,S} {4,S}
+2    O u0 {1,D}
+3 *2 H u0 {1,S}
 4    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1051,
+    label = "CO/HF",
+    group =
+"""
+1 *1 C u0 {2,D} {3,S} {4,S}
+2    O u0 {1,D}
+3 *2 H u0 {1,S}
+4    F1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1052,
+    label = "CO/HCl",
+    group =
+"""
+1 *1 C u0 {2,D} {3,S} {4,S}
+2    O u0 {1,D}
+3 *2 H u0 {1,S}
+4    Cl1s u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1053,
+    label = "CO/HBr",
+    group =
+"""
+1 *1 C u0 {2,D} {3,S} {4,S}
+2    O u0 {1,D}
+3 *2 H u0 {1,S}
+4    Br1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1414,6 +1568,51 @@ entry(
 2    O  u0 {1,D}
 3 *2 H  u0 {1,S}
 4    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1080,
+    label = "CO/H/Cs/F",
+    group =
+"""
+1 *1 C  u0 {2,D} {3,S} {4,S}
+2    O  u0 {1,D}
+3 *2 H  u0 {1,S}
+4    Cs u0 {1,S} {5,S}
+5    F1s u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1081,
+    label = "CO/H/Cs/F2",
+    group =
+"""
+1 *1 C  u0 {2,D} {3,S} {4,S}
+2    O  u0 {1,D}
+3 *2 H  u0 {1,S}
+4    Cs u0 {1,S} {5,S} {6,S}
+5    F1s u0 {4,S}
+6    F1s u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1082,
+    label = "CO/H/Cs/F3",
+    group =
+"""
+1 *1 C  u0 {2,D} {3,S} {4,S}
+2    O  u0 {1,D}
+3 *2 H  u0 {1,S}
+4    Cs u0 {1,S} {5,S} {6,S} {7,S}
+5    F1s u0 {4,S}
+6    F1s u0 {4,S}
+7    F1s u0 {4,S}
 """,
     kinetics = None,
 )
@@ -1821,8 +2020,8 @@ entry(
 """
 1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H   u0 {1,S}
-3    H   u0 {1,S}
-4    H   u0 {1,S}
+3    [H,Val7]   u0 {1,S}
+4    [H,Val7]   u0 {1,S}
 5    R!H u0 {1,S}
 """,
     kinetics = None,
@@ -1908,6 +2107,54 @@ entry(
 3    H  u0 {1,S}
 4    F1s  u0 {1,S}
 5    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 63100,
+    label = "C/H2F/Cs/F",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    F1s  u0 {1,S}
+5    Cs u0 {1,S} {6,S}
+6    F1s u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 63101,
+    label = "C/H2F/Cs/F2",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    F1s  u0 {1,S}
+5    Cs u0 {1,S} {6,S} {7,S}
+6    F1s u0 {5,S}
+7    F1s u0 {5,S}   
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 63102,
+    label = "C/H2F/Cs/F3",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    H  u0 {1,S}
+4    F1s  u0 {1,S}
+5    Cs u0 {1,S} {6,S} {7,S} {8,S}
+6    F1s u0 {5,S}
+7    F1s u0 {5,S}   
+8    F1s u0 {5,S}
 """,
     kinetics = None,
 )
@@ -2032,6 +2279,68 @@ entry(
 3    F1s  u0 {1,S}
 4    F1s u0 {1,S}
 5    R!H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9910,
+    label = "C/HF2/Cs",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    F1s  u0 {1,S}
+4    F1s u0 {1,S}
+5    Cs u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9911,
+    label = "C/HF2/Cs/F",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    F1s  u0 {1,S}
+4    F1s u0 {1,S}
+5    Cs u0 {1,S} {6,S}
+6    F1s u0  {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9912,
+    label = "C/HF2/Cs/F2",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    F1s  u0 {1,S}
+4    F1s u0 {1,S}
+5    Cs u0 {1,S} {6,S} {7,S}
+6    F1s u0  {5,S}
+7    F1s u0  {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9913,
+    label = "C/HF2/Cs/F3",
+    group =
+"""
+1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  u0 {1,S}
+3    F1s  u0 {1,S}
+4    F1s u0 {1,S}
+5    Cs u0 {1,S} {6,S} {7,S} {8,S}
+6    F1s u0  {5,S}
+7    F1s u0  {5,S}
+8    F1s u0  {5,S}
 """,
     kinetics = None,
 )
@@ -7994,8 +8303,14 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: O_H
             L4: O_pri
             L4: O_sec
+                L5: O_H/F
+                L5: O_H/Cl
+                L5: O_H/Br
                 L5: O/H/NonDeC
                 L5: O/H/NonDeO
+                    L6: FOOH
+                    L6: ClOOH
+                    L6: BrOOH
                     L6: H2O2
                     L6: ROOH_pri
                     L6: ROOH_sec
@@ -8054,6 +8369,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: Cd_H
             L4: Cd_HVal7
                 L5: Cd_HF
+                    L6: Cd_HF/C
+                        L7: Cd_HF/CO
                 L5: Cd_HCl
                 L5: Cd_HBr
             L4: Cd_pri
@@ -8076,9 +8393,16 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: Cb_H
         L3: CO_H
             L4: CO_pri
+                L5: CO/H2
+                L5: CO/HF
+                L5: CO/HCl
+                L5: CO/HBr
             L4: CO_sec
                 L5: CO/H/NonDe
                     L6: CO/H/Cs
+                        L7: CO/H/Cs/F
+                            L8: CO/H/Cs/F2
+                                L9: CO/H/Cs/F3
                         L7: CO/H/Cs\Cs|Cs
                 L5: CO/H/OneDe
         L3: CS_H
@@ -8143,14 +8467,25 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H3/Cd\Cs_Cd\H2
                 L5: Cs/H3/NonDeN
                 L5: Cs/H3/OneDeN
-            L4: C_sec
                 L5: C/H2Val7
                     L6: C/H2F
                         L7: C/H2F/Cs
+                            L8: C/H2F/Cs/F
+                                L9: C/H2F/Cs/F2
+                                    L10: C/H2F/Cs/F3
                     L6: C/H2Cl
                         L7: C/H2Cl/Cs
                     L6: C/H2Br
                         L7: C/H2Br/Cs
+                L5: C/HVal72
+                    L6: C/HF2
+                        L7: C/HF2/Cs
+                            L8: C/HF2/Cs/F
+                                L9: C/HF2/Cs/F2
+                                    L10: C/HF2/Cs/F3
+                    L6: C/HCl2
+                    L6: C/HBr2
+            L4: C_sec
                 L5: C/H2/NonDeC
                     L6: C/H2/Cs/Cs\O
                     L6: C/H2/Cs/Cs\Cs|O
@@ -8199,10 +8534,6 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H2/CdCS
                     L6: C/H2/CSCS
             L4: C_ter
-                L5: C/HVal72
-                    L6: C/HF2
-                    L6: C/HCl2
-                    L6: C/HBr2
                 L5: C/H/NonDe
                     L6: C/H/Cs3
                         L7: C/H/Cs2/Cs\O
