@@ -250,6 +250,46 @@ entry(
 )
 
 entry(
+    index = 2100,
+    label = "Val7_rad",
+    group = 
+"""
+1 *1 Val7 u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2101,
+    label = "F_rad",
+    group = 
+"""
+1 *1 F u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2102,
+    label = "Cl_rad",
+    group = 
+"""
+1 *1 Cl u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2103,
+    label = "Br_rad",
+    group = 
+"""
+1 *1 Br u1
+""",
+    kinetics = None,
+)
+
+entry(
     index = 22,
     label = "H_rad",
     group = 
@@ -682,9 +722,61 @@ entry(
     group = 
 """
 1 *1 C u1 {2,S} {3,S} {4,S}
+2    [H,F1s] u0 {1,S}
+3    [H,F1s] u0 {1,S}
+4    [H,F1s] u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5900,
+    label = "CH3",
+    group = 
+"""
+1 *1 C u1 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
 4    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5901,
+    label = "CH2F",
+    group = 
+"""
+1 *1 C u1 {2,S} {3,S} {4,S}
+2    F1s u0 {1,S}
+3    H u0 {1,S}
+4    H u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5902,
+    label = "CHF2",
+    group = 
+"""
+1 *1 C u1 {2,S} {3,S} {4,S}
+2    F1s u0 {1,S}
+3    F1s u0 {1,S}
+4    H   u0  {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5903,
+    label = "CF3",
+    group = 
+"""
+1 *1 C u1 {2,S} {3,S} {4,S}
+2    F1s u0 {1,S}
+3    F1s u0 {1,S}
+4    F1s u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1453,6 +1545,10 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH2_triplet
         L3: NH_triplet
     L2: Y_rad
+        L3: Val7_rad
+            L4: F_rad
+            L4: Cl_rad
+            L4: Br_rad
         L3: H_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
@@ -1491,6 +1587,10 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: CS_rad/OneDe
         L3: Cs_rad
             L4: C_methyl
+                L5: CH3
+                L5: CH2F
+                L5: CHF2
+                L5: CF3
             L4: C_pri_rad
                 L5: C_rad/H2/Cs
                 L5: C_rad/H2/Cd
