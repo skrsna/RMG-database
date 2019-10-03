@@ -2008,22 +2008,6 @@ entry(
 )
 
 entry(
-    index = 1532,
-    label = "Cpri_Rrad/F2/F2",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S} {6,S} {7,S}
-3 *4 H                   u0 {1,S}
-4    F1s                 u0 {1,S}
-5    F1s                 u0 {1,S}
-6    F1s                 u0 {2,S}
-7    F1s                 u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 1533,
     label = "Cpri_Rrad/H2",
     group = 
@@ -3335,7 +3319,6 @@ L1: XH_Rrad_birad
                     L6: Cpri_Rrad/F/F
                         L7: Cpri_Rrad/F/F2
                         L7: Cpri_Rrad/F2/F
-                            L8: Cpri_Rrad/F2/F2
                     L6: Cpri_Rrad/F2
                 L5: Cpri_Rrad/H2
                     L6: C/H2/Nd_Rrad
