@@ -7793,19 +7793,6 @@ entry(
 )
 
 entry(
-    index = 538,
-    label = "CHF_rad",
-    group =
-"""
-1 *3 Cs   u1 {2,S} {3,S} {4,S}
-2    F1s u0 {1,S}
-3    H   u0 {1,S}
-4    R   u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 539,
     label = "CH2F_rad",
     group =
@@ -8429,7 +8416,6 @@ L1: Y_rad_birad_trirad_quadrad
                     L6: CS_rad/CS
         L3: Cs_rad
             L4: CF_rad
-                L5: CHF_rad
                 L5: CH2F_rad
                 L5: CF2_rad
                     L6: CHF2_rad
