@@ -2825,21 +2825,6 @@ entry(
 )
 
 entry(
-    index = 19704,
-    label = "Cds-HF",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    R  u0 {1,S}
-4    R  u0 {1,S}
-5    H  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 19705,
     label = "Cds-HF_Cds-HF",
     group = 
