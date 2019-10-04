@@ -8,14 +8,14 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 
-entry(
-    index = 0,
-    label = "CH3-CH2F <=> C2H4 + HF",
-    degeneracy = 1.0,
-    kinetics = Troe(arrheniusHigh=Arrhenius(A=(1.83e+13,'s^-1'), n=0, Ea=(59900,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(8.7e+68,'cm^3/(mol*s)'), n=-14.94, Ea=(75710,'cal/mol'), T0=(1,'K')), alpha=0.652, T3=(10,'K'), T1=(1496,'K'), efficiencies={'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C-]#[O+]': 1.5, '[Ar]': 0.7}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 0,
+#     label = "CH3-CH2F <=> C2H4 + HF",
+#     degeneracy = 1.0,
+#     kinetics = Troe(arrheniusHigh=Arrhenius(A=(1.83e+13,'s^-1'), n=0, Ea=(59900,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(8.7e+68,'cm^3/(mol*s)'), n=-14.94, Ea=(75710,'cal/mol'), T0=(1,'K')), alpha=0.652, T3=(10,'K'), T1=(1496,'K'), efficiencies={'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C-]#[O+]': 1.5, '[Ar]': 0.7}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
 entry(
     index = 1,

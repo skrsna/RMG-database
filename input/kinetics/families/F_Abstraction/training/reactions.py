@@ -53,15 +53,15 @@ entry(
     shortDesc = u"""From NIST CH2F2 model""",
 )
 
-entry(
-    index = 5,
-    label = "CF2O + H <=> CFO + HF",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(2.4e+07,'cm^3/(mol*s)'), n=1.88, Ea=(35900,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0.83, Ea=(22300,'cal/mol'), T0=(1,'K')), Arrhenius(A=(2.2e+09,'cm^3/(mol*s)'), n=1.42, Ea=(18900,'cal/mol'), T0=(1,'K'))]),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 5,
+#     label = "CF2O + H <=> CFO + HF",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(2.4e+07,'cm^3/(mol*s)'), n=1.88, Ea=(35900,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0.83, Ea=(22300,'cal/mol'), T0=(1,'K')), Arrhenius(A=(2.2e+09,'cm^3/(mol*s)'), n=1.42, Ea=(18900,'cal/mol'), T0=(1,'K'))]),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
 entry(
     index = 6,

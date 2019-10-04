@@ -65148,15 +65148,15 @@ entry(
     shortDesc = u"""From NIST CH2F2 model""",
 )
 
-entry(
-    index = 3199,
-    label = "CHF2-CF3 + C3H7-2 <=> CF3-CF2 + C3H8",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(10300,'cal/mol'), T0=(1,'K')), Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K'))]),
-    rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 3199,
+#     label = "CHF2-CF3 + C3H7-2 <=> CF3-CF2 + C3H8",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(10300,'cal/mol'), T0=(1,'K')), Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K'))]),
+#     rank = 5,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
 entry(
     index = 3200,
@@ -66031,35 +66031,35 @@ entry(
     shortDesc = u"""From NIST CH2F2 model""",
 )
 
-entry(
-    index = 3297,
-    label = "C3H8 + F <=> C3H7-2 + HF",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(3.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), Arrhenius(A=(4.1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'))]),
-    rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 3297,
+#     label = "C3H8 + F <=> C3H7-2 + HF",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(3.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), Arrhenius(A=(4.1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'))]),
+#     rank = 5,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
-entry(
-    index = 3298,
-    label = "C3H8 + CF3 <=> C3H7-2 + CHF3",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(5.4e+11,'cm^3/(mol*s)'), n=0, Ea=(8540,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.8e+11,'cm^3/(mol*s)'), n=0, Ea=(6520,'cal/mol'), T0=(1,'K'))]),
-    rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 3298,
+#     label = "C3H8 + CF3 <=> C3H7-2 + CHF3",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(5.4e+11,'cm^3/(mol*s)'), n=0, Ea=(8540,'cal/mol'), T0=(1,'K')), Arrhenius(A=(1.8e+11,'cm^3/(mol*s)'), n=0, Ea=(6520,'cal/mol'), T0=(1,'K'))]),
+#     rank = 5,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
-entry(
-    index = 3299,
-    label = "C3H8 + CF3-CF2 <=> C3H7-2 + CHF2-CF3",
-    degeneracy = 1.0,
-    duplicate = True,
-    kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(3.9e+11,'cm^3/(mol*s)'), n=0, Ea=(7800,'cal/mol'), T0=(1,'K')), Arrhenius(A=(3.3e+11,'cm^3/(mol*s)'), n=0, Ea=(6100,'cal/mol'), T0=(1,'K'))]),
-    rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 3299,
+#     label = "C3H8 + CF3-CF2 <=> C3H7-2 + CHF2-CF3",
+#     degeneracy = 1.0,
+#     duplicate = True,
+#     kinetics = MultiArrhenius(arrhenius=[Arrhenius(A=(3.9e+11,'cm^3/(mol*s)'), n=0, Ea=(7800,'cal/mol'), T0=(1,'K')), Arrhenius(A=(3.3e+11,'cm^3/(mol*s)'), n=0, Ea=(6100,'cal/mol'), T0=(1,'K'))]),
+#     rank = 5,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
 entry(
     index = 3300,

@@ -57982,104 +57982,104 @@ Reaction: Benzene + Methyl Radical <=> CC1[CH]C=CC=C1
 """,
 )
 
-entry(
-    index = 2892,
-    label = "CH2CHF + H <=> CH2F-CH2",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
+# entry(
+#     index = 2892,
+#     label = "CH2CHF + H <=> CH2F-CH2",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2893,
+#     label = "CH2CHF + H <=> CH3-CHF",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2894,
+#     label = "CH2CF2 + H <=> CHF2-CH2",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2895,
+#     label = "CH2CF2 + H <=> CH3-CF2",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2896,
+#     label = "CHFCHF[Z] + H <=> CH2F-CHF",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(8.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.37e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2897,
+#     label = "CHFCF2 + H <=> CHF2-CHF",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2898,
+#     label = "CHFCF2 + H <=> CH2F-CF2",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2899,
+#     label = "CF2CF2 + H <=> CHF2-CF2",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(8.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.37e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
+
+# entry(
+#     index = 2900,
+#     label = "C2HF + H <=> CH2CF",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(2.8e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(1.33e+27,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
 )
 
-entry(
-    index = 2893,
-    label = "CH2CHF + H <=> CH3-CHF",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 2901,
+#     label = "C2HF + H <=> CHFCH[Z]",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(1.4e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.7e+26,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
-entry(
-    index = 2894,
-    label = "CH2CF2 + H <=> CHF2-CH2",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2895,
-    label = "CH2CF2 + H <=> CH3-CF2",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2896,
-    label = "CHFCHF[Z] + H <=> CH2F-CHF",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(8.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.37e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2897,
-    label = "CHFCF2 + H <=> CHF2-CHF",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2898,
-    label = "CHFCF2 + H <=> CH2F-CF2",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4.2e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.19e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2899,
-    label = "CF2CF2 + H <=> CHF2-CF2",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(8.4e+08,'cm^3/(mol*s)'), n=1.5, Ea=(990,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.37e+27,'cm^6/(mol^2*s)'), n=-2.8, Ea=(-54,'cal/mol'), T0=(1,'K')), efficiencies={'[C-]#[O+]': 2.0, '[H][H]': 2.0, 'O=C=O': 3.0, 'O': 5.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2900,
-    label = "C2HF + H <=> CH2CF",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(2.8e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(1.33e+27,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2901,
-    label = "C2HF + H <=> CHFCH[Z]",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(1.4e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.7e+26,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 2902,
-    label = "C2F2 + H <=> CHFCF[Z]",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(2.8e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(1.33e+27,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
+# entry(
+#     index = 2902,
+#     label = "C2F2 + H <=> CHFCF[Z]",
+#     degeneracy = 1.0,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(2.8e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(1.33e+27,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
+#     rank = 10,
+#     shortDesc = u"""From NIST CH2F2 model""",
+# )
 
 entry(
     index = 2903,
