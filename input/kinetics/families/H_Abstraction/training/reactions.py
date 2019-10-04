@@ -64169,7 +64169,7 @@ entry(
 
 entry(
     index = 3090,
-    label = "CH3F + H <=> CH2F + H2",
+    label = "CH3F + H <=> CH2F + H2_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.51e+07,'cm^3/(mol*s)'), n=1.96, Ea=(10710,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64178,7 +64178,7 @@ entry(
 
 entry(
     index = 3091,
-    label = "CH2F2 + H <=> CHF2 + H2",
+    label = "CH2F2 + H <=> CHF2 + H2_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5720,'cm^3/(mol*s)'), n=2.69, Ea=(12340,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64187,7 +64187,7 @@ entry(
 
 entry(
     index = 3092,
-    label = "CHF3 + H <=> CF3 + H2",
+    label = "CHF3 + H <=> CF3 + H2_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.83e+06,'cm^3/(mol*s)'), n=2.06, Ea=(12300,'cal/mol'), T0=(1,'K')),
     rank = 5,
