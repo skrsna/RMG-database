@@ -731,6 +731,17 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 80,
+    label = "HF",
+    group =
+"""
+1 *3 H u0 {2,S}
+2 *4 F u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: doublebond
@@ -781,6 +792,7 @@ L1: doublebond
             L4: Cd/De2_Cd/De2
 L1: X_Y
     L2: H_Val7
+        L3: HF
     L2: Val7_Val7
        """
 )
