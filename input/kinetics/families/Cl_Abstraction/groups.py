@@ -45,7 +45,7 @@ entry(
     group = 
 """
 1 *1 C u3 p0 {2,S}
-2 *2 Cl u0 p0 {1,S}
+2 *2 Cl u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -56,7 +56,7 @@ entry(
     group = 
 """
 1 *1 C u1 p1 {2,S}
-2 *2 Cl u0 p0 {1,S}
+2 *2 Cl u0 p3 {1,S}
 """,
     kinetics = None,
 )
