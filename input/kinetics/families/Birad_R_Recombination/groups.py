@@ -2827,7 +2827,7 @@ entry(
     group = 
 """
 1 *2 N        u2 p1 {2,S}
-2    [H,Val7] u0 p0 {1,S}
+2    [H,Val7] u0 px {1,S}
 """,
     kinetics = None,
 )
@@ -2849,7 +2849,7 @@ entry(
     group = 
 """
 1 *2 N u2 p1 {2,S}
-2    F u0 p0 {1,S}
+2    F u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -2860,7 +2860,7 @@ entry(
     group = 
 """
 1 *2 N  u2 p1 {2,S}
-2    Cl u0 p0 {1,S}
+2    Cl u0 p3 {1,S}
 """,
     kinetics = None,
 )
@@ -2871,7 +2871,7 @@ entry(
     group = 
 """
 1 *2 N  u2 p1 {2,S}
-2    Br u0 p0 {1,S}
+2    Br u0 p3 {1,S}
 """,
     kinetics = None,
 )
