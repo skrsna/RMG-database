@@ -2750,111 +2750,6 @@ entry(
 )
 
 entry(
-    index = 19700,
-    label = "Cds-F_Cds",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    R  ux {1,S}
-4    R  ux {1,S}
-5    F1s  u0 {2,S}
-6    R  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19701,
-    label = "Cds-FF_Cds",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    R  ux {1,S}
-4    R  ux {1,S}
-5    F1s  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 197010,
-    label = "Cds-HF_Cds",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    R  ux {1,S}
-4    R  ux {1,S}
-5    H  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19702,
-    label = "Cds-FF_Cds-FF",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    F1s  u0 {1,S}
-4    F1s  u0 {1,S}
-5    F1s  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19703,
-    label = "Cds-FF_Cds-HH",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-5    F1s  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19705,
-    label = "Cds-HF_Cds-HF",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    H  u0 {1,S}
-4    F1s  u0 {1,S}
-5    H  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 19706,
-    label = "Cds-HF_Cds-HH",
-    group = 
-"""
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
-3    H  u0 {1,S}
-4    H  u0 {1,S}
-5    H  u0 {2,S}
-6    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 198,
     label = "Cds-HH_Cds",
     group = 
@@ -13723,32 +13618,6 @@ entry(
 )
 
 entry(
-    index = 8930,
-    label = "Ct-F_Ct-H",
-    group = 
-"""
-1 *1 Ct u0 {2,T} {3,S}
-2 *2 Ct u0 {1,T} {4,S}
-3    F1s  u0 {1,S}
-4    H  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 8931,
-    label = "Ct-F_Ct-F",
-    group = 
-"""
-1 *1 Ct u0 {2,T} {3,S}
-2 *2 Ct u0 {1,T} {4,S}
-3    F1s  u0 {1,S}
-4    F1s  u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 894,
     label = "Ct-H_Ct-Cs",
     group = 
@@ -13757,33 +13626,6 @@ entry(
 2 *2 Ct u0 {1,T} {4,S}
 3    H  u0 {1,S}
 4    Cs u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 8940,
-    label = "Ct-F_Ct-Cs",
-    group = 
-"""
-1 *1 Ct u0 {2,T} {3,S}
-2 *2 Ct u0 {1,T} {4,S}
-3    F1s  u0 {1,S}
-4    Cs u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 8941,
-    label = "Ct-H_Ct-Cs-F",
-    group = 
-"""
-1 *1 Ct u0 {2,T} {3,S}
-2 *2 Ct u0 {1,T} {4,S}
-3    H  u0 {1,S}
-4    Cs u0 {2,S} {5,S}
-5    F1s u0 {4,S}
 """,
     kinetics = None,
 )
@@ -15905,58 +15747,6 @@ entry(
 )
 
 entry(
-    index = 106600,
-    label = "CsJ-H/F",
-    group = 
-"""
-1 *3 C u1 p0 {2,S} {3,S} {4,S}
-2    [H,F1s] u0 {1,S}
-3    [H,F1s] u0 {1,S}
-4    [H,F1s] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10660,
-    label = "CsJ-FFF",
-    group = 
-"""
-1 *3 C u1 p0 {2,S} {3,S} {4,S}
-2    F1s u0 {1,S}
-3    F1s u0 {1,S}
-4    F1s u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10661,
-    label = "CsJ-HFF",
-    group = 
-"""
-1 *3 C u1 p0 {2,S} {3,S} {4,S}
-2    F1s u0 {1,S}
-3    F1s u0 {1,S}
-4    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 10662,
-    label = "CsJ-HHF",
-    group = 
-"""
-1 *3 C u1 p0 {2,S} {3,S} {4,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
-4    F1s u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 1067,
     label = "CsJ-HHH",
     group = 
@@ -18032,13 +17822,6 @@ L1: R_R
                 L5: Cds-NonDeH_N3d
                 L5: Cds-NonDe2_N3d
         L3: Cds_Cds
-            L4: Cds-F_Cds
-                L5: Cds-FF_Cds
-                    L6: Cds-FF_Cds-FF
-                    L6: Cds-FF_Cds-HH
-                L5: Cds-HF_Cds
-                    L6: Cds-HF_Cds-HF
-                    L6: Cds-HF_Cds-HH
             L4: Cds-HH_Cds
                 L5: Cds-HH_Cds-HH
                 L5: Cds-HH_Cds-CsH
@@ -18737,12 +18520,8 @@ L1: R_R
             L4: Cds-OJDe_Cds
     L2: Ct_R
         L3: Ct_Ct
-            L4: Ct-F_Ct-H
-            L4: Ct-F_Ct-F
             L4: Ct-H_Ct-H
             L4: Ct-H_Ct-Cs
-                L5: Ct-H_Ct-Cs-F
-            L4: Ct-F_Ct-Cs
             L4: Ct-Cs_Ct-H
             L4: Ct-Cs_Ct-Cs
             L4: Ct-H_Ct-De
@@ -18916,11 +18695,7 @@ L1: YJ
                 L5: CO_rad/NonDe
                 L5: CO_rad/OneDe
         L3: CsJ
-            L4: CsJ-H/F
-                L5: CsJ-HHH
-                L5: CsJ-HHF
-                L5: CsJ-HFF
-                L5: CsJ-FFF
+            L4: CsJ-HHH
             L4: CsJ-CsHH
             L4: CsJ-CsCsH
             L4: CsJ-CsCsCs
