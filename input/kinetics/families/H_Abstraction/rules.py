@@ -46594,20 +46594,20 @@ Kinetics of Hydrogen Abstraction Reactions of Butene Isomers by OH Radical
 p-allylic site of iso-butene ref: DOI: 10.1021/jp1062786""",
 )
 
-entry(
-    index = 8000,
-    label = "CH3Val7;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (3.30e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (3.28, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Default""",
-)
+# entry(
+#     index = 8000,
+#     label = "CH3Val7;Cl_rad",
+#     kinetics = ArrheniusEP(
+#         A = (3.30e+13, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (3.28, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 5,
+#     shortDesc = u"""Default""",
+# )
 
 ## Commented out by Richard because not clear what XH group this should have been (C_rad/H2/Cl is a Yrad group)
 #entry(
@@ -46625,20 +46625,20 @@ entry(
 #    shortDesc = u"""Default""",
 #)
 
-entry(
-    index = 8002,
-    label = "CHVal73;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (1.99e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (2.74, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Default""",
-)
+# entry(
+#     index = 8002,
+#     label = "CHVal73;Cl_rad",
+#     kinetics = ArrheniusEP(
+#         A = (1.99e+13, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (2.74, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 5,
+#     shortDesc = u"""Default""",
+# )
 
 
 entry(
@@ -46656,35 +46656,35 @@ entry(
     shortDesc = u"""Default""",
 )
 
-entry(
-    index = 8004,
-    label = "C/H2Val7;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (3.54e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Default""",
-)
+# entry(
+#     index = 8004,
+#     label = "C/H2Val7;Cl_rad",
+#     kinetics = ArrheniusEP(
+#         A = (3.54e+13, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (1.5, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 5,
+#     shortDesc = u"""Default""",
+# )
 
-entry(
-    index = 8005,
-    label = "C/H3/Cs\H2Val7;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (1.12e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (1.5, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Default""",
-)
+# entry(
+#     index = 8005,
+#     label = "C/H3/Cs\H2Val7;Cl_rad",
+#     kinetics = ArrheniusEP(
+#         A = (1.12e+13, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (1.5, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 5,
+#     shortDesc = u"""Default""",
+# )
 
 # entry(
 #     index = 8006,
@@ -46702,20 +46702,20 @@ entry(
 # )
 
 
-entry(
-    index = 8007,
-    label = "C/H3/Cs\Val73;Cl_rad",
-    kinetics = ArrheniusEP(
-        A = (2.51e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        alpha = 0,
-        E0 = (3.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 5,
-    shortDesc = u"""Default""",
-)
+# entry(
+#     index = 8007,
+#     label = "C/H3/Cs\Val73;Cl_rad",
+#     kinetics = ArrheniusEP(
+#         A = (2.51e+12, 'cm^3/(mol*s)'),
+#         n = 0,
+#         alpha = 0,
+#         E0 = (3.6, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ),
+#     rank = 5,
+#     shortDesc = u"""Default""",
+# )
 
 entry(
     index = 8008,
