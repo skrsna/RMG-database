@@ -670,58 +670,6 @@ entry(
     group = 
 """
 1 *1 C u1 {2,S} {3,S} {4,S}
-2    [H,F1s] u0 {1,S}
-3    [H,F1s] u0 {1,S}
-4    [H,F1s] u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 590,
-    label = "CH2F",
-    group = 
-"""
-1 *1 C u1 {2,S} {3,S} {4,S}
-2    F1s u0 {1,S}
-3    H u0 {1,S}
-4    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 591,
-    label = "CHF2",
-    group = 
-"""
-1 *1 C u1 {2,S} {3,S} {4,S}
-2    F1s u0 {1,S}
-3    F1s u0 {1,S}
-4    H u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 592,
-    label = "CF3",
-    group = 
-"""
-1 *1 C u1 {2,S} {3,S} {4,S}
-2    F1s u0 {1,S}
-3    F1s u0 {1,S}
-4    F1s u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 593,
-    label = "CH3",
-    group = 
-"""
-1 *1 C u1 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
 4    H u0 {1,S}
@@ -1803,37 +1751,6 @@ entry(
 )
 
 entry(
-    index = 1460,
-    label = "Cmethyl_Csrad/F",
-    group = 
-"""
-1 *2 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u1 {1,S} {6,S}
-3 *4 H  u0 {1,S}
-4    H  u0 {1,S}
-5    H  u0 {1,S}
-6    F1s u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 1461,
-    label = "Cmethyl_Csrad/F2",
-    group = 
-"""
-1 *2 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs u1 {1,S} {6,S} {7,S}
-3 *4 H  u0 {1,S}
-4    H  u0 {1,S}
-5    H  u0 {1,S}
-6    F1s u0 {2,S}
-7    F1s u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 147,
     label = "Cmethyl_Csrad/H/Cd",
     group = 
@@ -1922,94 +1839,6 @@ entry(
 entry(
     index = 153,
     label = "Cpri_Rrad",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S}
-3 *4 H                   u0 {1,S}
-4    [H,F1s]                   u0 {1,S}
-5    R!H                 u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 1531,
-    label = "Cpri_Rrad/F",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S}
-3 *4 H                   u0 {1,S}
-4    F1s                 u0 {1,S}
-5    R!H                 u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 15310,
-    label = "Cpri_Rrad/F/F",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S} {6,S}
-3 *4 H                   u0 {1,S}
-4    F1s                 u0 {1,S}
-5    R!H                 u0 {1,S}
-6    F1s                 u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 15311,
-    label = "Cpri_Rrad/F/F2",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S} {6,S} {7,S}
-3 *4 H                   u0 {1,S}
-4    F1s                 u0 {1,S}
-5    R!H                 u0 {1,S}
-6    F1s                 u0 {2,S}
-7    F1s                 u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 1532,
-    label = "Cpri_Rrad/F2",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S}
-3 *4 H                   u0 {1,S}
-4    F1s                 u0 {1,S}
-5    F1s                 u0 {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 1532,
-    label = "Cpri_Rrad/F2/F",
-    group = 
-"""
-1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
-2 *3 [Cs,Cd,CO,CS,O,S,N] u1 {1,S} {6,S}
-3 *4 H                   u0 {1,S}
-4    F1s                 u0 {1,S}
-5    F1s                 u0 {1,S}
-6    F1s                 u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 1533,
-    label = "Cpri_Rrad/H2",
     group = 
 """
 1 *2 C                   u0 {2,S} {3,S} {4,S} {5,S}
@@ -3109,46 +2938,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 233,
-    label = "Val7_rad",
-    group = 
-"""
-1 *1 Val7 u1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 234,
-    label = "F_rad",
-    group = 
-"""
-1 *1 F u1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 235,
-    label = "Cl_rad",
-    group = 
-"""
-1 *1 Cl u1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 236,
-    label = "Br_rad",
-    group = 
-"""
-1 *1 Br u1
-""",
-    kinetics = None,
-)
-
 tree(
 """
 L1: Y_rad_birad_trirad_quadrad
@@ -3172,10 +2961,6 @@ L1: Y_rad_birad_trirad_quadrad
         L3: CH2_triplet
         L3: NH_triplet
     L2: Y_rad
-        L3: Val7_rad
-            L4: F_rad
-            L4: Cl_rad
-            L4: Br_rad
         L3: H_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
@@ -3214,10 +2999,6 @@ L1: Y_rad_birad_trirad_quadrad
                 L5: CS_rad/OneDe
         L3: Cs_rad
             L4: C_methyl
-                L5: CF3
-                L5: CHF2
-                L5: CH2F
-                L5: CH3
             L4: C_pri_rad
                 L5: C_rad/H2/Cs
                 L5: C_rad/H2/Cd
@@ -3306,8 +3087,6 @@ L1: XH_Rrad_birad
                 L5: S_Srad
             L4: Cmethyl_Rrad
                 L5: Cmethyl_Csrad
-                    L6: Cmethyl_Csrad/F
-                        L7: Cmethyl_Csrad/F2
                     L6: Cmethyl_Csrad/H/Cd
                 L5: Cmethyl_Cdrad
                 L5: Cmethyl_COrad
@@ -3315,29 +3094,23 @@ L1: XH_Rrad_birad
                 L5: Cmethyl_Srad
                 L5: Cmethyl_Nrad
             L4: Cpri_Rrad
-                L5: Cpri_Rrad/F
-                    L6: Cpri_Rrad/F/F
-                        L7: Cpri_Rrad/F/F2
-                        L7: Cpri_Rrad/F2/F
-                    L6: Cpri_Rrad/F2
-                L5: Cpri_Rrad/H2
-                    L6: C/H2/Nd_Rrad
-                        L7: C/H2/Nd_Csrad
-                            L8: C/H2/Nd_Csrad/H/Cd
-                        L7: C/H2/Nd_Cdrad
-                        L7: C/H2/Nd_COrad
-                        L7: C/H2/Nd_CSrad
-                        L7: C/H2/Nd_Orad
-                        L7: C/H2/Nd_Nrad
-                        L7: C/H2/Nd_Srad
-                    L6: C/H2/De_Rrad
-                        L7: C/H2/De_Csrad
-                            L8: C/H2/De_Csrad/H/Cd
-                            L8: C/H2/Cd_Csrad
-                        L7: C/H2/De_Cdrad
-                        L7: C/H2/De_COrad
-                        L7: C/H2/De_Orad
-                        L7: C/H2/De_Nrad
+                L5: C/H2/Nd_Rrad
+                    L6: C/H2/Nd_Csrad
+                        L7: C/H2/Nd_Csrad/H/Cd
+                    L6: C/H2/Nd_Cdrad
+                    L6: C/H2/Nd_COrad
+                    L6: C/H2/Nd_CSrad
+                    L6: C/H2/Nd_Orad
+                    L6: C/H2/Nd_Nrad
+                    L6: C/H2/Nd_Srad
+                L5: C/H2/De_Rrad
+                    L6: C/H2/De_Csrad
+                        L7: C/H2/De_Csrad/H/Cd
+                        L7: C/H2/Cd_Csrad
+                    L6: C/H2/De_Cdrad
+                    L6: C/H2/De_COrad
+                    L6: C/H2/De_Orad
+                    L6: C/H2/De_Nrad
             L4: Csec_Rrad
                 L5: C/H/NdNd_Rrad
                     L6: C/H/NdNd_Csrad
