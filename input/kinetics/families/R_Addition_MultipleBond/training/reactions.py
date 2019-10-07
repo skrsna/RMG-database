@@ -58061,7 +58061,7 @@ Reaction: Benzene + Methyl Radical <=> CC1[CH]C=CC=C1
 #     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(2.8e+12,'cm^3/(mol*s)'), n=0, Ea=(2410,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(1.33e+27,'cm^6/(mol^2*s)'), n=-3.5, Ea=(2410,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 3.0, 'F': 2.0, 'CF': 6.0, 'O': 5.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 2.0}),
 #     rank = 10,
 #     shortDesc = u"""From NIST CH2F2 model""",
-)
+#)
 
 # entry(
 #     index = 2901,
@@ -58101,7 +58101,7 @@ entry(
 
 entry(
     index = 2905,
-    label = "CH-CFCF3 <=> CF3 + C2HF",
+    label = "CH-CFCF3 <=> CF3 + C2HF_2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'s^-1'), n=0, Ea=(45000,'cal/mol'), T0=(1,'K')),
     rank = 10,
