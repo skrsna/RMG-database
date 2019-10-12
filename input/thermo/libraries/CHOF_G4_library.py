@@ -23,12 +23,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77128,0.0232243,-3.7685e-06,-1.17437e-08,6.29369e-12,-15611.4,10.7794], Tmin=(10,'K'), Tmax=(903.557,'K')),
-            NASAPolynomial(coeffs=[5.96217,0.0208513,-1.1991e-05,3.29645e-09,-3.50455e-13,-16306.4,-1.22306], Tmin=(903.557,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77128,0.0232243,-3.7685e-06,-1.17437e-08,6.29369e-12,-14586.9,10.7794], Tmin=(10,'K'), Tmax=(903.557,'K')),
+            NASAPolynomial(coeffs=[5.96217,0.0208513,-1.1991e-05,3.29645e-09,-3.50455e-13,-15281.9,-1.22306], Tmin=(903.557,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-129.806,'kJ/mol'),
+        E0 = (-121.288,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -37,7 +37,7 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -92,12 +92,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86257,0.0128705,9.89406e-05,-3.56821e-07,4.20264e-10,-30320.9,10.283], Tmin=(10,'K'), Tmax=(215.028,'K')),
-            NASAPolynomial(coeffs=[2.96293,0.029606,-1.7805e-05,5.13972e-09,-5.72543e-13,-30282.2,13.2404], Tmin=(215.028,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86257,0.0128705,9.89406e-05,-3.56821e-07,4.20264e-10,-28617.6,10.283], Tmin=(10,'K'), Tmax=(215.028,'K')),
+            NASAPolynomial(coeffs=[2.96293,0.029606,-1.7805e-05,5.13972e-09,-5.72543e-13,-28578.9,13.2404], Tmin=(215.028,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-252.091,'kJ/mol'),
+        E0 = (-237.928,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -106,7 +106,7 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -129,12 +129,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.82446,0.0126991,0.000144456,-3.90644e-07,3.10016e-10,-70599.2,10.4811], Tmin=(10,'K'), Tmax=(431.375,'K')),
-            NASAPolynomial(coeffs=[4.16047,0.0353213,-2.3704e-05,7.5517e-09,-9.13102e-13,-70867.7,6.36684], Tmin=(431.375,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.82446,0.0126991,0.000144456,-3.90644e-07,3.10016e-10,-69166.6,10.4811], Tmin=(10,'K'), Tmax=(431.375,'K')),
+            NASAPolynomial(coeffs=[4.16047,0.0353213,-2.3704e-05,7.5517e-09,-9.13102e-13,-69435.1,6.36684], Tmin=(431.375,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-587.004,'kJ/mol'),
+        E0 = (-575.093,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -143,7 +143,7 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -168,12 +168,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79829,0.0294358,-1.36536e-07,-1.55098e-08,6.45221e-12,-60743.7,11.7588], Tmin=(10,'K'), Tmax=(1083.36,'K')),
-            NASAPolynomial(coeffs=[7.66396,0.0273746,-1.41906e-05,3.54318e-09,-3.45527e-13,-62297.9,-10.5078], Tmin=(1083.36,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79829,0.0294358,-1.36595e-07,-1.55098e-08,6.45216e-12,-58805,11.7588], Tmin=(10,'K'), Tmax=(1083.37,'K')),
+            NASAPolynomial(coeffs=[7.66407,0.0273743,-1.41904e-05,3.54311e-09,-3.45519e-13,-60359.3,-10.5084], Tmin=(1083.37,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-505.02,'kJ/mol'),
+        E0 = (-488.901,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -182,7 +182,7 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -277,12 +277,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9072,0.00579253,0.000109485,-2.3442e-07,1.51458e-10,-91054.3,8.26046], Tmin=(10,'K'), Tmax=(515.561,'K')),
-            NASAPolynomial(coeffs=[3.18586,0.0308485,-2.00303e-05,6.26436e-09,-7.51165e-13,-91238.5,8.75452], Tmin=(515.561,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9072,0.00579253,0.000109485,-2.3442e-07,1.51458e-10,-89524.2,8.26046], Tmin=(10,'K'), Tmax=(515.561,'K')),
+            NASAPolynomial(coeffs=[3.18586,0.0308485,-2.00303e-05,6.26436e-09,-7.51165e-13,-89708.4,8.75452], Tmin=(515.561,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-757.096,'kJ/mol'),
+        E0 = (-744.375,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -291,7 +291,7 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -347,12 +347,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89848,0.00658547,0.00010881,-2.47629e-07,1.68345e-10,-40492.2,10.7733], Tmin=(10,'K'), Tmax=(492.029,'K')),
-            NASAPolynomial(coeffs=[3.34208,0.0301274,-2.09404e-05,6.73296e-09,-8.12815e-13,-40667.7,10.7236], Tmin=(492.029,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89848,0.00658547,0.00010881,-2.47629e-07,1.68345e-10,-40037.6,10.7733], Tmin=(10,'K'), Tmax=(492.029,'K')),
+            NASAPolynomial(coeffs=[3.34208,0.0301274,-2.09404e-05,6.73296e-09,-8.12815e-13,-40213.1,10.7236], Tmin=(492.029,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-336.696,'kJ/mol'),
+        E0 = (-332.916,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -361,7 +361,7 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -493,12 +493,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89804,0.00641189,0.00012961,-2.75915e-07,1.78415e-10,-23841.4,10.9081], Tmin=(10,'K'), Tmax=(507.528,'K')),
-            NASAPolynomial(coeffs=[2.48326,0.0382242,-2.54777e-05,8.01568e-09,-9.57076e-13,-23963.9,14.1525], Tmin=(507.528,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89804,0.00641189,0.00012961,-2.75915e-07,1.78415e-10,-22316.5,10.9081], Tmin=(10,'K'), Tmax=(507.528,'K')),
+            NASAPolynomial(coeffs=[2.48326,0.0382242,-2.54777e-05,8.01568e-09,-9.57076e-13,-22439,14.1525], Tmin=(507.528,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-198.259,'kJ/mol'),
+        E0 = (-185.58,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -507,7 +507,7 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
@@ -602,21 +602,21 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90789,0.00562694,8.69032e-05,-1.90086e-07,1.21499e-10,14206.7,9.89108], Tmin=(10,'K'), Tmax=(540.054,'K')),
-            NASAPolynomial(coeffs=[4.3277,0.0225323,-1.56423e-05,5.12481e-09,-6.33934e-13,13869.5,5.42216], Tmin=(540.054,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90789,0.00562694,8.69032e-05,-1.90086e-07,1.21499e-10,14399.8,9.89108], Tmin=(10,'K'), Tmax=(540.054,'K')),
+            NASAPolynomial(coeffs=[4.3277,0.0225323,-1.56423e-05,5.12481e-09,-6.33934e-13,14062.6,5.42216], Tmin=(540.054,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (118.089,'kJ/mol'),
+        E0 = (119.695,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.231 kJ/mol
+
 """,
     rank = 5,
 )
@@ -659,6 +659,45 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.936 kJ/mol
 
 entry(
     index = 18,
+    label = "FCD[C]C(F)CF",
+    molecule = 
+"""
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u1 p0 c0 {2,D} {4,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+5  F u0 p3 c0 {4,S}
+6  C u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50795,0.0531568,-0.000160562,4.24523e-07,-4.12326e-10,-39757.4,13.0028], Tmin=(10,'K'), Tmax=(354.16,'K')),
+            NASAPolynomial(coeffs=[2.56078,0.0429104,-2.84587e-05,8.87381e-09,-1.05052e-12,-39559,18.4436], Tmin=(354.16,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-330.573,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 19,
     label = "CC[C](F)F",
     molecule = 
 """
@@ -696,7 +735,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.766 kJ/mol
 )
 
 entry(
-    index = 19,
+    index = 20,
     label = "C#CC([O])(F)F",
     molecule = 
 """
@@ -711,12 +750,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8481,0.00977804,0.000109036,-2.77012e-07,1.96897e-10,-19376.5,10.9565], Tmin=(10,'K'), Tmax=(506.423,'K')),
-            NASAPolynomial(coeffs=[6.15083,0.0217991,-1.60487e-05,5.44314e-09,-6.88081e-13,-19997.1,-2.41078], Tmin=(506.423,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8481,0.00977804,0.000109036,-2.77012e-07,1.96897e-10,-19134,10.9565], Tmin=(10,'K'), Tmax=(506.423,'K')),
+            NASAPolynomial(coeffs=[6.15083,0.0217991,-1.60487e-05,5.44314e-09,-6.88081e-13,-19754.6,-2.41078], Tmin=(506.423,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-161.145,'kJ/mol'),
+        E0 = (-159.128,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -725,13 +764,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 20,
+    index = 21,
     label = "FCDCOCF",
     molecule = 
 """
@@ -768,7 +807,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 )
 
 entry(
-    index = 21,
+    index = 22,
     label = "FC1(F)[CH]C1",
     molecule = 
 """
@@ -784,12 +823,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92999,0.00395221,8.79684e-05,-1.61853e-07,8.92407e-11,-15081.3,9.43976], Tmin=(10,'K'), Tmax=(598.588,'K')),
-            NASAPolynomial(coeffs=[2.38422,0.0310321,-2.18658e-05,7.2219e-09,-8.9773e-13,-15196.3,13.5973], Tmin=(598.588,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92999,0.00395221,8.79684e-05,-1.61853e-07,8.92407e-11,-13920.7,9.43976], Tmin=(10,'K'), Tmax=(598.588,'K')),
+            NASAPolynomial(coeffs=[2.38422,0.0310321,-2.18658e-05,7.2219e-09,-8.9773e-13,-14035.7,13.5973], Tmin=(598.588,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-125.425,'kJ/mol'),
+        E0 = (-115.775,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -798,13 +837,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 22,
+    index = 23,
     label = "CC(F)[CH]F",
     molecule = 
 """
@@ -822,12 +861,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7802,0.019532,4.23391e-05,-1.11958e-07,8.16368e-11,-39523.9,10.6377], Tmin=(10,'K'), Tmax=(359.012,'K')),
-            NASAPolynomial(coeffs=[2.41209,0.0347752,-2.1349e-05,6.3083e-09,-7.18699e-13,-39425.6,15.8365], Tmin=(359.012,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7802,0.019532,4.23391e-05,-1.11958e-07,8.16368e-11,-37458.4,10.6377], Tmin=(10,'K'), Tmax=(359.012,'K')),
+            NASAPolynomial(coeffs=[2.41209,0.0347752,-2.1349e-05,6.3083e-09,-7.18699e-13,-37360.2,15.8365], Tmin=(359.012,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-328.632,'kJ/mol'),
+        E0 = (-311.459,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -836,13 +875,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 23,
+    index = 24,
     label = "ODC(F)C(F)(F)F",
     molecule = 
 """
@@ -876,7 +915,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.331 kJ/mol
 )
 
 entry(
-    index = 24,
+    index = 25,
     label = "FCDC(F)OF",
     molecule = 
 """
@@ -890,12 +929,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79296,0.016688,6.26097e-05,-1.85666e-07,1.40579e-10,-45360.1,10.7693], Tmin=(10,'K'), Tmax=(483.329,'K')),
-            NASAPolynomial(coeffs=[5.34224,0.0230193,-1.64799e-05,5.41169e-09,-6.63799e-13,-45733.5,2.10704], Tmin=(483.329,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79296,0.016688,6.26097e-05,-1.85666e-07,1.40579e-10,-45431.1,10.7693], Tmin=(10,'K'), Tmax=(483.329,'K')),
+            NASAPolynomial(coeffs=[5.34224,0.0230193,-1.64799e-05,5.41169e-09,-6.63799e-13,-45804.5,2.10704], Tmin=(483.329,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-377.171,'kJ/mol'),
+        E0 = (-377.761,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -904,13 +943,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 25,
+    index = 26,
     label = "FC[C]1CDC1",
     molecule = 
 """
@@ -927,27 +966,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93474,0.0043517,0.00011027,-2.40813e-07,1.65256e-10,30090.3,9.90277], Tmin=(10,'K'), Tmax=(454.648,'K')),
-            NASAPolynomial(coeffs=[1.97614,0.032877,-2.11022e-05,6.45929e-09,-7.56089e-13,30151.6,16.5244], Tmin=(454.648,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93474,0.0043517,0.00011027,-2.40813e-07,1.65256e-10,29857.4,9.90277], Tmin=(10,'K'), Tmax=(454.648,'K')),
+            NASAPolynomial(coeffs=[1.97614,0.032877,-2.11022e-05,6.45929e-09,-7.56089e-13,29918.8,16.5244], Tmin=(454.648,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (250.175,'kJ/mol'),
+        E0 = (248.239,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 5.581 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 26,
+    index = 27,
     label = "CC1C[C]1F",
     molecule = 
 """
@@ -986,7 +1025,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.705 kJ/mol
 )
 
 entry(
-    index = 27,
+    index = 28,
     label = "FCCOC(F)F",
     molecule = 
 """
@@ -1025,7 +1064,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.921 kJ/mol
 )
 
 entry(
-    index = 28,
+    index = 29,
     label = "CDCC[CH]F",
     molecule = 
 """
@@ -1064,7 +1103,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.94 kJ/mol
 )
 
 entry(
-    index = 29,
+    index = 30,
     label = "FC1[CH]OO1",
     molecule = 
 """
@@ -1079,12 +1118,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94902,0.00287767,7.30964e-05,-1.31468e-07,7.15466e-11,-5566.95,9.66935], Tmin=(10,'K'), Tmax=(593.159,'K')),
-            NASAPolynomial(coeffs=[2.03621,0.0276484,-1.95659e-05,6.41908e-09,-7.89981e-13,-5548.87,16.1381], Tmin=(593.159,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94902,0.00287767,7.30964e-05,-1.31468e-07,7.15466e-11,-4893.6,9.66935], Tmin=(10,'K'), Tmax=(593.159,'K')),
+            NASAPolynomial(coeffs=[2.03621,0.0276484,-1.95659e-05,6.41908e-09,-7.89981e-13,-4875.53,16.1381], Tmin=(593.159,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-46.3094,'kJ/mol'),
+        E0 = (-40.7109,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -1093,13 +1132,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 30,
+    index = 31,
     label = "OCDC(F)CF",
     molecule = 
 """
@@ -1116,12 +1155,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.67712,0.0288182,1.91137e-06,-2.69759e-08,1.47759e-11,-64891.8,10.8189], Tmin=(10,'K'), Tmax=(761.967,'K')),
-            NASAPolynomial(coeffs=[4.98663,0.0304481,-1.80387e-05,5.1266e-09,-5.62717e-13,-65338.2,3.2373], Tmin=(761.967,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.67712,0.0288182,1.9115e-06,-2.69762e-08,1.47761e-11,-63371.4,10.8189], Tmin=(10,'K'), Tmax=(761.964,'K')),
+            NASAPolynomial(coeffs=[4.98659,0.0304482,-1.80388e-05,5.12663e-09,-5.62721e-13,-63817.9,3.23748], Tmin=(761.964,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-539.572,'kJ/mol'),
+        E0 = (-526.931,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -1130,13 +1169,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 31,
+    index = 32,
     label = "CC(O)F",
     molecule = 
 """
@@ -1152,12 +1191,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.97329,0.00181956,9.8764e-05,-2.01859e-07,1.3609e-10,-61013.6,8.47206], Tmin=(10,'K'), Tmax=(379.873,'K')),
-            NASAPolynomial(coeffs=[1.13064,0.0317665,-1.95438e-05,5.8671e-09,-6.83132e-13,-60797.7,19.4334], Tmin=(379.873,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.97329,0.00181956,9.8764e-05,-2.01859e-07,1.3609e-10,-58879.4,8.47206], Tmin=(10,'K'), Tmax=(379.873,'K')),
+            NASAPolynomial(coeffs=[1.13064,0.0317665,-1.95438e-05,5.8671e-09,-6.83132e-13,-58663.6,19.4334], Tmin=(379.873,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-507.296,'kJ/mol'),
+        E0 = (-489.551,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -1166,13 +1205,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 32,
+    index = 33,
     label = "C#CCOF",
     molecule = 
 """
@@ -1187,12 +1226,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8906,0.0076795,0.000108379,-2.80498e-07,2.16589e-10,17472.3,9.72786], Tmin=(10,'K'), Tmax=(438.434,'K')),
-            NASAPolynomial(coeffs=[3.88115,0.0260516,-1.70369e-05,5.3331e-09,-6.37841e-13,17297.4,7.7614], Tmin=(438.434,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8906,0.0076795,0.000108379,-2.80498e-07,2.16589e-10,18735.9,9.72786], Tmin=(10,'K'), Tmax=(438.434,'K')),
+            NASAPolynomial(coeffs=[3.88115,0.0260516,-1.70369e-05,5.3331e-09,-6.37841e-13,18561,7.7614], Tmin=(438.434,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (145.264,'kJ/mol'),
+        E0 = (155.771,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -1201,13 +1240,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 33,
+    index = 34,
     label = "[CH2]CC#CF",
     molecule = 
 """
@@ -1244,7 +1283,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.85 kJ/mol
 )
 
 entry(
-    index = 34,
+    index = 35,
     label = "FC[C]1CDC1F",
     molecule = 
 """
@@ -1261,27 +1300,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77533,0.0227085,1.60592e-05,-4.4086e-08,2.20866e-11,9108.05,11.7005], Tmin=(10,'K'), Tmax=(764.945,'K')),
-            NASAPolynomial(coeffs=[5.10368,0.0276267,-1.68499e-05,4.87097e-09,-5.40171e-13,8557.71,3.37908], Tmin=(764.945,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77533,0.0227085,1.60592e-05,-4.4086e-08,2.20866e-11,9177.86,11.7005], Tmin=(10,'K'), Tmax=(764.945,'K')),
+            NASAPolynomial(coeffs=[5.10368,0.0276267,-1.68499e-05,4.87097e-09,-5.40171e-13,8627.52,3.37908], Tmin=(764.945,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (75.7171,'kJ/mol'),
+        E0 = (76.2975,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.618 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 35,
+    index = 36,
     label = "OCOC(F)F",
     molecule = 
 """
@@ -1298,12 +1337,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81105,0.0201291,3.12191e-05,-6.20972e-08,2.92698e-11,-103228,10.6974], Tmin=(10,'K'), Tmax=(761.346,'K')),
-            NASAPolynomial(coeffs=[4.08745,0.0322248,-1.93039e-05,5.51567e-09,-6.06811e-13,-103663,6.86064], Tmin=(761.346,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81105,0.0201291,3.12191e-05,-6.20972e-08,2.92698e-11,-101825,10.6974], Tmin=(10,'K'), Tmax=(761.346,'K')),
+            NASAPolynomial(coeffs=[4.08745,0.0322248,-1.93039e-05,5.51567e-09,-6.06811e-13,-102260,6.86064], Tmin=(761.346,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-858.295,'kJ/mol'),
+        E0 = (-846.628,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -1312,13 +1351,49 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 36,
+    index = 37,
+    label = "FCC(F)OF",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+4 F u0 p3 c0 {3,S}
+5 O u0 p2 c0 {3,S} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78957,0.0256154,2.58295e-07,-1.78168e-08,8.40139e-12,-63510.6,10.7161], Tmin=(10,'K'), Tmax=(946.252,'K')),
+            NASAPolynomial(coeffs=[6.71694,0.0237784,-1.35341e-05,3.66907e-09,-3.84487e-13,-64536.4,-5.73787], Tmin=(946.252,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-528.041,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 38,
     label = "ODCCOF",
     molecule = 
 """
@@ -1333,12 +1408,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85882,0.019647,2.03292e-06,-1.38255e-08,5.82526e-12,-25332.6,9.71265], Tmin=(10,'K'), Tmax=(1020.66,'K')),
-            NASAPolynomial(coeffs=[6.12588,0.0194681,-1.04986e-05,2.71673e-09,-2.73576e-13,-26248.9,-3.49237], Tmin=(1020.66,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85882,0.019647,2.03292e-06,-1.38255e-08,5.82526e-12,-24208.5,9.71265], Tmin=(10,'K'), Tmax=(1020.66,'K')),
+            NASAPolynomial(coeffs=[6.12588,0.0194681,-1.04986e-05,2.71673e-09,-2.73576e-13,-25124.7,-3.49237], Tmin=(1020.66,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-210.606,'kJ/mol'),
+        E0 = (-201.259,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -1347,13 +1422,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 37,
+    index = 39,
     label = "CDC[CH]F",
     molecule = 
 """
@@ -1389,7 +1464,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.013 kJ/mol
 )
 
 entry(
-    index = 38,
+    index = 40,
     label = "C[CH]OC(F)F",
     molecule = 
 """
@@ -1428,7 +1503,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.363 kJ/mol
 )
 
 entry(
-    index = 39,
+    index = 41,
     label = "FCDC(F)COF",
     molecule = 
 """
@@ -1445,12 +1520,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.67797,0.0359617,-1.72437e-05,-2.75272e-09,3.32182e-12,-48342.5,11.8297], Tmin=(10,'K'), Tmax=(1022.82,'K')),
-            NASAPolynomial(coeffs=[8.97532,0.024381,-1.36584e-05,3.64321e-09,-3.75977e-13,-49904,-16.1825], Tmin=(1022.82,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.67797,0.0359617,-1.72437e-05,-2.75272e-09,3.32182e-12,-47470,11.8297], Tmin=(10,'K'), Tmax=(1022.82,'K')),
+            NASAPolynomial(coeffs=[8.97532,0.024381,-1.36584e-05,3.64321e-09,-3.75977e-13,-49031.5,-16.1825], Tmin=(1022.82,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-401.937,'kJ/mol'),
+        E0 = (-394.682,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -1459,13 +1534,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 40,
+    index = 42,
     label = "OC(F)D[C]F",
     molecule = 
 """
@@ -1479,12 +1554,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81906,0.0149653,4.82143e-05,-1.74042e-07,1.54624e-10,-27713.5,10.3907], Tmin=(10,'K'), Tmax=(418.305,'K')),
-            NASAPolynomial(coeffs=[5.02945,0.0176391,-1.2466e-05,4.09417e-09,-5.04518e-13,-27939.4,4.11616], Tmin=(418.305,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81906,0.0149653,4.82143e-05,-1.74042e-07,1.54624e-10,-27598.4,10.3907], Tmin=(10,'K'), Tmax=(418.305,'K')),
+            NASAPolynomial(coeffs=[5.02945,0.0176391,-1.2466e-05,4.09417e-09,-5.04518e-13,-27824.4,4.11616], Tmin=(418.305,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-230.426,'kJ/mol'),
+        E0 = (-229.469,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -1493,13 +1568,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 41,
+    index = 43,
     label = "FC1(F)CC1",
     molecule = 
 """
@@ -1515,12 +1590,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.0991,-0.0100262,0.000167648,-3.0804e-07,1.8114e-10,-44189.9,8.66782], Tmin=(10,'K'), Tmax=(547.766,'K')),
-            NASAPolynomial(coeffs=[1.47548,0.0342486,-2.23724e-05,6.93389e-09,-8.17592e-13,-44279.2,16.3066], Tmin=(547.766,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.0991,-0.0100262,0.000167648,-3.0804e-07,1.8114e-10,-42567.5,8.66782], Tmin=(10,'K'), Tmax=(547.766,'K')),
+            NASAPolynomial(coeffs=[1.47548,0.0342486,-2.23724e-05,6.93389e-09,-8.17592e-13,-42656.8,16.3066], Tmin=(547.766,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-367.435,'kJ/mol'),
+        E0 = (-353.945,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -1529,13 +1604,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 42,
+    index = 44,
     label = "[CH2]C(F)CO",
     molecule = 
 """
@@ -1554,12 +1629,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90221,0.00950739,0.000185878,-6.55962e-07,7.82883e-10,-35568.5,10.3221], Tmin=(10,'K'), Tmax=(211.644,'K')),
-            NASAPolynomial(coeffs=[2.32945,0.0392313,-2.47808e-05,7.58262e-09,-8.93434e-13,-35502,15.4675], Tmin=(211.644,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90221,0.00950739,0.000185878,-6.55962e-07,7.82883e-10,-32952.7,10.3221], Tmin=(10,'K'), Tmax=(211.644,'K')),
+            NASAPolynomial(coeffs=[2.32945,0.0392313,-2.47808e-05,7.58262e-09,-8.93434e-13,-32886.1,15.4675], Tmin=(211.644,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-295.704,'kJ/mol'),
+        E0 = (-273.955,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -1568,13 +1643,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 43,
+    index = 45,
     label = "F[C]1CDCC1",
     molecule = 
 """
@@ -1591,27 +1666,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9427,0.00335575,9.57322e-05,-1.75807e-07,9.97692e-11,14124.6,9.76288], Tmin=(10,'K'), Tmax=(554.639,'K')),
-            NASAPolynomial(coeffs=[1.27097,0.0349799,-2.32101e-05,7.32551e-09,-8.80744e-13,14230.9,19.3643], Tmin=(554.639,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9427,0.00335575,9.57322e-05,-1.75807e-07,9.97692e-11,14179.7,9.76288], Tmin=(10,'K'), Tmax=(554.639,'K')),
+            NASAPolynomial(coeffs=[1.27097,0.0349799,-2.32101e-05,7.32551e-09,-8.80744e-13,14286,19.3643], Tmin=(554.639,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (117.415,'kJ/mol'),
+        E0 = (117.873,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.757 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 44,
+    index = 46,
     label = "FOC1CO1",
     molecule = 
 """
@@ -1646,7 +1721,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.92 kJ/mol
 )
 
 entry(
-    index = 45,
+    index = 47,
     label = "[O]CDCCF",
     molecule = 
 """
@@ -1683,7 +1758,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.942 kJ/mol
 )
 
 entry(
-    index = 46,
+    index = 48,
     label = "O[C](F)COF",
     molecule = 
 """
@@ -1720,7 +1795,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.824 kJ/mol
 )
 
 entry(
-    index = 47,
+    index = 49,
     label = "CC(F)D[C]CF",
     molecule = 
 """
@@ -1739,12 +1814,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58845,0.043209,-0.000102162,2.53388e-07,-2.33005e-10,-21828.1,10.6459], Tmin=(10,'K'), Tmax=(386.769,'K')),
-            NASAPolynomial(coeffs=[2.22667,0.0403412,-2.52977e-05,7.57996e-09,-8.71902e-13,-21595.9,17.5611], Tmin=(386.769,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58845,0.043209,-0.000102162,2.53388e-07,-2.33005e-10,-19772.3,10.6459], Tmin=(10,'K'), Tmax=(386.769,'K')),
+            NASAPolynomial(coeffs=[2.22667,0.0403412,-2.52977e-05,7.57996e-09,-8.71902e-13,-19540.2,17.5611], Tmin=(386.769,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-181.5,'kJ/mol'),
+        E0 = (-164.407,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -1753,13 +1828,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 48,
+    index = 50,
     label = "OC1(F)CO1",
     molecule = 
 """
@@ -1774,12 +1849,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93525,0.00370355,8.56947e-05,-1.58782e-07,8.88378e-11,-59066.3,8.92798], Tmin=(10,'K'), Tmax=(584.865,'K')),
-            NASAPolynomial(coeffs=[2.29865,0.030037,-2.06728e-05,6.72453e-09,-8.27227e-13,-59133.9,13.732], Tmin=(584.865,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93525,0.00370355,8.56947e-05,-1.58782e-07,8.88378e-11,-57963.9,8.92798], Tmin=(10,'K'), Tmax=(584.865,'K')),
+            NASAPolynomial(coeffs=[2.29865,0.030037,-2.06728e-05,6.72453e-09,-8.27227e-13,-58031.4,13.732], Tmin=(584.865,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-491.134,'kJ/mol'),
+        E0 = (-481.968,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -1788,13 +1863,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 49,
+    index = 51,
     label = "CDC(CF)OF",
     molecule = 
 """
@@ -1811,12 +1886,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.74817,0.0258046,1.19266e-05,-3.68544e-08,1.7645e-11,-27956.9,10.9271], Tmin=(10,'K'), Tmax=(817.127,'K')),
-            NASAPolynomial(coeffs=[5.2241,0.0303113,-1.7882e-05,5.03578e-09,-5.46955e-13,-28589.8,1.70808], Tmin=(817.127,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.74817,0.0258046,1.19266e-05,-3.68544e-08,1.7645e-11,-26480.4,10.9271], Tmin=(10,'K'), Tmax=(817.127,'K')),
+            NASAPolynomial(coeffs=[5.2241,0.0303113,-1.7882e-05,5.03578e-09,-5.46955e-13,-27113.2,1.70808], Tmin=(817.127,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-232.454,'kJ/mol'),
+        E0 = (-220.177,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -1825,13 +1900,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 50,
+    index = 52,
     label = "C[C](O)F",
     molecule = 
 """
@@ -1867,7 +1942,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.469 kJ/mol
 )
 
 entry(
-    index = 51,
+    index = 53,
     label = "F[CH]CCF",
     molecule = 
 """
@@ -1905,7 +1980,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.292 kJ/mol
 )
 
 entry(
-    index = 52,
+    index = 54,
     label = "CD[C]COF",
     molecule = 
 """
@@ -1922,12 +1997,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.74831,0.0226925,9.614e-06,-3.32893e-08,1.72012e-11,23433.2,10.4871], Tmin=(10,'K'), Tmax=(742.284,'K')),
-            NASAPolynomial(coeffs=[4.36419,0.0274477,-1.6311e-05,4.64853e-09,-5.1155e-13,23119.3,6.20105], Tmin=(742.284,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.74831,0.0226925,9.614e-06,-3.32893e-08,1.72012e-11,25052,10.4871], Tmin=(10,'K'), Tmax=(742.284,'K')),
+            NASAPolynomial(coeffs=[4.36419,0.0274477,-1.6311e-05,4.64853e-09,-5.1155e-13,24738.1,6.20105], Tmin=(742.284,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (194.811,'kJ/mol'),
+        E0 = (208.27,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -1936,13 +2011,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 53,
+    index = 55,
     label = "O[CH]C(F)F",
     molecule = 
 """
@@ -1978,7 +2053,43 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.289 kJ/mol
 )
 
 entry(
-    index = 54,
+    index = 56,
+    label = "OC(F)C(F)F",
+    molecule = 
+"""
+1 O u0 p2 c0 {2,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
+5 F u0 p3 c0 {4,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82934,0.0147801,6.31563e-05,-1.37579e-07,8.23834e-11,-105914,10.7785], Tmin=(10,'K'), Tmax=(572.569,'K')),
+            NASAPolynomial(coeffs=[3.62731,0.0314397,-2.04351e-05,6.26194e-09,-7.30102e-13,-106140,9.45788], Tmin=(572.569,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-880.647,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 57,
     label = "FCC[C](F)CF",
     molecule = 
 """
@@ -1999,12 +2110,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.47457,0.0567128,-0.000166124,4.45345e-07,-4.24613e-10,-66016.8,12.7172], Tmin=(10,'K'), Tmax=(373.085,'K')),
-            NASAPolynomial(coeffs=[1.48097,0.0507516,-3.22539e-05,9.74618e-09,-1.12716e-12,-65677.8,22.9192], Tmin=(373.085,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.47457,0.0567128,-0.000166124,4.45345e-07,-4.24613e-10,-63611.9,12.7172], Tmin=(10,'K'), Tmax=(373.085,'K')),
+            NASAPolynomial(coeffs=[1.48097,0.0507516,-3.22539e-05,9.74618e-09,-1.12716e-12,-63272.9,22.9192], Tmin=(373.085,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-548.912,'kJ/mol'),
+        E0 = (-528.916,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -2013,13 +2124,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 55,
+    index = 58,
     label = "[O]CCDC(F)F",
     molecule = 
 """
@@ -2056,7 +2167,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.554 kJ/mol
 )
 
 entry(
-    index = 56,
+    index = 59,
     label = "OC1CC1F",
     molecule = 
 """
@@ -2073,12 +2184,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93749,0.00364692,0.000105748,-1.92523e-07,1.08478e-10,-37979.7,9.18381], Tmin=(10,'K'), Tmax=(557.677,'K')),
-            NASAPolynomial(coeffs=[0.901994,0.03896,-2.56552e-05,8.10026e-09,-9.76902e-13,-37851.7,20.1678], Tmin=(557.677,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93749,0.00364692,0.000105748,-1.92523e-07,1.08478e-10,-35807,9.18381], Tmin=(10,'K'), Tmax=(557.677,'K')),
+            NASAPolynomial(coeffs=[0.901994,0.03896,-2.56552e-05,8.10026e-09,-9.76902e-13,-35679,20.1678], Tmin=(557.677,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-315.808,'kJ/mol'),
+        E0 = (-297.742,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -2087,13 +2198,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 57,
+    index = 60,
     label = "C[CH]C#CF",
     molecule = 
 """
@@ -2110,27 +2221,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58544,0.0401691,-8.80582e-05,1.54699e-07,-1.08025e-10,22630.8,9.50749], Tmin=(10,'K'), Tmax=(452.057,'K')),
-            NASAPolynomial(coeffs=[3.9679,0.0277012,-1.65463e-05,4.78671e-09,-5.36798e-13,22689,8.99257], Tmin=(452.057,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58544,0.0401691,-8.80582e-05,1.54699e-07,-1.08025e-10,22903.9,9.50749], Tmin=(10,'K'), Tmax=(452.057,'K')),
+            NASAPolynomial(coeffs=[3.9679,0.0277012,-1.65463e-05,4.78671e-09,-5.36798e-13,22962.2,8.99257], Tmin=(452.057,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (188.15,'kJ/mol'),
+        E0 = (190.421,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 5.117 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 58,
+    index = 61,
     label = "C[C]DCDCF",
     molecule = 
 """
@@ -2167,7 +2278,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.769 kJ/mol
 )
 
 entry(
-    index = 59,
+    index = 62,
     label = "F[C]DCF",
     molecule = 
 """
@@ -2200,7 +2311,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.199 kJ/mol
 )
 
 entry(
-    index = 60,
+    index = 63,
     label = "FC1(F)[CH]O1",
     molecule = 
 """
@@ -2234,7 +2345,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.363 kJ/mol
 )
 
 entry(
-    index = 61,
+    index = 64,
     label = "CO[C]DC(F)F",
     molecule = 
 """
@@ -2271,7 +2382,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 )
 
 entry(
-    index = 62,
+    index = 65,
     label = "C#CC(C)F",
     molecule = 
 """
@@ -2288,12 +2399,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90746,0.00642796,0.000130514,-3.14201e-07,2.35021e-10,-6523.19,9.49885], Tmin=(10,'K'), Tmax=(432.195,'K')),
-            NASAPolynomial(coeffs=[2.71745,0.0337197,-2.07023e-05,6.19764e-09,-7.20001e-13,-6572.36,12.4828], Tmin=(432.195,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90746,0.00642796,0.000130514,-3.14201e-07,2.35021e-10,-4218.6,9.49885], Tmin=(10,'K'), Tmax=(432.195,'K')),
+            NASAPolynomial(coeffs=[2.71745,0.0337197,-2.07023e-05,6.19764e-09,-7.20001e-13,-4267.77,12.4828], Tmin=(432.195,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-54.243,'kJ/mol'),
+        E0 = (-35.0815,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -2302,13 +2413,50 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 63,
+    index = 66,
+    label = "FCD[C]C(F)OF",
+    molecule = 
+"""
+multiplicity 2
+1 F u0 p3 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,D} {8,S}
+3 C u1 p0 c0 {2,D} {4,S}
+4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+5 F u0 p3 c0 {4,S}
+6 O u0 p2 c0 {4,S} {7,S}
+7 F u0 p3 c0 {6,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91488,0.0140944,0.000749975,-8.25348e-06,2.83674e-08,-22499,1.1601], Tmin=(10,'K'), Tmax=(100.189,'K')),
+            NASAPolynomial(coeffs=[4.18148,0.0346414,-2.46239e-05,8.04964e-09,-9.84869e-13,-22520,-0.29397], Tmin=(100.189,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-162.843,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 67,
     label = "FOCDCC(F)F",
     molecule = 
 """
@@ -2325,12 +2473,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.69352,0.032575,-3.09472e-06,-2.20829e-08,1.19023e-11,-53765.7,11.6886], Tmin=(10,'K'), Tmax=(867.349,'K')),
-            NASAPolynomial(coeffs=[7.25308,0.028368,-1.69328e-05,4.78203e-09,-5.18711e-13,-54842.4,-7.62493], Tmin=(867.349,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.69352,0.032575,-3.09472e-06,-2.20829e-08,1.19023e-11,-52893.2,11.6886], Tmin=(10,'K'), Tmax=(867.349,'K')),
+            NASAPolynomial(coeffs=[7.25308,0.028368,-1.69328e-05,4.78203e-09,-5.18711e-13,-53969.9,-7.62493], Tmin=(867.349,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-447.036,'kJ/mol'),
+        E0 = (-439.781,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -2339,13 +2487,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 64,
+    index = 68,
     label = "FCOCDC(F)F",
     molecule = 
 """
@@ -2382,7 +2530,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.738 kJ/mol
 )
 
 entry(
-    index = 65,
+    index = 69,
     label = "[O]C1DCDC1F",
     molecule = 
 """
@@ -2415,7 +2563,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.616 kJ/mol
 )
 
 entry(
-    index = 66,
+    index = 70,
     label = "F[C]DC(F)F",
     molecule = 
 """
@@ -2448,7 +2596,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.083 kJ/mol
 )
 
 entry(
-    index = 67,
+    index = 71,
     label = "FC1[CH]OC1",
     molecule = 
 """
@@ -2485,7 +2633,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.903 kJ/mol
 )
 
 entry(
-    index = 68,
+    index = 72,
     label = "FCDC(F)CF",
     molecule = 
 """
@@ -2501,12 +2649,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77712,0.0231743,9.13857e-06,-3.03264e-08,1.43622e-11,-65979.5,10.7085], Tmin=(10,'K'), Tmax=(838.243,'K')),
-            NASAPolynomial(coeffs=[5.31305,0.0264153,-1.55761e-05,4.373e-09,-4.73196e-13,-66608.4,1.35446], Tmin=(838.243,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77712,0.0231743,9.13857e-06,-3.03264e-08,1.43622e-11,-65009.6,10.7085], Tmin=(10,'K'), Tmax=(838.243,'K')),
+            NASAPolynomial(coeffs=[5.31305,0.0264153,-1.55761e-05,4.373e-09,-4.73196e-13,-65638.4,1.35446], Tmin=(838.243,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-548.588,'kJ/mol'),
+        E0 = (-540.523,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -2515,13 +2663,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 69,
+    index = 73,
     label = "C[C]1CC1F",
     molecule = 
 """
@@ -2560,7 +2708,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.96 kJ/mol
 )
 
 entry(
-    index = 70,
+    index = 74,
     label = "CC[CH]CF",
     molecule = 
 """
@@ -2601,7 +2749,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.126 kJ/mol
 )
 
 entry(
-    index = 71,
+    index = 75,
     label = "FCC(F)CF",
     molecule = 
 """
@@ -2619,12 +2767,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88193,0.0247651,1.0673e-05,-2.45553e-08,9.08087e-12,-84010.3,10.4465], Tmin=(10,'K'), Tmax=(1081.74,'K')),
-            NASAPolynomial(coeffs=[7.0284,0.0279634,-1.43304e-05,3.53012e-09,-3.39467e-13,-85558.9,-8.99198], Tmin=(1081.74,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88193,0.0247651,1.0673e-05,-2.45553e-08,9.08087e-12,-82087.1,10.4465], Tmin=(10,'K'), Tmax=(1081.74,'K')),
+            NASAPolynomial(coeffs=[7.0284,0.0279634,-1.43304e-05,3.53012e-09,-3.39467e-13,-83635.7,-8.99198], Tmin=(1081.74,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-698.45,'kJ/mol'),
+        E0 = (-682.46,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -2633,13 +2781,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 72,
+    index = 76,
     label = "OC[C](F)CF",
     molecule = 
 """
@@ -2658,12 +2806,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7276,0.0310844,-3.14474e-06,-1.42102e-08,6.54341e-12,-57790,11.4788], Tmin=(10,'K'), Tmax=(1019.97,'K')),
-            NASAPolynomial(coeffs=[6.92896,0.0290457,-1.56119e-05,4.04681e-09,-4.09079e-13,-58990,-6.71066], Tmin=(1019.97,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7276,0.0310844,-3.14474e-06,-1.42102e-08,6.54341e-12,-55778.2,11.4788], Tmin=(10,'K'), Tmax=(1019.97,'K')),
+            NASAPolynomial(coeffs=[6.92896,0.0290457,-1.56119e-05,4.04681e-09,-4.09079e-13,-56978.3,-6.71066], Tmin=(1019.97,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-480.483,'kJ/mol'),
+        E0 = (-463.756,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -2672,13 +2820,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 73,
+    index = 77,
     label = "ODCCCF",
     molecule = 
 """
@@ -2715,7 +2863,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.178 kJ/mol
 )
 
 entry(
-    index = 74,
+    index = 78,
     label = "FCDCC[C](F)F",
     molecule = 
 """
@@ -2754,7 +2902,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.993 kJ/mol
 )
 
 entry(
-    index = 75,
+    index = 79,
     label = "F[CH]OCCF",
     molecule = 
 """
@@ -2773,12 +2921,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58432,0.0464323,-0.000166057,4.83963e-07,-4.76476e-10,-55413.7,12.0557], Tmin=(10,'K'), Tmax=(367.782,'K')),
-            NASAPolynomial(coeffs=[1.15503,0.0425909,-2.69648e-05,8.10607e-09,-9.32572e-13,-55030.3,24.1282], Tmin=(367.782,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58432,0.0464323,-0.000166057,4.83963e-07,-4.76476e-10,-53475,12.0557], Tmin=(10,'K'), Tmax=(367.782,'K')),
+            NASAPolynomial(coeffs=[1.15503,0.0425909,-2.69648e-05,8.10607e-09,-9.32572e-13,-53091.6,24.1282], Tmin=(367.782,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-460.755,'kJ/mol'),
+        E0 = (-444.636,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -2787,13 +2935,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 76,
+    index = 80,
     label = "C#CCCF",
     molecule = 
 """
@@ -2830,7 +2978,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.468 kJ/mol
 )
 
 entry(
-    index = 77,
+    index = 81,
     label = "OCDC(F)OF",
     molecule = 
 """
@@ -2865,7 +3013,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.762 kJ/mol
 )
 
 entry(
-    index = 78,
+    index = 82,
     label = "FOC1CC1",
     molecule = 
 """
@@ -2882,12 +3030,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94502,0.00320947,0.000104929,-1.87761e-07,1.04727e-10,-3393,9.54979], Tmin=(10,'K'), Tmax=(551.514,'K')),
-            NASAPolynomial(coeffs=[0.381214,0.0403339,-2.67129e-05,8.44228e-09,-1.01723e-12,-3171.41,23.0674], Tmin=(551.514,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94502,0.00320947,0.000104929,-1.87761e-07,1.04727e-10,-1264.01,9.54979], Tmin=(10,'K'), Tmax=(551.514,'K')),
+            NASAPolynomial(coeffs=[0.381214,0.0403339,-2.67129e-05,8.44228e-09,-1.01723e-12,-1042.42,23.0674], Tmin=(551.514,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-28.2342,'kJ/mol'),
+        E0 = (-10.5328,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -2896,13 +3044,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 79,
+    index = 83,
     label = "FCDC(OF)OF",
     molecule = 
 """
@@ -2937,7 +3085,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.053 kJ/mol
 )
 
 entry(
-    index = 80,
+    index = 84,
     label = "F[C]1CDCO1",
     molecule = 
 """
@@ -2972,7 +3120,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.357 kJ/mol
 )
 
 entry(
-    index = 81,
+    index = 85,
     label = "[CH2]C(F)OO",
     molecule = 
 """
@@ -3009,7 +3157,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.258 kJ/mol
 )
 
 entry(
-    index = 82,
+    index = 86,
     label = "O[C](F)CCF",
     molecule = 
 """
@@ -3028,12 +3176,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77141,0.0199312,5.58179e-05,-1.18129e-07,6.67459e-11,-63099.1,11.5174], Tmin=(10,'K'), Tmax=(596.336,'K')),
-            NASAPolynomial(coeffs=[2.83182,0.0389858,-2.41876e-05,7.1712e-09,-8.16543e-13,-63213.8,13.6635], Tmin=(596.336,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77141,0.0199312,5.58179e-05,-1.18129e-07,6.67459e-11,-61087.3,11.5174], Tmin=(10,'K'), Tmax=(596.336,'K')),
+            NASAPolynomial(coeffs=[2.83182,0.0389858,-2.41876e-05,7.1712e-09,-8.16543e-13,-61202,13.6635], Tmin=(596.336,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-524.669,'kJ/mol'),
+        E0 = (-507.942,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -3042,13 +3190,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 83,
+    index = 87,
     label = "CCC[C](F)F",
     molecule = 
 """
@@ -3089,7 +3237,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.182 kJ/mol
 )
 
 entry(
-    index = 84,
+    index = 88,
     label = "F[CH]CCCF",
     molecule = 
 """
@@ -3130,7 +3278,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.842 kJ/mol
 )
 
 entry(
-    index = 85,
+    index = 89,
     label = "FC1(F)CO1",
     molecule = 
 """
@@ -3164,7 +3312,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.987 kJ/mol
 )
 
 entry(
-    index = 86,
+    index = 90,
     label = "FCDC(F)CCF",
     molecule = 
 """
@@ -3183,12 +3331,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77263,0.0344417,-3.28576e-06,-1.47984e-08,6.43354e-12,-71487,11.6164], Tmin=(10,'K'), Tmax=(1099.89,'K')),
-            NASAPolynomial(coeffs=[8.89664,0.0295157,-1.52631e-05,3.79289e-09,-3.67769e-13,-73443.4,-17.3613], Tmin=(1099.89,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77263,0.0344417,-3.28576e-06,-1.47984e-08,6.43354e-12,-69573.5,11.6164], Tmin=(10,'K'), Tmax=(1099.89,'K')),
+            NASAPolynomial(coeffs=[8.89664,0.0295157,-1.52631e-05,3.79289e-09,-3.67769e-13,-71529.9,-17.3613], Tmin=(1099.89,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-594.338,'kJ/mol'),
+        E0 = (-578.429,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (282.692,'J/(mol*K)'),
     ),
@@ -3197,13 +3345,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 87,
+    index = 91,
     label = "OC1(F)CC1",
     molecule = 
 """
@@ -3220,12 +3368,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93782,0.00353139,0.000103462,-1.82014e-07,9.85335e-11,-42557.3,8.67076], Tmin=(10,'K'), Tmax=(581.801,'K')),
-            NASAPolynomial(coeffs=[0.598786,0.0403663,-2.72865e-05,8.80722e-09,-1.08037e-12,-42403.6,20.9525], Tmin=(581.801,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93782,0.00353139,0.000103462,-1.82014e-07,9.85335e-11,-40384.5,8.67076], Tmin=(10,'K'), Tmax=(581.801,'K')),
+            NASAPolynomial(coeffs=[0.598786,0.0403663,-2.72865e-05,8.80722e-09,-1.08037e-12,-40230.8,20.9525], Tmin=(581.801,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-353.869,'kJ/mol'),
+        E0 = (-335.804,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -3234,13 +3382,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 88,
+    index = 92,
     label = "[CH2]C(C)DCF",
     molecule = 
 """
@@ -3259,12 +3407,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89925,0.00877643,0.00013932,-3.76705e-07,3.36116e-10,-11562.7,8.7717], Tmin=(10,'K'), Tmax=(285.053,'K')),
-            NASAPolynomial(coeffs=[1.67424,0.0399987,-2.49766e-05,7.54125e-09,-8.7749e-13,-11435.9,16.7135], Tmin=(285.053,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89925,0.00877643,0.00013932,-3.76705e-07,3.36116e-10,-8902.9,8.7717], Tmin=(10,'K'), Tmax=(285.053,'K')),
+            NASAPolynomial(coeffs=[1.67424,0.0399987,-2.49766e-05,7.54125e-09,-8.7749e-13,-8776.05,16.7135], Tmin=(285.053,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-96.1246,'kJ/mol'),
+        E0 = (-74.0097,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -3273,13 +3421,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 89,
+    index = 93,
     label = "FC1DC[CH]C1F",
     molecule = 
 """
@@ -3296,27 +3444,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90254,0.00600006,0.00011531,-2.42111e-07,1.52798e-10,-8504.33,11.0421], Tmin=(10,'K'), Tmax=(526.65,'K')),
-            NASAPolynomial(coeffs=[2.9312,0.0339822,-2.30747e-05,7.35336e-09,-8.86362e-13,-8687.77,12.3925], Tmin=(526.65,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90254,0.00600006,0.00011531,-2.42111e-07,1.52798e-10,-8506.27,11.0421], Tmin=(10,'K'), Tmax=(526.65,'K')),
+            NASAPolynomial(coeffs=[2.9312,0.0339822,-2.30747e-05,7.35336e-09,-8.86362e-13,-8689.7,12.3925], Tmin=(526.65,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-70.7414,'kJ/mol'),
+        E0 = (-70.7575,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.306 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 90,
+    index = 94,
     label = "C[C]1OC1F",
     molecule = 
 """
@@ -3353,7 +3501,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.569 kJ/mol
 )
 
 entry(
-    index = 91,
+    index = 95,
     label = "FC1C(F)C1F",
     molecule = 
 """
@@ -3369,12 +3517,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9123,0.00564253,0.000116778,-2.52742e-07,1.67257e-10,-58521.9,9.58767], Tmin=(10,'K'), Tmax=(489.714,'K')),
-            NASAPolynomial(coeffs=[2.3723,0.0348231,-2.34537e-05,7.38738e-09,-8.79267e-13,-58570.1,13.8853], Tmin=(489.714,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9123,0.00564253,0.000116778,-2.52742e-07,1.67257e-10,-57503.6,9.58767], Tmin=(10,'K'), Tmax=(489.714,'K')),
+            NASAPolynomial(coeffs=[2.3723,0.0348231,-2.34537e-05,7.38738e-09,-8.79267e-13,-57551.8,13.8853], Tmin=(489.714,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-486.6,'kJ/mol'),
+        E0 = (-478.133,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -3383,13 +3531,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 92,
+    index = 96,
     label = "CDC(F)OCF",
     molecule = 
 """
@@ -3426,7 +3574,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 )
 
 entry(
-    index = 93,
+    index = 97,
     label = "CD[C]CDCF",
     molecule = 
 """
@@ -3463,7 +3611,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.919 kJ/mol
 )
 
 entry(
-    index = 94,
+    index = 98,
     label = "OOCDCF",
     molecule = 
 """
@@ -3498,7 +3646,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.178 kJ/mol
 )
 
 entry(
-    index = 95,
+    index = 99,
     label = "OOC(F)DCF",
     molecule = 
 """
@@ -3513,12 +3661,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.76029,0.0195212,7.89584e-05,-2.60815e-07,2.23178e-10,-51046.3,10.6917], Tmin=(10,'K'), Tmax=(425.167,'K')),
-            NASAPolynomial(coeffs=[5.20063,0.0265677,-1.85701e-05,6.05537e-09,-7.42563e-13,-51354.9,2.78544], Tmin=(425.167,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.76029,0.0195212,7.89584e-05,-2.60815e-07,2.23178e-10,-50490.4,10.6917], Tmin=(10,'K'), Tmax=(425.167,'K')),
+            NASAPolynomial(coeffs=[5.20063,0.0265677,-1.85701e-05,6.05537e-09,-7.42563e-13,-50799.1,2.78544], Tmin=(425.167,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-424.43,'kJ/mol'),
+        E0 = (-419.808,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -3527,13 +3675,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 96,
+    index = 100,
     label = "FC1CD[C]O1",
     molecule = 
 """
@@ -3568,7 +3716,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.254 kJ/mol
 )
 
 entry(
-    index = 97,
+    index = 101,
     label = "OC[C](F)F",
     molecule = 
 """
@@ -3604,7 +3752,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.819 kJ/mol
 )
 
 entry(
-    index = 98,
+    index = 102,
     label = "ODCCF",
     molecule = 
 """
@@ -3638,7 +3786,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.071 kJ/mol
 )
 
 entry(
-    index = 99,
+    index = 103,
     label = "F[C]DCDCF",
     molecule = 
 """
@@ -3672,7 +3820,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.907 kJ/mol
 )
 
 entry(
-    index = 100,
+    index = 104,
     label = "FCC#C[C](F)F",
     molecule = 
 """
@@ -3709,7 +3857,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.999 kJ/mol
 )
 
 entry(
-    index = 101,
+    index = 105,
     label = "[O]C1CDC1F",
     molecule = 
 """
@@ -3744,7 +3892,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.958 kJ/mol
 )
 
 entry(
-    index = 102,
+    index = 106,
     label = "[C]#COC(F)F",
     molecule = 
 """
@@ -3779,7 +3927,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.741 kJ/mol
 )
 
 entry(
-    index = 103,
+    index = 107,
     label = "C[CH]CCF",
     molecule = 
 """
@@ -3820,7 +3968,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.153 kJ/mol
 )
 
 entry(
-    index = 104,
+    index = 108,
     label = "FCC(F)DCOF",
     molecule = 
 """
@@ -3837,12 +3985,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.6843,0.0380415,-2.47269e-05,6.09756e-09,-7.3529e-14,-48949.3,11.9338], Tmin=(10,'K'), Tmax=(1212.02,'K')),
-            NASAPolynomial(coeffs=[11.1315,0.01991,-1.02652e-05,2.53123e-09,-2.4307e-13,-51228,-27.3798], Tmin=(1212.02,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.6843,0.0380415,-2.47269e-05,6.09756e-09,-7.3529e-14,-48076.8,11.9338], Tmin=(10,'K'), Tmax=(1212.02,'K')),
+            NASAPolynomial(coeffs=[11.1315,0.01991,-1.02652e-05,2.53123e-09,-2.4307e-13,-50355.5,-27.3798], Tmin=(1212.02,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-406.981,'kJ/mol'),
+        E0 = (-399.727,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -3851,13 +3999,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 105,
+    index = 109,
     label = "CC1(F)CDC1",
     molecule = 
 """
@@ -3894,7 +4042,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.227 kJ/mol
 )
 
 entry(
-    index = 106,
+    index = 110,
     label = "CO[C](O)F",
     molecule = 
 """
@@ -3931,7 +4079,42 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.638 kJ/mol
 )
 
 entry(
-    index = 107,
+    index = 111,
+    label = "C#CC([O])F",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,T} {6,S}
+2 C u0 p0 c0 {1,T} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+4 O u1 p2 c0 {3,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89605,0.00666809,9.27662e-05,-2.20453e-07,1.52344e-10,5841.94,10.1575], Tmin=(10,'K'), Tmax=(503.278,'K')),
+            NASAPolynomial(coeffs=[4.61212,0.0218953,-1.49644e-05,4.84031e-09,-5.93477e-13,5504.94,4.56258], Tmin=(503.278,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (48.5457,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 4.59 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 112,
     label = "[CH]DCC(C)F",
     molecule = 
 """
@@ -3950,12 +4133,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86941,0.0113957,9.96446e-05,-2.30738e-07,1.69844e-10,560.47,10.2768], Tmin=(10,'K'), Tmax=(348.861,'K')),
-            NASAPolynomial(coeffs=[1.341,0.0403863,-2.50068e-05,7.46922e-09,-8.5998e-13,736.883,19.8123], Tmin=(348.861,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86941,0.0113957,9.96446e-05,-2.30738e-07,1.69844e-10,3220.28,10.2768], Tmin=(10,'K'), Tmax=(348.861,'K')),
+            NASAPolynomial(coeffs=[1.341,0.0403863,-2.50068e-05,7.46922e-09,-8.5998e-13,3396.7,19.8123], Tmin=(348.861,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (4.65876,'kJ/mol'),
+        E0 = (26.7737,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -3964,13 +4147,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 108,
+    index = 113,
     label = "C[CH]C(F)DCF",
     molecule = 
 """
@@ -4009,7 +4192,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.394 kJ/mol
 )
 
 entry(
-    index = 109,
+    index = 114,
     label = "FOC#CC(F)F",
     molecule = 
 """
@@ -4024,12 +4207,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.61038,0.0421954,-5.64018e-05,4.6869e-08,-1.74214e-11,-23476.8,12.443], Tmin=(10,'K'), Tmax=(608.574,'K')),
-            NASAPolynomial(coeffs=[5.8936,0.0271884,-1.94127e-05,6.34891e-09,-7.75883e-13,-23754.7,2.56168], Tmin=(608.574,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.61038,0.0421954,-5.64018e-05,4.6869e-08,-1.74214e-11,-23421.3,12.443], Tmin=(10,'K'), Tmax=(608.574,'K')),
+            NASAPolynomial(coeffs=[5.8936,0.0271884,-1.94127e-05,6.34891e-09,-7.75883e-13,-23699.2,2.56168], Tmin=(608.574,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-195.185,'kJ/mol'),
+        E0 = (-194.724,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -4038,13 +4221,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 110,
+    index = 115,
     label = "OC1[C]DC1F",
     molecule = 
 """
@@ -4059,12 +4242,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92395,0.00454659,8.12222e-05,-1.67384e-07,1.02271e-10,17553.2,9.82025], Tmin=(10,'K'), Tmax=(554.058,'K')),
-            NASAPolynomial(coeffs=[3.65708,0.0234961,-1.61654e-05,5.24954e-09,-6.44779e-13,17321.5,8.59229], Tmin=(554.058,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92395,0.00454659,8.12222e-05,-1.67384e-07,1.02271e-10,18311,9.82025], Tmin=(10,'K'), Tmax=(554.058,'K')),
+            NASAPolynomial(coeffs=[3.65708,0.0234961,-1.61654e-05,5.24954e-09,-6.44779e-13,18079.2,8.59229], Tmin=(554.058,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (145.917,'kJ/mol'),
+        E0 = (152.217,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -4073,13 +4256,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 111,
+    index = 116,
     label = "FC#CC[C](F)F",
     molecule = 
 """
@@ -4116,7 +4299,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.878 kJ/mol
 )
 
 entry(
-    index = 112,
+    index = 117,
     label = "ODC([CH]F)OF",
     molecule = 
 """
@@ -4151,7 +4334,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.592 kJ/mol
 )
 
 entry(
-    index = 113,
+    index = 118,
     label = "OC(O)(F)F",
     molecule = 
 """
@@ -4185,7 +4368,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.03 kJ/mol
 )
 
 entry(
-    index = 114,
+    index = 119,
     label = "CDCC(C)F",
     molecule = 
 """
@@ -4204,12 +4387,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85048,0.013046,7.19619e-05,-1.24183e-07,6.32231e-11,-29354.3,9.64043], Tmin=(10,'K'), Tmax=(611.334,'K')),
-            NASAPolynomial(coeffs=[0.638786,0.0434364,-2.56113e-05,7.31007e-09,-8.09233e-13,-29136.8,22.1215], Tmin=(611.334,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85048,0.013046,7.19619e-05,-1.24183e-07,6.32231e-11,-26232.7,9.64043], Tmin=(10,'K'), Tmax=(611.334,'K')),
+            NASAPolynomial(coeffs=[0.638786,0.0434364,-2.56113e-05,7.31007e-09,-8.09233e-13,-26015.2,22.1215], Tmin=(611.334,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-244.087,'kJ/mol'),
+        E0 = (-218.132,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (282.692,'J/(mol*K)'),
     ),
@@ -4218,13 +4401,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 115,
+    index = 120,
     label = "FCC#COF",
     molecule = 
 """
@@ -4239,12 +4422,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.65677,0.0340714,-3.43736e-05,2.04065e-08,-5.42352e-12,-34.1328,11.0251], Tmin=(10,'K'), Tmax=(806.908,'K')),
-            NASAPolynomial(coeffs=[5.72978,0.0237951,-1.52705e-05,4.62353e-09,-5.33591e-13,-368.68,1.46872], Tmin=(806.908,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.65677,0.0340714,-3.43736e-05,2.04065e-08,-5.42352e-12,625.405,11.0251], Tmin=(10,'K'), Tmax=(806.908,'K')),
+            NASAPolynomial(coeffs=[5.72978,0.0237951,-1.52705e-05,4.62353e-09,-5.33591e-13,290.858,1.46872], Tmin=(806.908,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-0.305365,'kJ/mol'),
+        E0 = (5.17834,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -4253,13 +4436,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 116,
+    index = 121,
     label = "FCDCCF",
     molecule = 
 """
@@ -4295,7 +4478,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.405 kJ/mol
 )
 
 entry(
-    index = 117,
+    index = 122,
     label = "FC1DCC[CH]1",
     molecule = 
 """
@@ -4332,7 +4515,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.848 kJ/mol
 )
 
 entry(
-    index = 118,
+    index = 123,
     label = "F[C]1OC1F",
     molecule = 
 """
@@ -4366,7 +4549,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.674 kJ/mol
 )
 
 entry(
-    index = 119,
+    index = 124,
     label = "FCC1[C]DC1F",
     molecule = 
 """
@@ -4403,7 +4586,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 )
 
 entry(
-    index = 120,
+    index = 125,
     label = "CC(F)[C]DCF",
     molecule = 
 """
@@ -4422,12 +4605,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.75858,0.0308725,-4.39182e-06,-1.13107e-08,5.07555e-12,-20660.5,11.7528], Tmin=(10,'K'), Tmax=(1096.42,'K')),
-            NASAPolynomial(coeffs=[7.72171,0.0271682,-1.40365e-05,3.49944e-09,-3.41141e-13,-22175.9,-10.6796], Tmin=(1096.42,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.75858,0.0308725,-4.39182e-06,-1.13107e-08,5.07555e-12,-18604.7,11.7528], Tmin=(10,'K'), Tmax=(1096.42,'K')),
+            NASAPolynomial(coeffs=[7.72171,0.0271682,-1.40365e-05,3.49944e-09,-3.41141e-13,-20120.2,-10.6796], Tmin=(1096.42,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-171.762,'kJ/mol'),
+        E0 = (-154.67,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -4436,13 +4619,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 121,
+    index = 126,
     label = "FCOCC(F)F",
     molecule = 
 """
@@ -4481,7 +4664,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.066 kJ/mol
 )
 
 entry(
-    index = 122,
+    index = 127,
     label = "[CH2]CDCCF",
     molecule = 
 """
@@ -4520,7 +4703,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.695 kJ/mol
 )
 
 entry(
-    index = 123,
+    index = 128,
     label = "CC1(F)C[C]1F",
     molecule = 
 """
@@ -4539,12 +4722,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86837,0.00963391,0.000136047,-3.15838e-07,2.24478e-10,-19032.5,9.93081], Tmin=(10,'K'), Tmax=(452.669,'K')),
-            NASAPolynomial(coeffs=[2.19901,0.0416102,-2.69902e-05,8.33637e-09,-9.83055e-13,-19057.9,14.7121], Tmin=(452.669,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86837,0.00963391,0.000136047,-3.15838e-07,2.24478e-10,-16928.4,9.93081], Tmin=(10,'K'), Tmax=(452.669,'K')),
+            NASAPolynomial(coeffs=[2.19901,0.0416102,-2.69902e-05,8.33637e-09,-9.83055e-13,-16953.7,14.7121], Tmin=(452.669,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-158.26,'kJ/mol'),
+        E0 = (-140.765,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -4553,13 +4736,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 124,
+    index = 129,
     label = "COOCF",
     molecule = 
 """
@@ -4596,7 +4779,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.724 kJ/mol
 )
 
 entry(
-    index = 125,
+    index = 130,
     label = "CC1(F)CO1",
     molecule = 
 """
@@ -4633,7 +4816,42 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.176 kJ/mol
 )
 
 entry(
-    index = 126,
+    index = 131,
+    label = "OD[C]C(O)F",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,D}
+2 C u1 p0 c0 {1,D} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+4 O u0 p2 c0 {3,S} {7,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83796,0.0135756,5.70509e-05,-1.75141e-07,1.45882e-10,-44982.1,10.7446], Tmin=(10,'K'), Tmax=(418.301,'K')),
+            NASAPolynomial(coeffs=[4.12395,0.0222437,-1.49222e-05,4.73357e-09,-5.69734e-13,-45105.7,8.42167], Tmin=(418.301,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-374.005,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 132,
     label = "FCCCF",
     molecule = 
 """
@@ -4671,7 +4889,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.203 kJ/mol
 )
 
 entry(
-    index = 127,
+    index = 133,
     label = "OOCC(F)F",
     molecule = 
 """
@@ -4708,7 +4926,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.687 kJ/mol
 )
 
 entry(
-    index = 128,
+    index = 134,
     label = "[CH2]C(C)F",
     molecule = 
 """
@@ -4726,12 +4944,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87777,0.0100265,9.18917e-05,-2.32463e-07,1.90284e-10,-16991.8,8.29356], Tmin=(10,'K'), Tmax=(311.647,'K')),
-            NASAPolynomial(coeffs=[2.07701,0.0331392,-1.93519e-05,5.50463e-09,-6.09201e-13,-16879.5,14.8817], Tmin=(311.647,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87777,0.0100265,9.18917e-05,-2.32463e-07,1.90284e-10,-14322.2,8.29356], Tmin=(10,'K'), Tmax=(311.647,'K')),
+            NASAPolynomial(coeffs=[2.07701,0.0331392,-1.93519e-05,5.50463e-09,-6.09201e-13,-14210,14.8817], Tmin=(311.647,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-141.285,'kJ/mol'),
+        E0 = (-119.089,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -4740,13 +4958,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 129,
+    index = 135,
     label = "[CH2]C(DO)OF",
     molecule = 
 """
@@ -4761,12 +4979,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8868,0.00744283,9.65339e-05,-2.39858e-07,1.72355e-10,-12204.2,9.42861], Tmin=(10,'K'), Tmax=(486.446,'K')),
-            NASAPolynomial(coeffs=[4.7678,0.0219179,-1.5075e-05,4.88657e-09,-5.99065e-13,-12546.8,3.17183], Tmin=(486.446,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8868,0.00744283,9.65339e-05,-2.39858e-07,1.72355e-10,-11541.8,9.42861], Tmin=(10,'K'), Tmax=(486.446,'K')),
+            NASAPolynomial(coeffs=[4.7678,0.0219179,-1.5075e-05,4.88657e-09,-5.99065e-13,-11884.5,3.17183], Tmin=(486.446,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-101.495,'kJ/mol'),
+        E0 = (-95.9878,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -4775,13 +4993,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 130,
+    index = 136,
     label = "[CH2]C(O)OF",
     molecule = 
 """
@@ -4818,7 +5036,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.206 kJ/mol
 )
 
 entry(
-    index = 131,
+    index = 137,
     label = "OC1C[C]1F",
     molecule = 
 """
@@ -4855,7 +5073,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.686 kJ/mol
 )
 
 entry(
-    index = 132,
+    index = 138,
     label = "FC[CH]CF",
     molecule = 
 """
@@ -4893,7 +5111,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.184 kJ/mol
 )
 
 entry(
-    index = 133,
+    index = 139,
     label = "CC(F)C(C)F",
     molecule = 
 """
@@ -4934,7 +5152,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.748 kJ/mol
 )
 
 entry(
-    index = 134,
+    index = 140,
     label = "C[CH]C(C)F",
     molecule = 
 """
@@ -4955,12 +5173,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.59256,0.0418947,-8.31504e-05,2.08161e-07,-1.84293e-10,-22734.4,9.87204], Tmin=(10,'K'), Tmax=(427.835,'K')),
-            NASAPolynomial(coeffs=[0.845459,0.0467926,-2.74468e-05,7.80419e-09,-8.6188e-13,-22309.1,23.0161], Tmin=(427.835,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.59256,0.0418947,-8.31504e-05,2.08161e-07,-1.84293e-10,-19121.3,9.87204], Tmin=(10,'K'), Tmax=(427.835,'K')),
+            NASAPolynomial(coeffs=[0.845459,0.0467926,-2.74468e-05,7.80419e-09,-8.6188e-13,-18696,23.0161], Tmin=(427.835,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-189.036,'kJ/mol'),
+        E0 = (-158.995,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -4969,13 +5187,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 135,
+    index = 141,
+    label = "OCC(O)F",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {3,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92998,0.00427192,0.000111198,-2.1781e-07,1.32309e-10,-77523.9,9.80276], Tmin=(10,'K'), Tmax=(522.797,'K')),
+            NASAPolynomial(coeffs=[1.62247,0.0365404,-2.33145e-05,7.18556e-09,-8.51174e-13,-77482.3,17.5286], Tmin=(522.797,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-644.594,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 3.964 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 142,
     label = "ODCC[CH]F",
     molecule = 
 """
@@ -5012,7 +5267,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.18 kJ/mol
 )
 
 entry(
-    index = 136,
+    index = 143,
     label = "FCC(CF)CF",
     molecule = 
 """
@@ -5053,7 +5308,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.411 kJ/mol
 )
 
 entry(
-    index = 137,
+    index = 144,
     label = "[O]CC#CF",
     molecule = 
 """
@@ -5088,7 +5343,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.253 kJ/mol
 )
 
 entry(
-    index = 138,
+    index = 145,
     label = "[CH2]CC(F)F",
     molecule = 
 """
@@ -5126,7 +5381,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.759 kJ/mol
 )
 
 entry(
-    index = 139,
+    index = 146,
     label = "FC1CC1",
     molecule = 
 """
@@ -5162,7 +5417,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.878 kJ/mol
 )
 
 entry(
-    index = 140,
+    index = 147,
     label = "[O]COF",
     molecule = 
 """
@@ -5196,7 +5451,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.56 kJ/mol
 )
 
 entry(
-    index = 141,
+    index = 148,
     label = "F[C]1CC1F",
     molecule = 
 """
@@ -5212,12 +5467,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93925,0.0035238,8.65405e-05,-1.61353e-07,9.15668e-11,-11819.1,9.98586], Tmin=(10,'K'), Tmax=(569.361,'K')),
-            NASAPolynomial(coeffs=[2.05238,0.0305155,-2.07571e-05,6.65396e-09,-8.07864e-13,-11826.9,16.071], Tmin=(569.361,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93925,0.0035238,8.65405e-05,-1.61353e-07,9.15668e-11,-10658.5,9.98586], Tmin=(10,'K'), Tmax=(569.361,'K')),
+            NASAPolynomial(coeffs=[2.05238,0.0305155,-2.07571e-05,6.65396e-09,-8.07864e-13,-10666.3,16.071], Tmin=(569.361,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-98.2955,'kJ/mol'),
+        E0 = (-88.6457,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -5226,13 +5481,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 142,
+    index = 149,
     label = "FC1D[C]OO1",
     molecule = 
 """
@@ -5245,12 +5500,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94365,0.00365362,5.24993e-05,-1.24589e-07,8.65079e-11,-36094.7,10.1082], Tmin=(10,'K'), Tmax=(494.941,'K')),
-            NASAPolynomial(coeffs=[4.11264,0.0131624,-9.27537e-06,3.0108e-09,-3.66865e-13,-36244.7,8.06623], Tmin=(494.941,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94365,0.00365362,5.24993e-05,-1.24589e-07,8.65079e-11,-36374.6,10.1082], Tmin=(10,'K'), Tmax=(494.941,'K')),
+            NASAPolynomial(coeffs=[4.11264,0.0131624,-9.27537e-06,3.0108e-09,-3.66865e-13,-36524.6,8.06623], Tmin=(494.941,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-300.122,'kJ/mol'),
+        E0 = (-302.449,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (99.7737,'J/(mol*K)'),
     ),
@@ -5259,13 +5514,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 143,
+    index = 150,
     label = "FC1[C]DCC1",
     molecule = 
 """
@@ -5282,12 +5537,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.07024,-0.00631007,0.000126133,-2.06517e-07,1.07427e-10,22392,9.81639], Tmin=(10,'K'), Tmax=(611.103,'K')),
-            NASAPolynomial(coeffs=[0.656499,0.0351452,-2.25304e-05,6.83641e-09,-7.9015e-13,22452.4,21.6849], Tmin=(611.103,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.07024,-0.00631007,0.000126133,-2.06517e-07,1.07427e-10,24146.9,9.81639], Tmin=(10,'K'), Tmax=(611.103,'K')),
+            NASAPolynomial(coeffs=[0.656499,0.0351452,-2.25304e-05,6.83641e-09,-7.9015e-13,24207.3,21.6849], Tmin=(611.103,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (186.168,'kJ/mol'),
+        E0 = (200.759,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -5296,13 +5551,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 144,
+    index = 151,
+    label = "OC(F)OCF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3  F u0 p3 c0 {2,S}
+4  O u0 p2 c0 {2,S} {5,S}
+5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.8051,0.024542,9.60782e-06,-2.80859e-08,1.20597e-11,-102252,10.8664], Tmin=(10,'K'), Tmax=(928.583,'K')),
+            NASAPolynomial(coeffs=[5.80333,0.0280975,-1.57838e-05,4.24983e-09,-4.43728e-13,-103147,-1.44951], Tmin=(928.583,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-850.15,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 152,
     label = "CC(F)CD[C]F",
     molecule = 
 """
@@ -5321,12 +5613,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.75873,0.0223986,7.4877e-05,-2.51581e-07,2.52109e-10,-21306.5,11.4887], Tmin=(10,'K'), Tmax=(255.848,'K')),
-            NASAPolynomial(coeffs=[2.67494,0.0393429,-2.44649e-05,7.27597e-09,-8.31367e-13,-21251,15.24], Tmin=(255.848,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.75873,0.0223986,7.4877e-05,-2.51581e-07,2.52109e-10,-19250.8,11.4887], Tmin=(10,'K'), Tmax=(255.848,'K')),
+            NASAPolynomial(coeffs=[2.67494,0.0393429,-2.44649e-05,7.27597e-09,-8.31367e-13,-19195.3,15.24], Tmin=(255.848,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-177.147,'kJ/mol'),
+        E0 = (-160.054,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -5335,13 +5627,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 145,
+    index = 153,
     label = "F[CH]C1OO1",
     molecule = 
 """
@@ -5376,7 +5668,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.349 kJ/mol
 )
 
 entry(
-    index = 146,
+    index = 154,
     label = "CCOCF",
     molecule = 
 """
@@ -5415,7 +5707,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.503 kJ/mol
 )
 
 entry(
-    index = 147,
+    index = 155,
     label = "FC(F)C1OO1",
     molecule = 
 """
@@ -5430,12 +5722,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88854,0.0163586,2.63679e-05,-5.21557e-08,2.40025e-11,-53527.5,10.3696], Tmin=(10,'K'), Tmax=(804.443,'K')),
-            NASAPolynomial(coeffs=[5.25731,0.0239956,-1.48035e-05,4.28299e-09,-4.7325e-13,-54215.1,1.15929], Tmin=(804.443,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88854,0.0163586,2.63679e-05,-5.21557e-08,2.40025e-11,-52996.4,10.3696], Tmin=(10,'K'), Tmax=(804.443,'K')),
+            NASAPolynomial(coeffs=[5.25731,0.0239956,-1.48035e-05,4.28299e-09,-4.7325e-13,-53684,1.15929], Tmin=(804.443,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-445.035,'kJ/mol'),
+        E0 = (-440.62,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -5444,13 +5736,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 148,
+    index = 156,
     label = "CCC(F)CF",
     molecule = 
 """
@@ -5491,7 +5783,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.035 kJ/mol
 )
 
 entry(
-    index = 149,
+    index = 157,
     label = "[C]#CC(DC)F",
     molecule = 
 """
@@ -5526,7 +5818,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.296 kJ/mol
 )
 
 entry(
-    index = 150,
+    index = 158,
     label = "C[C](F)CDO",
     molecule = 
 """
@@ -5563,7 +5855,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.694 kJ/mol
 )
 
 entry(
-    index = 151,
+    index = 159,
     label = "OCCOF",
     molecule = 
 """
@@ -5600,7 +5892,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
 )
 
 entry(
-    index = 152,
+    index = 160,
     label = "O[CH]C#CF",
     molecule = 
 """
@@ -5615,27 +5907,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87011,0.00981112,9.32752e-05,-2.78008e-07,2.38367e-10,5801.04,10.0924], Tmin=(10,'K'), Tmax=(406.737,'K')),
-            NASAPolynomial(coeffs=[4.47078,0.0214577,-1.44125e-05,4.60536e-09,-5.58973e-13,5606.98,5.94989], Tmin=(406.737,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87011,0.00981112,9.32752e-05,-2.78008e-07,2.38367e-10,5753.75,10.0924], Tmin=(10,'K'), Tmax=(406.737,'K')),
+            NASAPolynomial(coeffs=[4.47078,0.0214577,-1.44125e-05,4.60536e-09,-5.58973e-13,5559.69,5.94989], Tmin=(406.737,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (48.2347,'kJ/mol'),
+        E0 = (47.8415,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.962 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 153,
+    index = 161,
     label = "O[C]DCDCF",
     molecule = 
 """
@@ -5670,7 +5962,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.018 kJ/mol
 )
 
 entry(
-    index = 154,
+    index = 162,
     label = "FC[C](F)F",
     molecule = 
 """
@@ -5705,7 +5997,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.202 kJ/mol
 )
 
 entry(
-    index = 155,
+    index = 163,
     label = "C[C](F)C(C)F",
     molecule = 
 """
@@ -5726,12 +6018,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.67581,0.0370467,-8.69558e-06,-7.82547e-09,3.69646e-12,-46158,10.1222], Tmin=(10,'K'), Tmax=(1189.37,'K')),
-            NASAPolynomial(coeffs=[8.60563,0.0314032,-1.53705e-05,3.64687e-09,-3.39968e-13,-48104.2,-17.7681], Tmin=(1189.37,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.67581,0.0370467,-8.69558e-06,-7.82547e-09,3.69646e-12,-43149,10.1222], Tmin=(10,'K'), Tmax=(1189.37,'K')),
+            NASAPolynomial(coeffs=[8.60563,0.0314032,-1.53705e-05,3.64687e-09,-3.39968e-13,-45095.2,-17.7681], Tmin=(1189.37,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-383.78,'kJ/mol'),
+        E0 = (-358.761,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -5740,13 +6032,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 156,
+    index = 164,
     label = "F[C]DCDC(F)F",
     molecule = 
 """
@@ -5780,7 +6072,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.584 kJ/mol
 )
 
 entry(
-    index = 157,
+    index = 165,
     label = "ODCOF",
     molecule = 
 """
@@ -5792,12 +6084,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9684,0.00186269,4.55355e-05,-8.67806e-08,5.04047e-11,-28112.3,8.23694], Tmin=(10,'K'), Tmax=(555.027,'K')),
-            NASAPolynomial(coeffs=[3.01328,0.0157137,-1.07285e-05,3.4188e-09,-4.11573e-13,-28113.6,11.3157], Tmin=(555.027,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9684,0.00186269,4.55355e-05,-8.67806e-08,5.04047e-11,-27931.6,8.23694], Tmin=(10,'K'), Tmax=(555.027,'K')),
+            NASAPolynomial(coeffs=[3.01328,0.0157137,-1.07285e-05,3.4188e-09,-4.11573e-13,-27932.9,11.3157], Tmin=(555.027,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-233.751,'kJ/mol'),
+        E0 = (-232.249,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
@@ -5806,13 +6098,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 158,
+    index = 166,
     label = "FC1CD[C]C1",
     molecule = 
 """
@@ -5829,12 +6121,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.07735,-0.00704865,0.000132756,-2.21272e-07,1.17398e-10,21755.2,9.78497], Tmin=(10,'K'), Tmax=(600.413,'K')),
-            NASAPolynomial(coeffs=[0.781621,0.0350007,-2.2493e-05,6.84528e-09,-7.9354e-13,21788.8,20.9877], Tmin=(600.413,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.07735,-0.00704865,0.000132756,-2.21272e-07,1.17398e-10,23510.1,9.78497], Tmin=(10,'K'), Tmax=(600.413,'K')),
+            NASAPolynomial(coeffs=[0.781621,0.0350007,-2.2493e-05,6.84528e-09,-7.9354e-13,23543.7,20.9877], Tmin=(600.413,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (180.872,'kJ/mol'),
+        E0 = (195.463,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -5843,13 +6135,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 159,
+    index = 167,
     label = "FCCDCC(F)F",
     molecule = 
 """
@@ -5888,7 +6180,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.129 kJ/mol
 )
 
 entry(
-    index = 160,
+    index = 168,
     label = "O[C](F)F",
     molecule = 
 """
@@ -5921,7 +6213,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.931 kJ/mol
 )
 
 entry(
-    index = 161,
+    index = 169,
     label = "OOCD[C]F",
     molecule = 
 """
@@ -5956,7 +6248,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.708 kJ/mol
 )
 
 entry(
-    index = 162,
+    index = 170,
     label = "C[CH]COF",
     molecule = 
 """
@@ -5975,12 +6267,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.59366,0.0426674,-0.000109547,2.70477e-07,-2.40667e-10,881.674,10.005], Tmin=(10,'K'), Tmax=(400.625,'K')),
-            NASAPolynomial(coeffs=[1.99789,0.0391928,-2.38737e-05,6.9925e-09,-7.90194e-13,1165.28,18.1878], Tmin=(400.625,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.59366,0.0426674,-0.000109547,2.70477e-07,-2.40667e-10,3453.75,10.005], Tmin=(10,'K'), Tmax=(400.625,'K')),
+            NASAPolynomial(coeffs=[1.99789,0.0391928,-2.38737e-05,6.9925e-09,-7.90194e-13,3737.35,18.1878], Tmin=(400.625,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (7.31862,'kJ/mol'),
+        E0 = (28.704,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -5989,13 +6281,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 163,
+    index = 171,
     label = "ODC([CH]F)CF",
     molecule = 
 """
@@ -6032,7 +6324,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.522 kJ/mol
 )
 
 entry(
-    index = 164,
+    index = 172,
     label = "C#COC(F)F",
     molecule = 
 """
@@ -6067,7 +6359,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.445 kJ/mol
 )
 
 entry(
-    index = 165,
+    index = 173,
     label = "[CH2]OC(C)F",
     molecule = 
 """
@@ -6106,7 +6398,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.98 kJ/mol
 )
 
 entry(
-    index = 166,
+    index = 174,
     label = "FCDCOF",
     molecule = 
 """
@@ -6120,12 +6412,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85978,0.0115119,5.32356e-05,-1.30349e-07,8.78424e-11,-22419.2,9.72359], Tmin=(10,'K'), Tmax=(512.191,'K')),
-            NASAPolynomial(coeffs=[3.95736,0.0228197,-1.52281e-05,4.77144e-09,-5.66561e-13,-22587.5,7.7726], Tmin=(512.191,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85978,0.0115119,5.32356e-05,-1.30349e-07,8.78424e-11,-21886.1,9.72359], Tmin=(10,'K'), Tmax=(512.191,'K')),
+            NASAPolynomial(coeffs=[3.95736,0.0228197,-1.52281e-05,4.77144e-09,-5.66561e-13,-22054.4,7.7726], Tmin=(512.191,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-186.425,'kJ/mol'),
+        E0 = (-181.993,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -6134,13 +6426,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 167,
+    index = 175,
     label = "FCC#CCF",
     molecule = 
 """
@@ -6177,7 +6469,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.562 kJ/mol
 )
 
 entry(
-    index = 168,
+    index = 176,
     label = "FC1DC(F)[CH]1",
     molecule = 
 """
@@ -6211,7 +6503,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.589 kJ/mol
 )
 
 entry(
-    index = 169,
+    index = 177,
     label = "OOCCF",
     molecule = 
 """
@@ -6248,7 +6540,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 )
 
 entry(
-    index = 170,
+    index = 178,
     label = "OCC[CH]F",
     molecule = 
 """
@@ -6287,7 +6579,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.377 kJ/mol
 )
 
 entry(
-    index = 171,
+    index = 179,
     label = "CC(F)O[O]",
     molecule = 
 """
@@ -6304,12 +6596,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81586,0.0183184,1.96531e-05,-4.09434e-08,1.87424e-11,-32480.1,10.4601], Tmin=(10,'K'), Tmax=(788.852,'K')),
-            NASAPolynomial(coeffs=[3.84659,0.0276413,-1.60982e-05,4.50252e-09,-4.8743e-13,-32779.9,8.44984], Tmin=(788.852,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81586,0.0183184,1.96531e-05,-4.09434e-08,1.87424e-11,-30827.8,10.4601], Tmin=(10,'K'), Tmax=(788.852,'K')),
+            NASAPolynomial(coeffs=[3.84659,0.0276413,-1.60982e-05,4.50252e-09,-4.8743e-13,-31127.5,8.44984], Tmin=(788.852,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-270.063,'kJ/mol'),
+        E0 = (-256.324,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -6318,13 +6610,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 172,
+    index = 180,
     label = "COC[C](F)F",
     molecule = 
 """
@@ -6363,7 +6655,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.253 kJ/mol
 )
 
 entry(
-    index = 173,
+    index = 181,
     label = "CDC(C)[C](F)F",
     molecule = 
 """
@@ -6402,7 +6694,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.188 kJ/mol
 )
 
 entry(
-    index = 174,
+    index = 182,
     label = "CDCOC(F)F",
     molecule = 
 """
@@ -6439,7 +6731,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 )
 
 entry(
-    index = 175,
+    index = 183,
     label = "F[C]DCCDCF",
     molecule = 
 """
@@ -6456,12 +6748,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78819,0.0224409,1.41048e-05,-3.87686e-08,1.87084e-11,-4680.5,11.2806], Tmin=(10,'K'), Tmax=(800.939,'K')),
-            NASAPolynomial(coeffs=[5.21968,0.0269514,-1.61784e-05,4.61315e-09,-5.05681e-13,-5283.79,2.35764], Tmin=(800.939,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.78819,0.0224409,1.41048e-05,-3.87686e-08,1.87084e-11,-3578,11.2806], Tmin=(10,'K'), Tmax=(800.939,'K')),
+            NASAPolynomial(coeffs=[5.21968,0.0269514,-1.61784e-05,4.61315e-09,-5.05681e-13,-4181.29,2.35764], Tmin=(800.939,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-38.9197,'kJ/mol'),
+        E0 = (-29.7529,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -6470,13 +6762,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 176,
+    index = 184,
     label = "ODC(F)OCF",
     molecule = 
 """
@@ -6511,7 +6803,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.851 kJ/mol
 )
 
 entry(
-    index = 177,
+    index = 185,
     label = "FCCOF",
     molecule = 
 """
@@ -6527,12 +6819,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90944,0.0170204,1.75203e-05,-3.10931e-08,1.20441e-11,-39540.9,9.71498], Tmin=(10,'K'), Tmax=(963.365,'K')),
-            NASAPolynomial(coeffs=[5.0043,0.0247009,-1.34758e-05,3.53081e-09,-3.59845e-13,-40319.2,1.52911], Tmin=(963.365,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90944,0.0170204,1.75203e-05,-3.10931e-08,1.20441e-11,-38054.5,9.71498], Tmin=(10,'K'), Tmax=(963.365,'K')),
+            NASAPolynomial(coeffs=[5.0043,0.0247009,-1.34758e-05,3.53081e-09,-3.59845e-13,-38832.9,1.52911], Tmin=(963.365,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-328.724,'kJ/mol'),
+        E0 = (-316.366,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -6541,13 +6833,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 178,
+    index = 186,
     label = "O[C]1OC1F",
     molecule = 
 """
@@ -6562,12 +6854,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9236,0.00461297,8.26703e-05,-1.72271e-07,1.06623e-10,-31029.6,9.92547], Tmin=(10,'K'), Tmax=(545.335,'K')),
-            NASAPolynomial(coeffs=[3.58188,0.0238905,-1.6485e-05,5.33954e-09,-6.52594e-13,-31241.7,9.08045], Tmin=(545.335,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92363,0.0046119,8.26801e-05,-1.72299e-07,1.06647e-10,-30388.9,9.92542], Tmin=(10,'K'), Tmax=(545.289,'K')),
+            NASAPolynomial(coeffs=[3.58137,0.023892,-1.64864e-05,5.34013e-09,-6.52677e-13,-30600.9,9.08298], Tmin=(545.289,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-258.022,'kJ/mol'),
+        E0 = (-252.696,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -6576,13 +6868,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 179,
+    index = 187,
     label = "CC1(F)CC1",
     molecule = 
 """
@@ -6621,7 +6913,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.327 kJ/mol
 )
 
 entry(
-    index = 180,
+    index = 188,
     label = "COC(O)(F)F",
     molecule = 
 """
@@ -6638,12 +6930,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.69796,0.0262946,2.21053e-05,-6.91641e-08,4.19159e-11,-107438,9.72301], Tmin=(10,'K'), Tmax=(608.656,'K')),
-            NASAPolynomial(coeffs=[4.25725,0.0331487,-2.0736e-05,6.18349e-09,-7.06872e-13,-107701,5.70021], Tmin=(608.656,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.69796,0.0262946,2.21053e-05,-6.91641e-08,4.19159e-11,-106035,9.72301], Tmin=(10,'K'), Tmax=(608.656,'K')),
+            NASAPolynomial(coeffs=[4.25725,0.0331487,-2.0736e-05,6.18349e-09,-7.06872e-13,-106298,5.70021], Tmin=(608.656,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-893.328,'kJ/mol'),
+        E0 = (-881.66,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -6652,13 +6944,50 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 181,
+    index = 189,
+    label = "FOCC(F)OF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+5  F u0 p3 c0 {4,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.69027,0.0366592,-1.7758e-05,-2.8216e-09,3.41009e-12,-46101.4,11.7198], Tmin=(10,'K'), Tmax=(1032.79,'K')),
+            NASAPolynomial(coeffs=[9.5476,0.0238062,-1.33711e-05,3.56474e-09,-3.67147e-13,-47835.6,-19.2662], Tmin=(1032.79,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-383.295,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 4.324 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 190,
     label = "FOOCDC(F)F",
     molecule = 
 """
@@ -6673,12 +7002,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.62945,0.0337342,-9.71846e-06,-2.99069e-08,2.29251e-11,-38831.6,12.1843], Tmin=(10,'K'), Tmax=(677.149,'K')),
-            NASAPolynomial(coeffs=[7.63002,0.0233094,-1.58815e-05,4.9636e-09,-5.82794e-13,-39676.1,-7.79224], Tmin=(677.149,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.62945,0.0337342,-9.71846e-06,-2.99069e-08,2.29251e-11,-38923.6,12.1843], Tmin=(10,'K'), Tmax=(677.149,'K')),
+            NASAPolynomial(coeffs=[7.63002,0.0233094,-1.58815e-05,4.9636e-09,-5.82794e-13,-39768.1,-7.79224], Tmin=(677.149,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-322.907,'kJ/mol'),
+        E0 = (-323.672,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -6687,13 +7016,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 182,
+    index = 191,
     label = "FCC(CF)OF",
     molecule = 
 """
@@ -6712,12 +7041,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.52387,0.0510785,-0.000133151,3.55975e-07,-3.49276e-10,-65572.2,11.7603], Tmin=(10,'K'), Tmax=(362.085,'K')),
-            NASAPolynomial(coeffs=[2.02181,0.0469955,-3.05802e-05,9.41347e-09,-1.10451e-12,-65327.9,19.3526], Tmin=(362.085,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.52387,0.0510785,-0.000133151,3.55975e-07,-3.49276e-10,-63746.5,11.7603], Tmin=(10,'K'), Tmax=(362.085,'K')),
+            NASAPolynomial(coeffs=[2.02181,0.0469955,-3.05802e-05,9.41347e-09,-1.10451e-12,-63502.2,19.3526], Tmin=(362.085,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-545.209,'kJ/mol'),
+        E0 = (-530.029,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (282.692,'J/(mol*K)'),
     ),
@@ -6726,13 +7055,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 183,
+    index = 192,
     label = "[CH2]C(O)CF",
     molecule = 
 """
@@ -6751,12 +7080,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87683,0.0117121,0.000156862,-5.28928e-07,5.94396e-10,-34940.6,10.3231], Tmin=(10,'K'), Tmax=(225.234,'K')),
-            NASAPolynomial(coeffs=[2.34489,0.0389184,-2.43243e-05,7.36055e-09,-8.58542e-13,-34871.6,15.4303], Tmin=(225.234,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87683,0.0117121,0.000156862,-5.28928e-07,5.94396e-10,-32324.8,10.3231], Tmin=(10,'K'), Tmax=(225.234,'K')),
+            NASAPolynomial(coeffs=[2.34489,0.0389184,-2.43243e-05,7.36055e-09,-8.58542e-13,-32255.8,15.4303], Tmin=(225.234,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-290.491,'kJ/mol'),
+        E0 = (-268.742,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -6765,13 +7094,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 184,
+    index = 193,
     label = "FOCOF",
     molecule = 
 """
@@ -6805,7 +7134,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.133 kJ/mol
 )
 
 entry(
-    index = 185,
+    index = 194,
     label = "[CH2]C(DO)CF",
     molecule = 
 """
@@ -6842,7 +7171,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.75 kJ/mol
 )
 
 entry(
-    index = 186,
+    index = 195,
     label = "O[C]1CC1F",
     molecule = 
 """
@@ -6879,7 +7208,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.822 kJ/mol
 )
 
 entry(
-    index = 187,
+    index = 196,
     label = "C[CH]CF",
     molecule = 
 """
@@ -6917,7 +7246,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.356 kJ/mol
 )
 
 entry(
-    index = 188,
+    index = 197,
+    label = "FCC(F)OOF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+4  F u0 p3 c0 {3,S}
+5  O u0 p2 c0 {3,S} {6,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.71996,0.0379683,-2.41877e-05,5.60994e-09,3.70644e-14,-57932.9,11.7652], Tmin=(10,'K'), Tmax=(1242.84,'K')),
+            NASAPolynomial(coeffs=[11.9378,0.0186073,-9.37496e-06,2.25283e-09,-2.10643e-13,-60523,-31.8701], Tmin=(1242.84,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-481.665,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 198,
     label = "C#CC(DC)F",
     molecule = 
 """
@@ -6952,7 +7318,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.725 kJ/mol
 )
 
 entry(
-    index = 189,
+    index = 199,
     label = "FC1OC1(F)F",
     molecule = 
 """
@@ -6986,7 +7352,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.538 kJ/mol
 )
 
 entry(
-    index = 190,
+    index = 200,
     label = "C#C[CH]F",
     molecule = 
 """
@@ -7020,7 +7386,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.17 kJ/mol
 )
 
 entry(
-    index = 191,
+    index = 201,
     label = "CCOOF",
     molecule = 
 """
@@ -7037,12 +7403,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77619,0.0246135,3.49033e-06,-1.80032e-08,7.55819e-12,-14040,8.88526], Tmin=(10,'K'), Tmax=(987.405,'K')),
-            NASAPolynomial(coeffs=[5.43293,0.0272289,-1.46516e-05,3.81206e-09,-3.87283e-13,-14821.8,-1.38889], Tmin=(987.405,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77619,0.0246135,3.49033e-06,-1.80032e-08,7.55819e-12,-11970.6,8.88526], Tmin=(10,'K'), Tmax=(987.405,'K')),
+            NASAPolynomial(coeffs=[5.43293,0.0272289,-1.46516e-05,3.81206e-09,-3.87283e-13,-12752.5,-1.38889], Tmin=(987.405,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-116.729,'kJ/mol'),
+        E0 = (-99.5231,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -7051,13 +7417,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 192,
+    index = 202,
     label = "CC(F)C[O]",
     molecule = 
 """
@@ -7076,12 +7442,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79241,0.0179312,5.14474e-05,-1.08398e-07,6.52215e-11,-33273.8,10.4569], Tmin=(10,'K'), Tmax=(437.416,'K')),
-            NASAPolynomial(coeffs=[1.37516,0.0400357,-2.43532e-05,7.12896e-09,-8.05591e-13,-33062.4,20.12], Tmin=(437.416,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79241,0.0179312,5.14474e-05,-1.08398e-07,6.52215e-11,-30657,10.4569], Tmin=(10,'K'), Tmax=(437.416,'K')),
+            NASAPolynomial(coeffs=[1.37516,0.0400357,-2.43532e-05,7.12896e-09,-8.05591e-13,-30445.5,20.12], Tmin=(437.416,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-276.672,'kJ/mol'),
+        E0 = (-254.915,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -7090,13 +7456,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 193,
+    index = 203,
     label = "OO[C](F)CF",
     molecule = 
 """
@@ -7113,12 +7479,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.68951,0.0367911,0.000181912,-1.63441e-06,3.40797e-09,-72488.2,12.2473], Tmin=(10,'K'), Tmax=(188.259,'K')),
-            NASAPolynomial(coeffs=[5.5869,0.0292992,-1.99151e-05,6.40695e-09,-7.81785e-13,-72617.8,4.71723], Tmin=(188.259,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.68951,0.0367911,0.000181912,-1.63441e-06,3.40797e-09,-71440.9,12.2473], Tmin=(10,'K'), Tmax=(188.259,'K')),
+            NASAPolynomial(coeffs=[5.5869,0.0292992,-1.99151e-05,6.40695e-09,-7.81785e-13,-71570.5,4.71723], Tmin=(188.259,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-602.336,'kJ/mol'),
+        E0 = (-593.628,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -7127,13 +7493,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 194,
+    index = 204,
+    label = "OC(CF)OF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+4  F u0 p3 c0 {3,S}
+5  O u0 p2 c0 {2,S} {6,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68099,0.0297617,-2.50078e-07,-2.36551e-08,1.27423e-11,-60777.4,10.9583], Tmin=(10,'K'), Tmax=(809.178,'K')),
+            NASAPolynomial(coeffs=[5.61474,0.0296281,-1.7475e-05,4.93137e-09,-5.37142e-13,-61398.9,0.131824], Tmin=(809.178,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-505.355,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 205,
     label = "[O]OC(F)F",
     molecule = 
 """
@@ -7167,7 +7570,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.337 kJ/mol
 )
 
 entry(
-    index = 195,
+    index = 206,
     label = "CDCC(F)D[C]F",
     molecule = 
 """
@@ -7184,12 +7587,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79039,0.0175735,7.03148e-05,-1.96723e-07,1.51679e-10,-2185.64,11.1012], Tmin=(10,'K'), Tmax=(439.228,'K')),
-            NASAPolynomial(coeffs=[3.58313,0.0319088,-2.11514e-05,6.62842e-09,-7.89534e-13,-2287.51,10.5638], Tmin=(439.228,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79039,0.0175735,7.03148e-05,-1.96723e-07,1.51679e-10,-1083.14,11.1012], Tmin=(10,'K'), Tmax=(439.228,'K')),
+            NASAPolynomial(coeffs=[3.58313,0.0319088,-2.11514e-05,6.62842e-09,-7.89534e-13,-1185.01,10.5638], Tmin=(439.228,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-18.1832,'kJ/mol'),
+        E0 = (-9.01646,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -7198,13 +7601,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 196,
+    index = 207,
     label = "OCCCF",
     molecule = 
 """
@@ -7243,7 +7646,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.378 kJ/mol
 )
 
 entry(
-    index = 197,
+    index = 208,
     label = "[O]CCF",
     molecule = 
 """
@@ -7279,7 +7682,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.378 kJ/mol
 )
 
 entry(
-    index = 198,
+    index = 209,
     label = "FC1CO1",
     molecule = 
 """
@@ -7313,7 +7716,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.556 kJ/mol
 )
 
 entry(
-    index = 199,
+    index = 210,
     label = "CCDC(F)OF",
     molecule = 
 """
@@ -7330,12 +7733,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.66364,0.0296292,4.09236e-06,-3.45665e-08,2.00135e-11,-31431.4,9.67395], Tmin=(10,'K'), Tmax=(707.093,'K')),
-            NASAPolynomial(coeffs=[4.95866,0.0314286,-1.9083e-05,5.53527e-09,-6.17878e-13,-31842.6,2.26195], Tmin=(707.093,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.66364,0.0296292,4.09236e-06,-3.45665e-08,2.00135e-11,-29954.8,9.67395], Tmin=(10,'K'), Tmax=(707.093,'K')),
+            NASAPolynomial(coeffs=[4.95866,0.0314286,-1.9083e-05,5.53527e-09,-6.17878e-13,-30366.1,2.26195], Tmin=(707.093,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-261.372,'kJ/mol'),
+        E0 = (-249.096,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -7344,13 +7747,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 200,
+    index = 211,
     label = "CDCDC[C](F)F",
     molecule = 
 """
@@ -7387,7 +7790,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.618 kJ/mol
 )
 
 entry(
-    index = 201,
+    index = 212,
     label = "FC1[C]DCO1",
     molecule = 
 """
@@ -7402,12 +7805,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.04687,-0.00472207,0.000106077,-1.84771e-07,1.01115e-10,12579.5,9.68248], Tmin=(10,'K'), Tmax=(594.194,'K')),
-            NASAPolynomial(coeffs=[2.18978,0.0260028,-1.74891e-05,5.48066e-09,-6.47792e-13,12478.5,14.9681], Tmin=(594.194,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.04687,-0.00472207,0.000106077,-1.84771e-07,1.01115e-10,13264.1,9.68248], Tmin=(10,'K'), Tmax=(594.194,'K')),
+            NASAPolynomial(coeffs=[2.18978,0.0260028,-1.74891e-05,5.48066e-09,-6.47792e-13,13163.1,14.9681], Tmin=(594.194,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (104.578,'kJ/mol'),
+        E0 = (110.27,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -7416,13 +7819,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 202,
+    index = 213,
     label = "F[C]1OO1",
     molecule = 
 """
@@ -7454,7 +7857,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.84 kJ/mol
 )
 
 entry(
-    index = 203,
+    index = 214,
     label = "FC1D[C]OC1",
     molecule = 
 """
@@ -7489,7 +7892,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.254 kJ/mol
 )
 
 entry(
-    index = 204,
+    index = 215,
     label = "[O]CCDCF",
     molecule = 
 """
@@ -7526,7 +7929,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.583 kJ/mol
 )
 
 entry(
-    index = 205,
+    index = 216,
     label = "CC(F)C(F)F",
     molecule = 
 """
@@ -7564,7 +7967,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.13 kJ/mol
 )
 
 entry(
-    index = 206,
+    index = 217,
     label = "FCCC[C](F)F",
     molecule = 
 """
@@ -7605,7 +8008,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.269 kJ/mol
 )
 
 entry(
-    index = 207,
+    index = 218,
     label = "OCD[C]CF",
     molecule = 
 """
@@ -7622,12 +8025,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.80413,0.0215219,4.86072e-06,-1.89899e-08,8.1484e-12,-14324.7,10.3649], Tmin=(10,'K'), Tmax=(945.642,'K')),
-            NASAPolynomial(coeffs=[5.16654,0.0244011,-1.34146e-05,3.55809e-09,-3.67556e-13,-14968.8,1.82511], Tmin=(945.642,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.80413,0.0215219,4.86072e-06,-1.89899e-08,8.1484e-12,-12662.1,10.3649], Tmin=(10,'K'), Tmax=(945.642,'K')),
+            NASAPolynomial(coeffs=[5.16654,0.0244011,-1.34146e-05,3.55809e-09,-3.67556e-13,-13306.2,1.82511], Tmin=(945.642,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-119.097,'kJ/mol'),
+        E0 = (-105.273,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -7636,13 +8039,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 208,
+    index = 219,
     label = "C[CH]C(F)F",
     molecule = 
 """
@@ -7680,7 +8083,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.689 kJ/mol
 )
 
 entry(
-    index = 209,
+    index = 220,
     label = "F[C]1OCC1F",
     molecule = 
 """
@@ -7717,7 +8120,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.093 kJ/mol
 )
 
 entry(
-    index = 210,
+    index = 221,
     label = "CC([O])(O)F",
     molecule = 
 """
@@ -7734,12 +8137,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89563,0.00656475,0.000113366,-2.49873e-07,1.64645e-10,-56890.3,9.91679], Tmin=(10,'K'), Tmax=(512.296,'K')),
-            NASAPolynomial(coeffs=[3.64003,0.0302989,-1.97777e-05,6.221e-09,-7.49914e-13,-57149.4,8.19483], Tmin=(512.296,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89563,0.00656475,0.000113366,-2.49873e-07,1.64645e-10,-55270.7,9.91679], Tmin=(10,'K'), Tmax=(512.296,'K')),
+            NASAPolynomial(coeffs=[3.64003,0.0302989,-1.97777e-05,6.221e-09,-7.49914e-13,-55529.7,8.19483], Tmin=(512.296,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-473.043,'kJ/mol'),
+        E0 = (-459.577,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -7748,13 +8151,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 211,
+    index = 222,
     label = "CCOF",
     molecule = 
 """
@@ -7770,12 +8173,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8921,0.0104958,3.70062e-05,-5.7306e-08,2.48135e-11,-18842.7,7.5376], Tmin=(10,'K'), Tmax=(754.745,'K')),
-            NASAPolynomial(coeffs=[1.9151,0.0292339,-1.66517e-05,4.59127e-09,-4.92529e-13,-18779.5,14.9606], Tmin=(754.745,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8921,0.0104958,3.70062e-05,-5.7306e-08,2.48135e-11,-16752.3,7.5376], Tmin=(10,'K'), Tmax=(754.745,'K')),
+            NASAPolynomial(coeffs=[1.9151,0.0292339,-1.66517e-05,4.59127e-09,-4.92529e-13,-16689.2,14.9606], Tmin=(754.745,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-156.671,'kJ/mol'),
+        E0 = (-139.291,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -7784,13 +8187,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 212,
+    index = 223,
     label = "[CH2]CC(C)F",
     molecule = 
 """
@@ -7811,12 +8214,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.68327,0.0293328,1.34338e-05,-3.28348e-08,1.35545e-11,-21717.5,9.5857], Tmin=(10,'K'), Tmax=(903.669,'K')),
-            NASAPolynomial(coeffs=[3.48804,0.0404261,-2.19594e-05,5.80224e-09,-5.99857e-13,-22099.9,8.19681], Tmin=(903.669,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.68327,0.0293328,1.34338e-05,-3.28348e-08,1.35545e-11,-18104.4,9.5857], Tmin=(10,'K'), Tmax=(903.669,'K')),
+            NASAPolynomial(coeffs=[3.48804,0.0404261,-2.19594e-05,5.80224e-09,-5.99857e-13,-18486.8,8.19681], Tmin=(903.669,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-180.584,'kJ/mol'),
+        E0 = (-150.544,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -7825,13 +8228,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 213,
+    index = 224,
+    label = "FCDCC(F)OF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+5  F u0 p3 c0 {4,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.65969,0.0358338,-1.54526e-05,-6.01834e-09,4.94447e-12,-52062.5,11.7161], Tmin=(10,'K'), Tmax=(956.8,'K')),
+            NASAPolynomial(coeffs=[8.32501,0.025915,-1.49294e-05,4.08727e-09,-4.31718e-13,-53394,-12.878], Tmin=(956.8,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-432.875,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 225,
     label = "[CH]DCOOF",
     molecule = 
 """
@@ -7846,12 +8286,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86875,0.00877077,0.00010168,-2.63926e-07,1.95284e-10,35035.3,10.5311], Tmin=(10,'K'), Tmax=(478.047,'K')),
-            NASAPolynomial(coeffs=[5.17162,0.0219981,-1.55355e-05,5.12215e-09,-6.34047e-13,34635.1,2.32344], Tmin=(478.047,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86875,0.00877077,0.00010168,-2.63926e-07,1.95284e-10,35689.7,10.5311], Tmin=(10,'K'), Tmax=(478.047,'K')),
+            NASAPolynomial(coeffs=[5.17162,0.0219981,-1.55355e-05,5.12215e-09,-6.34047e-13,35289.4,2.32344], Tmin=(478.047,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (291.276,'kJ/mol'),
+        E0 = (296.717,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -7860,13 +8300,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 214,
+    index = 226,
     label = "C#CCC(F)F",
     molecule = 
 """
@@ -7903,7 +8343,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.827 kJ/mol
 )
 
 entry(
-    index = 215,
+    index = 227,
     label = "[O]C(O)(F)F",
     molecule = 
 """
@@ -7917,12 +8357,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91388,0.00503082,7.45771e-05,-1.5679e-07,9.45858e-11,-76757.4,9.76162], Tmin=(10,'K'), Tmax=(580.646,'K')),
-            NASAPolynomial(coeffs=[4.70617,0.0195797,-1.46918e-05,5.04507e-09,-6.42534e-13,-77186.7,3.46575], Tmin=(580.646,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91388,0.00503082,7.45771e-05,-1.5679e-07,9.45858e-11,-76685.3,9.76162], Tmin=(10,'K'), Tmax=(580.646,'K')),
+            NASAPolynomial(coeffs=[4.70617,0.0195797,-1.46918e-05,5.04507e-09,-6.42534e-13,-77114.6,3.46575], Tmin=(580.646,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-638.233,'kJ/mol'),
+        E0 = (-637.633,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -7931,13 +8371,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 216,
+    index = 228,
     label = "OCOF",
     molecule = 
 """
@@ -7971,7 +8411,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.366 kJ/mol
 )
 
 entry(
-    index = 217,
+    index = 229,
     label = "CC[C]DC(F)F",
     molecule = 
 """
@@ -7990,12 +8430,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.80843,0.0310345,-7.2335e-06,-6.80494e-09,3.15801e-12,-21488.3,10.6542], Tmin=(10,'K'), Tmax=(1226.28,'K')),
-            NASAPolynomial(coeffs=[9.61651,0.0230527,-1.08808e-05,2.46861e-09,-2.18904e-13,-23737.1,-21.9123], Tmin=(1226.28,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.80843,0.0310345,-7.2335e-06,-6.80494e-09,3.15801e-12,-19432.6,10.6542], Tmin=(10,'K'), Tmax=(1226.28,'K')),
+            NASAPolynomial(coeffs=[9.61651,0.0230527,-1.08808e-05,2.46861e-09,-2.18904e-13,-21681.4,-21.9123], Tmin=(1226.28,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-178.64,'kJ/mol'),
+        E0 = (-161.547,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -8004,13 +8444,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 218,
+    index = 230,
     label = "F[C]1OOC1F",
     molecule = 
 """
@@ -8025,12 +8465,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91449,0.00517856,9.10536e-05,-1.91399e-07,1.18883e-10,-28669.8,11.2066], Tmin=(10,'K'), Tmax=(543.655,'K')),
-            NASAPolynomial(coeffs=[3.50573,0.0266604,-1.91897e-05,6.29524e-09,-7.69538e-13,-28898.4,10.4185], Tmin=(543.655,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91449,0.00517856,9.10536e-05,-1.91399e-07,1.18883e-10,-28600.5,11.2066], Tmin=(10,'K'), Tmax=(543.655,'K')),
+            NASAPolynomial(coeffs=[3.50573,0.0266604,-1.91897e-05,6.29524e-09,-7.69538e-13,-28829.1,10.4185], Tmin=(543.655,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-238.405,'kJ/mol'),
+        E0 = (-237.829,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -8039,13 +8479,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 219,
+    index = 231,
     label = "FC(F)[C]1CC1",
     molecule = 
 """
@@ -8084,7 +8524,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.369 kJ/mol
 )
 
 entry(
-    index = 220,
+    index = 232,
     label = "[O]OC(F)DCF",
     molecule = 
 """
@@ -8099,12 +8539,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79734,0.016396,5.59523e-05,-1.60958e-07,1.17656e-10,-29880.5,11.3726], Tmin=(10,'K'), Tmax=(498.054,'K')),
-            NASAPolynomial(coeffs=[5.08837,0.0232363,-1.64771e-05,5.36582e-09,-6.53751e-13,-30222.6,3.90133], Tmin=(498.054,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79734,0.016396,5.59523e-05,-1.60958e-07,1.17656e-10,-29785.5,11.3726], Tmin=(10,'K'), Tmax=(498.054,'K')),
+            NASAPolynomial(coeffs=[5.08837,0.0232363,-1.64771e-05,5.36582e-09,-6.53751e-13,-30127.5,3.90133], Tmin=(498.054,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-248.469,'kJ/mol'),
+        E0 = (-247.678,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -8113,13 +8553,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 221,
+    index = 233,
     label = "OOF",
     molecule = 
 """
@@ -8130,12 +8570,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.97542,0.00135438,2.85958e-05,-5.16587e-08,2.76807e-11,-7425.53,6.74021], Tmin=(10,'K'), Tmax=(624.092,'K')),
-            NASAPolynomial(coeffs=[3.54968,0.0102075,-7.40237e-06,2.51916e-09,-3.20767e-13,-7491.66,7.6379], Tmin=(624.092,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.97542,0.00135438,2.85958e-05,-5.16587e-08,2.76807e-11,-7170.06,6.74021], Tmin=(10,'K'), Tmax=(624.092,'K')),
+            NASAPolynomial(coeffs=[3.54968,0.0102075,-7.40237e-06,2.51916e-09,-3.20767e-13,-7236.19,7.6379], Tmin=(624.092,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-61.7508,'kJ/mol'),
+        E0 = (-59.6267,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (83.1447,'J/(mol*K)'),
     ),
@@ -8144,13 +8584,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 222,
+    index = 234,
     label = "FC[C]1CO1",
     molecule = 
 """
@@ -8187,7 +8627,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.569 kJ/mol
 )
 
 entry(
-    index = 223,
+    index = 235,
     label = "CC(F)[C](F)F",
     molecule = 
 """
@@ -8205,12 +8645,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71912,0.0278802,3.50151e-06,-2.52873e-08,1.2375e-11,-64743.5,10.3965], Tmin=(10,'K'), Tmax=(853.613,'K')),
-            NASAPolynomial(coeffs=[5.56598,0.0294028,-1.70573e-05,4.73566e-09,-5.08378e-13,-65429.6,-0.39297], Tmin=(853.613,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71912,0.0278802,3.50151e-06,-2.52873e-08,1.2375e-11,-63282.1,10.3965], Tmin=(10,'K'), Tmax=(853.613,'K')),
+            NASAPolynomial(coeffs=[5.56598,0.0294028,-1.70573e-05,4.73566e-09,-5.08378e-13,-63968.1,-0.39297], Tmin=(853.613,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-538.318,'kJ/mol'),
+        E0 = (-526.167,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -8219,13 +8659,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 224,
+    index = 236,
     label = "FCC1D[C]O1",
     molecule = 
 """
@@ -8260,7 +8700,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.254 kJ/mol
 )
 
 entry(
-    index = 225,
+    index = 237,
     label = "CC[C](F)CF",
     molecule = 
 """
@@ -8281,12 +8721,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.56661,0.0461193,-0.000110237,2.98252e-07,-2.81434e-10,-44280.5,10.8096], Tmin=(10,'K'), Tmax=(395.434,'K')),
-            NASAPolynomial(coeffs=[0.894206,0.0490533,-2.99529e-05,8.78586e-09,-9.93781e-13,-43880.8,23.6053], Tmin=(395.434,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.56661,0.0461193,-0.000110237,2.98252e-07,-2.81434e-10,-41271.5,10.8096], Tmin=(10,'K'), Tmax=(395.434,'K')),
+            NASAPolynomial(coeffs=[0.894206,0.0490533,-2.99529e-05,8.78586e-09,-9.93781e-13,-40871.8,23.6053], Tmin=(395.434,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-368.184,'kJ/mol'),
+        E0 = (-343.165,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -8295,13 +8735,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 226,
+    index = 238,
     label = "CDC(O)OF",
     molecule = 
 """
@@ -8336,7 +8776,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.447 kJ/mol
 )
 
 entry(
-    index = 227,
+    index = 239,
     label = "[CH]DCC(F)F",
     molecule = 
 """
@@ -8372,7 +8812,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.914 kJ/mol
 )
 
 entry(
-    index = 228,
+    index = 240,
     label = "CC([O])F",
     molecule = 
 """
@@ -8388,12 +8828,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.96587,0.00210502,8.05126e-05,-1.50989e-07,9.01474e-11,-33727.6,9.13571], Tmin=(10,'K'), Tmax=(496.629,'K')),
-            NASAPolynomial(coeffs=[1.35045,0.0290279,-1.84957e-05,5.66667e-09,-6.67363e-13,-33540.1,19.1958], Tmin=(496.629,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.96587,0.00210502,8.05126e-05,-1.50989e-07,9.01474e-11,-32054.3,9.13571], Tmin=(10,'K'), Tmax=(496.629,'K')),
+            NASAPolynomial(coeffs=[1.35045,0.0290279,-1.84957e-05,5.66667e-09,-6.67363e-13,-31866.7,19.1958], Tmin=(496.629,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-280.438,'kJ/mol'),
+        E0 = (-266.525,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -8402,13 +8842,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 229,
+    index = 241,
     label = "FCO[C](F)F",
     molecule = 
 """
@@ -8444,7 +8884,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.238 kJ/mol
 )
 
 entry(
-    index = 230,
+    index = 242,
     label = "CDCC(F)F",
     molecule = 
 """
@@ -8480,7 +8920,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.94 kJ/mol
 )
 
 entry(
-    index = 231,
+    index = 243,
     label = "ODCDCF",
     molecule = 
 """
@@ -8512,7 +8952,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.696 kJ/mol
 )
 
 entry(
-    index = 232,
+    index = 244,
     label = "[C]#COCF",
     molecule = 
 """
@@ -8547,7 +8987,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.329 kJ/mol
 )
 
 entry(
-    index = 233,
+    index = 245,
     label = "[O]CC(F)F",
     molecule = 
 """
@@ -8583,7 +9023,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.744 kJ/mol
 )
 
 entry(
-    index = 234,
+    index = 246,
     label = "[CH]DC(C)OF",
     molecule = 
 """
@@ -8600,12 +9040,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84332,0.013372,0.000105677,-3.24394e-07,2.96862e-10,22993.2,9.22315], Tmin=(10,'K'), Tmax=(359.488,'K')),
-            NASAPolynomial(coeffs=[3.3907,0.0309756,-2.02142e-05,6.31787e-09,-7.54666e-13,22944.6,9.81425], Tmin=(359.488,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84332,0.013372,0.000105677,-3.24394e-07,2.96862e-10,24612.1,9.22315], Tmin=(10,'K'), Tmax=(359.488,'K')),
+            NASAPolynomial(coeffs=[3.3907,0.0309756,-2.02142e-05,6.31787e-09,-7.54666e-13,24563.4,9.81425], Tmin=(359.488,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (191.192,'kJ/mol'),
+        E0 = (204.651,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -8614,13 +9054,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 235,
+    index = 247,
     label = "CO[CH]CF",
     molecule = 
 """
@@ -8659,7 +9099,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.338 kJ/mol
 )
 
 entry(
-    index = 236,
+    index = 248,
     label = "F[CH]CDCF",
     molecule = 
 """
@@ -8695,7 +9135,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.014 kJ/mol
 )
 
 entry(
-    index = 237,
+    index = 249,
     label = "C#CC([CH2])(F)F",
     molecule = 
 """
@@ -8712,12 +9152,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7906,0.0144368,0.000147213,-4.15389e-07,3.27829e-10,-6139.05,10.6437], Tmin=(10,'K'), Tmax=(457.049,'K')),
-            NASAPolynomial(coeffs=[6.55342,0.0276754,-1.90387e-05,6.23612e-09,-7.73981e-13,-6782.42,-4.79761], Tmin=(457.049,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7906,0.0144368,0.000147213,-4.15389e-07,3.27829e-10,-4900.32,10.6437], Tmin=(10,'K'), Tmax=(457.049,'K')),
+            NASAPolynomial(coeffs=[6.55342,0.0276754,-1.90387e-05,6.23612e-09,-7.73981e-13,-5543.69,-4.79761], Tmin=(457.049,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-51.0684,'kJ/mol'),
+        E0 = (-40.7691,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -8726,13 +9166,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 238,
+    index = 250,
     label = "O[C]DCOF",
     molecule = 
 """
@@ -8747,12 +9187,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.30254,0.0654757,-0.000201655,3.14798e-07,-1.85403e-10,-44499.4,11.5196], Tmin=(10,'K'), Tmax=(484.288,'K')),
-            NASAPolynomial(coeffs=[8.2308,0.0139198,-8.36085e-06,2.44656e-09,-2.77802e-13,-44849.5,-7.36936], Tmin=(484.288,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.30254,0.0654757,-0.000201655,3.14798e-07,-1.85403e-10,-43877.8,11.5196], Tmin=(10,'K'), Tmax=(484.288,'K')),
+            NASAPolynomial(coeffs=[8.2308,0.0139198,-8.36085e-06,2.44656e-09,-2.77802e-13,-44227.9,-7.36936], Tmin=(484.288,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-370.016,'kJ/mol'),
+        E0 = (-364.847,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -8761,13 +9201,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 239,
+    index = 251,
     label = "OD[C]OCF",
     molecule = 
 """
@@ -8782,12 +9222,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86912,0.0173554,-1.95088e-06,-6.83644e-09,2.93564e-12,-46604.3,10.1588], Tmin=(10,'K'), Tmax=(1130.65,'K')),
-            NASAPolynomial(coeffs=[6.54879,0.0147501,-7.61503e-06,1.88115e-09,-1.81031e-13,-47649.7,-5.04139], Tmin=(1130.65,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86912,0.0173554,-1.95088e-06,-6.83644e-09,2.93564e-12,-45971.3,10.1588], Tmin=(10,'K'), Tmax=(1130.65,'K')),
+            NASAPolynomial(coeffs=[6.54879,0.0147501,-7.61503e-06,1.88115e-09,-1.81031e-13,-47016.6,-5.04139], Tmin=(1130.65,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-387.478,'kJ/mol'),
+        E0 = (-382.214,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -8796,13 +9236,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 240,
+    index = 252,
     label = "OCO[CH]F",
     molecule = 
 """
@@ -8839,7 +9279,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.767 kJ/mol
 )
 
 entry(
-    index = 241,
+    index = 253,
     label = "C[C](F)CCF",
     molecule = 
 """
@@ -8860,12 +9300,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84562,0.0330662,-2.40373e-07,-1.40245e-08,5.19965e-12,-45427,10.1026], Tmin=(10,'K'), Tmax=(1235.14,'K')),
-            NASAPolynomial(coeffs=[10.146,0.0280023,-1.27199e-05,2.76637e-09,-2.34129e-13,-48153.5,-26.3605], Tmin=(1235.14,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84562,0.0330662,-2.40373e-07,-1.40245e-08,5.19965e-12,-42418,10.1026], Tmin=(10,'K'), Tmax=(1235.14,'K')),
+            NASAPolynomial(coeffs=[10.146,0.0280023,-1.27199e-05,2.76637e-09,-2.34129e-13,-45144.5,-26.3605], Tmin=(1235.14,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-377.662,'kJ/mol'),
+        E0 = (-352.643,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -8874,13 +9314,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 242,
+    index = 254,
     label = "CDC(C)OF",
     molecule = 
 """
@@ -8897,12 +9337,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88099,0.0107409,0.000106232,-2.84596e-07,2.46079e-10,-8595.53,8.57166], Tmin=(10,'K'), Tmax=(295.234,'K')),
-            NASAPolynomial(coeffs=[2.0053,0.036154,-2.28859e-05,6.9673e-09,-8.14773e-13,-8484.78,15.3324], Tmin=(295.234,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88099,0.0107409,0.000106232,-2.84596e-07,2.46079e-10,-6514.9,8.57166], Tmin=(10,'K'), Tmax=(295.234,'K')),
+            NASAPolynomial(coeffs=[2.0053,0.036154,-2.28859e-05,6.9673e-09,-8.14773e-13,-6404.15,15.3324], Tmin=(295.234,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-71.457,'kJ/mol'),
+        E0 = (-54.1577,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -8911,13 +9351,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 243,
+    index = 255,
     label = "CD[C]C#CF",
     molecule = 
 """
@@ -8952,7 +9392,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.67 kJ/mol
 )
 
 entry(
-    index = 244,
+    index = 256,
     label = "FC[C]DCOF",
     molecule = 
 """
@@ -8969,12 +9409,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.83623,0.0314344,-2.01969e-05,5.89923e-09,-6.00608e-13,3142.96,11.3028], Tmin=(10,'K'), Tmax=(1567.58,'K')),
-            NASAPolynomial(coeffs=[14.3233,0.0090851,-3.03161e-06,3.93995e-10,-8.87667e-15,-686.83,-45.7342], Tmin=(1567.58,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.83623,0.0314344,-2.01969e-05,5.89923e-09,-6.00608e-13,4157.72,11.3028], Tmin=(10,'K'), Tmax=(1567.58,'K')),
+            NASAPolynomial(coeffs=[14.3233,0.0090851,-3.03161e-06,3.93995e-10,-8.87667e-15,327.93,-45.7342], Tmin=(1567.58,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (26.1322,'kJ/mol'),
+        E0 = (34.5694,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -8983,13 +9423,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 245,
+    index = 257,
     label = "FCD[C]OCF",
     molecule = 
 """
@@ -9026,7 +9466,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 )
 
 entry(
-    index = 246,
+    index = 258,
     label = "OCC[C](F)F",
     molecule = 
 """
@@ -9065,7 +9505,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.144 kJ/mol
 )
 
 entry(
-    index = 247,
+    index = 259,
     label = "OC1DCC1F",
     molecule = 
 """
@@ -9100,7 +9540,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.614 kJ/mol
 )
 
 entry(
-    index = 248,
+    index = 260,
     label = "CDCCD[C]F",
     molecule = 
 """
@@ -9117,12 +9557,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87663,0.0103147,7.74223e-05,-1.78106e-07,1.24386e-10,17533.8,9.89037], Tmin=(10,'K'), Tmax=(442.763,'K')),
-            NASAPolynomial(coeffs=[2.31029,0.0317859,-2.01189e-05,6.10383e-09,-7.10564e-13,17600.8,15.3606], Tmin=(442.763,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87663,0.0103147,7.74223e-05,-1.78106e-07,1.24386e-10,19240.4,9.89037], Tmin=(10,'K'), Tmax=(442.763,'K')),
+            NASAPolynomial(coeffs=[2.31029,0.0317859,-2.01189e-05,6.10383e-09,-7.10564e-13,19307.3,15.3606], Tmin=(442.763,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (145.777,'kJ/mol'),
+        E0 = (159.966,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -9131,13 +9571,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 249,
+    index = 261,
     label = "CCD[C]C(F)F",
     molecule = 
 """
@@ -9176,7 +9616,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.085 kJ/mol
 )
 
 entry(
-    index = 250,
+    index = 262,
     label = "[CH]DCF",
     molecule = 
 """
@@ -9209,7 +9649,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.17 kJ/mol
 )
 
 entry(
-    index = 251,
+    index = 263,
     label = "[C]#CCC(F)F",
     molecule = 
 """
@@ -9246,7 +9686,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.096 kJ/mol
 )
 
 entry(
-    index = 252,
+    index = 264,
     label = "[CH]DCOCF",
     molecule = 
 """
@@ -9283,7 +9723,46 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.673 kJ/mol
 )
 
 entry(
-    index = 253,
+    index = 265,
+    label = "FCDCC(F)CF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+5  F u0 p3 c0 {4,S}
+6  C u0 p0 c0 {4,S} {7,S} {11,S} {12,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82439,0.0330177,5.65336e-07,-1.82997e-08,7.48638e-12,-70346.9,11.5936], Tmin=(10,'K'), Tmax=(1103.12,'K')),
+            NASAPolynomial(coeffs=[9.15071,0.0290558,-1.49222e-05,3.67579e-09,-3.52979e-13,-72456.1,-18.8592], Tmin=(1103.12,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-584.843,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 266,
     label = "FCC1DCC1F",
     molecule = 
 """
@@ -9300,12 +9779,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87392,0.0200221,2.51664e-05,-4.64381e-08,1.93822e-11,-21206.7,10.6708], Tmin=(10,'K'), Tmax=(885.384,'K')),
-            NASAPolynomial(coeffs=[5.03118,0.0298982,-1.71552e-05,4.697e-09,-4.97082e-13,-22003.7,1.88523], Tmin=(885.384,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87392,0.0200221,2.51664e-05,-4.64381e-08,1.93822e-11,-19594.1,10.6708], Tmin=(10,'K'), Tmax=(885.384,'K')),
+            NASAPolynomial(coeffs=[5.03118,0.0298982,-1.71552e-05,4.697e-09,-4.97082e-13,-20391,1.88523], Tmin=(885.384,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-176.289,'kJ/mol'),
+        E0 = (-162.881,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -9314,13 +9793,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 254,
+    index = 267,
     label = "FC1DCO[CH]1",
     molecule = 
 """
@@ -9355,7 +9834,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.046 kJ/mol
 )
 
 entry(
-    index = 255,
+    index = 268,
     label = "FCDC1CC1F",
     molecule = 
 """
@@ -9372,12 +9851,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9161,0.00547799,0.000128092,-2.76321e-07,1.85111e-10,-23726.7,10.838], Tmin=(10,'K'), Tmax=(473.542,'K')),
-            NASAPolynomial(coeffs=[1.80605,0.0386003,-2.52874e-05,7.83474e-09,-9.23427e-13,-23698.4,17.6293], Tmin=(473.542,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9161,0.00547799,0.000128092,-2.76321e-07,1.85111e-10,-22114,10.838], Tmin=(10,'K'), Tmax=(473.542,'K')),
+            NASAPolynomial(coeffs=[1.80605,0.0386003,-2.52874e-05,7.83474e-09,-9.23427e-13,-22085.7,17.6293], Tmin=(473.542,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-197.292,'kJ/mol'),
+        E0 = (-183.884,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -9386,13 +9865,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 256,
+    index = 269,
     label = "C[C](F)CF",
     molecule = 
 """
@@ -9430,7 +9909,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.765 kJ/mol
 )
 
 entry(
-    index = 257,
+    index = 270,
     label = "CCCF",
     molecule = 
 """
@@ -9468,7 +9947,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.532 kJ/mol
 )
 
 entry(
-    index = 258,
+    index = 271,
     label = "ODCD[C]CF",
     molecule = 
 """
@@ -9503,7 +9982,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.209 kJ/mol
 )
 
 entry(
-    index = 259,
+    index = 272,
     label = "FC1[CH]CDC1",
     molecule = 
 """
@@ -9540,7 +10019,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.761 kJ/mol
 )
 
 entry(
-    index = 260,
+    index = 273,
     label = "FOC1[C]DC1",
     molecule = 
 """
@@ -9555,12 +10034,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90765,0.00570864,8.91222e-05,-1.97059e-07,1.27738e-10,52665.2,10.1957], Tmin=(10,'K'), Tmax=(529.954,'K')),
-            NASAPolynomial(coeffs=[4.17032,0.0233309,-1.62465e-05,5.2968e-09,-6.50682e-13,52362.1,6.49784], Tmin=(529.954,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90765,0.00570864,8.91222e-05,-1.97059e-07,1.27738e-10,53379.2,10.1957], Tmin=(10,'K'), Tmax=(529.954,'K')),
+            NASAPolynomial(coeffs=[4.17032,0.0233309,-1.62465e-05,5.2968e-09,-6.50682e-13,53076,6.49784], Tmin=(529.954,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (437.854,'kJ/mol'),
+        E0 = (443.789,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -9569,13 +10048,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 261,
+    index = 274,
     label = "CC#C[C](F)F",
     molecule = 
 """
@@ -9612,7 +10091,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.293 kJ/mol
 )
 
 entry(
-    index = 262,
+    index = 275,
     label = "COCDCF",
     molecule = 
 """
@@ -9649,7 +10128,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.117 kJ/mol
 )
 
 entry(
-    index = 263,
+    index = 276,
     label = "CC(O)[C](F)F",
     molecule = 
 """
@@ -9668,12 +10147,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81134,0.0193632,0.000130042,-5.05971e-07,6.33063e-10,-61997.8,10.1912], Tmin=(10,'K'), Tmax=(202.721,'K')),
-            NASAPolynomial(coeffs=[2.74048,0.0404926,-2.62983e-05,8.16254e-09,-9.68367e-13,-61954.4,13.6485], Tmin=(202.721,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81134,0.0193632,0.000130042,-5.05971e-07,6.33063e-10,-59986,10.1912], Tmin=(10,'K'), Tmax=(202.721,'K')),
+            NASAPolynomial(coeffs=[2.74048,0.0404926,-2.62983e-05,8.16254e-09,-9.68367e-13,-59942.6,13.6485], Tmin=(202.721,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-515.444,'kJ/mol'),
+        E0 = (-498.717,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -9682,13 +10161,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 264,
+    index = 277,
     label = "F[C]DCC#CF",
     molecule = 
 """
@@ -9703,12 +10182,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8203,0.0141266,9.88089e-05,-3.32713e-07,3.07069e-10,26920.2,11.4143], Tmin=(10,'K'), Tmax=(390.099,'K')),
-            NASAPolynomial(coeffs=[5.14336,0.0222179,-1.55815e-05,5.09551e-09,-6.27057e-13,26652.2,4.16464], Tmin=(390.099,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8203,0.0141266,9.88089e-05,-3.32713e-07,3.07069e-10,27205.7,11.4143], Tmin=(10,'K'), Tmax=(390.099,'K')),
+            NASAPolynomial(coeffs=[5.14336,0.0222179,-1.55815e-05,5.09551e-09,-6.27057e-13,26937.7,4.16464], Tmin=(390.099,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (223.837,'kJ/mol'),
+        E0 = (226.21,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -9717,13 +10196,49 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 265,
+    index = 278,
+    label = "OC(F)[CH]F",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3 F u0 p3 c0 {2,S}
+4 C u1 p0 c0 {2,S} {5,S} {6,S}
+5 H u0 p0 c0 {4,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89683,0.00715871,0.000104898,-2.59997e-07,1.93478e-10,-55185,10.6796], Tmin=(10,'K'), Tmax=(449.238,'K')),
+            NASAPolynomial(coeffs=[3.53166,0.0272006,-1.80843e-05,5.70504e-09,-6.83892e-13,-55321.6,10.2634], Tmin=(449.238,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-458.846,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 279,
     label = "FCDC1OC1F",
     molecule = 
 """
@@ -9738,12 +10253,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90525,0.00621007,0.00010637,-2.42813e-07,1.668e-10,-38506.7,10.5796], Tmin=(10,'K'), Tmax=(483.079,'K')),
-            NASAPolynomial(coeffs=[3.184,0.0295803,-2.02186e-05,6.43811e-09,-7.72937e-13,-38640,11.4333], Tmin=(483.079,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90525,0.00621007,0.00010637,-2.42813e-07,1.668e-10,-37964.4,10.5796], Tmin=(10,'K'), Tmax=(483.079,'K')),
+            NASAPolynomial(coeffs=[3.184,0.0295803,-2.02186e-05,6.43811e-09,-7.72937e-13,-38097.7,11.4333], Tmin=(483.079,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-320.183,'kJ/mol'),
+        E0 = (-315.674,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -9752,13 +10267,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 266,
+    index = 280,
     label = "CDC[C]DCF",
     molecule = 
 """
@@ -9775,12 +10290,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86068,0.0116397,7.92726e-05,-1.93534e-07,1.41426e-10,13392.7,10.3098], Tmin=(10,'K'), Tmax=(433.057,'K')),
-            NASAPolynomial(coeffs=[2.63757,0.0316579,-2.02712e-05,6.2089e-09,-7.28188e-13,13416.9,14.2429], Tmin=(433.057,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86068,0.0116397,7.92726e-05,-1.93534e-07,1.41426e-10,15099.3,10.3098], Tmin=(10,'K'), Tmax=(433.057,'K')),
+            NASAPolynomial(coeffs=[2.63757,0.0316579,-2.02712e-05,6.2089e-09,-7.28188e-13,15123.4,14.2429], Tmin=(433.057,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (111.347,'kJ/mol'),
+        E0 = (125.536,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -9789,13 +10304,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 267,
+    index = 281,
     label = "FCC1OC1F",
     molecule = 
 """
@@ -9832,7 +10347,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.427 kJ/mol
 )
 
 entry(
-    index = 268,
+    index = 282,
     label = "C[C]DCDC(F)F",
     molecule = 
 """
@@ -9869,7 +10384,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.192 kJ/mol
 )
 
 entry(
-    index = 269,
+    index = 283,
     label = "FCC1D[C]C1",
     molecule = 
 """
@@ -9886,12 +10401,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89084,0.0160964,2.15744e-05,-3.72648e-08,1.50226e-11,32945.9,10.0203], Tmin=(10,'K'), Tmax=(900.453,'K')),
-            NASAPolynomial(coeffs=[4.25044,0.0261661,-1.46354e-05,3.9331e-09,-4.10503e-13,32408.1,5.69672], Tmin=(900.453,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89084,0.0160964,2.15744e-05,-3.72648e-08,1.50226e-11,34700.8,10.0203], Tmin=(10,'K'), Tmax=(900.453,'K')),
+            NASAPolynomial(coeffs=[4.25044,0.0261661,-1.46354e-05,3.9331e-09,-4.10503e-13,34163,5.69672], Tmin=(900.453,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (273.952,'kJ/mol'),
+        E0 = (288.543,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -9900,13 +10415,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 270,
+    index = 284,
     label = "C[C]1CDC1F",
     molecule = 
 """
@@ -9943,7 +10458,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.938 kJ/mol
 )
 
 entry(
-    index = 271,
+    index = 285,
     label = "FC1COC1F",
     molecule = 
 """
@@ -9980,7 +10495,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 )
 
 entry(
-    index = 272,
+    index = 286,
     label = "OCF",
     molecule = 
 """
@@ -9993,12 +10508,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.04407,-0.00347044,5.55173e-05,-8.18901e-08,3.92327e-11,-53817.7,7.08531], Tmin=(10,'K'), Tmax=(629.909,'K')),
-            NASAPolynomial(coeffs=[1.49817,0.0185451,-1.08359e-05,3.07546e-09,-3.38841e-13,-53612.9,17.2701], Tmin=(629.909,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.04407,-0.00347044,5.55173e-05,-8.18901e-08,3.92327e-11,-52627,7.08531], Tmin=(10,'K'), Tmax=(629.909,'K')),
+            NASAPolynomial(coeffs=[1.49817,0.0185451,-1.08359e-05,3.07546e-09,-3.38841e-13,-52422.3,17.2701], Tmin=(629.909,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-447.463,'kJ/mol'),
+        E0 = (-437.564,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -10007,13 +10522,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 273,
+    index = 287,
     label = "C#CC[C](F)F",
     molecule = 
 """
@@ -10050,7 +10565,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.071 kJ/mol
 )
 
 entry(
-    index = 274,
+    index = 288,
     label = "FC[C]1CC1",
     molecule = 
 """
@@ -10089,7 +10604,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.783 kJ/mol
 )
 
 entry(
-    index = 275,
+    index = 289,
     label = "ODCO[CH]F",
     molecule = 
 """
@@ -10124,7 +10639,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.118 kJ/mol
 )
 
 entry(
-    index = 276,
+    index = 290,
     label = "[CH]DCDC(F)F",
     molecule = 
 """
@@ -10158,7 +10673,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.39 kJ/mol
 )
 
 entry(
-    index = 277,
+    index = 291,
+    label = "[O]C(O)CF",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 O u0 p2 c0 {2,S} {7,S}
+4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+5 F u0 p3 c0 {4,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77893,0.0198116,2.2968e-05,-5.54138e-08,2.95173e-11,-48472.6,10.4713], Tmin=(10,'K'), Tmax=(672.092,'K')),
+            NASAPolynomial(coeffs=[3.82865,0.0287238,-1.74739e-05,5.08683e-09,-5.7002e-13,-48687.3,8.704], Tmin=(672.092,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-403.05,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 292,
     label = "CDC(F)C[C](F)F",
     molecule = 
 """
@@ -10197,7 +10749,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.051 kJ/mol
 )
 
 entry(
-    index = 278,
+    index = 293,
     label = "OC1O[C]1F",
     molecule = 
 """
@@ -10232,7 +10784,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.493 kJ/mol
 )
 
 entry(
-    index = 279,
+    index = 294,
     label = "CDC(O)CF",
     molecule = 
 """
@@ -10269,7 +10821,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 )
 
 entry(
-    index = 280,
+    index = 295,
     label = "C#C[C]DCF",
     molecule = 
 """
@@ -10284,12 +10836,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84579,0.0115535,0.000105727,-3.38352e-07,3.0218e-10,36600.7,10.0747], Tmin=(10,'K'), Tmax=(403.824,'K')),
-            NASAPolynomial(coeffs=[5.43818,0.0196566,-1.30597e-05,4.1648e-09,-5.07296e-13,36277.4,1.42582], Tmin=(403.824,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84579,0.0115535,0.000105727,-3.38352e-07,3.0218e-10,37490.3,10.0747], Tmin=(10,'K'), Tmax=(403.824,'K')),
+            NASAPolynomial(coeffs=[5.43818,0.0196566,-1.30597e-05,4.1648e-09,-5.07296e-13,37167,1.42582], Tmin=(403.824,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (304.32,'kJ/mol'),
+        E0 = (311.716,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -10298,13 +10850,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 281,
+    index = 296,
     label = "FC1DCCDC1F",
     molecule = 
 """
@@ -10339,7 +10891,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.391 kJ/mol
 )
 
 entry(
-    index = 282,
+    index = 297,
     label = "FC1[CH]C1F",
     molecule = 
 """
@@ -10375,7 +10927,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.804 kJ/mol
 )
 
 entry(
-    index = 283,
+    index = 298,
     label = "[CH2]OC(F)F",
     molecule = 
 """
@@ -10411,7 +10963,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.392 kJ/mol
 )
 
 entry(
-    index = 284,
+    index = 299,
     label = "[O]C#CCF",
     molecule = 
 """
@@ -10446,7 +10998,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.68 kJ/mol
 )
 
 entry(
-    index = 285,
+    index = 300,
     label = "[CH]DC(O)CF",
     molecule = 
 """
@@ -10463,12 +11015,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90503,0.00603322,0.000111326,-2.44618e-07,1.62326e-10,-13393,10.3478], Tmin=(10,'K'), Tmax=(502.19,'K')),
-            NASAPolynomial(coeffs=[3.25942,0.0305415,-1.97232e-05,6.14119e-09,-7.33729e-13,-13572.3,10.5865], Tmin=(502.19,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90503,0.00603322,0.000111326,-2.44618e-07,1.62326e-10,-11730.4,10.3478], Tmin=(10,'K'), Tmax=(502.19,'K')),
+            NASAPolynomial(coeffs=[3.25942,0.0305415,-1.97232e-05,6.14119e-09,-7.33729e-13,-11909.7,10.5865], Tmin=(502.19,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-111.381,'kJ/mol'),
+        E0 = (-97.5577,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -10477,13 +11029,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 286,
+    index = 301,
     label = "O[C]DCCF",
     molecule = 
 """
@@ -10500,12 +11052,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.83408,0.0155937,6.14924e-05,-1.84012e-07,1.66243e-10,-15510.8,10.3131], Tmin=(10,'K'), Tmax=(284.453,'K')),
-            NASAPolynomial(coeffs=[2.74114,0.0309626,-1.95516e-05,5.92813e-09,-6.9024e-13,-15448.6,14.2119], Tmin=(284.453,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.83408,0.0155937,6.14924e-05,-1.84012e-07,1.66243e-10,-13848.2,10.3131], Tmin=(10,'K'), Tmax=(284.453,'K')),
+            NASAPolynomial(coeffs=[2.74114,0.0309626,-1.95516e-05,5.92813e-09,-6.9024e-13,-13786,14.2119], Tmin=(284.453,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-128.958,'kJ/mol'),
+        E0 = (-115.135,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -10514,13 +11066,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 287,
+    index = 302,
     label = "ODCDCDCF",
     molecule = 
 """
@@ -10553,7 +11105,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.011 kJ/mol
 )
 
 entry(
-    index = 288,
+    index = 303,
     label = "CC1(F)O[C]1F",
     molecule = 
 """
@@ -10590,7 +11142,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.183 kJ/mol
 )
 
 entry(
-    index = 289,
+    index = 304,
     label = "C#CC(F)DCF",
     molecule = 
 """
@@ -10605,12 +11157,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85196,0.00996881,0.000119285,-3.11497e-07,2.33339e-10,-10387.9,10.3876], Tmin=(10,'K'), Tmax=(470.645,'K')),
-            NASAPolynomial(coeffs=[5.23671,0.0255402,-1.74799e-05,5.65893e-09,-6.94138e-13,-10821,1.53373], Tmin=(470.645,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85196,0.00996881,0.000119285,-3.11497e-07,2.33339e-10,-9640.6,10.3876], Tmin=(10,'K'), Tmax=(470.645,'K')),
+            NASAPolynomial(coeffs=[5.23671,0.0255402,-1.74799e-05,5.65893e-09,-6.94138e-13,-10073.8,1.53373], Tmin=(470.645,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-86.3942,'kJ/mol'),
+        E0 = (-80.1809,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -10619,13 +11171,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 290,
+    index = 305,
     label = "OD[C]C(F)(F)F",
     molecule = 
 """
@@ -10659,7 +11211,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.336 kJ/mol
 )
 
 entry(
-    index = 291,
+    index = 306,
     label = "C#CCD[C]F",
     molecule = 
 """
@@ -10674,12 +11226,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89328,0.00696356,9.27645e-05,-2.27867e-07,1.62317e-10,40472,10.0458], Tmin=(10,'K'), Tmax=(490.831,'K')),
-            NASAPolynomial(coeffs=[4.77852,0.0208113,-1.39205e-05,4.46099e-09,-5.45508e-13,40131.4,3.82057], Tmin=(490.831,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89328,0.00696356,9.27645e-05,-2.27867e-07,1.62317e-10,41361.5,10.0458], Tmin=(10,'K'), Tmax=(490.831,'K')),
+            NASAPolynomial(coeffs=[4.77852,0.0208113,-1.39205e-05,4.46099e-09,-5.45508e-13,41020.9,3.82057], Tmin=(490.831,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (336.479,'kJ/mol'),
+        E0 = (343.875,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -10688,13 +11240,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 292,
+    index = 307,
     label = "FCOOC(F)F",
     molecule = 
 """
@@ -10731,7 +11283,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.111 kJ/mol
 )
 
 entry(
-    index = 293,
+    index = 308,
     label = "CC(F)DC[O]",
     molecule = 
 """
@@ -10768,7 +11320,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.758 kJ/mol
 )
 
 entry(
-    index = 294,
+    index = 309,
     label = "[CH2]CDCF",
     molecule = 
 """
@@ -10804,7 +11356,42 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.797 kJ/mol
 )
 
 entry(
-    index = 295,
+    index = 310,
+    label = "[O]C(F)CDO",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,D} {7,S}
+5 O u0 p2 c0 {4,D}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82996,0.0141423,3.87574e-05,-1.04586e-07,7.30713e-11,-38645.1,10.4289], Tmin=(10,'K'), Tmax=(496.126,'K')),
+            NASAPolynomial(coeffs=[3.86129,0.0229447,-1.52336e-05,4.75229e-09,-5.62525e-13,-38759.6,9.17663], Tmin=(496.126,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-321.332,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 311,
     label = "C[C](F)C(F)F",
     molecule = 
 """
@@ -10842,7 +11429,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.097 kJ/mol
 )
 
 entry(
-    index = 296,
+    index = 312,
     label = "[CH]DC(C)CF",
     molecule = 
 """
@@ -10861,12 +11448,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77137,0.0204192,3.09102e-05,-5.89634e-08,2.75631e-11,1325.83,9.30011], Tmin=(10,'K'), Tmax=(726.82,'K')),
-            NASAPolynomial(coeffs=[2.47545,0.0365976,-2.11485e-05,5.91148e-09,-6.41851e-13,1275.26,13.4949], Tmin=(726.82,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77137,0.0204192,3.09102e-05,-5.89634e-08,2.75631e-11,3985.64,9.30011], Tmin=(10,'K'), Tmax=(726.82,'K')),
+            NASAPolynomial(coeffs=[2.47545,0.0365976,-2.11485e-05,5.91148e-09,-6.41851e-13,3935.08,13.4949], Tmin=(726.82,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (11.0021,'kJ/mol'),
+        E0 = (33.117,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -10875,13 +11462,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 297,
+    index = 313,
     label = "FOC(F)OF",
     molecule = 
 """
@@ -10895,12 +11482,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.76711,0.0222263,1.00388e-05,-4.59478e-08,2.77423e-11,-42578,10.7333], Tmin=(10,'K'), Tmax=(683.214,'K')),
-            NASAPolynomial(coeffs=[6.2091,0.02051,-1.38142e-05,4.27975e-09,-4.99167e-13,-43205.3,-2.26646], Tmin=(683.214,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.76711,0.0222263,1.00388e-05,-4.59478e-08,2.77423e-11,-42736.8,10.7333], Tmin=(10,'K'), Tmax=(683.214,'K')),
+            NASAPolynomial(coeffs=[6.2091,0.02051,-1.38142e-05,4.27975e-09,-4.99167e-13,-43364.1,-2.26646], Tmin=(683.214,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-354.039,'kJ/mol'),
+        E0 = (-355.359,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -10909,13 +11496,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 298,
+    index = 314,
     label = "CC(F)D[C]F",
     molecule = 
 """
@@ -10931,12 +11518,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93736,0.00623783,0.000164862,-6.64841e-07,8.88483e-10,-14169.7,8.99151], Tmin=(10,'K'), Tmax=(225.379,'K')),
-            NASAPolynomial(coeffs=[3.14763,0.0269286,-1.72687e-05,5.30065e-09,-6.2449e-13,-14151.1,11.2487], Tmin=(225.379,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93736,0.00623783,0.000164862,-6.64841e-07,8.88483e-10,-13057.5,8.99151], Tmin=(10,'K'), Tmax=(225.379,'K')),
+            NASAPolynomial(coeffs=[3.14763,0.0269286,-1.72687e-05,5.30065e-09,-6.2449e-13,-13038.9,11.2487], Tmin=(225.379,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-117.791,'kJ/mol'),
+        E0 = (-108.543,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -10945,13 +11532,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 299,
+    index = 315,
     label = "FCDCDCDCF",
     molecule = 
 """
@@ -10986,7 +11573,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.871 kJ/mol
 )
 
 entry(
-    index = 300,
+    index = 316,
     label = "FC[C]DCCF",
     molecule = 
 """
@@ -11025,7 +11612,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.636 kJ/mol
 )
 
 entry(
-    index = 301,
+    index = 317,
     label = "[O]COCF",
     molecule = 
 """
@@ -11062,7 +11649,43 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.929 kJ/mol
 )
 
 entry(
-    index = 302,
+    index = 318,
+    label = "OC(F)CF",
+    molecule = 
+"""
+1 O u0 p2 c0 {2,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+5 F u0 p3 c0 {4,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.94212,0.00369334,0.000103556,-2.12188e-07,1.36533e-10,-79705,9.99966], Tmin=(10,'K'), Tmax=(483.189,'K')),
+            NASAPolynomial(coeffs=[1.73051,0.0329117,-2.10179e-05,6.41888e-09,-7.50865e-13,-79618.6,17.7429], Tmin=(483.189,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-662.719,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 319,
     label = "O[CH]CDCF",
     molecule = 
 """
@@ -11099,7 +11722,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.348 kJ/mol
 )
 
 entry(
-    index = 303,
+    index = 320,
     label = "CDC(C)CF",
     molecule = 
 """
@@ -11138,7 +11761,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.245 kJ/mol
 )
 
 entry(
-    index = 304,
+    index = 321,
     label = "C[C](F)COF",
     molecule = 
 """
@@ -11157,12 +11780,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58034,0.0431599,-7.97064e-05,1.76483e-07,-1.60052e-10,-23040.2,10.6627], Tmin=(10,'K'), Tmax=(381.937,'K')),
-            NASAPolynomial(coeffs=[2.81638,0.0402943,-2.57754e-05,7.8548e-09,-9.15991e-13,-22902.6,14.6506], Tmin=(381.937,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58034,0.0431599,-7.97064e-05,1.76483e-07,-1.60052e-10,-21072.2,10.6627], Tmin=(10,'K'), Tmax=(381.937,'K')),
+            NASAPolynomial(coeffs=[2.81638,0.0402943,-2.57754e-05,7.8548e-09,-9.15991e-13,-20934.6,14.6506], Tmin=(381.937,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-191.574,'kJ/mol'),
+        E0 = (-175.211,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -11171,13 +11794,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 305,
+    index = 322,
     label = "CDC[C](F)F",
     molecule = 
 """
@@ -11213,7 +11836,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.238 kJ/mol
 )
 
 entry(
-    index = 306,
+    index = 323,
     label = "CC(F)CCF",
     molecule = 
 """
@@ -11254,7 +11877,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.748 kJ/mol
 )
 
 entry(
-    index = 307,
+    index = 324,
     label = "CDC(F)O[O]",
     molecule = 
 """
@@ -11269,12 +11892,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91921,0.00487048,8.40873e-05,-1.764e-07,1.0938e-10,-12253.3,10.2339], Tmin=(10,'K'), Tmax=(547.938,'K')),
-            NASAPolynomial(coeffs=[3.77624,0.0237555,-1.64524e-05,5.34962e-09,-6.5662e-13,-12505.4,8.39361], Tmin=(547.938,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91922,0.00486971,8.40944e-05,-1.7642e-07,1.09397e-10,-11554.1,10.2339], Tmin=(10,'K'), Tmax=(547.907,'K')),
+            NASAPolynomial(coeffs=[3.77588,0.0237566,-1.64535e-05,5.35006e-09,-6.56681e-13,-11806.2,8.39548], Tmin=(547.907,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-101.909,'kJ/mol'),
+        E0 = (-96.0964,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -11283,13 +11906,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 308,
+    index = 325,
     label = "OCCD[C]F",
     molecule = 
 """
@@ -11306,12 +11929,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85206,0.0139836,7.78141e-05,-2.42211e-07,2.36399e-10,-11715.7,10.3094], Tmin=(10,'K'), Tmax=(261.673,'K')),
-            NASAPolynomial(coeffs=[2.74043,0.0309762,-1.95934e-05,5.95398e-09,-6.94773e-13,-11657.5,14.1821], Tmin=(261.673,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85206,0.0139836,7.78141e-05,-2.42211e-07,2.36399e-10,-10053.1,10.3094], Tmin=(10,'K'), Tmax=(261.673,'K')),
+            NASAPolynomial(coeffs=[2.74043,0.0309762,-1.95934e-05,5.95398e-09,-6.94773e-13,-9994.93,14.1821], Tmin=(261.673,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-97.3996,'kJ/mol'),
+        E0 = (-83.5759,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -11320,13 +11943,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 309,
+    index = 326,
     label = "OCDC(F)F",
     molecule = 
 """
@@ -11360,7 +11983,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.298 kJ/mol
 )
 
 entry(
-    index = 310,
+    index = 327,
     label = "[C]#C",
     molecule = 
 """
@@ -11391,7 +12014,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.276 kJ/mol
 )
 
 entry(
-    index = 311,
+    index = 328,
     label = "[O]C(F)F",
     molecule = 
 """
@@ -11424,7 +12047,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.136 kJ/mol
 )
 
 entry(
-    index = 312,
+    index = 329,
     label = "F[C]DCCOF",
     molecule = 
 """
@@ -11441,12 +12064,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71242,0.0292414,-9.30847e-06,-8.91337e-09,5.58333e-12,2697.49,11.6729], Tmin=(10,'K'), Tmax=(928.473,'K')),
-            NASAPolynomial(coeffs=[6.92183,0.0236566,-1.36012e-05,3.7296e-09,-3.95201e-13,1746.27,-5.48551], Tmin=(928.473,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71242,0.0292414,-9.30847e-06,-8.91337e-09,5.58333e-12,3712.25,11.6729], Tmin=(10,'K'), Tmax=(928.473,'K')),
+            NASAPolynomial(coeffs=[6.92183,0.0236566,-1.36012e-05,3.7296e-09,-3.95201e-13,2761.03,-5.48551], Tmin=(928.473,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (22.4217,'kJ/mol'),
+        E0 = (30.8589,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -11455,13 +12078,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 313,
+    index = 330,
     label = "FOC1D[C]O1",
     molecule = 
 """
@@ -11474,12 +12097,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84797,0.011828,5.27777e-05,-1.79515e-07,1.55322e-10,40383.9,9.91038], Tmin=(10,'K'), Tmax=(428.882,'K')),
-            NASAPolynomial(coeffs=[5.20193,0.0146476,-1.11108e-05,3.77603e-09,-4.73898e-13,40125.7,2.86827], Tmin=(428.882,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84797,0.011828,5.27777e-05,-1.79515e-07,1.55322e-10,40027.5,9.91038], Tmin=(10,'K'), Tmax=(428.882,'K')),
+            NASAPolynomial(coeffs=[5.20193,0.0146476,-1.11108e-05,3.77603e-09,-4.73898e-13,39769.3,2.86827], Tmin=(428.882,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (335.766,'kJ/mol'),
+        E0 = (332.802,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
@@ -11488,13 +12111,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 314,
+    index = 331,
     label = "FCCDC(F)F",
     molecule = 
 """
@@ -11530,7 +12153,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.691 kJ/mol
 )
 
 entry(
-    index = 315,
+    index = 332,
     label = "CC1(F)[CH]C1",
     molecule = 
 """
@@ -11549,12 +12172,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92424,0.00453435,0.000122575,-2.32874e-07,1.37105e-10,2342.02,8.60906], Tmin=(10,'K'), Tmax=(537.87,'K')),
-            NASAPolynomial(coeffs=[1.06284,0.0419834,-2.69553e-05,8.35365e-09,-9.95353e-13,2415.93,18.4649], Tmin=(537.87,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92424,0.00453435,0.000122575,-2.32874e-07,1.37105e-10,5050.19,8.60906], Tmin=(10,'K'), Tmax=(537.87,'K')),
+            NASAPolynomial(coeffs=[1.06284,0.0419834,-2.69553e-05,8.35365e-09,-9.95353e-13,5124.11,18.4649], Tmin=(537.87,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (19.4439,'kJ/mol'),
+        E0 = (41.9609,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -11563,13 +12186,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 316,
+    index = 333,
     label = "FCDC[CH]CF",
     molecule = 
 """
@@ -11608,7 +12231,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.708 kJ/mol
 )
 
 entry(
-    index = 317,
+    index = 334,
     label = "[CH2]CCDCF",
     molecule = 
 """
@@ -11647,7 +12270,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.678 kJ/mol
 )
 
 entry(
-    index = 318,
+    index = 335,
     label = "FC1[CH]O1",
     molecule = 
 """
@@ -11681,7 +12304,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.238 kJ/mol
 )
 
 entry(
-    index = 319,
+    index = 336,
     label = "ODCC(F)(F)F",
     molecule = 
 """
@@ -11715,7 +12338,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.007 kJ/mol
 )
 
 entry(
-    index = 320,
+    index = 337,
     label = "CCDC(F)[CH]F",
     molecule = 
 """
@@ -11754,7 +12377,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.752 kJ/mol
 )
 
 entry(
-    index = 321,
+    index = 338,
     label = "CDC(O)F",
     molecule = 
 """
@@ -11768,12 +12391,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94462,0.00323891,6.98855e-05,-1.34443e-07,7.82086e-11,-43082.2,8.30759], Tmin=(10,'K'), Tmax=(567.032,'K')),
-            NASAPolynomial(coeffs=[3.00035,0.0225997,-1.49255e-05,4.768e-09,-5.82844e-13,-43179.3,10.5272], Tmin=(567.032,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94462,0.00323891,6.98855e-05,-1.34443e-07,7.82086e-11,-41901.3,8.30759], Tmin=(10,'K'), Tmax=(567.032,'K')),
+            NASAPolynomial(coeffs=[3.00035,0.0225997,-1.49255e-05,4.768e-09,-5.82844e-13,-41998.4,10.5272], Tmin=(567.032,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-358.229,'kJ/mol'),
+        E0 = (-348.41,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -11782,13 +12405,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 322,
+    index = 339,
     label = "CDC([CH]F)CF",
     molecule = 
 """
@@ -11807,12 +12430,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7409,0.0226279,4.64643e-05,-1.04694e-07,5.9566e-11,-32344,12.3821], Tmin=(10,'K'), Tmax=(604.271,'K')),
-            NASAPolynomial(coeffs=[3.22516,0.0385094,-2.39074e-05,7.08848e-09,-8.06949e-13,-32509.3,12.727], Tmin=(604.271,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7409,0.0226279,4.64643e-05,-1.04694e-07,5.9566e-11,-30288.3,12.3821], Tmin=(10,'K'), Tmax=(604.271,'K')),
+            NASAPolynomial(coeffs=[3.22516,0.0385094,-2.39074e-05,7.08848e-09,-8.06949e-13,-30453.6,12.727], Tmin=(604.271,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-268.959,'kJ/mol'),
+        E0 = (-251.867,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -11821,13 +12444,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 323,
+    index = 340,
     label = "OC[C]DCF",
     molecule = 
 """
@@ -11844,12 +12467,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81924,0.0238672,-4.23893e-06,-7.37925e-09,3.34566e-12,-11584.2,10.6025], Tmin=(10,'K'), Tmax=(1131.6,'K')),
-            NASAPolynomial(coeffs=[7.14241,0.0202505,-1.02219e-05,2.49477e-09,-2.38484e-13,-12856.8,-8.14071], Tmin=(1131.6,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81924,0.0238672,-4.23893e-06,-7.37925e-09,3.34566e-12,-9921.57,10.6025], Tmin=(10,'K'), Tmax=(1131.6,'K')),
+            NASAPolynomial(coeffs=[7.14241,0.0202505,-1.02219e-05,2.49477e-09,-2.38484e-13,-11194.2,-8.14071], Tmin=(1131.6,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-96.3017,'kJ/mol'),
+        E0 = (-82.478,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -11858,13 +12481,52 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 324,
+    index = 341,
+    label = "CDCC(F)[CH]F",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,D} {8,S} {9,S}
+2  C u0 p0 c0 {1,D} {3,S} {10,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {11,S}
+4  F u0 p3 c0 {3,S}
+5  C u1 p0 c0 {3,S} {6,S} {7,S}
+6  H u0 p0 c0 {5,S}
+7  F u0 p3 c0 {5,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.6895,0.0285021,1.48016e-05,-4.56848e-08,2.3215e-11,-24508.2,11.5949], Tmin=(10,'K'), Tmax=(748.187,'K')),
+            NASAPolynomial(coeffs=[4.49309,0.0352784,-2.09826e-05,5.98055e-09,-6.57919e-13,-24938.3,5.88004], Tmin=(748.187,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-203.8,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 3.852 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 342,
     label = "CDC(F)C[O]",
     molecule = 
 """
@@ -11901,7 +12563,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.693 kJ/mol
 )
 
 entry(
-    index = 325,
+    index = 343,
     label = "FC[CH]OCF",
     molecule = 
 """
@@ -11940,7 +12602,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.363 kJ/mol
 )
 
 entry(
-    index = 326,
+    index = 344,
     label = "FC1DCCC1",
     molecule = 
 """
@@ -11977,7 +12639,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.057 kJ/mol
 )
 
 entry(
-    index = 327,
+    index = 345,
     label = "FC1CC1(F)F",
     molecule = 
 """
@@ -11993,12 +12655,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90949,0.00533494,0.000109699,-2.15872e-07,1.27452e-10,-63368.2,10.2596], Tmin=(10,'K'), Tmax=(561.735,'K')),
-            NASAPolynomial(coeffs=[2.61941,0.0349843,-2.41162e-05,7.7892e-09,-9.49681e-13,-63546.1,12.8657], Tmin=(561.735,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90949,0.00533494,0.000109699,-2.15872e-07,1.27452e-10,-62349.9,10.2596], Tmin=(10,'K'), Tmax=(561.735,'K')),
+            NASAPolynomial(coeffs=[2.61941,0.0349843,-2.41162e-05,7.7892e-09,-9.49681e-13,-62527.8,12.8657], Tmin=(561.735,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-526.91,'kJ/mol'),
+        E0 = (-518.443,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -12007,13 +12669,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 328,
+    index = 346,
     label = "O[CH]CF",
     molecule = 
 """
@@ -12049,7 +12711,79 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.19 kJ/mol
 )
 
 entry(
-    index = 329,
+    index = 347,
+    label = "[O]C(F)CO",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+5 O u0 p2 c0 {4,S} {9,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91454,0.00544125,0.00011048,-2.3856e-07,1.57174e-10,-50158.9,10.4114], Tmin=(10,'K'), Tmax=(497.332,'K')),
+            NASAPolynomial(coeffs=[2.76737,0.0317886,-2.06239e-05,6.40284e-09,-7.60337e-13,-50256.5,13.0159], Tmin=(497.332,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-417.067,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 348,
+    label = "ODCC(O)F",
+    molecule = 
+"""
+1 O u0 p2 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90547,0.00734564,7.5722e-05,-1.64103e-07,1.07343e-10,-65405,9.60014], Tmin=(10,'K'), Tmax=(491.575,'K')),
+            NASAPolynomial(coeffs=[2.68429,0.0276243,-1.77136e-05,5.4102e-09,-6.31759e-13,-65409.9,13.3535], Tmin=(491.575,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-543.824,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 349,
     label = "FCC1CC1",
     molecule = 
 """
@@ -12088,7 +12822,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.611 kJ/mol
 )
 
 entry(
-    index = 330,
+    index = 350,
     label = "CDC(F)CO",
     molecule = 
 """
@@ -12105,12 +12839,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92111,0.0051344,0.000120895,-2.6101e-07,1.75405e-10,-43591.1,9.79139], Tmin=(10,'K'), Tmax=(474.715,'K')),
-            NASAPolynomial(coeffs=[2.12234,0.0353507,-2.21679e-05,6.72737e-09,-7.87091e-13,-43590,15.342], Tmin=(474.715,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92111,0.0051344,0.000120895,-2.6101e-07,1.75405e-10,-41466.7,9.79139], Tmin=(10,'K'), Tmax=(474.715,'K')),
+            NASAPolynomial(coeffs=[2.12234,0.0353507,-2.21679e-05,6.72737e-09,-7.87091e-13,-41465.6,15.342], Tmin=(474.715,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-362.453,'kJ/mol'),
+        E0 = (-344.79,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -12119,13 +12853,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 331,
+    index = 351,
     label = "C[C]DC(F)CF",
     molecule = 
 """
@@ -12144,12 +12878,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89734,0.0336589,-1.62811e-05,2.49831e-09,1.59226e-13,-21784.3,9.79179], Tmin=(10,'K'), Tmax=(1639.48,'K')),
-            NASAPolynomial(coeffs=[19.4185,0.0052691,1.021e-06,-1.01083e-09,1.56577e-13,-28147.5,-76.6472], Tmin=(1639.48,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89734,0.0336589,-1.62811e-05,2.49831e-09,1.59226e-13,-19728.5,9.79179], Tmin=(10,'K'), Tmax=(1639.48,'K')),
+            NASAPolynomial(coeffs=[19.4185,0.0052691,1.021e-06,-1.01083e-09,1.56577e-13,-26091.7,-76.6472], Tmin=(1639.48,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-181.144,'kJ/mol'),
+        E0 = (-164.052,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -12158,13 +12892,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 332,
+    index = 352,
     label = "CDCC[C](F)F",
     molecule = 
 """
@@ -12203,7 +12937,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.89 kJ/mol
 )
 
 entry(
-    index = 333,
+    index = 353,
     label = "OD[C]C#CF",
     molecule = 
 """
@@ -12216,27 +12950,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8529,0.0134147,4.48717e-05,-2.18942e-07,2.56613e-10,13332.2,9.20515], Tmin=(10,'K'), Tmax=(321.722,'K')),
-            NASAPolynomial(coeffs=[4.71225,0.0139603,-1.00311e-05,3.3236e-09,-4.12305e-13,13218.8,5.1306], Tmin=(321.722,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8529,0.0134147,4.48717e-05,-2.18942e-07,2.56613e-10,13327.4,9.20515], Tmin=(10,'K'), Tmax=(321.722,'K')),
+            NASAPolynomial(coeffs=[4.71225,0.0139603,-1.00311e-05,3.3236e-09,-4.12305e-13,13214,5.1306], Tmin=(321.722,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (110.867,'kJ/mol'),
+        E0 = (110.827,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 5.126 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 334,
+    index = 354,
     label = "O[CH]OCF",
     molecule = 
 """
@@ -12253,12 +12987,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84419,0.0144421,3.95052e-05,-7.56517e-08,3.85713e-11,-52159.2,10.3631], Tmin=(10,'K'), Tmax=(664.5,'K')),
-            NASAPolynomial(coeffs=[3.01848,0.0296585,-1.79723e-05,5.21754e-09,-5.83517e-13,-52275.7,12.3071], Tmin=(664.5,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84419,0.0144421,3.95052e-05,-7.56517e-08,3.85713e-11,-50613.7,10.3631], Tmin=(10,'K'), Tmax=(664.5,'K')),
+            NASAPolynomial(coeffs=[3.01848,0.0296585,-1.79723e-05,5.21754e-09,-5.83517e-13,-50730.2,12.3071], Tmin=(664.5,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-433.695,'kJ/mol'),
+        E0 = (-420.845,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -12267,13 +13001,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 335,
+    index = 355,
     label = "COC([O])(F)F",
     molecule = 
 """
@@ -12310,7 +13044,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 7.232 kJ/mol
 )
 
 entry(
-    index = 336,
+    index = 356,
     label = "OOC[C](F)F",
     molecule = 
 """
@@ -12347,7 +13081,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.464 kJ/mol
 )
 
 entry(
-    index = 337,
+    index = 357,
     label = "F[CH]OCDCF",
     molecule = 
 """
@@ -12364,12 +13098,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.82744,0.0268296,-5.90879e-06,-8.91865e-09,4.42815e-12,-37994.4,11.5993], Tmin=(10,'K'), Tmax=(1081.39,'K')),
-            NASAPolynomial(coeffs=[8.36775,0.0201749,-1.07429e-05,2.73238e-09,-2.69955e-13,-39569.3,-13.4016], Tmin=(1081.39,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.82744,0.0268296,-5.90879e-06,-8.91865e-09,4.42815e-12,-37009,11.5993], Tmin=(10,'K'), Tmax=(1081.39,'K')),
+            NASAPolynomial(coeffs=[8.36775,0.0201749,-1.07429e-05,2.73238e-09,-2.69955e-13,-38583.9,-13.4016], Tmin=(1081.39,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-315.871,'kJ/mol'),
+        E0 = (-307.678,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -12378,13 +13112,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 338,
+    index = 358,
     label = "CC[C](C)F",
     molecule = 
 """
@@ -12405,12 +13139,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78599,0.028801,7.00545e-06,-1.9196e-08,6.64218e-12,-23297.8,8.19014], Tmin=(10,'K'), Tmax=(1176.04,'K')),
-            NASAPolynomial(coeffs=[6.67866,0.0327626,-1.56492e-05,3.62421e-09,-3.2994e-13,-24932.6,-10.2918], Tmin=(1176.04,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.78599,0.028801,7.00545e-06,-1.9196e-08,6.64218e-12,-19684.8,8.19014], Tmin=(10,'K'), Tmax=(1176.04,'K')),
+            NASAPolynomial(coeffs=[6.67866,0.0327626,-1.56492e-05,3.62421e-09,-3.2994e-13,-21319.5,-10.2918], Tmin=(1176.04,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-193.695,'kJ/mol'),
+        E0 = (-163.654,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -12419,13 +13153,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 339,
+    index = 359,
     label = "ODCCC(F)F",
     molecule = 
 """
@@ -12462,7 +13196,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.282 kJ/mol
 )
 
 entry(
-    index = 340,
+    index = 360,
     label = "[CH]DC(F)CO",
     molecule = 
 """
@@ -12479,12 +13213,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89673,0.00689585,0.000117429,-2.77583e-07,1.98294e-10,-12105,10.4304], Tmin=(10,'K'), Tmax=(467.003,'K')),
-            NASAPolynomial(coeffs=[3.40574,0.0303195,-1.95351e-05,6.05923e-09,-7.20561e-13,-12268.7,10.1816], Tmin=(467.003,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89673,0.00689585,0.000117429,-2.77583e-07,1.98294e-10,-10442.4,10.4304], Tmin=(10,'K'), Tmax=(467.003,'K')),
+            NASAPolynomial(coeffs=[3.40574,0.0303195,-1.95351e-05,6.05923e-09,-7.20561e-13,-10606.1,10.1816], Tmin=(467.003,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-100.664,'kJ/mol'),
+        E0 = (-86.8404,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -12493,13 +13227,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 341,
+    index = 361,
     label = "C[C]DC(O)F",
     molecule = 
 """
@@ -12516,12 +13250,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7024,0.025322,-3.14934e-06,-1.5048e-08,8.68951e-12,-16670.3,9.39136], Tmin=(10,'K'), Tmax=(768.829,'K')),
-            NASAPolynomial(coeffs=[4.52073,0.0262882,-1.52258e-05,4.26094e-09,-4.62756e-13,-16950.5,4.65453], Tmin=(768.829,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7024,0.025322,-3.14934e-06,-1.5048e-08,8.68951e-12,-15007.7,9.39136], Tmin=(10,'K'), Tmax=(768.829,'K')),
+            NASAPolynomial(coeffs=[4.52073,0.0262882,-1.52258e-05,4.26094e-09,-4.62756e-13,-15287.9,4.65453], Tmin=(768.829,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-138.637,'kJ/mol'),
+        E0 = (-124.814,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -12530,13 +13264,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 342,
+    index = 362,
     label = "F[CH]C1DCDC1F",
     molecule = 
 """
@@ -12551,27 +13285,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79254,0.0174945,3.83133e-05,-1.11328e-07,7.66114e-11,29433.7,11.2156], Tmin=(10,'K'), Tmax=(536.065,'K')),
-            NASAPolynomial(coeffs=[5.00245,0.0226174,-1.56179e-05,4.98592e-09,-5.98417e-13,29100.6,4.23641], Tmin=(536.065,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79254,0.0174945,3.83133e-05,-1.11328e-07,7.66114e-11,28628.8,11.2156], Tmin=(10,'K'), Tmax=(536.065,'K')),
+            NASAPolynomial(coeffs=[5.00245,0.0226174,-1.56179e-05,4.98592e-09,-5.98417e-13,28295.8,4.23641], Tmin=(536.065,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (244.695,'kJ/mol'),
+        E0 = (238.003,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.842 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 343,
+    index = 363,
     label = "CO[C](F)CF",
     molecule = 
 """
@@ -12610,7 +13344,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.865 kJ/mol
 )
 
 entry(
-    index = 344,
+    index = 364,
     label = "[O]C(F)DCF",
     molecule = 
 """
@@ -12644,7 +13378,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.259 kJ/mol
 )
 
 entry(
-    index = 345,
+    index = 365,
     label = "ODC(F)[CH]CF",
     molecule = 
 """
@@ -12661,12 +13395,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81405,0.0273314,-7.66379e-06,-6.91426e-09,3.6961e-12,-58612.6,12.0913], Tmin=(10,'K'), Tmax=(1099.46,'K')),
-            NASAPolynomial(coeffs=[8.4363,0.0199783,-1.05426e-05,2.65981e-09,-2.60955e-13,-60201,-13.2478], Tmin=(1099.46,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81405,0.0273314,-7.66379e-06,-6.91426e-09,3.6961e-12,-57513.3,12.0913], Tmin=(10,'K'), Tmax=(1099.46,'K')),
+            NASAPolynomial(coeffs=[8.4363,0.0199783,-1.05426e-05,2.65981e-09,-2.60955e-13,-59101.7,-13.2478], Tmin=(1099.46,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-487.305,'kJ/mol'),
+        E0 = (-478.165,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -12675,13 +13409,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 346,
+    index = 366,
     label = "F[C]1COC1",
     molecule = 
 """
@@ -12718,7 +13452,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.166 kJ/mol
 )
 
 entry(
-    index = 347,
+    index = 367,
     label = "CDC([O])C(F)(F)F",
     molecule = 
 """
@@ -12755,7 +13489,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.802 kJ/mol
 )
 
 entry(
-    index = 348,
+    index = 368,
     label = "OOC[CH]F",
     molecule = 
 """
@@ -12792,7 +13526,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.695 kJ/mol
 )
 
 entry(
-    index = 349,
+    index = 369,
     label = "FCDC1OO1",
     molecule = 
 """
@@ -12825,7 +13559,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.949 kJ/mol
 )
 
 entry(
-    index = 350,
+    index = 370,
     label = "[O]CDC(F)CF",
     molecule = 
 """
@@ -12862,7 +13596,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.174 kJ/mol
 )
 
 entry(
-    index = 351,
+    index = 371,
     label = "OCDCF",
     molecule = 
 """
@@ -12896,7 +13630,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.3 kJ/mol
 )
 
 entry(
-    index = 352,
+    index = 372,
     label = "[C]#CC(C)F",
     molecule = 
 """
@@ -12933,7 +13667,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.593 kJ/mol
 )
 
 entry(
-    index = 353,
+    index = 373,
     label = "F[C]DC1CO1",
     molecule = 
 """
@@ -12968,7 +13702,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.617 kJ/mol
 )
 
 entry(
-    index = 354,
+    index = 374,
     label = "CC([O])C(F)F",
     molecule = 
 """
@@ -13007,7 +13741,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.397 kJ/mol
 )
 
 entry(
-    index = 355,
+    index = 375,
     label = "ODC(O)[CH]F",
     molecule = 
 """
@@ -13042,7 +13776,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.9 kJ/mol
 )
 
 entry(
-    index = 356,
+    index = 376,
     label = "CDCCCF",
     molecule = 
 """
@@ -13081,7 +13815,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.968 kJ/mol
 )
 
 entry(
-    index = 357,
+    index = 377,
     label = "CC(C)[C](F)F",
     molecule = 
 """
@@ -13122,7 +13856,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.854 kJ/mol
 )
 
 entry(
-    index = 358,
+    index = 378,
     label = "OCCDC(F)F",
     molecule = 
 """
@@ -13159,7 +13893,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.356 kJ/mol
 )
 
 entry(
-    index = 359,
+    index = 379,
     label = "FCC1[C]DC1",
     molecule = 
 """
@@ -13196,7 +13930,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.887 kJ/mol
 )
 
 entry(
-    index = 360,
+    index = 380,
     label = "C#CO[CH]F",
     molecule = 
 """
@@ -13211,12 +13945,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85456,0.0111275,9.01967e-05,-2.74196e-07,2.3575e-10,11248.9,10.1311], Tmin=(10,'K'), Tmax=(409.376,'K')),
-            NASAPolynomial(coeffs=[4.6293,0.0216639,-1.47535e-05,4.75541e-09,-5.80281e-13,11033.7,5.23231], Tmin=(409.376,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85456,0.0111275,9.01967e-05,-2.74196e-07,2.3575e-10,12021.4,10.1311], Tmin=(10,'K'), Tmax=(409.376,'K')),
+            NASAPolynomial(coeffs=[4.6293,0.0216639,-1.47535e-05,4.75541e-09,-5.80281e-13,11806.2,5.23231], Tmin=(409.376,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (93.5298,'kJ/mol'),
+        E0 = (99.9524,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -13225,13 +13959,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 361,
+    index = 381,
     label = "CDC(F)[CH]F",
     molecule = 
 """
@@ -13267,7 +14001,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.222 kJ/mol
 )
 
 entry(
-    index = 362,
+    index = 382,
     label = "CDCD[C]CF",
     molecule = 
 """
@@ -13304,7 +14038,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.408 kJ/mol
 )
 
 entry(
-    index = 363,
+    index = 383,
     label = "FCCDCOF",
     molecule = 
 """
@@ -13321,12 +14055,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77235,0.0270249,2.83272e-06,-2.08731e-08,9.34658e-12,-27377,10.5713], Tmin=(10,'K'), Tmax=(953.177,'K')),
-            NASAPolynomial(coeffs=[6.35087,0.0273714,-1.52862e-05,4.09077e-09,-4.24734e-13,-28375.9,-4.40598], Tmin=(953.177,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77235,0.0270249,2.83272e-06,-2.08731e-08,9.34658e-12,-25900.5,10.5713], Tmin=(10,'K'), Tmax=(953.177,'K')),
+            NASAPolynomial(coeffs=[6.35087,0.0273714,-1.52862e-05,4.09077e-09,-4.24734e-13,-26899.3,-4.40598], Tmin=(953.177,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-227.611,'kJ/mol'),
+        E0 = (-215.334,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -13335,13 +14069,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 364,
+    index = 384,
     label = "ODC[CH]C(F)F",
     molecule = 
 """
@@ -13378,7 +14112,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.908 kJ/mol
 )
 
 entry(
-    index = 365,
+    index = 385,
     label = "FOC1D[C]C1",
     molecule = 
 """
@@ -13393,12 +14127,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.52265,0.0442523,-0.000108885,1.58308e-07,-9.04671e-11,22112,11.0564], Tmin=(10,'K'), Tmax=(489.876,'K')),
-            NASAPolynomial(coeffs=[6.19795,0.0172753,-1.0567e-05,3.12207e-09,-3.56343e-13,21911.4,0.687277], Tmin=(489.876,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.52265,0.0442523,-0.000108885,1.58308e-07,-9.04671e-11,22825.9,11.0564], Tmin=(10,'K'), Tmax=(489.876,'K')),
+            NASAPolynomial(coeffs=[6.19795,0.0172753,-1.0567e-05,3.12207e-09,-3.56343e-13,22625.4,0.687277], Tmin=(489.876,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (183.828,'kJ/mol'),
+        E0 = (189.764,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -13407,13 +14141,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 366,
+    index = 386,
     label = "ODC[C]DCF",
     molecule = 
 """
@@ -13428,12 +14162,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.73604,0.0281276,-7.33658e-05,1.85727e-07,-1.78764e-10,-1567.27,10.2881], Tmin=(10,'K'), Tmax=(355.783,'K')),
-            NASAPolynomial(coeffs=[3.31489,0.0236541,-1.56829e-05,4.89414e-09,-5.80106e-13,-1479.02,12.7037], Tmin=(355.783,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.73604,0.0281276,-7.33658e-05,1.85727e-07,-1.78764e-10,-817.152,10.2881], Tmin=(10,'K'), Tmax=(355.783,'K')),
+            NASAPolynomial(coeffs=[3.31489,0.0236541,-1.56829e-05,4.89414e-09,-5.80106e-13,-728.904,12.7037], Tmin=(355.783,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-13.0351,'kJ/mol'),
+        E0 = (-6.79823,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -13442,13 +14176,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 367,
+    index = 387,
     label = "CC1(F)[CH]O1",
     molecule = 
 """
@@ -13485,7 +14219,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.903 kJ/mol
 )
 
 entry(
-    index = 368,
+    index = 388,
     label = "FC1DCCC1F",
     molecule = 
 """
@@ -13502,12 +14236,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9411,0.00343266,0.00010948,-1.96676e-07,1.09695e-10,-31310,10.1391], Tmin=(10,'K'), Tmax=(553.876,'K')),
-            NASAPolynomial(coeffs=[0.2685,0.0421482,-2.83888e-05,9.01268e-09,-1.08513e-12,-31090.2,23.9992], Tmin=(553.876,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9411,0.00343266,0.00010948,-1.96676e-07,1.09695e-10,-29697.4,10.1391], Tmin=(10,'K'), Tmax=(553.876,'K')),
+            NASAPolynomial(coeffs=[0.2685,0.0421482,-2.83888e-05,9.01268e-09,-1.08513e-12,-29477.6,23.9992], Tmin=(553.876,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-260.351,'kJ/mol'),
+        E0 = (-246.943,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -13516,13 +14250,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 369,
+    index = 389,
     label = "FCDC1[C]DC1F",
     molecule = 
 """
@@ -13537,12 +14271,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79254,0.0174945,3.83133e-05,-1.11328e-07,7.66114e-11,28431.2,11.2156], Tmin=(10,'K'), Tmax=(536.065,'K')),
-            NASAPolynomial(coeffs=[5.00245,0.0226174,-1.56179e-05,4.98592e-09,-5.98417e-13,28098.2,4.23641], Tmin=(536.065,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79254,0.0174945,3.83133e-05,-1.11328e-07,7.66114e-11,28628.8,11.2156], Tmin=(10,'K'), Tmax=(536.065,'K')),
+            NASAPolynomial(coeffs=[5.00245,0.0226174,-1.56179e-05,4.98592e-09,-5.98417e-13,28295.8,4.23641], Tmin=(536.065,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (236.36,'kJ/mol'),
+        E0 = (238.003,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -13551,13 +14285,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 370,
+    index = 390,
     label = "CC(F)(F)OO",
     molecule = 
 """
@@ -13574,12 +14308,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8042,0.0152123,0.000133103,-3.85177e-07,3.2435e-10,-79637.7,9.283], Tmin=(10,'K'), Tmax=(405.772,'K')),
-            NASAPolynomial(coeffs=[4.02382,0.0353189,-2.35542e-05,7.46872e-09,-9.00394e-13,-79838.8,6.16227], Tmin=(405.772,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8042,0.0152123,0.000133103,-3.85177e-07,3.2435e-10,-78128.6,9.283], Tmin=(10,'K'), Tmax=(405.772,'K')),
+            NASAPolynomial(coeffs=[4.02382,0.0353189,-2.35542e-05,7.46872e-09,-9.00394e-13,-78329.7,6.16227], Tmin=(405.772,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-662.142,'kJ/mol'),
+        E0 = (-649.595,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -13588,13 +14322,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 371,
+    index = 391,
     label = "F[C]DCCCF",
     molecule = 
 """
@@ -13613,12 +14347,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89073,0.0263959,5.89113e-06,-1.95757e-08,7.31425e-12,-19670,11.3296], Tmin=(10,'K'), Tmax=(1123.36,'K')),
-            NASAPolynomial(coeffs=[8.07392,0.0260038,-1.2951e-05,3.09902e-09,-2.89559e-13,-21525,-13.4115], Tmin=(1123.36,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89073,0.0263959,5.89113e-06,-1.95757e-08,7.31425e-12,-17614.2,11.3296], Tmin=(10,'K'), Tmax=(1123.36,'K')),
+            NASAPolynomial(coeffs=[8.07392,0.0260038,-1.2951e-05,3.09902e-09,-2.89559e-13,-19469.2,-13.4115], Tmin=(1123.36,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-163.491,'kJ/mol'),
+        E0 = (-146.399,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -13627,13 +14361,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 372,
+    index = 392,
     label = "FC1DCOC1F",
     molecule = 
 """
@@ -13648,12 +14382,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92799,0.00418634,9.31229e-05,-1.77692e-07,1.021e-10,-40063.5,10.091], Tmin=(10,'K'), Tmax=(571.184,'K')),
-            NASAPolynomial(coeffs=[2.36473,0.0315856,-2.20351e-05,7.1428e-09,-8.7089e-13,-40153.3,14.4081], Tmin=(571.184,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92799,0.00418634,9.31229e-05,-1.77692e-07,1.021e-10,-39521.2,10.091], Tmin=(10,'K'), Tmax=(571.184,'K')),
+            NASAPolynomial(coeffs=[2.36473,0.0315856,-2.20351e-05,7.1428e-09,-8.7089e-13,-39611,14.4081], Tmin=(571.184,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-333.137,'kJ/mol'),
+        E0 = (-328.628,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -13662,13 +14396,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 373,
+    index = 393,
     label = "ODCDC(F)F",
     molecule = 
 """
@@ -13700,7 +14434,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.533 kJ/mol
 )
 
 entry(
-    index = 374,
+    index = 394,
     label = "ODCCD[C]F",
     molecule = 
 """
@@ -13715,12 +14449,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91472,0.00853893,0.000105267,-4.2895e-07,5.84379e-10,-3147.14,9.72591], Tmin=(10,'K'), Tmax=(185.349,'K')),
-            NASAPolynomial(coeffs=[3.22437,0.0234373,-1.53034e-05,4.71725e-09,-5.54055e-13,-3121.55,11.8929], Tmin=(185.349,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91472,0.00853893,0.000105267,-4.2895e-07,5.84379e-10,-2397.03,9.72591], Tmin=(10,'K'), Tmax=(185.349,'K')),
+            NASAPolynomial(coeffs=[3.22437,0.0234373,-1.53034e-05,4.71725e-09,-5.54055e-13,-2371.44,11.8929], Tmin=(185.349,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-26.1342,'kJ/mol'),
+        E0 = (-19.8973,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -13729,13 +14463,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 375,
+    index = 395,
     label = "CC1[C]DC1F",
     molecule = 
 """
@@ -13752,12 +14486,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91296,0.00744105,9.92834e-05,-2.48767e-07,2.02679e-10,35846.7,8.92464], Tmin=(10,'K'), Tmax=(313.45,'K')),
-            NASAPolynomial(coeffs=[1.94931,0.0324993,-2.06307e-05,6.27211e-09,-7.31563e-13,35969.8,16.1201], Tmin=(313.45,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91296,0.00744105,9.92834e-05,-2.48767e-07,2.02679e-10,37601.7,8.92464], Tmin=(10,'K'), Tmax=(313.45,'K')),
+            NASAPolynomial(coeffs=[1.94931,0.0324993,-2.06307e-05,6.27211e-09,-7.31563e-13,37724.8,16.1201], Tmin=(313.45,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (298.053,'kJ/mol'),
+        E0 = (312.644,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -13766,13 +14500,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 376,
+    index = 396,
     label = "FC1[CH]C1",
     molecule = 
 """
@@ -13788,12 +14522,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.09356,-0.00897454,0.000136307,-2.43003e-07,1.39486e-10,9780.04,8.8662], Tmin=(10,'K'), Tmax=(556.06,'K')),
-            NASAPolynomial(coeffs=[1.53702,0.0289143,-1.84986e-05,5.65581e-09,-6.60766e-13,9762.91,16.989], Tmin=(556.06,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.09356,-0.00897454,0.000136307,-2.43003e-07,1.39486e-10,11544.7,8.8662], Tmin=(10,'K'), Tmax=(556.06,'K')),
+            NASAPolynomial(coeffs=[1.53702,0.0289143,-1.84986e-05,5.65581e-09,-6.60766e-13,11527.6,16.989], Tmin=(556.06,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (81.3029,'kJ/mol'),
+        E0 = (95.9752,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -13802,13 +14536,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 377,
+    index = 397,
     label = "FCC1DC[CH]1",
     molecule = 
 """
@@ -13825,12 +14559,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89873,0.0154021,2.6752e-05,-4.55107e-08,1.89468e-11,28773.7,10.226], Tmin=(10,'K'), Tmax=(861.671,'K')),
-            NASAPolynomial(coeffs=[4.15442,0.0269205,-1.54169e-05,4.22712e-09,-4.48636e-13,28257.9,6.2935], Tmin=(861.671,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89873,0.0154021,2.6752e-05,-4.55107e-08,1.89468e-11,30528.6,10.226], Tmin=(10,'K'), Tmax=(861.671,'K')),
+            NASAPolynomial(coeffs=[4.15442,0.0269205,-1.54169e-05,4.22712e-09,-4.48636e-13,30012.9,6.2935], Tmin=(861.671,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (239.262,'kJ/mol'),
+        E0 = (253.853,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -13839,13 +14573,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 378,
+    index = 398,
     label = "O[C](F)CF",
     molecule = 
 """
@@ -13881,7 +14615,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.318 kJ/mol
 )
 
 entry(
-    index = 379,
+    index = 399,
     label = "CC(F)C[CH]F",
     molecule = 
 """
@@ -13902,12 +14636,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.73557,0.0329471,4.63689e-06,-2.23375e-08,8.89271e-12,-44736.7,11.5968], Tmin=(10,'K'), Tmax=(1050.86,'K')),
-            NASAPolynomial(coeffs=[6.60956,0.0355978,-1.85453e-05,4.67572e-09,-4.61414e-13,-46091.1,-5.98146], Tmin=(1050.86,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.73557,0.0329471,4.63689e-06,-2.23375e-08,8.89271e-12,-41727.7,11.5968], Tmin=(10,'K'), Tmax=(1050.86,'K')),
+            NASAPolynomial(coeffs=[6.60956,0.0355978,-1.85453e-05,4.67572e-09,-4.61414e-13,-43082.1,-5.98146], Tmin=(1050.86,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-371.94,'kJ/mol'),
+        E0 = (-346.922,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -13916,13 +14650,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 380,
+    index = 400,
     label = "OC1(F)CDC1",
     molecule = 
 """
@@ -13937,12 +14671,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91759,0.00474662,9.09552e-05,-1.7647e-07,1.0162e-10,-17257.9,8.80201], Tmin=(10,'K'), Tmax=(585.294,'K')),
-            NASAPolynomial(coeffs=[3.28552,0.0285251,-1.98541e-05,6.54736e-09,-8.15619e-13,-17517.2,8.66553], Tmin=(585.294,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91759,0.00474662,9.09552e-05,-1.7647e-07,1.0162e-10,-16038.4,8.80201], Tmin=(10,'K'), Tmax=(585.294,'K')),
+            NASAPolynomial(coeffs=[3.28552,0.0285251,-1.98541e-05,6.54736e-09,-8.15619e-13,-16297.7,8.66553], Tmin=(585.294,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-143.526,'kJ/mol'),
+        E0 = (-133.386,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -13951,13 +14685,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 381,
+    index = 401,
     label = "OC1DC(F)[CH]1",
     molecule = 
 """
@@ -13972,12 +14706,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91455,0.00527333,8.55488e-05,-1.87088e-07,1.20649e-10,15216.8,9.88403], Tmin=(10,'K'), Tmax=(529.987,'K')),
-            NASAPolynomial(coeffs=[4.01953,0.0227309,-1.55125e-05,5.00804e-09,-6.12689e-13,14949.3,7.02619], Tmin=(529.987,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91455,0.00527333,8.55488e-05,-1.87088e-07,1.20649e-10,15974.5,9.88403], Tmin=(10,'K'), Tmax=(529.987,'K')),
+            NASAPolynomial(coeffs=[4.01953,0.0227309,-1.55125e-05,5.00804e-09,-6.12689e-13,15707.1,7.02619], Tmin=(529.987,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (126.491,'kJ/mol'),
+        E0 = (132.791,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -13986,13 +14720,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 382,
+    index = 402,
     label = "CDC([CH]F)OF",
     molecule = 
 """
@@ -14009,12 +14743,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.82116,0.0126507,0.000134729,-3.66153e-07,2.86302e-10,-9202.32,11.9006], Tmin=(10,'K'), Tmax=(446.232,'K')),
-            NASAPolynomial(coeffs=[4.81411,0.0314918,-2.18592e-05,7.10904e-09,-8.70574e-13,-9567.14,4.81657], Tmin=(446.232,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.82116,0.0126507,0.000134729,-3.66153e-07,2.86302e-10,-8187.56,11.9006], Tmin=(10,'K'), Tmax=(446.232,'K')),
+            NASAPolynomial(coeffs=[4.81411,0.0314918,-2.18592e-05,7.10904e-09,-8.70574e-13,-8552.38,4.81657], Tmin=(446.232,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-76.5288,'kJ/mol'),
+        E0 = (-68.0916,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -14023,13 +14757,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 383,
+    index = 403,
+    label = "CD[C]C(O)F",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,D} {6,S} {7,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.88504,0.00864782,0.000113618,-2.93733e-07,2.31709e-10,-15897.6,10.4119], Tmin=(10,'K'), Tmax=(413.06,'K')),
+            NASAPolynomial(coeffs=[3.04383,0.0311396,-2.01542e-05,6.25201e-09,-7.41821e-13,-15950.5,12.2451], Tmin=(413.06,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-132.18,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 404,
     label = "FCC1CO1",
     molecule = 
 """
@@ -14066,7 +14837,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.986 kJ/mol
 )
 
 entry(
-    index = 384,
+    index = 405,
     label = "C[C]DC(F)OF",
     molecule = 
 """
@@ -14083,12 +14854,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58313,0.0361944,-2.98112e-05,1.26975e-08,-2.21521e-12,-1522.15,10.5076], Tmin=(10,'K'), Tmax=(1275.77,'K')),
-            NASAPolynomial(coeffs=[8.66447,0.0202626,-1.10793e-05,2.90903e-09,-2.97082e-13,-2818.68,-15.2446], Tmin=(1275.77,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58313,0.0361944,-2.98112e-05,1.26975e-08,-2.21521e-12,-507.385,10.5076], Tmin=(10,'K'), Tmax=(1275.77,'K')),
+            NASAPolynomial(coeffs=[8.66447,0.0202626,-1.10793e-05,2.90903e-09,-2.97082e-13,-1803.92,-15.2446], Tmin=(1275.77,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-12.697,'kJ/mol'),
+        E0 = (-4.25979,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -14097,13 +14868,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 385,
+    index = 406,
     label = "CDC(F)OO",
     molecule = 
 """
@@ -14118,12 +14889,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8887,0.00735038,0.000106823,-2.58391e-07,1.84378e-10,-31972.5,9.73321], Tmin=(10,'K'), Tmax=(480.22,'K')),
-            NASAPolynomial(coeffs=[4.18553,0.0259888,-1.73371e-05,5.51791e-09,-6.6802e-13,-32244.4,5.98443], Tmin=(480.22,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8887,0.00735038,0.000106823,-2.58391e-07,1.84378e-10,-30812.6,9.73321], Tmin=(10,'K'), Tmax=(480.22,'K')),
+            NASAPolynomial(coeffs=[4.18553,0.0259888,-1.73371e-05,5.51791e-09,-6.6802e-13,-31084.5,5.98443], Tmin=(480.22,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-265.857,'kJ/mol'),
+        E0 = (-256.213,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -14132,13 +14903,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 386,
+    index = 407,
     label = "C[CH]CC(F)F",
     molecule = 
 """
@@ -14179,7 +14950,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.316 kJ/mol
 )
 
 entry(
-    index = 387,
+    index = 408,
     label = "[O]C(O)DCF",
     molecule = 
 """
@@ -14214,7 +14985,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.425 kJ/mol
 )
 
 entry(
-    index = 388,
+    index = 409,
     label = "CC(F)(F)O[O]",
     molecule = 
 """
@@ -14231,12 +15002,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.82708,0.0132058,0.000107671,-2.85529e-07,2.19487e-10,-59891.2,10.0865], Tmin=(10,'K'), Tmax=(441.881,'K')),
-            NASAPolynomial(coeffs=[3.7887,0.0324765,-2.19817e-05,6.99288e-09,-8.4194e-13,-60072.5,8.1498], Tmin=(441.881,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.82708,0.0132058,0.000107671,-2.85529e-07,2.19487e-10,-58842.9,10.0865], Tmin=(10,'K'), Tmax=(441.881,'K')),
+            NASAPolynomial(coeffs=[3.7887,0.0324765,-2.19817e-05,6.99288e-09,-8.4194e-13,-59024.2,8.1498], Tmin=(441.881,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-497.976,'kJ/mol'),
+        E0 = (-489.26,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -14245,13 +15016,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 389,
+    index = 410,
     label = "FC1DCCO1",
     molecule = 
 """
@@ -14286,7 +15057,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.584 kJ/mol
 )
 
 entry(
-    index = 390,
+    index = 411,
     label = "C[CH]CDCF",
     molecule = 
 """
@@ -14325,7 +15096,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.688 kJ/mol
 )
 
 entry(
-    index = 391,
+    index = 412,
     label = "[CH]DC(F)OO",
     molecule = 
 """
@@ -14340,12 +15111,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85892,0.00956634,0.000102984,-2.7837e-07,2.12272e-10,478.773,10.3195], Tmin=(10,'K'), Tmax=(468.772,'K')),
-            NASAPolynomial(coeffs=[5.52474,0.0208337,-1.46076e-05,4.82239e-09,-5.9925e-13,42.6194,0.558735], Tmin=(468.772,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85892,0.00956634,0.000102984,-2.7837e-07,2.12272e-10,1176.88,10.3195], Tmin=(10,'K'), Tmax=(468.772,'K')),
+            NASAPolynomial(coeffs=[5.52474,0.0208337,-1.46076e-05,4.82239e-09,-5.9925e-13,740.722,0.558735], Tmin=(468.772,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (3.95874,'kJ/mol'),
+        E0 = (9.7631,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -14354,13 +15125,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 392,
+    index = 413,
     label = "C#CC(F)F",
     molecule = 
 """
@@ -14394,7 +15165,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.58 kJ/mol
 )
 
 entry(
-    index = 393,
+    index = 414,
     label = "[O]C1(F)CC1",
     molecule = 
 """
@@ -14411,12 +15182,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91748,0.00499583,0.000105351,-2.12637e-07,1.30149e-10,-23231.3,10.2641], Tmin=(10,'K'), Tmax=(537.481,'K')),
-            NASAPolynomial(coeffs=[2.6426,0.0324457,-2.13845e-05,6.73786e-09,-8.10538e-13,-23353.7,13.2096], Tmin=(537.481,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91748,0.00499583,0.000105351,-2.12637e-07,1.30149e-10,-21519.3,10.2641], Tmin=(10,'K'), Tmax=(537.481,'K')),
+            NASAPolynomial(coeffs=[2.6426,0.0324457,-2.13845e-05,6.73786e-09,-8.10538e-13,-21641.7,13.2096], Tmin=(537.481,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-193.186,'kJ/mol'),
+        E0 = (-178.952,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -14425,13 +15196,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 394,
+    index = 415,
     label = "FOC1CDC1F",
     molecule = 
 """
@@ -14446,12 +15217,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87528,0.00834543,0.000113628,-2.7764e-07,1.99274e-10,4097.31,10.9524], Tmin=(10,'K'), Tmax=(476.046,'K')),
-            NASAPolynomial(coeffs=[4.04154,0.0288816,-2.01912e-05,6.5481e-09,-7.972e-13,3832.95,7.6634], Tmin=(476.046,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87528,0.00834543,0.000113628,-2.7764e-07,1.99274e-10,4668.99,10.9524], Tmin=(10,'K'), Tmax=(476.046,'K')),
+            NASAPolynomial(coeffs=[4.04154,0.0288816,-2.01912e-05,6.5481e-09,-7.972e-13,4404.63,7.6634], Tmin=(476.046,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (34.0441,'kJ/mol'),
+        E0 = (38.7972,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -14460,13 +15231,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 395,
+    index = 416,
     label = "FCCCC(F)F",
     molecule = 
 """
@@ -14507,7 +15278,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.419 kJ/mol
 )
 
 entry(
-    index = 396,
+    index = 417,
     label = "FC1D[C]C1F",
     molecule = 
 """
@@ -14521,12 +15292,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94213,0.00338605,6.62158e-05,-1.30716e-07,7.67417e-11,16021.9,9.89853], Tmin=(10,'K'), Tmax=(570.119,'K')),
-            NASAPolynomial(coeffs=[3.33069,0.020935,-1.48412e-05,4.86065e-09,-5.96925e-13,15876.1,10.615], Tmin=(570.119,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94213,0.00338605,6.62158e-05,-1.30716e-07,7.67417e-11,16229.2,9.89853], Tmin=(10,'K'), Tmax=(570.119,'K')),
+            NASAPolynomial(coeffs=[3.33069,0.020935,-1.48412e-05,4.86065e-09,-5.96925e-13,16083.5,10.615], Tmin=(570.119,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (133.19,'kJ/mol'),
+        E0 = (134.914,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -14535,13 +15306,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 397,
+    index = 418,
     label = "F[C]1COO1",
     molecule = 
 """
@@ -14576,7 +15347,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.711 kJ/mol
 )
 
 entry(
-    index = 398,
+    index = 419,
     label = "CDCO[CH]F",
     molecule = 
 """
@@ -14613,7 +15384,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.621 kJ/mol
 )
 
 entry(
-    index = 399,
+    index = 420,
     label = "COC([O])F",
     molecule = 
 """
@@ -14650,7 +15421,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.799 kJ/mol
 )
 
 entry(
-    index = 400,
+    index = 421,
     label = "CC1O[C]1F",
     molecule = 
 """
@@ -14687,7 +15458,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.232 kJ/mol
 )
 
 entry(
-    index = 401,
+    index = 422,
     label = "CDCCOF",
     molecule = 
 """
@@ -14704,12 +15475,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84577,0.0176467,2.86077e-05,-5.00892e-08,2.14152e-11,-5615.52,9.79245], Tmin=(10,'K'), Tmax=(825.732,'K')),
-            NASAPolynomial(coeffs=[3.47063,0.0313628,-1.79235e-05,4.92977e-09,-5.26028e-13,-5959.21,9.07413], Tmin=(825.732,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84577,0.0176467,2.86077e-05,-5.00892e-08,2.14152e-11,-3534.89,9.79245], Tmin=(10,'K'), Tmax=(825.732,'K')),
+            NASAPolynomial(coeffs=[3.47063,0.0313628,-1.79235e-05,4.92977e-09,-5.26028e-13,-3878.59,9.07413], Tmin=(825.732,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-46.6828,'kJ/mol'),
+        E0 = (-29.3835,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -14718,13 +15489,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 402,
+    index = 423,
     label = "F[C]DC1CC1",
     molecule = 
 """
@@ -14741,12 +15512,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94328,0.00342732,9.77102e-05,-1.86529e-07,1.10824e-10,26940.8,9.42059], Tmin=(10,'K'), Tmax=(527.18,'K')),
-            NASAPolynomial(coeffs=[1.48834,0.0337523,-2.1859e-05,6.76812e-09,-8.02072e-13,27037.1,18.1509], Tmin=(527.18,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94328,0.00342732,9.77102e-05,-1.86529e-07,1.10824e-10,28695.7,9.42059], Tmin=(10,'K'), Tmax=(527.18,'K')),
+            NASAPolynomial(coeffs=[1.48834,0.0337523,-2.1859e-05,6.76812e-09,-8.02072e-13,28792,18.1509], Tmin=(527.18,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (223.978,'kJ/mol'),
+        E0 = (238.569,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -14755,13 +15526,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 403,
+    index = 424,
     label = "F[C]1CDCC1F",
     molecule = 
 """
@@ -14778,12 +15549,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90254,0.00600006,0.00011531,-2.42111e-07,1.52798e-10,-9657.13,11.0421], Tmin=(10,'K'), Tmax=(526.65,'K')),
-            NASAPolynomial(coeffs=[2.9312,0.0339822,-2.30747e-05,7.35336e-09,-8.86362e-13,-9840.56,12.3925], Tmin=(526.65,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90254,0.00600006,0.00011531,-2.42111e-07,1.52798e-10,-8506.27,11.0421], Tmin=(10,'K'), Tmax=(526.65,'K')),
+            NASAPolynomial(coeffs=[2.9312,0.0339822,-2.30747e-05,7.35336e-09,-8.86362e-13,-8689.7,12.3925], Tmin=(526.65,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-80.3263,'kJ/mol'),
+        E0 = (-70.7575,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -14792,13 +15563,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 404,
+    index = 425,
     label = "[CH2]C#CCF",
     molecule = 
 """
@@ -14835,7 +15606,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.6 kJ/mol
 )
 
 entry(
-    index = 405,
+    index = 426,
     label = "CC(F)(F)C[O]",
     molecule = 
 """
@@ -14874,7 +15645,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.333 kJ/mol
 )
 
 entry(
-    index = 406,
+    index = 427,
     label = "F[CH]C1DCDC1",
     molecule = 
 """
@@ -14889,27 +15660,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85986,0.017313,5.32445e-06,-2.02502e-08,9.42495e-12,51354.6,10.4277], Tmin=(10,'K'), Tmax=(883.091,'K')),
-            NASAPolynomial(coeffs=[5.66214,0.0178982,-1.05301e-05,2.9373e-09,-3.15276e-13,50695.1,0.0253511], Tmin=(883.091,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85986,0.017313,5.32445e-06,-2.02502e-08,9.42495e-12,50679.2,10.4277], Tmin=(10,'K'), Tmax=(883.091,'K')),
+            NASAPolynomial(coeffs=[5.66214,0.0178982,-1.05301e-05,2.9373e-09,-3.15276e-13,50019.8,0.0253511], Tmin=(883.091,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (426.997,'kJ/mol'),
+        E0 = (421.382,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.374 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 407,
+    index = 428,
     label = "OC(O)F",
     molecule = 
 """
@@ -14943,7 +15714,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.415 kJ/mol
 )
 
 entry(
-    index = 408,
+    index = 429,
     label = "CO[C]DCF",
     molecule = 
 """
@@ -14980,7 +15751,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.046 kJ/mol
 )
 
 entry(
-    index = 409,
+    index = 430,
     label = "ODCDC[CH]F",
     molecule = 
 """
@@ -15015,7 +15786,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.653 kJ/mol
 )
 
 entry(
-    index = 410,
+    index = 431,
     label = "FCDC1CC1",
     molecule = 
 """
@@ -15052,7 +15823,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.992 kJ/mol
 )
 
 entry(
-    index = 411,
+    index = 432,
     label = "F[C]1CCO1",
     molecule = 
 """
@@ -15089,7 +15860,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.232 kJ/mol
 )
 
 entry(
-    index = 412,
+    index = 433,
     label = "[CH2]C1OC1F",
     molecule = 
 """
@@ -15126,7 +15897,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.821 kJ/mol
 )
 
 entry(
-    index = 413,
+    index = 434,
     label = "OC(F)(F)F",
     molecule = 
 """
@@ -15159,7 +15930,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.793 kJ/mol
 )
 
 entry(
-    index = 414,
+    index = 435,
     label = "CC(C)([O])F",
     molecule = 
 """
@@ -15178,12 +15949,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90844,0.00660302,0.000149856,-3.68e-07,2.85914e-10,-40584.9,7.90125], Tmin=(10,'K'), Tmax=(403.7,'K')),
-            NASAPolynomial(coeffs=[2.06766,0.0391489,-2.42312e-05,7.27166e-09,-8.43726e-13,-40552.9,13.6683], Tmin=(403.7,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90844,0.00660302,0.000149856,-3.68e-07,2.85914e-10,-37968.1,7.90125], Tmin=(10,'K'), Tmax=(403.7,'K')),
+            NASAPolynomial(coeffs=[2.06766,0.0391489,-2.42312e-05,7.27166e-09,-8.43726e-13,-37936,13.6683], Tmin=(403.7,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-337.44,'kJ/mol'),
+        E0 = (-315.682,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -15192,13 +15963,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 415,
+    index = 436,
     label = "OCDCCF",
     molecule = 
 """
@@ -15235,7 +16006,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.868 kJ/mol
 )
 
 entry(
-    index = 416,
+    index = 437,
     label = "OC(F)DCF",
     molecule = 
 """
@@ -15249,12 +16020,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91105,0.0054675,8.59438e-05,-1.88514e-07,1.21328e-10,-61656,9.3792], Tmin=(10,'K'), Tmax=(534.276,'K')),
-            NASAPolynomial(coeffs=[4.20844,0.0223951,-1.53565e-05,4.98874e-09,-6.13803e-13,-61961.1,5.5725], Tmin=(534.276,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91105,0.0054675,8.59438e-05,-1.88514e-07,1.21328e-10,-61079.1,9.3792], Tmin=(10,'K'), Tmax=(534.276,'K')),
+            NASAPolynomial(coeffs=[4.20844,0.0223951,-1.53565e-05,4.98874e-09,-6.13803e-13,-61384.3,5.5725], Tmin=(534.276,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-512.667,'kJ/mol'),
+        E0 = (-507.871,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -15263,13 +16034,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 417,
+    index = 438,
     label = "CC([CH]F)DCF",
     molecule = 
 """
@@ -15308,7 +16079,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.766 kJ/mol
 )
 
 entry(
-    index = 418,
+    index = 439,
     label = "CDCOOF",
     molecule = 
 """
@@ -15323,12 +16094,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90015,0.0065412,0.000104857,-2.45053e-07,1.70908e-10,3742.72,9.91334], Tmin=(10,'K'), Tmax=(483.731,'K')),
-            NASAPolynomial(coeffs=[3.69648,0.0272282,-1.82174e-05,5.77555e-09,-6.95153e-13,3540.09,8.44993], Tmin=(483.731,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90015,0.0065412,0.000104857,-2.45053e-07,1.70908e-10,4858.85,9.91334], Tmin=(10,'K'), Tmax=(483.731,'K')),
+            NASAPolynomial(coeffs=[3.69648,0.0272282,-1.82174e-05,5.77555e-09,-6.95153e-13,4656.22,8.44993], Tmin=(483.731,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (31.0974,'kJ/mol'),
+        E0 = (40.3774,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -15337,13 +16108,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 419,
+    index = 440,
     label = "OD[C]CF",
     molecule = 
 """
@@ -15377,7 +16148,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.019 kJ/mol
 )
 
 entry(
-    index = 420,
+    index = 441,
+    label = "O[CH]C(O)F",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 H u0 p0 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
+5 O u0 p2 c0 {4,S} {9,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90083,0.00615845,0.00011037,-2.37486e-07,1.5308e-10,-55697,10.3944], Tmin=(10,'K'), Tmax=(521.637,'K')),
+            NASAPolynomial(coeffs=[3.46848,0.0304814,-1.9981e-05,6.31011e-09,-7.62353e-13,-55937.7,9.45923], Tmin=(521.637,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-463.123,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 4.654 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 442,
     label = "FCC1O[C]1F",
     molecule = 
 """
@@ -15414,7 +16222,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.183 kJ/mol
 )
 
 entry(
-    index = 421,
+    index = 443,
     label = "CCDCF",
     molecule = 
 """
@@ -15450,7 +16258,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.023 kJ/mol
 )
 
 entry(
-    index = 422,
+    index = 444,
     label = "CD[C]F",
     molecule = 
 """
@@ -15483,7 +16291,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.689 kJ/mol
 )
 
 entry(
-    index = 423,
+    index = 445,
     label = "FC#CC(F)(F)F",
     molecule = 
 """
@@ -15517,7 +16325,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.739 kJ/mol
 )
 
 entry(
-    index = 424,
+    index = 446,
     label = "CD[C]C(C)F",
     molecule = 
 """
@@ -15536,12 +16344,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78447,0.0188969,5.19827e-05,-1.19611e-07,7.86743e-11,-400.418,10.5031], Tmin=(10,'K'), Tmax=(397.996,'K')),
-            NASAPolynomial(coeffs=[1.79099,0.0389321,-2.35277e-05,6.87307e-09,-7.76574e-13,-241.738,18.2839], Tmin=(397.996,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.78447,0.0188969,5.19827e-05,-1.19611e-07,7.86743e-11,2259.4,10.5031], Tmin=(10,'K'), Tmax=(397.996,'K')),
+            NASAPolynomial(coeffs=[1.79099,0.0389321,-2.35277e-05,6.87307e-09,-7.76574e-13,2418.08,18.2839], Tmin=(397.996,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-3.34557,'kJ/mol'),
+        E0 = (18.7694,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -15550,13 +16358,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 425,
+    index = 447,
     label = "FCC1OO1",
     molecule = 
 """
@@ -15591,7 +16399,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.194 kJ/mol
 )
 
 entry(
-    index = 426,
+    index = 448,
     label = "COCD[C]F",
     molecule = 
 """
@@ -15628,7 +16436,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.111 kJ/mol
 )
 
 entry(
-    index = 427,
+    index = 449,
     label = "F[CH]CCDCF",
     molecule = 
 """
@@ -15667,7 +16475,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.582 kJ/mol
 )
 
 entry(
-    index = 428,
+    index = 450,
     label = "F[C]1OCO1",
     molecule = 
 """
@@ -15702,7 +16510,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.268 kJ/mol
 )
 
 entry(
-    index = 429,
+    index = 451,
     label = "O[C](O)CF",
     molecule = 
 """
@@ -15719,12 +16527,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86591,0.01054,0.000113574,-3.17792e-07,2.6794e-10,-56260.1,9.7804], Tmin=(10,'K'), Tmax=(391.76,'K')),
-            NASAPolynomial(coeffs=[3.37474,0.0304553,-1.97314e-05,6.1423e-09,-7.31678e-13,-56335.9,10.2304], Tmin=(391.76,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86591,0.01054,0.000113574,-3.17792e-07,2.6794e-10,-54641.4,9.7804], Tmin=(10,'K'), Tmax=(391.76,'K')),
+            NASAPolynomial(coeffs=[3.37474,0.0304553,-1.97314e-05,6.1423e-09,-7.31678e-13,-54717.3,10.2304], Tmin=(391.76,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-467.767,'kJ/mol'),
+        E0 = (-454.308,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -15733,13 +16541,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 430,
+    index = 452,
     label = "[CH2]C1CC1F",
     molecule = 
 """
@@ -15758,12 +16566,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91215,0.005419,0.000129158,-2.60466e-07,1.62048e-10,-738.272,9.48471], Tmin=(10,'K'), Tmax=(517.025,'K')),
-            NASAPolynomial(coeffs=[1.76113,0.0404259,-2.56866e-05,7.89788e-09,-9.35193e-13,-761.312,16.0694], Tmin=(517.025,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91215,0.005419,0.000129158,-2.60466e-07,1.62048e-10,1969.9,9.48471], Tmin=(10,'K'), Tmax=(517.025,'K')),
+            NASAPolynomial(coeffs=[1.76113,0.0404259,-2.56866e-05,7.89788e-09,-9.35193e-13,1946.86,16.0694], Tmin=(517.025,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-6.16688,'kJ/mol'),
+        E0 = (16.3502,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -15772,13 +16580,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 431,
+    index = 453,
     label = "C#CC(F)[C](F)F",
     molecule = 
 """
@@ -15815,7 +16623,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.402 kJ/mol
 )
 
 entry(
-    index = 432,
+    index = 454,
     label = "O[CH]COF",
     molecule = 
 """
@@ -15852,7 +16660,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.468 kJ/mol
 )
 
 entry(
-    index = 433,
+    index = 455,
     label = "CC([O])CF",
     molecule = 
 """
@@ -15871,12 +16679,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81286,0.0193038,3.05291e-05,-5.20967e-08,2.18108e-11,-32102.9,10.3894], Tmin=(10,'K'), Tmax=(833.442,'K')),
-            NASAPolynomial(coeffs=[2.88757,0.0355984,-2.01315e-05,5.49152e-09,-5.82311e-13,-32360.3,12.215], Tmin=(833.442,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81286,0.0193038,3.05291e-05,-5.20967e-08,2.18108e-11,-29486,10.3894], Tmin=(10,'K'), Tmax=(833.442,'K')),
+            NASAPolynomial(coeffs=[2.88757,0.0355984,-2.01315e-05,5.49152e-09,-5.82311e-13,-29743.5,12.215], Tmin=(833.442,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-266.917,'kJ/mol'),
+        E0 = (-245.159,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -15885,13 +16693,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 434,
+    index = 456,
     label = "[O]CF",
     molecule = 
 """
@@ -15924,7 +16732,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.222 kJ/mol
 )
 
 entry(
-    index = 435,
+    index = 457,
+    label = "ODCC(F)CF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {7,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4  F u0 p3 c0 {3,S}
+5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.85178,0.0271368,-3.75327e-06,-9.04321e-09,3.80275e-12,-68311.5,10.4654], Tmin=(10,'K'), Tmax=(1196.81,'K')),
+            NASAPolynomial(coeffs=[9.04619,0.0209949,-1.01166e-05,2.33403e-09,-2.09975e-13,-70358.3,-18.8846], Tmin=(1196.81,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-567.941,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 4.1 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 458,
     label = "CDC(F)OC",
     molecule = 
 """
@@ -15961,7 +16806,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.668 kJ/mol
 )
 
 entry(
-    index = 436,
+    index = 459,
     label = "[CH2]OCDCF",
     molecule = 
 """
@@ -15998,7 +16843,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.39 kJ/mol
 )
 
 entry(
-    index = 437,
+    index = 460,
     label = "FOC1[CH]O1",
     molecule = 
 """
@@ -16033,7 +16878,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.227 kJ/mol
 )
 
 entry(
-    index = 438,
+    index = 461,
     label = "CDCDCOF",
     molecule = 
 """
@@ -16048,12 +16893,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86511,0.0106404,8.64899e-05,-2.30416e-07,1.80646e-10,16976.5,9.67888], Tmin=(10,'K'), Tmax=(425.033,'K')),
-            NASAPolynomial(coeffs=[3.49255,0.0271924,-1.79645e-05,5.63585e-09,-6.72958e-13,16890.3,9.77132], Tmin=(425.033,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86511,0.0106404,8.64899e-05,-2.30416e-07,1.80646e-10,18103.9,9.67888], Tmin=(10,'K'), Tmax=(425.033,'K')),
+            NASAPolynomial(coeffs=[3.49255,0.0271924,-1.79645e-05,5.63585e-09,-6.72958e-13,18017.7,9.77132], Tmin=(425.033,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (141.146,'kJ/mol'),
+        E0 = (150.52,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -16062,13 +16907,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 439,
+    index = 462,
     label = "C#COF",
     molecule = 
 """
@@ -16100,7 +16945,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.174 kJ/mol
 )
 
 entry(
-    index = 440,
+    index = 463,
     label = "FCDCDCCF",
     molecule = 
 """
@@ -16137,7 +16982,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.148 kJ/mol
 )
 
 entry(
-    index = 441,
+    index = 464,
     label = "C[C]DCC(F)F",
     molecule = 
 """
@@ -16176,7 +17021,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.929 kJ/mol
 )
 
 entry(
-    index = 442,
+    index = 465,
     label = "[O]C(F)DCCF",
     molecule = 
 """
@@ -16193,12 +17038,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81405,0.0273314,-7.66379e-06,-6.91426e-09,3.6961e-12,-58497.4,12.0913], Tmin=(10,'K'), Tmax=(1099.46,'K')),
-            NASAPolynomial(coeffs=[8.4363,0.0199783,-1.05426e-05,2.65981e-09,-2.60955e-13,-60085.8,-13.2478], Tmin=(1099.46,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81405,0.0273314,-7.66379e-06,-6.91426e-09,3.6961e-12,-57437.9,12.0913], Tmin=(10,'K'), Tmax=(1099.46,'K')),
+            NASAPolynomial(coeffs=[8.4363,0.0199783,-1.05426e-05,2.65981e-09,-2.60955e-13,-59026.2,-13.2478], Tmin=(1099.46,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-486.347,'kJ/mol'),
+        E0 = (-477.538,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -16207,13 +17052,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 443,
+    index = 466,
     label = "CCC[CH]F",
     molecule = 
 """
@@ -16254,7 +17099,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.959 kJ/mol
 )
 
 entry(
-    index = 444,
+    index = 467,
     label = "[CH]DC(F)OC",
     molecule = 
 """
@@ -16291,7 +17136,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.673 kJ/mol
 )
 
 entry(
-    index = 445,
+    index = 468,
     label = "[CH2]CDCDCF",
     molecule = 
 """
@@ -16308,27 +17153,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86068,0.0116397,7.92726e-05,-1.93534e-07,1.41426e-10,15114.9,9.61666], Tmin=(10,'K'), Tmax=(433.057,'K')),
-            NASAPolynomial(coeffs=[2.63757,0.0316579,-2.02712e-05,6.2089e-09,-7.28188e-13,15139.1,13.5497], Tmin=(433.057,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86068,0.0116397,7.92726e-05,-1.93534e-07,1.41426e-10,15099.3,9.61666], Tmin=(10,'K'), Tmax=(433.057,'K')),
+            NASAPolynomial(coeffs=[2.63757,0.0316579,-2.02712e-05,6.2089e-09,-7.28188e-13,15123.4,13.5497], Tmin=(433.057,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (125.666,'kJ/mol'),
+        E0 = (125.536,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 2.103 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 446,
+    index = 469,
     label = "FCDC1[C]DC1",
     molecule = 
 """
@@ -16343,12 +17188,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84658,0.0151018,1.90816e-05,-4.54877e-08,2.37636e-11,49337,9.95565], Tmin=(10,'K'), Tmax=(707.407,'K')),
-            NASAPolynomial(coeffs=[4.56948,0.0206011,-1.29079e-05,3.81715e-09,-4.31289e-13,48994.8,5.02281], Tmin=(707.407,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84658,0.0151018,1.90816e-05,-4.54877e-08,2.37636e-11,50138.6,9.95565], Tmin=(10,'K'), Tmax=(707.407,'K')),
+            NASAPolynomial(coeffs=[4.56948,0.0206011,-1.29079e-05,3.81715e-09,-4.31289e-13,49796.5,5.02281], Tmin=(707.407,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (410.197,'kJ/mol'),
+        E0 = (416.863,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -16357,13 +17202,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 447,
+    index = 470,
     label = "CCDC[CH]F",
     molecule = 
 """
@@ -16402,7 +17247,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.791 kJ/mol
 )
 
 entry(
-    index = 448,
+    index = 471,
     label = "CDCDCD[C]F",
     molecule = 
 """
@@ -16437,7 +17282,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.649 kJ/mol
 )
 
 entry(
-    index = 449,
+    index = 472,
     label = "CC([O])(F)CF",
     molecule = 
 """
@@ -16476,7 +17321,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.333 kJ/mol
 )
 
 entry(
-    index = 450,
+    index = 473,
     label = "ODC(F)CDCF",
     molecule = 
 """
@@ -16511,7 +17356,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.412 kJ/mol
 )
 
 entry(
-    index = 451,
+    index = 474,
+    label = "OCC(F)OF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+4  F u0 p3 c0 {3,S}
+5  O u0 p2 c0 {3,S} {6,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.70749,0.0256482,2.37377e-05,-6.93026e-08,4.0668e-11,-61047.7,10.8941], Tmin=(10,'K'), Tmax=(625.995,'K')),
+            NASAPolynomial(coeffs=[4.25585,0.0331685,-2.06984e-05,6.15273e-09,-7.01161e-13,-61332.4,6.78018], Tmin=(625.995,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-507.617,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 475,
     label = "FCOC(F)F",
     molecule = 
 """
@@ -16547,7 +17429,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.001 kJ/mol
 )
 
 entry(
-    index = 452,
+    index = 476,
     label = "OC(DCF)OF",
     molecule = 
 """
@@ -16582,7 +17464,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.066 kJ/mol
 )
 
 entry(
-    index = 453,
+    index = 477,
     label = "[O]CDCC(F)F",
     molecule = 
 """
@@ -16619,7 +17501,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.398 kJ/mol
 )
 
 entry(
-    index = 454,
+    index = 478,
     label = "FC#C[CH]F",
     molecule = 
 """
@@ -16653,7 +17535,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.452 kJ/mol
 )
 
 entry(
-    index = 455,
+    index = 479,
     label = "FCDCD[C]CF",
     molecule = 
 """
@@ -16690,7 +17572,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.024 kJ/mol
 )
 
 entry(
-    index = 456,
+    index = 480,
     label = "FC#CO[CH]F",
     molecule = 
 """
@@ -16705,12 +17587,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.74876,0.0220632,6.28088e-05,-2.87396e-07,3.06468e-10,-815.676,11.3846], Tmin=(10,'K'), Tmax=(356.875,'K')),
-            NASAPolynomial(coeffs=[5.39394,0.0221921,-1.57807e-05,5.2123e-09,-6.4592e-13,-1051.35,3.48602], Tmin=(356.875,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.74876,0.0220632,6.28088e-05,-2.87396e-07,3.06468e-10,-647.281,11.3846], Tmin=(10,'K'), Tmax=(356.875,'K')),
+            NASAPolynomial(coeffs=[5.39394,0.0221921,-1.57807e-05,5.2123e-09,-6.4592e-13,-882.952,3.48602], Tmin=(356.875,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-6.76205,'kJ/mol'),
+        E0 = (-5.36193,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -16719,13 +17601,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 457,
+    index = 481,
     label = "FOCCDC(F)F",
     molecule = 
 """
@@ -16742,12 +17624,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71406,0.0333168,-8.08596e-06,-1.35418e-08,7.55413e-12,-51945.2,12.1524], Tmin=(10,'K'), Tmax=(951.974,'K')),
-            NASAPolynomial(coeffs=[8.1459,0.0262448,-1.51414e-05,4.1435e-09,-4.37093e-13,-53312.4,-11.7593], Tmin=(951.974,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71406,0.0333168,-8.08596e-06,-1.35418e-08,7.55413e-12,-51072.7,12.1524], Tmin=(10,'K'), Tmax=(951.974,'K')),
+            NASAPolynomial(coeffs=[8.1459,0.0262448,-1.51414e-05,4.1435e-09,-4.37093e-13,-52439.9,-11.7593], Tmin=(951.974,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-431.884,'kJ/mol'),
+        E0 = (-424.63,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -16756,13 +17638,52 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 458,
+    index = 482,
+    label = "FCCC(F)OF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {12,S}
+5  F u0 p3 c0 {4,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.79309,0.035803,-6.72782e-06,-1.12516e-08,5.14086e-12,-68761,11.4895], Tmin=(10,'K'), Tmax=(1149.32,'K')),
+            NASAPolynomial(coeffs=[10.2318,0.0272726,-1.37075e-05,3.30336e-09,-3.10503e-13,-71157.6,-24.4572], Tmin=(1149.32,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-571.666,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 483,
     label = "[O]CDC(F)F",
     molecule = 
 """
@@ -16796,7 +17717,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.485 kJ/mol
 )
 
 entry(
-    index = 459,
+    index = 484,
     label = "F[C]DCOCF",
     molecule = 
 """
@@ -16833,7 +17754,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.554 kJ/mol
 )
 
 entry(
-    index = 460,
+    index = 485,
     label = "FCC1DC(F)[CH]1",
     molecule = 
 """
@@ -16850,27 +17771,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81511,0.02437,3.32708e-06,-2.05867e-08,9.26249e-12,9089.03,11.5335], Tmin=(10,'K'), Tmax=(950.646,'K')),
-            NASAPolynomial(coeffs=[6.62675,0.0237813,-1.34823e-05,3.64077e-09,-3.80121e-13,8046.47,-4.56047], Tmin=(950.646,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81511,0.02437,3.32708e-06,-2.05867e-08,9.26249e-12,9033.36,11.5335], Tmin=(10,'K'), Tmax=(950.646,'K')),
+            NASAPolynomial(coeffs=[6.62675,0.0237813,-1.34823e-05,3.64077e-09,-3.80121e-13,7990.81,-4.56047], Tmin=(950.646,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (75.5931,'kJ/mol'),
+        E0 = (75.1303,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.628 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 461,
+    index = 486,
     label = "[CH2]C(DCF)CF",
     molecule = 
 """
@@ -16889,12 +17810,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7409,0.0226279,4.64643e-05,-1.04694e-07,5.9566e-11,-32344,11.6889], Tmin=(10,'K'), Tmax=(604.271,'K')),
-            NASAPolynomial(coeffs=[3.22516,0.0385094,-2.39074e-05,7.08848e-09,-8.06949e-13,-32509.3,12.0338], Tmin=(604.271,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7409,0.0226279,4.64643e-05,-1.04694e-07,5.9566e-11,-30288.3,11.6889], Tmin=(10,'K'), Tmax=(604.271,'K')),
+            NASAPolynomial(coeffs=[3.22516,0.0385094,-2.39074e-05,7.08848e-09,-8.06949e-13,-30453.6,12.0338], Tmin=(604.271,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-268.959,'kJ/mol'),
+        E0 = (-251.867,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -16903,13 +17824,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 462,
+    index = 487,
     label = "C[C]1CC1(F)F",
     molecule = 
 """
@@ -16948,7 +17869,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.771 kJ/mol
 )
 
 entry(
-    index = 463,
+    index = 488,
     label = "OCDCOF",
     molecule = 
 """
@@ -16983,7 +17904,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.447 kJ/mol
 )
 
 entry(
-    index = 464,
+    index = 489,
     label = "C[C]DC(C)F",
     molecule = 
 """
@@ -17002,12 +17923,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.72053,0.0286721,-5.85417e-06,-5.91144e-09,2.55405e-12,-1615.45,8.14324], Tmin=(10,'K'), Tmax=(1256.44,'K')),
-            NASAPolynomial(coeffs=[7.53492,0.0251143,-1.18567e-05,2.71215e-09,-2.43972e-13,-3251.66,-13.8266], Tmin=(1256.44,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.72053,0.0286721,-5.85417e-06,-5.91144e-09,2.55405e-12,1044.36,8.14324], Tmin=(10,'K'), Tmax=(1256.44,'K')),
+            NASAPolynomial(coeffs=[7.53492,0.0251143,-1.18567e-05,2.71215e-09,-2.43972e-13,-591.841,-13.8266], Tmin=(1256.44,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-13.4498,'kJ/mol'),
+        E0 = (8.66519,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -17016,13 +17937,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 465,
+    index = 490,
     label = "FCDC1CO1",
     molecule = 
 """
@@ -17037,12 +17958,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94744,0.00313489,8.50385e-05,-1.61143e-07,9.43397e-11,-14486.8,9.27425], Tmin=(10,'K'), Tmax=(540.537,'K')),
-            NASAPolynomial(coeffs=[1.88046,0.0296212,-1.95158e-05,6.10844e-09,-7.28852e-13,-14426.8,16.4624], Tmin=(540.537,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94744,0.00313489,8.50385e-05,-1.61143e-07,9.43397e-11,-13340.4,9.27425], Tmin=(10,'K'), Tmax=(540.537,'K')),
+            NASAPolynomial(coeffs=[1.88046,0.0296212,-1.95158e-05,6.10844e-09,-7.28852e-13,-13280.4,16.4624], Tmin=(540.537,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-120.47,'kJ/mol'),
+        E0 = (-110.938,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -17051,13 +17972,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 466,
+    index = 491,
     label = "F[C]1CCC1",
     molecule = 
 """
@@ -17096,7 +18017,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.705 kJ/mol
 )
 
 entry(
-    index = 467,
+    index = 492,
     label = "ODC[C](F)CF",
     molecule = 
 """
@@ -17133,7 +18054,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.832 kJ/mol
 )
 
 entry(
-    index = 468,
+    index = 493,
     label = "CC(O)(O)F",
     molecule = 
 """
@@ -17170,7 +18091,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.868 kJ/mol
 )
 
 entry(
-    index = 469,
+    index = 494,
     label = "CDCOCF",
     molecule = 
 """
@@ -17207,7 +18128,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.668 kJ/mol
 )
 
 entry(
-    index = 470,
+    index = 495,
     label = "CC(F)DCD[C]F",
     molecule = 
 """
@@ -17224,12 +18145,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81675,0.0183227,0.000178611,-8.74307e-07,1.24369e-09,-1997.32,10.1594], Tmin=(10,'K'), Tmax=(245.55,'K')),
-            NASAPolynomial(coeffs=[4.35264,0.0301997,-1.9823e-05,6.20498e-09,-7.42164e-13,-2085.76,7.06156], Tmin=(245.55,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81675,0.0183227,0.000178611,-8.74307e-07,1.24369e-09,-894.817,10.1594], Tmin=(10,'K'), Tmax=(245.55,'K')),
+            NASAPolynomial(coeffs=[4.35264,0.0301997,-1.9823e-05,6.20498e-09,-7.42164e-13,-983.258,7.06156], Tmin=(245.55,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-16.5836,'kJ/mol'),
+        E0 = (-7.41686,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -17238,13 +18159,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 471,
+    index = 496,
     label = "C[C](F)CO",
     molecule = 
 """
@@ -17263,12 +18184,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.76793,0.0288754,-4.94805e-06,-7.71063e-09,3.30558e-12,-37399.3,9.53949], Tmin=(10,'K'), Tmax=(1198.68,'K')),
-            NASAPolynomial(coeffs=[7.70798,0.0251526,-1.20837e-05,2.81767e-09,-2.58335e-13,-39021,-13.0075], Tmin=(1198.68,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.76793,0.0288754,-4.94805e-06,-7.71063e-09,3.30558e-12,-34783.4,9.53949], Tmin=(10,'K'), Tmax=(1198.68,'K')),
+            NASAPolynomial(coeffs=[7.70798,0.0251526,-1.20837e-05,2.81767e-09,-2.58335e-13,-36405.1,-13.0075], Tmin=(1198.68,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-310.949,'kJ/mol'),
+        E0 = (-289.2,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -17277,13 +18198,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 472,
+    index = 497,
     label = "[C]#CC#CF",
     molecule = 
 """
@@ -17316,7 +18237,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.818 kJ/mol
 )
 
 entry(
-    index = 473,
+    index = 498,
     label = "F[C]DC1OO1",
     molecule = 
 """
@@ -17329,12 +18250,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85528,0.0115169,4.15542e-05,-1.38985e-07,1.16648e-10,27452.1,9.28045], Tmin=(10,'K'), Tmax=(438.888,'K')),
-            NASAPolynomial(coeffs=[4.83175,0.0147419,-1.09061e-05,3.64598e-09,-4.52371e-13,27249.7,4.04338], Tmin=(438.888,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85528,0.0115169,4.15542e-05,-1.38985e-07,1.16648e-10,27172.2,9.28045], Tmin=(10,'K'), Tmax=(438.888,'K')),
+            NASAPolynomial(coeffs=[4.83175,0.0147419,-1.09061e-05,3.64598e-09,-4.52371e-13,26969.8,4.04338], Tmin=(438.888,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (228.243,'kJ/mol'),
+        E0 = (225.915,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
@@ -17343,13 +18264,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 474,
+    index = 499,
     label = "OCC(F)DCF",
     molecule = 
 """
@@ -17366,12 +18287,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71614,0.0245777,2.71187e-05,-7.66922e-08,4.66302e-11,-63285.7,10.7958], Tmin=(10,'K'), Tmax=(588.181,'K')),
-            NASAPolynomial(coeffs=[3.83946,0.0335825,-2.09489e-05,6.24222e-09,-7.13806e-13,-63470.5,8.81893], Tmin=(588.181,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71614,0.0245777,2.71187e-05,-7.66922e-08,4.66302e-11,-61765.4,10.7958], Tmin=(10,'K'), Tmax=(588.181,'K')),
+            NASAPolynomial(coeffs=[3.83946,0.0335825,-2.09489e-05,6.24222e-09,-7.13806e-13,-61950.1,8.81893], Tmin=(588.181,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-526.223,'kJ/mol'),
+        E0 = (-513.582,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -17380,13 +18301,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 475,
+    index = 500,
     label = "[CH]DCC#CF",
     molecule = 
 """
@@ -17421,7 +18342,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.704 kJ/mol
 )
 
 entry(
-    index = 476,
+    index = 501,
     label = "CDCDCC(F)F",
     molecule = 
 """
@@ -17458,7 +18379,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.101 kJ/mol
 )
 
 entry(
-    index = 477,
+    index = 502,
     label = "FC1DCOC1",
     molecule = 
 """
@@ -17473,12 +18394,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.07821,-0.00752543,0.000130004,-2.27892e-07,1.27743e-10,-16064.7,9.12989], Tmin=(10,'K'), Tmax=(569.812,'K')),
-            NASAPolynomial(coeffs=[1.42352,0.0302152,-1.96395e-05,6.02951e-09,-7.0423e-13,-16072.3,17.7225], Tmin=(569.812,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.07821,-0.00752543,0.000130004,-2.27892e-07,1.27743e-10,-14918.3,9.12989], Tmin=(10,'K'), Tmax=(569.812,'K')),
+            NASAPolynomial(coeffs=[1.42352,0.0302152,-1.96395e-05,6.02951e-09,-7.0423e-13,-14925.9,17.7225], Tmin=(569.812,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-133.583,'kJ/mol'),
+        E0 = (-124.051,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -17487,13 +18408,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 478,
+    index = 503,
     label = "FC#CO[C](F)F",
     molecule = 
 """
@@ -17528,7 +18449,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.087 kJ/mol
 )
 
 entry(
-    index = 479,
+    index = 504,
     label = "OC(O)DCF",
     molecule = 
 """
@@ -17563,7 +18484,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.528 kJ/mol
 )
 
 entry(
-    index = 480,
+    index = 505,
     label = "CC([O])OF",
     molecule = 
 """
@@ -17580,12 +18501,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77724,0.0198104,2.48987e-05,-5.99935e-08,3.25609e-11,-14326.6,10.4436], Tmin=(10,'K'), Tmax=(656.174,'K')),
-            NASAPolynomial(coeffs=[3.78737,0.0291296,-1.78492e-05,5.22536e-09,-5.88204e-13,-14529.9,8.86013], Tmin=(656.174,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77724,0.0198104,2.48987e-05,-5.99935e-08,3.25609e-11,-12750.7,10.4436], Tmin=(10,'K'), Tmax=(656.174,'K')),
+            NASAPolynomial(coeffs=[3.78737,0.0291296,-1.78492e-05,5.22536e-09,-5.88204e-13,-12954,8.86013], Tmin=(656.174,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-119.145,'kJ/mol'),
+        E0 = (-106.043,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -17594,13 +18515,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 481,
+    index = 506,
     label = "O[CH]CCF",
     molecule = 
 """
@@ -17639,7 +18560,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.954 kJ/mol
 )
 
 entry(
-    index = 482,
+    index = 507,
     label = "CC[C](O)F",
     molecule = 
 """
@@ -17658,12 +18579,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77698,0.019807,4.87837e-05,-1.16442e-07,7.82572e-11,-41572.2,9.5079], Tmin=(10,'K'), Tmax=(389.928,'K')),
-            NASAPolynomial(coeffs=[1.94996,0.0385489,-2.33133e-05,6.82266e-09,-7.72338e-13,-41429.7,16.6015], Tmin=(389.928,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77698,0.019807,4.87837e-05,-1.16442e-07,7.82572e-11,-38956.3,9.5079], Tmin=(10,'K'), Tmax=(389.928,'K')),
+            NASAPolynomial(coeffs=[1.94996,0.0385489,-2.33133e-05,6.82266e-09,-7.72338e-13,-38813.9,16.6015], Tmin=(389.928,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-345.666,'kJ/mol'),
+        E0 = (-323.916,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -17672,13 +18593,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 483,
+    index = 508,
+    label = "CDCC([O])F",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,D} {6,S} {7,S}
+2 C u0 p0 c0 {1,D} {3,S} {8,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+4 O u1 p2 c0 {3,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.9278,0.0045117,0.00010604,-2.17989e-07,1.38127e-10,-18646.5,10.7673], Tmin=(10,'K'), Tmax=(506.948,'K')),
+            NASAPolynomial(coeffs=[2.19104,0.0328868,-2.13294e-05,6.59856e-09,-7.8033e-13,-18658.9,16.1069], Tmin=(506.948,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-155.057,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 5.13 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 509,
     label = "CDC(C)[CH]F",
     molecule = 
 """
@@ -17697,27 +18655,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89925,0.00877643,0.00013932,-3.76705e-07,3.36116e-10,-8392.82,9.46485], Tmin=(10,'K'), Tmax=(285.053,'K')),
-            NASAPolynomial(coeffs=[1.67424,0.0399987,-2.49766e-05,7.54125e-09,-8.7749e-13,-8265.97,17.4067], Tmin=(285.053,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89925,0.00877643,0.00013932,-3.76705e-07,3.36116e-10,-8902.9,9.46485], Tmin=(10,'K'), Tmax=(285.053,'K')),
+            NASAPolynomial(coeffs=[1.67424,0.0399987,-2.49766e-05,7.54125e-09,-8.7749e-13,-8776.05,17.4067], Tmin=(285.053,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-69.7687,'kJ/mol'),
+        E0 = (-74.0097,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.652 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 484,
+    index = 510,
     label = "CDCDCCF",
     molecule = 
 """
@@ -17754,7 +18712,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.513 kJ/mol
 )
 
 entry(
-    index = 485,
+    index = 511,
     label = "FOC1[CH]C1",
     molecule = 
 """
@@ -17791,7 +18749,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.522 kJ/mol
 )
 
 entry(
-    index = 486,
+    index = 512,
     label = "FCDCDCOF",
     molecule = 
 """
@@ -17806,12 +18764,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.7049,0.0273427,-8.23952e-06,-1.37241e-08,9.38624e-12,-2809.55,10.8299], Tmin=(10,'K'), Tmax=(783.57,'K')),
-            NASAPolynomial(coeffs=[6.31292,0.0220852,-1.35964e-05,3.95434e-09,-4.40295e-13,-3465.57,-2.6943], Tmin=(783.57,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.7049,0.0273427,-8.23952e-06,-1.37241e-08,9.38624e-12,-2286.23,10.8299], Tmin=(10,'K'), Tmax=(783.57,'K')),
+            NASAPolynomial(coeffs=[6.31292,0.0220852,-1.35964e-05,3.95434e-09,-4.40295e-13,-2942.25,-2.6943], Tmin=(783.57,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-23.3848,'kJ/mol'),
+        E0 = (-19.0337,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -17820,13 +18778,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 487,
+    index = 513,
     label = "OC1(F)CC1F",
     molecule = 
 """
@@ -17843,12 +18801,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8897,0.00666424,0.000126303,-2.60044e-07,1.60297e-10,-62671.6,10.243], Tmin=(10,'K'), Tmax=(542.867,'K')),
-            NASAPolynomial(coeffs=[3.01973,0.0372734,-2.51375e-05,8.04525e-09,-9.77581e-13,-62933.8,10.6245], Tmin=(542.867,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8897,0.00666424,0.000126303,-2.60044e-07,1.60297e-10,-61102.9,10.243], Tmin=(10,'K'), Tmax=(542.867,'K')),
+            NASAPolynomial(coeffs=[3.01973,0.0372734,-2.51375e-05,8.04525e-09,-9.77581e-13,-61365.1,10.6245], Tmin=(542.867,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-521.122,'kJ/mol'),
+        E0 = (-508.079,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -17857,13 +18815,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 488,
+    index = 514,
     label = "C#CCF",
     molecule = 
 """
@@ -17897,7 +18855,42 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.629 kJ/mol
 )
 
 entry(
-    index = 489,
+    index = 515,
+    label = "ODCC(F)OF",
+    molecule = 
+"""
+1 O u0 p2 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4 F u0 p3 c0 {3,S}
+5 O u0 p2 c0 {3,S} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78341,0.0289329,-1.90855e-05,4.98996e-09,-2.01301e-13,-47882.5,11.0031], Tmin=(10,'K'), Tmax=(1262.22,'K')),
+            NASAPolynomial(coeffs=[10.1453,0.0137142,-6.87341e-06,1.64215e-09,-1.52669e-13,-49882.3,-22.7306], Tmin=(1262.22,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-398.108,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 516,
     label = "CC1D[C]C1F",
     molecule = 
 """
@@ -17914,12 +18907,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84462,0.0148674,3.3761e-05,-6.25445e-08,3.00732e-11,26669.3,8.9822], Tmin=(10,'K'), Tmax=(710.284,'K')),
-            NASAPolynomial(coeffs=[3.03283,0.0292689,-1.74117e-05,4.97011e-09,-5.47943e-13,26536.7,10.8754], Tmin=(710.284,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84462,0.0148674,3.3761e-05,-6.25445e-08,3.00732e-11,28424.3,8.9822], Tmin=(10,'K'), Tmax=(710.284,'K')),
+            NASAPolynomial(coeffs=[3.03283,0.0292689,-1.74117e-05,4.97011e-09,-5.47943e-13,28291.6,10.8754], Tmin=(710.284,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (221.728,'kJ/mol'),
+        E0 = (236.32,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -17928,13 +18921,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 490,
+    index = 517,
     label = "CDC(F)CC",
     molecule = 
 """
@@ -17973,7 +18966,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.1 kJ/mol
 )
 
 entry(
-    index = 491,
+    index = 518,
     label = "C[CH]C(F)CF",
     molecule = 
 """
@@ -18014,7 +19007,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.695 kJ/mol
 )
 
 entry(
-    index = 492,
+    index = 519,
     label = "CDC(C)F",
     molecule = 
 """
@@ -18050,7 +19043,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.588 kJ/mol
 )
 
 entry(
-    index = 493,
+    index = 520,
     label = "FOOCC(F)F",
     molecule = 
 """
@@ -18067,12 +19060,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71335,0.0363975,-1.82076e-05,-1.40303e-09,2.64553e-12,-60243,11.9936], Tmin=(10,'K'), Tmax=(1081.78,'K')),
-            NASAPolynomial(coeffs=[10.0725,0.0225208,-1.23285e-05,3.20872e-09,-3.23346e-13,-62182.7,-21.7916], Tmin=(1081.78,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71335,0.0363975,-1.82077e-05,-1.40287e-09,2.64545e-12,-59381.8,11.9936], Tmin=(10,'K'), Tmax=(1081.79,'K')),
+            NASAPolynomial(coeffs=[10.0727,0.0225203,-1.23281e-05,3.2086e-09,-3.23331e-13,-61321.5,-21.7926], Tmin=(1081.79,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-500.868,'kJ/mol'),
+        E0 = (-493.708,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -18081,13 +19074,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 494,
+    index = 521,
     label = "[CH]DC(F)CC",
     molecule = 
 """
@@ -18106,12 +19099,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84568,0.0134316,8.84856e-05,-2.08791e-07,1.54351e-10,1327.8,9.32354], Tmin=(10,'K'), Tmax=(347.935,'K')),
-            NASAPolynomial(coeffs=[1.57159,0.0395754,-2.42235e-05,7.16644e-09,-8.18808e-13,1486.05,17.8939], Tmin=(347.935,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84568,0.0134316,8.84856e-05,-2.08791e-07,1.54351e-10,3987.61,9.32354], Tmin=(10,'K'), Tmax=(347.935,'K')),
+            NASAPolynomial(coeffs=[1.57159,0.0395754,-2.42235e-05,7.16644e-09,-8.18808e-13,4145.86,17.8939], Tmin=(347.935,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (11.0347,'kJ/mol'),
+        E0 = (33.1496,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -18120,13 +19113,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 495,
+    index = 522,
     label = "CC([O])DCF",
     molecule = 
 """
@@ -18163,7 +19156,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.07 kJ/mol
 )
 
 entry(
-    index = 496,
+    index = 523,
     label = "[C]#CCF",
     molecule = 
 """
@@ -18197,7 +19190,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.216 kJ/mol
 )
 
 entry(
-    index = 497,
+    index = 524,
     label = "OC(DCF)CF",
     molecule = 
 """
@@ -18234,7 +19227,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.517 kJ/mol
 )
 
 entry(
-    index = 498,
+    index = 525,
     label = "[O]C#CF",
     molecule = 
 """
@@ -18266,7 +19259,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.744 kJ/mol
 )
 
 entry(
-    index = 499,
+    index = 526,
     label = "FC1O[CH]O1",
     molecule = 
 """
@@ -18301,7 +19294,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.262 kJ/mol
 )
 
 entry(
-    index = 500,
+    index = 527,
     label = "CC([O])(F)OF",
     molecule = 
 """
@@ -18318,12 +19311,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.82777,0.0123547,0.000131075,-3.54925e-07,2.785e-10,-38789.5,11.1577], Tmin=(10,'K'), Tmax=(440.585,'K')),
-            NASAPolynomial(coeffs=[4.44287,0.0320593,-2.2108e-05,7.14121e-09,-8.69834e-13,-39089.2,5.90897], Tmin=(440.585,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.82777,0.0123547,0.000131075,-3.54925e-07,2.785e-10,-37817.7,11.1577], Tmin=(10,'K'), Tmax=(440.585,'K')),
+            NASAPolynomial(coeffs=[4.44287,0.0320593,-2.2108e-05,7.14121e-09,-8.69834e-13,-38117.3,5.90897], Tmin=(440.585,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-322.527,'kJ/mol'),
+        E0 = (-314.447,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -18332,13 +19325,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 501,
+    index = 528,
     label = "F[CH]C#CCF",
     molecule = 
 """
@@ -18375,7 +19368,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.926 kJ/mol
 )
 
 entry(
-    index = 502,
+    index = 529,
     label = "CC(CF)CF",
     molecule = 
 """
@@ -18416,7 +19409,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.474 kJ/mol
 )
 
 entry(
-    index = 503,
+    index = 530,
     label = "FC1DCCDC1",
     molecule = 
 """
@@ -18451,7 +19444,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.058 kJ/mol
 )
 
 entry(
-    index = 504,
+    index = 531,
     label = "OC#C[CH]F",
     molecule = 
 """
@@ -18486,7 +19479,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.555 kJ/mol
 )
 
 entry(
-    index = 505,
+    index = 532,
     label = "F[C]DCOOF",
     molecule = 
 """
@@ -18501,12 +19494,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.68489,0.029248,-1.71656e-05,-6.8044e-09,8.04671e-12,15563.7,12.2932], Tmin=(10,'K'), Tmax=(754.119,'K')),
-            NASAPolynomial(coeffs=[7.43189,0.0179699,-1.18325e-05,3.5977e-09,-4.13115e-13,14754.1,-6.34724], Tmin=(754.119,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.68489,0.029248,-1.71656e-05,-6.8044e-09,8.04671e-12,15613.9,12.2932], Tmin=(10,'K'), Tmax=(754.119,'K')),
+            NASAPolynomial(coeffs=[7.43189,0.0179699,-1.18325e-05,3.5977e-09,-4.13115e-13,14804.3,-6.34724], Tmin=(754.119,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (129.374,'kJ/mol'),
+        E0 = (129.792,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -18515,13 +19508,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 506,
+    index = 533,
     label = "OC1(F)OC1F",
     molecule = 
 """
@@ -18536,12 +19529,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89232,0.00654636,0.0001059,-2.278e-07,1.43749e-10,-82887.1,10.1716], Tmin=(10,'K'), Tmax=(542.917,'K')),
-            NASAPolynomial(coeffs=[4.05322,0.0287926,-2.03014e-05,6.66188e-09,-8.20875e-13,-83250,6.31327], Tmin=(542.917,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89232,0.00654636,0.0001059,-2.278e-07,1.43749e-10,-82388.8,10.1716], Tmin=(10,'K'), Tmax=(542.917,'K')),
+            NASAPolynomial(coeffs=[4.05322,0.0287926,-2.03014e-05,6.66188e-09,-8.20875e-13,-82751.6,6.31327], Tmin=(542.917,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-689.201,'kJ/mol'),
+        E0 = (-685.057,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -18550,13 +19543,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 507,
+    index = 534,
     label = "CC(F)D[C]O",
     molecule = 
 """
@@ -18573,12 +19566,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88907,0.00863872,0.000129115,-3.72839e-07,3.30932e-10,-15373.3,9.06595], Tmin=(10,'K'), Tmax=(369.752,'K')),
-            NASAPolynomial(coeffs=[3.34609,0.0298074,-1.88088e-05,5.73945e-09,-6.74839e-13,-15437.7,9.7315], Tmin=(369.752,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88907,0.00863872,0.000129115,-3.72839e-07,3.30932e-10,-13710.7,9.06595], Tmin=(10,'K'), Tmax=(369.752,'K')),
+            NASAPolynomial(coeffs=[3.34609,0.0298074,-1.88088e-05,5.73945e-09,-6.74839e-13,-13775.1,9.7315], Tmin=(369.752,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-127.808,'kJ/mol'),
+        E0 = (-113.985,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -18587,13 +19580,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 508,
+    index = 535,
     label = "FC1D[C]C1",
     molecule = 
 """
@@ -18607,12 +19600,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.97411,0.00149413,5.29283e-05,-9.24853e-08,5.03575e-11,41884.7,8.27749], Tmin=(10,'K'), Tmax=(557.971,'K')),
-            NASAPolynomial(coeffs=[1.90318,0.0214756,-1.45936e-05,4.68478e-09,-5.70183e-13,42035.8,16.3439], Tmin=(557.971,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.97411,0.00149413,5.29283e-05,-9.24853e-08,5.03575e-11,42696.1,8.27749], Tmin=(10,'K'), Tmax=(557.971,'K')),
+            NASAPolynomial(coeffs=[1.90318,0.0214756,-1.45936e-05,4.68478e-09,-5.70183e-13,42847.2,16.3439], Tmin=(557.971,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (348.237,'kJ/mol'),
+        E0 = (354.984,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -18621,13 +19614,91 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 509,
+    index = 536,
+    label = "FCCC(F)CF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {12,S}
+5  F u0 p3 c0 {4,S}
+6  C u0 p0 c0 {4,S} {7,S} {13,S} {14,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.86715,0.0340966,8.54223e-06,-2.54384e-08,9.26003e-12,-86680.3,11.0887], Tmin=(10,'K'), Tmax=(1143.66,'K')),
+            NASAPolynomial(coeffs=[9.3296,0.0341554,-1.667e-05,3.91015e-09,-3.58308e-13,-89183,-21.4769], Tmin=(1143.66,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-720.631,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (332.579,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 5.007 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 537,
+    label = "C#CC(F)CF",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,T} {7,S}
+2  C u0 p0 c0 {1,T} {3,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4  F u0 p3 c0 {3,S}
+5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78601,0.0185002,7.42929e-05,-2.01851e-07,1.54709e-10,-25282.1,10.6568], Tmin=(10,'K'), Tmax=(427.257,'K')),
+            NASAPolynomial(coeffs=[3.03353,0.0359165,-2.32634e-05,7.18449e-09,-8.47708e-13,-25312.5,12.5394], Tmin=(427.257,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-210.215,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 538,
     label = "OD[C]COF",
     molecule = 
 """
@@ -18642,12 +19713,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77461,0.0212136,-5.48434e-06,-9.98611e-09,6.23707e-12,-5892.48,10.4981], Tmin=(10,'K'), Tmax=(830.674,'K')),
-            NASAPolynomial(coeffs=[5.6814,0.0180938,-1.07977e-05,3.06371e-09,-3.34513e-13,-6418.42,0.39373], Tmin=(830.674,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77461,0.0212136,-5.48434e-06,-9.98611e-09,6.23707e-12,-5230.11,10.4981], Tmin=(10,'K'), Tmax=(830.674,'K')),
+            NASAPolynomial(coeffs=[5.6814,0.0180938,-1.07977e-05,3.06371e-09,-3.34513e-13,-5756.05,0.39373], Tmin=(830.674,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-49.0082,'kJ/mol'),
+        E0 = (-43.5009,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -18656,13 +19727,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 510,
+    index = 539,
     label = "[CH]DCOF",
     molecule = 
 """
@@ -18676,12 +19747,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93158,0.00416179,6.72687e-05,-1.44787e-07,9.16212e-11,29786,8.89814], Tmin=(10,'K'), Tmax=(542.252,'K')),
-            NASAPolynomial(coeffs=[4.10513,0.0178878,-1.22115e-05,3.96399e-09,-4.88391e-13,29546.6,6.13281], Tmin=(542.252,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93158,0.00416179,6.72687e-05,-1.44787e-07,9.16212e-11,30461.4,8.89814], Tmin=(10,'K'), Tmax=(542.252,'K')),
+            NASAPolynomial(coeffs=[4.10513,0.0178878,-1.22115e-05,3.96399e-09,-4.88391e-13,30221.9,6.13281], Tmin=(542.252,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (247.631,'kJ/mol'),
+        E0 = (253.246,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -18690,13 +19761,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 511,
+    index = 540,
     label = "F[CH]CDC(F)F",
     molecule = 
 """
@@ -18732,7 +19803,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.328 kJ/mol
 )
 
 entry(
-    index = 512,
+    index = 541,
     label = "OC(O)C(F)F",
     molecule = 
 """
@@ -18769,7 +19840,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.635 kJ/mol
 )
 
 entry(
-    index = 513,
+    index = 542,
     label = "O[C](O)F",
     molecule = 
 """
@@ -18803,7 +19874,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.327 kJ/mol
 )
 
 entry(
-    index = 514,
+    index = 543,
     label = "[O]CCCF",
     molecule = 
 """
@@ -18842,7 +19913,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.663 kJ/mol
 )
 
 entry(
-    index = 515,
+    index = 544,
     label = "OCD[C]F",
     molecule = 
 """
@@ -18876,7 +19947,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.843 kJ/mol
 )
 
 entry(
-    index = 516,
+    index = 545,
     label = "FCD[C]COF",
     molecule = 
 """
@@ -18893,12 +19964,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81642,0.0315358,-2.01441e-05,5.69765e-09,-5.16697e-13,3062.46,11.4454], Tmin=(10,'K'), Tmax=(1492.39,'K')),
-            NASAPolynomial(coeffs=[13.2438,0.0110272,-4.31474e-06,7.63492e-10,-4.81239e-14,-281.436,-39.5868], Tmin=(1492.39,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81642,0.0315358,-2.01441e-05,5.69765e-09,-5.16697e-13,4077.22,11.4454], Tmin=(10,'K'), Tmax=(1492.39,'K')),
+            NASAPolynomial(coeffs=[13.2438,0.0110272,-4.31474e-06,7.63492e-10,-4.81239e-14,733.324,-39.5868], Tmin=(1492.39,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (25.4665,'kJ/mol'),
+        E0 = (33.9037,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -18907,13 +19978,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 517,
+    index = 546,
     label = "OC1DC[C]1F",
     molecule = 
 """
@@ -18928,27 +19999,64 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92084,0.00462622,8.10315e-05,-1.63322e-07,9.68679e-11,10556.9,9.71928], Tmin=(10,'K'), Tmax=(575.039,'K')),
-            NASAPolynomial(coeffs=[3.81554,0.0237259,-1.67014e-05,5.5291e-09,-6.89268e-13,10265.4,7.52854], Tmin=(575.039,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92084,0.00462622,8.10315e-05,-1.63322e-07,9.68679e-11,10644.3,9.71928], Tmin=(10,'K'), Tmax=(575.039,'K')),
+            NASAPolynomial(coeffs=[3.81554,0.0237259,-1.67014e-05,5.5291e-09,-6.89268e-13,10352.7,7.52854], Tmin=(575.039,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (87.7427,'kJ/mol'),
+        E0 = (88.4689,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.307 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 518,
+    index = 547,
+    label = "OC(F)CDCF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,D} {9,S}
+5  C u0 p0 c0 {4,D} {6,S} {10,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81062,0.0155819,8.18568e-05,-1.94106e-07,1.31671e-10,-67342.5,10.7553], Tmin=(10,'K'), Tmax=(488.916,'K')),
+            NASAPolynomial(coeffs=[3.00294,0.0360246,-2.33071e-05,7.16842e-09,-8.41459e-13,-67428.9,12.3829], Tmin=(488.916,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-559.941,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 548,
     label = "C[C](O)CF",
     molecule = 
 """
@@ -18967,12 +20075,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.74827,0.0237817,1.53697e-05,-3.4471e-08,1.47989e-11,-39341.8,9.41176], Tmin=(10,'K'), Tmax=(854.062,'K')),
-            NASAPolynomial(coeffs=[3.57162,0.0339565,-1.89175e-05,5.10797e-09,-5.37724e-13,-39652.5,8.2403], Tmin=(854.062,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.74827,0.0237817,1.53697e-05,-3.4471e-08,1.47989e-11,-36726,9.41176], Tmin=(10,'K'), Tmax=(854.062,'K')),
+            NASAPolynomial(coeffs=[3.57162,0.0339565,-1.89175e-05,5.10797e-09,-5.37724e-13,-37036.7,8.2403], Tmin=(854.062,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-327.118,'kJ/mol'),
+        E0 = (-305.368,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -18981,13 +20089,48 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 519,
+    index = 549,
+    label = "[C]#CC(F)OF",
+    molecule = 
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,T}
+2 C u0 p0 c0 {1,T} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+4 F u0 p3 c0 {3,S}
+5 O u0 p2 c0 {3,S} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.73841,0.0305358,-2.95234e-05,1.49849e-08,-3.18104e-12,34775.6,11.067], Tmin=(10,'K'), Tmax=(1027.02,'K')),
+            NASAPolynomial(coeffs=[6.82111,0.0185294,-1.19878e-05,3.60215e-09,-4.10242e-13,34142.4,-3.88746], Tmin=(1027.02,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (289.128,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 550,
     label = "O[C]DCF",
     molecule = 
 """
@@ -19021,7 +20164,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.145 kJ/mol
 )
 
 entry(
-    index = 520,
+    index = 551,
     label = "[O]OCCF",
     molecule = 
 """
@@ -19058,7 +20201,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.341 kJ/mol
 )
 
 entry(
-    index = 521,
+    index = 552,
     label = "F[CH]C(F)F",
     molecule = 
 """
@@ -19093,7 +20236,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.534 kJ/mol
 )
 
 entry(
-    index = 522,
+    index = 553,
     label = "FCD[C]C(F)(F)F",
     molecule = 
 """
@@ -19109,12 +20252,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.67253,0.0301771,3.21473e-07,-4.09551e-08,2.73634e-11,-67746.6,11.2836], Tmin=(10,'K'), Tmax=(677.169,'K')),
-            NASAPolynomial(coeffs=[7.02681,0.0239963,-1.61851e-05,5.02493e-09,-5.87339e-13,-68513.5,-5.89918], Tmin=(677.169,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.67253,0.0301771,3.21473e-07,-4.09551e-08,2.73634e-11,-67842.5,11.2836], Tmin=(10,'K'), Tmax=(677.169,'K')),
+            NASAPolynomial(coeffs=[7.02681,0.0239963,-1.61851e-05,5.02493e-09,-5.87339e-13,-68609.4,-5.89918], Tmin=(677.169,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-563.315,'kJ/mol'),
+        E0 = (-564.113,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -19123,13 +20266,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 523,
+    index = 554,
     label = "C[C](C)CF",
     molecule = 
 """
@@ -19170,7 +20313,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.156 kJ/mol
 )
 
 entry(
-    index = 524,
+    index = 555,
     label = "FC1DC[CH]O1",
     molecule = 
 """
@@ -19205,7 +20348,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.36 kJ/mol
 )
 
 entry(
-    index = 525,
+    index = 556,
     label = "CDCDC([O])F",
     molecule = 
 """
@@ -19240,7 +20383,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.927 kJ/mol
 )
 
 entry(
-    index = 526,
+    index = 557,
     label = "[O]OCDC(F)F",
     molecule = 
 """
@@ -19275,7 +20418,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.295 kJ/mol
 )
 
 entry(
-    index = 527,
+    index = 558,
     label = "CC(C)C(F)F",
     molecule = 
 """
@@ -19316,7 +20459,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.491 kJ/mol
 )
 
 entry(
-    index = 528,
+    index = 559,
     label = "[C]#CCOF",
     molecule = 
 """
@@ -19351,7 +20494,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.995 kJ/mol
 )
 
 entry(
-    index = 529,
+    index = 560,
     label = "FOC1DCC1",
     molecule = 
 """
@@ -19366,12 +20509,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91956,0.00506472,9.75854e-05,-2.10161e-07,1.36884e-10,28051,9.62063], Tmin=(10,'K'), Tmax=(508.11,'K')),
-            NASAPolynomial(coeffs=[3.09785,0.0279643,-1.85227e-05,5.82073e-09,-6.96244e-13,27922.4,10.9414], Tmin=(508.11,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91956,0.00506472,9.75854e-05,-2.10161e-07,1.36884e-10,29226.7,9.62063], Tmin=(10,'K'), Tmax=(508.11,'K')),
+            NASAPolynomial(coeffs=[3.09785,0.0279643,-1.85227e-05,5.82073e-09,-6.96244e-13,29098.1,10.9414], Tmin=(508.11,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (233.206,'kJ/mol'),
+        E0 = (242.981,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -19380,13 +20523,49 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 530,
+    index = 561,
+    label = "[O]C(F)CF",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+5 F u0 p3 c0 {4,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89192,0.011763,4.0595e-05,-7.42083e-08,3.65635e-11,-52426.7,10.3988], Tmin=(10,'K'), Tmax=(700.292,'K')),
+            NASAPolynomial(coeffs=[3.55393,0.025949,-1.60418e-05,4.69946e-09,-5.27493e-13,-52679.8,9.76341], Tmin=(700.292,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-435.907,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 562,
     label = "OC1C(F)C1F",
     molecule = 
 """
@@ -19403,12 +20582,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88497,0.00779784,0.00013598,-3.19457e-07,2.28563e-10,-57265.4,10.5731], Tmin=(10,'K'), Tmax=(458.511,'K')),
-            NASAPolynomial(coeffs=[2.77767,0.0371632,-2.45526e-05,7.68547e-09,-9.14839e-13,-57370.9,12.793], Tmin=(458.511,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88497,0.00779784,0.00013598,-3.19457e-07,2.28563e-10,-55696.6,10.5731], Tmin=(10,'K'), Tmax=(458.511,'K')),
+            NASAPolynomial(coeffs=[2.77767,0.0371632,-2.45526e-05,7.68547e-09,-9.14839e-13,-55802.2,12.793], Tmin=(458.511,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-476.148,'kJ/mol'),
+        E0 = (-463.105,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -19417,13 +20596,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 531,
+    index = 563,
     label = "FC(F)[C]1OO1",
     molecule = 
 """
@@ -19458,7 +20637,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.742 kJ/mol
 )
 
 entry(
-    index = 532,
+    index = 564,
     label = "FCDCO[C](F)F",
     molecule = 
 """
@@ -19495,7 +20674,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.403 kJ/mol
 )
 
 entry(
-    index = 533,
+    index = 565,
     label = "O[CH]F",
     molecule = 
 """
@@ -19528,7 +20707,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.39 kJ/mol
 )
 
 entry(
-    index = 534,
+    index = 566,
     label = "CDC(F)CF",
     molecule = 
 """
@@ -19564,7 +20743,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.23 kJ/mol
 )
 
 entry(
-    index = 535,
+    index = 567,
     label = "CC(DCF)OF",
     molecule = 
 """
@@ -19581,12 +20760,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.68338,0.0276492,2.41286e-05,-8.86592e-08,6.33887e-11,-29698,9.71823], Tmin=(10,'K'), Tmax=(507.365,'K')),
-            NASAPolynomial(coeffs=[3.99192,0.0342046,-2.18247e-05,6.63798e-09,-7.72582e-13,-29845,7.29902], Tmin=(507.365,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.68338,0.0276492,2.41286e-05,-8.86592e-08,6.33887e-11,-28221.4,9.71823], Tmin=(10,'K'), Tmax=(507.365,'K')),
+            NASAPolynomial(coeffs=[3.99192,0.0342046,-2.18247e-05,6.63798e-09,-7.72582e-13,-28368.4,7.29902], Tmin=(507.365,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-246.953,'kJ/mol'),
+        E0 = (-234.676,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -19595,13 +20774,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 536,
+    index = 568,
     label = "OOCF",
     molecule = 
 """
@@ -19635,7 +20814,42 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.244 kJ/mol
 )
 
 entry(
-    index = 537,
+    index = 569,
+    label = "[O]C(F)C#CF",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,T}
+5 C u0 p0 c0 {4,T} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76083,0.0200599,4.16837e-05,-1.478e-07,1.18981e-10,-8343.11,11.5256], Tmin=(10,'K'), Tmax=(468.544,'K')),
+            NASAPolynomial(coeffs=[5.32572,0.0223427,-1.57029e-05,5.10626e-09,-6.23023e-13,-8661.45,3.32999], Tmin=(468.544,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-69.3893,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (157.975,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 570,
     label = "F[C]1COC1F",
     molecule = 
 """
@@ -19652,12 +20866,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93073,0.00421986,0.000107626,-2.11907e-07,1.28481e-10,-38012.4,11.4121], Tmin=(10,'K'), Tmax=(524.682,'K')),
-            NASAPolynomial(coeffs=[1.64335,0.0359865,-2.4154e-05,7.58246e-09,-9.0067e-13,-37969.6,19.0927], Tmin=(524.682,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93073,0.00421986,0.000107626,-2.11907e-07,1.28481e-10,-36978.6,11.4121], Tmin=(10,'K'), Tmax=(524.682,'K')),
+            NASAPolynomial(coeffs=[1.64335,0.0359865,-2.4154e-05,7.58246e-09,-9.0067e-13,-36935.8,19.0927], Tmin=(524.682,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-316.077,'kJ/mol'),
+        E0 = (-307.482,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -19666,13 +20880,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 538,
+    index = 571,
     label = "CO[CH]C(F)F",
     molecule = 
 """
@@ -19711,7 +20925,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.204 kJ/mol
 )
 
 entry(
-    index = 539,
+    index = 572,
     label = "CC(DO)C(F)(F)F",
     molecule = 
 """
@@ -19748,7 +20962,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.074 kJ/mol
 )
 
 entry(
-    index = 540,
+    index = 573,
     label = "FCCCDC(F)F",
     molecule = 
 """
@@ -19787,7 +21001,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.135 kJ/mol
 )
 
 entry(
-    index = 541,
+    index = 574,
     label = "COO[CH]F",
     molecule = 
 """
@@ -19824,7 +21038,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.085 kJ/mol
 )
 
 entry(
-    index = 542,
+    index = 575,
     label = "[CH]DC(F)CF",
     molecule = 
 """
@@ -19840,12 +21054,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89252,0.00809219,8.72318e-05,-2.06757e-07,1.47037e-10,-14659.5,10.4363], Tmin=(10,'K'), Tmax=(460.925,'K')),
-            NASAPolynomial(coeffs=[3.09179,0.0277681,-1.82178e-05,5.66762e-09,-6.71443e-13,-14720.9,12.2127], Tmin=(460.925,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89252,0.00809219,8.72318e-05,-2.06757e-07,1.47037e-10,-13547.3,10.4363], Tmin=(10,'K'), Tmax=(460.925,'K')),
+            NASAPolynomial(coeffs=[3.09179,0.0277681,-1.82178e-05,5.66762e-09,-6.71443e-13,-13608.7,12.2127], Tmin=(460.925,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-121.899,'kJ/mol'),
+        E0 = (-112.651,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -19854,13 +21068,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 543,
+    index = 576,
     label = "FC1OC(F)O1",
     molecule = 
 """
@@ -19895,7 +21109,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.964 kJ/mol
 )
 
 entry(
-    index = 544,
+    index = 577,
     label = "OC[CH]CF",
     molecule = 
 """
@@ -19934,7 +21148,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.663 kJ/mol
 )
 
 entry(
-    index = 545,
+    index = 578,
     label = "[CH2]C(DO)F",
     molecule = 
 """
@@ -19968,7 +21182,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.289 kJ/mol
 )
 
 entry(
-    index = 546,
+    index = 579,
     label = "FCC1DC[C]1F",
     molecule = 
 """
@@ -19985,12 +21199,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.83526,0.02204,1.24935e-05,-3.2661e-08,1.44985e-11,5672.79,11.5492], Tmin=(10,'K'), Tmax=(887.053,'K')),
-            NASAPolynomial(coeffs=[5.91315,0.0254389,-1.4846e-05,4.11365e-09,-4.39172e-13,4801.79,-1.05805], Tmin=(887.053,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.83526,0.02204,1.24935e-05,-3.2661e-08,1.44985e-11,6823.65,11.5492], Tmin=(10,'K'), Tmax=(887.053,'K')),
+            NASAPolynomial(coeffs=[5.91315,0.0254389,-1.4846e-05,4.11365e-09,-4.39172e-13,5952.65,-1.05805], Tmin=(887.053,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (47.1881,'kJ/mol'),
+        E0 = (56.7569,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -19999,13 +21213,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 547,
+    index = 580,
     label = "FOCC(F)F",
     molecule = 
 """
@@ -20021,12 +21235,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81261,0.0242207,5.19045e-06,-2.37001e-08,1.07417e-11,-65491.5,10.8659], Tmin=(10,'K'), Tmax=(924.366,'K')),
-            NASAPolynomial(coeffs=[6.47833,0.0243729,-1.40224e-05,3.83486e-09,-4.04734e-13,-66483.6,-4.48588], Tmin=(924.366,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81261,0.0242207,5.19045e-06,-2.37001e-08,1.07417e-11,-64609.2,10.8659], Tmin=(10,'K'), Tmax=(924.366,'K')),
+            NASAPolynomial(coeffs=[6.47833,0.0243729,-1.40224e-05,3.83486e-09,-4.04734e-13,-65601.4,-4.48588], Tmin=(924.366,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-544.506,'kJ/mol'),
+        E0 = (-537.171,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -20035,13 +21249,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 548,
+    index = 581,
     label = "FC[C](F)CF",
     molecule = 
 """
@@ -20079,7 +21293,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.455 kJ/mol
 )
 
 entry(
-    index = 549,
+    index = 582,
     label = "FCC1[CH]O1",
     molecule = 
 """
@@ -20116,7 +21330,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.33 kJ/mol
 )
 
 entry(
-    index = 550,
+    index = 583,
     label = "[O]OCDCF",
     molecule = 
 """
@@ -20151,7 +21365,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.577 kJ/mol
 )
 
 entry(
-    index = 551,
+    index = 584,
     label = "[O]C(F)DCO",
     molecule = 
 """
@@ -20186,7 +21400,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.264 kJ/mol
 )
 
 entry(
-    index = 552,
+    index = 585,
     label = "CC([CH]F)OF",
     molecule = 
 """
@@ -20205,12 +21419,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.61082,0.0369623,-1.79254e-05,-5.4592e-10,2.15712e-12,-21630.6,11.679], Tmin=(10,'K'), Tmax=(1049.43,'K')),
-            NASAPolynomial(coeffs=[7.73054,0.0281402,-1.51503e-05,3.93881e-09,-3.99596e-13,-22874.1,-10.2002], Tmin=(1049.43,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.61082,0.0369623,-1.79254e-05,-5.4592e-10,2.15712e-12,-19662.6,11.679], Tmin=(10,'K'), Tmax=(1049.43,'K')),
+            NASAPolynomial(coeffs=[7.73054,0.0281402,-1.51503e-05,3.93881e-09,-3.99596e-13,-20906.1,-10.2002], Tmin=(1049.43,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-179.867,'kJ/mol'),
+        E0 = (-163.504,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -20219,13 +21433,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 553,
+    index = 586,
     label = "OC(O)CF",
     molecule = 
 """
@@ -20262,7 +21476,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.872 kJ/mol
 )
 
 entry(
-    index = 554,
+    index = 587,
     label = "C[C](F)C#CF",
     molecule = 
 """
@@ -20279,27 +21493,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81675,0.0183228,0.000178613,-8.74334e-07,1.24375e-09,-823.775,10.1594], Tmin=(10,'K'), Tmax=(245.545,'K')),
-            NASAPolynomial(coeffs=[4.35262,0.0301998,-1.9823e-05,6.20501e-09,-7.42168e-13,-912.211,7.06169], Tmin=(245.545,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81675,0.0183228,0.000178613,-8.74334e-07,1.24375e-09,-913.889,10.1594], Tmin=(10,'K'), Tmax=(245.545,'K')),
+            NASAPolynomial(coeffs=[4.35262,0.0301998,-1.9823e-05,6.20501e-09,-7.42168e-13,-1002.33,7.06169], Tmin=(245.545,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-6.82618,'kJ/mol'),
+        E0 = (-7.57543,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.014 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 555,
+    index = 588,
     label = "ODC1[C]DC1F",
     molecule = 
 """
@@ -20332,7 +21546,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.518 kJ/mol
 )
 
 entry(
-    index = 556,
+    index = 589,
     label = "CC[CH]F",
     molecule = 
 """
@@ -20370,7 +21584,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.505 kJ/mol
 )
 
 entry(
-    index = 557,
+    index = 590,
     label = "[CH]DCCCF",
     molecule = 
 """
@@ -20409,7 +21623,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.916 kJ/mol
 )
 
 entry(
-    index = 558,
+    index = 591,
     label = "COCF",
     molecule = 
 """
@@ -20445,7 +21659,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.944 kJ/mol
 )
 
 entry(
-    index = 559,
+    index = 592,
     label = "O[C]DC(F)F",
     molecule = 
 """
@@ -20479,7 +21693,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.797 kJ/mol
 )
 
 entry(
-    index = 560,
+    index = 593,
     label = "F[C]1CCC1F",
     molecule = 
 """
@@ -20498,12 +21712,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92976,0.00429616,0.000129022,-2.48341e-07,1.49463e-10,-25885.8,11.506], Tmin=(10,'K'), Tmax=(514.58,'K')),
-            NASAPolynomial(coeffs=[0.528214,0.044637,-2.90886e-05,8.99205e-09,-1.06034e-12,-25719.7,23.8683], Tmin=(514.58,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92976,0.00429616,0.000129022,-2.48341e-07,1.49463e-10,-23781.7,11.506], Tmin=(10,'K'), Tmax=(514.58,'K')),
+            NASAPolynomial(coeffs=[0.528214,0.044637,-2.90886e-05,8.99205e-09,-1.06034e-12,-23615.6,23.8683], Tmin=(514.58,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-215.25,'kJ/mol'),
+        E0 = (-197.756,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -20512,13 +21726,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 561,
+    index = 594,
     label = "CCO[C](F)F",
     molecule = 
 """
@@ -20557,7 +21771,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.896 kJ/mol
 )
 
 entry(
-    index = 562,
+    index = 595,
     label = "CC1(F)[C]DC1",
     molecule = 
 """
@@ -20574,12 +21788,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91904,0.00499514,0.000105841,-2.18379e-07,1.37326e-10,27062,8.63927], Tmin=(10,'K'), Tmax=(521.094,'K')),
-            NASAPolynomial(coeffs=[2.65974,0.0317842,-2.05608e-05,6.39155e-09,-7.62242e-13,26960.7,11.6632], Tmin=(521.094,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91904,0.00499514,0.000105841,-2.18379e-07,1.37326e-10,28816.9,8.63927], Tmin=(10,'K'), Tmax=(521.094,'K')),
+            NASAPolynomial(coeffs=[2.65974,0.0317842,-2.05608e-05,6.39155e-09,-7.62242e-13,28715.7,11.6632], Tmin=(521.094,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (224.979,'kJ/mol'),
+        E0 = (239.571,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -20588,13 +21802,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 563,
+    index = 596,
     label = "OCDC[CH]F",
     molecule = 
 """
@@ -20631,7 +21845,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.75 kJ/mol
 )
 
 entry(
-    index = 564,
+    index = 597,
     label = "C#CC(F)(F)[C](F)F",
     molecule = 
 """
@@ -20668,7 +21882,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.878 kJ/mol
 )
 
 entry(
-    index = 565,
+    index = 598,
     label = "[CH]DCCF",
     molecule = 
 """
@@ -20704,7 +21918,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.522 kJ/mol
 )
 
 entry(
-    index = 566,
+    index = 599,
     label = "FCDCCC(F)F",
     molecule = 
 """
@@ -20743,7 +21957,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.874 kJ/mol
 )
 
 entry(
-    index = 567,
+    index = 600,
     label = "OD[C]CCF",
     molecule = 
 """
@@ -20780,7 +21994,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.064 kJ/mol
 )
 
 entry(
-    index = 568,
+    index = 601,
     label = "FC#C[C](F)F",
     molecule = 
 """
@@ -20814,7 +22028,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.595 kJ/mol
 )
 
 entry(
-    index = 569,
+    index = 602,
     label = "F[C]DCC(F)(F)F",
     molecule = 
 """
@@ -20830,12 +22044,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.74308,0.0212427,6.37337e-05,-1.85537e-07,1.33076e-10,-69379.8,11.237], Tmin=(10,'K'), Tmax=(515.445,'K')),
-            NASAPolynomial(coeffs=[5.79676,0.027622,-1.97743e-05,6.46722e-09,-7.89396e-13,-69888,-0.185499], Tmin=(515.445,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.74308,0.0212427,6.37337e-05,-1.85537e-07,1.33076e-10,-69475.7,11.237], Tmin=(10,'K'), Tmax=(515.445,'K')),
+            NASAPolynomial(coeffs=[5.79676,0.027622,-1.97743e-05,6.46722e-09,-7.89396e-13,-69983.8,-0.185499], Tmin=(515.445,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-576.896,'kJ/mol'),
+        E0 = (-577.693,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -20844,13 +22058,48 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 570,
+    index = 603,
+    label = "C#CC(F)OF",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,T} {7,S}
+2 C u0 p0 c0 {1,T} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4 F u0 p3 c0 {3,S}
+5 O u0 p2 c0 {3,S} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82457,0.0128452,0.000114926,-3.30676e-07,2.69442e-10,-5559.51,10.6729], Tmin=(10,'K'), Tmax=(432.475,'K')),
+            NASAPolynomial(coeffs=[4.93434,0.0270028,-1.88839e-05,6.16739e-09,-7.57466e-13,-5883.89,3.60863], Tmin=(432.475,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-46.2332,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 604,
     label = "F[C]1CDC1F",
     molecule = 
 """
@@ -20884,7 +22133,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.831 kJ/mol
 )
 
 entry(
-    index = 571,
+    index = 605,
     label = "[CH]DC(C)F",
     molecule = 
 """
@@ -20900,12 +22149,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.944,0.00349571,8.53512e-05,-1.73906e-07,1.09924e-10,5147.83,7.84012], Tmin=(10,'K'), Tmax=(506.229,'K')),
-            NASAPolynomial(coeffs=[2.51035,0.0263282,-1.63917e-05,4.97335e-09,-5.84699e-13,5145.57,12.3247], Tmin=(506.229,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.944,0.00349571,8.53512e-05,-1.73906e-07,1.09924e-10,6864.13,7.84012], Tmin=(10,'K'), Tmax=(506.229,'K')),
+            NASAPolynomial(coeffs=[2.51035,0.0263282,-1.63917e-05,4.97335e-09,-5.84699e-13,6861.87,12.3247], Tmin=(506.229,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (42.7847,'kJ/mol'),
+        E0 = (57.0548,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -20914,13 +22163,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 572,
+    index = 606,
     label = "C[C](F)OCF",
     molecule = 
 """
@@ -20959,7 +22208,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.865 kJ/mol
 )
 
 entry(
-    index = 573,
+    index = 607,
     label = "C#CC(F)D[C]F",
     molecule = 
 """
@@ -20994,7 +22243,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.427 kJ/mol
 )
 
 entry(
-    index = 574,
+    index = 608,
+    label = "[C]#CC(F)CF",
+    molecule = 
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,T}
+2 C u0 p0 c0 {1,T} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+4 F u0 p3 c0 {3,S}
+5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.75098,0.0270987,-6.07652e-06,-9.48954e-09,4.92073e-12,15903.8,11.2087], Tmin=(10,'K'), Tmax=(1014.62,'K')),
+            NASAPolynomial(coeffs=[7.08173,0.0227487,-1.26273e-05,3.34465e-09,-3.43359e-13,14775.9,-7.13593], Tmin=(1014.62,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (132.236,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 609,
     label = "[O]CCOF",
     molecule = 
 """
@@ -21011,12 +22297,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85334,0.0187418,1.80684e-05,-3.66022e-08,1.565e-11,-9225.08,10.4231], Tmin=(10,'K'), Tmax=(872.284,'K')),
-            NASAPolynomial(coeffs=[4.75355,0.026325,-1.5111e-05,4.14784e-09,-4.40487e-13,-9827.67,3.64922], Tmin=(872.284,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85334,0.0187418,1.80684e-05,-3.66022e-08,1.565e-11,-7649.21,10.4231], Tmin=(10,'K'), Tmax=(872.284,'K')),
+            NASAPolynomial(coeffs=[4.75355,0.026325,-1.5111e-05,4.14784e-09,-4.40487e-13,-8251.8,3.64922], Tmin=(872.284,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-76.6852,'kJ/mol'),
+        E0 = (-63.5827,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -21025,13 +22311,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 575,
+    index = 610,
     label = "OC[C](O)F",
     molecule = 
 """
@@ -21068,7 +22354,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.037 kJ/mol
 )
 
 entry(
-    index = 576,
+    index = 611,
     label = "C[C](CF)CF",
     molecule = 
 """
@@ -21109,7 +22395,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.905 kJ/mol
 )
 
 entry(
-    index = 577,
+    index = 612,
     label = "FCD[C]CCF",
     molecule = 
 """
@@ -21128,12 +22414,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58086,0.0461404,-0.000152909,4.3049e-07,-4.16579e-10,-20071.7,12.0377], Tmin=(10,'K'), Tmax=(371.913,'K')),
-            NASAPolynomial(coeffs=[1.46075,0.0418589,-2.64074e-05,7.92562e-09,-9.11214e-13,-19726.7,22.6872], Tmin=(371.913,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58086,0.0461404,-0.000152909,4.3049e-07,-4.16579e-10,-18016,12.0377], Tmin=(10,'K'), Tmax=(371.913,'K')),
+            NASAPolynomial(coeffs=[1.46075,0.0418589,-2.64074e-05,7.92562e-09,-9.11214e-13,-17671,22.6872], Tmin=(371.913,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-166.903,'kJ/mol'),
+        E0 = (-149.811,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -21142,13 +22428,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 578,
+    index = 613,
     label = "FC1DC[CH]C1",
     molecule = 
 """
@@ -21165,12 +22451,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.9427,0.00335575,9.57322e-05,-1.75807e-07,9.97692e-11,12424.7,9.76288], Tmin=(10,'K'), Tmax=(554.639,'K')),
-            NASAPolynomial(coeffs=[1.27097,0.0349799,-2.32101e-05,7.32551e-09,-8.80744e-13,12531.1,19.3643], Tmin=(554.639,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.9427,0.00335575,9.57322e-05,-1.75807e-07,9.97692e-11,14179.7,9.76288], Tmin=(10,'K'), Tmax=(554.639,'K')),
+            NASAPolynomial(coeffs=[1.27097,0.0349799,-2.32101e-05,7.32551e-09,-8.80744e-13,14286,19.3643], Tmin=(554.639,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (103.281,'kJ/mol'),
+        E0 = (117.873,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -21179,13 +22465,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 579,
+    index = 614,
     label = "CO[C](F)F",
     molecule = 
 """
@@ -21221,7 +22507,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.93 kJ/mol
 )
 
 entry(
-    index = 580,
+    index = 615,
     label = "FCOF",
     molecule = 
 """
@@ -21234,12 +22520,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.97303,0.00163955,5.66317e-05,-1.06074e-07,6.25169e-11,-37957,8.78835], Tmin=(10,'K'), Tmax=(513.345,'K')),
-            NASAPolynomial(coeffs=[2.18061,0.0206392,-1.3592e-05,4.22288e-09,-4.99041e-13,-37839.3,15.5946], Tmin=(513.345,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.97303,0.00163955,5.66317e-05,-1.06074e-07,6.25169e-11,-37414.2,8.78835], Tmin=(10,'K'), Tmax=(513.345,'K')),
+            NASAPolynomial(coeffs=[2.18061,0.0206392,-1.3592e-05,4.22288e-09,-4.99041e-13,-37296.5,15.5946], Tmin=(513.345,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-315.602,'kJ/mol'),
+        E0 = (-311.089,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -21248,13 +22534,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 581,
+    index = 616,
     label = "CC(O)[CH]F",
     molecule = 
 """
@@ -21273,12 +22559,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81951,0.0165671,0.000100171,-3.0845e-07,3.01557e-10,-35653.7,10.4755], Tmin=(10,'K'), Tmax=(260.687,'K')),
-            NASAPolynomial(coeffs=[2.42328,0.037991,-2.31032e-05,6.80512e-09,-7.74982e-13,-35580.9,15.3344], Tmin=(260.687,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81951,0.0165671,0.000100171,-3.0845e-07,3.01557e-10,-33037.8,10.4755], Tmin=(10,'K'), Tmax=(260.687,'K')),
+            NASAPolynomial(coeffs=[2.42328,0.037991,-2.31032e-05,6.80512e-09,-7.74982e-13,-32965,15.3344], Tmin=(260.687,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-296.434,'kJ/mol'),
+        E0 = (-274.685,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -21287,13 +22573,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 582,
+    index = 617,
     label = "COC(F)D[C]F",
     molecule = 
 """
@@ -21330,7 +22616,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.554 kJ/mol
 )
 
 entry(
-    index = 583,
+    index = 618,
     label = "FCD[C]C(F)F",
     molecule = 
 """
@@ -21346,12 +22632,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79104,0.0263788,-1.105e-05,-3.68758e-09,2.90749e-12,-39682.1,11.414], Tmin=(10,'K'), Tmax=(1050.43,'K')),
-            NASAPolynomial(coeffs=[8.10078,0.0177452,-9.82798e-06,2.58581e-09,-2.63207e-13,-41016.6,-11.6326], Tmin=(1050.43,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79104,0.0263788,-1.105e-05,-3.68758e-09,2.90749e-12,-39173.9,11.414], Tmin=(10,'K'), Tmax=(1050.43,'K')),
+            NASAPolynomial(coeffs=[8.10078,0.0177452,-9.82798e-06,2.58581e-09,-2.63207e-13,-40508.4,-11.6326], Tmin=(1050.43,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-329.92,'kJ/mol'),
+        E0 = (-325.694,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -21360,13 +22646,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 584,
+    index = 619,
     label = "OC(F)DCDCF",
     molecule = 
 """
@@ -21381,12 +22667,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77273,0.0190462,5.23554e-05,-1.58837e-07,1.20791e-10,-43427.3,10.9488], Tmin=(10,'K'), Tmax=(473.4,'K')),
-            NASAPolynomial(coeffs=[4.61775,0.0265792,-1.80058e-05,5.72257e-09,-6.87706e-13,-43671.7,5.76744], Tmin=(473.4,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77273,0.0190463,5.23545e-05,-1.58834e-07,1.20788e-10,-42860.2,10.9488], Tmin=(10,'K'), Tmax=(473.403,'K')),
+            NASAPolynomial(coeffs=[4.61778,0.0265791,-1.80057e-05,5.72253e-09,-6.87701e-13,-43104.6,5.76731], Tmin=(473.403,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-361.096,'kJ/mol'),
+        E0 = (-356.381,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -21395,13 +22681,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 585,
+    index = 620,
     label = "[C]#CCCF",
     molecule = 
 """
@@ -21438,7 +22724,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.179 kJ/mol
 )
 
 entry(
-    index = 586,
+    index = 621,
     label = "CDC(F)OF",
     molecule = 
 """
@@ -21452,12 +22738,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91173,0.00542318,8.73276e-05,-1.90335e-07,1.22003e-10,-25563.8,9.71637], Tmin=(10,'K'), Tmax=(534.036,'K')),
-            NASAPolynomial(coeffs=[4.04998,0.0233261,-1.61526e-05,5.25041e-09,-6.44143e-13,-25848.6,6.60767], Tmin=(534.036,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91173,0.00542318,8.73276e-05,-1.90335e-07,1.22003e-10,-25030.8,9.71637], Tmin=(10,'K'), Tmax=(534.036,'K')),
+            NASAPolynomial(coeffs=[4.04998,0.0233261,-1.61526e-05,5.25041e-09,-6.44143e-13,-25315.6,6.60767], Tmin=(534.036,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-212.579,'kJ/mol'),
+        E0 = (-208.147,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -21466,13 +22752,47 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 587,
+    index = 622,
+    label = "[O]C(F)OF",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+3 F u0 p3 c0 {2,S}
+4 O u0 p2 c0 {2,S} {5,S}
+5 F u0 p3 c0 {4,S}
+6 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.91831,0.00514514,7.785e-05,-1.76491e-07,1.17061e-10,-30540.5,10.5003], Tmin=(10,'K'), Tmax=(516.46,'K')),
+            NASAPolynomial(coeffs=[4.04401,0.0206235,-1.4888e-05,4.8983e-09,-6.00323e-13,-30772.9,7.8527], Tmin=(516.46,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-253.952,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 623,
     label = "CC(C)D[C]F",
     molecule = 
 """
@@ -21511,7 +22831,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.447 kJ/mol
 )
 
 entry(
-    index = 588,
+    index = 624,
     label = "FCDCC(F)(F)F",
     molecule = 
 """
@@ -21547,7 +22867,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.679 kJ/mol
 )
 
 entry(
-    index = 589,
+    index = 625,
     label = "FC1[C]DC1",
     molecule = 
 """
@@ -21561,12 +22881,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.08948,-0.00866993,0.000113134,-2.07103e-07,1.21737e-10,34207.6,8.615], Tmin=(10,'K'), Tmax=(551.518,'K')),
-            NASAPolynomial(coeffs=[2.56767,0.0201144,-1.34207e-05,4.22049e-09,-5.0257e-13,34105.5,12.6043], Tmin=(551.518,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.08948,-0.00866993,0.000113134,-2.07103e-07,1.21737e-10,35019,8.615], Tmin=(10,'K'), Tmax=(551.518,'K')),
+            NASAPolynomial(coeffs=[2.56767,0.0201144,-1.34207e-05,4.22049e-09,-5.0257e-13,34917,12.6043], Tmin=(551.518,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (284.406,'kJ/mol'),
+        E0 = (291.153,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -21575,13 +22895,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 590,
+    index = 626,
     label = "CCCDCF",
     molecule = 
 """
@@ -21620,7 +22940,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.251 kJ/mol
 )
 
 entry(
-    index = 591,
+    index = 627,
     label = "OD[C]C(DO)F",
     molecule = 
 """
@@ -21633,12 +22953,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88581,0.00872216,6.51059e-05,-2.1284e-07,1.90466e-10,-38481.5,10.1522], Tmin=(10,'K'), Tmax=(403.597,'K')),
-            NASAPolynomial(coeffs=[4.86779,0.0139717,-1.00855e-05,3.33687e-09,-4.12754e-13,-38682.8,4.79407], Tmin=(403.597,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88581,0.00872216,6.51059e-05,-2.1284e-07,1.90466e-10,-38687.8,10.1522], Tmin=(10,'K'), Tmax=(403.597,'K')),
+            NASAPolynomial(coeffs=[4.86779,0.0139717,-1.00855e-05,3.33687e-09,-4.12754e-13,-38889.1,4.79407], Tmin=(403.597,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-319.95,'kJ/mol'),
+        E0 = (-321.666,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
@@ -21647,13 +22967,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 592,
+    index = 628,
     label = "FC[C]1OO1",
     molecule = 
 """
@@ -21688,7 +23008,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.976 kJ/mol
 )
 
 entry(
-    index = 593,
+    index = 629,
     label = "FC1OOC1F",
     molecule = 
 """
@@ -21703,12 +23023,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92926,0.00420452,9.55818e-05,-1.86603e-07,1.10345e-10,-53999.7,9.9773], Tmin=(10,'K'), Tmax=(550.595,'K')),
-            NASAPolynomial(coeffs=[2.25887,0.0318665,-2.20788e-05,7.07994e-09,-8.53378e-13,-54051.1,14.9019], Tmin=(550.595,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92926,0.00420452,9.55818e-05,-1.86603e-07,1.10345e-10,-53468.6,9.9773], Tmin=(10,'K'), Tmax=(550.595,'K')),
+            NASAPolynomial(coeffs=[2.25887,0.0318665,-2.20788e-05,7.07994e-09,-8.53378e-13,-53520,14.9019], Tmin=(550.595,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-449.007,'kJ/mol'),
+        E0 = (-444.591,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -21717,13 +23037,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 594,
+    index = 630,
     label = "CC#C[CH]F",
     molecule = 
 """
@@ -21760,7 +23080,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.096 kJ/mol
 )
 
 entry(
-    index = 595,
+    index = 631,
     label = "FC1[CH]CC1F",
     molecule = 
 """
@@ -21779,12 +23099,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91502,0.00516235,0.000132277,-2.58954e-07,1.5644e-10,-25456.4,11.2762], Tmin=(10,'K'), Tmax=(526.96,'K')),
-            NASAPolynomial(coeffs=[1.1408,0.0440045,-2.89099e-05,9.00839e-09,-1.06974e-12,-25410.9,20.5401], Tmin=(526.96,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91502,0.00516235,0.000132277,-2.58954e-07,1.5644e-10,-23352.2,11.2762], Tmin=(10,'K'), Tmax=(526.96,'K')),
+            NASAPolynomial(coeffs=[1.1408,0.0440045,-2.89099e-05,9.00839e-09,-1.06974e-12,-23306.8,20.5401], Tmin=(526.96,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-211.686,'kJ/mol'),
+        E0 = (-194.192,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -21793,13 +23113,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 596,
+    index = 632,
     label = "OD[C]C(F)F",
     molecule = 
 """
@@ -21833,7 +23153,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.716 kJ/mol
 )
 
 entry(
-    index = 597,
+    index = 633,
     label = "FOCOC(F)F",
     molecule = 
 """
@@ -21850,12 +23170,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85361,0.0321717,-9.84609e-06,-6.99663e-09,3.8105e-12,-87235.9,11.6676], Tmin=(10,'K'), Tmax=(1158.15,'K')),
-            NASAPolynomial(coeffs=[10.9798,0.0199884,-1.01641e-05,2.45253e-09,-2.29386e-13,-89720,-27.3569], Tmin=(1158.15,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85361,0.0321717,-9.84609e-06,-6.99663e-09,3.8105e-12,-86480.4,11.6676], Tmin=(10,'K'), Tmax=(1158.15,'K')),
+            NASAPolynomial(coeffs=[10.9798,0.0199884,-1.01641e-05,2.45253e-09,-2.29386e-13,-88964.6,-27.3569], Tmin=(1158.15,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-725.265,'kJ/mol'),
+        E0 = (-718.984,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -21864,13 +23184,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 598,
+    index = 634,
     label = "CDCC#CF",
     molecule = 
 """
@@ -21905,7 +23225,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.975 kJ/mol
 )
 
 entry(
-    index = 599,
+    index = 635,
     label = "C[C](C)C(F)F",
     molecule = 
 """
@@ -21946,7 +23266,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.748 kJ/mol
 )
 
 entry(
-    index = 600,
+    index = 636,
     label = "FCDC1CDC1",
     molecule = 
 """
@@ -21981,7 +23301,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.217 kJ/mol
 )
 
 entry(
-    index = 601,
+    index = 637,
     label = "ODCC(F)DCF",
     molecule = 
 """
@@ -21996,12 +23316,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92262,0.00843082,0.000177883,-8.06233e-07,1.24671e-09,-52943.4,10.2104], Tmin=(10,'K'), Tmax=(162.911,'K')),
-            NASAPolynomial(coeffs=[3.04381,0.0300079,-2.0783e-05,6.73134e-09,-8.22846e-13,-52914.8,12.8556], Tmin=(162.911,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92262,0.00843095,0.000177881,-8.0622e-07,1.24668e-09,-52335.5,10.2105], Tmin=(10,'K'), Tmax=(162.919,'K')),
+            NASAPolynomial(coeffs=[3.04381,0.0300079,-2.0783e-05,6.73134e-09,-8.22846e-13,-52306.9,12.8556], Tmin=(162.919,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-440.082,'kJ/mol'),
+        E0 = (-435.028,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -22010,13 +23330,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 602,
+    index = 638,
     label = "FCC1[CH]C1",
     molecule = 
 """
@@ -22055,7 +23375,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.993 kJ/mol
 )
 
 entry(
-    index = 603,
+    index = 639,
     label = "[O]C#CC(F)F",
     molecule = 
 """
@@ -22090,7 +23410,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.034 kJ/mol
 )
 
 entry(
-    index = 604,
+    index = 640,
     label = "OCC(F)F",
     molecule = 
 """
@@ -22126,7 +23446,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.418 kJ/mol
 )
 
 entry(
-    index = 605,
+    index = 641,
     label = "FC1[CH]OC1F",
     molecule = 
 """
@@ -22143,12 +23463,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91604,0.00510319,0.000111084,-2.24264e-07,1.37444e-10,-40772.7,11.1815], Tmin=(10,'K'), Tmax=(532.847,'K')),
-            NASAPolynomial(coeffs=[2.30452,0.035107,-2.37864e-05,7.54448e-09,-9.04706e-13,-40855.2,15.5563], Tmin=(532.847,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91604,0.00510319,0.000111084,-2.24264e-07,1.37444e-10,-39739,11.1815], Tmin=(10,'K'), Tmax=(532.847,'K')),
+            NASAPolynomial(coeffs=[2.30452,0.035107,-2.37864e-05,7.54448e-09,-9.04706e-13,-39821.4,15.5563], Tmin=(532.847,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-339.033,'kJ/mol'),
+        E0 = (-330.438,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -22157,13 +23477,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 606,
+    index = 642,
     label = "FC#CCC(F)F",
     molecule = 
 """
@@ -22200,7 +23520,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.122 kJ/mol
 )
 
 entry(
-    index = 607,
+    index = 643,
+    label = "CDCC(F)OF",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,D} {7,S} {8,S}
+2  C u0 p0 c0 {1,D} {3,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+4  F u0 p3 c0 {3,S}
+5  O u0 p2 c0 {3,S} {6,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76236,0.0222762,3.20353e-05,-7.28322e-08,3.81747e-11,-29663.8,10.7259], Tmin=(10,'K'), Tmax=(686.427,'K')),
+            NASAPolynomial(coeffs=[4.13751,0.0332025,-2.04948e-05,6.01438e-09,-6.76964e-13,-30024.2,6.80696], Tmin=(686.427,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-246.664,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 644,
     label = "ODC[CH]F",
     molecule = 
 """
@@ -22234,7 +23591,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.527 kJ/mol
 )
 
 entry(
-    index = 608,
+    index = 645,
     label = "ODC[CH]CF",
     molecule = 
 """
@@ -22271,7 +23628,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.164 kJ/mol
 )
 
 entry(
-    index = 609,
+    index = 646,
     label = "CC1[CH]C1F",
     molecule = 
 """
@@ -22290,12 +23647,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93605,0.0039616,0.000124095,-2.40765e-07,1.47226e-10,4256.16,9.16379], Tmin=(10,'K'), Tmax=(502.355,'K')),
-            NASAPolynomial(coeffs=[0.696115,0.0420951,-2.6602e-05,8.10272e-09,-9.50063e-13,4426.03,21.0149], Tmin=(502.355,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93605,0.0039616,0.000124095,-2.40765e-07,1.47226e-10,6964.33,9.16379], Tmin=(10,'K'), Tmax=(502.355,'K')),
+            NASAPolynomial(coeffs=[0.696115,0.0420951,-2.6602e-05,8.10272e-09,-9.50063e-13,7134.2,21.0149], Tmin=(502.355,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (35.3679,'kJ/mol'),
+        E0 = (57.8849,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -22304,13 +23661,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 610,
+    index = 647,
     label = "CCC(F)[CH]F",
     molecule = 
 """
@@ -22331,12 +23688,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71968,0.0342913,-1.95427e-07,-1.67704e-08,6.8098e-12,-43434.9,11.53], Tmin=(10,'K'), Tmax=(1095.39,'K')),
-            NASAPolynomial(coeffs=[7.23044,0.0341752,-1.74331e-05,4.3085e-09,-4.1748e-13,-44966.2,-9.2062], Tmin=(1095.39,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71968,0.0342913,-1.95427e-07,-1.67704e-08,6.8098e-12,-40425.9,11.53], Tmin=(10,'K'), Tmax=(1095.39,'K')),
+            NASAPolynomial(coeffs=[7.23044,0.0341752,-1.74331e-05,4.3085e-09,-4.1748e-13,-41957.2,-9.2062], Tmin=(1095.39,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-361.122,'kJ/mol'),
+        E0 = (-336.104,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (307.635,'J/(mol*K)'),
     ),
@@ -22345,13 +23702,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 611,
+    index = 648,
     label = "OC(O)D[C]F",
     molecule = 
 """
@@ -22386,7 +23743,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.598 kJ/mol
 )
 
 entry(
-    index = 612,
+    index = 649,
     label = "CC([CH]F)CF",
     molecule = 
 """
@@ -22427,7 +23784,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.588 kJ/mol
 )
 
 entry(
-    index = 613,
+    index = 650,
     label = "FCC1CDC1",
     molecule = 
 """
@@ -22464,7 +23821,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.55 kJ/mol
 )
 
 entry(
-    index = 614,
+    index = 651,
     label = "[CH]DCCOF",
     molecule = 
 """
@@ -22481,12 +23838,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.80222,0.0173946,3.77467e-05,-8.38441e-08,4.73369e-11,24189.9,10.5732], Tmin=(10,'K'), Tmax=(610.759,'K')),
-            NASAPolynomial(coeffs=[3.46048,0.030002,-1.86828e-05,5.54839e-09,-6.32129e-13,24038.2,10.4702], Tmin=(610.759,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.80222,0.0173946,3.77467e-05,-8.38441e-08,4.73369e-11,25808.7,10.5732], Tmin=(10,'K'), Tmax=(610.759,'K')),
+            NASAPolynomial(coeffs=[3.46048,0.030002,-1.86828e-05,5.54839e-09,-6.32129e-13,25657.1,10.4702], Tmin=(610.759,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (201.099,'kJ/mol'),
+        E0 = (214.558,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -22495,13 +23852,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 615,
+    index = 652,
     label = "[CH2]CC(O)F",
     molecule = 
 """
@@ -22520,12 +23877,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90456,0.00918345,0.000183457,-6.29805e-07,7.30086e-10,-39884,10.3155], Tmin=(10,'K'), Tmax=(218.017,'K')),
-            NASAPolynomial(coeffs=[2.25307,0.0394837,-2.50149e-05,7.67128e-09,-9.05343e-13,-39812,15.7674], Tmin=(218.017,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90456,0.00918345,0.000183457,-6.29805e-07,7.30086e-10,-37268.1,10.3155], Tmin=(10,'K'), Tmax=(218.017,'K')),
+            NASAPolynomial(coeffs=[2.25307,0.0394837,-2.50149e-05,7.67128e-09,-9.05343e-13,-37196.1,15.7674], Tmin=(218.017,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-331.587,'kJ/mol'),
+        E0 = (-309.837,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -22534,13 +23891,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 616,
+    index = 653,
     label = "FC1(F)CDC1",
     molecule = 
 """
@@ -22574,7 +23931,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.672 kJ/mol
 )
 
 entry(
-    index = 617,
+    index = 654,
     label = "C[C](F)CDCF",
     molecule = 
 """
@@ -22593,27 +23950,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84998,0.0158396,0.000192153,-8.70835e-07,1.3301e-09,-33322.1,9.95496], Tmin=(10,'K'), Tmax=(165.018,'K')),
-            NASAPolynomial(coeffs=[2.86307,0.0397623,-2.53061e-05,7.70426e-09,-8.99082e-13,-33289.5,12.9381], Tmin=(165.018,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84998,0.0158396,0.000192153,-8.70835e-07,1.3301e-09,-33204,9.95496], Tmin=(10,'K'), Tmax=(165.018,'K')),
+            NASAPolynomial(coeffs=[2.86307,0.0397623,-2.53061e-05,7.70426e-09,-8.99082e-13,-33171.4,12.9381], Tmin=(165.018,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-276.935,'kJ/mol'),
+        E0 = (-275.954,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 3.879 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 618,
+    index = 655,
     label = "C#CC(DO)F",
     molecule = 
 """
@@ -22646,7 +24003,46 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.506 kJ/mol
 )
 
 entry(
-    index = 619,
+    index = 656,
+    label = "FCC(F)COF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
+4  F u0 p3 c0 {3,S}
+5  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
+6  O u0 p2 c0 {5,S} {7,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.77063,0.0359819,-6.72613e-06,-1.16573e-08,5.38962e-12,-64098.4,11.3411], Tmin=(10,'K'), Tmax=(1127.49,'K')),
+            NASAPolynomial(coeffs=[9.75548,0.0282688,-1.44506e-05,3.54476e-09,-3.39196e-13,-66307.3,-22.0612], Tmin=(1127.49,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-532.904,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 657,
     label = "CDCDC(O)F",
     molecule = 
 """
@@ -22661,12 +24057,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8969,0.00693732,0.000105016,-2.57616e-07,1.88285e-10,-21321,9.55278], Tmin=(10,'K'), Tmax=(464.777,'K')),
-            NASAPolynomial(coeffs=[3.95777,0.0255104,-1.6559e-05,5.17309e-09,-6.19232e-13,-21532.9,7.08679], Tmin=(464.777,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8969,0.00693732,0.000105016,-2.57616e-07,1.88285e-10,-20149.8,9.55278], Tmin=(10,'K'), Tmax=(464.777,'K')),
+            NASAPolynomial(coeffs=[3.95777,0.0255104,-1.6559e-05,5.17309e-09,-6.19232e-13,-20361.7,7.08679], Tmin=(464.777,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-177.289,'kJ/mol'),
+        E0 = (-167.551,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -22675,13 +24071,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 620,
+    index = 658,
     label = "CC1DC(F)[CH]1",
     molecule = 
 """
@@ -22718,7 +24114,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.891 kJ/mol
 )
 
 entry(
-    index = 621,
+    index = 659,
     label = "F[C]1CDC1",
     molecule = 
 """
@@ -22752,7 +24148,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.921 kJ/mol
 )
 
 entry(
-    index = 622,
+    index = 660,
     label = "FCCDC(F)OF",
     molecule = 
 """
@@ -22769,12 +24165,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.70371,0.0372355,-2.22479e-05,3.6115e-09,7.4118e-13,-51109.8,11.7923], Tmin=(10,'K'), Tmax=(1170.59,'K')),
-            NASAPolynomial(coeffs=[10.8244,0.0205955,-1.07817e-05,2.6948e-09,-2.61885e-13,-53303.9,-25.9335], Tmin=(1170.59,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.70371,0.0372355,-2.22479e-05,3.6115e-09,7.4118e-13,-50237.3,11.7923], Tmin=(10,'K'), Tmax=(1170.59,'K')),
+            NASAPolynomial(coeffs=[10.8244,0.0205955,-1.07817e-05,2.6948e-09,-2.61885e-13,-52431.4,-25.9335], Tmin=(1170.59,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-424.937,'kJ/mol'),
+        E0 = (-417.683,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -22783,13 +24179,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 623,
+    index = 661,
     label = "OOCDC(F)F",
     molecule = 
 """
@@ -22824,7 +24220,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.955 kJ/mol
 )
 
 entry(
-    index = 624,
+    index = 662,
     label = "OCOCF",
     molecule = 
 """
@@ -22841,12 +24237,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90929,0.0173395,2.07963e-05,-3.33746e-08,1.23474e-11,-74948,9.65965], Tmin=(10,'K'), Tmax=(988.748,'K')),
-            NASAPolynomial(coeffs=[4.48429,0.027895,-1.47594e-05,3.77531e-09,-3.77369e-13,-75691.4,3.70797], Tmin=(988.748,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90929,0.0173395,2.07963e-05,-3.33746e-08,1.23474e-11,-72940.7,9.65965], Tmin=(10,'K'), Tmax=(988.748,'K')),
+            NASAPolynomial(coeffs=[4.48429,0.027895,-1.47594e-05,3.77531e-09,-3.77369e-13,-73684.1,3.70797], Tmin=(988.748,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-623.114,'kJ/mol'),
+        E0 = (-606.425,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -22855,13 +24251,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 625,
+    index = 663,
     label = "CDC(O)[CH]F",
     molecule = 
 """
@@ -22878,12 +24274,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8864,0.00698382,0.00011336,-2.46685e-07,1.58507e-10,-27109.5,9.86318], Tmin=(10,'K'), Tmax=(533.1,'K')),
-            NASAPolynomial(coeffs=[4.15396,0.0296093,-1.96128e-05,6.28118e-09,-7.69863e-13,-27488,5.45766], Tmin=(533.1,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8864,0.00698382,0.00011336,-2.46685e-07,1.58507e-10,-25446.9,9.86318], Tmin=(10,'K'), Tmax=(533.1,'K')),
+            NASAPolynomial(coeffs=[4.15396,0.0296093,-1.96128e-05,6.28118e-09,-7.69863e-13,-25825.4,5.45766], Tmin=(533.1,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-225.439,'kJ/mol'),
+        E0 = (-211.615,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -22892,13 +24288,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 626,
+    index = 664,
     label = "F[CH]C1CC1",
     molecule = 
 """
@@ -22937,7 +24333,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.965 kJ/mol
 )
 
 entry(
-    index = 627,
+    index = 665,
     label = "CCCOF",
     molecule = 
 """
@@ -22956,12 +24352,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.86858,0.0217103,2.30896e-05,-3.70102e-08,1.33957e-11,-22709.6,8.65082], Tmin=(10,'K'), Tmax=(1011.46,'K')),
-            NASAPolynomial(coeffs=[4.34229,0.0346309,-1.80109e-05,4.5401e-09,-4.48309e-13,-23562.2,2.6192], Tmin=(1011.46,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.86858,0.0217103,2.30896e-05,-3.70102e-08,1.33957e-11,-19675.8,8.65082], Tmin=(10,'K'), Tmax=(1011.46,'K')),
+            NASAPolynomial(coeffs=[4.34229,0.0346309,-1.80109e-05,4.5401e-09,-4.48309e-13,-20528.3,2.6192], Tmin=(1011.46,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-188.78,'kJ/mol'),
+        E0 = (-163.554,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (282.692,'J/(mol*K)'),
     ),
@@ -22970,13 +24366,50 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 628,
+    index = 666,
+    label = "OC(F)COF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
+5  O u0 p2 c0 {4,S} {6,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.7033,0.0273949,1.1199e-05,-4.19684e-08,2.23504e-11,-61299.9,11.17], Tmin=(10,'K'), Tmax=(735.615,'K')),
+            NASAPolynomial(coeffs=[4.98389,0.0313118,-1.89743e-05,5.48347e-09,-6.09462e-13,-61782.7,3.38418], Tmin=(735.615,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-509.703,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 667,
     label = "[O]OC#CF",
     molecule = 
 """
@@ -23009,7 +24442,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.032 kJ/mol
 )
 
 entry(
-    index = 629,
+    index = 668,
     label = "FC1D[C]CC1",
     molecule = 
 """
@@ -23026,12 +24459,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.07283,-0.00662215,0.000127953,-2.12221e-07,1.12426e-10,22721.2,9.7892], Tmin=(10,'K'), Tmax=(596.089,'K')),
-            NASAPolynomial(coeffs=[0.580722,0.0349285,-2.21949e-05,6.69267e-09,-7.70682e-13,22815.6,22.1301], Tmin=(596.089,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.07283,-0.00662215,0.000127953,-2.12221e-07,1.12426e-10,24476.1,9.7892], Tmin=(10,'K'), Tmax=(596.089,'K')),
+            NASAPolynomial(coeffs=[0.580722,0.0349285,-2.21949e-05,6.69267e-09,-7.70682e-13,24570.6,22.1301], Tmin=(596.089,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (188.905,'kJ/mol'),
+        E0 = (203.496,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -23040,13 +24473,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 630,
+    index = 669,
     label = "F[C]1CO1",
     molecule = 
 """
@@ -23080,7 +24513,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.198 kJ/mol
 )
 
 entry(
-    index = 631,
+    index = 670,
     label = "[O]OCF",
     molecule = 
 """
@@ -23094,12 +24527,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.98061,0.00133001,6.2593e-05,-1.31515e-07,9.07287e-11,-24705.9,9.65682], Tmin=(10,'K'), Tmax=(371.237,'K')),
-            NASAPolynomial(coeffs=[2.24888,0.0199891,-1.28003e-05,3.87685e-09,-4.48259e-13,-24577.4,16.2954], Tmin=(371.237,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.98061,0.00133001,6.2593e-05,-1.31515e-07,9.07287e-11,-23997.1,9.65682], Tmin=(10,'K'), Tmax=(371.237,'K')),
+            NASAPolynomial(coeffs=[2.24888,0.0199891,-1.28003e-05,3.87685e-09,-4.48259e-13,-23868.5,16.2954], Tmin=(371.237,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-205.418,'kJ/mol'),
+        E0 = (-199.524,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -23108,13 +24541,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 632,
+    index = 671,
     label = "FC1OO1",
     molecule = 
 """
@@ -23146,7 +24579,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.579 kJ/mol
 )
 
 entry(
-    index = 633,
+    index = 672,
     label = "COCOF",
     molecule = 
 """
@@ -23163,12 +24596,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.63806,0.0394786,-0.000131542,3.5346e-07,-3.23053e-10,-32405.2,8.92092], Tmin=(10,'K'), Tmax=(394.176,'K')),
-            NASAPolynomial(coeffs=[1.55972,0.0355533,-2.14101e-05,6.1921e-09,-6.91466e-13,-32047,19.478], Tmin=(394.176,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.63806,0.0394786,-0.000131542,3.5346e-07,-3.23053e-10,-30441.6,8.92092], Tmin=(10,'K'), Tmax=(394.176,'K')),
+            NASAPolynomial(coeffs=[1.55972,0.0355533,-2.14101e-05,6.1921e-09,-6.91466e-13,-30083.5,19.478], Tmin=(394.176,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-269.446,'kJ/mol'),
+        E0 = (-253.12,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -23177,13 +24610,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 634,
+    index = 673,
     label = "FCDCCDCF",
     molecule = 
 """
@@ -23220,7 +24653,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.245 kJ/mol
 )
 
 entry(
-    index = 635,
+    index = 674,
     label = "FCDCOC(F)F",
     molecule = 
 """
@@ -23257,7 +24690,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.738 kJ/mol
 )
 
 entry(
-    index = 636,
+    index = 675,
     label = "C[C]1OC1(F)F",
     molecule = 
 """
@@ -23294,7 +24727,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.979 kJ/mol
 )
 
 entry(
-    index = 637,
+    index = 676,
     label = "FCC1D[C]C1F",
     molecule = 
 """
@@ -23331,7 +24764,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 )
 
 entry(
-    index = 638,
+    index = 677,
     label = "C[CH]CDC(F)F",
     molecule = 
 """
@@ -23370,7 +24803,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.999 kJ/mol
 )
 
 entry(
-    index = 639,
+    index = 678,
     label = "FCD[C]CF",
     molecule = 
 """
@@ -23386,12 +24819,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88769,0.0202311,-2.10066e-06,-7.71563e-09,3.20926e-12,-14573.4,10.1289], Tmin=(10,'K'), Tmax=(1170.78,'K')),
-            NASAPolynomial(coeffs=[7.5455,0.0162869,-8.00505e-06,1.8861e-09,-1.73402e-13,-16016.1,-10.598], Tmin=(1170.78,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88769,0.0202311,-2.10066e-06,-7.71563e-09,3.20926e-12,-13461.2,10.1289], Tmin=(10,'K'), Tmax=(1170.78,'K')),
+            NASAPolynomial(coeffs=[7.5455,0.0162869,-8.00505e-06,1.8861e-09,-1.73402e-13,-14903.8,-10.598], Tmin=(1170.78,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-121.144,'kJ/mol'),
+        E0 = (-111.896,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -23400,13 +24833,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 640,
+    index = 679,
     label = "OC#COF",
     molecule = 
 """
@@ -23439,7 +24872,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.119 kJ/mol
 )
 
 entry(
-    index = 641,
+    index = 680,
+    label = "CDC(F)C([O])F",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,D} {7,S} {8,S}
+2 C u0 p0 c0 {1,D} {3,S} {4,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
+5 O u1 p2 c0 {4,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81172,0.0163088,6.27834e-05,-1.41971e-07,8.64663e-11,-40969.4,11.7322], Tmin=(10,'K'), Tmax=(571.11,'K')),
+            NASAPolynomial(coeffs=[4.00598,0.0315353,-2.07738e-05,6.42132e-09,-7.53095e-13,-41262.1,8.53556], Tmin=(571.11,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-340.672,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 681,
     label = "ODCDCC(F)F",
     molecule = 
 """
@@ -23474,7 +24944,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.72 kJ/mol
 )
 
 entry(
-    index = 642,
+    index = 682,
     label = "C#CC(F)(F)[CH]F",
     molecule = 
 """
@@ -23491,12 +24961,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.71848,0.0213989,0.000138301,-4.53184e-07,3.97637e-10,-27006.1,12.325], Tmin=(10,'K'), Tmax=(417.1,'K')),
-            NASAPolynomial(coeffs=[6.49078,0.0303793,-2.19029e-05,7.3163e-09,-9.13404e-13,-27546.7,-2.33431], Tmin=(417.1,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.71848,0.0213989,0.000138301,-4.53184e-07,3.97637e-10,-26371.4,12.325], Tmin=(10,'K'), Tmax=(417.1,'K')),
+            NASAPolynomial(coeffs=[6.49078,0.0303793,-2.19029e-05,7.3163e-09,-9.13404e-13,-26912.1,-2.33431], Tmin=(417.1,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-224.544,'kJ/mol'),
+        E0 = (-219.267,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -23505,13 +24975,50 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 643,
+    index = 683,
+    label = "[O]C(F)CDCF",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,D} {8,S}
+5 C u0 p0 c0 {4,D} {6,S} {9,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80505,0.0221626,1.7485e-05,-4.39644e-08,2.10196e-11,-40536.8,11.7834], Tmin=(10,'K'), Tmax=(803.321,'K')),
+            NASAPolynomial(coeffs=[5.47682,0.0270852,-1.64419e-05,4.71845e-09,-5.19174e-13,-41232.8,1.42384], Tmin=(803.321,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-337.039,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 684,
     label = "CC(F)[CH]O",
     molecule = 
 """
@@ -23530,12 +25037,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89725,0.00896326,0.000137251,-3.70558e-07,3.29738e-10,-38758.6,10.3669], Tmin=(10,'K'), Tmax=(285.872,'K')),
-            NASAPolynomial(coeffs=[1.6889,0.0398619,-2.48709e-05,7.5055e-09,-8.72971e-13,-38632.4,18.2556], Tmin=(285.872,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89725,0.00896326,0.000137251,-3.70558e-07,3.29738e-10,-36142.8,10.3669], Tmin=(10,'K'), Tmax=(285.872,'K')),
+            NASAPolynomial(coeffs=[1.6889,0.0398619,-2.48709e-05,7.5055e-09,-8.72971e-13,-36016.5,18.2556], Tmin=(285.872,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-322.245,'kJ/mol'),
+        E0 = (-300.495,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -23544,13 +25051,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 644,
+    index = 685,
     label = "FCOOF",
     molecule = 
 """
@@ -23564,12 +25071,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85415,0.0172238,7.59977e-06,-2.45159e-08,1.16542e-11,-32236.4,9.83122], Tmin=(10,'K'), Tmax=(845.185,'K')),
-            NASAPolynomial(coeffs=[5.50911,0.0185939,-1.11639e-05,3.16701e-09,-3.44756e-13,-32844.8,0.180953], Tmin=(845.185,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85415,0.0172238,7.59977e-06,-2.45159e-08,1.16542e-11,-31714.6,9.83122], Tmin=(10,'K'), Tmax=(845.185,'K')),
+            NASAPolynomial(coeffs=[5.50911,0.0185939,-1.11639e-05,3.16701e-09,-3.44756e-13,-32323,0.180953], Tmin=(845.185,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-268.022,'kJ/mol'),
+        E0 = (-263.683,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -23578,13 +25085,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 645,
+    index = 686,
     label = "CCC([O])(F)F",
     molecule = 
 """
@@ -23623,7 +25130,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.333 kJ/mol
 )
 
 entry(
-    index = 646,
+    index = 687,
     label = "ODC(F)CCF",
     molecule = 
 """
@@ -23660,7 +25167,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.44 kJ/mol
 )
 
 entry(
-    index = 647,
+    index = 688,
     label = "FC1C[CH]O1",
     molecule = 
 """
@@ -23697,7 +25204,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.903 kJ/mol
 )
 
 entry(
-    index = 648,
+    index = 689,
+    label = "OOC(F)CF",
+    molecule = 
+"""
+1  O u0 p2 c0 {2,S} {7,S}
+2  O u0 p2 c0 {1,S} {3,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4  F u0 p3 c0 {3,S}
+5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+6  F u0 p3 c0 {5,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.68866,0.0307416,-7.39441e-06,-1.12005e-08,6.26062e-12,-69872.1,10.8474], Tmin=(10,'K'), Tmax=(934.787,'K')),
+            NASAPolynomial(coeffs=[6.49323,0.0272099,-1.53175e-05,4.14226e-09,-4.34721e-13,-70766.5,-4.47315], Tmin=(934.787,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-580.96,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 690,
     label = "FC#COC(F)F",
     molecule = 
 """
@@ -23732,7 +25276,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.006 kJ/mol
 )
 
 entry(
-    index = 649,
+    index = 691,
     label = "FCC1CDC1F",
     molecule = 
 """
@@ -23769,7 +25313,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.058 kJ/mol
 )
 
 entry(
-    index = 650,
+    index = 692,
     label = "[O]C(DO)F",
     molecule = 
 """
@@ -23781,12 +25325,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.05923,-0.00575269,7.32109e-05,-1.34544e-07,7.81605e-11,-45395.6,8.90938], Tmin=(10,'K'), Tmax=(570.176,'K')),
-            NASAPolynomial(coeffs=[3.48218,0.0118365,-8.68516e-06,2.86324e-09,-3.49671e-13,-45549.9,9.4389], Tmin=(570.176,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.05923,-0.00575269,7.32109e-05,-1.34544e-07,7.81605e-11,-45632,8.90938], Tmin=(10,'K'), Tmax=(570.176,'K')),
+            NASAPolynomial(coeffs=[3.48218,0.0118365,-8.68516e-06,2.86324e-09,-3.49671e-13,-45786.3,9.4389], Tmin=(570.176,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-377.45,'kJ/mol'),
+        E0 = (-379.415,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (83.1447,'J/(mol*K)'),
     ),
@@ -23795,13 +25339,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 651,
+    index = 693,
     label = "CDCC(F)(F)F",
     molecule = 
 """
@@ -23837,7 +25381,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.84 kJ/mol
 )
 
 entry(
-    index = 652,
+    index = 694,
     label = "[CH2]OC(O)F",
     molecule = 
 """
@@ -23874,7 +25418,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.229 kJ/mol
 )
 
 entry(
-    index = 653,
+    index = 695,
     label = "CDC([O])F",
     molecule = 
 """
@@ -23908,7 +25452,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.153 kJ/mol
 )
 
 entry(
-    index = 654,
+    index = 696,
     label = "CC(F)DC[CH]F",
     molecule = 
 """
@@ -23927,12 +25471,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81786,0.0180847,0.000128356,-4.62076e-07,5.35091e-10,-34896.1,10.0979], Tmin=(10,'K'), Tmax=(219.291,'K')),
-            NASAPolynomial(coeffs=[2.57821,0.0406966,-2.63143e-05,8.13321e-09,-9.61558e-13,-34841.7,14.1975], Tmin=(219.291,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81786,0.0180847,0.000128356,-4.62076e-07,5.35091e-10,-32840.4,10.0979], Tmin=(10,'K'), Tmax=(219.291,'K')),
+            NASAPolynomial(coeffs=[2.57821,0.0406966,-2.63143e-05,8.13321e-09,-9.61558e-13,-32786,14.1975], Tmin=(219.291,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-290.116,'kJ/mol'),
+        E0 = (-273.024,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -23941,13 +25485,52 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 655,
+    index = 697,
+    label = "FCOC(F)CF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  O u0 p2 c0 {2,S} {4,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+5  F u0 p3 c0 {4,S}
+6  C u0 p0 c0 {4,S} {7,S} {11,S} {12,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.50037,0.0554385,-0.000197942,5.63912e-07,-5.52672e-10,-103131,12.1155], Tmin=(10,'K'), Tmax=(363.721,'K')),
+            NASAPolynomial(coeffs=[1.22617,0.0476547,-3.0598e-05,9.29598e-09,-1.07813e-12,-102749,23.7691], Tmin=(363.721,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-857.503,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (282.692,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 3.065 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 698,
     label = "CD[C]CDC(F)F",
     molecule = 
 """
@@ -23984,7 +25567,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.93 kJ/mol
 )
 
 entry(
-    index = 656,
+    index = 699,
     label = "FC#CC(F)F",
     molecule = 
 """
@@ -24018,7 +25601,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.46 kJ/mol
 )
 
 entry(
-    index = 657,
+    index = 700,
     label = "F[CH]CDCCF",
     molecule = 
 """
@@ -24057,7 +25640,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.353 kJ/mol
 )
 
 entry(
-    index = 658,
+    index = 701,
     label = "OC1CDC1F",
     molecule = 
 """
@@ -24092,7 +25675,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.163 kJ/mol
 )
 
 entry(
-    index = 659,
+    index = 702,
     label = "FC1(F)[C]DC1",
     molecule = 
 """
@@ -24106,12 +25689,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93779,0.00348526,6.61912e-05,-1.25101e-07,6.93521e-11,8669.6,9.31959], Tmin=(10,'K'), Tmax=(611.65,'K')),
-            NASAPolynomial(coeffs=[3.45659,0.0218756,-1.62916e-05,5.54626e-09,-7.01317e-13,8443.33,9.07363], Tmin=(611.65,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93775,0.003487,6.61767e-05,-1.25064e-07,6.9323e-11,8876.96,9.31967], Tmin=(10,'K'), Tmax=(611.753,'K')),
+            NASAPolynomial(coeffs=[3.45785,0.021872,-1.62882e-05,5.5449e-09,-7.01129e-13,8650.37,9.0672], Tmin=(611.753,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (72.0549,'kJ/mol'),
+        E0 = (73.779,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -24120,13 +25703,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 660,
+    index = 703,
     label = "OC1D[C]C1F",
     molecule = 
 """
@@ -24141,12 +25724,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91332,0.00569382,8.89284e-05,-2.09024e-07,1.4622e-10,14648,10.1257], Tmin=(10,'K'), Tmax=(483.006,'K')),
-            NASAPolynomial(coeffs=[3.76931,0.0231329,-1.56839e-05,5.00601e-09,-6.04303e-13,14472.4,8.75391], Tmin=(483.006,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91332,0.00569382,8.89284e-05,-2.09024e-07,1.4622e-10,15405.7,10.1257], Tmin=(10,'K'), Tmax=(483.006,'K')),
+            NASAPolynomial(coeffs=[3.76931,0.0231329,-1.56839e-05,5.00601e-09,-6.04303e-13,15230.1,8.75391], Tmin=(483.006,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (121.772,'kJ/mol'),
+        E0 = (128.072,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -24155,13 +25738,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 661,
+    index = 704,
     label = "CCCC(F)F",
     molecule = 
 """
@@ -24202,7 +25785,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.912 kJ/mol
 )
 
 entry(
-    index = 662,
+    index = 705,
     label = "OCCDCF",
     molecule = 
 """
@@ -24239,7 +25822,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.825 kJ/mol
 )
 
 entry(
-    index = 663,
+    index = 706,
     label = "FC1DC[CH]1",
     molecule = 
 """
@@ -24273,7 +25856,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.707 kJ/mol
 )
 
 entry(
-    index = 664,
+    index = 707,
     label = "CC1(F)OC1F",
     molecule = 
 """
@@ -24310,7 +25893,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 )
 
 entry(
-    index = 665,
+    index = 708,
     label = "C[C](F)C(O)F",
     molecule = 
 """
@@ -24329,12 +25912,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.63696,0.0324905,-1.04572e-06,-2.36678e-08,1.27853e-11,-64061.7,11.6821], Tmin=(10,'K'), Tmax=(802.141,'K')),
-            NASAPolynomial(coeffs=[5.21905,0.0334776,-1.94906e-05,5.45744e-09,-5.91668e-13,-64601.1,2.61823], Tmin=(802.141,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.63696,0.0324905,-1.04572e-06,-2.36678e-08,1.27853e-11,-62049.9,11.6821], Tmin=(10,'K'), Tmax=(802.141,'K')),
+            NASAPolynomial(coeffs=[5.21905,0.0334776,-1.94906e-05,5.45744e-09,-5.91668e-13,-62589.3,2.61823], Tmin=(802.141,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-532.671,'kJ/mol'),
+        E0 = (-515.944,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -24343,13 +25926,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 666,
+    index = 709,
     label = "ODCDCCF",
     molecule = 
 """
@@ -24384,7 +25967,42 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.541 kJ/mol
 )
 
 entry(
-    index = 667,
+    index = 710,
+    label = "OC(F)C#CF",
+    molecule = 
+"""
+1 O u0 p2 c0 {2,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,T}
+5 C u0 p0 c0 {4,T} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.82637,0.0131988,0.000112869,-3.43949e-07,2.97157e-10,-35911.2,10.7837], Tmin=(10,'K'), Tmax=(407.521,'K')),
+            NASAPolynomial(coeffs=[4.8032,0.0261667,-1.78866e-05,5.77235e-09,-7.04707e-13,-36178.2,4.64999], Tmin=(407.521,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-298.581,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 711,
     label = "[CH]DC(F)C(F)(F)F",
     molecule = 
 """
@@ -24400,12 +26018,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.80789,0.0130075,0.000133329,-3.58712e-07,2.70482e-10,-67897.9,11.2171], Tmin=(10,'K'), Tmax=(473.808,'K')),
-            NASAPolynomial(coeffs=[5.92256,0.0284836,-2.11786e-05,7.14667e-09,-8.93831e-13,-68472.4,-1.35325], Tmin=(473.808,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.80789,0.0130075,0.000133329,-3.58712e-07,2.70482e-10,-67993.8,11.2171], Tmin=(10,'K'), Tmax=(473.808,'K')),
+            NASAPolynomial(coeffs=[5.92256,0.0284836,-2.11786e-05,7.14667e-09,-8.93831e-13,-68568.3,-1.35325], Tmin=(473.808,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-564.567,'kJ/mol'),
+        E0 = (-565.365,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -24414,13 +26032,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 668,
+    index = 712,
     label = "FOCCC(F)F",
     molecule = 
 """
@@ -24439,12 +26057,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79908,0.0342724,-1.22963e-06,-1.75545e-08,7.47032e-12,-71499.2,11.8323], Tmin=(10,'K'), Tmax=(1087.46,'K')),
-            NASAPolynomial(coeffs=[9.18808,0.0294947,-1.53913e-05,3.84911e-09,-3.74903e-13,-73560.9,-18.7085], Tmin=(1087.46,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79908,0.0342724,-1.22963e-06,-1.75545e-08,7.47032e-12,-69673.5,11.8323], Tmin=(10,'K'), Tmax=(1087.46,'K')),
+            NASAPolynomial(coeffs=[9.18808,0.0294947,-1.53913e-05,3.84911e-09,-3.74903e-13,-71735.1,-18.7085], Tmin=(1087.46,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-594.428,'kJ/mol'),
+        E0 = (-579.248,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (282.692,'J/(mol*K)'),
     ),
@@ -24453,13 +26071,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 669,
+    index = 713,
     label = "CDCCF",
     molecule = 
 """
@@ -24495,7 +26113,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.452 kJ/mol
 )
 
 entry(
-    index = 670,
+    index = 714,
     label = "CCC([O])F",
     molecule = 
 """
@@ -24514,12 +26132,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.83516,0.0167669,4.34903e-05,-7.31999e-08,3.28393e-11,-37864.9,10.4209], Tmin=(10,'K'), Tmax=(752.787,'K')),
-            NASAPolynomial(coeffs=[2.30688,0.0371446,-2.15377e-05,6.01816e-09,-6.5204e-13,-37982.1,15.0532], Tmin=(752.787,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.83516,0.0167669,4.34903e-05,-7.31999e-08,3.28393e-11,-35248,10.4209], Tmin=(10,'K'), Tmax=(752.787,'K')),
+            NASAPolynomial(coeffs=[2.30688,0.0371446,-2.15377e-05,6.01816e-09,-6.5204e-13,-35365.2,15.0532], Tmin=(752.787,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-314.832,'kJ/mol'),
+        E0 = (-293.074,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -24528,13 +26146,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 671,
+    index = 715,
     label = "CDC([O])OF",
     molecule = 
 """
@@ -24549,12 +26167,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8868,0.00744281,9.6534e-05,-2.39858e-07,1.72355e-10,-12088.9,10.1218], Tmin=(10,'K'), Tmax=(486.446,'K')),
-            NASAPolynomial(coeffs=[4.76779,0.0219179,-1.5075e-05,4.88658e-09,-5.99067e-13,-12431.6,3.86501], Tmin=(486.446,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8868,0.00744281,9.6534e-05,-2.39858e-07,1.72355e-10,-11466.3,10.1218], Tmin=(10,'K'), Tmax=(486.446,'K')),
+            NASAPolynomial(coeffs=[4.76779,0.0219179,-1.5075e-05,4.88658e-09,-5.99067e-13,-11809,3.86501], Tmin=(486.446,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-100.537,'kJ/mol'),
+        E0 = (-95.3602,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -24563,13 +26181,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 672,
+    index = 716,
     label = "CC1[C](F)C1F",
     molecule = 
 """
@@ -24588,12 +26206,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.76809,0.0195943,5.64232e-05,-1.18356e-07,6.6929e-11,-16976.3,10.0983], Tmin=(10,'K'), Tmax=(587.711,'K')),
-            NASAPolynomial(coeffs=[2.50245,0.0398116,-2.47916e-05,7.36234e-09,-8.39036e-13,-17027.9,13.8267], Tmin=(587.711,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.76809,0.0195943,5.64232e-05,-1.18356e-07,6.6929e-11,-14872.2,10.0983], Tmin=(10,'K'), Tmax=(587.711,'K')),
+            NASAPolynomial(coeffs=[2.50245,0.0398116,-2.47916e-05,7.36234e-09,-8.39036e-13,-14923.8,13.8267], Tmin=(587.711,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-141.183,'kJ/mol'),
+        E0 = (-123.688,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -24602,13 +26220,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 673,
+    index = 717,
     label = "C[CH]C(O)F",
     molecule = 
 """
@@ -24647,7 +26265,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.796 kJ/mol
 )
 
 entry(
-    index = 674,
+    index = 718,
     label = "FCCDC(F)CF",
     molecule = 
 """
@@ -24686,7 +26304,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.346 kJ/mol
 )
 
 entry(
-    index = 675,
+    index = 719,
     label = "CCDC([O])F",
     molecule = 
 """
@@ -24703,27 +26321,64 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.80608,0.0188663,1.78447e-05,-3.89388e-08,1.79971e-11,-37261.3,9.26369], Tmin=(10,'K'), Tmax=(786.089,'K')),
-            NASAPolynomial(coeffs=[3.88553,0.0275413,-1.60334e-05,4.48533e-09,-4.85791e-13,-37554.3,7.11522], Tmin=(786.089,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.80608,0.0188663,1.78447e-05,-3.89388e-08,1.79971e-11,-36915.8,9.26369], Tmin=(10,'K'), Tmax=(786.089,'K')),
+            NASAPolynomial(coeffs=[3.88553,0.0275413,-1.60334e-05,4.48533e-09,-4.85791e-13,-37208.8,7.11522], Tmin=(786.089,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-309.818,'kJ/mol'),
+        E0 = (-306.946,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 5.13 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 676,
+    index = 720,
+    label = "[O]C(CF)OF",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
+3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+4 F u0 p3 c0 {3,S}
+5 O u0 p2 c0 {2,S} {6,S}
+6 F u0 p3 c0 {5,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.76155,0.0281698,-5.2382e-06,-1.31114e-08,6.90803e-12,-32503.2,11.4758], Tmin=(10,'K'), Tmax=(955.375,'K')),
+            NASAPolynomial(coeffs=[7.39482,0.0231154,-1.32503e-05,3.60801e-09,-3.79138e-13,-33661,-8.31276], Tmin=(955.375,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-270.234,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 721,
     label = "FOCDC(F)F",
     molecule = 
 """
@@ -24737,12 +26392,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77819,0.0190773,3.4884e-05,-1.05763e-07,7.18946e-11,-45568.9,10.8935], Tmin=(10,'K'), Tmax=(554.748,'K')),
-            NASAPolynomial(coeffs=[5.4651,0.0223315,-1.56035e-05,5.00955e-09,-6.02818e-13,-45993.3,1.61088], Tmin=(554.748,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77819,0.0190773,3.4884e-05,-1.05763e-07,7.18946e-11,-45640,10.8935], Tmin=(10,'K'), Tmax=(554.748,'K')),
+            NASAPolynomial(coeffs=[5.4651,0.0223315,-1.56035e-05,5.00955e-09,-6.02818e-13,-46064.4,1.61088], Tmin=(554.748,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-378.916,'kJ/mol'),
+        E0 = (-379.507,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -24751,13 +26406,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 677,
+    index = 722,
     label = "FCC(OF)OF",
     molecule = 
 """
@@ -24794,7 +26449,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.289 kJ/mol
 )
 
 entry(
-    index = 678,
+    index = 723,
     label = "F[C]1CC1",
     molecule = 
 """
@@ -24830,7 +26485,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.166 kJ/mol
 )
 
 entry(
-    index = 679,
+    index = 724,
     label = "FC1D[C]CO1",
     molecule = 
 """
@@ -24845,12 +26500,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.02656,-0.00309022,9.86244e-05,-1.73954e-07,9.6086e-11,13911.9,9.72446], Tmin=(10,'K'), Tmax=(586.783,'K')),
-            NASAPolynomial(coeffs=[2.19329,0.0258237,-1.72551e-05,5.38113e-09,-6.33976e-13,13844.4,15.1834], Tmin=(586.783,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.02656,-0.00309022,9.86244e-05,-1.73954e-07,9.6086e-11,14596.5,9.72446], Tmin=(10,'K'), Tmax=(586.783,'K')),
+            NASAPolynomial(coeffs=[2.19329,0.0258237,-1.72551e-05,5.38113e-09,-6.33976e-13,14529,15.1834], Tmin=(586.783,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (115.655,'kJ/mol'),
+        E0 = (121.347,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -24859,13 +26514,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 680,
+    index = 725,
     label = "CDCDC[CH]F",
     molecule = 
 """
@@ -24902,7 +26557,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.315 kJ/mol
 )
 
 entry(
-    index = 681,
+    index = 726,
     label = "CCDCD[C]F",
     molecule = 
 """
@@ -24919,12 +26574,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.58541,0.0401737,-8.80922e-05,1.54783e-07,-1.08093e-10,21216.4,9.50776], Tmin=(10,'K'), Tmax=(452.028,'K')),
-            NASAPolynomial(coeffs=[3.96785,0.0277013,-1.65464e-05,4.7867e-09,-5.36796e-13,21274.7,8.99336], Tmin=(452.028,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.58541,0.0401737,-8.80922e-05,1.54783e-07,-1.08093e-10,22923,9.50776], Tmin=(10,'K'), Tmax=(452.028,'K')),
+            NASAPolynomial(coeffs=[3.96785,0.0277013,-1.65464e-05,4.7867e-09,-5.36796e-13,22981.2,8.99336], Tmin=(452.028,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (176.391,'kJ/mol'),
+        E0 = (190.58,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -24933,13 +26588,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 682,
+    index = 727,
     label = "CCCD[C]F",
     molecule = 
 """
@@ -24978,7 +26633,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.447 kJ/mol
 )
 
 entry(
-    index = 683,
+    index = 728,
     label = "FC(F)C1CO1",
     molecule = 
 """
@@ -25015,7 +26670,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.465 kJ/mol
 )
 
 entry(
-    index = 684,
+    index = 729,
     label = "[C]#CC(DO)F",
     molecule = 
 """
@@ -25048,7 +26703,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.878 kJ/mol
 )
 
 entry(
-    index = 685,
+    index = 730,
     label = "CC([O])(F)F",
     molecule = 
 """
@@ -25064,12 +26719,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91408,0.00530425,9.77674e-05,-2.07792e-07,1.32367e-10,-59535.2,9.00872], Tmin=(10,'K'), Tmax=(525.593,'K')),
-            NASAPolynomial(coeffs=[3.35374,0.0278249,-1.86065e-05,5.9038e-09,-7.12681e-13,-59728.4,8.95279], Tmin=(525.593,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91408,0.00530425,9.77674e-05,-2.07792e-07,1.32367e-10,-58465.9,9.00872], Tmin=(10,'K'), Tmax=(525.593,'K')),
+            NASAPolynomial(coeffs=[3.35374,0.0278249,-1.86065e-05,5.9038e-09,-7.12681e-13,-58659.2,8.95279], Tmin=(525.593,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-495.032,'kJ/mol'),
+        E0 = (-486.141,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -25078,13 +26733,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 686,
+    index = 731,
     label = "CCCCF",
     molecule = 
 """
@@ -25125,7 +26780,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.997 kJ/mol
 )
 
 entry(
-    index = 687,
+    index = 732,
     label = "F[CH]C1CO1",
     molecule = 
 """
@@ -25162,7 +26817,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.27 kJ/mol
 )
 
 entry(
-    index = 688,
+    index = 733,
     label = "CDCCDCF",
     molecule = 
 """
@@ -25199,7 +26854,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.48 kJ/mol
 )
 
 entry(
-    index = 689,
+    index = 734,
     label = "CC[C]DCF",
     molecule = 
 """
@@ -25218,12 +26873,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90816,0.0237813,6.65567e-06,-1.70386e-08,5.86462e-12,1656.52,9.46568], Tmin=(10,'K'), Tmax=(1195.09,'K')),
-            NASAPolynomial(coeffs=[7.7504,0.0245202,-1.13404e-05,2.52164e-09,-2.18954e-13,-232.989,-13.8187], Tmin=(1195.09,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90816,0.0237813,6.65567e-06,-1.70386e-08,5.86462e-12,4316.33,9.46568], Tmin=(10,'K'), Tmax=(1195.09,'K')),
+            NASAPolynomial(coeffs=[7.7504,0.0245202,-1.13404e-05,2.52164e-09,-2.18954e-13,2426.82,-13.8187], Tmin=(1195.09,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (13.8141,'kJ/mol'),
+        E0 = (35.929,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -25232,13 +26887,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 690,
+    index = 735,
     label = "COCCF",
     molecule = 
 """
@@ -25277,7 +26932,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.338 kJ/mol
 )
 
 entry(
-    index = 691,
+    index = 736,
     label = "FC1[C]DCC1F",
     molecule = 
 """
@@ -25314,7 +26969,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 )
 
 entry(
-    index = 692,
+    index = 737,
     label = "FCOCF",
     molecule = 
 """
@@ -25350,7 +27005,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.363 kJ/mol
 )
 
 entry(
-    index = 693,
+    index = 738,
     label = "CC(F)[C](O)F",
     molecule = 
 """
@@ -25369,12 +27024,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.85581,0.0164969,0.000223776,-1.17602e-06,2.10525e-09,-64108.9,11.0554], Tmin=(10,'K'), Tmax=(140.54,'K')),
-            NASAPolynomial(coeffs=[3.03414,0.0398831,-2.58266e-05,8.00281e-09,-9.48525e-13,-64085.8,13.4071], Tmin=(140.54,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.85581,0.0164969,0.000223776,-1.17602e-06,2.10525e-09,-62097.1,11.0554], Tmin=(10,'K'), Tmax=(140.54,'K')),
+            NASAPolynomial(coeffs=[3.03414,0.0398831,-2.58266e-05,8.00281e-09,-9.48525e-13,-62074,13.4071], Tmin=(140.54,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-532.661,'kJ/mol'),
+        E0 = (-515.934,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -25383,13 +27038,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 694,
+    index = 739,
     label = "[CH2]C(O)F",
     molecule = 
 """
@@ -25425,7 +27080,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.096 kJ/mol
 )
 
 entry(
-    index = 695,
+    index = 740,
     label = "CD[C]CF",
     molecule = 
 """
@@ -25461,7 +27116,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.297 kJ/mol
 )
 
 entry(
-    index = 696,
+    index = 741,
     label = "FC1DCC1F",
     molecule = 
 """
@@ -25495,7 +27150,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.672 kJ/mol
 )
 
 entry(
-    index = 697,
+    index = 742,
     label = "C[CH]OCF",
     molecule = 
 """
@@ -25534,7 +27189,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.044 kJ/mol
 )
 
 entry(
-    index = 698,
+    index = 743,
     label = "CDCO[C](F)F",
     molecule = 
 """
@@ -25571,7 +27226,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.855 kJ/mol
 )
 
 entry(
-    index = 699,
+    index = 744,
     label = "CC1OC1(F)F",
     molecule = 
 """
@@ -25608,7 +27263,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 )
 
 entry(
-    index = 700,
+    index = 745,
     label = "OC#CC(F)F",
     molecule = 
 """
@@ -25643,7 +27298,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.112 kJ/mol
 )
 
 entry(
-    index = 701,
+    index = 746,
+    label = "[CH]DCC(O)F",
+    molecule = 
+"""
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,D}
+2 H u0 p0 c0 {1,S}
+3 C u0 p0 c0 {1,D} {4,S} {7,S}
+4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
+5 O u0 p2 c0 {4,S} {9,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90209,0.00634092,0.000114267,-2.57801e-07,1.75798e-10,-15053,10.4889], Tmin=(10,'K'), Tmax=(488.103,'K')),
+            NASAPolynomial(coeffs=[3.2597,0.0308188,-2.00023e-05,6.23366e-09,-7.43485e-13,-15219.2,10.7828], Tmin=(488.103,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-125.181,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 747,
     label = "FC1C[CH]C1",
     molecule = 
 """
@@ -25662,12 +27354,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.96199,0.00234573,0.000117437,-2.12315e-07,1.23994e-10,-2288.4,10.1419], Tmin=(10,'K'), Tmax=(442.886,'K')),
-            NASAPolynomial(coeffs=[-0.84271,0.0457577,-2.96537e-05,9.18708e-09,-1.08932e-12,-1862.99,29.4067], Tmin=(442.886,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.96199,0.00234573,0.000117437,-2.12315e-07,1.23994e-10,419.769,10.1419], Tmin=(10,'K'), Tmax=(442.886,'K')),
+            NASAPolynomial(coeffs=[-0.84271,0.0457577,-2.96537e-05,9.18708e-09,-1.08932e-12,845.183,29.4067], Tmin=(442.886,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-19.0394,'kJ/mol'),
+        E0 = (3.47761,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -25676,13 +27368,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 702,
+    index = 748,
     label = "ODCD[C]C(F)F",
     molecule = 
 """
@@ -25717,7 +27409,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.993 kJ/mol
 )
 
 entry(
-    index = 703,
+    index = 749,
     label = "FOOC(F)F",
     molecule = 
 """
@@ -25731,12 +27423,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79395,0.020833,1.32994e-05,-4.73437e-08,2.69305e-11,-58062.8,10.8105], Tmin=(10,'K'), Tmax=(708.778,'K')),
-            NASAPolynomial(coeffs=[6.19748,0.0204224,-1.36689e-05,4.20589e-09,-4.87436e-13,-58733.9,-2.28854], Tmin=(708.778,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79395,0.020833,1.32994e-05,-4.73437e-08,2.69305e-11,-58145.1,10.8105], Tmin=(10,'K'), Tmax=(708.778,'K')),
+            NASAPolynomial(coeffs=[6.19748,0.0204224,-1.36689e-05,4.20589e-09,-4.87436e-13,-58816.2,-2.28854], Tmin=(708.778,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-482.779,'kJ/mol'),
+        E0 = (-483.463,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -25745,13 +27437,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 704,
+    index = 750,
     label = "ODCDCD[C]F",
     molecule = 
 """
@@ -25764,12 +27456,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8529,0.0134147,4.48717e-05,-2.18942e-07,2.56613e-10,13549.6,9.20515], Tmin=(10,'K'), Tmax=(321.722,'K')),
-            NASAPolynomial(coeffs=[4.71225,0.0139603,-1.00311e-05,3.3236e-09,-4.12305e-13,13436.2,5.1306], Tmin=(321.722,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8529,0.0134147,4.48717e-05,-2.18942e-07,2.56613e-10,13346.5,9.20515], Tmin=(10,'K'), Tmax=(321.722,'K')),
+            NASAPolynomial(coeffs=[4.71225,0.0139603,-1.00311e-05,3.3236e-09,-4.12305e-13,13233.1,5.1306], Tmin=(321.722,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (112.675,'kJ/mol'),
+        E0 = (110.986,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
@@ -25778,13 +27470,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 705,
+    index = 751,
     label = "CO[C](C)F",
     molecule = 
 """
@@ -25823,7 +27515,81 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.72 kJ/mol
 )
 
 entry(
-    index = 706,
+    index = 752,
+    label = "[O]CC(O)F",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.84604,0.0127181,7.57608e-05,-1.83638e-07,1.3028e-10,-49497,10.5471], Tmin=(10,'K'), Tmax=(457.338,'K')),
+            NASAPolynomial(coeffs=[2.8766,0.0316097,-2.03522e-05,6.25018e-09,-7.33804e-13,-49517.2,13.2752], Tmin=(457.338,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-411.554,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 753,
+    label = "CDCC(O)F",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,D} {6,S} {7,S}
+2  C u0 p0 c0 {1,D} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {3,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92783,0.00448192,0.000113891,-2.29047e-07,1.43065e-10,-44853.5,9.7906], Tmin=(10,'K'), Tmax=(508.959,'K')),
+            NASAPolynomial(coeffs=[1.77206,0.0361595,-2.2896e-05,7.00843e-09,-8.2588e-13,-44825,16.8601], Tmin=(508.959,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-372.956,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 754,
     label = "CDC(F)O[CH]F",
     molecule = 
 """
@@ -25840,12 +27606,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78064,0.0207063,3.20515e-05,-7.62576e-08,4.17081e-11,-41197.4,11.7437], Tmin=(10,'K'), Tmax=(667.088,'K')),
-            NASAPolynomial(coeffs=[4.63765,0.0294239,-1.87076e-05,5.60679e-09,-6.40783e-13,-41620.1,5.64522], Tmin=(667.088,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.78064,0.0207063,3.20515e-05,-7.62576e-08,4.17081e-11,-40212,11.7437], Tmin=(10,'K'), Tmax=(667.088,'K')),
+            NASAPolynomial(coeffs=[4.63765,0.0294239,-1.87076e-05,5.60679e-09,-6.40783e-13,-40634.6,5.64522], Tmin=(667.088,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-342.561,'kJ/mol'),
+        E0 = (-334.367,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -25854,13 +27620,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 707,
+    index = 755,
     label = "CO[CH]F",
     molecule = 
 """
@@ -25896,7 +27662,44 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.199 kJ/mol
 )
 
 entry(
-    index = 708,
+    index = 756,
+    label = "FCOC(F)OF",
+    molecule = 
+"""
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3  O u0 p2 c0 {2,S} {4,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+5  F u0 p3 c0 {4,S}
+6  O u0 p2 c0 {4,S} {7,S}
+7  F u0 p3 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.83992,0.0342019,-1.69508e-05,6.61079e-10,1.18341e-12,-83934.3,11.5327], Tmin=(10,'K'), Tmax=(1290.61,'K')),
+            NASAPolynomial(coeffs=[12.7703,0.0162717,-7.4408e-06,1.60079e-09,-1.32219e-13,-87051.2,-36.9743], Tmin=(1290.61,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-697.831,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (232.805,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 757,
     label = "F[C]DCCF",
     molecule = 
 """
@@ -25912,12 +27715,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.81387,0.0175009,1.16267e-05,-2.82837e-08,1.28358e-11,-14815.4,10.3995], Tmin=(10,'K'), Tmax=(825.342,'K')),
-            NASAPolynomial(coeffs=[4.19686,0.0235584,-1.37648e-05,3.84354e-09,-4.14627e-13,-15148.2,6.99243], Tmin=(825.342,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.81387,0.0175009,1.16267e-05,-2.82837e-08,1.28358e-11,-13703.2,10.3995], Tmin=(10,'K'), Tmax=(825.342,'K')),
+            NASAPolynomial(coeffs=[4.19686,0.0235584,-1.37648e-05,3.84354e-09,-4.14627e-13,-14035.9,6.99243], Tmin=(825.342,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-123.192,'kJ/mol'),
+        E0 = (-113.944,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -25926,13 +27729,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 709,
+    index = 758,
     label = "CC(F)DCOF",
     molecule = 
 """
@@ -25949,12 +27752,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.69023,0.0269083,2.74373e-05,-9.28361e-08,6.46203e-11,-30516.5,9.83288], Tmin=(10,'K'), Tmax=(518.118,'K')),
-            NASAPolynomial(coeffs=[3.99071,0.0342638,-2.18687e-05,6.64815e-09,-7.7317e-13,-30677.5,7.32758], Tmin=(518.118,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.69023,0.0269083,2.74373e-05,-9.28361e-08,6.46203e-11,-29040,9.83288], Tmin=(10,'K'), Tmax=(518.118,'K')),
+            NASAPolynomial(coeffs=[3.99071,0.0342638,-2.18687e-05,6.64815e-09,-7.7317e-13,-29201,7.32758], Tmin=(518.118,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-253.76,'kJ/mol'),
+        E0 = (-241.484,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -25963,13 +27766,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 710,
+    index = 759,
     label = "ODC(F)CO",
     molecule = 
 """
@@ -26004,7 +27807,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.681 kJ/mol
 )
 
 entry(
-    index = 711,
+    index = 760,
     label = "FOC[C](F)F",
     molecule = 
 """
@@ -26020,12 +27823,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.75963,0.0270103,-8.82155e-06,-9.29662e-09,5.87065e-12,-40204.8,10.9043], Tmin=(10,'K'), Tmax=(925.907,'K')),
-            NASAPolynomial(coeffs=[7.49546,0.019845,-1.17515e-05,3.28046e-09,-3.51514e-13,-41281.3,-8.90857], Tmin=(925.907,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.75963,0.0270103,-8.82155e-06,-9.29662e-09,5.87065e-12,-39784.4,10.9043], Tmin=(10,'K'), Tmax=(925.907,'K')),
+            NASAPolynomial(coeffs=[7.49546,0.019845,-1.17515e-05,3.28046e-09,-3.51514e-13,-40860.8,-8.90857], Tmin=(925.907,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-334.276,'kJ/mol'),
+        E0 = (-330.781,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -26034,13 +27837,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 712,
+    index = 761,
     label = "[CH2]C(F)OF",
     molecule = 
 """
@@ -26056,12 +27859,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84592,0.0116821,0.000103264,-2.9395e-07,2.41499e-10,-18760.9,10.5013], Tmin=(10,'K'), Tmax=(419.734,'K')),
-            NASAPolynomial(coeffs=[4.23181,0.0268344,-1.81771e-05,5.81595e-09,-7.04846e-13,-18959.2,6.99872], Tmin=(419.734,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84592,0.0116821,0.000103264,-2.9395e-07,2.41499e-10,-17736.4,10.5013], Tmin=(10,'K'), Tmax=(419.734,'K')),
+            NASAPolynomial(coeffs=[4.23181,0.0268344,-1.81771e-05,5.81595e-09,-7.04846e-13,-17934.7,6.99872], Tmin=(419.734,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-155.99,'kJ/mol'),
+        E0 = (-147.472,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -26070,13 +27873,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 713,
+    index = 762,
     label = "ODC(F)[CH]F",
     molecule = 
 """
@@ -26110,7 +27913,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.306 kJ/mol
 )
 
 entry(
-    index = 714,
+    index = 763,
     label = "CDC(F)CDCF",
     molecule = 
 """
@@ -26147,7 +27950,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.039 kJ/mol
 )
 
 entry(
-    index = 715,
+    index = 764,
     label = "CDC([O])CF",
     molecule = 
 """
@@ -26184,7 +27987,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.718 kJ/mol
 )
 
 entry(
-    index = 716,
+    index = 765,
     label = "ODC1CDC1F",
     molecule = 
 """
@@ -26217,7 +28020,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.221 kJ/mol
 )
 
 entry(
-    index = 717,
+    index = 766,
     label = "COC[CH]F",
     molecule = 
 """
@@ -26256,7 +28059,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.738 kJ/mol
 )
 
 entry(
-    index = 718,
+    index = 767,
     label = "CDCOF",
     molecule = 
 """
@@ -26270,12 +28073,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.956,0.00256729,6.77826e-05,-1.25379e-07,7.1292e-11,-1842.05,8.26873], Tmin=(10,'K'), Tmax=(561.19,'K')),
-            NASAPolynomial(coeffs=[2.30163,0.0241185,-1.59074e-05,5.029e-09,-6.07442e-13,-1810.04,13.9252], Tmin=(561.19,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.956,0.00256729,6.77826e-05,-1.25379e-07,7.1292e-11,-704.93,8.26873], Tmin=(10,'K'), Tmax=(561.19,'K')),
+            NASAPolynomial(coeffs=[2.30163,0.0241185,-1.59074e-05,5.029e-09,-6.07442e-13,-672.925,13.9252], Tmin=(561.19,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-15.3341,'kJ/mol'),
+        E0 = (-5.87953,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -26284,13 +28087,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 719,
+    index = 768,
     label = "[CH]DC(F)F",
     molecule = 
 """
@@ -26323,7 +28126,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.112 kJ/mol
 )
 
 entry(
-    index = 720,
+    index = 769,
     label = "FOC1DCC1F",
     molecule = 
 """
@@ -26338,12 +28141,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87285,0.00853835,0.000114292,-2.81144e-07,2.02865e-10,2702.37,10.9245], Tmin=(10,'K'), Tmax=(474.153,'K')),
-            NASAPolynomial(coeffs=[4.08534,0.0289045,-2.02366e-05,6.56729e-09,-7.99902e-13,2433.13,7.43126], Tmin=(474.153,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87285,0.00853835,0.000114292,-2.81144e-07,2.02865e-10,3274.04,10.9245], Tmin=(10,'K'), Tmax=(474.153,'K')),
+            NASAPolynomial(coeffs=[4.08534,0.0289045,-2.02366e-05,6.56729e-09,-7.99902e-13,3004.81,7.43126], Tmin=(474.153,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (22.4462,'kJ/mol'),
+        E0 = (27.1994,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -26352,13 +28155,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 721,
+    index = 770,
     label = "FCDC(CF)CF",
     molecule = 
 """
@@ -26397,7 +28200,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.225 kJ/mol
 )
 
 entry(
-    index = 722,
+    index = 771,
     label = "CD[C]OC(F)F",
     molecule = 
 """
@@ -26434,7 +28237,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 )
 
 entry(
-    index = 723,
+    index = 772,
     label = "O[C](F)OCF",
     molecule = 
 """
@@ -26451,12 +28254,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.77148,0.0209739,2.94871e-05,-7.26653e-08,4.039e-11,-78379.7,11.4826], Tmin=(10,'K'), Tmax=(655.523,'K')),
-            NASAPolynomial(coeffs=[4.46581,0.0293519,-1.85496e-05,5.54444e-09,-6.33018e-13,-78741.7,6.35879], Tmin=(655.523,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.77148,0.0209739,2.94871e-05,-7.26653e-08,4.039e-11,-77438.2,11.4826], Tmin=(10,'K'), Tmax=(655.523,'K')),
+            NASAPolynomial(coeffs=[4.46581,0.0293519,-1.85496e-05,5.54444e-09,-6.33018e-13,-77800.3,6.35879], Tmin=(655.523,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-651.714,'kJ/mol'),
+        E0 = (-643.886,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -26465,13 +28268,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 724,
+    index = 773,
     label = "CC(C)[CH]F",
     molecule = 
 """
@@ -26512,7 +28315,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.008 kJ/mol
 )
 
 entry(
-    index = 725,
+    index = 774,
     label = "FCDC(F)OCF",
     molecule = 
 """
@@ -26549,7 +28352,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.29 kJ/mol
 )
 
 entry(
-    index = 726,
+    index = 775,
     label = "O[C](CF)CF",
     molecule = 
 """
@@ -26568,12 +28371,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78479,0.0304338,-3.35772e-06,-1.21334e-08,5.27617e-12,-60785.7,10.8889], Tmin=(10,'K'), Tmax=(1108.33,'K')),
-            NASAPolynomial(coeffs=[8.05224,0.0265064,-1.35713e-05,3.35082e-09,-3.23452e-13,-62436.4,-13.3172], Tmin=(1108.33,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.78479,0.0304338,-3.35772e-06,-1.21334e-08,5.27617e-12,-58773.9,10.8889], Tmin=(10,'K'), Tmax=(1108.33,'K')),
+            NASAPolynomial(coeffs=[8.05224,0.0265064,-1.35713e-05,3.35082e-09,-3.23452e-13,-60424.6,-13.3172], Tmin=(1108.33,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-505.374,'kJ/mol'),
+        E0 = (-488.647,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -26582,13 +28385,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 727,
+    index = 776,
     label = "[CH]DC1CC1F",
     molecule = 
 """
@@ -26605,12 +28408,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92801,0.00418557,9.88139e-05,-1.85764e-07,1.06182e-10,26171,9.74001], Tmin=(10,'K'), Tmax=(568.926,'K')),
-            NASAPolynomial(coeffs=[2.03541,0.0338811,-2.26902e-05,7.24821e-09,-8.81768e-13,26121.1,15.4722], Tmin=(568.926,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92801,0.00418557,9.88139e-05,-1.85764e-07,1.06182e-10,27925.9,9.74001], Tmin=(10,'K'), Tmax=(568.926,'K')),
+            NASAPolynomial(coeffs=[2.03541,0.0338811,-2.26902e-05,7.24821e-09,-8.81768e-13,27876,15.4722], Tmin=(568.926,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (217.568,'kJ/mol'),
+        E0 = (232.159,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -26619,13 +28422,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 728,
+    index = 777,
     label = "FC1D[C]CC1F",
     molecule = 
 """
@@ -26662,7 +28465,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 )
 
 entry(
-    index = 729,
+    index = 778,
     label = "FC[C]1OC1F",
     molecule = 
 """
@@ -26699,7 +28502,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.979 kJ/mol
 )
 
 entry(
-    index = 730,
+    index = 779,
     label = "F[CH]COCF",
     molecule = 
 """
@@ -26738,7 +28541,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.329 kJ/mol
 )
 
 entry(
-    index = 731,
+    index = 780,
     label = "[O]C1CC1F",
     molecule = 
 """
@@ -26755,12 +28558,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87111,0.0226857,-1.70113e-06,-9.01936e-09,3.64807e-12,-23962.6,10.4058], Tmin=(10,'K'), Tmax=(1174.67,'K')),
-            NASAPolynomial(coeffs=[7.7023,0.0191361,-9.29495e-06,2.17264e-09,-1.98603e-13,-25517.8,-11.483], Tmin=(1174.67,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87111,0.0226857,-1.70113e-06,-9.01936e-09,3.64807e-12,-22250.6,10.4058], Tmin=(10,'K'), Tmax=(1174.67,'K')),
+            NASAPolynomial(coeffs=[7.7023,0.0191361,-9.29495e-06,2.17264e-09,-1.98603e-13,-23805.9,-11.483], Tmin=(1174.67,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-199.209,'kJ/mol'),
+        E0 = (-184.975,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -26769,13 +28572,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 732,
+    index = 781,
     label = "FCC1[CH]C1F",
     molecule = 
 """
@@ -26794,12 +28597,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.83581,0.0176252,5.54754e-05,-1.00166e-07,4.8472e-11,-17339.2,11.3303], Tmin=(10,'K'), Tmax=(710.871,'K')),
-            NASAPolynomial(coeffs=[3.13862,0.0382502,-2.32878e-05,6.75089e-09,-7.52038e-13,-17662.1,11.4877], Tmin=(710.871,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.83581,0.0176252,5.54754e-05,-1.00166e-07,4.8472e-11,-15235.1,11.3303], Tmin=(10,'K'), Tmax=(710.871,'K')),
+            NASAPolynomial(coeffs=[3.13862,0.0382502,-2.32878e-05,6.75089e-09,-7.52038e-13,-15558,11.4877], Tmin=(710.871,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-144.176,'kJ/mol'),
+        E0 = (-126.681,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -26808,13 +28611,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 733,
+    index = 782,
     label = "FC1CDCO1",
     molecule = 
 """
@@ -26849,7 +28652,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.605 kJ/mol
 )
 
 entry(
-    index = 734,
+    index = 783,
     label = "CDC1CC1F",
     molecule = 
 """
@@ -26886,7 +28689,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.308 kJ/mol
 )
 
 entry(
-    index = 735,
+    index = 784,
     label = "FCC1DCO1",
     molecule = 
 """
@@ -26901,12 +28704,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84416,0.022637,-8.47572e-06,-1.63045e-09,1.2516e-12,1948.45,9.26821], Tmin=(10,'K'), Tmax=(1301.04,'K')),
-            NASAPolynomial(coeffs=[8.99371,0.0137717,-6.28685e-06,1.36376e-09,-1.14628e-13,18.8713,-19.1966], Tmin=(1301.04,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84416,0.022637,-8.47572e-06,-1.63045e-09,1.2516e-12,3094.86,9.26821], Tmin=(10,'K'), Tmax=(1301.04,'K')),
+            NASAPolynomial(coeffs=[8.99371,0.0137717,-6.28685e-06,1.36376e-09,-1.14628e-13,1165.27,-19.1966], Tmin=(1301.04,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (16.2062,'kJ/mol'),
+        E0 = (25.7379,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -26915,13 +28718,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 736,
+    index = 785,
     label = "FC1[CH]CC1",
     molecule = 
 """
@@ -26940,12 +28743,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.96101,0.00234407,0.000113194,-1.9834e-07,1.11763e-10,-1960.07,10.1339], Tmin=(10,'K'), Tmax=(459.387,'K')),
-            NASAPolynomial(coeffs=[-1.09464,0.0463029,-3.01392e-05,9.372e-09,-1.11434e-12,-1494.92,30.599], Tmin=(459.387,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.96101,0.00234407,0.000113194,-1.9834e-07,1.11763e-10,748.099,10.1339], Tmin=(10,'K'), Tmax=(459.387,'K')),
+            NASAPolynomial(coeffs=[-1.09464,0.0463029,-3.01392e-05,9.372e-09,-1.11434e-12,1213.25,30.599], Tmin=(459.387,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-16.3125,'kJ/mol'),
+        E0 = (6.20457,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -26954,13 +28757,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 737,
+    index = 786,
     label = "CC(F)[CH]CF",
     molecule = 
 """
@@ -27001,7 +28804,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.856 kJ/mol
 )
 
 entry(
-    index = 738,
+    index = 787,
     label = "FOCDC(F)OF",
     molecule = 
 """
@@ -27036,7 +28839,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.112 kJ/mol
 )
 
 entry(
-    index = 739,
+    index = 788,
     label = "CC(D[C]F)CF",
     molecule = 
 """
@@ -27055,12 +28858,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.69434,0.0321095,-1.02092e-05,-4.06585e-09,2.34894e-12,-20571.5,10.2648], Tmin=(10,'K'), Tmax=(1222.51,'K')),
-            NASAPolynomial(coeffs=[8.47432,0.0251692,-1.23678e-05,2.93215e-09,-2.72479e-13,-22390.3,-16.415], Tmin=(1222.51,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.69434,0.0321095,-1.02092e-05,-4.06585e-09,2.34894e-12,-18515.7,10.2648], Tmin=(10,'K'), Tmax=(1222.51,'K')),
+            NASAPolynomial(coeffs=[8.47432,0.0251692,-1.23678e-05,2.93215e-09,-2.72479e-13,-20334.6,-16.415], Tmin=(1222.51,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-171.053,'kJ/mol'),
+        E0 = (-153.961,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -27069,13 +28872,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 740,
+    index = 789,
     label = "C#CO[C](F)F",
     molecule = 
 """
@@ -27110,7 +28913,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.729 kJ/mol
 )
 
 entry(
-    index = 741,
+    index = 790,
     label = "CC(F)DCDCF",
     molecule = 
 """
@@ -27147,7 +28950,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.403 kJ/mol
 )
 
 entry(
-    index = 742,
+    index = 791,
     label = "FCD[C]CC(F)F",
     molecule = 
 """
@@ -27166,12 +28969,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.53704,0.0503145,-0.000147323,4.06711e-07,-4.0965e-10,-46928.6,13.1866], Tmin=(10,'K'), Tmax=(348.012,'K')),
-            NASAPolynomial(coeffs=[2.31577,0.0436218,-2.91269e-05,9.12857e-09,-1.08481e-12,-46718.1,19.5929], Tmin=(348.012,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.53704,0.0503145,-0.000147323,4.06711e-07,-4.0965e-10,-45476.9,13.1866], Tmin=(10,'K'), Tmax=(348.012,'K')),
+            NASAPolynomial(coeffs=[2.31577,0.0436218,-2.91269e-05,9.12857e-09,-1.08481e-12,-45266.4,19.5929], Tmin=(348.012,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-390.196,'kJ/mol'),
+        E0 = (-378.126,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -27180,13 +28983,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 743,
+    index = 792,
     label = "ODCDC(O)F",
     molecule = 
 """
@@ -27199,12 +29002,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88664,0.00781637,8.35556e-05,-2.32039e-07,1.81944e-10,-39340,9.3854], Tmin=(10,'K'), Tmax=(456.071,'K')),
-            NASAPolynomial(coeffs=[5.19911,0.0164859,-1.13318e-05,3.68592e-09,-4.54223e-13,-39669.6,1.78295], Tmin=(456.071,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88664,0.00781637,8.35557e-05,-2.32039e-07,1.81945e-10,-39125.3,9.3854], Tmin=(10,'K'), Tmax=(456.071,'K')),
+            NASAPolynomial(coeffs=[5.19911,0.0164859,-1.13318e-05,3.68592e-09,-4.54224e-13,-39454.9,1.78296], Tmin=(456.071,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-327.105,'kJ/mol'),
+        E0 = (-325.32,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -27213,13 +29016,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 744,
+    index = 793,
     label = "[O]C(F)(F)F",
     molecule = 
 """
@@ -27252,7 +29055,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.184 kJ/mol
 )
 
 entry(
-    index = 745,
+    index = 794,
     label = "CCDCOF",
     molecule = 
 """
@@ -27269,12 +29072,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.78633,0.0204735,2.08924e-05,-4.32031e-08,1.95639e-11,-7066.53,8.72067], Tmin=(10,'K'), Tmax=(790.633,'K')),
-            NASAPolynomial(coeffs=[3.5226,0.0314101,-1.80741e-05,5.01478e-09,-5.3991e-13,-7324.95,8.03309], Tmin=(790.633,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.78633,0.0204735,2.08924e-05,-4.32031e-08,1.95639e-11,-4985.9,8.72067], Tmin=(10,'K'), Tmax=(790.633,'K')),
+            NASAPolynomial(coeffs=[3.5226,0.0314101,-1.80741e-05,5.01478e-09,-5.3991e-13,-5244.32,8.03309], Tmin=(790.633,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-58.7659,'kJ/mol'),
+        E0 = (-41.4666,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -27283,13 +29086,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 746,
+    index = 795,
     label = "CDC1OC1F",
     molecule = 
 """
@@ -27324,7 +29127,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.605 kJ/mol
 )
 
 entry(
-    index = 747,
+    index = 796,
     label = "CCDC[C](F)F",
     molecule = 
 """
@@ -27363,7 +29166,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.366 kJ/mol
 )
 
 entry(
-    index = 748,
+    index = 797,
     label = "[CH2]C(F)DCF",
     molecule = 
 """
@@ -27399,7 +29202,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.403 kJ/mol
 )
 
 entry(
-    index = 749,
+    index = 798,
     label = "ODCOCF",
     molecule = 
 """
@@ -27434,7 +29237,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.725 kJ/mol
 )
 
 entry(
-    index = 750,
+    index = 799,
     label = "COCDC(F)F",
     molecule = 
 """
@@ -27471,7 +29274,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.081 kJ/mol
 )
 
 entry(
-    index = 751,
+    index = 800,
     label = "C[C]1C(F)C1F",
     molecule = 
 """
@@ -27510,7 +29313,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.774 kJ/mol
 )
 
 entry(
-    index = 752,
+    index = 801,
     label = "FC[C]1CC1F",
     molecule = 
 """
@@ -27549,7 +29352,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.788 kJ/mol
 )
 
 entry(
-    index = 753,
+    index = 802,
     label = "C#COCF",
     molecule = 
 """
@@ -27584,7 +29387,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.906 kJ/mol
 )
 
 entry(
-    index = 754,
+    index = 803,
     label = "OC(O)[CH]F",
     molecule = 
 """
@@ -27621,7 +29424,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.665 kJ/mol
 )
 
 entry(
-    index = 755,
+    index = 804,
     label = "CCC(F)D[C]F",
     molecule = 
 """
@@ -27640,12 +29443,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.65731,0.0321236,-8.41788e-06,-7.26883e-09,3.79167e-12,-18077.7,10.3332], Tmin=(10,'K'), Tmax=(1082.69,'K')),
-            NASAPolynomial(coeffs=[6.71994,0.0289416,-1.5277e-05,3.89271e-09,-3.87633e-13,-19217.5,-6.88688], Tmin=(1082.69,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.65731,0.0321236,-8.41788e-06,-7.26883e-09,3.79167e-12,-16021.9,10.3332], Tmin=(10,'K'), Tmax=(1082.69,'K')),
+            NASAPolynomial(coeffs=[6.71994,0.0289416,-1.5277e-05,3.89271e-09,-3.87633e-13,-17161.8,-6.88688], Tmin=(1082.69,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-150.324,'kJ/mol'),
+        E0 = (-133.231,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -27654,13 +29457,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 756,
+    index = 805,
     label = "FC1D[C]OC1F",
     molecule = 
 """
@@ -27675,12 +29478,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91188,0.00543508,9.2279e-05,-1.99408e-07,1.27352e-10,-4230.25,10.9178], Tmin=(10,'K'), Tmax=(529.58,'K')),
-            NASAPolynomial(coeffs=[3.61637,0.0261341,-1.86562e-05,6.0905e-09,-7.42465e-13,-4457.91,9.71064], Tmin=(529.58,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91188,0.00543508,9.2279e-05,-1.99408e-07,1.27352e-10,-4149.72,10.9178], Tmin=(10,'K'), Tmax=(529.58,'K')),
+            NASAPolynomial(coeffs=[3.61637,0.0261341,-1.86562e-05,6.0905e-09,-7.42465e-13,-4377.38,9.71064], Tmin=(529.58,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-35.2014,'kJ/mol'),
+        E0 = (-34.5319,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -27689,13 +29492,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 757,
+    index = 806,
     label = "[CH]DC1OC1F",
     molecule = 
 """
@@ -27730,7 +29533,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.683 kJ/mol
 )
 
 entry(
-    index = 758,
+    index = 807,
     label = "[CH2]OC#CF",
     molecule = 
 """
@@ -27765,7 +29568,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.408 kJ/mol
 )
 
 entry(
-    index = 759,
+    index = 808,
     label = "CC(C)(O)F",
     molecule = 
 """
@@ -27784,12 +29587,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.90574,0.00647142,0.000155064,-3.57671e-07,2.5999e-10,-67936.8,7.17239], Tmin=(10,'K'), Tmax=(434.475,'K')),
-            NASAPolynomial(coeffs=[1.83604,0.0421574,-2.55588e-05,7.58367e-09,-8.75435e-13,-67913.9,13.6257], Tmin=(434.475,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.90574,0.00647142,0.000155064,-3.57671e-07,2.5999e-10,-64859.1,7.17239], Tmin=(10,'K'), Tmax=(434.475,'K')),
+            NASAPolynomial(coeffs=[1.83604,0.0421574,-2.55588e-05,7.58367e-09,-8.75435e-13,-64836.2,13.6257], Tmin=(434.475,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-564.866,'kJ/mol'),
+        E0 = (-539.277,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (282.692,'J/(mol*K)'),
     ),
@@ -27798,13 +29601,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 760,
+    index = 809,
     label = "ODCD[C]F",
     molecule = 
 """
@@ -27836,7 +29639,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.724 kJ/mol
 )
 
 entry(
-    index = 761,
+    index = 810,
     label = "[O]C(DCF)OF",
     molecule = 
 """
@@ -27871,7 +29674,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.387 kJ/mol
 )
 
 entry(
-    index = 762,
+    index = 811,
     label = "OCDCC(F)F",
     molecule = 
 """
@@ -27908,7 +29711,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.52 kJ/mol
 )
 
 entry(
-    index = 763,
+    index = 812,
     label = "CD[C]C(F)F",
     molecule = 
 """
@@ -27944,7 +29747,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.286 kJ/mol
 )
 
 entry(
-    index = 764,
+    index = 813,
     label = "FOC1CDC1",
     molecule = 
 """
@@ -27959,12 +29762,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92432,0.00445742,9.15769e-05,-1.79907e-07,1.06141e-10,23260.8,9.72043], Tmin=(10,'K'), Tmax=(562.43,'K')),
-            NASAPolynomial(coeffs=[2.87649,0.0290691,-1.98267e-05,6.38934e-09,-7.79791e-13,23107.3,11.7598], Tmin=(562.43,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92432,0.00445742,9.15769e-05,-1.79907e-07,1.06141e-10,24436.6,9.72043], Tmin=(10,'K'), Tmax=(562.43,'K')),
+            NASAPolynomial(coeffs=[2.87649,0.0290691,-1.98267e-05,6.38934e-09,-7.79791e-13,24283.1,11.7598], Tmin=(562.43,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (193.371,'kJ/mol'),
+        E0 = (203.147,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -27973,13 +29776,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 765,
+    index = 814,
     label = "CC(DO)[CH]F",
     molecule = 
 """
@@ -28016,7 +29819,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.209 kJ/mol
 )
 
 entry(
-    index = 766,
+    index = 815,
     label = "CD[C]C(F)(F)F",
     molecule = 
 """
@@ -28052,7 +29855,79 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.838 kJ/mol
 )
 
 entry(
-    index = 767,
+    index = 816,
+    label = "C#CC(O)F",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,T} {6,S}
+2 C u0 p0 c0 {1,T} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89526,0.0066003,0.000100897,-2.29504e-07,1.53614e-10,-22054.2,9.39105], Tmin=(10,'K'), Tmax=(514.458,'K')),
+            NASAPolynomial(coeffs=[4.34808,0.0249629,-1.64477e-05,5.24127e-09,-6.39697e-13,-22390.4,4.69288], Tmin=(514.458,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-183.4,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (182.918,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 3.892 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 817,
+    label = "C#CC(F)[CH]F",
+    molecule = 
+"""
+multiplicity 2
+1 C u0 p0 c0 {2,T} {8,S}
+2 C u0 p0 c0 {1,T} {3,S}
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+4 F u0 p3 c0 {3,S}
+5 C u1 p0 c0 {3,S} {6,S} {7,S}
+6 H u0 p0 c0 {5,S}
+7 F u0 p3 c0 {5,S}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.78496,0.0168351,0.000122333,-3.85168e-07,3.39644e-10,-1276.75,11.477], Tmin=(10,'K'), Tmax=(400.855,'K')),
+            NASAPolynomial(coeffs=[4.91938,0.0302742,-2.06043e-05,6.63877e-09,-8.10042e-13,-1566.62,4.55988], Tmin=(400.855,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-10.6099,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 3.34 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 818,
     label = "FC1CDCC1F",
     molecule = 
 """
@@ -28069,12 +29944,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.94024,0.00346347,0.000109545,-1.95772e-07,1.08381e-10,-31626,9.4669], Tmin=(10,'K'), Tmax=(559.51,'K')),
-            NASAPolynomial(coeffs=[0.22795,0.0425467,-2.88627e-05,9.21144e-09,-1.11308e-12,-31407,23.4663], Tmin=(559.51,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.94024,0.00346347,0.000109545,-1.95772e-07,1.08381e-10,-30013.4,9.4669], Tmin=(10,'K'), Tmax=(559.51,'K')),
+            NASAPolynomial(coeffs=[0.22795,0.0425467,-2.88627e-05,9.21144e-09,-1.11308e-12,-29794.3,23.4663], Tmin=(559.51,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-262.98,'kJ/mol'),
+        E0 = (-249.571,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -28083,13 +29958,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 768,
+    index = 819,
     label = "ODC(O)CF",
     molecule = 
 """
@@ -28124,7 +29999,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.141 kJ/mol
 )
 
 entry(
-    index = 769,
+    index = 820,
     label = "[O]C(F)DCDO",
     molecule = 
 """
@@ -28137,27 +30012,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.88581,0.00872216,6.51059e-05,-2.1284e-07,1.90466e-10,-38906.5,10.1522], Tmin=(10,'K'), Tmax=(403.597,'K')),
-            NASAPolynomial(coeffs=[4.86779,0.0139717,-1.00855e-05,3.33687e-09,-4.12754e-13,-39107.7,4.79407], Tmin=(403.597,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.88581,0.00872216,6.51059e-05,-2.1284e-07,1.90466e-10,-38612.3,10.1522], Tmin=(10,'K'), Tmax=(403.597,'K')),
+            NASAPolynomial(coeffs=[4.86779,0.0139717,-1.00855e-05,3.33687e-09,-4.12754e-13,-38813.6,4.79407], Tmin=(403.597,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-323.484,'kJ/mol'),
+        E0 = (-321.038,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (108.088,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.552 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 770,
+    index = 821,
     label = "[CH]DCDCDCF",
     molecule = 
 """
@@ -28172,27 +30047,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84579,0.0115536,0.000105727,-3.38354e-07,3.02185e-10,37187.9,10.0747], Tmin=(10,'K'), Tmax=(403.821,'K')),
-            NASAPolynomial(coeffs=[5.43815,0.0196567,-1.30597e-05,4.1648e-09,-5.07295e-13,36864.6,1.42605], Tmin=(403.821,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84579,0.0115536,0.000105727,-3.38354e-07,3.02185e-10,37509.3,10.0747], Tmin=(10,'K'), Tmax=(403.821,'K')),
+            NASAPolynomial(coeffs=[5.43815,0.0196567,-1.30597e-05,4.1648e-09,-5.07295e-13,37186,1.42605], Tmin=(403.821,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (309.202,'kJ/mol'),
+        E0 = (311.875,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 2.838 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 771,
+    index = 822,
     label = "[CH2]C(F)OC",
     molecule = 
 """
@@ -28231,7 +30106,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.984 kJ/mol
 )
 
 entry(
-    index = 772,
+    index = 823,
     label = "COC(F)[CH]F",
     molecule = 
 """
@@ -28270,7 +30145,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.329 kJ/mol
 )
 
 entry(
-    index = 773,
+    index = 824,
     label = "CC(O)D[C]F",
     molecule = 
 """
@@ -28287,12 +30162,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89062,0.0101685,0.000159598,-6.09145e-07,7.30775e-10,-13333.3,8.96065], Tmin=(10,'K'), Tmax=(269.843,'K')),
-            NASAPolynomial(coeffs=[3.44525,0.0294916,-1.85302e-05,5.63986e-09,-6.62238e-13,-13355.5,9.66773], Tmin=(269.843,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.89062,0.0101685,0.000159598,-6.09145e-07,7.30775e-10,-11670.7,8.96065], Tmin=(10,'K'), Tmax=(269.843,'K')),
+            NASAPolynomial(coeffs=[3.44525,0.0294916,-1.85302e-05,5.63986e-09,-6.62238e-13,-11692.9,9.66773], Tmin=(269.843,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-110.84,'kJ/mol'),
+        E0 = (-97.0158,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -28301,13 +30176,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 774,
+    index = 825,
     label = "C#CCDCF",
     molecule = 
 """
@@ -28342,7 +30217,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.397 kJ/mol
 )
 
 entry(
-    index = 775,
+    index = 826,
     label = "C[C](C)F",
     molecule = 
 """
@@ -28380,7 +30255,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.641 kJ/mol
 )
 
 entry(
-    index = 776,
+    index = 827,
     label = "OC1[CH]C1F",
     molecule = 
 """
@@ -28397,12 +30272,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.91281,0.00516113,0.000104582,-2.07053e-07,1.23223e-10,-9181.11,10.0454], Tmin=(10,'K'), Tmax=(558.499,'K')),
-            NASAPolynomial(coeffs=[2.83811,0.0325493,-2.18622e-05,7.00925e-09,-8.54906e-13,-9368.17,11.8548], Tmin=(558.499,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.91281,0.00516113,0.000104582,-2.07053e-07,1.23223e-10,-7470.14,10.0454], Tmin=(10,'K'), Tmax=(558.499,'K')),
+            NASAPolynomial(coeffs=[2.83811,0.0325493,-2.18622e-05,7.00925e-09,-8.54906e-13,-7657.2,11.8548], Tmin=(558.499,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-76.3706,'kJ/mol'),
+        E0 = (-62.1448,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -28411,13 +30286,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 777,
+    index = 828,
     label = "C#C[C](F)F",
     molecule = 
 """
@@ -28451,7 +30326,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.254 kJ/mol
 )
 
 entry(
-    index = 778,
+    index = 829,
     label = "C#CC([CH2])F",
     molecule = 
 """
@@ -28488,7 +30363,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.091 kJ/mol
 )
 
 entry(
-    index = 779,
+    index = 830,
     label = "F[CH]OCF",
     molecule = 
 """
@@ -28504,12 +30379,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.00039,0.0169916,6.02419e-06,-1.48079e-08,5.28913e-12,-53160.6,10.415], Tmin=(10,'K'), Tmax=(1161.77,'K')),
-            NASAPolynomial(coeffs=[7.87122,0.0155171,-7.37582e-06,1.66338e-09,-1.45076e-13,-54859.9,-12.2826], Tmin=(1161.77,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[4.00039,0.0169916,6.02419e-06,-1.48079e-08,5.28913e-12,-52165.4,10.415], Tmin=(10,'K'), Tmax=(1161.77,'K')),
+            NASAPolynomial(coeffs=[7.87122,0.0155171,-7.37582e-06,1.66338e-09,-1.45076e-13,-53864.7,-12.2826], Tmin=(1161.77,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-441.943,'kJ/mol'),
+        E0 = (-433.669,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -28518,13 +30393,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 780,
+    index = 831,
     label = "OC(F)F",
     molecule = 
 """
@@ -28557,7 +30432,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.855 kJ/mol
 )
 
 entry(
-    index = 781,
+    index = 832,
     label = "OC(F)DCCF",
     molecule = 
 """
@@ -28574,12 +30449,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8056,0.0181525,4.73163e-05,-9.59374e-08,5.07185e-11,-69064.8,11.3192], Tmin=(10,'K'), Tmax=(654.027,'K')),
-            NASAPolynomial(coeffs=[3.4423,0.0342065,-2.1227e-05,6.26725e-09,-7.09491e-13,-69313.1,10.6559], Tmin=(654.027,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8056,0.0181524,4.73166e-05,-9.59382e-08,5.07192e-11,-67544.5,11.3191], Tmin=(10,'K'), Tmax=(654.024,'K')),
+            NASAPolynomial(coeffs=[3.44226,0.0342066,-2.12271e-05,6.26729e-09,-7.09497e-13,-67792.8,10.6562], Tmin=(654.024,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-574.262,'kJ/mol'),
+        E0 = (-561.621,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -28588,13 +30463,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 782,
+    index = 833,
     label = "CDCDCDCF",
     molecule = 
 """
@@ -28629,7 +30504,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.288 kJ/mol
 )
 
 entry(
-    index = 783,
+    index = 834,
     label = "C[C]DCCF",
     molecule = 
 """
@@ -28668,7 +30543,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.011 kJ/mol
 )
 
 entry(
-    index = 784,
+    index = 835,
     label = "CDCC(F)DCF",
     molecule = 
 """
@@ -28705,7 +30580,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.093 kJ/mol
 )
 
 entry(
-    index = 785,
+    index = 836,
     label = "C[C](O)C(F)F",
     molecule = 
 """
@@ -28724,12 +30599,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.66224,0.0320717,-2.4264e-06,-1.87691e-08,9.52097e-12,-65957.3,10.5467], Tmin=(10,'K'), Tmax=(886.56,'K')),
-            NASAPolynomial(coeffs=[5.75203,0.0319999,-1.81364e-05,4.94905e-09,-5.24299e-13,-66695.6,-1.35754], Tmin=(886.56,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.66224,0.0320717,-2.4264e-06,-1.87691e-08,9.52097e-12,-63945.5,10.5467], Tmin=(10,'K'), Tmax=(886.56,'K')),
+            NASAPolynomial(coeffs=[5.75203,0.0319999,-1.81364e-05,4.94905e-09,-5.24299e-13,-64683.8,-1.35754], Tmin=(886.56,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-548.417,'kJ/mol'),
+        E0 = (-531.691,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -28738,13 +30613,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 786,
+    index = 837,
     label = "[O]CDCDCF",
     molecule = 
 """
@@ -28759,27 +30634,27 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.73604,0.0281276,-7.33658e-05,1.85727e-07,-1.78764e-10,-829.841,10.2881], Tmin=(10,'K'), Tmax=(355.783,'K')),
-            NASAPolynomial(coeffs=[3.31489,0.0236541,-1.56829e-05,4.89414e-09,-5.80106e-13,-741.594,12.7037], Tmin=(355.783,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.73604,0.0281276,-7.33658e-05,1.85727e-07,-1.78764e-10,-741.669,10.2881], Tmin=(10,'K'), Tmax=(355.783,'K')),
+            NASAPolynomial(coeffs=[3.31489,0.0236541,-1.56829e-05,4.89414e-09,-5.80106e-13,-653.422,12.7037], Tmin=(355.783,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-6.90373,'kJ/mol'),
+        E0 = (-6.17063,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
-    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 2.2 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 787,
+    index = 838,
     label = "OCDC(O)F",
     molecule = 
 """
@@ -28814,7 +30689,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.528 kJ/mol
 )
 
 entry(
-    index = 788,
+    index = 839,
     label = "FCDC(F)OOF",
     molecule = 
 """
@@ -28829,12 +30704,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.5995,0.0355787,-1.43779e-05,-2.77212e-08,2.41594e-11,-37862.2,12.0894], Tmin=(10,'K'), Tmax=(644.259,'K')),
-            NASAPolynomial(coeffs=[7.62617,0.0234497,-1.61059e-05,5.07677e-09,-6.00738e-13,-38648.1,-7.6397], Tmin=(644.259,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.5995,0.0355787,-1.43779e-05,-2.77212e-08,2.41594e-11,-37954.2,12.0894], Tmin=(10,'K'), Tmax=(644.259,'K')),
+            NASAPolynomial(coeffs=[7.62617,0.0234497,-1.61059e-05,5.07677e-09,-6.00738e-13,-38740.1,-7.6397], Tmin=(644.259,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-314.854,'kJ/mol'),
+        E0 = (-315.619,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -28843,13 +30718,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 789,
+    index = 840,
     label = "CC1DC[C]1F",
     molecule = 
 """
@@ -28886,7 +30761,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.757 kJ/mol
 )
 
 entry(
-    index = 790,
+    index = 841,
     label = "C[C]DCF",
     molecule = 
 """
@@ -28902,12 +30777,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.92685,0.0149344,7.26385e-06,-1.4417e-08,5.01007e-12,5319.53,7.89259], Tmin=(10,'K'), Tmax=(1128.55,'K')),
-            NASAPolynomial(coeffs=[5.52548,0.0181633,-8.85046e-06,2.08622e-09,-1.92891e-13,4392.26,-2.52281], Tmin=(1128.55,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.92685,0.0149344,7.26385e-06,-1.4417e-08,5.01007e-12,7035.83,7.89259], Tmin=(10,'K'), Tmax=(1128.55,'K')),
+            NASAPolynomial(coeffs=[5.52548,0.0181633,-8.85046e-06,2.08622e-09,-1.92891e-13,6108.56,-2.52281], Tmin=(1128.55,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (44.2551,'kJ/mol'),
+        E0 = (58.5253,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -28916,13 +30791,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 791,
+    index = 842,
     label = "FCDC(CF)OF",
     molecule = 
 """
@@ -28939,12 +30814,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.65974,0.0379398,-2.39663e-05,4.91039e-09,4.44605e-13,-48892,11.8612], Tmin=(10,'K'), Tmax=(1135.68,'K')),
-            NASAPolynomial(coeffs=[10.1768,0.021811,-1.1678e-05,2.98866e-09,-2.97253e-13,-50812.4,-22.3469], Tmin=(1135.68,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.65974,0.0379398,-2.39663e-05,4.91039e-09,4.44605e-13,-48019.5,11.8612], Tmin=(10,'K'), Tmax=(1135.68,'K')),
+            NASAPolynomial(coeffs=[10.1768,0.021811,-1.1678e-05,2.98866e-09,-2.97253e-13,-49939.9,-22.3469], Tmin=(1135.68,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-406.51,'kJ/mol'),
+        E0 = (-399.256,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -28953,13 +30828,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 792,
+    index = 843,
     label = "[CH2]C(O)DCF",
     molecule = 
 """
@@ -28976,12 +30851,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.8864,0.00698382,0.00011336,-2.46685e-07,1.58507e-10,-27109.5,9.17004], Tmin=(10,'K'), Tmax=(533.1,'K')),
-            NASAPolynomial(coeffs=[4.15396,0.0296093,-1.96128e-05,6.28118e-09,-7.69863e-13,-27488,4.76451], Tmin=(533.1,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.8864,0.00698382,0.00011336,-2.46685e-07,1.58507e-10,-25446.9,9.17004], Tmin=(10,'K'), Tmax=(533.1,'K')),
+            NASAPolynomial(coeffs=[4.15396,0.0296093,-1.96128e-05,6.28118e-09,-7.69863e-13,-25825.4,4.76451], Tmin=(533.1,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-225.439,'kJ/mol'),
+        E0 = (-211.615,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -28990,13 +30865,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 793,
+    index = 844,
     label = "FCC1DCC1",
     molecule = 
 """
@@ -29013,12 +30888,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.95989,0.0135422,3.50755e-05,-5.07942e-08,1.93526e-11,4496.95,9.33843], Tmin=(10,'K'), Tmax=(921.714,'K')),
-            NASAPolynomial(coeffs=[3.64952,0.0300564,-1.64829e-05,4.35059e-09,-4.4688e-13,3909.89,7.31552], Tmin=(921.714,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.95989,0.0135422,3.50755e-05,-5.07942e-08,1.93526e-11,6713.68,9.33843], Tmin=(10,'K'), Tmax=(921.714,'K')),
+            NASAPolynomial(coeffs=[3.64952,0.0300564,-1.64829e-05,4.35059e-09,-4.4688e-13,6126.62,7.31552], Tmin=(921.714,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (37.4386,'kJ/mol'),
+        E0 = (55.8695,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (232.805,'J/(mol*K)'),
     ),
@@ -29027,13 +30902,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 794,
+    index = 845,
     label = "[O]CDCF",
     molecule = 
 """
@@ -29067,7 +30942,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.323 kJ/mol
 )
 
 entry(
-    index = 795,
+    index = 846,
     label = "FCCO[C](F)F",
     molecule = 
 """
@@ -29086,12 +30961,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.51195,0.0538702,-0.000187479,5.30977e-07,-5.30945e-10,-81861.7,12.5231], Tmin=(10,'K'), Tmax=(350.403,'K')),
-            NASAPolynomial(coeffs=[2.00012,0.044017,-2.92419e-05,9.11331e-09,-1.07745e-12,-81589.3,20.6063], Tmin=(350.403,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.51195,0.0538702,-0.000187479,5.30977e-07,-5.30945e-10,-80527.1,12.5231], Tmin=(10,'K'), Tmax=(350.403,'K')),
+            NASAPolynomial(coeffs=[2.00012,0.044017,-2.92419e-05,9.11331e-09,-1.07745e-12,-80254.7,20.6063], Tmin=(350.403,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-680.652,'kJ/mol'),
+        E0 = (-669.555,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -29100,13 +30975,47 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 796,
+    index = 847,
+    label = "[O]C(O)F",
+    molecule = 
+"""
+multiplicity 2
+1 O u1 p2 c0 {2,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 O u0 p2 c0 {2,S} {6,S}
+4 F u0 p3 c0 {2,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.95945,0.00229111,5.58813e-05,-1.01055e-07,5.52755e-11,-48242.6,8.77663], Tmin=(10,'K'), Tmax=(594.19,'K')),
+            NASAPolynomial(coeffs=[2.6663,0.0205371,-1.42648e-05,4.67042e-09,-5.77026e-13,-48257.4,12.9249], Tmin=(594.19,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-401.13,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""G4 with BACs""",
+    longDesc = 
+u"""
+
+""",
+    rank = 5,
+)
+
+entry(
+    index = 848,
     label = "CCD[C]CF",
     molecule = 
 """
@@ -29145,7 +31054,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.331 kJ/mol
 )
 
 entry(
-    index = 797,
+    index = 849,
     label = "FC1CDCC1",
     molecule = 
 """
@@ -29182,7 +31091,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.227 kJ/mol
 )
 
 entry(
-    index = 798,
+    index = 850,
     label = "C#CC(F)(F)F",
     molecule = 
 """
@@ -29216,7 +31125,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.855 kJ/mol
 )
 
 entry(
-    index = 799,
+    index = 851,
     label = "CCDCCF",
     molecule = 
 """
@@ -29255,7 +31164,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.415 kJ/mol
 )
 
 entry(
-    index = 800,
+    index = 852,
     label = "FC1[CH]CO1",
     molecule = 
 """
@@ -29292,7 +31201,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.139 kJ/mol
 )
 
 entry(
-    index = 801,
+    index = 853,
     label = "C#COOF",
     molecule = 
 """
@@ -29305,12 +31214,12 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84719,0.0103331,9.43305e-05,-2.71158e-07,2.1152e-10,33900.5,9.73036], Tmin=(10,'K'), Tmax=(473.062,'K')),
-            NASAPolynomial(coeffs=[6.58561,0.0154118,-1.12971e-05,3.86037e-09,-4.9303e-13,33325.5,-4.77021], Tmin=(473.062,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84719,0.0103331,9.43305e-05,-2.71158e-07,2.1152e-10,34199.6,9.73036], Tmin=(10,'K'), Tmax=(473.062,'K')),
+            NASAPolynomial(coeffs=[6.58561,0.0154118,-1.12971e-05,3.86037e-09,-4.9303e-13,33624.6,-4.77021], Tmin=(473.062,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (281.84,'kJ/mol'),
+        E0 = (284.327,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (133.032,'J/(mol*K)'),
     ),
@@ -29319,13 +31228,13 @@ entry(
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 802,
+    index = 854,
     label = "OCDCD[C]F",
     molecule = 
 """
@@ -29340,12 +31249,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87011,0.00981112,9.32752e-05,-2.78008e-07,2.38367e-10,5063.47,10.0924], Tmin=(10,'K'), Tmax=(406.737,'K')),
-            NASAPolynomial(coeffs=[4.47078,0.0214577,-1.44125e-05,4.60536e-09,-5.58973e-13,4869.4,5.94989], Tmin=(406.737,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87011,0.00981112,9.32752e-05,-2.78008e-07,2.38367e-10,5772.82,10.0924], Tmin=(10,'K'), Tmax=(406.737,'K')),
+            NASAPolynomial(coeffs=[4.47078,0.0214577,-1.44125e-05,4.60536e-09,-5.58973e-13,5578.76,5.94989], Tmin=(406.737,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (42.1022,'kJ/mol'),
+        E0 = (48.0001,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (157.975,'J/(mol*K)'),
     ),
@@ -29354,13 +31263,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 803,
+    index = 855,
     label = "FCC1C[C]1F",
     molecule = 
 """
@@ -29379,12 +31288,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.87779,0.0172817,4.80273e-05,-8.01765e-08,3.52607e-11,-17673.7,11.1963], Tmin=(10,'K'), Tmax=(793.174,'K')),
-            NASAPolynomial(coeffs=[3.47609,0.0367277,-2.16918e-05,6.11247e-09,-6.64184e-13,-18157.9,9.58689], Tmin=(793.174,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.87779,0.0172817,4.80273e-05,-8.01765e-08,3.52607e-11,-15569.5,11.1963], Tmin=(10,'K'), Tmax=(793.174,'K')),
+            NASAPolynomial(coeffs=[3.47609,0.0367277,-2.16918e-05,6.11247e-09,-6.64184e-13,-16053.8,9.58689], Tmin=(793.174,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-146.929,'kJ/mol'),
+        E0 = (-129.434,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -29393,13 +31302,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 804,
+    index = 856,
     label = "CC(C)F",
     molecule = 
 """
@@ -29437,7 +31346,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.367 kJ/mol
 )
 
 entry(
-    index = 805,
+    index = 857,
     label = "CDC(F)CD[C]F",
     molecule = 
 """
@@ -29454,12 +31363,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.84722,0.0113792,0.000112407,-2.88651e-07,2.18003e-10,-5438.53,11.2387], Tmin=(10,'K'), Tmax=(446.409,'K')),
-            NASAPolynomial(coeffs=[3.62699,0.0323264,-2.17338e-05,6.88722e-09,-8.27181e-13,-5607.93,10.0061], Tmin=(446.409,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.84722,0.0113792,0.000112407,-2.88651e-07,2.18003e-10,-4336.03,11.2387], Tmin=(10,'K'), Tmax=(446.409,'K')),
+            NASAPolynomial(coeffs=[3.62699,0.0323264,-2.17338e-05,6.88722e-09,-8.27181e-13,-4505.42,10.0061], Tmin=(446.409,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-45.2316,'kJ/mol'),
+        E0 = (-36.0649,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -29468,13 +31377,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 806,
+    index = 858,
     label = "CCD[C]F",
     molecule = 
 """
@@ -29510,7 +31419,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.14 kJ/mol
 )
 
 entry(
-    index = 807,
+    index = 859,
     label = "[O]CC(F)DCF",
     molecule = 
 """
@@ -29527,12 +31436,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.76434,0.0197744,6.04222e-05,-1.7294e-07,1.30711e-10,-35934.5,11.4031], Tmin=(10,'K'), Tmax=(454.424,'K')),
-            NASAPolynomial(coeffs=[3.72188,0.0323968,-2.16738e-05,6.81397e-09,-8.12197e-13,-36057.1,10.1829], Tmin=(454.424,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.76434,0.0197744,6.04222e-05,-1.7294e-07,1.30711e-10,-34874.9,11.4031], Tmin=(10,'K'), Tmax=(454.424,'K')),
+            NASAPolynomial(coeffs=[3.72188,0.0323968,-2.16738e-05,6.81397e-09,-8.12197e-13,-34997.5,10.1829], Tmin=(454.424,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-298.792,'kJ/mol'),
+        E0 = (-289.982,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -29541,13 +31450,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 808,
+    index = 860,
     label = "[O]C(DCF)CF",
     molecule = 
 """
@@ -29584,7 +31493,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.801 kJ/mol
 )
 
 entry(
-    index = 809,
+    index = 861,
     label = "FCC[C](F)F",
     molecule = 
 """
@@ -29622,7 +31531,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.047 kJ/mol
 )
 
 entry(
-    index = 810,
+    index = 862,
     label = "CC[CH]C(F)F",
     molecule = 
 """
@@ -29663,7 +31572,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 7.086 kJ/mol
 )
 
 entry(
-    index = 811,
+    index = 863,
     label = "ODCC(F)F",
     molecule = 
 """
@@ -29697,7 +31606,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.32 kJ/mol
 )
 
 entry(
-    index = 812,
+    index = 864,
     label = "FCCC(F)F",
     molecule = 
 """
@@ -29735,7 +31644,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.226 kJ/mol
 )
 
 entry(
-    index = 813,
+    index = 865,
     label = "CDC1CDC1F",
     molecule = 
 """
@@ -29770,7 +31679,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.366 kJ/mol
 )
 
 entry(
-    index = 814,
+    index = 866,
     label = "FCDCC(F)F",
     molecule = 
 """
@@ -29806,7 +31715,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.122 kJ/mol
 )
 
 entry(
-    index = 815,
+    index = 867,
     label = "C[CH]C(DO)F",
     molecule = 
 """
@@ -29823,12 +31732,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.80608,0.0188663,1.78447e-05,-3.89388e-08,1.79971e-11,-38694.7,9.26369], Tmin=(10,'K'), Tmax=(786.089,'K')),
-            NASAPolynomial(coeffs=[3.88553,0.0275413,-1.60334e-05,4.48533e-09,-4.85791e-13,-38987.7,7.11522], Tmin=(786.089,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.80608,0.0188663,1.78447e-05,-3.89388e-08,1.79971e-11,-36991.3,9.26369], Tmin=(10,'K'), Tmax=(786.089,'K')),
+            NASAPolynomial(coeffs=[3.88553,0.0275413,-1.60334e-05,4.48533e-09,-4.85791e-13,-37284.3,7.11522], Tmin=(786.089,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-321.736,'kJ/mol'),
+        E0 = (-307.573,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (207.862,'J/(mol*K)'),
     ),
@@ -29837,13 +31746,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 816,
+    index = 868,
     label = "FC#CC[CH]F",
     molecule = 
 """
@@ -29880,7 +31789,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.669 kJ/mol
 )
 
 entry(
-    index = 817,
+    index = 869,
     label = "CDC(F)C(F)(F)F",
     molecule = 
 """
@@ -29916,7 +31825,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.89 kJ/mol
 )
 
 entry(
-    index = 818,
+    index = 870,
     label = "OC[CH]F",
     molecule = 
 """
@@ -29952,7 +31861,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.543 kJ/mol
 )
 
 entry(
-    index = 819,
+    index = 871,
     label = "CC#CC(F)F",
     molecule = 
 """
@@ -29989,7 +31898,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.836 kJ/mol
 )
 
 entry(
-    index = 820,
+    index = 872,
     label = "[CH]DCCDCF",
     molecule = 
 """
@@ -30026,7 +31935,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.253 kJ/mol
 )
 
 entry(
-    index = 821,
+    index = 873,
     label = "OCO[C](F)F",
     molecule = 
 """
@@ -30063,7 +31972,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.769 kJ/mol
 )
 
 entry(
-    index = 822,
+    index = 874,
     label = "FC#CCDCF",
     molecule = 
 """
@@ -30098,7 +32007,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.57 kJ/mol
 )
 
 entry(
-    index = 823,
+    index = 875,
     label = "C[C]DC(F)F",
     molecule = 
 """
@@ -30114,12 +32023,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.79335,0.0217919,-4.37296e-06,-7.39967e-09,3.67642e-12,-17776.7,9.26402], Tmin=(10,'K'), Tmax=(1030.14,'K')),
-            NASAPolynomial(coeffs=[6.0731,0.0194739,-1.05121e-05,2.73083e-09,-2.76439e-13,-18593.1,-3.48493], Tmin=(1030.14,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.79335,0.0217919,-4.37296e-06,-7.39967e-09,3.67642e-12,-16664.5,9.26402], Tmin=(10,'K'), Tmax=(1030.14,'K')),
+            NASAPolynomial(coeffs=[6.0731,0.0194739,-1.05121e-05,2.73083e-09,-2.76439e-13,-17480.9,-3.48493], Tmin=(1030.14,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-147.804,'kJ/mol'),
+        E0 = (-138.556,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (182.918,'J/(mol*K)'),
     ),
@@ -30128,13 +32037,13 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
 
 entry(
-    index = 824,
+    index = 876,
     label = "[C]#CCDCF",
     molecule = 
 """
@@ -30169,7 +32078,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.317 kJ/mol
 )
 
 entry(
-    index = 825,
+    index = 877,
     label = "FC1CC(F)O1",
     molecule = 
 """
@@ -30206,7 +32115,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 )
 
 entry(
-    index = 826,
+    index = 878,
     label = "[CH]DCDCF",
     molecule = 
 """
@@ -30240,7 +32149,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.21 kJ/mol
 )
 
 entry(
-    index = 827,
+    index = 879,
     label = "OO[CH]CF",
     molecule = 
 """
@@ -30277,7 +32186,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.966 kJ/mol
 )
 
 entry(
-    index = 828,
+    index = 880,
     label = "CD[C]OCF",
     molecule = 
 """
@@ -30314,7 +32223,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.046 kJ/mol
 )
 
 entry(
-    index = 829,
+    index = 881,
     label = "OC(F)DCOF",
     molecule = 
 """
@@ -30349,7 +32258,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.936 kJ/mol
 )
 
 entry(
-    index = 830,
+    index = 882,
     label = "CCO[CH]F",
     molecule = 
 """
@@ -30368,12 +32277,12 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.93905,0.0230007,8.35242e-06,-1.82753e-08,6.15993e-12,-34364.8,9.18448], Tmin=(10,'K'), Tmax=(1204.11,'K')),
-            NASAPolynomial(coeffs=[8.00722,0.0239689,-1.08953e-05,2.37032e-09,-2.00498e-13,-36394.4,-15.5574], Tmin=(1204.11,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[3.93905,0.0230006,8.35247e-06,-1.82753e-08,6.15996e-12,-31822,9.18448], Tmin=(10,'K'), Tmax=(1204.1,'K')),
+            NASAPolynomial(coeffs=[8.00705,0.0239693,-1.08956e-05,2.37041e-09,-2.0051e-13,-33851.6,-15.5564], Tmin=(1204.1,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (-285.677,'kJ/mol'),
+        E0 = (-264.535,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
         CpInf = (257.749,'J/(mol*K)'),
     ),
@@ -30382,7 +32291,7 @@ multiplicity 2
     shortDesc = u"""G4 with BACs""",
     longDesc = 
 u"""
-Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
+
 """,
     rank = 5,
 )
