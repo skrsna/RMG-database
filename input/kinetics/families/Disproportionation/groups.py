@@ -500,6 +500,50 @@ entry(
 )
 
 entry(
+    index = 44000,
+    label = "Val7_rad",
+    group = 
+"""
+1 *1 Val7 u1 p3
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 44001,
+    label = "F_rad",
+    group = 
+"""
+1 *1 F u1 p3
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 44002,
+    label = "Cl_rad",
+    group = 
+"""
+1 *1 Cl u1 p3
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 44003,
+    label = "Br_rad",
+    group = 
+"""
+1 *1 Br u1 p3
+""",
+    kinetics = None,
+)
+
+
+entry(
     index = 45,
     label = "Ct_rad",
     group = 
@@ -8934,6 +8978,10 @@ L1: Y_rad_birad_trirad_quadrad
             L4: NH_triplet-Br
     L2: Y_rad
         L3: H_rad
+        L3: Val7_rad
+            L4: F_rad
+            L4: Cl_rad
+            L4: Br_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
             L4: Ct_rad/Nt
