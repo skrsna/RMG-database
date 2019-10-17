@@ -10,6 +10,7 @@ longDesc = u"""
 template(reactants=["doublebond", "X_Y"], products=["X_doublebond_Y"], ownReverse=False)
 
 reverse = "XY_Elimination_DoubleBond"
+reversible = True
 
 recipe(actions=[
     ['BREAK_BOND', '*3', 1, '*4'],
@@ -31,7 +32,6 @@ entry(
     group = "OR{H_Val7, Val7_Val7}",
     kinetics = None,
 )
-
 entry(
     index = 17,
     label = "Cd_Cd",
