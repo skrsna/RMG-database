@@ -53,6 +53,56 @@ entry(
 )
 
 entry(
+    index = 2008,
+    label = "H_Val7_rad",
+    group = 
+"""
+1 *2 [H,Val7] u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2000,
+    label = "Val7_rad",
+    group = 
+"""
+1 *2 Val7 u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2001,
+    label = "F_rad",
+    group = 
+"""
+1 *2 F u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2002,
+    label = "Cl_rad",
+    group = 
+"""
+1 *2 Cl u1
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2003,
+    label = "Br_rad",
+    group = 
+"""
+1 *2 Br u1
+""",
+    kinetics = None,
+)
+
+entry(
     index = 3,
     label = "O_rad",
     group = 
@@ -839,7 +889,12 @@ tree(
 """
 L1: COm
 L1: Y_rad
-    L2: H_rad
+    L2: H_Val7_rad
+        L3: H_rad
+        L3: Val7_rad
+            L4: F_rad
+            L4: Cl_rad
+            L4: Br_rad
     L2: O_rad
         L3: O_pri_rad
         L3: O_sec_rad
