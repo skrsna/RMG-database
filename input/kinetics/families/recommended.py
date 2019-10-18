@@ -31,6 +31,7 @@ default = {
     'Cyclic_Thioether_Formation',
     'Diels_alder_addition',
     'Disproportionation',
+    'Disproportionation-Y',
     'HO2_Elimination_from_PeroxyRadical',
     'H_Abstraction',
     'Intra_Retro_Diels_alder_bicyclic',
