@@ -94965,6 +94965,33 @@ L1: Y_rad_birad_trirad_quadrad
 )
 
 forbidden(
+    label = "c_u4",
+    group = 
+"""
+1 *1 C u4 
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This group forbids atomic C with 4 unpaired electrons.
+""",
+)
+
+forbidden(
+    label = "CF",
+    group = 
+"""
+1 *1 C u3 p0 {2,S} 
+2 *2 F u0 p3 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This group forbids triplet CF.
+""",
+)
+
+forbidden(
     label = "disprop1_OS_rad",
     group = 
 """
