@@ -19,6 +19,70 @@ entry(
 )
 
 entry(
+    index = 489,
+    label = "O + H <=> OH",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(5e+17,'cm^6/(mol^2*s)'), n=-1, Ea=(0,'cal/mol'), T0=(1,'K')), efficiencies={'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 6.0, 'CF': 6.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 1.5, '[Ar]': 0.7}),
+    shortDesc = u"""The chemkin file reaction is O + H <=> OH""",
+)
+
+entry(
+    index = 490,
+    label = "H + O2 <=> HO2",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(2.8e+18,'cm^6/(mol^2*s)'), n=-0.86, Ea=(0,'cal/mol'), T0=(1,'K')), efficiencies={'FC(F)(F)F': 6.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'N#N': 0.0, 'O=C=O': 1.5, 'F': 2.0, 'CC': 1.5, 'CF': 6.0, 'O': 0.0, '[O][O]': 0.0, 'FCF': 6.0, '[C-]#[O+]': 0.75, '[Ar]': 0.0}),
+    shortDesc = u"""The chemkin file reaction is H + O2 <=> HO2""",
+)
+
+entry(
+    index = 491,
+    label = "H + H <=> H2",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(1e+18,'cm^6/(mol^2*s)'), n=-1, Ea=(0,'cal/mol'), T0=(1,'K')), efficiencies={'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 0.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 0.0, 'CF': 6.0, '[H][H]': 0.0, 'FCF': 6.0, '[Ar]': 0.63}),
+    shortDesc = u"""The chemkin file reaction is H + H <=> H2""",
+)
+
+entry(
+    index = 492,
+    label = "H + OH <=> H2O",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(2.2e+22,'cm^6/(mol^2*s)'), n=-2, Ea=(0,'cal/mol'), T0=(1,'K')), efficiencies={'CC': 3.0, 'C': 2.0, '[H][H]': 0.73, 'O': 3.65, '[Ar]': 0.38}),
+    shortDesc = u"""The chemkin file reaction is H + OH <=> H2O""",
+)
+
+entry(
+    index = 493,
+    label = "HCO <=> H + CO",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(1.87e+17,'cm^3/(mol*s)'), n=-1, Ea=(17000,'cal/mol'), T0=(1,'K')), efficiencies={'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 0.0, 'CF': 6.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 1.5}),
+    shortDesc = u"""The chemkin file reaction is HCO <=> H + CO""",
+)
+
+entry(
+    index = 494,
+    label = "H + F <=> HF",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(1.7e+21,'cm^6/(mol^2*s)'), n=-2, Ea=(0,'cal/mol'), T0=(1,'K')), efficiencies={'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 9.0, 'CF': 6.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 1.5}),
+    shortDesc = u"""The chemkin file reaction is H + F <=> HF""",
+)
+
+entry(
+    index = 495,
+    label = "CO + F <=> CFO",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(3.09e+19,'cm^6/(mol^2*s)'), n=-1.4, Ea=(-487,'cal/mol'), T0=(1,'K')), efficiencies={'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 18.0, 'CF': 6.0, '[H][H]': 2.0, 'FCF': 6.0, '[C-]#[O+]': 1.5}),
+    shortDesc = u"""The chemkin file reaction is CO + F <=> CFO""",
+)
+
+entry(
+    index = 496,
+    label = "F + F <=> F2",
+    degeneracy = 1.0,
+    kinetics = ThirdBody(arrheniusLow=Arrhenius(A=(1e+14,'cm^6/(mol^2*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')), efficiencies={}),
+    shortDesc = u"""The chemkin file reaction is F + F <=> F2""",
+)
+
+entry(
     index = 1,
     label = "O + CH <=> H + CO",
     degeneracy = 1.0,
