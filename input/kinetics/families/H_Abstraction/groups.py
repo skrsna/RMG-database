@@ -94969,7 +94969,11 @@ forbidden(
 1 *1 C u3 p0 {2,S}
 2 *2 H u0 p0 {1,S}
 """,
-    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
 )
 
 
