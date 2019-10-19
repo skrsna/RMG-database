@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
-    group = "OR{Xtrirad_H, Xbirad_H, Xrad_H, X_H}",
+    group = "OR{C_doublet_H, Xbirad_H, Xrad_H, X_H}",
     kinetics = None,
 )
 
@@ -32,23 +32,23 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 2,
-    label = "Xtrirad_H",
-    group = "OR{C_quartet_H, C_doublet_H}",
-    kinetics = None,
-)
+# entry(
+#     index = 2,
+#     label = "Xtrirad_H",
+#     group = "OR{C_quartet_H, C_doublet_H}",
+#     kinetics = None,
+# )
 
-entry(
-    index = 3,
-    label = "C_quartet_H",
-    group = 
-"""
-1 *1 C u3 p0 {2,S}
-2 *2 H u0 p0 {1,S}
-""",
-    kinetics = None,
-)
+# entry(
+#     index = 3,
+#     label = "C_quartet_H",
+#     group = 
+# """
+# 1 *1 C u3 p0 {2,S}
+# 2 *2 H u0 p0 {1,S}
+# """,
+#     kinetics = None,
+# )
 
 entry(
     index = 4,
@@ -90293,9 +90293,7 @@ entry(
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
-    L2: Xtrirad_H
-        L3: C_quartet_H
-        L3: C_doublet_H
+    L2: C_doublet_H
     L2: Xbirad_H
         L3: C/H_or_Val7/2_triplet_/H_or_Val7/
             L4: CH2_triplet_H
@@ -94964,11 +94962,23 @@ L1: Y_rad_birad_trirad_quadrad
 """
 )
 
+
+entry(
+    label = "C_quartet_H",
+    group = 
+"""
+1 *1 C u3 p0 {2,S}
+2 *2 H u0 p0 {1,S}
+""",
+    kinetics = None,
+)
+
+
 forbidden(
     label = "C_quintet",
     group =
 """
-1 C u4 p0 c0
+1 *3 C u4 p0 c0
 """,
     shortDesc = u"""""",
     longDesc = 
