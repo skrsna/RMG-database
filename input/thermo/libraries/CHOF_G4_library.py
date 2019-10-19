@@ -32296,3 +32296,78 @@ u"""
     rank = 5,
 )
 
+entry(
+    index = 883,
+    label = "CHF_triplet",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 C u2 p0 c0 {1,S} {3,S}
+3 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.03058, -0.00191926, 1.26385e-05, -1.39162e-08, 4.99935e-12, 23801.9, 4.95981],
+                Tmin = (10, 'K'),
+                Tmax = (851.957, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.01238, 0.00480153, -2.61059e-06, 6.89538e-10, -7.10156e-14, 23905, 9.29565],
+                Tmin = (851.957, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (197.908, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (58.2013, 'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 3.113 kJ/mol
+""",
+    rank = 5,
+)
+
+entry(
+    index = 884,
+    label = "CF2_triplet",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 C u2 p0 c0 {1,S} {3,S}
+3 F u0 p3 c0 {2,S}
+""",
+    thermo= NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [4.02169, -0.00184262, 2.55693e-05, -4.14988e-08, 2.11545e-11, 3418.06, 6.99451],
+                Tmin = (10, 'K'),
+                Tmax = (642.025, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.54432, 0.00602919, -4.26473e-06, 1.36216e-09, -1.61961e-13, 3378.42, 8.2999],
+                Tmin = (642.025, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (28.4183, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (58.2013, 'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 4.3121 kJ/mol
+""",
+    rank = 5,
+)
