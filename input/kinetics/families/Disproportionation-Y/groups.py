@@ -25,7 +25,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
+    group = "OR{C_triplet, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
     kinetics = None,
 )
 
@@ -36,22 +36,22 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 2,
-    label = "Y_1centerquadrad",
-    group = "OR{C_quintet, C_triplet}",
-    kinetics = None,
-)
+# entry(
+#     index = 2,
+#     label = "Y_1centerquadrad",
+#     group = "OR{C_quintet, C_triplet}",
+#     kinetics = None,
+# )
 
-entry(
-    index = 3,
-    label = "C_quintet",
-    group = 
-"""
-1 *1 C u4 p0
-""",
-    kinetics = None,
-)
+# entry(
+#     index = 3,
+#     label = "C_quintet",
+#     group = 
+# """
+# 1 *1 C u4 p0
+# """,
+#     kinetics = None,
+# )
 
 entry(
     index = 4,
@@ -16572,9 +16572,7 @@ entry(
 tree(
 """
 L1: Y_rad_birad_trirad_quadrad
-    L2: Y_1centerquadrad
-        L3: C_quintet
-        L3: C_triplet
+    L2: C_triplet
     L2: Y_1centertrirad
         L3: N_atom_quartet
         L3: N_atom_doublet
@@ -17799,6 +17797,20 @@ L1: XH_Rrad_birad
             L4: XH_d_Rbirad_4_Cl
             L4: XH_d_Rbirad_4_Br
 """
+)
+
+forbidden(
+    label = "C_quintet",
+    molecule =
+"""
+multiplicity 5
+1 C u4 p0 c0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
 )
 
 forbidden(

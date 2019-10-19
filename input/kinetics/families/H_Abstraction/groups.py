@@ -94965,6 +94965,20 @@ L1: Y_rad_birad_trirad_quadrad
 )
 
 forbidden(
+    label = "C_quintet",
+    molecule =
+"""
+multiplicity 5
+1 C u4 p0 c0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
     label = "disprop1_OS_rad",
     group = 
 """
