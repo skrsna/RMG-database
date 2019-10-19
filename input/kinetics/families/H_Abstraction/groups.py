@@ -94962,8 +94962,7 @@ L1: Y_rad_birad_trirad_quadrad
 """
 )
 
-
-entry(
+forbidden(
     label = "C_quartet_H",
     group = 
 """
