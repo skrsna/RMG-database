@@ -17803,7 +17803,6 @@ forbidden(
     label = "C_quintet",
     group =
 """
-multiplicity 5
 1 C u4 p0 c0
 """,
     shortDesc = u"""""",
