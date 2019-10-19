@@ -64133,7 +64133,7 @@ entry(
 
 entry(
     index = 3086,
-    label = "OH + F <=> O_rad + HF",
+    label = "OH_r12 + F <=> O_p + HF",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64170,7 +64170,7 @@ entry(
 entry(
     index = 3090,
     label = "CH3F + H <=> CH2F + H2",
-    degeneracy = 1.0,
+    degeneracy = 3.0,
     kinetics = Arrhenius(A=(6.51e+07,'cm^3/(mol*s)'), n=1.96, Ea=(10710,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64179,7 +64179,7 @@ entry(
 entry(
     index = 3091,
     label = "CH2F2 + H <=> CHF2 + H2",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(5720,'cm^3/(mol*s)'), n=2.69, Ea=(12340,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64250,7 +64250,7 @@ entry(
 
 entry(
     index = 3099,
-    label = "CH3F + CH3 <=> CH2F + CH4",
+    label = "CH3F + CH3_r3 <=> CH2F + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(11400,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64259,7 +64259,7 @@ entry(
 
 entry(
     index = 3100,
-    label = "CH2F2 + CH3 <=> CHF2 + CH4",
+    label = "CH2F2 + CH3_r3 <=> CHF2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.7e+10,'cm^3/(mol*s)'), n=0, Ea=(10200,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64268,7 +64268,7 @@ entry(
 
 entry(
     index = 3101,
-    label = "CF3 + CH4 <=> CHF3 + CH3_r3",
+    label = "CF3 + CH4b <=> CHF3 + CH3_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.34e+11,'cm^3/(mol*s)'), n=0, Ea=(10920,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64278,7 +64278,7 @@ entry(
 entry(
     index = 3102,
     label = "CH3F + C2H3 <=> CH2F + C2H4",
-    degeneracy = 1.0,
+    degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(10300,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64287,7 +64287,7 @@ entry(
 entry(
     index = 3103,
     label = "CH2F2 + C2H3 <=> CHF2 + C2H4",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(9e+10,'cm^3/(mol*s)'), n=0, Ea=(9200,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64296,7 +64296,7 @@ entry(
 entry(
     index = 3104,
     label = "CF3 + C2H4 <=> CHF3 + C2H3",
-    degeneracy = 1.0,
+    degeneracy = 4.0,
     kinetics = Arrhenius(A=(8e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64304,8 +64304,8 @@ entry(
 
 entry(
     index = 3105,
-    label = "CH3F + CF3 <=> CH2F + CHF3",
-    degeneracy = 1.0,
+    label = "CH3F + CF3 <=> CH2F + CHF3_p23",
+    degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.75e+11,'cm^3/(mol*s)'), n=0, Ea=(11210,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64313,8 +64313,8 @@ entry(
 
 entry(
     index = 3106,
-    label = "CH2F2 + CH2F <=> CHF2 + CH3F",
-    degeneracy = 1.0,
+    label = "CH2F2 + CH2F <=> CHF2 + CH3F_p23",
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(9e+10,'cm^3/(mol*s)'), n=0, Ea=(14000,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64322,8 +64322,8 @@ entry(
 
 entry(
     index = 3107,
-    label = "CH2F2 + CF3 <=> CHF2 + CHF3",
-    degeneracy = 1.0,
+    label = "CH2F2 + CF3 <=> CHF2 + CHF3_p23",
+    degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.27e+11,'cm^3/(mol*s)'), n=0, Ea=(11300,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""From NIST CH2F2 model""",
@@ -64331,7 +64331,7 @@ entry(
 
 entry(
     index = 3108,
-    label = "CH3OH_p + CH2F <=> CH3O-2 + CH3F",
+    label = "CH4O-2 + CH2F <=> CH3O_p1 + CH3F_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(14.4,'cm^3/(mol*s)'), n=3.1, Ea=(9800,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64340,7 +64340,7 @@ entry(
 
 entry(
     index = 3109,
-    label = "CH4O-2 + CHF2 <=> CH3O_p + CH2F2_p23",
+    label = "CH4O-2 + CHF2 <=> CH3O_p1 + CH2F2_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(14.4,'cm^3/(mol*s)'), n=3.1, Ea=(9000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64349,7 +64349,7 @@ entry(
 
 entry(
     index = 3110,
-    label = "CH4O-2 + CF3 <=> CH3O_p + CHF3_p23",
+    label = "CH4O-2 + CF3 <=> CH3O_p1 + CHF3_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(14.4,'cm^3/(mol*s)'), n=3.1, Ea=(5500,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64385,7 +64385,7 @@ entry(
 
 entry(
     index = 3114,
-    label = "CH2O + CH2F <=> HCO_r3 + CH3F",
+    label = "CH2O + CH2F <=> HCO_p1 + CH3F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5540,'cm^3/(mol*s)'), n=2.81, Ea=(8300,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64394,7 +64394,7 @@ entry(
 
 entry(
     index = 3115,
-    label = "CH2O + CHF2 <=> HCO_r3 + CH2F2",
+    label = "CH2O + CHF2 <=> HCO_p1 + CH2F2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5540,'cm^3/(mol*s)'), n=2.81, Ea=(7800,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64403,7 +64403,7 @@ entry(
 
 entry(
     index = 3116,
-    label = "CH2O + CF3 <=> HCO_r3 + CHF3",
+    label = "CH2O + CF3 <=> HCO_p1 + CHF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5540,'cm^3/(mol*s)'), n=2.81, Ea=(4600,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64412,7 +64412,7 @@ entry(
 
 entry(
     index = 3117,
-    label = "CH2F + H2O2 <=> CH3F + HO2_r3",
+    label = "CH2F + H2O2 <=> CH3F + HO2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0, Ea=(-600,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64421,7 +64421,7 @@ entry(
 
 entry(
     index = 3118,
-    label = "CHF2 + H2O2 <=> CH2F2 + HO2_r3",
+    label = "CHF2 + H2O2 <=> CH2F2 + HO2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0, Ea=(-600,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64430,7 +64430,7 @@ entry(
 
 entry(
     index = 3119,
-    label = "CF3 + H2O2 <=> CHF3 + HO2_r3",
+    label = "CF3 + H2O2 <=> CHF3 + HO2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+10,'cm^3/(mol*s)'), n=0, Ea=(-600,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64439,7 +64439,7 @@ entry(
 
 entry(
     index = 3120,
-    label = "CH2F + HO2_r12 <=> CH3F + O2",
+    label = "CH2F + HO2_r12 <=> CH3F + O2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64448,7 +64448,7 @@ entry(
 
 entry(
     index = 3121,
-    label = "CHF2 + HO2_r12 <=> CH2F2 + O2",
+    label = "CHF2 + HO2_r12 <=> CH2F2 + O2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64457,7 +64457,7 @@ entry(
 
 entry(
     index = 3122,
-    label = "CF3 + HO2_r12 <=> CHF3 + O2",
+    label = "CF3 + HO2_r12 <=> CHF3 + O2_p1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64943,7 +64943,7 @@ entry(
 
 entry(
     index = 3176,
-    label = "CH3-CH2F + CH3 <=> CH2F-CH2 + CH4",
+    label = "CH3-CH2F + CH3_r3 <=> CH2F-CH2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(13400,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64961,7 +64961,7 @@ entry(
 
 entry(
     index = 3178,
-    label = "CH3-CH2F + CH3 <=> CH3-CHF + CH4",
+    label = "CH3-CH2F + CH3_r3 <=> CH3-CHF + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64979,7 +64979,7 @@ entry(
 
 entry(
     index = 3180,
-    label = "CH3-CHF2 + CH3 <=> CHF2-CH2 + CH4",
+    label = "CH3-CHF2 + CH3_r3 <=> CHF2-CH2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -64997,7 +64997,7 @@ entry(
 
 entry(
     index = 3182,
-    label = "CH3-CHF2 + CH3 <=> CH3-CF2 + CH4",
+    label = "CH3-CHF2 + CH3_r3 <=> CH3-CF2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e+10,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65015,7 +65015,7 @@ entry(
 
 entry(
     index = 3184,
-    label = "CH3-CF3 + CH3 <=> CF3-CH2 + CH4",
+    label = "CH3-CF3 + CH3_r3 <=> CF3-CH2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65033,7 +65033,7 @@ entry(
 
 entry(
     index = 3186,
-    label = "CH2F-CH2F + CH3 <=> CH2F-CHF + CH4",
+    label = "CH2F-CH2F + CH3_r3 <=> CH2F-CHF + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10400,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65051,7 +65051,7 @@ entry(
 
 entry(
     index = 3188,
-    label = "CH2F-CHF2 + CH3 <=> CHF2-CHF + CH4",
+    label = "CH2F-CHF2 + CH3_r3 <=> CHF2-CHF + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65069,7 +65069,7 @@ entry(
 
 entry(
     index = 3190,
-    label = "CH2F-CHF2 + CH3 <=> CH2F-CF2 + CH4",
+    label = "CH2F-CHF2 + CH3_r3 <=> CH2F-CF2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(9600,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65087,7 +65087,7 @@ entry(
 
 entry(
     index = 3192,
-    label = "CH2F-CF3 + CH3 <=> CF3-CHF + CH4",
+    label = "CH2F-CF3 + CH3_r3 <=> CF3-CHF + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65105,7 +65105,7 @@ entry(
 
 entry(
     index = 3194,
-    label = "CHF2-CHF2 + CH3 <=> CHF2-CF2_p1 + CH4p",
+    label = "CHF2-CHF2 + CH3_r3 <=> CHF2-CF2_p1 + CH4p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(10000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65123,7 +65123,7 @@ entry(
 
 entry(
     index = 3196,
-    label = "CHF2-CF3 + CH3 <=> CF3-CF2_p1 + CH4p",
+    label = "CHF2-CF3 + CH3_r3 <=> CF3-CF2_p1 + CH4p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(9500,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -65979,7 +65979,7 @@ entry(
 
 entry(
     index = 3291,
-    label = "CF3CHO + CH3 <=> CF3CO_p1 + CH4p",
+    label = "CF3CHO + CH3_r3 <=> CF3CO_p1 + CH4p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(7400,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -66216,7 +66216,7 @@ entry(
 
 entry(
     index = 3317,
-    label = "CH2CFCF3 + CH3 <=> CH-CFCF3_p1 + CH4p",
+    label = "CH2CFCF3 + CH3_r3 <=> CH-CFCF3_p1 + CH4p",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(20000,'cal/mol'), T0=(1,'K')),
     rank = 5,
@@ -66306,7 +66306,7 @@ entry(
 
 entry(
     index = 3359,
-    label = "CH3 + CH3-CF3 <=> CH4p + CF3-CH2_p1",
+    label = "CH3_r3 + CH3-CF3 <=> CH4p + CF3-CH2_p1",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0172839,'cm^3/(mol*s)'), n=4.53639, Ea=(39.4877,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.81853, dn = +|- 0.0785691, dEa = +|- 0.42757 kJ/mol"""),
     rank = 10,
@@ -66477,7 +66477,7 @@ entry(
 
 entry(
     index = 3323,
-    label = "CH3 + OCC(F)(F)F <=> CH4p + [O]CC(F)(F)F",
+    label = "CH3_r3 + OCC(F)(F)F <=> CH4p + [O]CC(F)(F)F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.036242,'cm^3/(mol*s)'), n=4.0444, Ea=(24.2264,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.31744, dn = +|- 0.0362201, dEa = +|- 0.197108 kJ/mol"""),
     rank = 10,
@@ -66603,7 +66603,7 @@ entry(
 
 entry(
     index = 3328,
-    label = "CH3 + CH3-CHF2 <=> CH4p + CHF2-CH2_p1",
+    label = "CH3_r3 + CH3-CHF2 <=> CH4p + CHF2-CH2_p1",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00429361,'cm^3/(mol*s)'), n=4.58308, Ea=(39.6833,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.89254, dn = +|- 0.0838101, dEa = +|- 0.456092 kJ/mol"""),
     rank = 10,
