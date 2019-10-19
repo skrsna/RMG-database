@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 0,
     label = "Radical",
-    group = "OR{RJ, RJ2_triplet, RJ3}",
+    group = "OR{RJ, RJ2_triplet, RJ3, RJ4}",
     thermo = u'RJ',
     shortDesc = u"""""",
     longDesc = 
@@ -26,6 +26,21 @@ entry(
 1 * R u1
 """,
     thermo = u'CJ',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 10000,
+    label = "RJ4",
+    group = 
+"""
+1 * R u4
+""",
+    thermo = u'CJ4',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -57,6 +72,26 @@ entry(
 """,
     thermo = u'Cs_P',
     shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 30000,
+    label = "CJ4",
+    group = 
+"""
+1 * C u4
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.77,-1.36,-1.91,-2.4,-3.16,-3.74,-4.66],'cal/(mol*K)'),
+        H298 = (493.90,'kcal/mol'),
+        S298 = (2.61,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Dummy group if forbidden C u4 is created in edge""",
     longDesc = 
 u"""
 
@@ -21576,6 +21611,8 @@ L1: Radical
     L2: RJ3
         L3: CJ3
         L3: SiJ3
+    L2: RJ4
+        L3: CJ4
 """
 )
 
