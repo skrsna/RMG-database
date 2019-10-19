@@ -17801,7 +17801,7 @@ L1: XH_Rrad_birad
 
 forbidden(
     label = "C_quintet",
-    molecule =
+    group =
 """
 multiplicity 5
 1 C u4 p0 c0
