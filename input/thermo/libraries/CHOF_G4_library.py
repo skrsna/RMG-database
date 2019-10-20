@@ -8,18 +8,18 @@ longDesc = u"""
 """
 entry(
     index = 0,
-    label = "F[CH]COF",
+    label = "FCHCOFrad0",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -44,14 +44,14 @@ u"""
 
 entry(
     index = 1,
-    label = "OC#CF",
+    label = "OCTCF1",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
+1 C u0 p0 c0 {2,S} {3,T}
+2 O u0 p2 c0 {1,S} {5,S}
+3 C u0 p0 c0 {1,T} {4,S}
 4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -76,19 +76,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.029 kJ/mol
 
 entry(
     index = 2,
-    label = "CC(F)[C]DO",
+    label = "CCFCDOrad2",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,D}
-5 O u0 p2 c0 {4,D}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {9,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -113,18 +113,18 @@ u"""
 
 entry(
     index = 3,
-    label = "CC(O)(F)OF",
+    label = "CCOFOF3",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  O u0 p2 c0 {2,S} {10,S}
-4  F u0 p3 c0 {2,S}
-5  O u0 p2 c0 {2,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {10,S}
+4  O u0 p2 c0 {1,S} {9,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
 10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -150,21 +150,21 @@ u"""
 
 entry(
     index = 4,
-    label = "CC(F)O[CH]F",
+    label = "CCFOCHFrad4",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
-3  F u0 p3 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u1 p0 c0 {4,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -189,19 +189,19 @@ u"""
 
 entry(
     index = 5,
-    label = "FCC#CC(F)F",
+    label = "FCCTCCFF5",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,T}
-4  C u0 p0 c0 {3,T} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+2  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {2,S} {3,T}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -226,18 +226,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.479 kJ/mol
 
 entry(
     index = 6,
-    label = "FCDC[C](F)F",
+    label = "FCDCCFFrad6",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {8,S}
+3 C u1 p0 c0 {1,S} {6,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {3,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -262,17 +262,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.026 kJ/mol
 
 entry(
     index = 7,
-    label = "CC(O)(F)F",
+    label = "CCOFF7",
     molecule = 
 """
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u0 p2 c0 {2,S} {9,S}
-4 F u0 p3 c0 {2,S}
-5 F u0 p3 c0 {2,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -298,17 +298,17 @@ u"""
 
 entry(
     index = 8,
-    label = "CDC1[C]DC1F",
+    label = "CDC1CDC1Frad8",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {4,D} {5,S}
+3 C u0 p0 c0 {1,D} {6,S} {7,S}
+4 C u1 p0 c0 {1,S} {2,D}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -333,17 +333,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.354 kJ/mol
 
 entry(
     index = 9,
-    label = "FOC1OC1F",
+    label = "FOC1OC1F9",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -368,21 +368,21 @@ u"""
 
 entry(
     index = 10,
-    label = "CD[C]CCF",
+    label = "CDCCCFrad10",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u1 p0 c0 {1,D} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -407,17 +407,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.199 kJ/mol
 
 entry(
     index = 11,
-    label = "OD[C]CDCF",
+    label = "ODCCDCFrad11",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 C u1 p0 c0 {1,S} {7,D}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -442,16 +442,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.398 kJ/mol
 
 entry(
     index = 12,
-    label = "FCDC1CDC1F",
+    label = "FCDC1CDC1F12",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {3,S} {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {5,S}
+4 C u0 p0 c0 {1,D} {7,S} {8,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -477,19 +477,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.296 kJ/mol
 
 entry(
     index = 13,
-    label = "FOC1CC1F",
+    label = "FOC1CC1F13",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -514,19 +514,19 @@ u"""
 
 entry(
     index = 14,
-    label = "COC(F)DCF",
+    label = "COCFDCF14",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,D}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -551,19 +551,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 
 entry(
     index = 15,
-    label = "C#CC[CH]F",
+    label = "CTCCCHFrad15",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -588,17 +588,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.799 kJ/mol
 
 entry(
     index = 16,
-    label = "O[C]1CDC1F",
+    label = "OC1CDC1Frad16",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {5,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -623,18 +623,18 @@ u"""
 
 entry(
     index = 17,
-    label = "[CH2]CDC(F)F",
+    label = "CH2CDCFFrad17",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -659,21 +659,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.936 kJ/mol
 
 entry(
     index = 18,
-    label = "FCD[C]C(F)CF",
+    label = "FCDCCFCFrad18",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u1 p0 c0 {2,D} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -698,20 +698,20 @@ u"""
 
 entry(
     index = 19,
-    label = "CC[C](F)F",
+    label = "CCCFFrad19",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -736,17 +736,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.766 kJ/mol
 
 entry(
     index = 20,
-    label = "C#CC([O])(F)F",
+    label = "CTCCOFFrad20",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 F u0 p3 c0 {3,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -771,19 +771,19 @@ u"""
 
 entry(
     index = 21,
-    label = "FCDCOCF",
+    label = "FCDCOCF21",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -808,18 +808,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 
 entry(
     index = 22,
-    label = "FC1(F)[CH]C1",
+    label = "FC1FCHC1rad22",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-7 H u0 p0 c0 {6,S}
-8 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -844,20 +844,20 @@ u"""
 
 entry(
     index = 23,
-    label = "CC(F)[CH]F",
+    label = "CCFCHFrad23",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -882,7 +882,7 @@ u"""
 
 entry(
     index = 24,
-    label = "ODC(F)C(F)(F)F",
+    label = "ODCFCFFF24",
     molecule = 
 """
 1 O u0 p2 c0 {2,D}
@@ -916,16 +916,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.331 kJ/mol
 
 entry(
     index = 25,
-    label = "FCDC(F)OF",
+    label = "FCDCFOF25",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -950,19 +950,19 @@ u"""
 
 entry(
     index = 26,
-    label = "FC[C]1CDC1",
+    label = "FCC1CDC1rad26",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {3,S} {4,D} {9,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 C u0 p0 c0 {2,S} {4,D} {8,S}
+4 C u0 p0 c0 {2,S} {3,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -987,21 +987,21 @@ u"""
 
 entry(
     index = 27,
-    label = "CC1C[C]1F",
+    label = "CC1CC1Frad27",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {2,S} {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1026,21 +1026,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.705 kJ/mol
 
 entry(
     index = 28,
-    label = "FCCOC(F)F",
+    label = "FCCOCFF28",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {12,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {5,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {3,S}
+12 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1065,21 +1065,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.921 kJ/mol
 
 entry(
     index = 29,
-    label = "CDCC[CH]F",
+    label = "CDCCCHFrad29",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1104,16 +1104,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.94 kJ/mol
 
 entry(
     index = 30,
-    label = "FC1[CH]OO1",
+    label = "FC1CHOO1rad30",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 O u0 p2 c0 {2,S} {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -1139,19 +1139,19 @@ u"""
 
 entry(
     index = 31,
-    label = "OCDC(F)CF",
+    label = "OCDCFCF31",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1176,16 +1176,16 @@ u"""
 
 entry(
     index = 32,
-    label = "CC(O)F",
+    label = "CCOF32",
     molecule = 
 """
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3 O u0 p2 c0 {2,S} {9,S}
-4 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {3,S}
 """,
@@ -1212,17 +1212,17 @@ u"""
 
 entry(
     index = 33,
-    label = "C#CCOF",
+    label = "CTCCOF33",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 O u0 p2 c0 {1,S} {7,S}
+4 C u0 p0 c0 {2,T} {8,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1247,19 +1247,19 @@ u"""
 
 entry(
     index = 34,
-    label = "[CH2]CC#CF",
+    label = "CH2CCTCFrad34",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5 C u0 p0 c0 {4,S} {6,T}
-6 C u0 p0 c0 {5,T} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1284,19 +1284,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.85 kJ/mol
 
 entry(
     index = 35,
-    label = "FC[C]1CDC1F",
+    label = "FCC1CDC1Frad35",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,D} {9,S}
-5 C u0 p0 c0 {3,S} {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 C u0 p0 c0 {2,S} {4,D} {9,S}
+4 C u0 p0 c0 {2,S} {3,D} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1321,17 +1321,17 @@ u"""
 
 entry(
     index = 36,
-    label = "OCOC(F)F",
+    label = "OCOCFF36",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
@@ -1358,18 +1358,18 @@ u"""
 
 entry(
     index = 37,
-    label = "FCC(F)OF",
+    label = "FCCFOF37",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1394,17 +1394,17 @@ u"""
 
 entry(
     index = 38,
-    label = "ODCCOF",
+    label = "ODCCOF38",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1429,17 +1429,17 @@ u"""
 
 entry(
     index = 39,
-    label = "CDC[CH]F",
+    label = "CDCCHFrad39",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {5,S} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {3,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -1465,21 +1465,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.013 kJ/mol
 
 entry(
     index = 40,
-    label = "C[CH]OC(F)F",
+    label = "CCHOCFFrad40",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
+9  F u0 p3 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1504,19 +1504,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.363 kJ/mol
 
 entry(
     index = 41,
-    label = "FCDC(F)COF",
+    label = "FCDCFCOF41",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  O u0 p2 c0 {5,S} {7,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1541,16 +1541,16 @@ u"""
 
 entry(
     index = 42,
-    label = "OC(F)D[C]F",
+    label = "OCFDCFrad42",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 C u1 p0 c0 {1,D} {5,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1575,18 +1575,18 @@ u"""
 
 entry(
     index = 43,
-    label = "FC1(F)CC1",
+    label = "FC1FCC143",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1611,21 +1611,21 @@ u"""
 
 entry(
     index = 44,
-    label = "[CH2]C(F)CO",
+    label = "CH2CFCOrad44",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {9,S} {10,S}
-7  O u0 p2 c0 {6,S} {11,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {2,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1650,19 +1650,19 @@ u"""
 
 entry(
     index = 45,
-    label = "F[C]1CDCC1",
+    label = "FC1CDCC1rad45",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,D} {8,S}
+4 C u0 p0 c0 {2,S} {3,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1687,17 +1687,17 @@ u"""
 
 entry(
     index = 46,
-    label = "FOC1CO1",
+    label = "FOC1CO146",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1722,19 +1722,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.92 kJ/mol
 
 entry(
     index = 47,
-    label = "[O]CDCCF",
+    label = "OCDCCFrad47",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u1 p2 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1759,18 +1759,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.942 kJ/mol
 
 entry(
     index = 48,
-    label = "O[C](F)COF",
+    label = "OCFCOFrad48",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -1796,21 +1796,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.824 kJ/mol
 
 entry(
     index = 49,
-    label = "CC(F)D[C]CF",
+    label = "CCFDCCFrad49",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,D}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,D} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1835,16 +1835,16 @@ u"""
 
 entry(
     index = 50,
-    label = "OC1(F)CO1",
+    label = "OC1FCO150",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -1870,19 +1870,19 @@ u"""
 
 entry(
     index = 51,
-    label = "CDC(CF)OF",
+    label = "CDCCFOF51",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {5,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {2,S} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1907,17 +1907,17 @@ u"""
 
 entry(
     index = 52,
-    label = "C[C](O)F",
+    label = "CCOFrad52",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
 3 O u0 p2 c0 {2,S} {8,S}
-4 F u0 p3 c0 {2,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -1943,20 +1943,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.469 kJ/mol
 
 entry(
     index = 53,
-    label = "F[CH]CCF",
+    label = "FCHCCFrad53",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1981,19 +1981,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.292 kJ/mol
 
 entry(
     index = 54,
-    label = "CD[C]COF",
+    label = "CDCCOFrad54",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2018,18 +2018,18 @@ u"""
 
 entry(
     index = 55,
-    label = "O[CH]C(F)F",
+    label = "OCHCFFrad55",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 O u0 p2 c0 {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2054,18 +2054,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.289 kJ/mol
 
 entry(
     index = 56,
-    label = "OC(F)C(F)F",
+    label = "OCFCFF56",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2090,23 +2090,23 @@ u"""
 
 entry(
     index = 57,
-    label = "FCC[C](F)CF",
+    label = "FCCCFCFrad57",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {3,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2131,19 +2131,19 @@ u"""
 
 entry(
     index = 58,
-    label = "[O]CCDC(F)F",
+    label = "OCCDCFFrad58",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2168,17 +2168,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.554 kJ/mol
 
 entry(
     index = 59,
-    label = "OC1CC1F",
+    label = "OC1CC1F59",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
@@ -2205,19 +2205,19 @@ u"""
 
 entry(
     index = 60,
-    label = "C[CH]C#CF",
+    label = "CCHCTCFrad60",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {8,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2242,19 +2242,19 @@ u"""
 
 entry(
     index = 61,
-    label = "C[C]DCDCF",
+    label = "CCDCDCFrad61",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {4,D}
+4 C u0 p0 c0 {2,D} {3,D}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2279,15 +2279,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.769 kJ/mol
 
 entry(
     index = 62,
-    label = "F[C]DCF",
+    label = "FCDCFrad62",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {5,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2312,16 +2312,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.199 kJ/mol
 
 entry(
     index = 63,
-    label = "FC1(F)[CH]O1",
+    label = "FC1FCHO1rad63",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {2,S} {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2346,19 +2346,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.363 kJ/mol
 
 entry(
     index = 64,
-    label = "CO[C]DC(F)F",
+    label = "COCDCFFrad64",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2383,18 +2383,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 
 entry(
     index = 65,
-    label = "C#CC(C)F",
+    label = "CTCCCF65",
     molecule = 
 """
-1  C u0 p0 c0 {2,T} {6,S}
-2  C u0 p0 c0 {1,T} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {3,T} {10,S}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -2420,19 +2420,19 @@ u"""
 
 entry(
     index = 66,
-    label = "FCD[C]C(F)OF",
+    label = "FCDCCFOFrad66",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 O u0 p2 c0 {4,S} {7,S}
-7 F u0 p3 c0 {6,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2457,19 +2457,19 @@ u"""
 
 entry(
     index = 67,
-    label = "FOCDCC(F)F",
+    label = "FOCDCCFF67",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,D} {8,S}
-4  C u0 p0 c0 {3,D} {5,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2494,19 +2494,19 @@ u"""
 
 entry(
     index = 68,
-    label = "FCOCDC(F)F",
+    label = "FCOCDCFF68",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,D} {10,S}
-5  C u0 p0 c0 {4,D} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2531,15 +2531,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.738 kJ/mol
 
 entry(
     index = 69,
-    label = "[O]C1DCDC1F",
+    label = "OC1DCDC1Frad69",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {3,D} {5,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2564,7 +2564,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.616 kJ/mol
 
 entry(
     index = 70,
-    label = "F[C]DC(F)F",
+    label = "FCDCFFrad70",
     molecule = 
 """
 multiplicity 2
@@ -2597,19 +2597,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.083 kJ/mol
 
 entry(
     index = 71,
-    label = "FC1[CH]OC1",
+    label = "FC1CHOC1rad71",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2634,18 +2634,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.903 kJ/mol
 
 entry(
     index = 72,
-    label = "FCDC(F)CF",
+    label = "FCDCFCF72",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2670,21 +2670,21 @@ u"""
 
 entry(
     index = 73,
-    label = "C[C]1CC1F",
+    label = "CC1CC1Frad73",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  C u0 p0 c0 {2,S} {3,S} {5,S} {11,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2709,23 +2709,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.96 kJ/mol
 
 entry(
     index = 74,
-    label = "CC[CH]CF",
+    label = "CCCHCFrad74",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {12,S} {13,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2750,20 +2750,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.126 kJ/mol
 
 entry(
     index = 75,
-    label = "FCC(F)CF",
+    label = "FCCFCF75",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {3,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2788,21 +2788,21 @@ u"""
 
 entry(
     index = 76,
-    label = "OC[C](F)CF",
+    label = "OCCFCFrad76",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2827,19 +2827,19 @@ u"""
 
 entry(
     index = 77,
-    label = "ODCCCF",
+    label = "ODCCCF77",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {6,S}
-3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,D} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  O u0 p2 c0 {3,D}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2864,20 +2864,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.178 kJ/mol
 
 entry(
     index = 78,
-    label = "FCDCC[C](F)F",
+    label = "FCDCCCFFrad78",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  C u1 p0 c0 {4,S} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -2903,21 +2903,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.993 kJ/mol
 
 entry(
     index = 79,
-    label = "F[CH]OCCF",
+    label = "FCHOCCFrad79",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2942,18 +2942,18 @@ u"""
 
 entry(
     index = 80,
-    label = "C#CCCF",
+    label = "CTCCCF80",
     molecule = 
 """
-1  C u0 p0 c0 {2,T} {6,S}
-2  C u0 p0 c0 {1,T} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {3,T} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -2979,17 +2979,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.468 kJ/mol
 
 entry(
     index = 81,
-    label = "OCDC(F)OF",
+    label = "OCDCFOF81",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {6,S}
+2 C u0 p0 c0 {1,D} {4,S} {5,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {4,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3014,19 +3014,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.762 kJ/mol
 
 entry(
     index = 82,
-    label = "FOC1CC1",
+    label = "FOC1CC182",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3051,17 +3051,17 @@ u"""
 
 entry(
     index = 83,
-    label = "FCDC(OF)OF",
+    label = "FCDCOFOF83",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 O u0 p2 c0 {3,S} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3086,17 +3086,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.053 kJ/mol
 
 entry(
     index = 84,
-    label = "F[C]1CDCO1",
+    label = "FC1CDCO1rad84",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u1 p0 c0 {1,S} {4,S} {6,S}
+3 C u0 p0 c0 {1,D} {4,S} {7,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3121,19 +3121,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.357 kJ/mol
 
 entry(
     index = 85,
-    label = "[CH2]C(F)OO",
+    label = "CH2CFOOrad85",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 O u0 p2 c0 {4,S} {7,S}
-7 O u0 p2 c0 {6,S} {9,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {7,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3158,21 +3158,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.258 kJ/mol
 
 entry(
     index = 86,
-    label = "O[C](F)CCF",
+    label = "OCFCCFrad86",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {4,S} {10,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3197,23 +3197,23 @@ u"""
 
 entry(
     index = 87,
-    label = "CCC[C](F)F",
+    label = "CCCCFFrad87",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3238,23 +3238,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.182 kJ/mol
 
 entry(
     index = 88,
-    label = "F[CH]CCCF",
+    label = "FCHCCCFrad88",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  C u0 p0 c0 {5,S} {7,S} {12,S} {13,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3279,16 +3279,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.842 kJ/mol
 
 entry(
     index = 89,
-    label = "FC1(F)CO1",
+    label = "FC1FCO189",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3313,21 +3313,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.987 kJ/mol
 
 entry(
     index = 90,
-    label = "FCDC(F)CCF",
+    label = "FCDCFCCF90",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  C u0 p0 c0 {5,S} {7,S} {11,S} {12,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3352,19 +3352,19 @@ u"""
 
 entry(
     index = 91,
-    label = "OC1(F)CC1",
+    label = "OC1FCC191",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3389,21 +3389,21 @@ u"""
 
 entry(
     index = 92,
-    label = "[CH2]C(C)DCF",
+    label = "CH2CCDCFrad92",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {6,D}
-5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
-6  C u0 p0 c0 {4,D} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,D}
+3  C u1 p0 c0 {2,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3428,19 +3428,19 @@ u"""
 
 entry(
     index = 93,
-    label = "FC1DC[CH]C1F",
+    label = "FC1DCCHC1Frad93",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 C u0 p0 c0 {2,S} {4,S} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 C u1 p0 c0 {1,S} {4,S} {8,S}
+4 C u0 p0 c0 {2,D} {3,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3465,19 +3465,19 @@ u"""
 
 entry(
     index = 94,
-    label = "C[C]1OC1F",
+    label = "CC1OC1Frad94",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3502,18 +3502,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.569 kJ/mol
 
 entry(
     index = 95,
-    label = "FC1C(F)C1F",
+    label = "FC1CFC1F95",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3 C u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3538,19 +3538,19 @@ u"""
 
 entry(
     index = 96,
-    label = "CDC(F)OCF",
+    label = "CDCFOCF96",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3575,19 +3575,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 
 entry(
     index = 97,
-    label = "CD[C]CDCF",
+    label = "CDCCDCFrad97",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {8,S}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {4,D} {8,S} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3612,16 +3612,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.919 kJ/mol
 
 entry(
     index = 98,
-    label = "OOCDCF",
+    label = "OOCDCF98",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -3647,17 +3647,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.178 kJ/mol
 
 entry(
     index = 99,
-    label = "OOC(F)DCF",
+    label = "OOCFDCF99",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3682,17 +3682,17 @@ u"""
 
 entry(
     index = 100,
-    label = "FC1CD[C]O1",
+    label = "FC1CDCO1rad100",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3717,18 +3717,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.254 kJ/mol
 
 entry(
     index = 101,
-    label = "OC[C](F)F",
+    label = "OCCFFrad101",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3753,16 +3753,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.819 kJ/mol
 
 entry(
     index = 102,
-    label = "ODCCF",
+    label = "ODCCF102",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3787,16 +3787,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.071 kJ/mol
 
 entry(
     index = 103,
-    label = "F[C]DCDCF",
+    label = "FCDCDCFrad103",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u1 p0 c0 {2,D} {6,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3821,19 +3821,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.907 kJ/mol
 
 entry(
     index = 104,
-    label = "FCC#C[C](F)F",
+    label = "FCCTCCFFrad104",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {2,S} {3,T}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3858,17 +3858,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.999 kJ/mol
 
 entry(
     index = 105,
-    label = "[O]C1CDC1F",
+    label = "OC1CDC1Frad105",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {1,S} {2,D} {6,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3893,17 +3893,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.958 kJ/mol
 
 entry(
     index = 106,
-    label = "[C]#COC(F)F",
+    label = "CTCOCFFrad106",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {7,T}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -3928,23 +3928,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.741 kJ/mol
 
 entry(
     index = 107,
-    label = "C[CH]CCF",
+    label = "CCHCCFrad107",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {12,S} {13,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3969,19 +3969,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.153 kJ/mol
 
 entry(
     index = 108,
-    label = "FCC(F)DCOF",
+    label = "FCCFDCOF108",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,D}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,D} {6,S} {10,S}
-6  O u0 p2 c0 {5,S} {7,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4006,19 +4006,19 @@ u"""
 
 entry(
     index = 109,
-    label = "CC1(F)CDC1",
+    label = "CC1FCDC1109",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {2,S} {4,D} {10,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,D} {9,S}
+4  C u0 p0 c0 {1,S} {3,D} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4043,18 +4043,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.227 kJ/mol
 
 entry(
     index = 110,
-    label = "CO[C](O)F",
+    label = "COCOFrad110",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {9,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {3,S} {4,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -4080,15 +4080,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.638 kJ/mol
 
 entry(
     index = 111,
-    label = "C#CC([O])F",
+    label = "CTCCOFrad111",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {3,S}
 """,
@@ -4115,21 +4115,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.59 kJ/mol
 
 entry(
     index = 112,
-    label = "[CH]DCC(C)F",
+    label = "CHDCCCFrad112",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,D}
-2  H u0 p0 c0 {1,S}
-3  C u0 p0 c0 {1,D} {4,S} {7,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4154,21 +4154,21 @@ u"""
 
 entry(
     index = 113,
-    label = "C[CH]C(F)DCF",
+    label = "CCHCFDCFrad113",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,D}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,D} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u1 p0 c0 {1,S} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4193,17 +4193,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.394 kJ/mol
 
 entry(
     index = 114,
-    label = "FOC#CC(F)F",
+    label = "FOCTCCFF114",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4228,17 +4228,17 @@ u"""
 
 entry(
     index = 115,
-    label = "OC1[C]DC1F",
+    label = "OC1CDC1Frad115",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4263,19 +4263,19 @@ u"""
 
 entry(
     index = 116,
-    label = "FC#CC[C](F)F",
+    label = "FCTCCCFFrad116",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4300,17 +4300,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.878 kJ/mol
 
 entry(
     index = 117,
-    label = "ODC([CH]F)OF",
+    label = "ODCCHFOFrad117",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 O u0 p2 c0 {2,S} {7,S}
-7 F u0 p3 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {1,D}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4335,15 +4335,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.592 kJ/mol
 
 entry(
     index = 118,
-    label = "OC(O)(F)F",
+    label = "OCOFF118",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u0 p2 c0 {2,S} {7,S}
-4 F u0 p3 c0 {2,S}
-5 F u0 p3 c0 {2,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -4369,19 +4369,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.03 kJ/mol
 
 entry(
     index = 119,
-    label = "CDCC(C)F",
+    label = "CDCCCF119",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {4,S}
 """,
@@ -4408,17 +4408,17 @@ u"""
 
 entry(
     index = 120,
-    label = "FCC#COF",
+    label = "FCCTCOF120",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4443,18 +4443,18 @@ u"""
 
 entry(
     index = 121,
-    label = "FCDCCF",
+    label = "FCDCCF121",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4479,19 +4479,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.405 kJ/mol
 
 entry(
     index = 122,
-    label = "FC1DCC[CH]1",
+    label = "FC1DCCCH1rad122",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 C u1 p0 c0 {2,S} {4,S} {6,S}
-6 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {7,S}
+4 C u0 p0 c0 {2,D} {3,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4516,16 +4516,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.848 kJ/mol
 
 entry(
     index = 123,
-    label = "F[C]1OC1F",
+    label = "FC1OC1Frad123",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4550,19 +4550,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.674 kJ/mol
 
 entry(
     index = 124,
-    label = "FCC1[C]DC1F",
+    label = "FCC1CDC1Frad124",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,D}
-5 C u0 p0 c0 {3,S} {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4587,21 +4587,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 
 entry(
     index = 125,
-    label = "CC(F)[C]DCF",
+    label = "CCFCDCFrad125",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,D}
-5  C u0 p0 c0 {4,D} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4626,21 +4626,21 @@ u"""
 
 entry(
     index = 126,
-    label = "FCOCC(F)F",
+    label = "FCOCCFF126",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {12,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4665,21 +4665,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.066 kJ/mol
 
 entry(
     index = 127,
-    label = "[CH2]CDCCF",
+    label = "CH2CDCCFrad127",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,D} {8,S}
-5  C u0 p0 c0 {4,D} {6,S} {9,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u1 p0 c0 {3,S} {10,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4704,21 +4704,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.695 kJ/mol
 
 entry(
     index = 128,
-    label = "CC1(F)C[C]1F",
+    label = "CC1FCC1Frad128",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  C u1 p0 c0 {2,S} {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4743,19 +4743,19 @@ u"""
 
 entry(
     index = 129,
-    label = "COOCF",
+    label = "COOCF129",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4780,19 +4780,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.724 kJ/mol
 
 entry(
     index = 130,
-    label = "CC1(F)CO1",
+    label = "CC1FCO1130",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  O u0 p2 c0 {2,S} {4,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4817,17 +4817,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.176 kJ/mol
 
 entry(
     index = 131,
-    label = "OD[C]C(O)F",
+    label = "ODCCOFrad131",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 O u0 p2 c0 {3,S} {7,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,D}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4852,7 +4852,7 @@ u"""
 
 entry(
     index = 132,
-    label = "FCCCF",
+    label = "FCCCF132",
     molecule = 
 """
 1  F u0 p3 c0 {2,S}
@@ -4890,18 +4890,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.203 kJ/mol
 
 entry(
     index = 133,
-    label = "OOCC(F)F",
+    label = "OOCCFF133",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -4927,20 +4927,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.687 kJ/mol
 
 entry(
     index = 134,
-    label = "[CH2]C(C)F",
+    label = "CH2CCFrad134",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
-5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -4965,17 +4965,17 @@ u"""
 
 entry(
     index = 135,
-    label = "[CH2]C(DO)OF",
+    label = "CH2CDOOFrad135",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {6,S}
-5 O u0 p2 c0 {4,D}
-6 O u0 p2 c0 {4,S} {7,S}
-7 F u0 p3 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {1,D}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5000,19 +5000,19 @@ u"""
 
 entry(
     index = 136,
-    label = "[CH2]C(O)OF",
+    label = "CH2COOFrad136",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5 O u0 p2 c0 {4,S} {9,S}
-6 O u0 p2 c0 {4,S} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5037,19 +5037,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.206 kJ/mol
 
 entry(
     index = 137,
-    label = "OC1C[C]1F",
+    label = "OC1CC1Frad137",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {2,S} {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5074,20 +5074,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.686 kJ/mol
 
 entry(
     index = 138,
-    label = "FC[CH]CF",
+    label = "FCCHCFrad138",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  F u0 p3 c0 {1,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5112,23 +5112,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.184 kJ/mol
 
 entry(
     index = 139,
-    label = "CC(F)C(C)F",
+    label = "CCFCCF139",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
-5  C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5153,23 +5153,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.748 kJ/mol
 
 entry(
     index = 140,
-    label = "C[CH]C(C)F",
+    label = "CCHCCFrad140",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5194,16 +5194,16 @@ u"""
 
 entry(
     index = 141,
-    label = "OCC(O)F",
+    label = "OCCOF141",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  O u0 p2 c0 {3,S} {10,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
@@ -5231,19 +5231,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.964 kJ/mol
 
 entry(
     index = 142,
-    label = "ODCC[CH]F",
+    label = "ODCCCHFrad142",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {9,S}
+3 C u1 p0 c0 {1,S} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5268,23 +5268,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.18 kJ/mol
 
 entry(
     index = 143,
-    label = "FCC(CF)CF",
+    label = "FCCCFCF143",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {3,S} {7,S} {13,S} {14,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {7,S} {11,S} {12,S}
+4  C u0 p0 c0 {1,S} {8,S} {13,S} {14,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {3,S}
+8  F u0 p3 c0 {4,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5309,17 +5309,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.411 kJ/mol
 
 entry(
     index = 144,
-    label = "[O]CC#CF",
+    label = "OCCTCFrad144",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5344,20 +5344,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.253 kJ/mol
 
 entry(
     index = 145,
-    label = "[CH2]CC(F)F",
+    label = "CH2CCFFrad145",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5382,18 +5382,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.759 kJ/mol
 
 entry(
     index = 146,
-    label = "FC1CC1",
+    label = "FC1CC1146",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5418,16 +5418,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.878 kJ/mol
 
 entry(
     index = 147,
-    label = "[O]COF",
+    label = "OCOFrad147",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5452,18 +5452,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.56 kJ/mol
 
 entry(
     index = 148,
-    label = "F[C]1CC1F",
+    label = "FC1CC1Frad148",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 F u0 p3 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5488,15 +5488,15 @@ u"""
 
 entry(
     index = 149,
-    label = "FC1D[C]OO1",
+    label = "FC1DCOO1rad149",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {2,S} {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u1 p0 c0 {1,D} {4,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5521,19 +5521,19 @@ u"""
 
 entry(
     index = 150,
-    label = "FC1[C]DCC1",
+    label = "FC1CDCC1rad150",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {2,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5558,19 +5558,19 @@ u"""
 
 entry(
     index = 151,
-    label = "OC(F)OCF",
+    label = "OCFOCF151",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3  F u0 p3 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5595,21 +5595,21 @@ u"""
 
 entry(
     index = 152,
-    label = "CC(F)CD[C]F",
+    label = "CCFCDCFrad152",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {11,S}
-5  C u1 p0 c0 {4,D} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5634,17 +5634,17 @@ u"""
 
 entry(
     index = 153,
-    label = "F[CH]C1OO1",
+    label = "FCHC1OO1rad153",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 O u0 p2 c0 {4,S} {5,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5669,21 +5669,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.349 kJ/mol
 
 entry(
     index = 154,
-    label = "CCOCF",
+    label = "CCOCF154",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5708,17 +5708,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.503 kJ/mol
 
 entry(
     index = 155,
-    label = "FC(F)C1OO1",
+    label = "FCFC1OO1155",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 O u0 p2 c0 {4,S} {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5743,23 +5743,23 @@ u"""
 
 entry(
     index = 156,
-    label = "CCC(F)CF",
+    label = "CCCFCF156",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {12,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {13,S} {14,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  C u0 p0 c0 {2,S} {9,S} {13,S} {14,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5784,17 +5784,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.035 kJ/mol
 
 entry(
     index = 157,
-    label = "[C]#CC(DC)F",
+    label = "CTCCDCFrad157",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {6,S} {7,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 C u0 p0 c0 {1,S} {7,T}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -5819,19 +5819,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.296 kJ/mol
 
 entry(
     index = 158,
-    label = "C[C](F)CDO",
+    label = "CCFCDOrad158",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {9,S}
-5 O u0 p2 c0 {4,D}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {8,D} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+7 F u0 p3 c0 {2,S}
+8 O u0 p2 c0 {3,D}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5856,18 +5856,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.694 kJ/mol
 
 entry(
     index = 159,
-    label = "OCCOF",
+    label = "OCCOF159",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {10,S}
+4  O u0 p2 c0 {2,S} {9,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {4,S}
 10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -5893,17 +5893,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.756 kJ/mol
 
 entry(
     index = 160,
-    label = "O[CH]C#CF",
+    label = "OCHCTCFrad160",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {3,S} {5,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 O u0 p2 c0 {1,S} {6,S}
+4 C u0 p0 c0 {2,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5928,15 +5928,15 @@ u"""
 
 entry(
     index = 161,
-    label = "O[C]DCDCF",
+    label = "OCDCDCFrad161",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u1 p0 c0 {2,D} {4,S}
+4 O u0 p2 c0 {3,S} {7,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {4,S}
 """,
@@ -5963,17 +5963,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.018 kJ/mol
 
 entry(
     index = 162,
-    label = "FC[C](F)F",
+    label = "FCCFFrad162",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -5998,23 +5998,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.202 kJ/mol
 
 entry(
     index = 163,
-    label = "C[C](F)C(C)F",
+    label = "CCFCCFrad163",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6039,16 +6039,16 @@ u"""
 
 entry(
     index = 164,
-    label = "F[C]DCDC(F)F",
+    label = "FCDCDCFFrad164",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u1 p0 c0 {2,D} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6073,14 +6073,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.584 kJ/mol
 
 entry(
     index = 165,
-    label = "ODCOF",
+    label = "ODCOF165",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {5,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 O u0 p2 c0 {1,D}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6105,19 +6105,19 @@ u"""
 
 entry(
     index = 166,
-    label = "FC1CD[C]C1",
+    label = "FC1CDCC1rad166",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {2,S} {3,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6142,21 +6142,21 @@ u"""
 
 entry(
     index = 167,
-    label = "FCCDCC(F)F",
+    label = "FCCDCCFF167",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {12,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+2  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u0 p0 c0 {2,S} {3,D} {12,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6181,15 +6181,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.129 kJ/mol
 
 entry(
     index = 168,
-    label = "O[C](F)F",
+    label = "OCFFrad168",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 F u0 p3 c0 {2,S}
-5 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6214,17 +6214,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.931 kJ/mol
 
 entry(
     index = 169,
-    label = "OOCD[C]F",
+    label = "OOCDCFrad169",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 C u1 p0 c0 {1,D} {6,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6249,21 +6249,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.708 kJ/mol
 
 entry(
     index = 170,
-    label = "C[CH]COF",
+    label = "CCHCOFrad170",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6288,19 +6288,19 @@ u"""
 
 entry(
     index = 171,
-    label = "ODC([CH]F)CF",
+    label = "ODCCHFCFrad171",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 C u1 p0 c0 {2,S} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6325,15 +6325,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.522 kJ/mol
 
 entry(
     index = 172,
-    label = "C#COC(F)F",
+    label = "CTCOCFF172",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
 7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {4,S}
 """,
@@ -6360,21 +6360,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.445 kJ/mol
 
 entry(
     index = 173,
-    label = "[CH2]OC(C)F",
+    label = "CH2OCCFrad173",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  O u0 p2 c0 {1,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6399,16 +6399,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.98 kJ/mol
 
 entry(
     index = 174,
-    label = "FCDCOF",
+    label = "FCDCOF174",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6433,19 +6433,19 @@ u"""
 
 entry(
     index = 175,
-    label = "FCC#CCF",
+    label = "FCCTCCF175",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,T}
-4  C u0 p0 c0 {3,T} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {2,S} {3,T}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6470,16 +6470,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.562 kJ/mol
 
 entry(
     index = 176,
-    label = "FC1DC(F)[CH]1",
+    label = "FC1DCFCH1rad176",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {2,S} {3,S} {6,S}
-6 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {3,S} {5,S}
+3 C u1 p0 c0 {1,S} {2,S} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6504,18 +6504,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.589 kJ/mol
 
 entry(
     index = 177,
-    label = "OOCCF",
+    label = "OOCCF177",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -6541,21 +6541,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 
 entry(
     index = 178,
-    label = "OCC[CH]F",
+    label = "OCCCHFrad178",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6580,19 +6580,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.377 kJ/mol
 
 entry(
     index = 179,
-    label = "CC(F)O[O]",
+    label = "CCFOOrad179",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 O u1 p2 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6617,21 +6617,21 @@ u"""
 
 entry(
     index = 180,
-    label = "COC[C](F)F",
+    label = "COCCFFrad180",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6656,19 +6656,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.253 kJ/mol
 
 entry(
     index = 181,
-    label = "CDC(C)[C](F)F",
+    label = "CDCCCFFrad181",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {8,S} {9,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
+8  F u0 p3 c0 {4,S}
+9  F u0 p3 c0 {4,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
 """,
@@ -6695,19 +6695,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.188 kJ/mol
 
 entry(
     index = 182,
-    label = "CDCOC(F)F",
+    label = "CDCOCFF182",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6732,19 +6732,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.383 kJ/mol
 
 entry(
     index = 183,
-    label = "F[C]DCCDCF",
+    label = "FCDCCDCFrad183",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,D} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6769,17 +6769,17 @@ u"""
 
 entry(
     index = 184,
-    label = "ODC(F)OCF",
+    label = "ODCFOCF184",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6804,18 +6804,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.851 kJ/mol
 
 entry(
     index = 185,
-    label = "FCCOF",
+    label = "FCCOF185",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6840,15 +6840,15 @@ u"""
 
 entry(
     index = 186,
-    label = "O[C]1OC1F",
+    label = "OC1OC1Frad186",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {4,S}
 """,
@@ -6875,21 +6875,21 @@ u"""
 
 entry(
     index = 187,
-    label = "CC1(F)CC1",
+    label = "CC1FCC1187",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6914,18 +6914,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.327 kJ/mol
 
 entry(
     index = 188,
-    label = "COC(O)(F)F",
+    label = "COCOFF188",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4  O u0 p2 c0 {3,S} {10,S}
-5  F u0 p3 c0 {3,S}
-6  F u0 p3 c0 {3,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -6951,19 +6951,19 @@ u"""
 
 entry(
     index = 189,
-    label = "FOCC(F)OF",
+    label = "FOCCFOF189",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {4,S} {7,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -6988,17 +6988,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.324 kJ/mol
 
 entry(
     index = 190,
-    label = "FOOCDC(F)F",
+    label = "FOOCDCFF190",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7023,21 +7023,21 @@ u"""
 
 entry(
     index = 191,
-    label = "FCC(CF)OF",
+    label = "FCCCFOF191",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {3,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {12,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {3,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7062,21 +7062,21 @@ u"""
 
 entry(
     index = 192,
-    label = "[CH2]C(O)CF",
+    label = "CH2COCFrad192",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5  O u0 p2 c0 {4,S} {9,S}
-6  C u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7101,16 +7101,16 @@ u"""
 
 entry(
     index = 193,
-    label = "FOCOF",
+    label = "FOCOF193",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7135,19 +7135,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.133 kJ/mol
 
 entry(
     index = 194,
-    label = "[CH2]C(DO)CF",
+    label = "CH2CDOCFrad194",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {6,S}
-5 O u0 p2 c0 {4,D}
-6 C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 C u1 p0 c0 {2,S} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7172,18 +7172,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.75 kJ/mol
 
 entry(
     index = 195,
-    label = "O[C]1CC1F",
+    label = "OC1CC1Frad195",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -7209,20 +7209,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.822 kJ/mol
 
 entry(
     index = 196,
-    label = "C[CH]CF",
+    label = "CCHCFrad196",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  F u0 p3 c0 {2,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7247,19 +7247,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.356 kJ/mol
 
 entry(
     index = 197,
-    label = "FCC(F)OOF",
+    label = "FCCFOOF197",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  O u0 p2 c0 {5,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7284,16 +7284,16 @@ u"""
 
 entry(
     index = 198,
-    label = "C#CC(DC)F",
+    label = "CTCCDCF198",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {7,S} {8,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -7319,16 +7319,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.725 kJ/mol
 
 entry(
     index = 199,
-    label = "FC1OC1(F)F",
+    label = "FC1OC1FF199",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7353,16 +7353,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.538 kJ/mol
 
 entry(
     index = 200,
-    label = "C#C[CH]F",
+    label = "CTCCHFrad200",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {6,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7387,19 +7387,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.17 kJ/mol
 
 entry(
     index = 201,
-    label = "CCOOF",
+    label = "CCOOF201",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7424,21 +7424,21 @@ u"""
 
 entry(
     index = 202,
-    label = "CC(F)C[O]",
+    label = "CCFCOrad202",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  O u1 p2 c0 {4,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  O u1 p2 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7463,19 +7463,19 @@ u"""
 
 entry(
     index = 203,
-    label = "OO[C](F)CF",
+    label = "OOCFCFrad203",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {8,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7500,18 +7500,18 @@ u"""
 
 entry(
     index = 204,
-    label = "OC(CF)OF",
+    label = "OCCFOF204",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {2,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {10,S}
+4  O u0 p2 c0 {1,S} {9,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {4,S}
 10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -7537,16 +7537,16 @@ u"""
 
 entry(
     index = 205,
-    label = "[O]OC(F)F",
+    label = "OOCFFrad205",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7571,19 +7571,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.337 kJ/mol
 
 entry(
     index = 206,
-    label = "CDCC(F)D[C]F",
+    label = "CDCCFDCFrad206",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {9,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {3,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,D} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7608,20 +7608,20 @@ u"""
 
 entry(
     index = 207,
-    label = "OCCCF",
+    label = "OCCCF207",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u0 p2 c0 {2,S} {12,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -7647,18 +7647,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.378 kJ/mol
 
 entry(
     index = 208,
-    label = "[O]CCF",
+    label = "OCCFrad208",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7683,16 +7683,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.378 kJ/mol
 
 entry(
     index = 209,
-    label = "FC1CO1",
+    label = "FC1CO1209",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 O u0 p2 c0 {2,S} {3,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7717,19 +7717,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.556 kJ/mol
 
 entry(
     index = 210,
-    label = "CCDC(F)OF",
+    label = "CCDCFOF210",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,D} {10,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7754,18 +7754,18 @@ u"""
 
 entry(
     index = 211,
-    label = "CDCDC[C](F)F",
+    label = "CDCDCCFFrad211",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,D} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 C u0 p0 c0 {4,D} {8,S} {9,S}
+4 C u0 p0 c0 {1,D} {3,D}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -7791,17 +7791,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.618 kJ/mol
 
 entry(
     index = 212,
-    label = "FC1[C]DCO1",
+    label = "FC1CDCO1rad212",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {4,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7826,14 +7826,14 @@ u"""
 
 entry(
     index = 213,
-    label = "F[C]1OO1",
+    label = "FC1OO1rad213",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {2,S} {3,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7858,17 +7858,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.84 kJ/mol
 
 entry(
     index = 214,
-    label = "FC1D[C]OC1",
+    label = "FC1DCOC1rad214",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7893,19 +7893,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.254 kJ/mol
 
 entry(
     index = 215,
-    label = "[O]CCDCF",
+    label = "OCCDCFrad215",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,D} {8,S}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7930,20 +7930,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.583 kJ/mol
 
 entry(
     index = 216,
-    label = "CC(F)C(F)F",
+    label = "CCFCFF216",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {6,S} {7,S} {11,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  F u0 p3 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -7968,23 +7968,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.13 kJ/mol
 
 entry(
     index = 217,
-    label = "FCCC[C](F)F",
+    label = "FCCCCFFrad217",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
-5  C u1 p0 c0 {4,S} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {4,S}
+12 F u0 p3 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8009,18 +8009,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.269 kJ/mol
 
 entry(
     index = 218,
-    label = "OCD[C]CF",
+    label = "OCDCCFrad218",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,D} {4,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -8046,20 +8046,20 @@ u"""
 
 entry(
     index = 219,
-    label = "C[CH]C(F)F",
+    label = "CCHCFFrad219",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  F u0 p3 c0 {2,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8084,19 +8084,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.689 kJ/mol
 
 entry(
     index = 220,
-    label = "F[C]1OCC1F",
+    label = "FC1OCC1Frad220",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8121,19 +8121,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.093 kJ/mol
 
 entry(
     index = 221,
-    label = "CC([O])(O)F",
+    label = "CCOOFrad221",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u1 p2 c0 {2,S}
-4 O u0 p2 c0 {2,S} {9,S}
-5 F u0 p3 c0 {2,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8158,18 +8158,18 @@ u"""
 
 entry(
     index = 222,
-    label = "CCOF",
+    label = "CCOF222",
     molecule = 
 """
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8194,23 +8194,23 @@ u"""
 
 entry(
     index = 223,
-    label = "[CH2]CC(C)F",
+    label = "CH2CCCFrad223",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8235,19 +8235,19 @@ u"""
 
 entry(
     index = 224,
-    label = "FCDCC(F)OF",
+    label = "FCDCCFOF224",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {4,S} {7,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8272,17 +8272,17 @@ u"""
 
 entry(
     index = 225,
-    label = "[CH]DCOOF",
+    label = "CHDCOOFrad225",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 C u1 p0 c0 {1,D} {6,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8307,18 +8307,18 @@ u"""
 
 entry(
     index = 226,
-    label = "C#CCC(F)F",
+    label = "CTCCCFF226",
     molecule = 
 """
-1  C u0 p0 c0 {2,T} {7,S}
-2  C u0 p0 c0 {1,T} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {3,T} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -8344,16 +8344,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.827 kJ/mol
 
 entry(
     index = 227,
-    label = "[O]C(O)(F)F",
+    label = "OCOFFrad227",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u0 p2 c0 {2,S} {6,S}
-4 F u0 p3 c0 {2,S}
-5 F u0 p3 c0 {2,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8378,15 +8378,15 @@ u"""
 
 entry(
     index = 228,
-    label = "OCOF",
+    label = "OCOF228",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {7,S}
+3 O u0 p2 c0 {1,S} {6,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {3,S}
 7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -8412,21 +8412,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.366 kJ/mol
 
 entry(
     index = 229,
-    label = "CC[C]DC(F)F",
+    label = "CCCDCFFrad229",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u1 p0 c0 {2,S} {4,D}
-4  C u0 p0 c0 {3,D} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8451,17 +8451,17 @@ u"""
 
 entry(
     index = 230,
-    label = "F[C]1OOC1F",
+    label = "FC1OOC1Frad230",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8486,21 +8486,21 @@ u"""
 
 entry(
     index = 231,
-    label = "FC(F)[C]1CC1",
+    label = "FCFC1CC1rad231",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6  C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8525,17 +8525,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.369 kJ/mol
 
 entry(
     index = 232,
-    label = "[O]OC(F)DCF",
+    label = "OOCFDCFrad232",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,D} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8560,7 +8560,7 @@ u"""
 
 entry(
     index = 233,
-    label = "OOF",
+    label = "OOF233",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -8591,19 +8591,19 @@ u"""
 
 entry(
     index = 234,
-    label = "FC[C]1CO1",
+    label = "FCC1CO1rad234",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8628,20 +8628,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.569 kJ/mol
 
 entry(
     index = 235,
-    label = "CC(F)[C](F)F",
+    label = "CCFCFFrad235",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8666,17 +8666,17 @@ u"""
 
 entry(
     index = 236,
-    label = "FCC1D[C]O1",
+    label = "FCC1DCO1rad236",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u1 p0 c0 {2,D} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8701,23 +8701,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.254 kJ/mol
 
 entry(
     index = 237,
-    label = "CC[C](F)CF",
+    label = "CCCFCFrad237",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {12,S} {13,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8742,16 +8742,16 @@ u"""
 
 entry(
     index = 238,
-    label = "CDC(O)OF",
+    label = "CDCOOF238",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {8,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
 8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -8777,18 +8777,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.447 kJ/mol
 
 entry(
     index = 239,
-    label = "[CH]DCC(F)F",
+    label = "CHDCCFFrad239",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8813,7 +8813,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.914 kJ/mol
 
 entry(
     index = 240,
-    label = "CC([O])F",
+    label = "CCOFrad240",
     molecule = 
 """
 multiplicity 2
@@ -8849,18 +8849,18 @@ u"""
 
 entry(
     index = 241,
-    label = "FCO[C](F)F",
+    label = "FCOCFFrad241",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -8885,17 +8885,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.238 kJ/mol
 
 entry(
     index = 242,
-    label = "CDCC(F)F",
+    label = "CDCCFF242",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -8921,14 +8921,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.94 kJ/mol
 
 entry(
     index = 243,
-    label = "ODCDCF",
+    label = "ODCDCF243",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,D}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -8953,17 +8953,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.696 kJ/mol
 
 entry(
     index = 244,
-    label = "[C]#COCF",
+    label = "CTCOCFrad244",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {7,T}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -8988,18 +8988,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.329 kJ/mol
 
 entry(
     index = 245,
-    label = "[O]CC(F)F",
+    label = "OCCFFrad245",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9024,19 +9024,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.744 kJ/mol
 
 entry(
     index = 246,
-    label = "[CH]DC(C)OF",
+    label = "CHDCCOFrad246",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9061,21 +9061,21 @@ u"""
 
 entry(
     index = 247,
-    label = "CO[CH]CF",
+    label = "COCHCFrad247",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9100,18 +9100,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.338 kJ/mol
 
 entry(
     index = 248,
-    label = "F[CH]CDCF",
+    label = "FCHCDCFrad248",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {7,S}
-5 C u0 p0 c0 {4,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9136,19 +9136,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.014 kJ/mol
 
 entry(
     index = 249,
-    label = "C#CC([CH2])(F)F",
+    label = "CTCCCH2FFrad249",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {9,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 H u0 p0 c0 {4,S}
-7 F u0 p3 c0 {3,S}
-8 F u0 p3 c0 {3,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9173,17 +9173,17 @@ u"""
 
 entry(
     index = 250,
-    label = "O[C]DCOF",
+    label = "OCDCOFrad250",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u1 p0 c0 {1,D} {4,S}
+3 O u0 p2 c0 {1,S} {6,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9208,17 +9208,17 @@ u"""
 
 entry(
     index = 251,
-    label = "OD[C]OCF",
+    label = "ODCOCFrad251",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u1 p0 c0 {2,S} {7,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -9243,19 +9243,19 @@ u"""
 
 entry(
     index = 252,
-    label = "OCO[CH]F",
+    label = "OCOCHFrad252",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9280,23 +9280,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.767 kJ/mol
 
 entry(
     index = 253,
-    label = "C[C](F)CCF",
+    label = "CCFCCFrad253",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {12,S} {13,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9321,19 +9321,19 @@ u"""
 
 entry(
     index = 254,
-    label = "CDC(C)OF",
+    label = "CDCCOF254",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9358,17 +9358,17 @@ u"""
 
 entry(
     index = 255,
-    label = "CD[C]C#CF",
+    label = "CDCCTCFrad255",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u1 p0 c0 {1,D} {3,S}
 3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 F u0 p3 c0 {4,S}
+4 C u0 p0 c0 {3,T} {7,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9393,19 +9393,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.67 kJ/mol
 
 entry(
     index = 256,
-    label = "FC[C]DCOF",
+    label = "FCCDCOFrad256",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,D} {4,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9430,19 +9430,19 @@ u"""
 
 entry(
     index = 257,
-    label = "FCD[C]OCF",
+    label = "FCDCOCFrad257",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9467,21 +9467,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 
 entry(
     index = 258,
-    label = "OCC[C](F)F",
+    label = "OCCCFFrad258",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9506,14 +9506,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.144 kJ/mol
 
 entry(
     index = 259,
-    label = "OC1DCC1F",
+    label = "OC1DCC1F259",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 O u0 p2 c0 {2,S} {8,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
@@ -9541,19 +9541,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.614 kJ/mol
 
 entry(
     index = 260,
-    label = "CDCCD[C]F",
+    label = "CDCCDCFrad260",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,D} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9578,21 +9578,21 @@ u"""
 
 entry(
     index = 261,
-    label = "CCD[C]C(F)F",
+    label = "CCDCCFFrad261",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,D} {10,S}
-3  C u1 p0 c0 {2,D} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
+9  F u0 p3 c0 {2,S}
 10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9617,15 +9617,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.085 kJ/mol
 
 entry(
     index = 262,
-    label = "[CH]DCF",
+    label = "CHDCFrad262",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {5,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9650,19 +9650,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.17 kJ/mol
 
 entry(
     index = 263,
-    label = "[C]#CCC(F)F",
+    label = "CTCCCFFrad263",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {9,T}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -9687,19 +9687,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.096 kJ/mol
 
 entry(
     index = 264,
-    label = "[CH]DCOCF",
+    label = "CHDCOCFrad264",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9724,21 +9724,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.673 kJ/mol
 
 entry(
     index = 265,
-    label = "FCDCC(F)CF",
+    label = "FCDCCFCF265",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {11,S} {12,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9763,19 +9763,19 @@ u"""
 
 entry(
     index = 266,
-    label = "FCC1DCC1F",
+    label = "FCC1DCC1F266",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {5,S}
-4  C u0 p0 c0 {3,D} {5,S} {9,S}
-5  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {1,S} {3,D} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9800,17 +9800,17 @@ u"""
 
 entry(
     index = 267,
-    label = "FC1DCO[CH]1",
+    label = "FC1DCOCH1rad267",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u1 p0 c0 {2,S} {4,S} {6,S}
-6 H u0 p0 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,S} {7,S}
+3 C u1 p0 c0 {1,S} {4,S} {6,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9835,19 +9835,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.046 kJ/mol
 
 entry(
     index = 268,
-    label = "FCDC1CC1F",
+    label = "FCDC1CC1F268",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {9,S} {10,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9872,20 +9872,20 @@ u"""
 
 entry(
     index = 269,
-    label = "C[C](F)CF",
+    label = "CCFCFrad269",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  F u0 p3 c0 {2,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -9910,16 +9910,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.765 kJ/mol
 
 entry(
     index = 270,
-    label = "CCCF",
+    label = "CCCF270",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  H u0 p0 c0 {1,S}
 5  H u0 p0 c0 {1,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
@@ -9948,17 +9948,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.532 kJ/mol
 
 entry(
     index = 271,
-    label = "ODCD[C]CF",
+    label = "ODCDCCFrad271",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,D}
+3 C u0 p0 c0 {2,D} {7,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -9983,19 +9983,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.209 kJ/mol
 
 entry(
     index = 272,
-    label = "FC1[CH]CDC1",
+    label = "FC1CHCDC1rad272",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,D} {8,S}
-6 C u0 p0 c0 {2,S} {5,D} {9,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,D} {8,S}
+4 C u0 p0 c0 {2,S} {3,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {6,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10020,17 +10020,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.761 kJ/mol
 
 entry(
     index = 273,
-    label = "FOC1[C]DC1",
+    label = "FOC1CDC1rad273",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 C u1 p0 c0 {3,S} {5,D}
-5 C u0 p0 c0 {3,S} {4,D} {7,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10055,19 +10055,19 @@ u"""
 
 entry(
     index = 274,
-    label = "CC#C[C](F)F",
+    label = "CCTCCFFrad274",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {2,S} {3,T}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10092,19 +10092,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.293 kJ/mol
 
 entry(
     index = 275,
-    label = "COCDCF",
+    label = "COCDCF275",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10129,21 +10129,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.117 kJ/mol
 
 entry(
     index = 276,
-    label = "CC(O)[C](F)F",
+    label = "CCOCFFrad276",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  O u0 p2 c0 {2,S} {11,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10168,17 +10168,17 @@ u"""
 
 entry(
     index = 277,
-    label = "F[C]DCC#CF",
+    label = "FCDCCTCFrad277",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 C u1 p0 c0 {1,D} {6,S}
+4 C u0 p0 c0 {2,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10203,18 +10203,18 @@ u"""
 
 entry(
     index = 278,
-    label = "OC(F)[CH]F",
+    label = "OCFCHFrad278",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10239,17 +10239,17 @@ u"""
 
 entry(
     index = 279,
-    label = "FCDC1OC1F",
+    label = "FCDC1OC1F279",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {7,S} {8,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10274,19 +10274,19 @@ u"""
 
 entry(
     index = 280,
-    label = "CDC[C]DCF",
+    label = "CDCCDCFrad280",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {4,D} {8,S} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10311,19 +10311,19 @@ u"""
 
 entry(
     index = 281,
-    label = "FCC1OC1F",
+    label = "FCC1OC1F281",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10348,19 +10348,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.427 kJ/mol
 
 entry(
     index = 282,
-    label = "C[C]DCDC(F)F",
+    label = "CCDCDCFFrad282",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {4,D}
+4 C u0 p0 c0 {2,D} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10385,19 +10385,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.192 kJ/mol
 
 entry(
     index = 283,
-    label = "FCC1D[C]C1",
+    label = "FCC1DCC1rad283",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10422,18 +10422,18 @@ u"""
 
 entry(
     index = 284,
-    label = "C[C]1CDC1F",
+    label = "CC1CDC1Frad284",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u1 p0 c0 {1,S} {3,S} {4,S}
 3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+4 C u0 p0 c0 {2,S} {3,D} {8,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -10459,19 +10459,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.938 kJ/mol
 
 entry(
     index = 285,
-    label = "FC1COC1F",
+    label = "FC1COC1F285",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,S} {7,S} {10,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10496,7 +10496,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 
 entry(
     index = 286,
-    label = "OCF",
+    label = "OCF286",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -10529,19 +10529,19 @@ u"""
 
 entry(
     index = 287,
-    label = "C#CC[C](F)F",
+    label = "CTCCCFFrad287",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10566,21 +10566,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.071 kJ/mol
 
 entry(
     index = 288,
-    label = "FC[C]1CC1",
+    label = "FCC1CC1rad288",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
-6  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10605,17 +10605,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.783 kJ/mol
 
 entry(
     index = 289,
-    label = "ODCO[CH]F",
+    label = "ODCOCHFrad289",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {4,D} {7,S}
+2 C u1 p0 c0 {3,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,D}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10640,16 +10640,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.118 kJ/mol
 
 entry(
     index = 290,
-    label = "[CH]DCDC(F)F",
+    label = "CHDCDCFFrad290",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u1 p0 c0 {2,D} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10674,19 +10674,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.39 kJ/mol
 
 entry(
     index = 291,
-    label = "[O]C(O)CF",
+    label = "OCOCFrad291",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 O u0 p2 c0 {2,S} {7,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10711,19 +10711,19 @@ u"""
 
 entry(
     index = 292,
-    label = "CDC(F)C[C](F)F",
+    label = "CDCFCCFFrad292",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {8,S} {9,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  C u1 p0 c0 {4,S} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  F u0 p3 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {4,S}
 """,
@@ -10750,17 +10750,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.051 kJ/mol
 
 entry(
     index = 293,
-    label = "OC1O[C]1F",
+    label = "OC1OC1Frad293",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {2,S} {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10785,18 +10785,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.493 kJ/mol
 
 entry(
     index = 294,
-    label = "CDC(O)CF",
+    label = "CDCOCF294",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  O u0 p2 c0 {2,S} {8,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -10822,15 +10822,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 
 entry(
     index = 295,
-    label = "C#C[C]DCF",
+    label = "CTCCDCFrad295",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {7,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {4,S}
 """,
@@ -10857,17 +10857,17 @@ u"""
 
 entry(
     index = 296,
-    label = "FC1DCCDC1F",
+    label = "FC1DCCDC1F296",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {2,S} {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {4,D} {8,S}
+4 C u0 p0 c0 {1,S} {3,D} {6,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {4,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10892,18 +10892,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.391 kJ/mol
 
 entry(
     index = 297,
-    label = "FC1[CH]C1F",
+    label = "FC1CHC1Frad297",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10928,18 +10928,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.804 kJ/mol
 
 entry(
     index = 298,
-    label = "[CH2]OC(F)F",
+    label = "CH2OCFFrad298",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 O u0 p2 c0 {1,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10964,17 +10964,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.392 kJ/mol
 
 entry(
     index = 299,
-    label = "[O]C#CCF",
+    label = "OCTCCFrad299",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+3 C u0 p0 c0 {2,T} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -10999,19 +10999,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.68 kJ/mol
 
 entry(
     index = 300,
-    label = "[CH]DC(O)CF",
+    label = "CHDCOCFrad300",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {7,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11036,18 +11036,18 @@ u"""
 
 entry(
     index = 301,
-    label = "O[C]DCCF",
+    label = "OCDCCFrad301",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {8,S}
+3 C u1 p0 c0 {2,D} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -11073,15 +11073,15 @@ u"""
 
 entry(
     index = 302,
-    label = "ODCDCDCF",
+    label = "ODCDCDCF302",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+3 C u0 p0 c0 {2,D} {6,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -11106,19 +11106,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.011 kJ/mol
 
 entry(
     index = 303,
-    label = "CC1(F)O[C]1F",
+    label = "CC1FOC1Frad303",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u1 p0 c0 {2,S} {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11143,17 +11143,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.183 kJ/mol
 
 entry(
     index = 304,
-    label = "C#CC(F)DCF",
+    label = "CTCCFDCF304",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11178,7 +11178,7 @@ u"""
 
 entry(
     index = 305,
-    label = "OD[C]C(F)(F)F",
+    label = "ODCCFFFrad305",
     molecule = 
 """
 multiplicity 2
@@ -11212,17 +11212,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.336 kJ/mol
 
 entry(
     index = 306,
-    label = "C#CCD[C]F",
+    label = "CTCCDCFrad306",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 C u1 p0 c0 {1,D} {6,S}
+4 C u0 p0 c0 {2,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11247,19 +11247,19 @@ u"""
 
 entry(
     index = 307,
-    label = "FCOOC(F)F",
+    label = "FCOOCFF307",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+2  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11284,19 +11284,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.111 kJ/mol
 
 entry(
     index = 308,
-    label = "CC(F)DC[O]",
+    label = "CCFDCOrad308",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {9,S}
-5 O u1 p2 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+7 F u0 p3 c0 {2,S}
+8 O u1 p2 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11321,18 +11321,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.758 kJ/mol
 
 entry(
     index = 309,
-    label = "[CH2]CDCF",
+    label = "CH2CDCFrad309",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {7,S}
-5 C u0 p0 c0 {4,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11357,17 +11357,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.797 kJ/mol
 
 entry(
     index = 310,
-    label = "[O]C(F)CDO",
+    label = "OCFCDOrad310",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {7,S}
-5 O u0 p2 c0 {4,D}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11392,20 +11392,20 @@ u"""
 
 entry(
     index = 311,
-    label = "C[C](F)C(F)F",
+    label = "CCFCFFrad311",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  F u0 p3 c0 {2,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11430,21 +11430,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.097 kJ/mol
 
 entry(
     index = 312,
-    label = "[CH]DC(C)CF",
+    label = "CHDCCCFrad312",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,D}
-2  H u0 p0 c0 {1,S}
-3  C u0 p0 c0 {1,D} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u1 p0 c0 {3,D} {11,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11469,16 +11469,16 @@ u"""
 
 entry(
     index = 313,
-    label = "FOC(F)OF",
+    label = "FOCFOF313",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11503,18 +11503,18 @@ u"""
 
 entry(
     index = 314,
-    label = "CC(F)D[C]F",
+    label = "CCFDCFrad314",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11539,17 +11539,17 @@ u"""
 
 entry(
     index = 315,
-    label = "FCDCDCDCF",
+    label = "FCDCDCDCF315",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,D}
-5 C u0 p0 c0 {4,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,D} {5,S} {7,S}
+2 C u0 p0 c0 {4,D} {6,S} {8,S}
+3 C u0 p0 c0 {1,D} {4,D}
+4 C u0 p0 c0 {2,D} {3,D}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11574,21 +11574,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.871 kJ/mol
 
 entry(
     index = 316,
-    label = "FC[C]DCCF",
+    label = "FCCDCCFrad316",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u1 p0 c0 {2,S} {4,D}
-4  C u0 p0 c0 {3,D} {5,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11613,19 +11613,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.636 kJ/mol
 
 entry(
     index = 317,
-    label = "[O]COCF",
+    label = "OCOCFrad317",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11650,18 +11650,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.929 kJ/mol
 
 entry(
     index = 318,
-    label = "OC(F)CF",
+    label = "OCFCF318",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11686,19 +11686,19 @@ u"""
 
 entry(
     index = 319,
-    label = "O[CH]CDCF",
+    label = "OCHCDCFrad319",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u1 p0 c0 {1,S} {4,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11723,19 +11723,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.348 kJ/mol
 
 entry(
     index = 320,
-    label = "CDC(C)CF",
+    label = "CDCCCF320",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-4  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {4,S}
 """,
@@ -11762,21 +11762,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.245 kJ/mol
 
 entry(
     index = 321,
-    label = "C[C](F)COF",
+    label = "CCFCOFrad321",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11801,17 +11801,17 @@ u"""
 
 entry(
     index = 322,
-    label = "CDC[C](F)F",
+    label = "CDCCFFrad322",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {5,S} {6,S}
+4 H u0 p0 c0 {1,S}
 5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -11837,23 +11837,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.238 kJ/mol
 
 entry(
     index = 323,
-    label = "CC(F)CCF",
+    label = "CCFCCF323",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-5  C u0 p0 c0 {4,S} {6,S} {13,S} {14,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+4  C u0 p0 c0 {2,S} {9,S} {13,S} {14,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11878,17 +11878,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.748 kJ/mol
 
 entry(
     index = 324,
-    label = "CDC(F)O[O]",
+    label = "CDCFOOrad324",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 O u1 p2 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11913,19 +11913,19 @@ u"""
 
 entry(
     index = 325,
-    label = "OCCD[C]F",
+    label = "OCCDCFrad325",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11950,16 +11950,16 @@ u"""
 
 entry(
     index = 326,
-    label = "OCDC(F)F",
+    label = "OCDCFF326",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -11984,7 +11984,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.298 kJ/mol
 
 entry(
     index = 327,
-    label = "[C]#C",
+    label = "CTCrad327",
     molecule = 
 """
 multiplicity 2
@@ -12015,15 +12015,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.276 kJ/mol
 
 entry(
     index = 328,
-    label = "[O]C(F)F",
+    label = "OCFFrad328",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 F u0 p3 c0 {2,S}
-5 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u1 p2 c0 {1,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12048,19 +12048,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.136 kJ/mol
 
 entry(
     index = 329,
-    label = "F[C]DCCOF",
+    label = "FCDCCOFrad329",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12085,15 +12085,15 @@ u"""
 
 entry(
     index = 330,
-    label = "FOC1D[C]O1",
+    label = "FOC1DCO1rad330",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 O u0 p2 c0 {3,S} {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {5,S}
+5 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12118,18 +12118,18 @@ u"""
 
 entry(
     index = 331,
-    label = "FCCDC(F)F",
+    label = "FCCDCFF331",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12154,21 +12154,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.691 kJ/mol
 
 entry(
     index = 332,
-    label = "CC1(F)[CH]C1",
+    label = "CC1FCHC1rad332",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12193,21 +12193,21 @@ u"""
 
 entry(
     index = 333,
-    label = "FCDC[CH]CF",
+    label = "FCDCCHCFrad333",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u1 p0 c0 {1,S} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {10,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12232,21 +12232,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.708 kJ/mol
 
 entry(
     index = 334,
-    label = "[CH2]CCDCF",
+    label = "CH2CCDCFrad334",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,D} {10,S}
-6  C u0 p0 c0 {5,D} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12271,15 +12271,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.678 kJ/mol
 
 entry(
     index = 335,
-    label = "FC1[CH]O1",
+    label = "FC1CHO1rad335",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 O u0 p2 c0 {2,S} {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -12305,15 +12305,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.238 kJ/mol
 
 entry(
     index = 336,
-    label = "ODCC(F)(F)F",
+    label = "ODCCFFF336",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 O u0 p2 c0 {2,D}
 7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -12339,21 +12339,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.007 kJ/mol
 
 entry(
     index = 337,
-    label = "CCDC(F)[CH]F",
+    label = "CCDCFCHFrad337",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {11,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u1 p0 c0 {3,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u1 p0 c0 {3,S} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12378,15 +12378,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.752 kJ/mol
 
 entry(
     index = 338,
-    label = "CDC(O)F",
+    label = "CDCOF338",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {5,S} {6,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {7,S}
-4 F u0 p3 c0 {2,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -12412,21 +12412,21 @@ u"""
 
 entry(
     index = 339,
-    label = "CDC([CH]F)CF",
+    label = "CDCCHFCFrad339",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {8,S} {9,S}
-2  C u0 p0 c0 {1,D} {3,S} {6,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  C u0 p0 c0 {2,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {8,S} {9,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {4,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12451,17 +12451,17 @@ u"""
 
 entry(
     index = 340,
-    label = "OC[C]DCF",
+    label = "OCCDCFrad340",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
@@ -12488,21 +12488,21 @@ u"""
 
 entry(
     index = 341,
-    label = "CDCC(F)[CH]F",
+    label = "CDCCFCHFrad341",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {8,S} {9,S}
-2  C u0 p0 c0 {1,D} {3,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {11,S}
-4  F u0 p3 c0 {3,S}
-5  C u1 p0 c0 {3,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12527,19 +12527,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.852 kJ/mol
 
 entry(
     index = 342,
-    label = "CDC(F)C[O]",
+    label = "CDCFCOrad342",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 O u1 p2 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12564,21 +12564,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.693 kJ/mol
 
 entry(
     index = 343,
-    label = "FC[CH]OCF",
+    label = "FCCHOCFrad343",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12603,19 +12603,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.363 kJ/mol
 
 entry(
     index = 344,
-    label = "FC1DCCC1",
+    label = "FC1DCCC1344",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {5,S}
-3  C u0 p0 c0 {2,D} {4,S} {6,S}
-4  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {1,S} {3,D} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12640,18 +12640,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.057 kJ/mol
 
 entry(
     index = 345,
-    label = "FC1CC1(F)F",
+    label = "FC1CC1FF345",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {3,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12676,18 +12676,18 @@ u"""
 
 entry(
     index = 346,
-    label = "O[CH]CF",
+    label = "OCHCFrad346",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 O u0 p2 c0 {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12712,19 +12712,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.19 kJ/mol
 
 entry(
     index = 347,
-    label = "[O]C(F)CO",
+    label = "OCFCOrad347",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 O u0 p2 c0 {4,S} {9,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12749,17 +12749,17 @@ u"""
 
 entry(
     index = 348,
-    label = "ODCC(O)F",
+    label = "ODCCOF348",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 O u0 p2 c0 {3,S} {8,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12784,21 +12784,21 @@ u"""
 
 entry(
     index = 349,
-    label = "FCC1CC1",
+    label = "FCC1CC1349",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {3,S} {4,S} {11,S} {12,S}
+3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12823,19 +12823,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.611 kJ/mol
 
 entry(
     index = 350,
-    label = "CDC(F)CO",
+    label = "CDCFCO350",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  O u0 p2 c0 {4,S} {10,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12860,21 +12860,21 @@ u"""
 
 entry(
     index = 351,
-    label = "C[C]DC(F)CF",
+    label = "CCDCFCFrad351",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12899,21 +12899,21 @@ u"""
 
 entry(
     index = 352,
-    label = "CDCC[C](F)F",
+    label = "CDCCCFFrad352",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12938,15 +12938,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.89 kJ/mol
 
 entry(
     index = 353,
-    label = "OD[C]C#CF",
+    label = "ODCCTCFrad353",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,T}
+2 C u1 p0 c0 {1,S} {4,D}
+3 C u0 p0 c0 {1,T} {5,S}
+4 O u0 p2 c0 {2,D}
+5 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -12971,19 +12971,19 @@ u"""
 
 entry(
     index = 354,
-    label = "O[CH]OCF",
+    label = "OCHOCFrad354",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {3,S} {4,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13008,16 +13008,16 @@ u"""
 
 entry(
     index = 355,
-    label = "COC([O])(F)F",
+    label = "COCOFFrad355",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u1 p2 c0 {2,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {1,S}
 9 H u0 p0 c0 {1,S}
@@ -13045,19 +13045,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 7.232 kJ/mol
 
 entry(
     index = 356,
-    label = "OOC[C](F)F",
+    label = "OOCCFFrad356",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13082,19 +13082,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.464 kJ/mol
 
 entry(
     index = 357,
-    label = "F[CH]OCDCF",
+    label = "FCHOCDCFrad357",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,D} {8,S}
-6 C u0 p0 c0 {5,D} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u1 p0 c0 {4,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13119,23 +13119,23 @@ u"""
 
 entry(
     index = 358,
-    label = "CC[C](C)F",
+    label = "CCCCFrad358",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13160,19 +13160,19 @@ u"""
 
 entry(
     index = 359,
-    label = "ODCCC(F)F",
+    label = "ODCCCFF359",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,D} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  O u0 p2 c0 {3,D}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13197,19 +13197,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.282 kJ/mol
 
 entry(
     index = 360,
-    label = "[CH]DC(F)CO",
+    label = "CHDCFCOrad360",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-6 O u0 p2 c0 {5,S} {9,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13234,18 +13234,18 @@ u"""
 
 entry(
     index = 361,
-    label = "C[C]DC(O)F",
+    label = "CCDCOFrad361",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {9,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,D} {4,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -13271,17 +13271,17 @@ u"""
 
 entry(
     index = 362,
-    label = "F[CH]C1DCDC1F",
+    label = "FCHC1DCDC1Frad362",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {6,S}
-5 C u0 p0 c0 {4,D} {6,D}
-6 C u0 p0 c0 {4,S} {5,D} {7,S}
-7 F u0 p3 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {4,D} {5,S}
+3 C u1 p0 c0 {1,S} {6,S} {7,S}
+4 C u0 p0 c0 {1,D} {2,D}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13306,21 +13306,21 @@ u"""
 
 entry(
     index = 363,
-    label = "CO[C](F)CF",
+    label = "COCFCFrad363",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13345,16 +13345,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.865 kJ/mol
 
 entry(
     index = 364,
-    label = "[O]C(F)DCF",
+    label = "OCFDCFrad364",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13379,19 +13379,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.259 kJ/mol
 
 entry(
     index = 365,
-    label = "ODC(F)[CH]CF",
+    label = "ODCFCHCFrad365",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {8,D} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u0 p2 c0 {3,D}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13416,19 +13416,19 @@ u"""
 
 entry(
     index = 366,
-    label = "F[C]1COC1",
+    label = "FC1COC1rad366",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,S} {9,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13453,19 +13453,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.166 kJ/mol
 
 entry(
     index = 367,
-    label = "CDC([O])C(F)(F)F",
+    label = "CDCOCFFFrad367",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {8,S} {9,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u1 p2 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 F u0 p3 c0 {4,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 O u1 p2 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13490,19 +13490,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.802 kJ/mol
 
 entry(
     index = 368,
-    label = "OOC[CH]F",
+    label = "OOCCHFrad368",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13527,14 +13527,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.695 kJ/mol
 
 entry(
     index = 369,
-    label = "FCDC1OO1",
+    label = "FCDC1OO1369",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {3,S} {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -13560,19 +13560,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.949 kJ/mol
 
 entry(
     index = 370,
-    label = "[O]CDC(F)CF",
+    label = "OCDCFCFrad370",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 O u1 p2 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13597,14 +13597,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.174 kJ/mol
 
 entry(
     index = 371,
-    label = "OCDCF",
+    label = "OCDCF371",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
@@ -13631,19 +13631,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.3 kJ/mol
 
 entry(
     index = 372,
-    label = "[C]#CC(C)F",
+    label = "CTCCCFrad372",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {9,T}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -13668,17 +13668,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.593 kJ/mol
 
 entry(
     index = 373,
-    label = "F[C]DC1CO1",
+    label = "FCDC1CO1rad373",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,D}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13703,21 +13703,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.617 kJ/mol
 
 entry(
     index = 374,
-    label = "CC([O])C(F)F",
+    label = "CCOCFFrad374",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  O u1 p2 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {6,S} {7,S} {11,S}
+4  O u1 p2 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  F u0 p3 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13742,16 +13742,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.397 kJ/mol
 
 entry(
     index = 375,
-    label = "ODC(O)[CH]F",
+    label = "ODCOCHFrad375",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {7,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {1,D}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -13777,18 +13777,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.9 kJ/mol
 
 entry(
     index = 376,
-    label = "CDCCCF",
+    label = "CDCCCF376",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 12 H u0 p0 c0 {4,S}
@@ -13816,23 +13816,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.968 kJ/mol
 
 entry(
     index = 377,
-    label = "CC(C)[C](F)F",
+    label = "CCCCFFrad377",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13857,19 +13857,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.854 kJ/mol
 
 entry(
     index = 378,
-    label = "OCCDC(F)F",
+    label = "OCCDCFF378",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13894,19 +13894,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.356 kJ/mol
 
 entry(
     index = 379,
-    label = "FCC1[C]DC1",
+    label = "FCC1CDC1rad379",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 C u1 p0 c0 {3,S} {5,D}
-5 C u0 p0 c0 {3,S} {4,D} {9,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13931,17 +13931,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.887 kJ/mol
 
 entry(
     index = 380,
-    label = "C#CO[CH]F",
+    label = "CTCOCHFrad380",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -13966,18 +13966,18 @@ u"""
 
 entry(
     index = 381,
-    label = "CDC(F)[CH]F",
+    label = "CDCFCHFrad381",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {5,S} {6,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {3,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14002,19 +14002,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.222 kJ/mol
 
 entry(
     index = 382,
-    label = "CDCD[C]CF",
+    label = "CDCDCCFrad382",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {4,D}
+4 C u0 p0 c0 {2,D} {3,D}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14039,19 +14039,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.408 kJ/mol
 
 entry(
     index = 383,
-    label = "FCCDCOF",
+    label = "FCCDCOF383",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14076,19 +14076,19 @@ u"""
 
 entry(
     index = 384,
-    label = "ODC[CH]C(F)F",
+    label = "ODCCHCFFrad384",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {8,D} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u0 p2 c0 {3,D}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14113,17 +14113,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.908 kJ/mol
 
 entry(
     index = 385,
-    label = "FOC1D[C]C1",
+    label = "FOC1DCC1rad385",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {2,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14148,17 +14148,17 @@ u"""
 
 entry(
     index = 386,
-    label = "ODC[C]DCF",
+    label = "ODCCDCFrad386",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,D} {6,S}
+2 C u0 p0 c0 {3,D} {5,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,D}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14183,19 +14183,19 @@ u"""
 
 entry(
     index = 387,
-    label = "CC1(F)[CH]O1",
+    label = "CC1FCHO1rad387",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {2,S} {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14220,19 +14220,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.903 kJ/mol
 
 entry(
     index = 388,
-    label = "FC1DCCC1F",
+    label = "FC1DCCC1F388",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {5,S}
-3  C u0 p0 c0 {2,D} {4,S} {7,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {1,S} {3,D} {10,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14257,17 +14257,17 @@ u"""
 
 entry(
     index = 389,
-    label = "FCDC1[C]DC1F",
+    label = "FCDC1CDC1Frad389",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u1 p0 c0 {3,S} {5,D}
-5 C u0 p0 c0 {3,S} {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {4,D} {5,S}
+3 C u0 p0 c0 {1,D} {6,S} {7,S}
+4 C u1 p0 c0 {1,S} {2,D}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14292,19 +14292,19 @@ u"""
 
 entry(
     index = 390,
-    label = "CC(F)(F)OO",
+    label = "CCFFOO390",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  F u0 p3 c0 {2,S}
-5  O u0 p2 c0 {2,S} {6,S}
-6  O u0 p2 c0 {5,S} {10,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14329,21 +14329,21 @@ u"""
 
 entry(
     index = 391,
-    label = "F[C]DCCCF",
+    label = "FCDCCCFrad391",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {7,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14368,17 +14368,17 @@ u"""
 
 entry(
     index = 392,
-    label = "FC1DCOC1F",
+    label = "FC1DCOC1F392",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14403,7 +14403,7 @@ u"""
 
 entry(
     index = 393,
-    label = "ODCDC(F)F",
+    label = "ODCDCFF393",
     molecule = 
 """
 1 O u0 p2 c0 {2,D}
@@ -14435,17 +14435,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.533 kJ/mol
 
 entry(
     index = 394,
-    label = "ODCCD[C]F",
+    label = "ODCCDCFrad394",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {5,D} {6,S}
+3 C u1 p0 c0 {1,D} {7,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {2,D}
 6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14470,19 +14470,19 @@ u"""
 
 entry(
     index = 395,
-    label = "CC1[C]DC1F",
+    label = "CC1CDC1Frad395",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14507,18 +14507,18 @@ u"""
 
 entry(
     index = 396,
-    label = "FC1[CH]C1",
+    label = "FC1CHC1rad396",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14543,19 +14543,19 @@ u"""
 
 entry(
     index = 397,
-    label = "FCC1DC[CH]1",
+    label = "FCC1DCCH1rad397",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 C u1 p0 c0 {3,S} {4,S} {6,S}
-6 H u0 p0 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {4,S} {9,S}
+4 C u1 p0 c0 {2,S} {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {4,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14580,18 +14580,18 @@ u"""
 
 entry(
     index = 398,
-    label = "O[C](F)CF",
+    label = "OCFCFrad398",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 O u0 p2 c0 {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14616,23 +14616,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.318 kJ/mol
 
 entry(
     index = 399,
-    label = "CC(F)C[CH]F",
+    label = "CCFCCHFrad399",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
-5  C u1 p0 c0 {4,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14657,17 +14657,17 @@ u"""
 
 entry(
     index = 400,
-    label = "OC1(F)CDC1",
+    label = "OC1FCDC1400",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {7,S}
-5 C u0 p0 c0 {2,S} {4,D} {8,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14692,17 +14692,17 @@ u"""
 
 entry(
     index = 401,
-    label = "OC1DC(F)[CH]1",
+    label = "OC1DCFCH1rad401",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {2,S} {3,S} {6,S}
-6 H u0 p0 c0 {5,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {3,S} {5,S}
+3 C u1 p0 c0 {1,S} {2,S} {6,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14727,19 +14727,19 @@ u"""
 
 entry(
     index = 402,
-    label = "CDC([CH]F)OF",
+    label = "CDCCHFOFrad402",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {8,S} {9,S}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 O u0 p2 c0 {2,S} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {5,S} {6,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {3,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14764,18 +14764,18 @@ u"""
 
 entry(
     index = 403,
-    label = "CD[C]C(O)F",
+    label = "CDCCOFrad403",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 O u0 p2 c0 {3,S} {9,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {9,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -14801,19 +14801,19 @@ u"""
 
 entry(
     index = 404,
-    label = "FCC1CO1",
+    label = "FCC1CO1404",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  O u0 p2 c0 {3,S} {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14838,19 +14838,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.986 kJ/mol
 
 entry(
     index = 405,
-    label = "C[C]DC(F)OF",
+    label = "CCDCFOFrad405",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,D} {4,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14875,17 +14875,17 @@ u"""
 
 entry(
     index = 406,
-    label = "CDC(F)OO",
+    label = "CDCFOO406",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 O u0 p2 c0 {4,S} {8,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14910,23 +14910,23 @@ u"""
 
 entry(
     index = 407,
-    label = "C[CH]CC(F)F",
+    label = "CCHCCFFrad407",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {13,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14951,17 +14951,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.316 kJ/mol
 
 entry(
     index = 408,
-    label = "[O]C(O)DCF",
+    label = "OCODCFrad408",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 O u0 p2 c0 {2,S} {6,S}
-4 C u0 p0 c0 {2,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -14986,19 +14986,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.425 kJ/mol
 
 entry(
     index = 409,
-    label = "CC(F)(F)O[O]",
+    label = "CCFFOOrad409",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 F u0 p3 c0 {2,S}
-5 O u0 p2 c0 {2,S} {6,S}
-6 O u1 p2 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15023,17 +15023,17 @@ u"""
 
 entry(
     index = 410,
-    label = "FC1DCCO1",
+    label = "FC1DCCO1410",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15058,21 +15058,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.584 kJ/mol
 
 entry(
     index = 411,
-    label = "C[CH]CDCF",
+    label = "CCHCDCFrad411",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {10,S}
-5  C u0 p0 c0 {4,D} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u1 p0 c0 {1,S} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15097,17 +15097,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.688 kJ/mol
 
 entry(
     index = 412,
-    label = "[CH]DC(F)OO",
+    label = "CHDCFOOrad412",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 O u0 p2 c0 {5,S} {7,S}
-7 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 C u1 p0 c0 {1,D} {6,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15132,14 +15132,14 @@ u"""
 
 entry(
     index = 413,
-    label = "C#CC(F)F",
+    label = "CTCCFF413",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {3,S}
 """,
@@ -15166,19 +15166,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.58 kJ/mol
 
 entry(
     index = 414,
-    label = "[O]C1(F)CC1",
+    label = "OC1FCC1rad414",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15203,17 +15203,17 @@ u"""
 
 entry(
     index = 415,
-    label = "FOC1CDC1F",
+    label = "FOC1CDC1F415",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {3,S} {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {1,S} {2,D} {6,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15238,23 +15238,23 @@ u"""
 
 entry(
     index = 416,
-    label = "FCCCC(F)F",
+    label = "FCCCCFF416",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {14,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {12,S} {13,S}
+4  C u0 p0 c0 {2,S} {10,S} {11,S} {14,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {4,S}
-14 H u0 p0 c0 {5,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 F u0 p3 c0 {4,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15279,16 +15279,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.419 kJ/mol
 
 entry(
     index = 417,
-    label = "FC1D[C]C1F",
+    label = "FC1DCC1Frad417",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15313,17 +15313,17 @@ u"""
 
 entry(
     index = 418,
-    label = "F[C]1COO1",
+    label = "FC1COO1rad418",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15348,19 +15348,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.711 kJ/mol
 
 entry(
     index = 419,
-    label = "CDCO[CH]F",
+    label = "CDCOCHFrad419",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {9,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u1 p0 c0 {4,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15385,19 +15385,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.621 kJ/mol
 
 entry(
     index = 420,
-    label = "COC([O])F",
+    label = "COCOFrad420",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2 C u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u1 p2 c0 {2,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15422,19 +15422,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.799 kJ/mol
 
 entry(
     index = 421,
-    label = "CC1O[C]1F",
+    label = "CC1OC1Frad421",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {2,S} {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15459,19 +15459,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.232 kJ/mol
 
 entry(
     index = 422,
-    label = "CDCCOF",
+    label = "CDCCOF422",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15496,19 +15496,19 @@ u"""
 
 entry(
     index = 423,
-    label = "F[C]DC1CC1",
+    label = "FCDC1CC1rad423",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 C u1 p0 c0 {3,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15533,19 +15533,19 @@ u"""
 
 entry(
     index = 424,
-    label = "F[C]1CDCC1F",
+    label = "FC1CDCC1Frad424",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,D} {8,S}
+4 C u0 p0 c0 {2,S} {3,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15570,19 +15570,19 @@ u"""
 
 entry(
     index = 425,
-    label = "[CH2]C#CCF",
+    label = "CH2CTCCFrad425",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {2,S} {3,T}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15607,21 +15607,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.6 kJ/mol
 
 entry(
     index = 426,
-    label = "CC(F)(F)C[O]",
+    label = "CCFFCOrad426",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  F u0 p3 c0 {2,S}
-5  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-6  O u1 p2 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  F u0 p3 c0 {1,S}
+5  F u0 p3 c0 {1,S}
+6  O u1 p2 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15646,17 +15646,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.333 kJ/mol
 
 entry(
     index = 427,
-    label = "F[CH]C1DCDC1",
+    label = "FCHC1DCDC1rad427",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {6,S}
-5 C u0 p0 c0 {4,D} {6,D}
-6 C u0 p0 c0 {4,S} {5,D} {7,S}
-7 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {4,D} {5,S}
+3 C u1 p0 c0 {1,S} {6,S} {7,S}
+4 C u0 p0 c0 {1,D} {2,D}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15681,13 +15681,13 @@ u"""
 
 entry(
     index = 428,
-    label = "OC(O)F",
+    label = "OCOF428",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 O u0 p2 c0 {2,S} {7,S}
-4 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
@@ -15715,19 +15715,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.415 kJ/mol
 
 entry(
     index = 429,
-    label = "CO[C]DCF",
+    label = "COCDCFrad429",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15752,17 +15752,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.046 kJ/mol
 
 entry(
     index = 430,
-    label = "ODCDC[CH]F",
+    label = "ODCDCCHFrad430",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,D}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -15787,19 +15787,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.653 kJ/mol
 
 entry(
     index = 431,
-    label = "FCDC1CC1",
+    label = "FCDC1CC1431",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {6,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {9,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15824,19 +15824,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.992 kJ/mol
 
 entry(
     index = 432,
-    label = "F[C]1CCO1",
+    label = "FC1CCO1rad432",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15861,19 +15861,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.232 kJ/mol
 
 entry(
     index = 433,
-    label = "[CH2]C1OC1F",
+    label = "CH2C1OC1Frad433",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 C u0 p0 c0 {4,S} {5,S} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -15898,7 +15898,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.821 kJ/mol
 
 entry(
     index = 434,
-    label = "OC(F)(F)F",
+    label = "OCFFF434",
     molecule = 
 """
 1 O u0 p2 c0 {2,S} {6,S}
@@ -15931,18 +15931,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.793 kJ/mol
 
 entry(
     index = 435,
-    label = "CC(C)([O])F",
+    label = "CCCOFrad435",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  O u1 p2 c0 {2,S}
-5  F u0 p3 c0 {2,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u1 p2 c0 {1,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
@@ -15970,18 +15970,18 @@ u"""
 
 entry(
     index = 436,
-    label = "OCDCCF",
+    label = "OCDCCF436",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -16007,16 +16007,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.868 kJ/mol
 
 entry(
     index = 437,
-    label = "OC(F)DCF",
+    label = "OCFDCF437",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16041,21 +16041,21 @@ u"""
 
 entry(
     index = 438,
-    label = "CC([CH]F)DCF",
+    label = "CCCHFDCFrad438",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,D}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  C u0 p0 c0 {2,D} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,D}
+3  C u1 p0 c0 {2,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16080,17 +16080,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.766 kJ/mol
 
 entry(
     index = 439,
-    label = "CDCOOF",
+    label = "CDCOOF439",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16115,16 +16115,16 @@ u"""
 
 entry(
     index = 440,
-    label = "OD[C]CF",
+    label = "ODCCFrad440",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,D}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -16149,19 +16149,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.019 kJ/mol
 
 entry(
     index = 441,
-    label = "O[CH]C(O)F",
+    label = "OCHCOFrad441",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
-5 O u0 p2 c0 {4,S} {9,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16186,19 +16186,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.654 kJ/mol
 
 entry(
     index = 442,
-    label = "FCC1O[C]1F",
+    label = "FCC1OC1Frad442",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u1 p0 c0 {3,S} {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16223,17 +16223,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.183 kJ/mol
 
 entry(
     index = 443,
-    label = "CCDCF",
+    label = "CCDCF443",
     molecule = 
 """
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -16259,15 +16259,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.023 kJ/mol
 
 entry(
     index = 444,
-    label = "CD[C]F",
+    label = "CDCFrad444",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {5,S}
+3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16292,7 +16292,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.689 kJ/mol
 
 entry(
     index = 445,
-    label = "FC#CC(F)(F)F",
+    label = "FCTCCFFF445",
     molecule = 
 """
 1 F u0 p3 c0 {2,S}
@@ -16326,21 +16326,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.739 kJ/mol
 
 entry(
     index = 446,
-    label = "CD[C]C(C)F",
+    label = "CDCCCFrad446",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u1 p0 c0 {1,D} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16365,17 +16365,17 @@ u"""
 
 entry(
     index = 447,
-    label = "FCC1OO1",
+    label = "FCC1OO1447",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16400,19 +16400,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.194 kJ/mol
 
 entry(
     index = 448,
-    label = "COCD[C]F",
+    label = "COCDCFrad448",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16437,21 +16437,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.111 kJ/mol
 
 entry(
     index = 449,
-    label = "F[CH]CCDCF",
+    label = "FCHCCDCFrad449",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,D} {10,S}
-6  C u0 p0 c0 {5,D} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u1 p0 c0 {1,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16476,17 +16476,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.582 kJ/mol
 
 entry(
     index = 450,
-    label = "F[C]1OCO1",
+    label = "FC1OCO1rad450",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16511,18 +16511,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.268 kJ/mol
 
 entry(
     index = 451,
-    label = "O[C](O)CF",
+    label = "OCOCFrad451",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {7,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+3 O u0 p2 c0 {2,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -16548,21 +16548,21 @@ u"""
 
 entry(
     index = 452,
-    label = "[CH2]C1CC1F",
+    label = "CH2C1CC1Frad452",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  C u0 p0 c0 {4,S} {5,S} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+4  C u1 p0 c0 {1,S} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16587,19 +16587,19 @@ u"""
 
 entry(
     index = 453,
-    label = "C#CC(F)[C](F)F",
+    label = "CTCCFCFFrad453",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {8,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {3,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16624,18 +16624,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.402 kJ/mol
 
 entry(
     index = 454,
-    label = "O[CH]COF",
+    label = "OCHCOFrad454",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -16661,21 +16661,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.468 kJ/mol
 
 entry(
     index = 455,
-    label = "CC([O])CF",
+    label = "CCOCFrad455",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3  O u1 p2 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  O u1 p2 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16700,15 +16700,15 @@ u"""
 
 entry(
     index = 456,
-    label = "[O]CF",
+    label = "OCFrad456",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 H u0 p0 c0 {2,S}
-5 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u1 p2 c0 {1,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16733,19 +16733,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.222 kJ/mol
 
 entry(
     index = 457,
-    label = "ODCC(F)CF",
+    label = "ODCCFCF457",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,D} {10,S}
+4  F u0 p3 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  O u0 p2 c0 {3,D}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16770,19 +16770,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.1 kJ/mol
 
 entry(
     index = 458,
-    label = "CDC(F)OC",
+    label = "CDCFOC458",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16807,19 +16807,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.668 kJ/mol
 
 entry(
     index = 459,
-    label = "[CH2]OCDCF",
+    label = "CH2OCDCFrad459",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 O u0 p2 c0 {1,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,D} {8,S}
-6 C u0 p0 c0 {5,D} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u1 p0 c0 {4,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16844,17 +16844,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.39 kJ/mol
 
 entry(
     index = 460,
-    label = "FOC1[CH]O1",
+    label = "FOC1CHO1rad460",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {3,S} {4,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16879,17 +16879,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.227 kJ/mol
 
 entry(
     index = 461,
-    label = "CDCDCOF",
+    label = "CDCDCOF461",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {3,D} {4,S} {5,S}
+2 C u0 p0 c0 {3,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16914,14 +16914,14 @@ u"""
 
 entry(
     index = 462,
-    label = "C#COF",
+    label = "CTCOF462",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {5,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {5,S}
+3 O u0 p2 c0 {1,S} {4,S}
 4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16946,19 +16946,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.174 kJ/mol
 
 entry(
     index = 463,
-    label = "FCDCDCCF",
+    label = "FCDCDCCF463",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,D}
-4  C u0 p0 c0 {3,D} {5,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {8,S}
+3  C u0 p0 c0 {4,D} {9,S} {10,S}
+4  C u0 p0 c0 {2,D} {3,D}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -16983,21 +16983,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.148 kJ/mol
 
 entry(
     index = 464,
-    label = "C[C]DCC(F)F",
+    label = "CCDCCFFrad464",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17022,19 +17022,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.929 kJ/mol
 
 entry(
     index = 465,
-    label = "[O]C(F)DCCF",
+    label = "OCFDCCFrad465",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {7,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u1 p2 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17059,23 +17059,23 @@ u"""
 
 entry(
     index = 466,
-    label = "CCC[CH]F",
+    label = "CCCCHFrad466",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17100,19 +17100,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.959 kJ/mol
 
 entry(
     index = 467,
-    label = "[CH]DC(F)OC",
+    label = "CHDCFOCrad467",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-7 H u0 p0 c0 {6,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17137,19 +17137,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.673 kJ/mol
 
 entry(
     index = 468,
-    label = "[CH2]CDCDCF",
+    label = "CH2CDCDCFrad468",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,D}
-6 C u0 p0 c0 {5,D} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {4,D} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 C u0 p0 c0 {4,D} {8,S} {9,S}
+4 C u0 p0 c0 {1,D} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17174,17 +17174,17 @@ u"""
 
 entry(
     index = 469,
-    label = "FCDC1[C]DC1",
+    label = "FCDC1CDC1rad469",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u1 p0 c0 {3,S} {5,D}
-5 C u0 p0 c0 {3,S} {4,D} {7,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {4,D} {5,S}
+3 C u0 p0 c0 {1,D} {6,S} {7,S}
+4 C u1 p0 c0 {1,S} {2,D}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17209,21 +17209,21 @@ u"""
 
 entry(
     index = 470,
-    label = "CCDC[CH]F",
+    label = "CCDCCHFrad470",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,D} {10,S}
-3  C u0 p0 c0 {2,D} {4,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u1 p0 c0 {3,S} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17248,17 +17248,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.791 kJ/mol
 
 entry(
     index = 471,
-    label = "CDCDCD[C]F",
+    label = "CDCDCDCFrad471",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
 3 C u0 p0 c0 {2,D} {4,D}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+4 C u1 p0 c0 {3,D} {7,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17283,21 +17283,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.649 kJ/mol
 
 entry(
     index = 472,
-    label = "CC([O])(F)CF",
+    label = "CCOFCFrad472",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  O u1 p2 c0 {2,S}
-4  F u0 p3 c0 {2,S}
-5  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  O u1 p2 c0 {1,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17322,17 +17322,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.333 kJ/mol
 
 entry(
     index = 473,
-    label = "ODC(F)CDCF",
+    label = "ODCFCDCF473",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {7,S}
-5 C u0 p0 c0 {4,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {5,D} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {2,D}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17357,18 +17357,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.412 kJ/mol
 
 entry(
     index = 474,
-    label = "OCC(F)OF",
+    label = "OCCFOF474",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  O u0 p2 c0 {1,S} {10,S}
+4  O u0 p2 c0 {2,S} {9,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
 10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -17394,18 +17394,18 @@ u"""
 
 entry(
     index = 475,
-    label = "FCOC(F)F",
+    label = "FCOCFF475",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+2 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {1,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17430,16 +17430,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 6.001 kJ/mol
 
 entry(
     index = 476,
-    label = "OC(DCF)OF",
+    label = "OCDCFOF476",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {2,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
 8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -17465,19 +17465,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.066 kJ/mol
 
 entry(
     index = 477,
-    label = "[O]CDCC(F)F",
+    label = "OCDCCFFrad477",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+8 O u1 p2 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17502,16 +17502,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.398 kJ/mol
 
 entry(
     index = 478,
-    label = "FC#C[CH]F",
+    label = "FCTCCHFrad478",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
+1 C u1 p0 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+3 C u0 p0 c0 {2,T} {6,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17536,19 +17536,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.452 kJ/mol
 
 entry(
     index = 479,
-    label = "FCDCD[C]CF",
+    label = "FCDCDCCFrad479",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u1 p0 c0 {3,D} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {4,D}
+4 C u0 p0 c0 {2,D} {3,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17573,17 +17573,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.024 kJ/mol
 
 entry(
     index = 480,
-    label = "FC#CO[CH]F",
+    label = "FCTCOCHFrad480",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 F u0 p3 c0 {5,S}
+1 C u1 p0 c0 {2,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17608,19 +17608,19 @@ u"""
 
 entry(
     index = 481,
-    label = "FOCCDC(F)F",
+    label = "FOCCDCFF481",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,D} {10,S}
-5  C u0 p0 c0 {4,D} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17645,21 +17645,21 @@ u"""
 
 entry(
     index = 482,
-    label = "FCCC(F)OF",
+    label = "FCCCFOF482",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {12,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {4,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u0 p2 c0 {2,S} {12,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
+12 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17684,16 +17684,16 @@ u"""
 
 entry(
     index = 483,
-    label = "[O]CDC(F)F",
+    label = "OCDCFFrad483",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {6,S}
+2 C u0 p0 c0 {1,D} {4,S} {5,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17718,19 +17718,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.485 kJ/mol
 
 entry(
     index = 484,
-    label = "F[C]DCOCF",
+    label = "FCDCOCFrad484",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17755,19 +17755,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.554 kJ/mol
 
 entry(
     index = 485,
-    label = "FCC1DC(F)[CH]1",
+    label = "FCC1DCFCH1rad485",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 C u1 p0 c0 {3,S} {4,S} {7,S}
-7 H u0 p0 c0 {6,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 C u1 p0 c0 {2,S} {3,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17792,21 +17792,21 @@ u"""
 
 entry(
     index = 486,
-    label = "[CH2]C(DCF)CF",
+    label = "CH2CDCFCFrad486",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,D} {7,S}
-5  C u0 p0 c0 {4,D} {6,S} {9,S}
-6  F u0 p3 c0 {5,S}
-7  C u0 p0 c0 {4,S} {8,S} {10,S} {11,S}
-8  F u0 p3 c0 {7,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {7,S}
-11 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,D}
+3  C u1 p0 c0 {2,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17831,19 +17831,19 @@ u"""
 
 entry(
     index = 487,
-    label = "C[C]1CC1(F)F",
+    label = "CC1CC1FFrad487",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {2,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
 """,
@@ -17870,16 +17870,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.771 kJ/mol
 
 entry(
     index = 488,
-    label = "OCDCOF",
+    label = "OCDCOF488",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,S} {6,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
 8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -17905,21 +17905,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.447 kJ/mol
 
 entry(
     index = 489,
-    label = "C[C]DC(C)F",
+    label = "CCDCCFrad489",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17944,17 +17944,17 @@ u"""
 
 entry(
     index = 490,
-    label = "FCDC1CO1",
+    label = "FCDC1CO1490",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {7,S} {8,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -17979,21 +17979,21 @@ u"""
 
 entry(
     index = 491,
-    label = "F[C]1CCC1",
+    label = "FC1CCC1rad491",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {5,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+4  C u1 p0 c0 {2,S} {3,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18018,19 +18018,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.705 kJ/mol
 
 entry(
     index = 492,
-    label = "ODC[C](F)CF",
+    label = "ODCCFCFrad492",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {8,D} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 O u0 p2 c0 {3,D}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18055,17 +18055,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.832 kJ/mol
 
 entry(
     index = 493,
-    label = "CC(O)(O)F",
+    label = "CCOOF493",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  O u0 p2 c0 {2,S} {9,S}
-4  O u0 p2 c0 {2,S} {10,S}
-5  F u0 p3 c0 {2,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
@@ -18092,19 +18092,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.868 kJ/mol
 
 entry(
     index = 494,
-    label = "CDCOCF",
+    label = "CDCOCF494",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18129,19 +18129,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.668 kJ/mol
 
 entry(
     index = 495,
-    label = "CC(F)DCD[C]F",
+    label = "CCFDCDCFrad495",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,D}
-5 C u1 p0 c0 {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {8,S}
+3 C u0 p0 c0 {2,D} {4,D}
+4 C u1 p0 c0 {3,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18166,21 +18166,21 @@ u"""
 
 entry(
     index = 496,
-    label = "C[C](F)CO",
+    label = "CCFCOrad496",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  O u0 p2 c0 {4,S} {11,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18205,7 +18205,7 @@ u"""
 
 entry(
     index = 497,
-    label = "[C]#CC#CF",
+    label = "CTCCTCFrad497",
     molecule = 
 """
 multiplicity 2
@@ -18238,15 +18238,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.818 kJ/mol
 
 entry(
     index = 498,
-    label = "F[C]DC1OO1",
+    label = "FCDC1OO1rad498",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {3,S} {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {1,D} {5,S}
+5 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18271,19 +18271,19 @@ u"""
 
 entry(
     index = 499,
-    label = "OCC(F)DCF",
+    label = "OCCFDCF499",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,D}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18308,17 +18308,17 @@ u"""
 
 entry(
     index = 500,
-    label = "[CH]DCC#CF",
+    label = "CHDCCTCFrad500",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 C u1 p0 c0 {1,D} {6,S}
+4 C u0 p0 c0 {2,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18343,19 +18343,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.704 kJ/mol
 
 entry(
     index = 501,
-    label = "CDCDCC(F)F",
+    label = "CDCDCCFF501",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {8,S}
+3  C u0 p0 c0 {4,D} {9,S} {10,S}
+4  C u0 p0 c0 {2,D} {3,D}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18380,17 +18380,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.101 kJ/mol
 
 entry(
     index = 502,
-    label = "FC1DCOC1",
+    label = "FC1DCOC1502",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18415,7 +18415,7 @@ u"""
 
 entry(
     index = 503,
-    label = "FC#CO[C](F)F",
+    label = "FCTCOCFFrad503",
     molecule = 
 """
 multiplicity 2
@@ -18450,15 +18450,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.087 kJ/mol
 
 entry(
     index = 504,
-    label = "OC(O)DCF",
+    label = "OCODCF504",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 O u0 p2 c0 {2,S} {7,S}
-4 C u0 p0 c0 {2,D} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
 """,
@@ -18485,19 +18485,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.528 kJ/mol
 
 entry(
     index = 505,
-    label = "CC([O])OF",
+    label = "CCOOFrad505",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
-3 O u1 p2 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18522,21 +18522,21 @@ u"""
 
 entry(
     index = 506,
-    label = "O[CH]CCF",
+    label = "OCHCCFrad506",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {4,S} {10,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18561,20 +18561,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.954 kJ/mol
 
 entry(
     index = 507,
-    label = "CC[C](O)F",
+    label = "CCCOFrad507",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {4,S} {10,S}
 4  O u0 p2 c0 {3,S} {11,S}
-5  F u0 p3 c0 {3,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -18600,18 +18600,18 @@ u"""
 
 entry(
     index = 508,
-    label = "CDCC([O])F",
+    label = "CDCCOFrad508",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -18637,19 +18637,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.13 kJ/mol
 
 entry(
     index = 509,
-    label = "CDC(C)[CH]F",
+    label = "CDCCCHFrad509",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {8,S} {9,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {4,S}
+9  F u0 p3 c0 {4,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
 """,
@@ -18676,19 +18676,19 @@ u"""
 
 entry(
     index = 510,
-    label = "CDCDCCF",
+    label = "CDCDCCF510",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {8,S}
+3  C u0 p0 c0 {4,D} {9,S} {10,S}
+4  C u0 p0 c0 {2,D} {3,D}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18713,19 +18713,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.513 kJ/mol
 
 entry(
     index = 511,
-    label = "FOC1[CH]C1",
+    label = "FOC1CHC1rad511",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18750,17 +18750,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.522 kJ/mol
 
 entry(
     index = 512,
-    label = "FCDCDCOF",
+    label = "FCDCDCOF512",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {3,D} {4,S} {5,S}
+2 C u0 p0 c0 {3,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18785,19 +18785,19 @@ u"""
 
 entry(
     index = 513,
-    label = "OC1(F)CC1F",
+    label = "OC1FCC1F513",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {6,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18822,7 +18822,7 @@ u"""
 
 entry(
     index = 514,
-    label = "C#CCF",
+    label = "CTCCF514",
     molecule = 
 """
 1 C u0 p0 c0 {2,T} {5,S}
@@ -18856,17 +18856,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.629 kJ/mol
 
 entry(
     index = 515,
-    label = "ODCC(F)OF",
+    label = "ODCCFOF515",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18891,19 +18891,19 @@ u"""
 
 entry(
     index = 516,
-    label = "CC1D[C]C1F",
+    label = "CC1DCC1Frad516",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 C u1 p0 c0 {1,S} {3,D}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18928,21 +18928,21 @@ u"""
 
 entry(
     index = 517,
-    label = "CDC(F)CC",
+    label = "CDCFCC517",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -18967,23 +18967,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.1 kJ/mol
 
 entry(
     index = 518,
-    label = "C[CH]C(F)CF",
+    label = "CCHCFCFrad518",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19008,16 +19008,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.695 kJ/mol
 
 entry(
     index = 519,
-    label = "CDC(C)F",
+    label = "CDCCF519",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {5,S} {6,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-4 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
@@ -19044,19 +19044,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.588 kJ/mol
 
 entry(
     index = 520,
-    label = "FOOCC(F)F",
+    label = "FOOCCFF520",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19081,21 +19081,21 @@ u"""
 
 entry(
     index = 521,
-    label = "[CH]DC(F)CC",
+    label = "CHDCFCCrad521",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,D}
-2  H u0 p0 c0 {1,S}
-3  C u0 p0 c0 {1,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-6  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
-7  H u0 p0 c0 {5,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19120,19 +19120,19 @@ u"""
 
 entry(
     index = 522,
-    label = "CC([O])DCF",
+    label = "CCODCFrad522",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 O u1 p2 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+7 O u1 p2 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19157,16 +19157,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.07 kJ/mol
 
 entry(
     index = 523,
-    label = "[C]#CCF",
+    label = "CTCCFrad523",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,T}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 C u1 p0 c0 {2,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -19191,19 +19191,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.216 kJ/mol
 
 entry(
     index = 524,
-    label = "OC(DCF)CF",
+    label = "OCDCFCF524",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,D} {5,S}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19228,14 +19228,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.517 kJ/mol
 
 entry(
     index = 525,
-    label = "[O]C#CF",
+    label = "OCTCFrad525",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {4,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19260,16 +19260,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.744 kJ/mol
 
 entry(
     index = 526,
-    label = "FC1O[CH]O1",
+    label = "FC1OCHO1rad526",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {2,S} {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -19295,19 +19295,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.262 kJ/mol
 
 entry(
     index = 527,
-    label = "CC([O])(F)OF",
+    label = "CCOFOFrad527",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u1 p2 c0 {2,S}
-4 F u0 p3 c0 {2,S}
-5 O u0 p2 c0 {2,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19332,19 +19332,19 @@ u"""
 
 entry(
     index = 528,
-    label = "F[CH]C#CCF",
+    label = "FCHCTCCFrad528",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {2,S} {3,T}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19369,23 +19369,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.926 kJ/mol
 
 entry(
     index = 529,
-    label = "CC(CF)CF",
+    label = "CCCFCF529",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
+4  C u0 p0 c0 {1,S} {7,S} {13,S} {14,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  F u0 p3 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19410,17 +19410,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.474 kJ/mol
 
 entry(
     index = 530,
-    label = "FC1DCCDC1",
+    label = "FC1DCCDC1530",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,D} {7,S}
-5 C u0 p0 c0 {2,S} {4,D} {8,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 C u0 p0 c0 {2,S} {4,D} {7,S}
+4 C u0 p0 c0 {1,S} {3,D} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19445,17 +19445,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.058 kJ/mol
 
 entry(
     index = 531,
-    label = "OC#C[CH]F",
+    label = "OCTCCHFrad531",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
+1 C u1 p0 c0 {2,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
 3 C u0 p0 c0 {2,T} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
+4 O u0 p2 c0 {3,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19480,17 +19480,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.555 kJ/mol
 
 entry(
     index = 532,
-    label = "F[C]DCOOF",
+    label = "FCDCOOFrad532",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 C u1 p0 c0 {1,D} {6,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19515,17 +19515,17 @@ u"""
 
 entry(
     index = 533,
-    label = "OC1(F)OC1F",
+    label = "OC1FOC1F533",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19550,19 +19550,19 @@ u"""
 
 entry(
     index = 534,
-    label = "CC(F)D[C]O",
+    label = "CCFDCOrad534",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,D} {5,S}
-5 O u0 p2 c0 {4,S} {9,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {8,S}
+3 C u1 p0 c0 {2,D} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {5,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19587,16 +19587,16 @@ u"""
 
 entry(
     index = 535,
-    label = "FC1D[C]C1",
+    label = "FC1DCC1rad535",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19621,23 +19621,23 @@ u"""
 
 entry(
     index = 536,
-    label = "FCCC(F)CF",
+    label = "FCCCFCF536",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {12,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {13,S} {14,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {11,S} {12,S}
+4  C u0 p0 c0 {2,S} {10,S} {13,S} {14,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19662,19 +19662,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.007 kJ/mol
 
 entry(
     index = 537,
-    label = "C#CC(F)CF",
+    label = "CTCCFCF537",
     molecule = 
 """
-1  C u0 p0 c0 {2,T} {7,S}
-2  C u0 p0 c0 {1,T} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {3,T} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19699,17 +19699,17 @@ u"""
 
 entry(
     index = 538,
-    label = "OD[C]COF",
+    label = "ODCCOFrad538",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,D}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19734,16 +19734,16 @@ u"""
 
 entry(
     index = 539,
-    label = "[CH]DCOF",
+    label = "CHDCOFrad539",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {6,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {5,S}
+3 O u0 p2 c0 {1,S} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19768,18 +19768,18 @@ u"""
 
 entry(
     index = 540,
-    label = "F[CH]CDC(F)F",
+    label = "FCHCDCFFrad540",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19804,16 +19804,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.328 kJ/mol
 
 entry(
     index = 541,
-    label = "OC(O)C(F)F",
+    label = "OCOCFF541",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3  O u0 p2 c0 {2,S} {9,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
@@ -19841,15 +19841,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.635 kJ/mol
 
 entry(
     index = 542,
-    label = "O[C](O)F",
+    label = "OCOFrad542",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {6,S}
-4 F u0 p3 c0 {2,S}
-5 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 O u0 p2 c0 {1,S} {6,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -19875,21 +19875,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.327 kJ/mol
 
 entry(
     index = 543,
-    label = "[O]CCCF",
+    label = "OCCCFrad543",
     molecule = 
 """
 multiplicity 2
-1  O u1 p2 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  O u1 p2 c0 {2,S}
+7  F u0 p3 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19914,15 +19914,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.663 kJ/mol
 
 entry(
     index = 544,
-    label = "OCD[C]F",
+    label = "OCDCFrad544",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 C u1 p0 c0 {1,D} {5,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {3,S}
 6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -19948,19 +19948,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.843 kJ/mol
 
 entry(
     index = 545,
-    label = "FCD[C]COF",
+    label = "FCDCCOFrad545",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -19985,17 +19985,17 @@ u"""
 
 entry(
     index = 546,
-    label = "OC1DC[C]1F",
+    label = "OC1DCC1Frad546",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u1 p0 c0 {2,S} {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 C u1 p0 c0 {1,S} {2,S} {5,S}
+4 O u0 p2 c0 {1,S} {7,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20020,19 +20020,19 @@ u"""
 
 entry(
     index = 547,
-    label = "OC(F)CDCF",
+    label = "OCFCDCF547",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20057,20 +20057,20 @@ u"""
 
 entry(
     index = 548,
-    label = "C[C](O)CF",
+    label = "CCOCFrad548",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  O u0 p2 c0 {2,S} {9,S}
-4  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {2,S} {4,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -20096,17 +20096,17 @@ u"""
 
 entry(
     index = 549,
-    label = "[C]#CC(F)OF",
+    label = "CTCCFOFrad549",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,T}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 C u1 p0 c0 {2,T}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20131,14 +20131,14 @@ u"""
 
 entry(
     index = 550,
-    label = "O[C]DCF",
+    label = "OCDCFrad550",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 O u0 p2 c0 {2,S} {6,S}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {3,S}
 """,
@@ -20165,19 +20165,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.145 kJ/mol
 
 entry(
     index = 551,
-    label = "[O]OCCF",
+    label = "OOCCFrad551",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20202,17 +20202,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.341 kJ/mol
 
 entry(
     index = 552,
-    label = "F[CH]C(F)F",
+    label = "FCHCFFrad552",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20237,17 +20237,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.534 kJ/mol
 
 entry(
     index = 553,
-    label = "FCD[C]C(F)(F)F",
+    label = "FCDCCFFFrad553",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
@@ -20273,23 +20273,23 @@ u"""
 
 entry(
     index = 554,
-    label = "C[C](C)CF",
+    label = "CCCCFrad554",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+3  C u0 p0 c0 {4,S} {5,S} {12,S} {13,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {3,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20314,16 +20314,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.156 kJ/mol
 
 entry(
     index = 555,
-    label = "FC1DC[CH]O1",
+    label = "FC1DCCHO1rad555",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {2,S} {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,S} {6,S}
+3 C u1 p0 c0 {1,S} {4,S} {7,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -20349,15 +20349,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.36 kJ/mol
 
 entry(
     index = 556,
-    label = "CDCDC([O])F",
+    label = "CDCDCOFrad556",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,D} {6,S} {7,S}
+2 C u0 p0 c0 {3,D} {4,S} {5,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u1 p2 c0 {2,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
 """,
@@ -20384,17 +20384,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.927 kJ/mol
 
 entry(
     index = 557,
-    label = "[O]OCDC(F)F",
+    label = "OOCDCFFrad557",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20419,18 +20419,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.295 kJ/mol
 
 entry(
     index = 558,
-    label = "CC(C)C(F)F",
+    label = "CCCCFF558",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {14,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  C u0 p0 c0 {1,S} {6,S} {7,S} {14,S}
+5  H u0 p0 c0 {1,S}
 6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {3,S}
@@ -20460,17 +20460,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.491 kJ/mol
 
 entry(
     index = 559,
-    label = "[C]#CCOF",
+    label = "CTCCOFrad559",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,T}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 C u1 p0 c0 {2,T}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20495,17 +20495,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.995 kJ/mol
 
 entry(
     index = 560,
-    label = "FOC1DCC1",
+    label = "FOC1DCC1560",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 O u0 p2 c0 {2,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20530,18 +20530,18 @@ u"""
 
 entry(
     index = 561,
-    label = "[O]C(F)CF",
+    label = "OCFCFrad561",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+2 C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20566,19 +20566,19 @@ u"""
 
 entry(
     index = 562,
-    label = "OC1C(F)C1F",
+    label = "OC1CFC1F562",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {7,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {3,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20603,17 +20603,17 @@ u"""
 
 entry(
     index = 563,
-    label = "FC(F)[C]1OO1",
+    label = "FCFC1OO1rad563",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 O u0 p2 c0 {4,S} {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20638,19 +20638,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.742 kJ/mol
 
 entry(
     index = 564,
-    label = "FCDCO[C](F)F",
+    label = "FCDCOCFFrad564",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u1 p0 c0 {4,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20675,15 +20675,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.403 kJ/mol
 
 entry(
     index = 565,
-    label = "O[CH]F",
+    label = "OCHFrad565",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 F u0 p3 c0 {2,S}
-5 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 H u0 p0 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20708,18 +20708,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.39 kJ/mol
 
 entry(
     index = 566,
-    label = "CDC(F)CF",
+    label = "CDCFCF566",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20744,19 +20744,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.23 kJ/mol
 
 entry(
     index = 567,
-    label = "CC(DCF)OF",
+    label = "CCDCFOF567",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,D} {5,S}
-3  C u0 p0 c0 {2,D} {4,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {2,S} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20781,15 +20781,15 @@ u"""
 
 entry(
     index = 568,
-    label = "OOCF",
+    label = "OOCF568",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 F u0 p3 c0 {3,S}
+3 O u0 p2 c0 {2,S} {7,S}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -20815,17 +20815,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.244 kJ/mol
 
 entry(
     index = 569,
-    label = "[O]C(F)C#CF",
+    label = "OCFCTCFrad569",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20850,19 +20850,19 @@ u"""
 
 entry(
     index = 570,
-    label = "F[C]1COC1F",
+    label = "FC1COC1Frad570",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {5,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,S} {9,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20887,21 +20887,21 @@ u"""
 
 entry(
     index = 571,
-    label = "CO[CH]C(F)F",
+    label = "COCHCFFrad571",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {7,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -20926,19 +20926,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.204 kJ/mol
 
 entry(
     index = 572,
-    label = "CC(DO)C(F)(F)F",
+    label = "CCDOCFFF572",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,D} {4,S}
-3  O u0 p2 c0 {2,D}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3  C u0 p0 c0 {1,S} {2,S} {10,D}
+4  F u0 p3 c0 {2,S}
+5  F u0 p3 c0 {2,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
+10 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -20963,21 +20963,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.074 kJ/mol
 
 entry(
     index = 573,
-    label = "FCCCDC(F)F",
+    label = "FCCCDCFF573",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u0 p0 c0 {3,S} {5,D} {12,S}
-5  C u0 p0 c0 {4,D} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
+11 F u0 p3 c0 {4,S}
+12 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21002,19 +21002,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.135 kJ/mol
 
 entry(
     index = 574,
-    label = "COO[CH]F",
+    label = "COOCHFrad574",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21039,18 +21039,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.085 kJ/mol
 
 entry(
     index = 575,
-    label = "[CH]DC(F)CF",
+    label = "CHDCFCFrad575",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21075,17 +21075,17 @@ u"""
 
 entry(
     index = 576,
-    label = "FC1OC(F)O1",
+    label = "FC1OCFO1576",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 O u0 p2 c0 {2,S} {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21110,21 +21110,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.964 kJ/mol
 
 entry(
     index = 577,
-    label = "OC[CH]CF",
+    label = "OCCHCFrad577",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21149,16 +21149,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.663 kJ/mol
 
 entry(
     index = 578,
-    label = "[CH2]C(DO)F",
+    label = "CH2CDOFrad578",
     molecule = 
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
+2 C u0 p0 c0 {1,S} {5,D} {6,S}
 3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,D} {6,S}
-5 O u0 p2 c0 {4,D}
-6 F u0 p3 c0 {4,S}
+4 H u0 p0 c0 {1,S}
+5 O u0 p2 c0 {2,D}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21183,19 +21183,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.289 kJ/mol
 
 entry(
     index = 579,
-    label = "FCC1DC[C]1F",
+    label = "FCC1DCC1Frad579",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {5,S} {9,S}
-5 C u1 p0 c0 {3,S} {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {4,S} {9,S}
+4 C u1 p0 c0 {2,S} {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21220,18 +21220,18 @@ u"""
 
 entry(
     index = 580,
-    label = "FOCC(F)F",
+    label = "FOCCFF580",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21256,20 +21256,20 @@ u"""
 
 entry(
     index = 581,
-    label = "FC[C](F)CF",
+    label = "FCCFCFrad581",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  F u0 p3 c0 {1,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21294,16 +21294,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.455 kJ/mol
 
 entry(
     index = 582,
-    label = "FCC1[CH]O1",
+    label = "FCC1CHO1rad582",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {3,S} {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {3,S}
@@ -21331,17 +21331,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.33 kJ/mol
 
 entry(
     index = 583,
-    label = "[O]OCDCF",
+    label = "OOCDCFrad583",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21366,17 +21366,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.577 kJ/mol
 
 entry(
     index = 584,
-    label = "[O]C(F)DCO",
+    label = "OCFDCOrad584",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {6,S}
-5 O u0 p2 c0 {4,S} {7,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 O u1 p2 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21401,21 +21401,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.264 kJ/mol
 
 entry(
     index = 585,
-    label = "CC([CH]F)OF",
+    label = "CCCHFOFrad585",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {11,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  O u0 p2 c0 {2,S} {7,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21440,18 +21440,18 @@ u"""
 
 entry(
     index = 586,
-    label = "OC(O)CF",
+    label = "OCOCF586",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3  O u0 p2 c0 {2,S} {8,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -21477,19 +21477,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.872 kJ/mol
 
 entry(
     index = 587,
-    label = "C[C](F)C#CF",
+    label = "CCFCTCFrad587",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {8,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21514,15 +21514,15 @@ u"""
 
 entry(
     index = 588,
-    label = "ODC1[C]DC1F",
+    label = "ODC1CDC1Frad588",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {3,D} {5,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,D}
+5 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21547,20 +21547,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.518 kJ/mol
 
 entry(
     index = 589,
-    label = "CC[CH]F",
+    label = "CCCHFrad589",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21585,21 +21585,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.505 kJ/mol
 
 entry(
     index = 590,
-    label = "[CH]DCCCF",
+    label = "CHDCCCFrad590",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,D}
-2  H u0 p0 c0 {1,S}
-3  C u0 p0 c0 {1,D} {4,S} {7,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21624,18 +21624,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.916 kJ/mol
 
 entry(
     index = 591,
-    label = "COCF",
+    label = "COCF591",
     molecule = 
 """
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {2,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21660,16 +21660,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.944 kJ/mol
 
 entry(
     index = 592,
-    label = "O[C]DC(F)F",
+    label = "OCDCFFrad592",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u1 p0 c0 {1,D} {3,S}
+3 O u0 p2 c0 {2,S} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21694,21 +21694,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.797 kJ/mol
 
 entry(
     index = 593,
-    label = "F[C]1CCC1F",
+    label = "FC1CCC1Frad593",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {5,S}
-3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,S} {7,S} {10,S}
+4  C u1 p0 c0 {2,S} {3,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21733,21 +21733,21 @@ u"""
 
 entry(
     index = 594,
-    label = "CCO[C](F)F",
+    label = "CCOCFFrad594",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21772,19 +21772,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.896 kJ/mol
 
 entry(
     index = 595,
-    label = "CC1(F)[C]DC1",
+    label = "CC1FCDC1rad595",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,D}
-5 C u0 p0 c0 {2,S} {4,D} {9,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21809,19 +21809,19 @@ u"""
 
 entry(
     index = 596,
-    label = "OCDC[CH]F",
+    label = "OCDCCHFrad596",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,S} {6,S}
+3 C u1 p0 c0 {1,S} {7,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21846,7 +21846,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.75 kJ/mol
 
 entry(
     index = 597,
-    label = "C#CC(F)(F)[C](F)F",
+    label = "CTCCFFCFFrad597",
     molecule = 
 """
 multiplicity 2
@@ -21883,18 +21883,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.878 kJ/mol
 
 entry(
     index = 598,
-    label = "[CH]DCCF",
+    label = "CHDCCFrad598",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21919,21 +21919,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.522 kJ/mol
 
 entry(
     index = 599,
-    label = "FCDCCC(F)F",
+    label = "FCDCCCFF599",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {12,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -21958,19 +21958,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.874 kJ/mol
 
 entry(
     index = 600,
-    label = "OD[C]CCF",
+    label = "ODCCCFrad600",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {9,D}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -21995,16 +21995,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.064 kJ/mol
 
 entry(
     index = 601,
-    label = "FC#C[C](F)F",
+    label = "FCTCCFFrad601",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
+1 C u1 p0 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+3 C u0 p0 c0 {2,T} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22029,18 +22029,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.595 kJ/mol
 
 entry(
     index = 602,
-    label = "F[C]DCC(F)(F)F",
+    label = "FCDCCFFFrad602",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 F u0 p3 c0 {4,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22065,17 +22065,17 @@ u"""
 
 entry(
     index = 603,
-    label = "C#CC(F)OF",
+    label = "CTCCFOF603",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 O u0 p2 c0 {1,S} {7,S}
+4 C u0 p0 c0 {2,T} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22100,16 +22100,16 @@ u"""
 
 entry(
     index = 604,
-    label = "F[C]1CDC1F",
+    label = "FC1CDC1Frad604",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {5,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22134,18 +22134,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.831 kJ/mol
 
 entry(
     index = 605,
-    label = "[CH]DC(C)F",
+    label = "CHDCCFrad605",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22170,21 +22170,21 @@ u"""
 
 entry(
     index = 606,
-    label = "C[C](F)OCF",
+    label = "CCFOCFrad606",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22209,17 +22209,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.865 kJ/mol
 
 entry(
     index = 607,
-    label = "C#CC(F)D[C]F",
+    label = "CTCCFDCFrad607",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {3,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 C u1 p0 c0 {1,D} {6,S}
+4 C u0 p0 c0 {2,T} {7,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22244,19 +22244,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.427 kJ/mol
 
 entry(
     index = 608,
-    label = "[C]#CC(F)CF",
+    label = "CTCCFCFrad608",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {9,T}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -22281,19 +22281,19 @@ u"""
 
 entry(
     index = 609,
-    label = "[O]CCOF",
+    label = "OCCOFrad609",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22318,18 +22318,18 @@ u"""
 
 entry(
     index = 610,
-    label = "OC[C](O)F",
+    label = "OCCOFrad610",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {9,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -22355,23 +22355,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.037 kJ/mol
 
 entry(
     index = 611,
-    label = "C[C](CF)CF",
+    label = "CCCFCFrad611",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {5,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
+3  C u0 p0 c0 {4,S} {6,S} {12,S} {13,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {2,S}
+6  F u0 p3 c0 {3,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22396,21 +22396,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.905 kJ/mol
 
 entry(
     index = 612,
-    label = "FCD[C]CCF",
+    label = "FCDCCCFrad612",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u1 p0 c0 {2,D} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22435,19 +22435,19 @@ u"""
 
 entry(
     index = 613,
-    label = "FC1DC[CH]C1",
+    label = "FC1DCCHC1rad613",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {6,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 C u1 p0 c0 {1,S} {4,S} {8,S}
+4 C u0 p0 c0 {2,D} {3,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22472,18 +22472,18 @@ u"""
 
 entry(
     index = 614,
-    label = "CO[C](F)F",
+    label = "COCFFrad614",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22508,15 +22508,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.93 kJ/mol
 
 entry(
     index = 615,
-    label = "FCOF",
+    label = "FCOF615",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22541,21 +22541,21 @@ u"""
 
 entry(
     index = 616,
-    label = "CC(O)[CH]F",
+    label = "CCOCHFrad616",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  O u0 p2 c0 {2,S} {11,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22580,19 +22580,19 @@ u"""
 
 entry(
     index = 617,
-    label = "COC(F)D[C]F",
+    label = "COCFDCFrad617",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {3,D} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {4,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22617,18 +22617,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.554 kJ/mol
 
 entry(
     index = 618,
-    label = "FCD[C]C(F)F",
+    label = "FCDCCFFrad618",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22653,17 +22653,17 @@ u"""
 
 entry(
     index = 619,
-    label = "OC(F)DCDCF",
+    label = "OCFDCDCF619",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,D}
-5 C u0 p0 c0 {4,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,D} {4,S} {5,S}
+2 C u0 p0 c0 {3,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22688,19 +22688,19 @@ u"""
 
 entry(
     index = 620,
-    label = "[C]#CCCF",
+    label = "CTCCCFrad620",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {9,T}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -22725,16 +22725,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.179 kJ/mol
 
 entry(
     index = 621,
-    label = "CDC(F)OF",
+    label = "CDCFOF621",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22759,16 +22759,16 @@ u"""
 
 entry(
     index = 622,
-    label = "[O]C(F)OF",
+    label = "OCFOFrad622",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22793,21 +22793,21 @@ u"""
 
 entry(
     index = 623,
-    label = "CC(C)D[C]F",
+    label = "CCCDCFrad623",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,D}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  C u1 p0 c0 {2,D} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u1 p0 c0 {3,D} {11,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22832,17 +22832,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.447 kJ/mol
 
 entry(
     index = 624,
-    label = "FCDCC(F)(F)F",
+    label = "FCDCCFFF624",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 F u0 p3 c0 {4,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -22868,16 +22868,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.679 kJ/mol
 
 entry(
     index = 625,
-    label = "FC1[C]DC1",
+    label = "FC1CDC1rad625",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {2,S} {3,D} {6,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -22902,20 +22902,20 @@ u"""
 
 entry(
     index = 626,
-    label = "CCCDCF",
+    label = "CCCDCF626",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,D} {11,S}
-4  C u0 p0 c0 {3,D} {5,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -22941,15 +22941,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.251 kJ/mol
 
 entry(
     index = 627,
-    label = "OD[C]C(DO)F",
+    label = "ODCCDOFrad627",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 O u0 p2 c0 {3,D}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,D}
+3 O u0 p2 c0 {1,D}
+4 F u0 p3 c0 {1,S}
+5 O u0 p2 c0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -22974,17 +22974,17 @@ u"""
 
 entry(
     index = 628,
-    label = "FC[C]1OO1",
+    label = "FCC1OO1rad628",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23009,17 +23009,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.976 kJ/mol
 
 entry(
     index = 629,
-    label = "FC1OOC1F",
+    label = "FC1OOC1F629",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+2 C u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23044,19 +23044,19 @@ u"""
 
 entry(
     index = 630,
-    label = "CC#C[CH]F",
+    label = "CCTCCHFrad630",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {2,S} {3,T}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23081,21 +23081,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.096 kJ/mol
 
 entry(
     index = 631,
-    label = "FC1[CH]CC1F",
+    label = "FC1CHCC1Frad631",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  C u0 p0 c0 {2,S} {5,S} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+4  C u1 p0 c0 {2,S} {3,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23120,16 +23120,16 @@ u"""
 
 entry(
     index = 632,
-    label = "OD[C]C(F)F",
+    label = "ODCCFFrad632",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,D}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -23154,19 +23154,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.716 kJ/mol
 
 entry(
     index = 633,
-    label = "FOCOC(F)F",
+    label = "FOCOCFF633",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23191,17 +23191,17 @@ u"""
 
 entry(
     index = 634,
-    label = "CDCC#CF",
+    label = "CDCCTCF634",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23226,23 +23226,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.975 kJ/mol
 
 entry(
     index = 635,
-    label = "C[C](C)C(F)F",
+    label = "CCCCFFrad635",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {13,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+3  C u0 p0 c0 {4,S} {5,S} {6,S} {13,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {3,S}
+6  F u0 p3 c0 {3,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23267,17 +23267,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.748 kJ/mol
 
 entry(
     index = 636,
-    label = "FCDC1CDC1",
+    label = "FCDC1CDC1636",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,D} {7,S}
-5 C u0 p0 c0 {3,S} {4,D} {8,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {3,D} {5,S}
+3 C u0 p0 c0 {1,S} {2,D} {6,S}
+4 C u0 p0 c0 {1,D} {7,S} {8,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {4,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23302,17 +23302,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.217 kJ/mol
 
 entry(
     index = 637,
-    label = "ODCC(F)DCF",
+    label = "ODCCFDCF637",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {5,D} {7,S}
+3 C u0 p0 c0 {1,D} {6,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 O u0 p2 c0 {2,D}
+6 F u0 p3 c0 {3,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23337,21 +23337,21 @@ u"""
 
 entry(
     index = 638,
-    label = "FCC1[CH]C1",
+    label = "FCC1CHC1rad638",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  C u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23376,17 +23376,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.993 kJ/mol
 
 entry(
     index = 639,
-    label = "[O]C#CC(F)F",
+    label = "OCTCCFFrad639",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+3 C u0 p0 c0 {2,T} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u1 p2 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23411,16 +23411,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.034 kJ/mol
 
 entry(
     index = 640,
-    label = "OCC(F)F",
+    label = "OCCFF640",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {3,S}
 """,
@@ -23447,19 +23447,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.418 kJ/mol
 
 entry(
     index = 641,
-    label = "FC1[CH]OC1F",
+    label = "FC1CHOC1Frad641",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 C u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {6,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23484,19 +23484,19 @@ u"""
 
 entry(
     index = 642,
-    label = "FC#CCC(F)F",
+    label = "FCTCCCFF642",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,T}
-3  C u0 p0 c0 {2,T} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {3,T} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23521,19 +23521,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.122 kJ/mol
 
 entry(
     index = 643,
-    label = "CDCC(F)OF",
+    label = "CDCCFOF643",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23558,16 +23558,16 @@ u"""
 
 entry(
     index = 644,
-    label = "ODC[CH]F",
+    label = "ODCCHFrad644",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,D} {6,S}
+2 C u1 p0 c0 {1,S} {4,S} {5,S}
+3 O u0 p2 c0 {1,D}
+4 H u0 p0 c0 {2,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23592,19 +23592,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.527 kJ/mol
 
 entry(
     index = 645,
-    label = "ODC[CH]CF",
+    label = "ODCCHCFrad645",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {8,D} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+8 O u0 p2 c0 {3,D}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23629,21 +23629,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.164 kJ/mol
 
 entry(
     index = 646,
-    label = "CC1[CH]C1F",
+    label = "CC1CHC1Frad646",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {2,S} {3,S} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23668,23 +23668,23 @@ u"""
 
 entry(
     index = 647,
-    label = "CCC(F)[CH]F",
+    label = "CCCFCHFrad647",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {13,S}
-4  F u0 p3 c0 {3,S}
-5  C u1 p0 c0 {3,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23709,16 +23709,16 @@ u"""
 
 entry(
     index = 648,
-    label = "OC(O)D[C]F",
+    label = "OCODCFrad648",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 O u0 p2 c0 {2,S} {7,S}
-4 C u1 p0 c0 {2,D} {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 C u1 p0 c0 {1,D} {5,S}
 5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -23744,23 +23744,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.598 kJ/mol
 
 entry(
     index = 649,
-    label = "CC([CH]F)CF",
+    label = "CCCHFCFrad649",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {11,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  C u0 p0 c0 {2,S} {7,S} {12,S} {13,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23785,19 +23785,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.588 kJ/mol
 
 entry(
     index = 650,
-    label = "FCC1CDC1",
+    label = "FCC1CDC1650",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {9,S}
-5  C u0 p0 c0 {3,S} {4,D} {10,S}
-6  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,D} {9,S}
+4  C u0 p0 c0 {1,S} {3,D} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23822,18 +23822,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.55 kJ/mol
 
 entry(
     index = 651,
-    label = "[CH]DCCOF",
+    label = "CHDCCOFrad651",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -23859,21 +23859,21 @@ u"""
 
 entry(
     index = 652,
-    label = "[CH2]CC(O)F",
+    label = "CH2CCOFrad652",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  O u0 p2 c0 {5,S} {11,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  O u0 p2 c0 {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23898,16 +23898,16 @@ u"""
 
 entry(
     index = 653,
-    label = "FC1(F)CDC1",
+    label = "FC1FCDC1653",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {6,S}
-5 C u0 p0 c0 {2,S} {4,D} {7,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23932,21 +23932,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.672 kJ/mol
 
 entry(
     index = 654,
-    label = "C[C](F)CDCF",
+    label = "CCFCDCFrad654",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {10,S}
-5  C u0 p0 c0 {4,D} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u1 p0 c0 {1,S} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -23971,15 +23971,15 @@ u"""
 
 entry(
     index = 655,
-    label = "C#CC(DO)F",
+    label = "CTCCDOF655",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 O u0 p2 c0 {3,D}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,D} {5,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {6,S}
+4 O u0 p2 c0 {1,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24004,21 +24004,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.506 kJ/mol
 
 entry(
     index = 656,
-    label = "FCC(F)COF",
+    label = "FCCFCOF656",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
-6  O u0 p2 c0 {5,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u0 p2 c0 {2,S} {12,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24043,16 +24043,16 @@ u"""
 
 entry(
     index = 657,
-    label = "CDCDC(O)F",
+    label = "CDCDCOF657",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {8,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {3,D} {4,S} {5,S}
+2 C u0 p0 c0 {3,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u0 p2 c0 {1,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -24078,19 +24078,19 @@ u"""
 
 entry(
     index = 658,
-    label = "CC1DC(F)[CH]1",
+    label = "CC1DCFCH1rad658",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {2,S} {3,S} {6,S}
-6 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 C u1 p0 c0 {2,S} {3,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24115,16 +24115,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.891 kJ/mol
 
 entry(
     index = 659,
-    label = "F[C]1CDC1",
+    label = "FC1CDC1rad659",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {2,S} {3,D} {6,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {4,S}
+1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 C u0 p0 c0 {1,S} {3,D} {5,S}
+3 C u0 p0 c0 {1,S} {2,D} {6,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24149,19 +24149,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.921 kJ/mol
 
 entry(
     index = 660,
-    label = "FCCDC(F)OF",
+    label = "FCCDCFOF660",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {4,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24186,17 +24186,17 @@ u"""
 
 entry(
     index = 661,
-    label = "OOCDC(F)F",
+    label = "OOCDCFF661",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {8,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24221,18 +24221,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.955 kJ/mol
 
 entry(
     index = 662,
-    label = "OCOCF",
+    label = "OCOCF662",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {2,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -24258,19 +24258,19 @@ u"""
 
 entry(
     index = 663,
-    label = "CDC(O)[CH]F",
+    label = "CDCOCHFrad663",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {9,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {5,S} {6,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {3,S}
+6 F u0 p3 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24295,21 +24295,21 @@ u"""
 
 entry(
     index = 664,
-    label = "F[CH]C1CC1",
+    label = "FCHC1CC1rad664",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5  C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6  C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4  C u1 p0 c0 {1,S} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24334,21 +24334,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.965 kJ/mol
 
 entry(
     index = 665,
-    label = "CCCOF",
+    label = "CCCOF665",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u0 p2 c0 {2,S} {12,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24373,19 +24373,19 @@ u"""
 
 entry(
     index = 666,
-    label = "OC(F)COF",
+    label = "OCFCOF666",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {10,S}
+4  O u0 p2 c0 {2,S} {9,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24410,15 +24410,15 @@ u"""
 
 entry(
     index = 667,
-    label = "[O]OC#CF",
+    label = "OOCTCFrad667",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,T}
-4 C u0 p0 c0 {3,T} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,T}
+2 O u0 p2 c0 {1,S} {4,S}
+3 C u0 p0 c0 {1,T} {5,S}
+4 O u1 p2 c0 {2,S}
+5 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24443,19 +24443,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.032 kJ/mol
 
 entry(
     index = 668,
-    label = "FC1D[C]CC1",
+    label = "FC1DCCC1rad668",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {2,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24480,16 +24480,16 @@ u"""
 
 entry(
     index = 669,
-    label = "F[C]1CO1",
+    label = "FC1CO1rad669",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 O u0 p2 c0 {2,S} {3,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {6,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24514,16 +24514,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.198 kJ/mol
 
 entry(
     index = 670,
-    label = "[O]OCF",
+    label = "OOCFrad670",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 F u0 p3 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24548,14 +24548,14 @@ u"""
 
 entry(
     index = 671,
-    label = "FC1OO1",
+    label = "FC1OO1671",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {2,S} {3,S}
-5 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24580,19 +24580,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.579 kJ/mol
 
 entry(
     index = 672,
-    label = "COCOF",
+    label = "COCOF672",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24617,19 +24617,19 @@ u"""
 
 entry(
     index = 673,
-    label = "FCDCCDCF",
+    label = "FCDCCDCF673",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {7,S}
-3  C u0 p0 c0 {2,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,D} {5,S}
+2  C u0 p0 c0 {1,S} {4,D} {6,S}
+3  C u0 p0 c0 {1,D} {7,S} {9,S}
+4  C u0 p0 c0 {2,D} {8,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  F u0 p3 c0 {3,S}
+8  F u0 p3 c0 {4,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24654,19 +24654,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.245 kJ/mol
 
 entry(
     index = 674,
-    label = "FCDCOC(F)F",
+    label = "FCDCOCFF674",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24691,19 +24691,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.738 kJ/mol
 
 entry(
     index = 675,
-    label = "C[C]1OC1(F)F",
+    label = "CC1OC1FFrad675",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24728,19 +24728,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.979 kJ/mol
 
 entry(
     index = 676,
-    label = "FCC1D[C]C1F",
+    label = "FCC1DCC1Frad676",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u1 p0 c0 {3,D} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 C u1 p0 c0 {1,S} {3,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24765,21 +24765,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 
 entry(
     index = 677,
-    label = "C[CH]CDC(F)F",
+    label = "CCHCDCFFrad677",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {11,S}
-5  C u0 p0 c0 {4,D} {6,S} {7,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u1 p0 c0 {1,S} {3,S} {8,S}
+3  C u0 p0 c0 {2,S} {4,D} {9,S}
+4  C u0 p0 c0 {3,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24804,18 +24804,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.999 kJ/mol
 
 entry(
     index = 678,
-    label = "FCD[C]CF",
+    label = "FCDCCFrad678",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24840,15 +24840,15 @@ u"""
 
 entry(
     index = 679,
-    label = "OC#COF",
+    label = "OCTCOF679",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
+1 C u0 p0 c0 {2,T} {3,S}
+2 C u0 p0 c0 {1,T} {4,S}
+3 O u0 p2 c0 {1,S} {6,S}
+4 O u0 p2 c0 {2,S} {5,S}
 5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24873,19 +24873,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.119 kJ/mol
 
 entry(
     index = 680,
-    label = "CDC(F)C([O])F",
+    label = "CDCFCOFrad680",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
-5 O u1 p2 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24910,17 +24910,17 @@ u"""
 
 entry(
     index = 681,
-    label = "ODCDCC(F)F",
+    label = "ODCDCCFF681",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -24945,19 +24945,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.72 kJ/mol
 
 entry(
     index = 682,
-    label = "C#CC(F)(F)[CH]F",
+    label = "CTCCFFCHFrad682",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {9,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 C u1 p0 c0 {3,S} {7,S} {8,S}
-7 H u0 p0 c0 {6,S}
-8 F u0 p3 c0 {6,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -24982,19 +24982,19 @@ u"""
 
 entry(
     index = 683,
-    label = "[O]C(F)CDCF",
+    label = "OCFCDCFrad683",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25019,21 +25019,21 @@ u"""
 
 entry(
     index = 684,
-    label = "CC(F)[CH]O",
+    label = "CCFCHOrad684",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  O u0 p2 c0 {4,S} {11,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {4,S} {10,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25058,16 +25058,16 @@ u"""
 
 entry(
     index = 685,
-    label = "FCOOF",
+    label = "FCOOF685",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {2,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25092,19 +25092,19 @@ u"""
 
 entry(
     index = 686,
-    label = "CCC([O])(F)F",
+    label = "CCCOFFrad686",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4  O u1 p2 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  F u0 p3 c0 {3,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+3  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  O u1 p2 c0 {3,S}
+7  F u0 p3 c0 {3,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {2,S}
 """,
@@ -25131,19 +25131,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.333 kJ/mol
 
 entry(
     index = 687,
-    label = "ODC(F)CCF",
+    label = "ODCFCCF687",
     molecule = 
 """
-1  O u0 p2 c0 {2,D}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {4,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,D} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  O u0 p2 c0 {3,D}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25168,18 +25168,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.44 kJ/mol
 
 entry(
     index = 688,
-    label = "FC1C[CH]O1",
+    label = "FC1CCHO1rad688",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 O u0 p2 c0 {2,S} {4,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {4,S} {9,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -25205,19 +25205,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.903 kJ/mol
 
 entry(
     index = 689,
-    label = "OOC(F)CF",
+    label = "OOCFCF689",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25242,17 +25242,17 @@ u"""
 
 entry(
     index = 690,
-    label = "FC#COC(F)F",
+    label = "FCTCOCFF690",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25277,19 +25277,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.006 kJ/mol
 
 entry(
     index = 691,
-    label = "FCC1CDC1F",
+    label = "FCC1CDC1F691",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,D} {10,S}
-5  C u0 p0 c0 {3,S} {4,D} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u0 p0 c0 {1,S} {3,D} {9,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+9  F u0 p3 c0 {4,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25314,14 +25314,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.058 kJ/mol
 
 entry(
     index = 692,
-    label = "[O]C(DO)F",
+    label = "OCDOFrad692",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 O u0 p2 c0 {2,D}
-4 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 O u1 p2 c0 {1,S}
+3 O u0 p2 c0 {1,D}
+4 F u0 p3 c0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25346,18 +25346,18 @@ u"""
 
 entry(
     index = 693,
-    label = "CDCC(F)(F)F",
+    label = "CDCCFFF693",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {9,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 F u0 p3 c0 {3,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25382,19 +25382,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.84 kJ/mol
 
 entry(
     index = 694,
-    label = "[CH2]OC(O)F",
+    label = "CH2OCOFrad694",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 O u0 p2 c0 {1,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6 O u0 p2 c0 {5,S} {9,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25419,7 +25419,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.229 kJ/mol
 
 entry(
     index = 695,
-    label = "CDC([O])F",
+    label = "CDCOFrad695",
     molecule = 
 """
 multiplicity 2
@@ -25453,21 +25453,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.153 kJ/mol
 
 entry(
     index = 696,
-    label = "CC(F)DC[CH]F",
+    label = "CCFDCCHFrad696",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,D}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,D} {5,S} {11,S}
-5  C u1 p0 c0 {4,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u1 p0 c0 {3,S} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25492,21 +25492,21 @@ u"""
 
 entry(
     index = 697,
-    label = "FCOC(F)CF",
+    label = "FCOCFCF697",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {11,S} {12,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25531,18 +25531,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.065 kJ/mol
 
 entry(
     index = 698,
-    label = "CD[C]CDC(F)F",
+    label = "CDCCDCFFrad698",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {9,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {4,D} {8,S} {9,S}
+4 C u1 p0 c0 {1,S} {3,D}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -25568,16 +25568,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.93 kJ/mol
 
 entry(
     index = 699,
-    label = "FC#CC(F)F",
+    label = "FCTCCFF699",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+3 C u0 p0 c0 {2,T} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25602,21 +25602,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.46 kJ/mol
 
 entry(
     index = 700,
-    label = "F[CH]CDCCF",
+    label = "FCHCDCCFrad700",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {8,S}
-5  C u0 p0 c0 {4,D} {6,S} {9,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u1 p0 c0 {3,S} {10,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25641,17 +25641,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.353 kJ/mol
 
 entry(
     index = 701,
-    label = "OC1CDC1F",
+    label = "OC1CDC1F701",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,D} {8,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {1,S} {2,D} {6,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {3,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25676,16 +25676,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.163 kJ/mol
 
 entry(
     index = 702,
-    label = "FC1(F)[C]DC1",
+    label = "FC1FCDC1rad702",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,D}
-5 C u0 p0 c0 {2,S} {4,D} {6,S}
-6 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25710,15 +25710,15 @@ u"""
 
 entry(
     index = 703,
-    label = "OC1D[C]C1F",
+    label = "OC1DCC1Frad703",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {2,S} {7,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {4,S}
 """,
@@ -25745,20 +25745,20 @@ u"""
 
 entry(
     index = 704,
-    label = "CCCC(F)F",
+    label = "CCCCFF704",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {14,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+4  C u0 p0 c0 {2,S} {9,S} {10,S} {14,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {4,S}
+10 F u0 p3 c0 {4,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {3,S}
 14 H u0 p0 c0 {4,S}
@@ -25786,17 +25786,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.912 kJ/mol
 
 entry(
     index = 705,
-    label = "OCCDCF",
+    label = "OCCDCF705",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {6,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
@@ -25823,16 +25823,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.825 kJ/mol
 
 entry(
     index = 706,
-    label = "FC1DC[CH]1",
+    label = "FC1DCCH1rad706",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 C u1 p0 c0 {2,S} {3,S} {5,S}
-5 H u0 p0 c0 {4,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {3,S} {6,S}
+3 C u1 p0 c0 {1,S} {2,S} {5,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25857,19 +25857,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.707 kJ/mol
 
 entry(
     index = 707,
-    label = "CC1(F)OC1F",
+    label = "CC1FOC1F707",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  F u0 p3 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25894,21 +25894,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 
 entry(
     index = 708,
-    label = "C[C](F)C(O)F",
+    label = "CCFCOFrad708",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  O u0 p2 c0 {4,S} {11,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25933,17 +25933,17 @@ u"""
 
 entry(
     index = 709,
-    label = "ODCDCCF",
+    label = "ODCDCCF709",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -25968,17 +25968,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.541 kJ/mol
 
 entry(
     index = 710,
-    label = "OC(F)C#CF",
+    label = "OCFCTCF710",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,T}
-5 C u0 p0 c0 {4,T} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 O u0 p2 c0 {1,S} {7,S}
+4 C u0 p0 c0 {2,T} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26003,18 +26003,18 @@ u"""
 
 entry(
     index = 711,
-    label = "[CH]DC(F)C(F)(F)F",
+    label = "CHDCFCFFFrad711",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26039,21 +26039,21 @@ u"""
 
 entry(
     index = 712,
-    label = "FOCCC(F)F",
+    label = "FOCCCFF712",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {12,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u0 p2 c0 {2,S} {12,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26078,13 +26078,13 @@ u"""
 
 entry(
     index = 713,
-    label = "CDCCF",
+    label = "CDCCF713",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {5,S} {6,S}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
@@ -26114,18 +26114,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.452 kJ/mol
 
 entry(
     index = 714,
-    label = "CCC([O])F",
+    label = "CCCOFrad714",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {11,S}
-4  O u1 p2 c0 {3,S}
-5  F u0 p3 c0 {3,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {6,S} {7,S} {11,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  O u1 p2 c0 {3,S}
+7  F u0 p3 c0 {3,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {3,S}
@@ -26153,17 +26153,17 @@ u"""
 
 entry(
     index = 715,
-    label = "CDC([O])OF",
+    label = "CDCOOFrad715",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u1 p2 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26188,21 +26188,21 @@ u"""
 
 entry(
     index = 716,
-    label = "CC1[C](F)C1F",
+    label = "CC1CFC1Frad716",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {3,S} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26227,21 +26227,21 @@ u"""
 
 entry(
     index = 717,
-    label = "C[CH]C(O)F",
+    label = "CCHCOFrad717",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
-5  O u0 p2 c0 {4,S} {11,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  O u0 p2 c0 {1,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26266,21 +26266,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.796 kJ/mol
 
 entry(
     index = 718,
-    label = "FCCDC(F)CF",
+    label = "FCCDCFCF718",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {11,S} {12,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {12,S}
+4  C u0 p0 c0 {2,S} {3,D} {11,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {4,S}
+12 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26305,19 +26305,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.346 kJ/mol
 
 entry(
     index = 719,
-    label = "CCDC([O])F",
+    label = "CCDCOFrad719",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,D} {9,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u1 p2 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 O u1 p2 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26342,19 +26342,19 @@ u"""
 
 entry(
     index = 720,
-    label = "[O]C(CF)OF",
+    label = "OCCFOFrad720",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {2,S} {6,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26379,16 +26379,16 @@ u"""
 
 entry(
     index = 721,
-    label = "FOCDC(F)F",
+    label = "FOCDCFF721",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26413,19 +26413,19 @@ u"""
 
 entry(
     index = 722,
-    label = "FCC(OF)OF",
+    label = "FCCOFOF722",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {3,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  O u0 p2 c0 {1,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26450,18 +26450,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.289 kJ/mol
 
 entry(
     index = 723,
-    label = "F[C]1CC1",
+    label = "FC1CC1rad723",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
-5 H u0 p0 c0 {3,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26486,17 +26486,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.166 kJ/mol
 
 entry(
     index = 724,
-    label = "FC1D[C]CO1",
+    label = "FC1DCCO1rad724",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {4,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 O u0 p2 c0 {1,S} {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26521,18 +26521,18 @@ u"""
 
 entry(
     index = 725,
-    label = "CDCDC[CH]F",
+    label = "CDCDCCHFrad725",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,D} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 C u0 p0 c0 {4,D} {8,S} {9,S}
+4 C u0 p0 c0 {1,D} {3,D}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -26558,19 +26558,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.315 kJ/mol
 
 entry(
     index = 726,
-    label = "CCDCD[C]F",
+    label = "CCDCDCFrad726",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u0 p0 c0 {1,S} {3,D} {9,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {8,S}
 3 C u0 p0 c0 {2,D} {4,D}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+4 C u1 p0 c0 {3,D} {9,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26595,21 +26595,21 @@ u"""
 
 entry(
     index = 727,
-    label = "CCCD[C]F",
+    label = "CCCDCFrad727",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,D} {11,S}
-4  C u1 p0 c0 {3,D} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26634,19 +26634,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.447 kJ/mol
 
 entry(
     index = 728,
-    label = "FC(F)C1CO1",
+    label = "FCFC1CO1728",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  O u0 p2 c0 {4,S} {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26671,15 +26671,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.465 kJ/mol
 
 entry(
     index = 729,
-    label = "[C]#CC(DO)F",
+    label = "CTCCDOFrad729",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 O u0 p2 c0 {3,D}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u0 p0 c0 {1,S} {5,T}
+3 O u0 p2 c0 {1,D}
+4 F u0 p3 c0 {1,S}
+5 C u1 p0 c0 {2,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -26704,7 +26704,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.878 kJ/mol
 
 entry(
     index = 730,
-    label = "CC([O])(F)F",
+    label = "CCOFFrad730",
     molecule = 
 """
 multiplicity 2
@@ -26740,7 +26740,7 @@ u"""
 
 entry(
     index = 731,
-    label = "CCCCF",
+    label = "CCCCF731",
     molecule = 
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -26781,19 +26781,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.997 kJ/mol
 
 entry(
     index = 732,
-    label = "F[CH]C1CO1",
+    label = "FCHC1CO1rad732",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 O u0 p2 c0 {4,S} {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26818,17 +26818,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.27 kJ/mol
 
 entry(
     index = 733,
-    label = "CDCCDCF",
+    label = "CDCCDCF733",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,D} {9,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,D} {5,S}
+2  C u0 p0 c0 {1,S} {4,D} {6,S}
+3  C u0 p0 c0 {1,D} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {7,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  F u0 p3 c0 {4,S}
+8  H u0 p0 c0 {3,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
@@ -26855,21 +26855,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.48 kJ/mol
 
 entry(
     index = 734,
-    label = "CC[C]DCF",
+    label = "CCCDCFrad734",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-3  C u1 p0 c0 {2,S} {4,D}
-4  C u0 p0 c0 {3,D} {5,S} {11,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26894,21 +26894,21 @@ u"""
 
 entry(
     index = 735,
-    label = "COCCF",
+    label = "COCCF735",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26933,19 +26933,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.338 kJ/mol
 
 entry(
     index = 736,
-    label = "FC1[C]DCC1F",
+    label = "FC1CDCC1Frad736",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {2,S} {3,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -26970,18 +26970,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 
 entry(
     index = 737,
-    label = "FCOCF",
+    label = "FCOCF737",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+2 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27006,21 +27006,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.363 kJ/mol
 
 entry(
     index = 738,
-    label = "CC(F)[C](O)F",
+    label = "CCFCOFrad738",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  O u0 p2 c0 {4,S} {11,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {4,S} {10,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27045,18 +27045,18 @@ u"""
 
 entry(
     index = 739,
-    label = "[CH2]C(O)F",
+    label = "CH2COFrad739",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {4,S} {8,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27081,18 +27081,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.096 kJ/mol
 
 entry(
     index = 740,
-    label = "CD[C]CF",
+    label = "CDCCFrad740",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {5,S} {6,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27117,16 +27117,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.297 kJ/mol
 
 entry(
     index = 741,
-    label = "FC1DCC1F",
+    label = "FC1DCC1F741",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27151,21 +27151,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.672 kJ/mol
 
 entry(
     index = 742,
-    label = "C[CH]OCF",
+    label = "CCHOCFrad742",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27190,19 +27190,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.044 kJ/mol
 
 entry(
     index = 743,
-    label = "CDCO[C](F)F",
+    label = "CDCOCFFrad743",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {9,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u1 p0 c0 {4,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27227,19 +27227,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.855 kJ/mol
 
 entry(
     index = 744,
-    label = "CC1OC1(F)F",
+    label = "CC1OC1FF744",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27264,15 +27264,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 
 entry(
     index = 745,
-    label = "OC#CC(F)F",
+    label = "OCTCCFF745",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
 3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
 7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {4,S}
 """,
@@ -27299,19 +27299,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.112 kJ/mol
 
 entry(
     index = 746,
-    label = "[CH]DCC(O)F",
+    label = "CHDCCOFrad746",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
-5 O u0 p2 c0 {4,S} {9,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27336,21 +27336,21 @@ u"""
 
 entry(
     index = 747,
-    label = "FC1C[CH]C1",
+    label = "FC1CCHC1rad747",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+4  C u1 p0 c0 {2,S} {3,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27375,17 +27375,17 @@ u"""
 
 entry(
     index = 748,
-    label = "ODCD[C]C(F)F",
+    label = "ODCDCCFFrad748",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,D}
+3 C u0 p0 c0 {2,D} {7,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -27410,16 +27410,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.993 kJ/mol
 
 entry(
     index = 749,
-    label = "FOOC(F)F",
+    label = "FOOCFF749",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {4,S}
+3 O u0 p2 c0 {2,S} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27444,15 +27444,15 @@ u"""
 
 entry(
     index = 750,
-    label = "ODCDCD[C]F",
+    label = "ODCDCDCFrad750",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,D}
+2 C u0 p0 c0 {1,D} {4,D}
+3 C u1 p0 c0 {1,D} {5,S}
+4 O u0 p2 c0 {2,D}
+5 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27477,21 +27477,21 @@ u"""
 
 entry(
     index = 751,
-    label = "CO[C](C)F",
+    label = "COCCFrad751",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {4,S} {11,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27516,19 +27516,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.72 kJ/mol
 
 entry(
     index = 752,
-    label = "[O]CC(O)F",
+    label = "OCCOFrad752",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 O u0 p2 c0 {3,S} {9,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u1 p2 c0 {2,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27553,17 +27553,17 @@ u"""
 
 entry(
     index = 753,
-    label = "CDCC(O)F",
+    label = "CDCCOF753",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  O u0 p2 c0 {3,S} {10,S}
-5  F u0 p3 c0 {3,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {3,D} {7,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
@@ -27590,19 +27590,19 @@ u"""
 
 entry(
     index = 754,
-    label = "CDC(F)O[CH]F",
+    label = "CDCFOCHFrad754",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {8,S} {9,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u1 p0 c0 {4,S} {8,S} {9,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27627,18 +27627,18 @@ u"""
 
 entry(
     index = 755,
-    label = "CO[CH]F",
+    label = "COCHFrad755",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27663,19 +27663,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.199 kJ/mol
 
 entry(
     index = 756,
-    label = "FCOC(F)OF",
+    label = "FCOCFOF756",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {4,S} {7,S}
-7  F u0 p3 c0 {6,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  O u0 p2 c0 {1,S} {2,S}
+4  O u0 p2 c0 {1,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27700,18 +27700,18 @@ u"""
 
 entry(
     index = 757,
-    label = "F[C]DCCF",
+    label = "FCDCCFrad757",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27736,19 +27736,19 @@ u"""
 
 entry(
     index = 758,
-    label = "CC(F)DCOF",
+    label = "CCFDCOF758",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,D}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,D} {5,S} {10,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27773,17 +27773,17 @@ u"""
 
 entry(
     index = 759,
-    label = "ODC(F)CO",
+    label = "ODCFCO759",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 O u0 p2 c0 {4,S} {8,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27808,18 +27808,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.681 kJ/mol
 
 entry(
     index = 760,
-    label = "FOC[C](F)F",
+    label = "FOCCFFrad760",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27844,18 +27844,18 @@ u"""
 
 entry(
     index = 761,
-    label = "[CH2]C(F)OF",
+    label = "CH2CFOFrad761",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 O u0 p2 c0 {4,S} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27880,16 +27880,16 @@ u"""
 
 entry(
     index = 762,
-    label = "ODC(F)[CH]F",
+    label = "ODCFCHFrad762",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,D}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27914,19 +27914,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.306 kJ/mol
 
 entry(
     index = 763,
-    label = "CDC(F)CDCF",
+    label = "CDCFCDCF763",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,D} {9,S}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,D} {5,S}
+2  C u0 p0 c0 {1,S} {4,D} {6,S}
+3  C u0 p0 c0 {1,D} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {7,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  F u0 p3 c0 {4,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27951,19 +27951,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.039 kJ/mol
 
 entry(
     index = 764,
-    label = "CDC([O])CF",
+    label = "CDCOCFrad764",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u1 p2 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+7 O u1 p2 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -27988,15 +27988,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.718 kJ/mol
 
 entry(
     index = 765,
-    label = "ODC1CDC1F",
+    label = "ODC1CDC1F765",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {5,S}
+4 O u0 p2 c0 {1,D}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28021,21 +28021,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.221 kJ/mol
 
 entry(
     index = 766,
-    label = "COC[CH]F",
+    label = "COCCHFrad766",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28060,16 +28060,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.738 kJ/mol
 
 entry(
     index = 767,
-    label = "CDCOF",
+    label = "CDCOF767",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {5,S} {6,S}
-2 C u0 p0 c0 {1,D} {3,S} {7,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {1,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28094,15 +28094,15 @@ u"""
 
 entry(
     index = 768,
-    label = "[CH]DC(F)F",
+    label = "CHDCFFrad768",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u1 p0 c0 {1,D} {5,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28127,17 +28127,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.112 kJ/mol
 
 entry(
     index = 769,
-    label = "FOC1DCC1F",
+    label = "FOC1DCC1F769",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 O u0 p2 c0 {2,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28162,21 +28162,21 @@ u"""
 
 entry(
     index = 770,
-    label = "FCDC(CF)CF",
+    label = "FCDCCFCF770",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {6,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  C u0 p0 c0 {3,S} {7,S} {11,S} {12,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {6,S}
-12 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {11,S} {12,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {4,S}
+12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28201,19 +28201,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.225 kJ/mol
 
 entry(
     index = 771,
-    label = "CD[C]OC(F)F",
+    label = "CDCOCFFrad771",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28238,19 +28238,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.256 kJ/mol
 
 entry(
     index = 772,
-    label = "O[C](F)OCF",
+    label = "OCFOCFrad772",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {3,S} {4,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {2,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28275,23 +28275,23 @@ u"""
 
 entry(
     index = 773,
-    label = "CC(C)[CH]F",
+    label = "CCCCHFrad773",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {10,S}
-3  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {12,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {4,S}
+13 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28316,19 +28316,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.008 kJ/mol
 
 entry(
     index = 774,
-    label = "FCDC(F)OCF",
+    label = "FCDCFOCF774",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {5,S}
-4  F u0 p3 c0 {3,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  C u0 p0 c0 {5,S} {7,S} {9,S} {10,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {6,S}
-10 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28353,21 +28353,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.29 kJ/mol
 
 entry(
     index = 775,
-    label = "O[C](CF)CF",
+    label = "OCCFCFrad775",
     molecule = 
 """
 multiplicity 2
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u1 p0 c0 {1,S} {3,S} {5,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
+3  C u1 p0 c0 {1,S} {2,S} {4,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {1,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28392,19 +28392,19 @@ u"""
 
 entry(
     index = 776,
-    label = "[CH]DC1CC1F",
+    label = "CHDC1CC1Frad776",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 C u1 p0 c0 {3,D} {9,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28429,19 +28429,19 @@ u"""
 
 entry(
     index = 777,
-    label = "FC1D[C]CC1F",
+    label = "FC1DCCC1Frad777",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,D} {9,S}
+4 C u1 p0 c0 {2,S} {3,D}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28466,19 +28466,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.779 kJ/mol
 
 entry(
     index = 778,
-    label = "FC[C]1OC1F",
+    label = "FCC1OC1Frad778",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3 C u1 p0 c0 {1,S} {2,S} {4,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28503,21 +28503,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.979 kJ/mol
 
 entry(
     index = 779,
-    label = "F[CH]COCF",
+    label = "FCHCOCFrad779",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  H u0 p0 c0 {2,S}
-4  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-5  O u0 p2 c0 {4,S} {6,S}
-6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28542,19 +28542,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.329 kJ/mol
 
 entry(
     index = 780,
-    label = "[O]C1CC1F",
+    label = "OC1CC1Frad780",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {2,S} {5,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28579,21 +28579,21 @@ u"""
 
 entry(
     index = 781,
-    label = "FCC1[CH]C1F",
+    label = "FCC1CHC1Frad781",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  C u0 p0 c0 {3,S} {4,S} {7,S} {11,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28618,17 +28618,17 @@ u"""
 
 entry(
     index = 782,
-    label = "FC1CDCO1",
+    label = "FC1CDCO1782",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 O u0 p2 c0 {2,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 O u0 p2 c0 {1,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28653,18 +28653,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.605 kJ/mol
 
 entry(
     index = 783,
-    label = "CDC1CC1F",
+    label = "CDC1CC1F783",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {6,S} {7,S}
-2  C u0 p0 c0 {1,D} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {3,D} {9,S} {10,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -28690,17 +28690,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.308 kJ/mol
 
 entry(
     index = 784,
-    label = "FCC1DCO1",
+    label = "FCC1DCO1784",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u0 p0 c0 {2,S} {4,D} {5,S}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 O u0 p2 c0 {3,S} {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {4,S} {8,S}
+4 O u0 p2 c0 {2,S} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28725,21 +28725,21 @@ u"""
 
 entry(
     index = 785,
-    label = "FC1[CH]CC1",
+    label = "FC1CHCC1rad785",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {6,S}
-11 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+4  C u1 p0 c0 {2,S} {3,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28764,23 +28764,23 @@ u"""
 
 entry(
     index = 786,
-    label = "CC(F)[CH]CF",
+    label = "CCFCHCFrad786",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
-3  F u0 p3 c0 {2,S}
-4  C u1 p0 c0 {2,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28805,17 +28805,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.856 kJ/mol
 
 entry(
     index = 787,
-    label = "FOCDC(F)OF",
+    label = "FOCDCFOF787",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {8,S}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 O u0 p2 c0 {4,S} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {6,S}
+2 C u0 p0 c0 {1,D} {4,S} {5,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {2,S} {8,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {3,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28840,21 +28840,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.112 kJ/mol
 
 entry(
     index = 788,
-    label = "CC(D[C]F)CF",
+    label = "CCDCFCFrad788",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,D} {5,S}
-3  C u1 p0 c0 {2,D} {4,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {6,S} {10,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u1 p0 c0 {3,D} {11,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28879,17 +28879,17 @@ u"""
 
 entry(
     index = 789,
-    label = "C#CO[C](F)F",
+    label = "CTCOCFFrad789",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {7,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28914,19 +28914,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.729 kJ/mol
 
 entry(
     index = 790,
-    label = "CC(F)DCDCF",
+    label = "CCFDCDCF790",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,D}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,D} {5,D}
-5  C u0 p0 c0 {4,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {8,S}
+3  C u0 p0 c0 {4,D} {9,S} {10,S}
+4  C u0 p0 c0 {2,D} {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {5,S}
+8  F u0 p3 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28951,21 +28951,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.403 kJ/mol
 
 entry(
     index = 791,
-    label = "FCD[C]CC(F)F",
+    label = "FCDCCCFFrad791",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u1 p0 c0 {2,D} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {4,S} {6,S} {7,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,D} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {3,D}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -28990,15 +28990,15 @@ u"""
 
 entry(
     index = 792,
-    label = "ODCDC(O)F",
+    label = "ODCDCOF792",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {6,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,D}
+3 O u0 p2 c0 {1,S} {6,S}
+4 F u0 p3 c0 {1,S}
+5 O u0 p2 c0 {2,D}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29023,7 +29023,7 @@ u"""
 
 entry(
     index = 793,
-    label = "[O]C(F)(F)F",
+    label = "OCFFFrad793",
     molecule = 
 """
 multiplicity 2
@@ -29056,19 +29056,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.184 kJ/mol
 
 entry(
     index = 794,
-    label = "CCDCOF",
+    label = "CCDCOF794",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {9,S}
-3  C u0 p0 c0 {2,D} {4,S} {10,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29093,17 +29093,17 @@ u"""
 
 entry(
     index = 795,
-    label = "CDC1OC1F",
+    label = "CDC1OC1F795",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {4,S}
+3 C u0 p0 c0 {2,D} {7,S} {8,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29128,21 +29128,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.605 kJ/mol
 
 entry(
     index = 796,
-    label = "CCDC[C](F)F",
+    label = "CCDCCFFrad796",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,D} {10,S}
-3  C u0 p0 c0 {2,D} {4,S} {11,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  C u1 p0 c0 {3,S} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29167,18 +29167,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.366 kJ/mol
 
 entry(
     index = 797,
-    label = "[CH2]C(F)DCF",
+    label = "CH2CFDCFrad797",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,D}
-5 F u0 p3 c0 {4,S}
-6 C u0 p0 c0 {4,D} {7,S} {8,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29203,17 +29203,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.403 kJ/mol
 
 entry(
     index = 798,
-    label = "ODCOCF",
+    label = "ODCOCF798",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {7,D} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29238,19 +29238,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.725 kJ/mol
 
 entry(
     index = 799,
-    label = "COCDC(F)F",
+    label = "COCDCFF799",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {3,D} {4,S} {8,S}
+3  C u0 p0 c0 {2,D} {9,S} {10,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29275,21 +29275,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.081 kJ/mol
 
 entry(
     index = 800,
-    label = "C[C]1C(F)C1F",
+    label = "CC1CFC1Frad800",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {5,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {2,S} {3,S} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29314,21 +29314,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.774 kJ/mol
 
 entry(
     index = 801,
-    label = "FC[C]1CC1F",
+    label = "FCC1CC1Frad801",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  C u0 p0 c0 {3,S} {4,S} {6,S} {11,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {1,S} {2,S} {3,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29353,16 +29353,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.788 kJ/mol
 
 entry(
     index = 802,
-    label = "C#COCF",
+    label = "CTCOCF802",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {4,S}
+7 H u0 p0 c0 {1,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -29388,19 +29388,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.906 kJ/mol
 
 entry(
     index = 803,
-    label = "OC(O)[CH]F",
+    label = "OCOCHFrad803",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3 O u0 p2 c0 {2,S} {9,S}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29425,21 +29425,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.665 kJ/mol
 
 entry(
     index = 804,
-    label = "CCC(F)D[C]F",
+    label = "CCCFDCFrad804",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,D}
-4  F u0 p3 c0 {3,S}
-5  C u1 p0 c0 {3,D} {6,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,D} {10,S}
+4  C u1 p0 c0 {3,D} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29464,17 +29464,17 @@ u"""
 
 entry(
     index = 805,
-    label = "FC1D[C]OC1F",
+    label = "FC1DCOC1Frad805",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,D} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29499,17 +29499,17 @@ u"""
 
 entry(
     index = 806,
-    label = "[CH]DC1OC1F",
+    label = "CHDC1OC1Frad806",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {5,S}
-5 C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,D}
+3 O u0 p2 c0 {1,S} {2,S}
+4 C u1 p0 c0 {2,D} {7,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29534,17 +29534,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.683 kJ/mol
 
 entry(
     index = 807,
-    label = "[CH2]OC#CF",
+    label = "CH2OCTCFrad807",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 O u0 p2 c0 {1,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,T}
-6 C u0 p0 c0 {5,T} {7,S}
-7 F u0 p3 c0 {6,S}
+1 C u1 p0 c0 {2,S} {5,S} {6,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 C u0 p0 c0 {2,S} {4,T}
+4 C u0 p0 c0 {3,T} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29569,17 +29569,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.408 kJ/mol
 
 entry(
     index = 808,
-    label = "CC(C)(O)F",
+    label = "CCCOF808",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  O u0 p2 c0 {2,S} {12,S}
-5  F u0 p3 c0 {2,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {12,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {3,S}
@@ -29608,14 +29608,14 @@ u"""
 
 entry(
     index = 809,
-    label = "ODCD[C]F",
+    label = "ODCDCFrad809",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u1 p0 c0 {2,D} {4,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,D}
+2 C u1 p0 c0 {1,D} {4,S}
+3 O u0 p2 c0 {1,D}
+4 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29640,17 +29640,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.724 kJ/mol
 
 entry(
     index = 810,
-    label = "[O]C(DCF)OF",
+    label = "OCDCFOFrad810",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {2,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29675,15 +29675,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.387 kJ/mol
 
 entry(
     index = 811,
-    label = "OCDCC(F)F",
+    label = "OCDCCFF811",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
 3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
@@ -29712,18 +29712,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.52 kJ/mol
 
 entry(
     index = 812,
-    label = "CD[C]C(F)F",
+    label = "CDCCFFrad812",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29748,17 +29748,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.286 kJ/mol
 
 entry(
     index = 813,
-    label = "FOC1CDC1",
+    label = "FOC1CDC1813",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 C u0 p0 c0 {3,S} {5,D} {7,S}
-5 C u0 p0 c0 {3,S} {4,D} {8,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {7,S}
+4 O u0 p2 c0 {1,S} {8,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29783,19 +29783,19 @@ u"""
 
 entry(
     index = 814,
-    label = "CC(DO)[CH]F",
+    label = "CCDOCHFrad814",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u0 p0 c0 {1,S} {3,D} {4,S}
-3 O u0 p2 c0 {2,D}
-4 C u1 p0 c0 {2,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 C u1 p0 c0 {2,S} {8,S} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29820,18 +29820,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.209 kJ/mol
 
 entry(
     index = 815,
-    label = "CD[C]C(F)(F)F",
+    label = "CDCCFFFrad815",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 F u0 p3 c0 {3,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29856,14 +29856,14 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.838 kJ/mol
 
 entry(
     index = 816,
-    label = "C#CC(O)F",
+    label = "CTCCOF816",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 O u0 p2 c0 {3,S} {8,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 O u0 p2 c0 {1,S} {7,S}
+4 C u0 p0 c0 {2,T} {8,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
@@ -29891,19 +29891,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.892 kJ/mol
 
 entry(
     index = 817,
-    label = "C#CC(F)[CH]F",
+    label = "CTCCFCHFrad817",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {8,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4 F u0 p3 c0 {3,S}
-5 C u1 p0 c0 {3,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29928,19 +29928,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.34 kJ/mol
 
 entry(
     index = 818,
-    label = "FC1CDCC1F",
+    label = "FC1CDCC1F818",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,D} {8,S}
-4  C u0 p0 c0 {3,D} {5,S} {9,S}
-5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,D} {9,S}
+4  C u0 p0 c0 {2,S} {3,D} {10,S}
+5  F u0 p3 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -29965,17 +29965,17 @@ u"""
 
 entry(
     index = 819,
-    label = "ODC(O)CF",
+    label = "ODCOCF819",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {6,S}
-4 C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {7,D}
+3 O u0 p2 c0 {2,S} {8,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u0 p2 c0 {2,D}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30000,15 +30000,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.141 kJ/mol
 
 entry(
     index = 820,
-    label = "[O]C(F)DCDO",
+    label = "OCFDCDOrad820",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,D}
-5 O u0 p2 c0 {4,D}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,D}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 O u0 p2 c0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -30033,17 +30033,17 @@ u"""
 
 entry(
     index = 821,
-    label = "[CH]DCDCDCF",
+    label = "CHDCDCDCFrad821",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,D}
-5 C u0 p0 c0 {4,D} {6,S} {7,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u0 p0 c0 {2,D} {4,D}
+4 C u1 p0 c0 {3,D} {7,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30068,21 +30068,21 @@ u"""
 
 entry(
     index = 822,
-    label = "[CH2]C(F)OC",
+    label = "CH2CFOCrad822",
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {2,S} {3,S} {4,S}
-2  H u0 p0 c0 {1,S}
-3  H u0 p0 c0 {1,S}
-4  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {4,S} {7,S}
-7  C u0 p0 c0 {6,S} {9,S} {10,S} {11,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {7,S}
-10 H u0 p0 c0 {7,S}
-11 H u0 p0 c0 {7,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30107,21 +30107,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.984 kJ/mol
 
 entry(
     index = 823,
-    label = "COC(F)[CH]F",
+    label = "COCFCHFrad823",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {11,S}
-4  F u0 p3 c0 {3,S}
-5  C u1 p0 c0 {3,S} {6,S} {7,S}
-6  H u0 p0 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {3,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {2,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30146,18 +30146,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.329 kJ/mol
 
 entry(
     index = 824,
-    label = "CC(O)D[C]F",
+    label = "CCODCFrad824",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,D}
 3 O u0 p2 c0 {2,S} {9,S}
-4 C u1 p0 c0 {2,D} {5,S}
-5 F u0 p3 c0 {4,S}
+4 C u1 p0 c0 {2,D} {8,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -30183,16 +30183,16 @@ u"""
 
 entry(
     index = 825,
-    label = "C#CCDCF",
+    label = "CTCCDCF825",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {7,S}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -30218,20 +30218,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.397 kJ/mol
 
 entry(
     index = 826,
-    label = "C[C](C)F",
+    label = "CCCFrad826",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-4  F u0 p3 c0 {2,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {1,S} {2,S} {10,S}
+4  H u0 p0 c0 {1,S}
 5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30256,19 +30256,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.641 kJ/mol
 
 entry(
     index = 827,
-    label = "OC1[CH]C1F",
+    label = "OC1CHC1Frad827",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+3 C u1 p0 c0 {1,S} {2,S} {8,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30293,16 +30293,16 @@ u"""
 
 entry(
     index = 828,
-    label = "C#C[C](F)F",
+    label = "CTCCFFrad828",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
+1 C u1 p0 c0 {2,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {6,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30327,19 +30327,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.254 kJ/mol
 
 entry(
     index = 829,
-    label = "C#CC([CH2])F",
+    label = "CTCCCH2Frad829",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,T} {8,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {7,S} {9,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 H u0 p0 c0 {4,S}
-6 H u0 p0 c0 {4,S}
-7 F u0 p3 c0 {3,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30364,18 +30364,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.091 kJ/mol
 
 entry(
     index = 830,
-    label = "F[CH]OCF",
+    label = "FCHOCFrad830",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 O u0 p2 c0 {2,S} {5,S}
-5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {5,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30400,13 +30400,13 @@ u"""
 
 entry(
     index = 831,
-    label = "OC(F)F",
+    label = "OCFF831",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-3 F u0 p3 c0 {2,S}
-4 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 """,
@@ -30433,19 +30433,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.855 kJ/mol
 
 entry(
     index = 832,
-    label = "OC(F)DCCF",
+    label = "OCFDCCF832",
     molecule = 
 """
-1  O u0 p2 c0 {2,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,D}
-3  F u0 p3 c0 {2,S}
-4  C u0 p0 c0 {2,D} {5,S} {8,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {8,S}
+3  C u0 p0 c0 {2,D} {4,S} {9,S}
+4  O u0 p2 c0 {3,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+8  H u0 p0 c0 {2,S}
+9  F u0 p3 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30470,17 +30470,17 @@ u"""
 
 entry(
     index = 833,
-    label = "CDCDCDCF",
+    label = "CDCDCDCF833",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,D}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {8,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,D} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {5,S} {8,S}
+3 C u0 p0 c0 {1,D} {4,D}
+4 C u0 p0 c0 {2,D} {3,D}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30505,21 +30505,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.288 kJ/mol
 
 entry(
     index = 834,
-    label = "C[C]DCCF",
+    label = "CCDCCFrad834",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u1 p0 c0 {1,S} {3,D}
-3  C u0 p0 c0 {2,D} {4,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  F u0 p3 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30544,19 +30544,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.011 kJ/mol
 
 entry(
     index = 835,
-    label = "CDCC(F)DCF",
+    label = "CDCCFDCF835",
     molecule = 
 """
-1  C u0 p0 c0 {2,D} {7,S} {8,S}
-2  C u0 p0 c0 {1,D} {3,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,D}
-4  F u0 p3 c0 {3,S}
-5  C u0 p0 c0 {3,D} {6,S} {10,S}
-6  F u0 p3 c0 {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,D} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {5,S}
+3  C u0 p0 c0 {1,D} {8,S} {9,S}
+4  C u0 p0 c0 {2,D} {7,S} {10,S}
+5  F u0 p3 c0 {2,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {4,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30581,20 +30581,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.093 kJ/mol
 
 entry(
     index = 836,
-    label = "C[C](O)C(F)F",
+    label = "CCOCFFrad836",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u1 p0 c0 {1,S} {3,S} {4,S}
-3  O u0 p2 c0 {2,S} {10,S}
-4  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
+3  C u1 p0 c0 {1,S} {2,S} {4,S}
+4  O u0 p2 c0 {3,S} {11,S}
+5  F u0 p3 c0 {2,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {2,S}
 11 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -30620,17 +30620,17 @@ u"""
 
 entry(
     index = 837,
-    label = "[O]CDCDCF",
+    label = "OCDCDCFrad837",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {6,S}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {3,D} {4,S} {6,S}
+2 C u0 p0 c0 {3,D} {5,S} {7,S}
+3 C u0 p0 c0 {1,D} {2,D}
+4 O u1 p2 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30655,16 +30655,16 @@ u"""
 
 entry(
     index = 838,
-    label = "OCDC(O)F",
+    label = "OCDCOF838",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 O u0 p2 c0 {3,S} {8,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {6,S}
+2 C u0 p0 c0 {1,D} {4,S} {5,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {2,S} {8,S}
+5 F u0 p3 c0 {2,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -30690,17 +30690,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.528 kJ/mol
 
 entry(
     index = 839,
-    label = "FCDC(F)OOF",
+    label = "FCDCFOOF839",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 O u0 p2 c0 {3,S} {6,S}
-6 O u0 p2 c0 {5,S} {7,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 O u0 p2 c0 {3,S} {8,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30725,18 +30725,18 @@ u"""
 
 entry(
     index = 840,
-    label = "CC1DC[C]1F",
+    label = "CC1DCC1Frad840",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
 3 C u0 p0 c0 {2,D} {4,S} {9,S}
-4 C u1 p0 c0 {2,S} {3,S} {5,S}
-5 F u0 p3 c0 {4,S}
+4 C u1 p0 c0 {2,S} {3,S} {8,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+8 F u0 p3 c0 {4,S}
 9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -30762,18 +30762,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.757 kJ/mol
 
 entry(
     index = 841,
-    label = "C[C]DCF",
+    label = "CCDCFrad841",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30798,19 +30798,19 @@ u"""
 
 entry(
     index = 842,
-    label = "FCDC(CF)OF",
+    label = "FCDCCFOF842",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,D} {8,S}
-3  C u0 p0 c0 {2,D} {4,S} {6,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {3,S} {7,S}
-7  F u0 p3 c0 {6,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {3,D} {4,S}
+3  C u0 p0 c0 {2,D} {8,S} {9,S}
+4  O u0 p2 c0 {2,S} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30835,19 +30835,19 @@ u"""
 
 entry(
     index = 843,
-    label = "[CH2]C(O)DCF",
+    label = "CH2CODCFrad843",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 C u0 p0 c0 {1,S} {5,S} {6,D}
-5 O u0 p2 c0 {4,S} {8,S}
-6 C u0 p0 c0 {4,D} {7,S} {9,S}
-7 F u0 p3 c0 {6,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {6,S}
+1 C u0 p0 c0 {2,S} {3,D} {4,S}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30872,19 +30872,19 @@ u"""
 
 entry(
     index = 844,
-    label = "FCC1DCC1",
+    label = "FCC1DCC1844",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,D} {5,S}
-4  C u0 p0 c0 {3,D} {5,S} {8,S}
-5  C u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,D}
+4  C u0 p0 c0 {1,S} {3,D} {10,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30909,16 +30909,16 @@ u"""
 
 entry(
     index = 845,
-    label = "[O]CDCF",
+    label = "OCDCFrad845",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -30943,7 +30943,7 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.323 kJ/mol
 
 entry(
     index = 846,
-    label = "FCCO[C](F)F",
+    label = "FCCOCFFrad846",
     molecule = 
 """
 multiplicity 2
@@ -30982,16 +30982,16 @@ u"""
 
 entry(
     index = 847,
-    label = "[O]C(O)F",
+    label = "OCOFrad847",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 O u0 p2 c0 {2,S} {6,S}
-4 F u0 p3 c0 {2,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31016,21 +31016,21 @@ u"""
 
 entry(
     index = 848,
-    label = "CCD[C]CF",
+    label = "CCDCCFrad848",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {9,S}
-3  C u1 p0 c0 {2,D} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u1 p0 c0 {2,S} {3,D}
+5  H u0 p0 c0 {1,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
+8  F u0 p3 c0 {2,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31055,19 +31055,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.331 kJ/mol
 
 entry(
     index = 849,
-    label = "FC1CDCC1",
+    label = "FC1CDCC1849",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3  C u0 p0 c0 {2,S} {4,D} {7,S}
-4  C u0 p0 c0 {3,D} {5,S} {8,S}
-5  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-6  H u0 p0 c0 {2,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {4,D} {9,S}
+4  C u0 p0 c0 {2,S} {3,D} {10,S}
+5  F u0 p3 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31092,16 +31092,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.227 kJ/mol
 
 entry(
     index = 850,
-    label = "C#CC(F)(F)F",
+    label = "CTCCFFF850",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {7,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 F u0 p3 c0 {3,S}
-7 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,T}
+3 C u0 p0 c0 {2,T} {7,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31126,20 +31126,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.855 kJ/mol
 
 entry(
     index = 851,
-    label = "CCDCCF",
+    label = "CCDCCF851",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2  C u0 p0 c0 {1,S} {3,D} {9,S}
-3  C u0 p0 c0 {2,D} {4,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
-5  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+2  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,D} {11,S}
+4  C u0 p0 c0 {2,S} {3,D} {12,S}
+5  F u0 p3 c0 {2,S}
 6  H u0 p0 c0 {1,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 12 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
@@ -31165,19 +31165,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 1.415 kJ/mol
 
 entry(
     index = 852,
-    label = "FC1[CH]CO1",
+    label = "FC1CHCO1rad852",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 O u0 p2 c0 {2,S} {5,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,S} {9,S}
+4 O u0 p2 c0 {1,S} {2,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31202,15 +31202,15 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.139 kJ/mol
 
 entry(
     index = 853,
-    label = "C#COOF",
+    label = "CTCOOF853",
     molecule = 
 """
-1 C u0 p0 c0 {2,T} {6,S}
-2 C u0 p0 c0 {1,T} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {3,S} {5,S}
+1 C u0 p0 c0 {2,S} {3,T}
+2 O u0 p2 c0 {1,S} {4,S}
+3 C u0 p0 c0 {1,T} {6,S}
+4 O u0 p2 c0 {2,S} {5,S}
 5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31235,17 +31235,17 @@ u"""
 
 entry(
     index = 854,
-    label = "OCDCD[C]F",
+    label = "OCDCDCFrad854",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,D}
-4 C u1 p0 c0 {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,D}
+3 O u0 p2 c0 {1,S} {6,S}
+4 C u1 p0 c0 {2,D} {7,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+7 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31270,21 +31270,21 @@ u"""
 
 entry(
     index = 855,
-    label = "FCC1C[C]1F",
+    label = "FCC1CC1Frad855",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
-5  C u1 p0 c0 {3,S} {4,S} {6,S}
-6  F u0 p3 c0 {5,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
+4  C u1 p0 c0 {1,S} {2,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
 7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
+8  F u0 p3 c0 {3,S}
 9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31309,16 +31309,16 @@ u"""
 
 entry(
     index = 856,
-    label = "CC(C)F",
+    label = "CCCF856",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-4  F u0 p3 c0 {2,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+4  F u0 p3 c0 {1,S}
 5  H u0 p0 c0 {1,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
@@ -31347,19 +31347,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.367 kJ/mol
 
 entry(
     index = 857,
-    label = "CDC(F)CD[C]F",
+    label = "CDCFCDCFrad857",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {7,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {9,S}
-5 C u1 p0 c0 {4,D} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,D} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31384,18 +31384,18 @@ u"""
 
 entry(
     index = 858,
-    label = "CCD[C]F",
+    label = "CCDCFrad858",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,D} {8,S}
-3 C u1 p0 c0 {2,D} {4,S}
-4 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u1 p0 c0 {2,D} {8,S}
+4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31420,19 +31420,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.14 kJ/mol
 
 entry(
     index = 859,
-    label = "[O]CC(F)DCF",
+    label = "OCCFDCFrad859",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,D}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {3,D} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 O u1 p2 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31457,19 +31457,19 @@ u"""
 
 entry(
     index = 860,
-    label = "[O]C(DCF)CF",
+    label = "OCDCFCFrad860",
     molecule = 
 """
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 C u0 p0 c0 {2,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 O u1 p2 c0 {2,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31494,20 +31494,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.801 kJ/mol
 
 entry(
     index = 861,
-    label = "FCC[C](F)F",
+    label = "FCCCFFrad861",
     molecule = 
 """
 multiplicity 2
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3  C u1 p0 c0 {1,S} {9,S} {10,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {2,S}
 8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
+9  F u0 p3 c0 {3,S}
+10 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31532,23 +31532,23 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.047 kJ/mol
 
 entry(
     index = 862,
-    label = "CC[CH]C(F)F",
+    label = "CCCHCFFrad862",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
-3  C u1 p0 c0 {2,S} {4,S} {5,S}
-4  H u0 p0 c0 {3,S}
-5  C u0 p0 c0 {3,S} {6,S} {7,S} {13,S}
-6  F u0 p3 c0 {5,S}
-7  F u0 p3 c0 {5,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {5,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+4  C u1 p0 c0 {1,S} {3,S} {13,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 F u0 p3 c0 {3,S}
+11 F u0 p3 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31573,16 +31573,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 7.086 kJ/mol
 
 entry(
     index = 863,
-    label = "ODCC(F)F",
+    label = "ODCCFF863",
     molecule = 
 """
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {6,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {2,S}
-7 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,D} {7,S}
+3 F u0 p3 c0 {1,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 O u0 p2 c0 {2,D}
+7 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31607,20 +31607,20 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.32 kJ/mol
 
 entry(
     index = 864,
-    label = "FCCC(F)F",
+    label = "FCCCFF864",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {11,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {2,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
+3  C u0 p0 c0 {1,S} {7,S} {8,S} {11,S}
+4  H u0 p0 c0 {1,S}
+5  H u0 p0 c0 {1,S}
+6  F u0 p3 c0 {2,S}
+7  F u0 p3 c0 {3,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31645,17 +31645,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.226 kJ/mol
 
 entry(
     index = 865,
-    label = "CDC1CDC1F",
+    label = "CDC1CDC1F865",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {4,D} {8,S}
-4 C u0 p0 c0 {2,S} {3,D} {5,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {3,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u0 p0 c0 {1,S} {3,D} {6,S}
+3 C u0 p0 c0 {1,S} {2,D} {5,S}
+4 C u0 p0 c0 {1,D} {7,S} {8,S}
+5 F u0 p3 c0 {3,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31680,18 +31680,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.366 kJ/mol
 
 entry(
     index = 866,
-    label = "FCDCC(F)F",
+    label = "FCDCCFF866",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
-3 C u0 p0 c0 {2,D} {4,S} {8,S}
-4 C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {3,S}
-9 H u0 p0 c0 {4,S}
+8 F u0 p3 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31716,19 +31716,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.122 kJ/mol
 
 entry(
     index = 867,
-    label = "C[CH]C(DO)F",
+    label = "CCHCDOFrad867",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2 C u1 p0 c0 {1,S} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,D} {6,S}
-5 O u0 p2 c0 {4,D}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {3,S} {7,S}
+3 C u0 p0 c0 {2,S} {8,D} {9,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 O u0 p2 c0 {3,D}
+9 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31753,19 +31753,19 @@ u"""
 
 entry(
     index = 868,
-    label = "FC#CC[CH]F",
+    label = "FCTCCCHFrad868",
     molecule = 
 """
 multiplicity 2
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 C u1 p0 c0 {4,S} {6,S} {7,S}
-6 H u0 p0 c0 {5,S}
-7 F u0 p3 c0 {5,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 C u1 p0 c0 {1,S} {7,S} {8,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31790,18 +31790,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.669 kJ/mol
 
 entry(
     index = 869,
-    label = "CDC(F)C(F)(F)F",
+    label = "CDCFCFFF869",
     molecule = 
 """
-1 C u0 p0 c0 {2,D} {8,S} {9,S}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 F u0 p3 c0 {4,S}
-8 H u0 p0 c0 {1,S}
-9 H u0 p0 c0 {1,S}
+1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,D} {7,S}
+3 C u0 p0 c0 {2,D} {8,S} {9,S}
+4 F u0 p3 c0 {1,S}
+5 F u0 p3 c0 {1,S}
+6 F u0 p3 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31826,18 +31826,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.89 kJ/mol
 
 entry(
     index = 870,
-    label = "OC[CH]F",
+    label = "OCCHFrad870",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {6,S}
-2 C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 F u0 p3 c0 {3,S}
-6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {2,S}
-8 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u1 p0 c0 {1,S} {6,S} {7,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {2,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31862,19 +31862,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.543 kJ/mol
 
 entry(
     index = 871,
-    label = "CC#CC(F)F",
+    label = "CCTCCFF871",
     molecule = 
 """
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,T}
-3  C u0 p0 c0 {2,T} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  F u0 p3 c0 {4,S}
+1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+2  C u0 p0 c0 {4,S} {5,S} {6,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,T}
+4  C u0 p0 c0 {2,S} {3,T}
+5  F u0 p3 c0 {2,S}
+6  F u0 p3 c0 {2,S}
 7  H u0 p0 c0 {1,S}
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31899,19 +31899,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.836 kJ/mol
 
 entry(
     index = 872,
-    label = "[CH]DCCDCF",
+    label = "CHDCCDCFrad872",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,S} {7,S}
-4 C u0 p0 c0 {3,S} {5,D} {8,S}
-5 C u0 p0 c0 {4,D} {6,S} {9,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {3,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,S} {3,D} {5,S}
+2 C u0 p0 c0 {1,S} {4,D} {6,S}
+3 C u0 p0 c0 {1,D} {7,S} {8,S}
+4 C u1 p0 c0 {2,D} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {3,S}
+8 H u0 p0 c0 {3,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31936,19 +31936,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.253 kJ/mol
 
 entry(
     index = 873,
-    label = "OCO[C](F)F",
+    label = "OCOCFFrad873",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u1 p0 c0 {3,S} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 F u0 p3 c0 {4,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {2,S}
-9 H u0 p0 c0 {2,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u1 p0 c0 {3,S} {7,S} {8,S}
+3 O u0 p2 c0 {1,S} {2,S}
+4 O u0 p2 c0 {1,S} {9,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -31973,17 +31973,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.769 kJ/mol
 
 entry(
     index = 874,
-    label = "FC#CCDCF",
+    label = "FCTCCDCF874",
     molecule = 
 """
-1 F u0 p3 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,T}
-3 C u0 p0 c0 {2,T} {4,S}
-4 C u0 p0 c0 {3,S} {5,D} {7,S}
-5 C u0 p0 c0 {4,D} {6,S} {8,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {4,S}
-8 H u0 p0 c0 {5,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {6,S} {7,S}
+3 C u0 p0 c0 {1,S} {4,T}
+4 C u0 p0 c0 {3,T} {8,S}
+5 H u0 p0 c0 {1,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {2,S}
+8 F u0 p3 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32008,18 +32008,18 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.57 kJ/mol
 
 entry(
     index = 875,
-    label = "C[C]DC(F)F",
+    label = "CCDCFFrad875",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-2 C u1 p0 c0 {1,S} {3,D}
-3 C u0 p0 c0 {2,D} {4,S} {5,S}
-4 F u0 p3 c0 {3,S}
-5 F u0 p3 c0 {3,S}
+1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+2 C u0 p0 c0 {3,D} {7,S} {8,S}
+3 C u1 p0 c0 {1,S} {2,D}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {1,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {1,S}
+7 F u0 p3 c0 {2,S}
+8 F u0 p3 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32044,17 +32044,17 @@ u"""
 
 entry(
     index = 876,
-    label = "[C]#CCDCF",
+    label = "CTCCDCFrad876",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,T}
-2 C u0 p0 c0 {1,T} {3,S}
-3 C u0 p0 c0 {2,S} {4,D} {6,S}
-4 C u0 p0 c0 {3,D} {5,S} {7,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {3,S}
-7 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 C u0 p0 c0 {1,D} {5,S} {6,S}
+3 C u0 p0 c0 {1,S} {7,T}
+4 H u0 p0 c0 {1,S}
+5 F u0 p3 c0 {2,S}
+6 H u0 p0 c0 {2,S}
+7 C u1 p0 c0 {3,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -32079,19 +32079,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.317 kJ/mol
 
 entry(
     index = 877,
-    label = "FC1CC(F)O1",
+    label = "FC1CCFO1877",
     molecule = 
 """
-1  F u0 p3 c0 {2,S}
-2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-4  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-5  F u0 p3 c0 {4,S}
-6  O u0 p2 c0 {2,S} {4,S}
-7  H u0 p0 c0 {2,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {3,S}
-10 H u0 p0 c0 {4,S}
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,S} {7,S} {9,S}
+3  C u0 p0 c0 {1,S} {4,S} {8,S} {10,S}
+4  O u0 p2 c0 {2,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  F u0 p3 c0 {2,S}
+8  F u0 p3 c0 {3,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32116,16 +32116,16 @@ Standard deviation of Hf298 from 50 G4 rxns was 5.486 kJ/mol
 
 entry(
     index = 878,
-    label = "[CH]DCDCF",
+    label = "CHDCDCFrad878",
     molecule = 
 """
 multiplicity 2
-1 C u1 p0 c0 {2,S} {3,D}
-2 H u0 p0 c0 {1,S}
-3 C u0 p0 c0 {1,D} {4,D}
-4 C u0 p0 c0 {3,D} {5,S} {6,S}
-5 F u0 p3 c0 {4,S}
-6 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {4,S} {5,S}
+2 C u0 p0 c0 {1,D} {3,D}
+3 C u1 p0 c0 {2,D} {6,S}
+4 F u0 p3 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32150,19 +32150,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.21 kJ/mol
 
 entry(
     index = 879,
-    label = "OO[CH]CF",
+    label = "OOCHCFrad879",
     molecule = 
 """
 multiplicity 2
-1 O u0 p2 c0 {2,S} {7,S}
-2 O u0 p2 c0 {1,S} {3,S}
-3 C u1 p0 c0 {2,S} {4,S} {5,S}
-4 H u0 p0 c0 {3,S}
-5 C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
-6 F u0 p3 c0 {5,S}
+1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+2 C u1 p0 c0 {1,S} {3,S} {8,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 O u0 p2 c0 {3,S} {9,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {5,S}
-9 H u0 p0 c0 {5,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32187,19 +32187,19 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.966 kJ/mol
 
 entry(
     index = 880,
-    label = "CD[C]OCF",
+    label = "CDCOCFrad880",
     molecule = 
 """
 multiplicity 2
-1 C u0 p0 c0 {2,D} {6,S} {7,S}
-2 C u1 p0 c0 {1,D} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
-5 F u0 p3 c0 {4,S}
+1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+2 C u0 p0 c0 {4,D} {8,S} {9,S}
+3 O u0 p2 c0 {1,S} {4,S}
+4 C u1 p0 c0 {2,D} {3,S}
+5 F u0 p3 c0 {1,S}
 6 H u0 p0 c0 {1,S}
 7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
-9 H u0 p0 c0 {4,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32224,17 +32224,17 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.046 kJ/mol
 
 entry(
     index = 881,
-    label = "OC(F)DCOF",
+    label = "OCFDCOF881",
     molecule = 
 """
-1 O u0 p2 c0 {2,S} {7,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 F u0 p3 c0 {2,S}
-4 C u0 p0 c0 {2,D} {5,S} {8,S}
-5 O u0 p2 c0 {4,S} {6,S}
-6 F u0 p3 c0 {5,S}
-7 H u0 p0 c0 {1,S}
-8 H u0 p0 c0 {4,S}
+1 C u0 p0 c0 {2,D} {3,S} {5,S}
+2 C u0 p0 c0 {1,D} {4,S} {6,S}
+3 O u0 p2 c0 {1,S} {8,S}
+4 O u0 p2 c0 {2,S} {7,S}
+5 F u0 p3 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 F u0 p3 c0 {4,S}
+8 H u0 p0 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32259,21 +32259,21 @@ Standard deviation of Hf298 from 50 G4 rxns was 2.936 kJ/mol
 
 entry(
     index = 882,
-    label = "CCO[CH]F",
+    label = "CCOCHFrad882",
     molecule = 
 """
 multiplicity 2
-1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u1 p0 c0 {3,S} {5,S} {6,S}
-5  H u0 p0 c0 {4,S}
-6  F u0 p3 c0 {4,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+3  C u1 p0 c0 {4,S} {10,S} {11,S}
+4  O u0 p2 c0 {1,S} {3,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 F u0 p3 c0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -32298,31 +32298,24 @@ u"""
 
 entry(
     index = 883,
-    label = "CHF_triplet",
+    label = "CHFtriplet883",
     molecule = 
 """
+multiplicity 3
 1 F u0 p3 c0 {2,S}
 2 C u2 p0 c0 {1,S} {3,S}
 3 H u0 p0 c0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.03058, -0.00191926, 1.26385e-05, -1.39162e-08, 4.99935e-12, 23801.9, 4.95981],
-                Tmin = (10, 'K'),
-                Tmax = (851.957, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [3.01238, 0.00480153, -2.61059e-06, 6.89538e-10, -7.10156e-14, 23905, 9.29565],
-                Tmin = (851.957, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.03058,-0.00191926,1.26385e-05,-1.39162e-08,4.99935e-12,23801.9,4.95981], Tmin=(10,'K'), Tmax=(851.957,'K')),
+            NASAPolynomial(coeffs=[3.01238,0.00480153,-2.61059e-06,6.89538e-10,-7.10156e-14,23905,9.29565], Tmin=(851.957,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (197.908, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (58.2013, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (197.908,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (58.2013,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
@@ -32336,31 +32329,24 @@ Standard deviation of Hf298 from 50 G4 rxns was 3.113 kJ/mol
 
 entry(
     index = 884,
-    label = "CF2_triplet",
+    label = "CF2triplet884",
     molecule = 
 """
+multiplicity 3
 1 F u0 p3 c0 {2,S}
 2 C u2 p0 c0 {1,S} {3,S}
 3 F u0 p3 c0 {2,S}
 """,
-    thermo= NASA(
+    thermo = NASA(
         polynomials = [
-            NASAPolynomial(
-                coeffs = [4.02169, -0.00184262, 2.55693e-05, -4.14988e-08, 2.11545e-11, 3418.06, 6.99451],
-                Tmin = (10, 'K'),
-                Tmax = (642.025, 'K'),
-            ),
-            NASAPolynomial(
-                coeffs = [3.54432, 0.00602919, -4.26473e-06, 1.36216e-09, -1.61961e-13, 3378.42, 8.2999],
-                Tmin = (642.025, 'K'),
-                Tmax = (3000, 'K'),
-            ),
+            NASAPolynomial(coeffs=[4.02169,-0.00184262,2.55693e-05,-4.14988e-08,2.11545e-11,3418.06,6.99451], Tmin=(10,'K'), Tmax=(642.025,'K')),
+            NASAPolynomial(coeffs=[3.54432,0.00602919,-4.26473e-06,1.36216e-09,-1.61961e-13,3378.42,8.2999], Tmin=(642.025,'K'), Tmax=(3000,'K')),
         ],
-        Tmin = (10, 'K'),
-        Tmax = (3000, 'K'),
-        E0 = (28.4183, 'kJ/mol'),
-        Cp0 = (33.2579, 'J/(mol*K)'),
-        CpInf = (58.2013, 'J/(mol*K)'),
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (28.4183,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (58.2013,'J/(mol*K)'),
     ),
     reference = 'G4 calculation',
     referenceType = "theory",
@@ -32371,3 +32357,37 @@ Standard deviation of Hf298 from 50 G4 rxns was 4.3121 kJ/mol
 """,
     rank = 5,
 )
+
+entry(
+    index = 885,
+    label = "OOCDOFrad885",
+    molecule = 
+"""
+multiplicity 2
+1 F u0 p3 c0 {5,S}
+2 O u0 p2 c0 {4,S} {5,S}
+3 O u0 p2 c0 {5,D}
+4 O u1 p2 c0 {2,S}
+5 C u0 p0 c0 {1,S} {2,S} {3,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.92715,0.00465825,6.28017e-05,-1.48563e-07,1.01454e-10,-40583.6,10.2062], Tmin=(10,'K'), Tmax=(508.445,'K')),
+            NASAPolynomial(coeffs=[4.32868,0.0156871,-1.15913e-05,3.86174e-09,-4.76876e-13,-40807.8,6.73727], Tmin=(508.445,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-337.451,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    reference = 'G4 calculation',
+    referenceType = "theory",
+    shortDesc = u"""Average of 50 error canceling reactions with G4 level of theory""",
+    longDesc = 
+u"""
+Standard deviation of Hf298 from 50 G4 rxns was 2.479 kJ/mol
+""",
+    rank = 5,
+)
+
