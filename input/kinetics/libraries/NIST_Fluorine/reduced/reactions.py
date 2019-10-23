@@ -4433,12 +4433,12 @@ entry(
     shortDesc = u"""The chemkin file reaction is CH2CFO <=> CH2F + CO""",
 )
 
-entry(
-    index = 543,
-    label = "CH2CFCF3 => CF3 + CH2CF",
-    degeneracy = 1.0,
-    reversible = False,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(5e+16,'s^-1'), n=0, Ea=(107000,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(5.4e+18,'cm^3/(mol*s)'), n=0, Ea=(108700,'cal/mol'), T0=(1,'K')), efficiencies={'C=C(F)C(F)(F)F': 10.0, 'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 9.0, 'CF': 6.0, 'FCF': 6.0, '[C-]#[O+]': 1.5}),
-    shortDesc = u"""The chemkin file reaction is CH2CFCF3 => CF3 + CH2CF""",
-)
+# entry(
+#     index = 543,
+#     label = "CH2CFCF3 => CF3 + CH2CF",
+#     degeneracy = 1.0,
+#     reversible = False,
+#     kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(5e+16,'s^-1'), n=0, Ea=(107000,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(5.4e+18,'cm^3/(mol*s)'), n=0, Ea=(108700,'cal/mol'), T0=(1,'K')), efficiencies={'C=C(F)C(F)(F)F': 10.0, 'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 9.0, 'CF': 6.0, 'FCF': 6.0, '[C-]#[O+]': 1.5}),
+#     shortDesc = u"""The chemkin file reaction is CH2CFCF3 => CF3 + CH2CF""",
+# )
 
