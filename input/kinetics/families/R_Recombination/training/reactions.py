@@ -4193,15 +4193,6 @@ entry(
     shortDesc = u"""From NIST CH2F2 model""",
 )
 
-entry(
-    index = 174,
-    label = "CF3CHO <=> CF3 + HCO",
-    degeneracy = 1.0,
-    kinetics = Lindemann(arrheniusHigh=Arrhenius(A=(4e+16,'s^-1'), n=0, Ea=(80000,'cal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(3.5e+21,'cm^3/(mol*s)'), n=0, Ea=(80000,'cal/mol'), T0=(1,'K')), efficiencies={'C': 2.0, 'O=C(F)F': 5.0, 'FC(F)F': 6.0, 'O=C=O': 2.0, 'F': 2.0, 'CC': 3.0, 'FC(F)(F)F': 6.0, 'O': 9.0, 'CF': 6.0, 'FCF': 6.0, '[C-]#[O+]': 1.5}),
-    rank = 5,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
 # entry(
 #     index = 175,
 #     label = "CF3COF <=> CF3 + CFO",
