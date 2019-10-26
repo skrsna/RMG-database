@@ -11,12 +11,7 @@ entry(
     index = 0,
     label = "CH3 + CO <=> C2H3O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.634e+07, 'cm^3/(mol*s)'),
-        n = 1.512,
-        Ea = (6.013, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(2.634e+07,'cm^3/(mol*s)'), n=1.512, Ea=(6.013,'kcal/mol'), T0=(1,'K')),
     reference = Article(
         authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
@@ -37,7 +32,7 @@ entry(
     index = 1,
     label = "C2H3O <=> CO + CH3",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.07e+12, 's^-1'), n=0.63, Ea=(70698, 'J/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.07e+12,'s^-1'), n=0.63, Ea=(70698,'J/mol'), T0=(1,'K')),
     reference = Article(
         authors = ['Senosiain, J. P.', 'Klippenstein, S. J.', 'Miller, J. A.'],
         title = 'Pathways and Rate Coefficients for the Decomposition of Vinoxy and Acetyl Radicals',
@@ -58,7 +53,7 @@ entry(
     index = 2,
     label = "C3H5O <=> CO + C2H5",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.417e+12, 's^-1'), n=0.428, Ea=(15.009, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(8.417e+12,'s^-1'), n=0.428, Ea=(15.009,'kcal/mol'), T0=(1,'K')),
     reference = Article(
         authors = ['Zador, J.', 'Miller, J. A.'],
         title = 'Adventures on the C3H5O potential energy surface: OH + propyne, OH + allene and related reactions',
@@ -79,14 +74,7 @@ entry(
     index = 3,
     label = "H + CO <=> CHO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (20.92, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1e+11,'cm^3/(mol*s)'), n=0, Ea=(20.92,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     longDesc = 
 u"""
@@ -98,14 +86,7 @@ entry(
     index = 4,
     label = "H + CO <=> CHO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.18e+11, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (11.3805, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (345, 'K'),
-        Tmax = (449, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.18e+11,'cm^3/(mol*s)'), n=0, Ea=(11.3805,'kJ/mol'), T0=(1,'K'), Tmin=(345,'K'), Tmax=(449,'K')),
     rank = 10,
     shortDesc = u"""Arai et al [102].""",
     longDesc = 
@@ -169,14 +150,7 @@ entry(
     index = 5,
     label = "CH3 + CO <=> C2H3O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.06e+11, 'cm^3/(mol*s)', '*|/', 3.16),
-        n = 0,
-        Ea = (28.7859, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(5.06e+11,'cm^3/(mol*s)','*|/',3.16), n=0, Ea=(28.7859,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(500,'K')),
     rank = 10,
     shortDesc = u"""Baulch et al. [94]""",
     longDesc = 
@@ -208,14 +182,7 @@ entry(
     index = 6,
     label = "C2H5 + CO <=> C3H5O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.51e+11, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        Ea = (20.125, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.51e+11,'cm^3/(mol*s)','*|/',2), n=0, Ea=(20.125,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
     shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
@@ -245,14 +212,7 @@ entry(
     index = 7,
     label = "C2H3 + CO <=> C3H3O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.51e+11, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        Ea = (20.125, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.51e+11,'cm^3/(mol*s)','*|/',5), n=0, Ea=(20.125,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 10,
     shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
@@ -284,14 +244,7 @@ entry(
     index = 8,
     label = "C6H5 + CO <=> C7H5O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.48e+12, 'cm^3/(mol*s)', '*|/', 1.5),
-        n = 0,
-        Ea = (13.9327, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (295, 'K'),
-        Tmax = (500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.48e+12,'cm^3/(mol*s)','*|/',1.5), n=0, Ea=(13.9327,'kJ/mol'), T0=(1,'K'), Tmin=(295,'K'), Tmax=(500,'K')),
     rank = 6,
     shortDesc = u"""Nam et al [104].""",
     longDesc = 
@@ -369,14 +322,7 @@ entry(
     index = 9,
     label = "CH3O + CO <=> C2H3O2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.41e+07, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (12.552, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (250, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(3.41e+07,'cm^3/(mol*s)'), n=0, Ea=(12.552,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(2500,'K')),
     rank = 11,
     shortDesc = u"""Wang et al. [105].""",
     longDesc = 
@@ -403,14 +349,7 @@ entry(
     index = 10,
     label = "C2H5 + CO <=> C3H5O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7.7e+07, 'cm^3/(mol*s)', '*|/', 3),
-        n = 1.37,
-        Ea = (23.807, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (600, 'K'),
-        Tmax = (2000, 'K'),
-    ),
+    kinetics = Arrhenius(A=(7.7e+07,'cm^3/(mol*s)','*|/',3), n=1.37, Ea=(23.807,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -431,14 +370,7 @@ entry(
     index = 11,
     label = "C3H7 + CO <=> C4H7O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.51e+10, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0.45,
-        Ea = (27.9491, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (600, 'K'),
-        Tmax = (2000, 'K'),
-    ),
+    kinetics = Arrhenius(A=(6.51e+10,'cm^3/(mol*s)','*|/',3), n=0.45, Ea=(27.9491,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -459,14 +391,7 @@ entry(
     index = 12,
     label = "C3H7-2 + CO <=> C4H7O-2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (8.61e+07, 'cm^3/(mol*s)', '*|/', 3),
-        n = 1.36,
-        Ea = (20.0832, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (600, 'K'),
-        Tmax = (2000, 'K'),
-    ),
+    kinetics = Arrhenius(A=(8.61e+07,'cm^3/(mol*s)','*|/',3), n=1.36, Ea=(20.0832,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -487,14 +412,7 @@ entry(
     index = 13,
     label = "CH3S + CO <=> C2H3OS",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (78500, 'cm^3/(mol*s)'),
-        n = 2.33,
-        Ea = (9.33032, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2000, 'K'),
-    ),
+    kinetics = Arrhenius(A=(78500,'cm^3/(mol*s)'), n=2.33, Ea=(9.33032,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 10,
     shortDesc = u"""CAC CBS-QB3 calcs, HO""",
     longDesc = 
@@ -507,12 +425,7 @@ entry(
     index = 14,
     label = "C5H5O + CO <=> C6H5O2",
     degeneracy = 2.0,
-    kinetics = Arrhenius(
-        A = (14420, 'cm^3/(mol*s)'),
-        n = 2.333,
-        Ea = (18.929, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(14420,'cm^3/(mol*s)'), n=2.333, Ea=(18.929,'kcal/mol'), T0=(1,'K')),
     reference = Article(
         authors = ['I. V. Tokmakov', 'G. Kim', 'V. V. Kislov', 'A. M. Mebel', 'M. C. Lin'],
         title = 'The Reaction of Phenyl Radical with Molecular Oxygen: A G2M Study of the Potential Energy Surface',
@@ -526,7 +439,7 @@ entry(
     longDesc = 
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
-The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
+The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
 where only 1500, 2000, 2500 K rates were reported.
 """,
 )

@@ -11,14 +11,7 @@ entry(
     index = 0,
     label = "HCO + H <=> CO + H2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.03e+13, 'cm^3/(mol*s)', '*|/', 2),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',2), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -35,7 +28,7 @@ entry(
     index = 1,
     label = "HCO + O <=> CO + OH",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.01e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(3.01e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""FFCM-1""",
     longDesc = 
@@ -48,7 +41,7 @@ entry(
     index = 2,
     label = "HCO + O2 <=> CO + HO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.12e+13, 'cm^3/(mol*s)'), n=0, Ea=(1690, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(5.12e+13,'cm^3/(mol*s)'), n=0, Ea=(1690,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -64,14 +57,7 @@ entry(
     index = 3,
     label = "HCO + CH3 <=> CO + CH4",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (1004, 'K'),
-        Tmax = (1006, 'K'),
-    ),
+    kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(1004,'K'), Tmax=(1006,'K')),
     rank = 1,
     shortDesc = u"""Shock Tube""",
     longDesc = 
@@ -88,12 +74,7 @@ entry(
     index = 4,
     label = "HCO + CH3O <=> CO + CH3OH",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (9.03e+13, 'cm^3/(mol*s)', '*|/', 3),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(9.03e+13,'cm^3/(mol*s)','*|/',3), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -109,12 +90,7 @@ entry(
     index = 5,
     label = "HCO + HCO_Y <=> CO + CH2O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.8e+13, 'cm^3/(mol*s)', '+|-', 9e+12),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.8e+13,'cm^3/(mol*s)','+|-',9e+12), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
     longDesc = 
@@ -130,7 +106,7 @@ entry(
     index = 6,
     label = "HCO + C2H3 <=> CO + C2H4",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.033e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(9.033e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""JetSurF2.0""",
     longDesc = 
@@ -143,7 +119,7 @@ entry(
     index = 7,
     label = "HCO + nC3H7 <=> CO + C3H8_n",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""JetSurF2.0""",
     longDesc = 
@@ -156,7 +132,7 @@ entry(
     index = 8,
     label = "HCO + iC3H7 <=> CO + C3H8_i",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.2e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = u"""JetSurF2.0""",
     longDesc = 
@@ -169,14 +145,7 @@ entry(
     index = 9,
     label = "HCO + NO <=> CO + HNO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (7.1e+12, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
+    kinetics = Arrhenius(A=(7.1e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2500,'K')),
     rank = 1,
     shortDesc = u"""Shock Tube""",
     longDesc = 
@@ -196,14 +165,7 @@ entry(
     index = 10,
     label = "HCO + NO2 <=> CO + HONO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.24e+23, 'cm^3/(mol*s)'),
-        n = -3.29,
-        Ea = (2355, 'cal/mol'),
-        T0 = (1, 'K'),
-        Tmin = (1140, 'K'),
-        Tmax = (1650, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.24e+23,'cm^3/(mol*s)'), n=-3.29, Ea=(2355,'cal/mol'), T0=(1,'K'), Tmin=(1140,'K'), Tmax=(1650,'K')),
     rank = 1,
     shortDesc = u"""Shock Tube""",
     longDesc = 
@@ -219,7 +181,7 @@ entry(
     index = 11,
     label = "CH2OH + HCO <=> CH3OH + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1002/kin.10183""",
 )
@@ -228,28 +190,9 @@ entry(
     index = 12,
     label = "C2H5 + HCO <=> C2H6 + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = u"""Taken from Klippenstein_Glarborg2016, Experimental, original source: doi 10.1021/j100296a057""",
-)
-
-entry(
-    index = 16,
-    label = "CF + HCO => CHF + CO",
-    degeneracy = 1.0,
-    reversible = False,
-    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
-)
-
-entry(
-    index = 17,
-    label = "HCO + F <=> CO + HF",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = u"""From NIST CH2F2 model""",
 )
 
 entry(
@@ -279,5 +222,31 @@ entry(
     shortDesc = u"""From NIST CH2F2 model""",
 )
 
+entry(
+    index = 16,
+    label = "CF + HCO => CHF + CO",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
 
+entry(
+    index = 17,
+    label = "HCO + F <=> CO + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = u"""From NIST CH2F2 model""",
+)
+
+entry(
+    index = 18,
+    label = "[CH]DO_r423 + [OH]_r1 <=> CO + O_p41",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = u"""From NIST 2019 CH2F2 model""",
+)
 
