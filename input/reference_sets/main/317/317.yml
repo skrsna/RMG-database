@@ -18,13 +18,13 @@ Properties:
   multiplicity: 1
 RMG_version: 2.4.1
 calculated_data:
-  m062x-gd3_jun-cc-pvtz:
+  g4:
     class: CalculatedDataEntry
     conformer:
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -487394.50283537485
+        value: -487285.6856327012
       class: Conformer
       coordinates:
         class: ArrayQuantity
@@ -32,18 +32,18 @@ calculated_data:
         value:
           class: np_array
           object:
-          - - 1.8395489999999997
-            - -0.004065
-            - -0.005199
-          - - -1.8395209999999995
-            - 0.0018829999999999995
-            - 0.010392
-          - - 0.693418
-            - -0.001687
-            - -0.001063
-          - - -0.6933919999999999
-            - 0.000554
-            - 0.004821
+          - - 0.0
+            - 0.0
+            - -1.845911
+          - - 0.0
+            - 0.0
+            - 1.845911
+          - - 0.0
+            - 0.0
+            - -0.687869
+          - - 0.0
+            - 0.0
+            - 0.687869
       mass:
         class: ArrayQuantity
         units: amu
@@ -52,8 +52,8 @@ calculated_data:
           object:
           - 14.00307400443
           - 14.00307400443
-          - 12.00000000000001
-          - 12.00000000000001
+          - 12.000000000000009
+          - 12.000000000000009
       modes:
       - class: IdealGasTranslation
         mass:
@@ -65,12 +65,12 @@ calculated_data:
         inertia:
           class: ScalarQuantity
           units: amu*angstrom^2
-          value: 106.31137264331
+          value: 106.7836927344117
         quantum: false
         rotationalConstant:
           class: ScalarQuantity
           units: cm^-1
-          value: 0.15856844507039028
+          value: 0.15786707334870073
         symmetry: 2
       - class: HarmonicOscillator
         frequencies:
@@ -79,12 +79,13 @@ calculated_data:
           value:
             class: np_array
             object:
-            - 252.69532922999997
-            - 556.53857847
-            - 556.53857847
-            - 881.29555122
-            - 2339.28581191
-            - 2518.66147703
+            - 257.149336533076
+            - 257.149336533076
+            - 567.5421328809961
+            - 567.5421328809961
+            - 873.4762860157099
+            - 2236.006146965656
+            - 2398.161042074512
         quantum: true
       number:
         class: ArrayQuantity
@@ -95,9 +96,8 @@ calculated_data:
           - 7.0
           - 6.0
           - 6.0
-      opticalIsomers: 1
-      spinMultiplicity: 1
-    fod: 0.007382
+      optical_isomers: 1
+      spin_multiplicity: 1
     thermo:
       Cp0:
         class: ScalarQuantity
@@ -106,11 +106,11 @@ calculated_data:
       CpInf:
         class: ScalarQuantity
         units: J/(mol*K)
-        value: 78.987484
+        value: 87.301956
       E0:
         class: ScalarQuantity
         units: kJ/mol
-        value: -487394.6220663007
+        value: -487285.78546141874
       Tmax:
         class: ScalarQuantity
         units: K
@@ -125,7 +125,7 @@ calculated_data:
           Tmax:
             class: ScalarQuantity
             units: K
-            value: 474.67862866571835
+            value: 435.7367072614376
           Tmin:
             class: ScalarQuantity
             units: K
@@ -134,13 +134,13 @@ calculated_data:
           coeffs:
             class: np_array
             object:
-            - 3.452719391038334
-            - 0.0031554596829057075
-            - 3.8217037159743385e-05
-            - -1.0019106994685868e-07
-            - 7.518030345403042e-11
-            - -58620031.88184166
-            - 6.384842838852679
+            - 3.418838677061318
+            - 0.005762742827545075
+            - 5.355116303779789e-05
+            - -1.6536572795227596e-07
+            - 1.3974055333500433e-10
+            - -58606942.29923372
+            - 6.3827556330310005
         polynomial2:
           Tmax:
             class: ScalarQuantity
@@ -149,18 +149,18 @@ calculated_data:
           Tmin:
             class: ScalarQuantity
             units: K
-            value: 474.67862866571835
+            value: 435.7367072614376
           class: NASAPolynomial
           coeffs:
             class: np_array
             object:
-            - 4.060175750662475
-            - 0.007375822787017249
-            - -4.631778825362444e-06
-            - 1.437192606503956e-09
-            - -1.744269417216378e-13
-            - -58620194.767031
-            - 2.798557871609942
+            - 4.730234924062878
+            - 0.008312512234188415
+            - -5.445359009355566e-06
+            - 1.7315110862250077e-09
+            - -2.12781046267062e-13
+            - -58607195.074413605
+            - -0.44372719094979085
     thermo_data:
       Cpdata:
         class: ArrayQuantity
@@ -168,23 +168,23 @@ calculated_data:
         value:
           class: np_array
           object:
-          - 11.411915292104181
-          - 12.602896421117665
-          - 13.43130980899605
-          - 14.121202501824781
-          - 15.22377611686602
-          - 16.030765784489496
-          - 17.228874148103746
-          - 17.867799945925057
-          - 18.210338482997354
+          - 13.183704268952004
+          - 14.478932567134997
+          - 15.357710830293698
+          - 16.10400947689891
+          - 17.277952736350255
+          - 18.115609328373466
+          - 19.30291192520429
+          - 19.91462164197104
+          - 20.253293104397454
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -116487.43774659523
+        value: -116461.14229478827
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)
-        value: 55.55625953081029
+        value: 57.17601540282684
       Tdata:
         class: ArrayQuantity
         units: K
@@ -213,7 +213,7 @@ reference_data:
       H298:
         class: ScalarQuantity
         uncertainty: 0.43
-        uncertaintyType: +|-
+        uncertainty_type: +|-
         units: kJ/mol
         value: 310.26
       class: ThermoData
