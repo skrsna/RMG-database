@@ -143,3 +143,190 @@ We're definitely missing a factor of x3 of the torsion missing in the TS,
 we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
 """,
 )
+
+
+
+
+
+entry(
+    index = 10,
+    label = "impiriamine + HO2 <=> impiriamine_rad_5 + H2O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.93207e-12,'cm^3/(mol*s)'), n=7.03045, Ea=(40.3569,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.4981, dn = +|- 0.0589796, dEa = +|- 0.168034 kJ/mol"""),
+    shortDesc = u"""k5+k6""",
+    longDesc =
+u"""
+H6 is blocked, H5 and H6 have the same 2D connectivity
+k6 = 0  =>  k5 + k6 = k5
+""",
+)
+
+entry(
+    index = 11,
+    label = "impiriamine + HO2 <=> impiriamine_rad_11 + H2O2",
+    degeneracy = 2.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(1.1882e-10,'cm^3/(mol*s)'), n=6.39356, Ea=(55.874,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k11, Fitted to 100 data points; dA = *|/ 1.14786, dn = +|- 0.020122, dEa = +|- 0.057328 kJ/mol"""),
+            Arrhenius(A=(2.92217e-08,'cm^3/(mol*s)'), n=5.58651, Ea=(56.1606,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.08935, dn = +|- 0.0124883, dEa = +|- 0.0355794 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k11+k12""",
+)
+
+entry(
+    index = 12,
+    label = "impiriamine + HO2 <=> impiriamine_rad_20 + H2O2",
+    degeneracy = 2.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(1.60144e-12,'cm^3/(mol*s)'), n=7.44743, Ea=(61.7556,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k20, Fitted to 100 data points; dA = *|/ 1.76345, dn = +|- 0.0827744, dEa = +|- 0.235826 kJ/mol"""),
+            Arrhenius(A=(7.00398e-09,'cm^3/(mol*s)'), n=6.21963, Ea=(36.9099,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k21, Fitted to 100 data points; dA = *|/ 1.21987, dn = +|- 0.0290001, dEa = +|- 0.082622 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k20+k21""",
+)
+
+entry(
+    index = 13,
+    label = "impiriamine + HO2 <=> impiriamine_rad_28 + H2O2",
+    degeneracy = 4.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(1.69879e-49,'cm^3/(mol*s)'), n=19.1594, Ea=(17.7046,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k28, Fitted to 100 data points; dA = *|/ 12.2045, dn = +|- 0.365056, dEa = +|- 1.04005 kJ/mol"""),
+            Arrhenius(A=(2.45476e-50,'cm^3/(mol*s)'), n=19.5114, Ea=(-0.427648,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k29, Fitted to 100 data points; dA = *|/ 6.32046, dn = +|- 0.269041, dEa = +|- 0.766504 kJ/mol"""),
+            Arrhenius(A=(3.37035e-33,'cm^3/(mol*s)'), n=13.5841, Ea=(7.70763,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k35, Fitted to 100 data points; dA = *|/ 3.55447, dn = +|- 0.185053, dEa = +|- 0.52722 kJ/mol"""),
+            Arrhenius(A=(5.01589e-29,'cm^3/(mol*s)'), n=12.198, Ea=(3.83956,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k36, Fitted to 100 data points; dA = *|/ 2.54252, dn = +|- 0.136163, dEa = +|- 0.387932 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k28+k29+k35+k36""",
+)
+
+entry(
+    index = 14,
+    label = "impiriamine + HO2 <=> impiriamine_rad_39 + H2O2",
+    degeneracy = 6.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+#        arrhenius = [
+#            Arrhenius(A=(1.157e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+#            Arrhenius(A=(2.63341e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+#            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+#            Arrhenius(A=(9.88708e-07,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+#            Arrhenius(A=(7.2759e-10,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+#            Arrhenius(A=(1.27688e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+#        ],
+        arrhenius = [
+            Arrhenius(A=(3.471e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+            Arrhenius(A=(7.900e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+            Arrhenius(A=(2.9661e-06,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+            Arrhenius(A=(2.1828e-9,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+            Arrhenius(A=(3.831e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k39+k40+k41+k42+k43+k44""",
+    longDesc =
+u"""
+Here rotors we not included in the calculation (Eventually we'd like to use rotors).
+We're definitely missing a factor of x3 of the torsion missing in the TS,
+we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
+""",
+)
+
+
+
+
+
+
+entry(
+    index = 20,
+    label = "impiriamine + OHCH2OO <=> impiriamine_rad_5 + OHCH2OOH",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.93207e-12,'cm^3/(mol*s)'), n=7.03045, Ea=(40.3569,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.4981, dn = +|- 0.0589796, dEa = +|- 0.168034 kJ/mol"""),
+    shortDesc = u"""k5+k6""",
+    longDesc =
+u"""
+H6 is blocked, H5 and H6 have the same 2D connectivity
+k6 = 0  =>  k5 + k6 = k5
+""",
+)
+
+entry(
+    index = 21,
+    label = "impiriamine + OHCH2OO <=> impiriamine_rad_11 + OHCH2OOH",
+    degeneracy = 2.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(1.1882e-10,'cm^3/(mol*s)'), n=6.39356, Ea=(55.874,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k11, Fitted to 100 data points; dA = *|/ 1.14786, dn = +|- 0.020122, dEa = +|- 0.057328 kJ/mol"""),
+            Arrhenius(A=(2.92217e-08,'cm^3/(mol*s)'), n=5.58651, Ea=(56.1606,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""Fitted to 100 data points; dA = *|/ 1.08935, dn = +|- 0.0124883, dEa = +|- 0.0355794 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k11+k12""",
+)
+
+entry(
+    index = 22,
+    label = "impiriamine + OHCH2OO <=> impiriamine_rad_20 + OHCH2OOH",
+    degeneracy = 2.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(1.60144e-12,'cm^3/(mol*s)'), n=7.44743, Ea=(61.7556,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k20, Fitted to 100 data points; dA = *|/ 1.76345, dn = +|- 0.0827744, dEa = +|- 0.235826 kJ/mol"""),
+            Arrhenius(A=(7.00398e-09,'cm^3/(mol*s)'), n=6.21963, Ea=(36.9099,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k21, Fitted to 100 data points; dA = *|/ 1.21987, dn = +|- 0.0290001, dEa = +|- 0.082622 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k20+k21""",
+)
+
+entry(
+    index = 23,
+    label = "impiriamine + OHCH2OO <=> impiriamine_rad_28 + OHCH2OOH",
+    degeneracy = 4.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius(A=(1.69879e-49,'cm^3/(mol*s)'), n=19.1594, Ea=(17.7046,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k28, Fitted to 100 data points; dA = *|/ 12.2045, dn = +|- 0.365056, dEa = +|- 1.04005 kJ/mol"""),
+            Arrhenius(A=(2.45476e-50,'cm^3/(mol*s)'), n=19.5114, Ea=(-0.427648,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k29, Fitted to 100 data points; dA = *|/ 6.32046, dn = +|- 0.269041, dEa = +|- 0.766504 kJ/mol"""),
+            Arrhenius(A=(3.37035e-33,'cm^3/(mol*s)'), n=13.5841, Ea=(7.70763,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k35, Fitted to 100 data points; dA = *|/ 3.55447, dn = +|- 0.185053, dEa = +|- 0.52722 kJ/mol"""),
+            Arrhenius(A=(5.01589e-29,'cm^3/(mol*s)'), n=12.198, Ea=(3.83956,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k36, Fitted to 100 data points; dA = *|/ 2.54252, dn = +|- 0.136163, dEa = +|- 0.387932 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k28+k29+k35+k36""",
+)
+
+entry(
+    index = 24,
+    label = "impiriamine + OHCH2OO <=> impiriamine_rad_39 + OHCH2OOH",
+    degeneracy = 6.0,
+    duplicate = True,
+    kinetics = MultiArrhenius(
+#        arrhenius = [
+#            Arrhenius(A=(1.157e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+#            Arrhenius(A=(2.63341e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+#            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+#            Arrhenius(A=(9.88708e-07,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+#            Arrhenius(A=(7.2759e-10,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+#            Arrhenius(A=(1.27688e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+#        ],
+        arrhenius = [
+            Arrhenius(A=(3.471e-08,'cm^3/(mol*s)'), n=5.92189, Ea=(46.0794,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k39, Fitted to 100 data points; dA = *|/ 1.28881, dn = +|- 0.0370219, dEa = +|- 0.105476 kJ/mol"""),
+            Arrhenius(A=(7.900e-09,'cm^3/(mol*s)'), n=6.19955, Ea=(40.399,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k40, Fitted to 100 data points; dA = *|/ 1.24941, dn = +|- 0.0324912, dEa = +|- 0.092568 kJ/mol"""),
+            Arrhenius(A=(1.04937e-08,'cm^3/(mol*s)'), n=5.94011, Ea=(48.883,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k41, Fitted to 100 data points; dA = *|/ 1.32039, dn = +|- 0.0405538, dEa = +|- 0.115539 kJ/mol"""),
+            Arrhenius(A=(2.9661e-06,'cm^3/(mol*s)'), n=5.38234, Ea=(50.9583,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k42, Fitted to 100 data points; dA = *|/ 1.22207, dn = +|- 0.0292627, dEa = +|- 0.0833702 kJ/mol"""),
+            Arrhenius(A=(2.1828e-9,'cm^3/(mol*s)'), n=6.39346, Ea=(42.8248,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k43, Fitted to 100 data points; dA = *|/ 1.27088, dn = +|- 0.0349779, dEa = +|- 0.0996527 kJ/mol"""),
+            Arrhenius(A=(3.831e-07,'cm^3/(mol*s)'), n=5.36061, Ea=(39.9466,'kJ/mol'), T0=(1,'K'), Tmin=(250,'K'), Tmax=(500,'K'), comment="""k44, Fitted to 100 data points; dA = *|/ 1.09723, dn = +|- 0.0135395, dEa = +|- 0.0385744 kJ/mol"""),
+        ],
+    ),
+    shortDesc = u"""k39+k40+k41+k42+k43+k44""",
+    longDesc =
+u"""
+Here rotors we not included in the calculation (Eventually we'd like to use rotors).
+We're definitely missing a factor of x3 of the torsion missing in the TS,
+we might be missing another factor of x3, depends whether the second methyl rotor is active in the TS or not (breaks it).
+""",
+)
