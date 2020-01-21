@@ -34,10 +34,8 @@ entry(
 """
 1 *2 O u0 p2 c0 {2,S} {4,S}
 2 *1 C u0 p0 c0 {1,S} {3,S}
-3 *4 N u0 p1 c0 {2,S} {5,S} {6,S}
+3 *4 N3s u0 p1 c0 {2,S}
 4 *3 H u0 p0 c0 {1,S}
-5    R ux px cx {3,S}
-6    R ux px cx {3,S}
 """,
     kinetics=None,
 )
