@@ -67,6 +67,13 @@ default = {
     'Cyclopentadiene_scission',
     'Fake_amine_hydrolysis',  # custom
     'Fake_HOCK_rearrangement',  # custom
+    'acetal_hydrolysis',  # custom
+    'aminal_hydrolysis',  # custom
+    'hemiacetal_hydrolysis',  # custom
+    'hydroperoxide_to_alcohol',  # custom
+    'imine_hydrolysis',  # custom
+    'methanoate_hydrolysis',  # custom
+    'thione_ketone',  # custom
 }
 
 # Peroxide chemistry families that are likely relevant in liquid-phase
