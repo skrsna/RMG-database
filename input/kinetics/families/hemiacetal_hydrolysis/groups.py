@@ -42,8 +42,24 @@ entry(
     kinetics=None,
 )
 
+entry(
+    index=1,
+    label="methanediol",
+    group=
+"""
+1  *1 Cs u0 p0 c0 {2,S} {3,S} {4,S}
+2  *3 O  u0 p2 c0 {1,S} {5,S}
+3  *2 O  u0 p2 c0 {1,S} {6,S}
+4     H  u0 p0 c0 {1,S}
+5  *4 H  u0 p0 c0 {2,S}
+6     H  u0 p0 c0 {3,S}
+""",
+    kinetics=None,
+)
+
 tree(
 """
 L1: hemiacetal
+  L2: methanediol
 """
 )
