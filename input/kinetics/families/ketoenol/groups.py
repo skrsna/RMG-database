@@ -217,6 +217,56 @@ entry(
 )
 
 entry(
+    index = 1500,
+    label = "R_O_H/Val7",
+    group = 
+"""
+1 *4 [H,Val7] u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1501,
+    label = "R_O_Val7",
+    group = 
+"""
+1 *4 Val7 u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1502,
+    label = "R_O_F",
+    group = 
+"""
+1 *4 F u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1503,
+    label = "R_O_Cl",
+    group = 
+"""
+1 *4 Cl u0
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1504,
+    label = "R_O_Br",
+    group = 
+"""
+1 *4 Br u0
+""",
+    kinetics = None,
+)
+
+entry(
     index = 16,
     label = "R_O_R",
     group = 
@@ -253,7 +303,12 @@ L1: R2_doublebond
             L4: R2_doublebond_CH2CH3
     L2: R2_doublebond_H
 L1: R_O
-    L2: R_O_H
+    L2: R_O_H/Val7
+        L3: R_O_H
+        L3: R_O_Val7
+            L4: R_O_F
+            L4: R_O_Cl
+            L4: R_O_Br
     L2: R_O_R
         L3: R_O_C
 """

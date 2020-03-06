@@ -44,6 +44,54 @@ entry(
 )
 
 entry(
+    index = 21,
+    label = "H/Val7OO_rad",
+    group =
+"""
+1   [H,Val7] u0 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u1 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
+    label = "FOO_rad",
+    group =
+"""
+1    F u0 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u1 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 23,
+    label = "ClOO_rad",
+    group =
+"""
+1    Cl u0 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u1 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 24,
+    label = "BrOO_rad",
+    group =
+"""
+1    Br u0 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u1 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 3,
     label = "C_methyl_OO_rad",
     group =
@@ -149,7 +197,11 @@ entry(
 tree(
 """
 L1: ROO_rad
-    L2: HOO_rad
+    L2: H/Val7OO_rad
+        L3: HOO_rad
+        L3: FOO_rad
+        L3: ClOO_rad
+        L3: BrOO_rad
     L2: C_methyl_OO_rad
     L2: C_pri_OO_rad
         L3: CCOO_rad

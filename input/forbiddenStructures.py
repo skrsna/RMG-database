@@ -55,7 +55,8 @@ entry(
     label = "C_quintet",
     molecule =
 """
-1 C u4 p0
+multiplicity 5
+1 C u4 p0 c0
 """,
     shortDesc = u"""""",
     longDesc = 
